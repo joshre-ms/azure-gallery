@@ -1,0 +1,48 @@
+{
+    "publisher": "MS Open Tech",
+    "publisherDisplayName": "Microsoft Open Technologies, Inc.",
+    "label": "Oracle Database 12c Standard Edition",
+    "displayName": "Oracle Database 12c Standard Edition",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Oracle-Database-12.1.0.1.0-0814-SE-Win-GA",
+    "OS": "Windows",
+    "description": "<a href='http://www.oracle.com/database' target='_blank'>Oracle Database</a> 12c Standard Edition (12.1.0.1.0) is an affordable, full-featured data management solution that is ideal for midsize companies.  Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Small</a>.",
+    "iconPath": "Icons/OracleDB",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "database",
+        "azureCertified"
+    ],
+    "recommendedSizes": [
+        "Small",
+        "Medium",
+        "Large"
+    ],
+    "links": [
+        {
+            "label": "Overview",
+            "uri": "http://www.oracle.com/database"
+        },
+        {
+            "label": "Learn more",
+            "uri": "http://www.oracle.com/technetwork/database/enterprise-edition/learnmore/index.html"
+        },
+        {
+            "label": "Documentation",
+            "uri": "http://msdn.microsoft.com/library/azure/dn439775.aspx"
+        },
+        {
+            "label": "Support forum",
+            "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=Oracle"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#oracle-software"
+        }
+    ],
+    "eula": "http://go.microsoft.com/fwlink/?LinkId=321317",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkId=321696",
+    "screenshot": null
+}

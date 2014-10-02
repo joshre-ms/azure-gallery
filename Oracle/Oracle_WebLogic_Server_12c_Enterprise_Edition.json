@@ -1,0 +1,47 @@
+{
+    "publisher": "Oracle",
+    "label": "Oracle WebLogic Server 12c Enterprise",
+    "displayName": "Oracle WebLogic Server 12.1.2",
+    "MediaName": "c290a6b031d841e09f2da759bbabe71f__WebLogic-Server-12c.v1-Lnx",
+    "OS": "Linux",
+    "description": "Oracle WebLogic Server 12c Enterprise Edition is a leading Java EE application server, delivering next-generation applications on a mission-critical cloud platform, with native cloud management, and integrated tools.",
+    "iconPath": "Icons/WebLogic",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra",
+        "azureCertified"
+    ],
+    "recommendedSizes": [
+        "Small",
+        "Medium",
+        "Large"
+    ],
+    "links": [
+        {
+            "label": "Overview",
+            "uri": "http://www.oracle.com/weblogicserver"
+        },
+        {
+            "label": "Learn more",
+            "uri": "http://www.oracle.com/technetwork/middleware/weblogic/learnmore/index.html"
+        },
+        {
+            "label": "Documentation",
+            "uri": "http://docs.oracle.com/middleware/1212/wls/index.html"
+        },
+        {
+            "label": "Community",
+            "uri": "http://www.oracle.com/technetwork/middleware/weblogic/community/index.html"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#oracle-software"
+        }
+    ],
+    "eula": "http://www.oracle.com/technetwork/licenses/oracle-license-2016066.html",
+    "privacy": "http://www.oracle.com/us/legal/privacy/privacy-policy-078584.html",
+    "screenshot": null
+}

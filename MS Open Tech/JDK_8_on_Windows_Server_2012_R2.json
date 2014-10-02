@@ -1,0 +1,52 @@
+{
+    "publisher": "MS Open Tech",
+    "publisherDisplayName": "Microsoft Open Technologies, Inc.",
+    "label": "JDK 8 on Windows Server 2012 R2",
+    "displayName": "JDK 8",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__JDK-1.8.0_11-0814-Win-GA",
+    "OS": "Windows",
+    "description": "<a href='http://www.oracle.com/java' target='_blank'>Java Platform</a>, Standard Edition 8 (update 11) enables development of secure, portable, high-performance applications and includes a Java Development Kit (JDK), Java Runtime Environment (JRE), and tools for developing, debugging, and monitoring Java applications. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Small</a>.",
+    "iconPath": "Icons/OracleJava",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "appInfra",
+        "azureCertified"
+    ],
+    "recommendedSizes": [
+        "Small",
+        "Medium",
+        "Large"
+    ],
+    "links": [
+        {
+            "label": "Overview",
+            "uri": "http://www.oracle.com/us/technologies/java/standard-edition/overview/index.html"
+        },
+        {
+            "label": "Learn more",
+            "uri": "http://www.windowsazure.com/en-us/documentation/articles/virtual-machines-java-run-tomcat-application-server"
+        },
+        {
+            "label": "Documentation",
+            "uri": "http://www.oracle.com/technetwork/java/javase/documentation/index.html"
+        },
+        {
+            "label": "Datasheet",
+            "uri": "http://www.oracle.com/us/technologies/java/10045230-br-java-c17307-187867.pdf"
+        },
+        {
+            "label": "Community",
+            "uri": "http://www.oracle.com/technetwork/java/javase/community/index.html"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#oracle-software"
+        }
+    ],
+    "eula": "http://go.microsoft.com/fwlink/?LinkId=321310",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkId=321701",
+    "screenshot": null
+}

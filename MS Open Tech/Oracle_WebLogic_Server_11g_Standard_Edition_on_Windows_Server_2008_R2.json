@@ -1,0 +1,48 @@
+{
+    "publisher": "MS Open Tech",
+    "publisherDisplayName": "Microsoft Open Technologies, Inc.",
+    "label": "Oracle WebLogic Server 11g Standard",
+    "displayName": "Oracle WebLogic Server 11g R2 Standard Edition",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Weblogic-10.3.6-SE-JDK-1.7.0_67-0814-Win-GA",
+    "OS": "Windows",
+    "description": "<a href='http://www.oracle.com/weblogicserver' target='_blank'>Oracle WebLogic Server</a> 11g Standard Edition (10.3.6) is a leading Java application server for enterprises of all sizes, providing developers with the tools and technologies to write enterprise applications and services quickly and operations teams with the administration capabilities to keep them up and running. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Small</a>.",
+    "iconPath": "Icons/OracleWL",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "appInfra",
+        "azureCertified"
+    ],
+    "recommendedSizes": [
+        "Small",
+        "Medium",
+        "Large"
+    ],
+    "links": [
+        {
+            "label": "Overview",
+            "uri": "http://www.oracle.com/weblogicserver"
+        },
+        {
+            "label": "Learn more",
+            "uri": "http://www.oracle.com/technetwork/middleware/weblogic/learnmore/index.html"
+        },
+        {
+            "label": "Documentation",
+            "uri": "http://msdn.microsoft.com/library/azure/dn466428.aspx"
+        },
+        {
+            "label": "Support forum",
+            "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=Oracle"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#oracle-software"
+        }
+    ],
+    "eula": "http://go.microsoft.com/fwlink/?LinkId=321685",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkId=321690",
+    "screenshot": null
+}

@@ -1,0 +1,47 @@
+{
+    "publisher": "Oracle",
+    "label": "Oracle Database 12c Standard",
+    "displayName": "Oracle Database 12.1.0.1 Standard Edition",
+    "MediaName": "c290a6b031d841e09f2da759bbabe71f__Oracle-Database-121010.v3-SE-Lnx",
+    "OS": "Linux",
+    "description": "Oracle Database 12c Standard Edition is an affordable, full-featured data management solution that is ideal for midsize companies.",
+    "iconPath": "Icons/Database",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "database",
+        "azureCertified"
+    ],
+    "recommendedSizes": [
+        "Small",
+        "Medium",
+        "Large"
+    ],
+    "links": [
+        {
+            "label": "Overview",
+            "uri": "http://www.oracle.com/database"
+        },
+        {
+            "label": "Learn more",
+            "uri": "http://www.oracle.com/technetwork/database/enterprise-edition/learnmore/index.html"
+        },
+        {
+            "label": "Documentation",
+            "uri": "http://www.oracle.com/technetwork/database/enterprise-edition/documentation/index.html"
+        },
+        {
+            "label": "Community",
+            "uri": "http://www.oracle.com/technetwork/database/enterprise-edition/community/index.html"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#oracle-software"
+        }
+    ],
+    "eula": "http://www.oracle.com/technetwork/licenses/oracle-license-2016066.html",
+    "privacy": "http://www.oracle.com/us/legal/privacy/privacy-policy-078584.html",
+    "screenshot": null
+}

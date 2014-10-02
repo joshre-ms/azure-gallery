@@ -1,0 +1,33 @@
+{
+    "publisher": "MS Open Tech",
+    "publisherDisplayName": "Microsoft Open Technologies, Inc.",
+    "label": "Oracle Database 11g R2 Enterprise",
+    "displayName": "Oracle Database 11g R2 Enterprise Edition",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Oracle-Database-11.2.0.4.0-EE-0814-Win-GA",
+    "OS": "Windows",
+    "description": "<a href='http://www.oracle.com/database' target='_blank'>Oracle Database</a> 11g R2 Enterprise Edition (11.2.0.4.0) provides comprehensive features to easily manage the most demanding transaction processing, business intelligence, and content management applications. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Small</a>.",
+    "iconPath": "Icons/OracleDB",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "database",
+        "azureCertified"
+    ],
+    "recommendedSizes": [
+        "Small",
+        "Medium",
+        "Large"
+    ],
+    "links": [
+        { "label": "Overview", "uri": "http://www.oracle.com/database" },
+        { "label": "Learn more", "uri": "http://www.oracle.com/technetwork/database/enterprise-edition/learnmore/index.html" },
+        { "label": "Documentation", "uri": "http://msdn.microsoft.com/library/azure/dn439775.aspx" },
+        { "label": "Support forum", "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=Oracle" },
+        { "label": "Pricing details", "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#oracle-software" }
+    ],
+    "eula": "http://go.microsoft.com/fwlink/?LinkId=321683",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkId=321692",
+    "screenshot": "Screenshots/vmdefault.png"
+}

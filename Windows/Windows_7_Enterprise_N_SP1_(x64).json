@@ -1,0 +1,40 @@
+{
+    "publisher": "Microsoft",
+    "label": "Windows 7 Enterprise N SP1 (x64)",
+    "displayName": "Windows 7 Enterprise N SP1 (x64)",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Windows-7-Enterprise-N-x64-en.us-201407.01",
+    "OS": "Windows",
+    "description": "This image contains Windows 7 Enterprise N x64 and is exclusively available to MSDN subscribers. It allows you to easily and quickly set up an environment in Azure to develop and test applications targeting Windows 7.",
+    "iconPath": "Icons/Client",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "47970b32416a",
+        "windows",
+        "appInfra",
+        "clientOS"
+    ],
+    "recommendedSizes": [
+        "Small",
+        "Medium",
+        "Basic_A2"
+    ],
+    "links": [
+        {
+            "label": "Learn more",
+            "uri": "http://windows.microsoft.com/en-gb/windows7/products/What-is-Windows-7-N-edition"
+        },
+        {
+            "label": "Documentation",
+            "uri": "http://azure.microsoft.com/en-us/updates/windows-7-and-windows-8-1-client-vm-images-msdn-subscribers/"
+        },
+        {
+            "label": "MSDN Azure benefit details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
+        }
+    ],
+    "eula": null,
+    "privacy": null,
+    "screenshot": "Screenshots/Windows7.png"
+}

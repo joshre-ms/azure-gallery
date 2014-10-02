@@ -1,0 +1,46 @@
+{
+    "publisher": "Puppet Labs",
+    "label": "Puppet Enterprise 3.2",
+    "displayName": "Puppet Enterprise 3.2.3",
+    "MediaName": "de89c2ed05c748f5aded3ddc75fdcce4__PuppetEnterpriseMaster-3_2_3-amd64-server-20140514-en-us-30GB",
+    "OS": "Linux",
+    "description": "This image includes a pre-configured Puppet Master based on the Ubuntu Linux 12.04 LTS distribution for easy deployment of <a href='http://puppetlabs.com/puppet/puppet-enterprise' target='_blank'>Puppet Enterprise</a>. For additional details regarding setup of a Puppet Enterprise environment within Azure, please refer to the <a href='http://info.puppetlabs.com/pe-azure-gsg.html' target='_blank'>Getting Started Guide for Deploying a Puppet Master with Windows Azure</a>.",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "azureCertified"
+    ],
+    "recommendedSizes": [
+        "Small",
+        "Medium",
+        "Large"
+    ],
+    "links": [
+        {
+            "label": "Download Puppet Enterprise and manage up to 10 nodes free",
+            "uri": "http://info.puppetlabs.com/download-pe.html"
+        },
+        {
+            "label": "Getting Started Guide: Deploying Puppet Enterprise in Microsoft Azure",
+            "uri": "http://info.puppetlabs.com/pe-azure-gsg.html"
+        },
+        {
+            "label": "Docs: Puppet on Windows",
+            "uri": "http://docs.puppetlabs.com/windows/"
+        },
+        {
+            "label": "Video: Managing Windows with Puppet",
+            "uri": "http://puppetlabs.com/presentations/managing-windows-puppet"
+        },
+        {
+            "label": "Puppet Enterprise and Windows Azure solutions page",
+            "uri": "http://puppetlabs.com/solutions/microsoft"
+        }
+    ],
+    "eula": "http://puppetlabs.com/solutions/microsoft#Eula",
+    "privacy": "http://puppetlabs.com/privacy",
+    "screenshot": "Screenshots/PEAzureScreenshot.png"
+}

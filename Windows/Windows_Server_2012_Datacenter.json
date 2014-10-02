@@ -1,0 +1,38 @@
+{
+    "publisher": "Microsoft",
+    "label": "Windows Server 2012 Datacenter",
+    "displayName": "Windows Server 2012 Datacenter",
+    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-201409.01-en.us-127GB.vhd",
+    "OS": "Windows",
+    "description": "Windows Server 2012 incorporates Microsoft's experience building and operating public clouds, resulting in a dynamic, highly available server platform. It offers a scalable, dynamic and multi-tenant-aware infrastructure that helps securely connect across premises.",
+    "iconPath": "Icons/Server",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "appInfra"
+    ],
+    "recommendedSizes": [
+        "Basic_A1",
+        "Medium",
+        "A6"
+    ],
+    "links": [
+        {
+            "label": "Learn more",
+            "uri": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/"
+        },
+        {
+            "label": "Documentation",
+            "uri": "http://technet.microsoft.com/library/hh801901.aspx"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#windows"
+        }
+    ],
+    "eula": null,
+    "privacy": null,
+    "screenshot": null
+}

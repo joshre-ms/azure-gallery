@@ -1,0 +1,49 @@
+{
+    "publisher": "MS Open Tech",
+    "publisherDisplayName": "Microsoft Open Technologies, Inc.",
+    "label": "Oracle Database 12c and WebLogic Server 12c Enterprise Edition",
+    "displayName": "Oracle Database 12c and WebLogic Server 12c Enterprise Edition",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Oracle-Database-12.1.0.1.0-EE-WebLogic-12.1.2.0-EE-JDK-1.7.0_67-0814-Win-GA",
+    "OS": "Windows",
+    "description": "<a href='http://www.oracle.com/database' target='_blank'>Oracle Database</a> 12c Enterprise Edition (12.1.0.1.0) is a next-generation database designed for the cloud, providing a new multitenant architecture on top of a fast, scalable, reliable, and secure database platform. <a href='http://www.oracle.com/weblogicserver' target='_blank'>Oracle WebLogic Server</a> 12c Enterprise Edition (12.1.2.0) is a leading Java EE application server. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Medium</a>.",
+    "iconPath": "Icons/OracleWLDB",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "database",
+        "appInfra",
+        "azureCertified"
+    ],
+    "recommendedSizes": [
+        "Small",
+        "Medium",
+        "Large"
+    ],
+    "links": [
+        {
+            "label": "Overview",
+            "uri": "http://www.oracle.com/technetwork/middleware/weblogic-oda/overview/index.html"
+        },
+        {
+            "label": "Learn more",
+            "uri": "http://www.oracle.com/technetwork/middleware/weblogic-oda/learnmore/index.html"
+        },
+        {
+            "label": "Documentation",
+            "uri": "http://msdn.microsoft.com/library/azure/dn466427.aspx"
+        },
+        {
+            "label": "Support forum",
+            "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=Oracle"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#oracle-software"
+        }
+    ],
+    "eula": "http://go.microsoft.com/fwlink/?LinkId=321315",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkId=321698",
+    "screenshot": null
+}

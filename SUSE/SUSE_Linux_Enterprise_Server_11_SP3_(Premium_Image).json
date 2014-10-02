@@ -1,0 +1,39 @@
+{
+    "publisher": "SUSE",
+    "label": "SUSE Linux Enterprise Server 11 SP3 (Premium Image)",
+    "displayName": "SUSE Linux Enterprise Server 11 SP3 (Premium Image)",
+    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__SUSE-Linux-Enterprise-Server-11-SP3-Prio-v203",
+    "OS": "Linux",
+    "description": "Confidently run your production workloads on SUSE Linux Enterprise Server on Microsoft Azure, knowing that your service levels are guaranteed, and that help from SUSE and Microsoft engineers, if you need it, is just a phone call away. SUSE Linux Enterprise Server is the only supported enterprise Linux distribution available today on Microsoft Azure. And the only one supported with tools like SUSE Studio for quick and easy image creation, and SUSE Manager for monitoring and managing your Linux virtual machines using Microsoft Systems Center.",
+    "iconPath": "Icons/SUSE",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra",
+        "azureCertified"
+    ],
+    "recommendedSizes": [
+        "Small",
+        "A5",
+        "A8"
+    ],
+    "links": [
+        {
+            "label": "Learn more",
+            "uri": "https://www.suse.com/products/expandedsupport/"
+        },
+        {
+            "label": "Documentation",
+            "uri": "https://www.suse.com/documentation/sles11/index.html"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+        }
+    ],
+    "eula": "http://www.novell.com/licensing/eula/",
+    "privacy": null,
+    "screenshot": "Screenshots/suse.png"
+}
