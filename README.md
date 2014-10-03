@@ -85,3 +85,6 @@ Changes to the respective gallery packages will be processed once we approve the
 [branch]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository
 [pr]: http://help.github.com/pull-requests/
 
+## Contact
+
+For any questions, e-mail azuregalleryadmins@service.microsoft.com.
