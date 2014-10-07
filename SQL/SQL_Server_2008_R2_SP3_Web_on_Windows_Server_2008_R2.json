@@ -1,10 +1,10 @@
 {
     "publisher": "Microsoft",
-    "label": "SQL Server 2008 R2 SP2 Enterprise",
-    "displayName": "SQL Server 2008 R2 SP2 Enterprise",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2008R2SP2-GDR-10.50.4021.0-Enterprise-ENU-Win2K8R2-CY14SU02",
+    "label": "SQL Server 2008 R2 SP3 Web",
+    "displayName": "SQL Server 2008 R2 SP3 Web",
+    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2008R2-SP3-10.50.6000.34-Web-ENU-Win2008R2-cy14su09",
     "OS": "Windows",
-    "description": "We recommend that you use a virtual machine size of A3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.",
+    "description": "We recommend that you use a virtual machine size of A2 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -14,9 +14,9 @@
         "database"
     ],
     "recommendedSizes": [
+        "Medium",
         "Large",
-        "ExtraLarge",
-        "A9"
+        "ExtraLarge"
     ],
     "links": [
         {
@@ -36,7 +36,7 @@
             "uri": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/#sql-server"
         }
     ],
-    "eula": "http://go.microsoft.com/fwlink/?LinkID=285681",
+    "eula": "http://go.microsoft.com/fwlink/?LinkID=285686",
     "privacy": "http://msdn.microsoft.com/library/ms143384(v=sql.105).aspx",
     "screenshot": null
 }
