@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "Visual Studio Professional 14 CTP",
     "displayName": "Visual Studio Professional 14 CTP on Windows Server 2012 R2",
-    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Visual-Studio-14-Professional-CTP-14.0.22013.1-AzureSDK-2.4-WS2012R2",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Visual-Studio-14-Professional-CTP-14.0.22129.1-AzureSDK-2.4-WS2012R2",
     "OS": "Windows",
     "description": "The Visual Studio Professional \"14\" CTP image enables you to quickly create a development environment to explore the new Visual Studio \"14\" capabilities. The image also includes Microsoft Azure SDK 2.4 for Azure development scenarios. By using the image you agree to Microsoft Supplemental Software License Terms for Microsoft Visual Studio \"14\" Product Family Preview which can be found on the image desktop.",
     "iconPath": "Icons",
