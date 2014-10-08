@@ -11,8 +11,7 @@
         "microsoftServer",
         "azure",
         "windows",
-        "appInfra",
-        "virtualMachineRecommended"
+        "appInfra"
     ],
     "recommendedSizes": [
         "Basic_A1",
