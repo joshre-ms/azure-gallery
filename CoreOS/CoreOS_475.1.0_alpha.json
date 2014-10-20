@@ -4,7 +4,7 @@
     "displayName": "CoreOS Alpha (475.1.0)",
     "MediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Alpha-475.1.0",
     "os": "Linux",
-    "description": "CoreOS is a new Linux distribution that has been rearchitected to provide features needed to run modern infrastructure stacks. The strategies and architectures that influence CoreOS allow companies like Google, Facebook and Twitter to run their services at scale with high resilience.",
+    "description": "CoreOS is a modern and minimal Linux distribution, providing an easy way to run containers, manage clusters and seamlessly update your servers - all components that enable warehouse-scale compute.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
