@@ -1,0 +1,27 @@
+{
+    "publisher": "CoreOS",
+    "label": "CoreOS Alpha",
+    "displayName": "CoreOS Alpha (475.1.0)",
+    "MediaName": "f998a7f0-cdfc-46ac-95b5-69e55a84791b__Image__CoreOS-Alpha-475.1.0",
+    "os": "Linux",
+    "description": "CoreOS is a new Linux distribution that has been rearchitected to provide features needed to run modern infrastructure stacks. The strategies and architectures that influence CoreOS allow companies like Google, Facebook and Twitter to run their services at scale with high resilience.",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra"
+    ],
+    "recommendedSizes": [
+        "Small",
+        "Medium",
+        "Large"
+    ],
+    "links": [
+        {
+            "label": "Documentation",
+            "uri": "https://coreos.com/docs/running-coreos/cloud-providers/azure/"
+        }
+    ]
+}
