@@ -1,5 +1,5 @@
 {
-    "publisher": "Microsoft Windows Server HPC Pack team",
+    "publisher": "Microsoft",
     "label": "HPC Pack 2012 R2 on Windows Server 2012 R2",
     "displayName": "HPC Pack 2012 R2 on Windows Server 2012 R2",
     "MediaName": "96316178b0644ae08bc4e037635ce104__HPC-Pack-2012R2-Update1-4.3.4596.1-WS2012R2-ENU",
@@ -12,13 +12,12 @@
         "microsoftServer",
         "azure",
         "windows",
-        "appInfra",
-        "virtualMachineRecommended"
+        "appInfra"
     ],
     "recommendedSizes": [
         "ExtraLarge",
         "A7",
-        "D14"
+        "Standard_D14"
     ],
     "links": [
         {
