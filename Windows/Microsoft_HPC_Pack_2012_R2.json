@@ -1,0 +1,47 @@
+{
+    "publisher": "Microsoft",
+    "label": "HPC Pack 2012 R2 on Windows Server 2012 R2",
+    "displayName": "HPC Pack 2012 R2 on Windows Server 2012 R2",
+    "MediaName": "96316178b0644ae08bc4e037635ce104__HPC-Pack-2012R2-Update1-4.3.4596.1-WS2012R2-ENU",
+    "OS": "Windows",
+    "summary": "Enterprise-class High Performance Computing solution that is simple to deploy, cost-effective, application-focused, and user-centric.",
+    "description": "This image contains the Windows Server 2012 R2 Datacenter operating system with HPC Pack 2012 R2 Update 1 Preview installed. Microsoft SQL Server 2014 Express is also pre-installed. Use this image to create the head node of a Windows HPC cluster in Azure. We recommend using a VM size of at least A4. Before creating a virtual machine, you must configure a valid virtual network. To use the head node, you will need to join the virtual machine to an Active Directory domain and run the post configuration script described in the Preview release notes. You can also use easy deployment scripts to create an HPC IaaS cluster with this image. For more information about how to set up an HPC IaaS cluster, see <a href='http://go.microsoft.com/fwlink/p/?LinkId=403953' target='_blank'>here</a>.",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "appInfra"
+    ],
+    "recommendedSizes": [
+        "ExtraLarge",
+        "A7",
+        "Standard_D14"
+    ],
+    "links": [
+        {
+            "label": "HPC Connect",
+            "uri": "http://go.microsoft.com/fwlink/?LinkID=509800"
+        },
+        {
+            "label": "Microsoft HPC Pack",
+            "uri": "http://technet.microsoft.com/en-us/library/cc514029.aspx"
+        },
+        {
+            "label": "HPC Pack SDK",
+            "uri": "http://msdn.microsoft.com/en-us/library/cc853440(v=vs.85).aspx"
+        },
+        {
+            "label": "HPC Forum",
+            "uri": "http://social.microsoft.com/Forums/en-US/home?category=windowshpc"
+        },
+        {
+            "label": "HPC Team Blog",
+            "uri": "http://blogs.technet.com/b/windowshpc"
+        }
+    ],
+    "eula": "http://go.microsoft.com/fwlink/?LinkID=507756",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkID=507755",
+    "screenshot": "Screenshots/HPCPackCluster.png"
+}
