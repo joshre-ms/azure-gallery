@@ -25,8 +25,8 @@
             "uri": "http://msdn.microsoft.com/library/azure/jj823132.aspx"
         },
         {
-            "label": "Feature comparison between SQL Server 2014 editions",
-            "uri": "http://msdn.microsoft.com/en-us/library/cc645993.aspx"
+            "label": "Feature comparison between SQL Server 2012 editions",
+            "uri": "http://msdn.microsoft.com/en-us/library/cc645993(v=sql.110).aspx"
         },
         {
             "label": "Support forum",
