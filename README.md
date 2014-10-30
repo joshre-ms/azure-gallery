@@ -36,7 +36,7 @@ Required. A JSON string that contains the description of a gallery package. You 
 Required. A JSON string specifying the relative path to the icons for a gallery package.
 
 * `categories`
-Required. A JSON array that references categories in the Azure Gallery. Do not alter these values without prior consent.
+Required. A JSON array that references categories in the Azure Gallery. Do not alter these values without prior consent. Note that if the image should be made available only to users with an MSDN subscription, you must specify `47970b32416a` as one of the categories.
 
 * `recommendedSizes`
 Required. A JSON array containing exactly three recommended virtual machine sizes. The first size will be used as the default  when creating a virtual machine using the portal. For a complete list of possible values for this property, see [List Role Sizes](http://msdn.microsoft.com/en-us/library/azure/dn469422.aspx).
