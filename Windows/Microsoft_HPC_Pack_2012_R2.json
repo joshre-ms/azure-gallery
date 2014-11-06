@@ -2,10 +2,10 @@
     "publisher": "Microsoft",
     "label": "HPC Pack 2012 R2 on Windows Server 2012 R2",
     "displayName": "HPC Pack 2012 R2 on Windows Server 2012 R2",
-    "MediaName": "96316178b0644ae08bc4e037635ce104__HPC-Pack-2012R2-Update1-4.3.4596.1-WS2012R2-ENU",
+    "MediaName": "96316178b0644ae08bc4e037635ce104__HPC-Pack-2012R2-Update1-4.3.4650.0-WS2012R2-ENU",
     "OS": "Windows",
     "summary": "Enterprise-class High Performance Computing solution that is simple to deploy, cost-effective, application-focused, and user-centric.",
-    "description": "This image contains the Windows Server 2012 R2 Datacenter operating system with HPC Pack 2012 R2 Update 1 Preview installed. Microsoft SQL Server 2014 Express is also pre-installed. Use this image to create the head node of a Windows HPC cluster in Azure. We recommend using a VM size of at least A4. Before creating a virtual machine, you must configure a valid virtual network. To use the head node, you will need to join the virtual machine to an Active Directory domain and run the post configuration script described in the Preview release notes. You can also use easy deployment scripts to create an HPC IaaS cluster with this image. For more information about how to set up an HPC IaaS cluster, see <a href='http://go.microsoft.com/fwlink/p/?LinkId=403953' target='_blank'>here</a>.",
+    "description": "This image contains the Windows Server 2012 R2 Datacenter operating system with HPC Pack 2012 R2 Update 1 installed. Microsoft SQL Server 2014 Express is also pre-installed. Use this image to create the head node of a Windows high performance computing (HPC) cluster in Azure. We recommend using a VM size of at least A4. If you plan to add cluster compute nodes to the head node, the VM must be created in an Azure virtual network. Configure the network before creating the VM. To use the head node, you will need to join the virtual machine to an Active Directory domain and run the post-configuration script described <a href='http://go.microsoft.com/fwlink/p/?LinkId=403953' target='_blank'>here</a>. It is strongly recommended to use the HPC Pack IaaS deployment script to automatically create a multinode or a single node HPC cluster in Azure with this image. For more information <a href='http://go.microsoft.com/fwlink/?LinkId=518150' target='_blank'>see here</a>.",
     "iconPath": "Icons/Server",
     "categories": [
         "virtualMachine",
@@ -21,8 +21,8 @@
     ],
     "links": [
         {
-            "label": "HPC Connect",
-            "uri": "http://go.microsoft.com/fwlink/?LinkID=509800"
+            "label": "HPC Pack IaaS Deployment Script",
+            "uri": "http://go.microsoft.com/fwlink/?LinkID=518300"
         },
         {
             "label": "Microsoft HPC Pack",
