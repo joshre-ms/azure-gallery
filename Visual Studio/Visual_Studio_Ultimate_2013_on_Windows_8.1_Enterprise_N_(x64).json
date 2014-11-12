@@ -2,9 +2,9 @@
     "publisher": "Microsoft",
     "label": "Visual Studio Ultimate 2013 Win 8.1 Ent N (x64)",
     "displayName": "Visual Studio Ultimate 2013 on Windows 8.1 Enterprise N (x64)",
-    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Visual-Studio-2013-Ultimate-Update3-AzureSDK-2.4-Win8.1-N-x64",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Visual-Studio-2013-Ultimate-Update4-AzureSDK-2.5-Win8.1-N-x64",
     "OS": "Windows",
-    "description": "This image contains Windows 8.1 Enterprise N x64 and Visual Studio 2013 Ultimate Update 3 and is exclusively available to MSDN subscribers. It allows you to easily and quickly set up a development environment in Azure to develop and test applications targeting Windows 8.1. For more information on Windows 8.1 N edition see <a href='http://windows.microsoft.com/en-gb/windows-8/n-editions' target='_blank'>here</a>.",
+    "description": "This image contains Windows 8.1 Enterprise N x64 and Visual Studio 2013 Ultimate Update 4 and is exclusively available to MSDN subscribers. It allows you to easily and quickly set up a development environment in Azure to develop and test applications targeting Windows 8.1. For more information on Windows 8.1 N edition see <a href='http://windows.microsoft.com/en-gb/windows-8/n-editions' target='_blank'>here</a>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
