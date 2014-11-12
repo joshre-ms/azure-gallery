@@ -1,10 +1,11 @@
 {
     "publisher": "Microsoft",
-    "label": "SQL Server 2014 Data Warehousing",
-    "displayName": "SQL Server 2014 Data Warehousing",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2014-RTM-12.0.2361.0-DataWarehousing-ENU-Win2012R2-cy14su05",
+    "label": "SQL Server 2014 for Transactional Workloads",
+    "displayName": "SQL Server 2014 Enterprise Optimized for Transactional Workloads",
+    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2014-RTM-12.0.2361.0-OLTP-ENU-Win2012R2-cy14su08",
+    "imagetype": "VMImage"
     "OS": "Windows",
-    "description": "This image is optimized for data warehousing workloads with data sizes up to 1TB using clustered columnstore indexes. After the portal deployment completes, you need to attach disks to the virtual machine. To do this, connect to the VM and follow the on-screen instructions. Before using the VM, review the recommendations <a href='http://msdn.microsoft.com/library/dn387396.aspx' target='_blank'>here</a>. For best performance, we recommend using a VM size of A7. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.",
+    "description": "This Enterprise Edition image is optimized for OLTP workloads and is intended for VM sizes including A4, A7, A8, A9, D4, D13 and D14. Once deployed, the VM comes with Windows Storage Spaces pre-configured.This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -14,9 +15,9 @@
         "database"
     ],
     "recommendedSizes": [
+        "A4",
         "A7",
-        "A8",
-        "A9"
+        "A8"
     ],
     "links": [
         {
