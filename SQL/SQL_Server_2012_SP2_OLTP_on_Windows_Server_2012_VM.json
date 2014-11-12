@@ -1,6 +1,6 @@
 {
     "publisher": "Microsoft",
-    "label": "SQL Server 2012 SP2 Enterprise Optimized for Transactional Workloads",
+    "label": "SQL Server 2012 SP2 for Transactional Workloads",
     "displayName": "SQL Server 2012 SP2 Enterprise Optimized for Transactional Workloads",
     "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2012-SP2-11.0.5537.0-OLTP-ENU-Win2012-cy14su09",
     "imageType": "VMImage"
