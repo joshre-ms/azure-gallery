@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "Windows 10 Technical Preview for Enterprise (x64)",
     "displayName": "Windows 10 Technical Preview for Enterprise (x64)",
-    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Windows-10-Technical-Preivew-Enterprise-x64-en.us-201410.01",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Windows-10-Technical-Preivew-Enterprise-x64-en.us-201411.01",
     "OS": "Windows",
     "description": "The next version of Windows is engineered for the way you live and work, protected against cyber risks and threats, and managed for continuous innovation. Need more information? See <a href='http://technet.microsoft.com/windows/dn798754.aspx?ocid=wc-tn-eval' target='_blank'>what's new in Windows 10 Technical Preview for Enterprise</a>. This VHD contains a preview release and may only be used for development and testing purposes. The VHD won't be serviced or supported for production use.",
     "iconPath": "Icons/Client",
