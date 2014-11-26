@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "Windows Server 2008 R2 SP1",
     "displayName": "Windows Server 2008 R2 SP1",
-    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-201409.01-en.us-127GB.vhd",
+    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-201411.01-en.us-127GB.vhd",
     "OS": "Windows",
     "description": "Windows Server 2008 R2 is a multi-purpose server designed to increase the reliability and flexibility of your server or private cloud infrastructure, helping you to save time and reduce costs.  It provides you with powerful tools to react to business needs with greater control and confidence.",
     "iconPath": "Icons/Server",
