@@ -1,7 +1,7 @@
 {
     "publisher": "Microsoft",
-    "label": "SQL Server 2014 Standard",
-    "displayName": "SQL Server 2014 Standard",
+    "label": "SQL Server 2014 Standard Windows Server 2012 R2",
+    "displayName": "SQL Server 2014 Standard on Windows Server 2012 R2",
     "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2014-RTM-12.0.2361.0-Standard-ENU-Win2012R2-cy14su05",
     "OS": "Windows",
     "summary": "Breakthrough performance and faster insights delivered by a hybrid data platform.",
