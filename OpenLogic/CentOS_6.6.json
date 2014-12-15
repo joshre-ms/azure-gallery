@@ -2,7 +2,7 @@
     "publisher": "OpenLogic",
     "label": "OpenLogic",
     "displayName": "CentOS-based 6.6",
-    "MediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-66-20141126",
+    "MediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-66-20141212",
     "OS": "Linux",
     "description": "This distribution of Linux is based on CentOS version 6.6 and is provided by OpenLogic. It contains an installation of the Basic Server packages.",
     "iconPath": "Icons",
