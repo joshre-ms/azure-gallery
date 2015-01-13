@@ -1,8 +1,8 @@
 {
     "publisher": "CoreOS",
     "label": "CoreOS Stable",
-    "displayName": "CoreOS Stable (494.5.0)",
-    "MediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Stable-494.5.0",
+    "displayName": "CoreOS Stable (522.4.0)",
+    "MediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Stable-522.4.0",
     "os": "Linux",
     "description": "CoreOS is a modern and minimal Linux distribution, providing an easy way to run containers, manage clusters and seamlessly update your servers - all components that enable warehouse-scale compute.",
     "iconPath": "Icons",
