@@ -56,6 +56,9 @@ Optional. A JSON string containing a URL to a privacy statement for a gallery pa
 * `screenshot`
 Optional. A JSON string specifying the relative path to a screenshot for a gallery package.
 
+* `supportedExtensions`
+Optional. A JSON string array specifying the list of extensions supported by this image. Do not alter these values without prior consent. This flag might be used to render specific configuration UI for these extensions while creating virtual machine in portal.
+
 #### Additional notes
 
 * The file name for a package manifest is not used in creating a gallery package. Feel free to name your package manifests in a a way that helps your organize them best.

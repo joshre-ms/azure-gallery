@@ -39,5 +39,8 @@
     ],
     "eula": "http://go.microsoft.com/fwlink/?LinkID=512496",
     "privacy": "http://go.microsoft.com/fwlink/?LinkID=282418",
-    "screenshot": null
+    "screenshot": null,
+    "supportedExtensions": [
+        "SqlIaaSAgent"
+    ]
 }
