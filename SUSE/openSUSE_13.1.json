@@ -2,7 +2,7 @@
     "publisher": "SUSE",
     "label": "openSUSE 13.1",
     "displayName": "openSUSE 13.1",
-    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__openSUSE-13.1-v105",
+    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-13.1-20141216-x86-64",
     "OS": "Linux",
     "description": "openSUSE 13.1 brings updated desktop environments and software, lot of polishing, a brand new KDE theme, complete systemd integration and many other features. Customization of these images can be done at <a href='http://susestudio.com' target='_blank'>SUSE Studio</a>",
     "iconPath": "Icons/openSUSE",
@@ -34,7 +34,7 @@
             "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
         }
     ],
-    "eula": null,
+    "eula": "https://en.opensuse.org/openSUSE:License",
     "privacy": null,
-    "screenshot": null
+    "screenshot": "Screenshots/opensuse.png"
 }
