@@ -6,7 +6,7 @@
     "imageType": "VMImage",
     "dataDisksCount": "15",
     "OS": "Windows",
-    "description": "This Enterprise Edition image is optimized for OLTP workloads and is intended for VM sizes including A4, A7, A8, A9, D4, D13 and D14. Once deployed, the VM comes with Windows Storage Spaces pre-configured.This image has been pre-configured for Windows Azure,  including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.",
+    "description": "This Enterprise Edition image is optimized for OLTP workloads and is intended for VM sizes including A4, A7, A8, A9, D4, D13, D14, G3, G4 and G5. Once deployed, the VM comes with Windows Storage Spaces pre-configured.This image has been pre-configured for Windows Azure,  including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -16,8 +16,8 @@
         "database"
     ],
     "recommendedSizes": [
-        "ExtraLarge",
         "A7",
+        "ExtraLarge",
         "A8"
     ],
     "links": [
