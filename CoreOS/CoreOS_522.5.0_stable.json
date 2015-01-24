@@ -6,6 +6,7 @@
     "os": "Linux",
     "description": "CoreOS is a modern and minimal Linux distribution, providing an easy way to run containers, manage clusters and seamlessly update your servers - all components that enable warehouse-scale compute.",
     "iconPath": "Icons",
+    "eula": "https://coreos.com/legal/open-source/",
     "categories": [
         "virtualMachine",
         "microsoftServer",
