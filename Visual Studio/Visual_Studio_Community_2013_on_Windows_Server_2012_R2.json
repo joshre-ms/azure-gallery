@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "Visual Studio Community 2013",
     "displayName": "Visual Studio Community 2013 on Windows Server 2012 R2",
-    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Visual-Studio-2013-Community-12.0.31101.0-AzureSDK-2.5-WS2012R2",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Visual-Studio-2013-Community-12.0.31101.0-AzureSDK-2.5-WS2012R2-201502.23",
     "OS": "Windows",
     "description": "The Visual Studio Community 2013 image enables you to unleash the full power of Visual Studio to develop cross-platform solutions. Create apps in one unified IDE, and incorporate new languages, features, and development tools into them with Visual Studio Extensions (available in the Visual Studio Gallery).",
     "iconPath": "Icons",
