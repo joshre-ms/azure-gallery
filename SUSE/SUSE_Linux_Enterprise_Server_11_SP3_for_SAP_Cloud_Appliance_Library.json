@@ -1,6 +1,6 @@
 {
     "publisher": "SUSE",
-    "label": "SUSE Linux Enterprise Server 11 SP3 for SAP Cloud Appliance Library",
+    "label": "SUSE Linux Enterprise Server 11 SP3 for SAP Cloud Appliance",
     "displayName": "SLES 11 SP3 for SAP CAL",
     "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp3-sapcal-v20150127",
     "OS": "Linux",
