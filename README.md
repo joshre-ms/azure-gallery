@@ -59,6 +59,31 @@ Optional. A JSON string specifying the relative path to a screenshot for a galle
 * `supportedExtensions`
 Optional. A JSON string array specifying the list of extensions supported by this image. Do not alter these values without prior consent. This flag might be used to render specific configuration UI for these extensions while creating virtual machine in portal.
 
+* `imageVersions`
+Optional. A JSON array containing objects that specify the versions available for this image. 
+The objects are made of the following properties:
+  * `version`: image version string displayed to the user
+  * `publishedDate`: date this version of the image was published
+  * `mediaName`: the name of the an Operating System Image or Virtual Machine Image for this version (see required `mediaName` above)
+
+  If there are image versions specified but none are selected by the user, the media name used will be the one in the required `mediaName`
+
+  Example:
+```
+"imageVersions": [
+  {
+    "version": "2.1.0",
+    "publishedDate": "1/13/2015",
+    "mediaName": "9e10b89011d34e0bad91898f40759f25__MyImage-2.1.0-en-us"
+  },
+  {
+    "version": "2.0.13",
+    "publishedDate": "7/14/2014",
+    "mediaName": "9e10b89011d34e0bad91898f40759f25__MyImage-2.0.13-en-us"
+  }
+]
+```
+
 #### Additional notes
 
 * The file name for a package manifest is not used in creating a gallery package. Feel free to name your package manifests in a a way that helps your organize them best.
