@@ -47,5 +47,9 @@
             "publicPort": 1433,
             "protocol": "tcp"
         }
+    ],
+    "supportedExtensions": [
+        "SqlIaaSAgent",
+        "SqlIaasAgent-AutoPatching"
     ]
 }

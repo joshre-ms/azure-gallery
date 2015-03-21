@@ -49,6 +49,8 @@
         }
     ],
     "supportedExtensions": [
-        "SqlIaaSAgent"
+        "SqlIaaSAgent",
+        "SqlIaasAgent-AutoBackup",
+        "SqlIaasAgent-AutoPatching"
     ]
 }
