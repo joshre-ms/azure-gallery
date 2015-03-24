@@ -39,5 +39,18 @@
     ],
     "eula": "http://go.microsoft.com/fwlink/?LinkID=512496",
     "privacy": "http://go.microsoft.com/fwlink/?LinkID=282418",
-    "screenshot": null
+    "screenshot": null,
+    "endpoints": [
+        {
+            "endpointName": "SQL Server",
+            "privatePort": 1433,
+            "publicPort": 1433,
+            "protocol": "tcp"
+        }
+    ],
+    "supportedExtensions": [
+        "SqlIaaSAgent",
+        "SqlIaasAgent-AutoBackup",
+        "SqlIaasAgent-AutoPatching"
+    ]
 }

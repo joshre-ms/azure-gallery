@@ -1,8 +1,8 @@
 {
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 12 (Premium Image)",
-    "displayName": "SUSE Linux Enterprise Server 12 (Premium Image)",
-    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__sles12-azure-guest-priority.x86-64-0.4.3-build1.1",
+    "displayName": "SLES 12 (Premium)",
+    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-priority-v20150213",
     "OS": "Linux",
     "description": "Confidently run your production workloads on SUSE Linux Enterprise Server on Microsoft Azure, knowing that your service levels are guaranteed, and that help from SUSE and Microsoft engineers, if you need it, is just a phone call away. SUSE Linux Enterprise Server is the only supported enterprise Linux distribution available today on Microsoft Azure. And the only one supported with tools like SUSE Studio for quick and easy image creation, and SUSE Manager for monitoring and managing your Linux virtual machines using Microsoft Systems Center.",
     "iconPath": "Icons/SUSE",
