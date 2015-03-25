@@ -1,8 +1,9 @@
 {
     "publisher": "Barracuda",
+    "publisherDisplayName": "Barracuda Networks Inc",
     "label": "Barracuda NG Firewall 5.4",
     "displayName": "Barracuda NG Firewall 5.4",
-    "MediaName": "810d5f35ce8748c686feabed1344911c__BarracudaNGFirewall-5.4.3-182-pl2",
+    "MediaName": "810d5f35ce8748c686feabed1344911c__BarracudaNGFirewall-5.4.3-182-pl4",
     "OS": "Linux",
     "description": "The Barracuda NG Firewall is an enterprise-grade next-generation firewall that was purpose-built for efficient deployment and operation within dispersed, highly dynamic, and security-critical network environments providing multilayer security in the cloud. Beyond its powerful network firewall, IPS, and VPN technologies, the Barracuda NG Firewall integrates a comprehensive set of next-generation firewall technologies, including comprehensive Application Control, availability, and traffic flow optimization across the wide area network, web filtering, antivirus, anti-spam, and network access control enforcement.<p><strong>Highlights:</strong></p><ul><li>Secure and reliable connectivity between on-premises and Azure deployments</li><li>Secure and reliable connectivity between Azure deployments</li><li>Central management of all functionality for both, on-premises and Azure deployments</li><li>Unrivaled Quality of Service capabilities</li></ul><p><strong>Note:</strong> The password you set in image deployment will set the 'root' user's password.  This appliance is typically configured via a client application available for download from Barracuda and TCP port 807 needs to be forwarded to administer this appliance.  See <a href ='https://cloudvm.cudasvc.com/azure/deployment-ng-readme.html' target='_blank'>https://cloudvm.cudasvc.com/azure/deployment-ng-readme.html</a> for details.</p>",
     "iconPath": "Icons",

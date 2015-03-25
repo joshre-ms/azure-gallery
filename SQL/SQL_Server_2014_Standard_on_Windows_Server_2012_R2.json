@@ -1,8 +1,8 @@
 {
     "publisher": "Microsoft",
-    "label": "SQL Server 2014 Standard",
-    "displayName": "SQL Server 2014 Standard",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2014-RTM-12.0.2361.0-Standard-ENU-Win2012R2-cy14su05",
+    "label": "SQL Server 2014 Standard Windows Server 2012 R2",
+    "displayName": "SQL Server 2014 Standard on Windows Server 2012 R2",
+    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2014-RTM-12.0.2430.0-Std-ENU-Win2012R2-cy14su11",
     "OS": "Windows",
     "summary": "Breakthrough performance and faster insights delivered by a hybrid data platform.",
     "description": "This image contains the full version of SQL Server. We recommend that you use a virtual machine size of A2 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.",
@@ -39,5 +39,18 @@
     ],
     "eula": "http://go.microsoft.com/fwlink/?LinkID=512496",
     "privacy": "http://go.microsoft.com/fwlink/?LinkID=282418",
-    "screenshot": null
+    "screenshot": null,
+    "endpoints": [
+        {
+            "endpointName": "SQL Server",
+            "privatePort": 1433,
+            "publicPort": 1433,
+            "protocol": "tcp"
+        }
+    ],
+    "supportedExtensions": [
+        "SqlIaaSAgent",
+        "SqlIaasAgent-AutoBackup",
+        "SqlIaasAgent-AutoPatching"
+    ]
 }

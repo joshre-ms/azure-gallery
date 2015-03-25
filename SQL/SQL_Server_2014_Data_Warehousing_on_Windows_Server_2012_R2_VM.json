@@ -1,0 +1,58 @@
+{
+    "publisher": "Microsoft",
+    "label": "SQL Server 2014 Data Warehousing Windows Server 2012 R2",
+    "displayName": "SQL Server 2014 Enterprise Optimized for DataWarehousing Workloads on Windows Server 2012 R2",
+    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2014-RTM-12.0.2430.0-DW-ENU-Win2012R2-cy14su11",
+    "imagetype": "VMImage",
+    "dataDisksCount": "15",
+    "OS": "Windows",
+    "description": "This Enterprise Edition image is optimized for data warehousing workloads and is intended for VM sizes including A4, A7, A8, A9, D4, D13, D14, G3, G4 and G5. Once deployed, the VM comes with Windows Storage Spaces pre-configured. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.This image supports data sizes of up to 2TB for A7, 4TB for A8 and 6TB for A9, respectively, using clustered columnstore indexes.",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "database"
+    ],
+    "recommendedSizes": [
+        "A7",
+        "A8",
+        "A9"
+    ],
+    "links": [
+        {
+            "label": "Documentation",
+            "uri": "http://msdn.microsoft.com/library/azure/jj823132.aspx"
+        },
+        {
+            "label": "Feature comparison between SQL server 2014 editions",
+            "uri": "http://msdn.microsoft.com/en-us/library/cc645993.aspx"
+        },
+        {
+            "label": "Support forum",
+            "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/en-US/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=SQL"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/#sql-server"
+        }
+    ],
+    "eula": "http://go.microsoft.com/fwlink/?LinkID=512497",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkID=282418",
+    "screenshot": null,
+    "endpoints": [
+        {
+            "endpointName": "SQL Server",
+            "privatePort": 1433,
+            "publicPort": 1433,
+            "protocol": "tcp"
+        }
+    ],
+    "supportedExtensions": [
+        "SqlIaaSAgent",
+        "SqlIaasAgent-AutoBackup",
+        "SqlIaasAgent-AutoPatching"
+    ]
+}
+
