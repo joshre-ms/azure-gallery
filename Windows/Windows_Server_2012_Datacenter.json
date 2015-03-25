@@ -2,7 +2,18 @@
     "publisher": "Microsoft",
     "label": "Windows Server 2012 Datacenter",
     "displayName": "Windows Server 2012 Datacenter",
-    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-201502.01-en.us-127GB.vhd",
+    "imageVersions": [
+        {
+        "version": "March,2015",
+        "publishedDate": "3/12/2015",
+        "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-201503.01-en.us-127GB.vhd"
+        },
+        {
+        "version": "February,2015",
+        "publishedDate": "2/11/2014",
+        "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-201502.01-en.us-127GB.vhd"
+        }
+    ],
     "OS": "Windows",
     "description": "Windows Server 2012 incorporates Microsoft's experience building and operating public clouds, resulting in a dynamic, highly available server platform. It offers a scalable, dynamic and multi-tenant-aware infrastructure that helps securely connect across premises.",
     "iconPath": "Icons/Server",
