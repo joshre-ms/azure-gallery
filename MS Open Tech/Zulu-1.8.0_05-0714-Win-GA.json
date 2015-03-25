@@ -1,9 +1,9 @@
 {
     "publisher": "MS Open Tech",
     "publisherDisplayName": "Microsoft Open Technologies, Inc.",
-    "label": "Zulu-1.8.0_05-0714-Win-GA",
+    "label": "Zulu-1.8.0_31-150324-Win-GA",
     "displayName": "Zulu OpenJDK package v1.8",
-    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Zulu-1.8.0_31-150206-Win-GA",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Zulu-1.8.0_31-150324-Win-GA",
     "OS": "Windows",
     "description": "<p><a href='http://www.azulsystems.com/products/zulu' target='_blank'>Zulu 8</a> (update 31) is a Java Development Kit and a compliant implementation of the Java Standard Edition (SE) 8 specification for the Windows 64bit operating system. The preinstalled Zulu package on this virtual machine consists of a Java Runtime Environment and Java Development Kit, basic OpenJDK tools for debugging and monitoring Java applications, and the Azul JHiccup latency testing tool.</p><p>Zulu is an enterprise-quality, commercialized build of OpenJDK that can be deployed across various operating systems, hypervisors and cloud platforms, with specific integrations on Microsoft Azure. Companies, Java developers, systems administrators and end users can enjoy the full benefits of freely available 100% open source Java with the comfort of world-class support provided by Azul Systems, the only company 100% dedicated to Java and the Java Virtual Machine (JVM).</p><p>Review the detailed Zulu <a href='http://www.azulsystems.com/products/zulu/support-packages' target='_blank'>Support</a> alternatives available from Azul Systems.</p><p>While proper sizing depends mostly on your application workload, the recommended minimum Azure virtual machine size for Zulu is A1.</p>",
     "iconPath": "Icons/AzulZulu",
