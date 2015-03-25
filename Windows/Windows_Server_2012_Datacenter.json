@@ -2,6 +2,7 @@
     "publisher": "Microsoft",
     "label": "Windows Server 2012 Datacenter",
     "displayName": "Windows Server 2012 Datacenter",
+    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-201503.01-en.us-127GB.vhd",
     "imageVersions": [
         {
         "version": "March,2015",
