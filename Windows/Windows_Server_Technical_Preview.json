@@ -2,9 +2,9 @@
     "publisher": "Microsoft",
     "label": "Windows Server Technical Preview",
     "displayName": "Windows Server Technical Preview",
-    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-Technical-Preview-201410.01-en.us-127GB.vhd",
+    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-Technical-Preview-201504.01-en.us-127GB.vhd",
     "OS": "Windows",
-    "description": "At the heart of the Microsoft Cloud OS vision, Windows Server brings the breadth and depth of Microsoft's experience delivering global-scale cloud services to your datacenter infrastructure.  Windows Server Technical Preview provides a range of new and enhanced capabilities and features spanning server virtualization, storage, networking, server management and automation, web and application platform, access and information protection, remote desktop infrastructure, and more. This VHD contains a preview release and should strictly be used for testing purposes. The VHD won't be serviced or supported for production use and the trial period expires on February 15th, 2015.",
+    "description": "At the heart of the Microsoft Cloud OS vision, Windows Server brings the breadth and depth of Microsoft's experience delivering global-scale cloud services to your datacenter infrastructure.  Windows Server Technical Preview provides a range of new and enhanced capabilities and features spanning server virtualization, storage, networking, server management and automation, web and application platform, access and information protection, remote desktop infrastructure, and more. This VHD contains a preview release and should strictly be used for testing purposes. The VHD won't be serviced or supported for production use and the trial period expires on October 1, 2015.",
     "iconPath": "Icons/Server",
     "categories": [
         "virtualMachine",
@@ -14,8 +14,8 @@
         "appInfra"
     ],
     "recommendedSizes": [
-        "Basic_A1",
         "Medium",
+        "Standard_D2",
         "A6"
     ],
     "links": [
