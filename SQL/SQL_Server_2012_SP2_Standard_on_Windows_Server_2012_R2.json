@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "SQL Server 2012 SP2 Standard Windows Server 2012 R2",
     "displayName": "SQL Server 2012 SP2 Standard on Windows Server 2012 R2",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2012-SP2-11.0.5548.0-Std-ENU-Win2012R2-cy14su11",
+    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2012-SP2-11.0.5569.0-Std-ENU-Win2012R2-cy15su04",
     "OS": "Windows",
     "description": "Some SQL Server components require additional setup and configuration before use. We recommend that you use a virtual machine size of A2 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.",
     "iconPath": "Icons",
