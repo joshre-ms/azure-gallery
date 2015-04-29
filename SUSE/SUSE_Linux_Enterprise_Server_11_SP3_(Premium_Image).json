@@ -29,6 +29,10 @@
             "uri": "https://www.suse.com/documentation/sles11/index.html"
         },
         {
+            "label": "Forum",
+            "uri": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+        },
+        {
             "label": "Pricing details",
             "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
         }
