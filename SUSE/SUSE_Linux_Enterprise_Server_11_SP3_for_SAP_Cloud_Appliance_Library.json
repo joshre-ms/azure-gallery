@@ -4,7 +4,7 @@
     "displayName": "SLES 11 SP3 for SAP CAL",
     "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp3-sapcal-v20150127",
     "OS": "Linux",
-    "description": "Confidently run your production workloads on SUSE Linux Enterprise Server on Microsoft Azure, knowing that your service levels are guaranteed, and that help from SUSE and Microsoft engineers, if you need it, is just a phone call away. SUSE Linux Enterprise Server is the only supported enterprise Linux distribution available today on Microsoft Azure. And the only one supported with tools like SUSE Studio for quick and easy image creation, and SUSE Manager for monitoring and managing your Linux virtual machines using Microsoft Systems Center.",
+   "description": "<p><b>SUSE Linux Enterprise Server 11 Service Pack 3, for SAP Cloud Appliance Library</b></p><p>Confidently run your production workloads on SUSE Linux Enterprise Server on Microsoft Azure, knowing that your service levels are guaranteed, and that help from SUSE and Microsoft engineers, if you need it, is just a phone call away.</p><p>SUSE Linux Enterprise Server is the <i>only</i> supported Enterprise Linux distribution available on Microsoft Azure, and the only one supported with tools like <a href='https://susestudio.com' target='_blank'>SUSE Studio</a> for quick and easy image creation, and <a href='https://www.suse.com/products/suse-manager/' target='_blank'>SUSE Manager</a> for monitoring and managing your Linux virtual machines using Microsoft Systems Center.</p><p>This is the base image for SAP's Cloud Appliance Library. It will be used automatically when deploying an SAP Cloud Appliance Library instance and is customized to fit SAP's CAL needs.</p>",
     "iconPath": "Icons/SUSE",
     "categories": [
         "virtualMachine",
@@ -30,11 +30,15 @@
             "uri": "https://www.suse.com/documentation/sles_for_sap/"
         },
         {
+            "label": "Forum",
+            "uri": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+        },
+        {
             "label": "Pricing details",
             "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
         }
     ],
-    "eula": "http://www.novell.com/licensing/eula/",
-    "privacy": null,
+    "eula": "https://www.suse.com/licensing/eula/",
+    "privacy": "https://www.suse.com/company/policies/privacy/",
     "screenshot": "Screenshots/suse.png"
 }
