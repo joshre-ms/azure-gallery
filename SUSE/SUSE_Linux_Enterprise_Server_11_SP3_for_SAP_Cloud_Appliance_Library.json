@@ -16,9 +16,9 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
-        "Small",
-        "A5",
-        "A8"
+        "Standard_D3",
+        "A6",
+        "Standard_DS12"
     ],
     "links": [
         {

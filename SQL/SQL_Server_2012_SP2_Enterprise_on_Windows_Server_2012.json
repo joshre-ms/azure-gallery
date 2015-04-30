@@ -14,9 +14,9 @@
         "database"
     ],
     "recommendedSizes": [
-        "Large",
-        "ExtraLarge",
-        "A9"
+        "Standard_D13",
+        "Standard_DS13",
+        "A7"
     ],
     "links": [
         {

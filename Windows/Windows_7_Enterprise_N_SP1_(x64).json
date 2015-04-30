@@ -16,9 +16,9 @@
         "clientOS"
     ],
     "recommendedSizes": [
+        "Standard_D1",
         "Small",
-        "Medium",
-        "Basic_A2"
+        "Standard_DS2"
     ],
     "links": [
         {
