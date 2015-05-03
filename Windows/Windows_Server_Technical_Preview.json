@@ -14,9 +14,9 @@
         "appInfra"
     ],
     "recommendedSizes": [
-        "Medium",
-        "Standard_D2",
-        "A6"
+        "Standard_D1",
+        "A1",
+        "Standard_DS2"
     ],
     "links": [
         {
