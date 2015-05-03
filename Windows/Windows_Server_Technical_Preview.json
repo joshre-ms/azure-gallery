@@ -29,6 +29,6 @@
         }
     ],
     "eula": "http://go.microsoft.com/fwlink/?LinkId=544707",
-    "privacy": "http://go.microsoft.com/fwlink/?LinkId=512132",
+    "privacy": null,
     "screenshot": null
 }
