@@ -14,7 +14,7 @@
         "publishedDate": "3/12/2015",
         "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-201503.01-en.us-127GB.vhd"
         }
-    ],    
+    ],
     "OS": "Windows",
     "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
     "description": "At the heart of the Microsoft Cloud OS vision, Windows Server 2012 R2 brings Microsoft's experience delivering global-scale cloud services into your infrastructure. It offers enterprise-class performance, flexibility for your applications and excellent economics for your datacenter and hybrid cloud environment. This image includes Windows Server 2012 R2 Update (KB2919355).",
@@ -28,9 +28,9 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
-        "Medium",
-        "Standard_DS2",
-        "Standard_D2"
+        "Standard_D1",
+        "Small",
+        "Standard_DS2"
     ],
     "links": [
         {

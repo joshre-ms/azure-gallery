@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "SQL Server 2014 Enterprise Windows Server 2012 R2",
     "displayName": "SQL Server 2014 Enterprise on Windows Server 2012 R2",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2014-RTM-12.0.2430.0-Ent-ENU-Win2012R2-cy14su11",
+    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2014-RTM-12.0.2048.0-Ent-ENU-Win2012R2-cy15su04",
     "OS": "Windows",
     "summary": "Enterprise version of SQL Server 2014 for transactional, data warehousing, business intelligence, and analytics workloads.",
     "description": "This image contains the full version of SQL Server. We recommend that you use a virtual machine size of A3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.",
@@ -16,9 +16,9 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
-        "Large",
-        "ExtraLarge",
-        "A9"
+        "Standard_D13",
+        "Standard_DS13",
+        "A7"
     ],
     "links": [
         {

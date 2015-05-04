@@ -1,4 +1,4 @@
-{
+﻿{
     "publisher": "Microsoft",
     "label": "Windows Server Technical Preview",
     "displayName": "Windows Server Technical Preview",
@@ -15,7 +15,7 @@
     ],
     "recommendedSizes": [
         "Standard_D1",
-        "A1",
+        "Small",
         "Standard_DS2"
     ],
     "links": [
