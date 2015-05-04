@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "SQL Server 2014 Data Warehousing Windows Server 2012 R2",
     "displayName": "SQL Server 2014 Enterprise Optimized for DataWarehousing Workloads on Windows Server 2012 R2",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2014-RTM-12.0.2430.0-DW-ENU-Win2012R2-cy14su11",
+    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2014-RTM-12.0.2048.0-DW-ENU-Win2012R2-cy15su04",
     "imagetype": "VMImage",
     "dataDisksCount": "15",
     "OS": "Windows",
@@ -16,9 +16,9 @@
         "database"
     ],
     "recommendedSizes": [
-        "A7",
-        "A8",
-        "A9"
+        "Standard_D13",
+        "Standard_DS13",
+        "A7"
     ],
     "links": [
         {

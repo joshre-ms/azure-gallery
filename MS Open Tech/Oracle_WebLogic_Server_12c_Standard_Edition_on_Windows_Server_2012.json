@@ -3,7 +3,7 @@
     "publisherDisplayName": "Microsoft Open Technologies, Inc.",
     "label": "Oracle WebLogic Server 12c Standard",
     "displayName": "Oracle WebLogic Server 12c Standard Edition",
-    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__WebLogic-12.1.2.0-SE-JDK-1.7.0_75-150115-Win-GA",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__WebLogic-12.1.2.0-SE-JDK-1.7.0_75-150324-Win-GA",
     "OS": "Windows",
     "description": "<a href='http://www.oracle.com/weblogicserver' target='_blank'>Oracle WebLogic Server</a> 12c Standard Edition (12.1.2.0) is a leading Java EE application server, delivering next-generation applications on a mission-critical cloud platform, with native cloud management, and integrated tools. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Small</a>.",
     "iconPath": "Icons/OracleWL",
@@ -16,9 +16,9 @@
         "azureCertified"
     ],
     "recommendedSizes": [
-        "Small",
-        "Medium",
-        "Large"
+        "Standard_D12",
+        "Standard_DS14",
+        "A6"
     ],
     "links": [
         {

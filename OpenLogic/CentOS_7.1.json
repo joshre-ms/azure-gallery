@@ -1,10 +1,10 @@
 {
     "publisher": "OpenLogic",
-    "label": "CentOS-based 6.6",
-    "displayName": "CentOS-based 6.6",
-    "MediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-66-20150325",
+    "label": "CentOS-based 7.1",
+    "displayName": "CentOS-based 7.1",
+    "MediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-71-20150410",
     "OS": "Linux",
-    "description": "This distribution of Linux is based on CentOS version 6.6 and is provided by OpenLogic. It contains an installation of the Basic Server packages.",
+    "description": "This distribution of Linux is based on CentOS version 7.1 and is provided by OpenLogic. It contains an installation of the Basic Server packages.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
