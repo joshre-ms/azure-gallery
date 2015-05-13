@@ -3,9 +3,9 @@
     "publisherDisplayName": "Microsoft Open Technologies, Inc.",
     "label": "Oracle Database 11g R2 Standard Edition",
     "displayName": "Oracle Database 11g R2 Standard Edition",
-    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Oracle-Database-11.2.0.4.0-SE-150324-Win-GA",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Oracle-Database-11.2.0.4.0-SE-20150507-Win-GA",
     "OS": "Windows",
-    "description": "<a href='http://www.oracle.com/database' target='_blank'>Oracle Database</a> 11g R2 Standard Edition (11.2.0.4.0) is an affordable, full-featured data management solution that is ideal for midsize companies. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Small</a>.",
+    "description": "<a href='http://www.oracle.com/database' target='_blank'>Oracle Database</a> 11g R2 Standard Edition (11.2.0.4.0) is an affordable, full-featured data management solution that is ideal for midsize companies. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Standard_DS12</a>.",
     "iconPath": "Icons/OracleDB",
     "categories": [
         "virtualMachine",
