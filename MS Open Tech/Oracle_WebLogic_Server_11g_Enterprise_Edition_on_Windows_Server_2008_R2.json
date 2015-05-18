@@ -3,9 +3,9 @@
     "publisherDisplayName": "Microsoft Open Technologies, Inc.",
     "label": "Oracle WebLogic Server 11g Enterprise",
     "displayName": "Oracle WebLogic Server 11g Enterprise Edition",
-    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Weblogic-10.3.6-EE-JDK-1.7.0_75-150324-Win-GA",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Weblogic-10.3.6-EE-JDK-1.7.0_79-20150507-Win-GA",
     "OS": "Windows",
-    "description": "<a href='http://www.oracle.com/weblogicserver' target='_blank'>Oracle WebLogic Server</a> 11g Enterprise Edition (10.3.6) is a leading Java application server for modern data centers. It takes full advantage of the latest hardware architectures including 64-bit addressable memory, multi-core computing systems and high-speed networks. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Small</a>.",
+    "description": "<a href='http://www.oracle.com/weblogicserver' target='_blank'>Oracle WebLogic Server</a> 11g Enterprise Edition (10.3.6) is a leading Java application server for modern data centers. It takes full advantage of the latest hardware architectures including 64-bit addressable memory, multi-core computing systems and high-speed networks. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Standard_DS12</a>.",
     "iconPath": "Icons/OracleWL",
     "categories": [
         "virtualMachine",
@@ -17,9 +17,9 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
-        "Small",
-        "Medium",
-        "Large"
+        "Standard_D12",
+        "Standard_DS14",
+        "A6"
     ],
     "links": [
         {

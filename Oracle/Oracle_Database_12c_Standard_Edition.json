@@ -15,9 +15,9 @@
         "azureCertified"
     ],
     "recommendedSizes": [
-        "Small",
-        "Medium",
-        "Large"
+        "Standard_D12",
+        "A6",
+        "Standard_DS14"
     ],
     "links": [
         {

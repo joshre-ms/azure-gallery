@@ -15,9 +15,9 @@
         "appInfra"
     ],
     "recommendedSizes": [
-        "ExtraLarge",
+        "Standard_D4",
         "A7",
-        "Standard_D14"
+        "Standard_DS14"
     ],
     "links": [
         {

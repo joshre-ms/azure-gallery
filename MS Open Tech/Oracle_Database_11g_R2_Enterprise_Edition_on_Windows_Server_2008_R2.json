@@ -3,9 +3,9 @@
     "publisherDisplayName": "Microsoft Open Technologies, Inc.",
     "label": "Oracle Database 11g R2 Enterprise",
     "displayName": "Oracle Database 11g R2 Enterprise Edition",
-    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Oracle-Database-11.2.0.4.0-EE-150324-Win-GA",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Oracle-Database-11.2.0.4.0-EE-20150507-Win-GA",
     "OS": "Windows",
-    "description": "<a href='http://www.oracle.com/database' target='_blank'>Oracle Database</a> 11g R2 Enterprise Edition (11.2.0.4.0) provides comprehensive features to easily manage the most demanding transaction processing, business intelligence, and content management applications. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Small</a>.",
+    "description": "<a href='http://www.oracle.com/database' target='_blank'>Oracle Database</a> 11g R2 Enterprise Edition (11.2.0.4.0) provides comprehensive features to easily manage the most demanding transaction processing, business intelligence, and content management applications. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Standard_DS12</a>.",
     "iconPath": "Icons/OracleDB",
     "categories": [
         "virtualMachine",
@@ -16,9 +16,9 @@
         "azureCertified"
     ],
     "recommendedSizes": [
-        "Small",
-        "Medium",
-        "Large"
+        "Standard_D12",
+        "Standard_DS14",
+        "A6"
     ],
     "links": [
         { "label": "Overview", "uri": "http://www.oracle.com/database" },

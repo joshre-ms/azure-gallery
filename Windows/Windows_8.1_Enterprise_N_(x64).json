@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "Windows 8.1 Enterprise N (x64)",
     "displayName": "Windows 8.1 Enterprise N (x64)",
-    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Windows-8.1-Enterprise-N-x64-en.us-201410.01",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Windows-8.1-Enterprise-N-x64-en.us-201504.29",
     "OS": "Windows",
     "description": "This image contains Windows 8.1 Enterprise N x64 and is exclusively available to MSDN subscribers. It allows you to easily and quickly set up an environment in Azure to develop and test applications targeting Windows 8.1.",
     "iconPath": "Icons/Client",
@@ -16,9 +16,9 @@
         "clientOS"
     ],
     "recommendedSizes": [
-        "Small",
+        "Standard_D2",
         "Medium",
-        "Basic_A2"
+        "Standard_DS2"
     ],
     "links": [
         {
