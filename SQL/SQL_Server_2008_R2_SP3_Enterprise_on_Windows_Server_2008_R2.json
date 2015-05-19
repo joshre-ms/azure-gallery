@@ -1,8 +1,8 @@
 {
     "publisher": "Microsoft",
-    "label": "SQL Server 2008 R2 SP3 Enterprise",
-    "displayName": "SQL Server 2008 R2 SP3 Enterprise",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2008R2-SP3-10.50.6000.34-Ent-ENU-Win2008R2-cy14su09",
+    "label": "SQL Server 2008 R2 SP3 Enterprise Windows Server 2008 R2",
+    "displayName": "SQL Server 2008 R2 SP3 Enterprise on Windows Server 2008 R2",
+    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2008R2-SP3-10.50.6000.34-Ent-ENU-Win2008R2-cy15su04",
     "OS": "Windows",
     "description": "We recommend that you use a virtual machine size of A3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.",
     "iconPath": "Icons",
@@ -14,9 +14,9 @@
         "database"
     ],
     "recommendedSizes": [
-        "Large",
-        "ExtraLarge",
-        "A9"
+        "Standard_D12",
+        "Standard_DS12",
+        "A6"
     ],
     "links": [
         {
@@ -38,5 +38,13 @@
     ],
     "eula": "http://go.microsoft.com/fwlink/?LinkID=285681",
     "privacy": "http://msdn.microsoft.com/library/ms143384(v=sql.105).aspx",
-    "screenshot": null
+    "screenshot": null,
+    "endpoints": [
+        {
+            "endpointName": "SQL Server",
+            "privatePort": 1433,
+            "publicPort": 1433,
+            "protocol": "tcp"
+        }
+    ]
 }

@@ -1,0 +1,48 @@
+{
+    "publisher": "Oracle",
+    "label": "Oracle Linux 7",
+    "displayName": "Oracle Linux 7.0.0.0.0",
+    "MediaName": "c290a6b031d841e09f2da759bbabe71f__Oracle-Linux-7",
+    "OS": "Linux",
+    "description": "Oracle Linux 7.0.0.0 delivers extreme performance, advanced scalability, and reliability for enterprise applications and systems. Optimized for enterprise workloads, Oracle Linux is the only operating system to offer zero-downtime updates.",
+    "iconPath": "Icons/Linux",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "azureCertified"
+    ],
+    "recommendedSizes": [
+        "Standard_D1",
+        "Small",
+        "Standard_DS2"
+    ],
+    "links": [
+        {
+            "label": "Overview",
+            "uri": "http://www.oracle.com/linux"
+        },
+        {
+            "label": "Learn more",
+            "uri": "http://www.oracle.com/technetwork/server-storage/linux/learnmore/index.html"
+        },
+        {
+            "label": "Documentation",
+            "uri": "http://www.oracle.com/technetwork/server-storage/linux/documentation/index.html"
+        },
+        {
+            "label": "Support forum",
+            "uri": "http://forums.oracle.com/forums/forum.jspa?forumID=822"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#oracle-software"
+        }
+    ],
+    "eula": "http://www.oracle.com/technetwork/licenses/oracle-license-2016066.html",
+    "privacy": "http://www.oracle.com/us/legal/privacy/privacy-policy-078584.html",
+    "screenshot": null
+}
+
+

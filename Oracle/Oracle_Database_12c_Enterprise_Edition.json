@@ -2,7 +2,7 @@
     "publisher": "Oracle",
     "label": "Oracle Database 12c Enterprise",
     "displayName": "Oracle Database 12.1.0.1 Enterprise Edition",
-    "MediaName": "c290a6b031d841e09f2da759bbabe71f__Oracle-Database-121010.v1-EE-Lnx",
+    "MediaName": "c290a6b031d841e09f2da759bbabe71f__Oracle-Linux-6-E-Database-2014",
     "OS": "Linux",
     "description": "Oracle Database 12c Enterprise Edition (12.1.0.1.0) is a next-generation database designed for the cloud. It offers more than 500 new features including a new multitenant architecture that simplifies consolidating databases onto the cloud and enables customers to manage many databases as one without changing their applications. Customers can choose a wide range of Oracle Database Enterprise Edition options to deliver on business users' performance, security, big data, cloud, and availability service-level expectations. Minimum recommended virtual machine size for this image is Small.",
     "iconPath": "Icons/Database",
@@ -15,9 +15,9 @@
         "azureCertified"
     ],
     "recommendedSizes": [
-        "Small",
-        "Medium",
-        "Large"
+        "Standard_D12",
+        "A6",
+        "Standard_DS14"
     ],
     "links": [
         {

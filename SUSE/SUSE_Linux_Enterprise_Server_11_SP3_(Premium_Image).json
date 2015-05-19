@@ -1,10 +1,10 @@
 {
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 11 SP3 (Premium Image)",
-    "displayName": "SUSE Linux Enterprise Server 11 SP3 (Premium Image)",
-    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__SUSE-Linux-Enterprise-Server-11-SP3-Prio-v203",
+    "displayName": "SLES 11 SP3 (Premium)",
+    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp3-priority-v20150127",
     "OS": "Linux",
-    "description": "Confidently run your production workloads on SUSE Linux Enterprise Server on Microsoft Azure, knowing that your service levels are guaranteed, and that help from SUSE and Microsoft engineers, if you need it, is just a phone call away. SUSE Linux Enterprise Server is the only supported enterprise Linux distribution available today on Microsoft Azure. And the only one supported with tools like SUSE Studio for quick and easy image creation, and SUSE Manager for monitoring and managing your Linux virtual machines using Microsoft Systems Center.",
+    "description": "<p><b>SUSE Linux Enterprise Server 11 Service Pack 3 (Premium Image - PRIORITY Support)</b></p><p>Confidently run your production workloads on SUSE Linux Enterprise Server on Microsoft Azure, knowing that your service levels are guaranteed, and that help from SUSE and Microsoft engineers, if you need it, is just a phone call away.</p><p>SUSE Linux Enterprise Server is the <i>only</i> supported Enterprise Linux distribution available on Microsoft Azure, and the only one supported with tools like <a href='https://susestudio.com' target='_blank'>SUSE Studio</a> for quick and easy image creation, and <a href='https://www.suse.com/products/suse-manager/' target='_blank'>SUSE Manager</a> for monitoring and managing your Linux virtual machines using Microsoft Systems Center.</p><p><b>This Premium image with PRIORITY support includes updates, patches, and support through 24x7 web, email, chat and phone from SUSE</b>. Virtual machines created from this image incur per-hour support fees, in addition to Azure platform fees. An Azure support plan is required (developer or above). Support incidents are initiated through <a href='http://azure.microsoft.com/en-us/support/options/' target='_blank'>Azure Support</a>.</p>",
     "iconPath": "Icons/SUSE",
     "categories": [
         "virtualMachine",
@@ -15,9 +15,9 @@
         "azureCertified"
     ],
     "recommendedSizes": [
+        "Standard_D1",
         "Small",
-        "A5",
-        "A8"
+        "Standard_DS2"
     ],
     "links": [
         {
@@ -29,11 +29,15 @@
             "uri": "https://www.suse.com/documentation/sles11/index.html"
         },
         {
+            "label": "Forum",
+            "uri": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+        },
+        {
             "label": "Pricing details",
             "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
         }
     ],
-    "eula": "http://www.novell.com/licensing/eula/",
-    "privacy": null,
+    "eula": "https://www.suse.com/licensing/eula/",
+    "privacy": "https://www.suse.com/company/policies/privacy/",
     "screenshot": "Screenshots/suse.png"
 }

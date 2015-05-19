@@ -2,7 +2,7 @@
     "publisher": "Oracle",
     "label": "Oracle Linux 6",
     "displayName": "Oracle Linux 6.4.0.0.0",
-    "MediaName": "c290a6b031d841e09f2da759bbabe71f__Oracle-Linux-6",
+    "MediaName": "c290a6b031d841e09f2da759bbabe71f__Oracle-Linux-6-12-2014",
     "OS": "Linux",
     "description": "Oracle Linux 6 brings the latest Linux innovations to market, delivering extreme performance, advanced scalability, and reliability for enterprise applications and systems.",
     "iconPath": "Icons/Linux",
@@ -14,9 +14,9 @@
         "azureCertified"
     ],
     "recommendedSizes": [
+        "Standard_D1",
         "Small",
-        "Medium",
-        "Large"
+        "Standard_DS2"
     ],
     "links": [
         {

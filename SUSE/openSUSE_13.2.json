@@ -1,0 +1,40 @@
+{
+    "publisher": "SUSE",
+    "label": "openSUSE 13.2",
+    "displayName": "openSUSE 13.2",
+    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-13.2-20141216-x86-64",
+    "OS": "Linux",
+    "description": "Stable, innovative, and fun! A year's worth of continuous improvement in tools and procedures, and countless hours developing, packaging, and testing have produced a stable release providing the best of Free and Open Source software with our special green touch. Customization of these images can be done at <a href='http://susestudio.com' target='_blank'>SUSE Studio</a>",
+    "iconPath": "Icons/openSUSE",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra",
+        "azureCertified",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Standard_D1",
+        "Small",
+        "Standard_DS2"
+    ],
+    "links": [
+        {
+            "label": "Learn more",
+            "uri": "http://opensuse.org/"
+        },
+        {
+            "label": "Documentation",
+            "uri": "http://opensuse.org/Portal:Documentation"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+        }
+    ],
+    "eula": "https://en.opensuse.org/openSUSE:License",
+    "privacy": null,
+    "screenshot": "Screenshots/opensuse.png"
+}

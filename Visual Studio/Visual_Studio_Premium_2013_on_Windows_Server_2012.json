@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "Visual Studio Premium 2013",
     "displayName": "Visual Studio Premium 2013 on Windows Server 2012",
-    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Visual-Studio-2013-Premium-Update4-AzureSDK-2.5-WS2012",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Visual-Studio-2013-Premium-Update4-AzureSDK-2.5-WS2012-201502.23",
     "OS": "Windows",
     "description": "The Visual Studio Premium 2013 Update 4 developer desktop is an offering exclusive to MSDN subscribers. The image includes Visual Studio Premium 2013 Update 4, SharePoint 2013 Trial, SQL Server 2012 Developer edition and configuration scripts to quickly create a development environment for Web, SQL and SharePoint 2013 development. To learn how to configure any development environment you can follow the links on the desktop. We recommend a Standard A3 VM size for SQL and Web development and Standard A4 VM size for SharePoint development. Privacy note: This image has been preconfigured for Microsoft Azure, including enabling the Visual Studio Experience Improvement Program for Visual Studio, which can be disabled.",
     "iconPath": "Icons",
@@ -15,9 +15,9 @@
         "appInfra"
     ],
     "recommendedSizes": [
+        "Standard_D3",
         "Large",
-        "ExtraLarge",
-        "Basic_A4"
+        "Standard_DS3"
     ],
     "links": [
         {

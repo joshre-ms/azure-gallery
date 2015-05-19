@@ -23,6 +23,9 @@ Required. A JSON string that is used as the display name of a gallery package.
 * `imageType`
 Optional. A JSON string to indicate if the `mediaName` is referencing an OS image or a VM image. Allowed values are `OSImage` and `VMImage`. By default, the value is assumed to be an OS image.
 
+* `dataDisksCount`
+Optional. A JSON string to indicate the number of data disks the VM image contains. This is used by the portal to filter out VM sizes that support fewer data disks than the VM image requires. If `imageType` is `OSImage`, this value is ignored.
+
 * `mediaName`
 Required. A JSON string that is the `Name` value of an Operating System Image ([OS Image](http://msdn.microsoft.com/library/azure/jj157191.aspx)) or Virtual Machine Image ([VM Image](http://msdn.microsoft.com/library/azure/dn499770.aspx)). Ensure that your image is published and replicated before adding a package manifest that references it.
 
@@ -53,10 +56,39 @@ Optional. A JSON string containing a URL to a privacy statement for a gallery pa
 * `screenshot`
 Optional. A JSON string specifying the relative path to a screenshot for a gallery package.
 
+* `supportedExtensions`
+Optional. A JSON string array specifying the list of extensions supported by this image. Do not alter these values without prior consent. This flag might be used to render specific configuration UI for these extensions while creating virtual machine in portal.
+
+* `imageVersions`
+Optional. A JSON array containing objects that specify the versions available for this image. 
+The objects are made of the following properties:
+  * `version`: image version string displayed to the user
+  * `publishedDate`: date this version of the image was published
+  * `mediaName`: the name of the an Operating System Image or Virtual Machine Image for this version (see required `mediaName` above)
+
+  If there are image versions specified but none are selected by the user, the media name used will be the one in the required `mediaName`
+
+  Example:
+```
+"imageVersions": [
+  {
+    "version": "2.1.0",
+    "publishedDate": "1/13/2015",
+    "mediaName": "9e10b89011d34e0bad91898f40759f25__MyImage-2.1.0-en-us"
+  },
+  {
+    "version": "2.0.13",
+    "publishedDate": "7/14/2014",
+    "mediaName": "9e10b89011d34e0bad91898f40759f25__MyImage-2.0.13-en-us"
+  }
+]
+```
+
 #### Additional notes
 
 * The file name for a package manifest is not used in creating a gallery package. Feel free to name your package manifests in a a way that helps your organize them best.
 * Editing the `publisher` and `label` values will alter the identity of the gallery package. Changes to a gallery package's identity will result in a new gallery package, which requires us to manually delete the old gallery package under its former  identity. Favor edits to `publisherDisplayName` and `displayName` over `publisher` and `label`, respectively.
+* If you must edit the `publisher` and\or `label` fields please submit a delete request for the old package manifest and upload new package manifest with the edited `publisher` and\or `label` fields.
 
 ## Icons
 

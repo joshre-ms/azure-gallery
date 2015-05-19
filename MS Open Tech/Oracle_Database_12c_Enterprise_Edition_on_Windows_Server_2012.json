@@ -3,9 +3,10 @@
     "publisherDisplayName": "Microsoft Open Technologies, Inc.",
     "label": "Oracle Database 12c Enterprise Edition",
     "displayName": "Oracle Database 12c Enterprise Edition",
-    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Oracle-Database-12.1.0.1.0-0814-EE-Win-GA",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Oracle-Database-12.1.0.2.0-20150507-EE-Win-GA",
     "OS": "Windows",
-    "description": "<a href='http://www.oracle.com/database' target='_blank'>Oracle Database</a> 12c Enterprise Edition (12.1.0.1.0) is a next-generation database designed for the cloud. It offers more than 500 new features including a new multitenant architecture that simplifies consolidating databases onto the cloud and enables customers to manage many databases as one without changing their applications. Customers can choose a wide range of Oracle Database Enterprise Edition options to deliver on business users' performance, security, big data, cloud, and availability service-level expectations. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Small</a>.",
+    "summary": "Next-generation, enterprise class database designed for the cloud.",
+    "description": "<a href='http://www.oracle.com/database' target='_blank'>Oracle Database</a> 12c Enterprise Edition (12.1.0.2.0) is a next-generation database designed for the cloud. It offers more than 500 new features including a new multitenant architecture that simplifies consolidating databases onto the cloud and enables customers to manage many databases as one without changing their applications. Customers can choose a wide range of Oracle Database Enterprise Edition options to deliver on business users' performance, security, big data, cloud, and availability service-level expectations. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Standard_DS12</a>.",
     "iconPath": "Icons/OracleDB",
     "categories": [
         "virtualMachine",
@@ -16,9 +17,9 @@
         "azureCertified"
     ],
     "recommendedSizes": [
-        "Small",
-        "Medium",
-        "Large"
+        "Standard_D12",
+        "Standard_DS14",
+        "A6"
     ],
     "links": [
         {
