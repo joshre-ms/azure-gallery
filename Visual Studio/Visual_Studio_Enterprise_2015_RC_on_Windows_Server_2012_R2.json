@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "Visual Studio Enterprise 2015 RC",
     "displayName": "Visual Studio Enterprise 2015 RC with Azure SDK 2.6 on Windows Server 2012 R2",
-    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Visual-Studio-2015-Enterprise-RC-AzureSDK-2.6-WS2012R2-201505.26",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Visual-Studio-2015-Enterprise-RC-AzureSDK-2.6-WS2012R2-201505.27",
     "OS": "Windows",
     "description": "Visual Studio Enterprise supports developers creating business applications looking for the scale, quality and productivity required in organizations of any size.  Team collaboration, DevOps, release management and more are core scenarios for Visual Studio Enterprise.  This image contains Windows Server 2012 R2 with Visual Studio Enterprise 2015 RC.  It allows you to easily and quickly set up a development environment in Azure to plan, build, release and operate applications using Visual Studio.",
     "iconPath": "Icons",
