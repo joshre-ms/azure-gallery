@@ -3,9 +3,9 @@
     "publisherDisplayName": "Microsoft Open Technologies, Inc.",
     "label": "JDK 7 on Windows Server 2012",
     "displayName": "JDK 7",
-    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__JDK-1.7.0_75-150324-Win-GA",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__JDK-1.7.0_79-20150507-Win-GA",
     "OS": "Windows",
-    "description": "<a href='http://www.oracle.com/java' target='_blank'>Java Platform</a>, Standard Edition 7 (update 75) enables development of secure, portable, high-performance applications and includes a Java Development Kit (JDK), Java Runtime Environment (JRE), and tools for developing, debugging, and monitoring Java applications. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Small</a>.",
+    "description": "<a href='http://www.oracle.com/java' target='_blank'>Java Platform</a>, Standard Edition 7 (update 79) enables development of secure, portable, high-performance applications and includes a Java Development Kit (JDK), Java Runtime Environment (JRE), and tools for developing, debugging, and monitoring Java applications. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Medium</a>.",
     "iconPath": "Icons/OracleJava",
     "categories": [
         "virtualMachine",
