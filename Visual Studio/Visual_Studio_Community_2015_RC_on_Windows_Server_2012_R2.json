@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "Visual Studio Community 2015 RC",
     "displayName": "Visual Studio Community 2015 RC with Azure SDK 2.6 on Windows Server 2012 R2",
-    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Visual-Studio-2015-Community-RC-AzureSDK-2.6-WS2012R2-201505.27",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Visual-Studio-2015-Community-RC-AzureSDK-2.6-WS2012R2-201505.26",
     "OS": "Windows",
     "description": "Visual Studio Community 2015 is our free, full featured and extensible IDE for non-enterprise application development.  This image contains Windows Server 2012 R2 with Visual Studio Community 2015 RC.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.",
     "iconPath": "Icons",
