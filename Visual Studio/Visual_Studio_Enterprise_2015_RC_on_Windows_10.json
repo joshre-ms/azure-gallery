@@ -1,0 +1,34 @@
+{
+    "publisher": "Microsoft",
+    "label": "Visual Studio Enterprise 2015 RC",
+    "displayName": "Visual Studio Enterprise 2015 RC with Universal Windows Tools on Windows 10 Enterprise Insider Preview Build 10074 (x64)",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS2015Ent-RC-Az2.6-Win10Tools-Win10Prev-10074-201506.01",
+    "OS": "Windows",
+    "description": "This image contains Windows 10 Enterprise Insider Preview (x64) with Visual Studio 2015 RC and Universal Windows App Development Tools. It allows you to quickly setup environment in Azure to develop and test applications targeting Universal Windows Platform.",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "appInfra"
+    ],
+    "recommendedSizes": [
+        "Standard_D2",
+        "Medium",
+        "Standard_DS2"
+    ],
+    "links": [
+        {
+            "label": "Documentation",
+            "uri": "http://insider.windows.com/"
+        },
+        {
+            "label": "MSDN Azure benefit details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
+        }
+    ],
+    "eula": "http://go.microsoft.com/fwlink/?LinkId=521895",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkID=528096",
+    "screenshot": "Screenshots/VisualStudioOnWindows10.png"
+}
