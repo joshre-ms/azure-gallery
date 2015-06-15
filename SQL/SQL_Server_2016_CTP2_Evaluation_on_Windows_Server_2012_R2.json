@@ -41,14 +41,6 @@
     "eula": "http://download.microsoft.com/download/6/6/9/66971884-0E4D-476A-981B-D139F9D9420F/2016CTP2/1033/license_Eval.rtf",
     "privacy": "http://go.microsoft.com/fwlink/?LinkID=398120",
     "screenshot": null,
-    "endpoints": [
-        {
-            "endpointName": "SQL Server",
-            "privatePort": 1433,
-            "publicPort": 1433,
-            "protocol": "tcp"
-        }
-    ],
     "supportedExtensions": [
         "SqlIaaSAgent",
         "SqlIaasAgent-AutoBackup",
