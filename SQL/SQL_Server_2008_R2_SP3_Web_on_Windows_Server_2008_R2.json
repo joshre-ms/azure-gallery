@@ -38,13 +38,5 @@
     ],
     "eula": "http://go.microsoft.com/fwlink/?LinkID=285686",
     "privacy": "http://msdn.microsoft.com/library/ms143384(v=sql.105).aspx",
-    "screenshot": null,
-    "endpoints": [
-        {
-            "endpointName": "SQL Server",
-            "privatePort": 1433,
-            "publicPort": 1433,
-            "protocol": "tcp"
-        }
-    ]
+    "screenshot": null
 }
