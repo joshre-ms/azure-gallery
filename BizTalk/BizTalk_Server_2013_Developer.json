@@ -3,6 +3,11 @@
     "label": "BizTalk Server 2013 Developer",
     "displayName": "BizTalk Server 2013 Developer",
     "MediaName": "2cdc6229df6344129ee553dd3499f0d3__BizTalk-Server-2013-Developer-May-2014",
+    "imageReference": {
+      "publisher": "MicrosoftBizTalkServer",
+      "offer": "BizTalk-Server",
+      "sku": "2013-Developer"
+    },
     "OS": "Windows",
     "description": "Microsoft BizTalk Server 2013 Developer Edition (64-bit) on Windows Server 2012. This image contains the Developer edition of BizTalk Server 2013. Some BizTalk Server components like accelerators require additional setup before use. Medium is the recommended size for this image.",
     "iconPath": "Icons",

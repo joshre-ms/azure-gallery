@@ -3,6 +3,11 @@
     "label": "SQL Server 2012 SP2 for Transactional Workloads Windows Server 2012 R2",
     "displayName": "SQL Server 2012 SP2 Enterprise Optimized for Transactional Workloads on Windows Server 2012 R2",
     "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2012-SP2-11.0.5569.0-OLTP-ENU-Win2012R2-cy15su04",
+    "imageReference": {
+      "publisher": "MicrosoftSQLServer",
+      "offer": "SQL2012SP2-WS2012R2",
+      "sku": "Enterprise-Optimized-for-OLTP"
+    },
     "imageType": "VMImage",
     "dataDisksCount": "15",
     "OS": "Windows",

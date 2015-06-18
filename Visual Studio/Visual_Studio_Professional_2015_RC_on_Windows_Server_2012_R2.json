@@ -3,6 +3,11 @@
     "label": "Visual Studio Professional 2015 RC",
     "displayName": "Visual Studio Professional 2015 RC with Azure SDK 2.6 on Windows Server 2012 R2",
     "MediaName": "03f55de797f546a1b29d1b8d66be687a__Visual-Studio-2015-Professional-RC-AzureSDK-2.6-WS2012R2-201505.26",
+    "imageReference": {
+      "publisher": "MicrosoftVisualStudio",
+      "offer": "VisualStudio",
+      "sku": "2015-Professional-RC"
+    },
     "OS": "Windows",
     "description": "With Visual Studio Professional, you can create applications across devices and services, using a single solution with a consistent development experience.  You get the tools, you need to deliver desktop, Windows Store, Windows Phone, and Office apps, as well as mobile web apps across any device, web site, cloud service, and more.  This image contains Windows Server 2012 R2 with Visual Studio Professional 2015 RC.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.",
     "iconPath": "Icons",

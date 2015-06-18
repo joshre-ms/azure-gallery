@@ -3,6 +3,11 @@
     "label": "SQL Server 2008 R2 SP3 Standard Windows Server 2008 R2",
     "displayName": "SQL Server 2008 R2 SP3 Standard on Windows Server 2008 R2",
     "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2008R2-SP3-10.50.6000.34-Std-ENU-Win2008R2-cy15su04",
+    "imageReference": {
+      "publisher": "MicrosoftSQLServer",
+      "offer": "SQL2008R2SP3-WS2008R2SP1",
+      "sku": "Standard"
+    },
     "OS": "Windows",
     "description": "We recommend that you use a virtual machine size of A2 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.",
     "iconPath": "Icons",

@@ -3,6 +3,11 @@
     "label": "Microsoft Dynamics GP 2013 R2 on Windows Server 2012 R2",
     "displayName": "Microsoft Dynamics GP 2013 R2 on Windows Server 2012 R2",
     "MediaName": "2dd70fc524ff4e7e88725b069228c4ac__DynGP2013R2Dev",
+    "imageReference": {
+      "publisher": "MicrosoftDynamicsGP",
+      "offer": "Dynamics-GP",
+      "sku": "2013-R2-Developer"
+    },
     "OS": "Windows",
     "description": "The Microsoft Dynamics GP 2013 R2 developer image is an offering exclusive to MSDN subscribers. The image includes a pre-configured environment for building integrations and customizations for Microsoft Dynamics GP 2013 R2. The image includes the same software as the Visual Studio Premium 2013 gallery image. In addition, it has the Microsoft Dynamics GP 2013 R2 software components, including Microsoft Dynamics GP, Microsoft Dynamics GP Web Client, Web Services for Microsoft Dynamics GP, Microsoft Dynamics GP SDK, Dexterity for Microsoft Dynamics GP, and Visual Studio Tools for Microsoft Dynamics GP. Refer to the \"Getting started with the Microsoft Dynamics GP Developer Image\" link on the desktop for additional information.",
     "iconPath": "Icons",
