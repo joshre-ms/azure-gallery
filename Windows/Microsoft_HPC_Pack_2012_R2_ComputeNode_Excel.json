@@ -1,16 +1,16 @@
 {
     "publisher": "Microsoft",
-    "label": "HPC Pack 2012 R2 on Windows Server 2012 R2",
-    "displayName": "HPC Pack 2012 R2 on Windows Server 2012 R2",
-    "MediaName": "96316178b0644ae08bc4e037635ce104__HPC-Pack-2012R2-Update2-4.4.4864.0-WS2012R2-ENU",
+    "label": "HPC Pack 2012 R2 Compute Node with Excel on Windows Server 2012 R2",
+    "displayName": "HPC Pack 2012 R2 Compute Node with Excel on Windows Server 2012 R2",
+    "MediaName": "96316178b0644ae08bc4e037635ce104__HPC-Pack-2012R2-Update2-CN-Excel-4.4.4864.0-WS2012R2-ENU",
     "imageReference": {
       "publisher": "MicrosoftWindowsServerHPCPack",
       "offer": "WindowsServerHPCPack",
-      "sku": "2012R2"
+      "sku": "2012R2CNExcel"
     },
     "OS": "Windows",
     "summary": "Enterprise-class High Performance Computing solution that is simple to deploy, cost-effective, application-focused, and user-centric.",
-    "description": "This image contains the Windows Server 2012 R2 Datacenter operating system with HPC Pack 2012 R2 Update 2 installed to create the head node of an HPC Pack cluster. Microsoft SQL Server 2014 Express is also pre-installed. Use this image to create the head node of a Windows high performance computing (HPC) cluster in Azure. We recommend using a VM size of at least A4. If you plan to add cluster compute nodes to the head node, the VM must be created in an Azure virtual network. Configure the network before creating the VM. To use the head node, you will need to join the virtual machine to an Active Directory domain and run the post-configuration script described <a href='http://go.microsoft.com/fwlink/p/?LinkId=403953' target='_blank'>here</a>. It is strongly recommended to use the Azure Resource Manager (ARM) templates or the HPC Pack IaaS deployment script to automatically create an HPC cluster in Azure with the HPC Pack images. For more information <a href='http://go.microsoft.com/fwlink/?LinkId=618018' target='_blank'>see here</a>.",
+    "description": "This image contains the Windows Server 2012 R2 Datacenter operating system with HPC Pack 2012 R2 Update 2 and evaluation version of Microsoft Excel Professional Plus 2013 installed to create the compute node of a Windows high performance computing (HPC) cluster in Azure. We recommend using a VM size of at least A3. It is strongly recommended to use the Azure Resource Manager (ARM) templates or the HPC Pack IaaS deployment script to automatically create an HPC cluster in Azure with the HPC Pack images. For more information <a href='http://go.microsoft.com/fwlink/?LinkId=618018' target='_blank'>see here</a>.",
     "iconPath": "Icons/Server",
     "categories": [
         "virtualMachine",
@@ -20,9 +20,9 @@
         "appInfra"
     ],
     "recommendedSizes": [
-        "Standard_D4",
-        "A7",
-        "Standard_DS14"
+        "A3",
+        "Standard_DS4",
+        "A11"
     ],
     "links": [
         {
