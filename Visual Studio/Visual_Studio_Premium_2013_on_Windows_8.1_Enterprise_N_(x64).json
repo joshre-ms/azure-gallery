@@ -2,7 +2,12 @@
     "publisher": "Microsoft",
     "label": "Visual Studio Premium 2013 Win 8.1 Ent N (x64)",
     "displayName": "Visual Studio Premium 2013 on Windows 8.1 Enterprise N (x64)",
-    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Visual-Studio-2013-Premium-Update4-AzureSDK-2.5-Win8.1-N-x64-201502.23",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Visual-Studio-2013-Premium-Update4-AzureSDK-2.6-Win8.1-N-x64",
+    "imageReference": {
+      "publisher": "MicrosoftVisualStudio",
+      "offer": "VisualStudio",
+      "sku": "2013-Premium-Update-4-win81n-az26"
+    },
     "OS": "Windows",
     "description": "This image contains Windows 8.1 Enterprise N x64 and Visual Studio 2013 Premium Update 4 and is exclusively available to MSDN subscribers. It allows you to easily and quickly set up a development environment in Azure to develop and test applications targeting Windows 8.1. For more information on Windows 8.1 N edition see <a href='http://windows.microsoft.com/en-gb/windows-8/n-editions' target='_blank'>here</a>.",
     "iconPath": "Icons",

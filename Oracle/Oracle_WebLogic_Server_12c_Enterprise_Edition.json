@@ -3,6 +3,11 @@
     "label": "Oracle WebLogic Server 12c Enterprise",
     "displayName": "Oracle WebLogic Server 12.1.2",
     "MediaName": "c290a6b031d841e09f2da759bbabe71f__WebLogic-Linux-6-12c-2014",
+    "imageReference": {
+      "publisher": "Oracle",
+      "offer": "Oracle-WebLogic-Server",
+      "sku": "Oracle-WebLogic-Server"
+    },
     "OS": "Linux",
     "description": "Oracle WebLogic Server 12c Enterprise Edition is a leading Java EE application server, delivering next-generation applications on a mission-critical cloud platform, with native cloud management, and integrated tools.",
     "iconPath": "Icons/WebLogic",

@@ -3,6 +3,11 @@
     "label": "openSUSE 13.1",
     "displayName": "openSUSE 13.1",
     "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-13.1-20141216-x86-64",
+    "imageReference": {
+      "publisher": "SUSE",
+      "offer": "openSUSE",
+      "sku": "13.1"
+    },
     "OS": "Linux",
     "description": "openSUSE 13.1 brings updated desktop environments and software, lot of polishing, a brand new KDE theme, complete systemd integration and many other features. Customization of these images can be done at <a href='http://susestudio.com' target='_blank'>SUSE Studio</a>",
     "iconPath": "Icons/openSUSE",

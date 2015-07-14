@@ -3,6 +3,11 @@
     "label": "Team Foundation Server 2013",
     "displayName": "Team Foundation Server 2013 on Windows Server 2012 R2",
     "MediaName": "03f55de797f546a1b29d1b8d66be687a__Team-Foundation-Server-2013-Update4-WS2012R2",
+    "imageReference": {
+      "publisher": "MicrosoftVisualStudio",
+      "offer": "TeamFoundationServer",
+      "sku": "2013-Update4"
+    },
     "OS": "Windows",
     "description": "Microsoft Team Foundation Server 2013 Trial on Windows Server 2012 R2 Update. Virtual Machines created with this trial image will require a product key for Team Foundation Server (such as from an MSDN Subscription). This image includes a complete installation of Team Foundation Server 2013 Update 4. Some components require additional setup and configuration. You can configure SQL Server using SQL Server Express included in this image, by downloading and installing SQL Server Standard edition (from an MSDN Subscription), or by connect to a pre-existing SQL Server. Minimum virtual machine size for this image is Medium. For more details on TFS server setup please see the <a href='http://msdn.microsoft.com/en-us/library/dd631902.aspx' target='_blank'>Team Foundation Server install guide</a>.",
     "iconPath": "Icons",

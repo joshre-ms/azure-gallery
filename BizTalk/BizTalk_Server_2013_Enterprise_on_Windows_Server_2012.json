@@ -3,6 +3,11 @@
     "label": "BizTalk Server 2013 Enterprise",
     "displayName": "BizTalk Server 2013 Enterprise",
     "MediaName": "2cdc6229df6344129ee553dd3499f0d3__BizTalk-Server-2013-Enterprise",
+    "imageReference": {
+      "publisher": "MicrosoftBizTalkServer",
+      "offer": "BizTalk-Server",
+      "sku": "2013-Enterprise"
+    },
     "OS": "Windows",
     "description": "This image contains the Enterprise edition of BizTalk Server 2013. Some BizTalk Server components like accelerators require additional setup before use. Medium is the recommended size for this image.",
     "iconPath": "Icons",

@@ -1,11 +1,15 @@
 {
-    "publisher": "MS Open Tech",
-    "publisherDisplayName": "Microsoft Open Technologies, Inc.",
+    "publisher": "Microsoft",
     "label": "Oracle Database 12c Standard Edition",
     "displayName": "Oracle Database 12c Standard Edition",
-    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Oracle-Database-12.1.0.1.0-150324-SE-Win-GA",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Oracle-Database-12.1.0.1.0-20150507-SE-Win-GA",
+    "imageReference": {
+      "publisher": "Microsoft",
+      "offer": "Oracle_Database_12c",
+      "sku": "Oracle_Database_12c_Standard_Edition"
+    },
     "OS": "Windows",
-    "description": "<a href='http://www.oracle.com/database' target='_blank'>Oracle Database</a> 12c Standard Edition (12.1.0.1.0) is an affordable, full-featured data management solution that is ideal for midsize companies.  Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Small</a>.",
+    "description": "<a href='http://www.oracle.com/database' target='_blank'>Oracle Database</a> 12c Standard Edition (12.1.0.1.0) is an affordable, full-featured data management solution that is ideal for midsize companies.  Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Standard_DS12</a>.",
     "iconPath": "Icons/OracleDB",
     "categories": [
         "virtualMachine",

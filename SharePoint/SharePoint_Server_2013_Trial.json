@@ -2,9 +2,14 @@
     "publisher": "Microsoft",
     "label": "SharePoint Server 2013 Trial",
     "displayName": "SharePoint Server 2013 Trial",
-    "MediaName": "c6e0f177abd8496e934234bd27f46c5d__SharePoint-2013-Trial-1-20-2015",
+    "MediaName": "c6e0f177abd8496e934234bd27f46c5d__SharePoint-2013-Trial-7-9-2015",
+    "imageReference": {
+      "publisher": "MicrosoftSharepoint",
+      "offer": "MicrosoftSharePointServer",
+      "sku": "2013"
+    },
     "OS": "Windows",
-    "description": "Microsoft SharePoint Server 2013 Trial on Windows Server 2012 Datacenter. Virtual Machines created with this trial image will expire on July 11, 2015. This image includes a complete installation of SharePoint Server 2013. Some SharePoint Server 2013 components require additional setup and configuration. You can set-up Active Directory and SQL Server required for your SharePoint farm by provisioning additional virtual machines. Minimum recommended virtual machine size for this image is Large. To evaluate the advanced capabilities of SharePoint Server 2013, we recommend that you use a virtual machine size of A4.",
+    "description": "Microsoft SharePoint Server 2013 Trial on Windows Server 2012 Datacenter. Virtual Machines created with this trial image will expire on January 5, 2016. This image includes a complete installation of SharePoint Server 2013. Some SharePoint Server 2013 components require additional setup and configuration. You can set-up Active Directory and SQL Server required for your SharePoint farm by provisioning additional virtual machines. Minimum recommended virtual machine size for this image is Large. To evaluate the advanced capabilities of SharePoint Server 2013, we recommend that you use a virtual machine size of A4.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",

@@ -3,6 +3,11 @@
     "label": "SQL Server 2014 for Transactional Workloads Windows Server 2012 R2",
     "displayName": "SQL Server 2014 Enterprise Optimized for Transactional Workloads on Windows Server 2012 R2",
     "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2014-RTM-12.0.2048.0-OLTP-ENU-Win2012R2-cy15su04",
+    "imageReference": {
+      "publisher": "MicrosoftSQLServer",
+      "offer": "SQL2014-WS2012R2",
+      "sku": "Enterprise-Optimized-for-OLTP"
+    },
     "imagetype": "VMImage",
     "dataDisksCount": "15",
     "OS": "Windows",
@@ -41,14 +46,6 @@
     "eula": "http://go.microsoft.com/fwlink/?LinkID=512497",
     "privacy": "http://go.microsoft.com/fwlink/?LinkID=282418",
     "screenshot": null,
-    "endpoints": [
-        {
-            "endpointName": "SQL Server",
-            "privatePort": 1433,
-            "publicPort": 1433,
-            "protocol": "tcp"
-        }
-    ],
     "supportedExtensions": [
         "SqlIaaSAgent",
         "SqlIaasAgent-AutoBackup",
