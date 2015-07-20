@@ -1,0 +1,40 @@
+{
+    "publisher": "Microsoft",
+    "label": "Visual Studio Professional 2015 with Azure SDK 2.7 and Apache Cordova Tools on Windows 8.1 Enterprise N (x64)",
+    "displayName": "Visual Studio Professional 2015 with Azure SDK 2.7 and Apache Cordova Tools on Windows 8.1 Enterprise N (x64)",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Professional-AzureSDK-2.7-Cordova-Win8.1-N-x64",
+    "imageReference": {
+      "publisher": "MicrosoftVisualStudio",
+      "offer": "VisualStudio",
+      "sku": "VS-2015-Professional-AzureSDK-2.7-Cordova-Win8.1-N-x64"
+    },
+    "OS": "Windows",
+    "description": "With Visual Studio Professional you can create applications across devices and services, using a single solution with a consistent development experience.  You get the tools, you need to deliver desktop, Windows Store, Windows Phone, and Office apps, as well as mobile web apps across any device, web site, cloud service, and more.  This image contains Windows 8.1 Enterprise N with Visual Studio Professional 2015.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "47970b32416a",
+        "windows",
+        "appInfra"
+    ],
+    "recommendedSizes": [
+        "Standard_D2",
+        "Medium",
+        "Standard_DS2"
+    ],
+    "links": [
+        {
+            "label": "Documentation",
+            "uri": "http://azure.microsoft.com/en-us/campaigns/visual-studio-2013/"
+        },
+        {
+            "label": "MSDN Azure benefit details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
+        }
+    ],
+    "eula": "http://msdn.microsoft.com/subscriptions/eula",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkID=528096",
+    "screenshot": "Screenshots/VisualStudioOnWindowsClient.png"
+}

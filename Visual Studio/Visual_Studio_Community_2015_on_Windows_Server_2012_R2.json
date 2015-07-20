@@ -1,15 +1,15 @@
 {
     "publisher": "Microsoft",
-    "label": "Visual Studio Community 2015 RC",
-    "displayName": "Visual Studio Community 2015 RC with Azure SDK 2.6 on Windows Server 2012 R2",
-    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Visual-Studio-2015-Community-RC-AzureSDK-2.6-WS2012R2-201505.26",
+    "label": "Visual Studio Community 2015 with Azure SDK 2.7 on Windows Server 2012 R2",
+    "displayName": "Visual Studio Community 2015 with Azure SDK 2.7 on Windows Server 2012 R2",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Community-AzureSDK-2.7-WS2012R2",
     "imageReference": {
       "publisher": "MicrosoftVisualStudio",
       "offer": "VisualStudio",
-      "sku": "2015-Community-RC"
+      "sku": "VS-2015-Community-AzureSDK-2.7-WS2012R2"
     },
     "OS": "Windows",
-    "description": "Visual Studio Community 2015 is our free, full featured and extensible IDE for non-enterprise application development.  This image contains Windows Server 2012 R2 with Visual Studio Community 2015 RC.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.",
+    "description": "Visual Studio Community 2015 is our free, full featured and extensible IDE for non-enterprise application development.  This image contains Windows Server 2012 R2 with Visual Studio Community 2015.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -33,7 +33,7 @@
             "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
         }
     ],
-    "eula": "http://go.microsoft.com/fwlink/?LinkId=521895",
+    "eula": "http://go.microsoft.com/fwlink/?LinkId=614946",
     "privacy": "http://go.microsoft.com/fwlink/?LinkID=528096",
     "screenshot": "Screenshots/VisualStudioOnWindowsServer.png"
 }
