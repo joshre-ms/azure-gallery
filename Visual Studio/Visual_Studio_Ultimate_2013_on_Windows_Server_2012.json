@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "Visual Studio Ultimate 2013 Update 5 on Windows Server 2012",
     "displayName": "Visual Studio Ultimate 2013 Update 5 on Windows Server 2012",
-    "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2013-Ultimate-VSU5-AzureSDK-2.7-WS2012R2",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2013-Ultimate-VSU5-AzureSDK-2.7-SQL-WS2012R2",
     "imageReference": {
       "publisher": "MicrosoftVisualStudio",
       "offer": "VisualStudio",
