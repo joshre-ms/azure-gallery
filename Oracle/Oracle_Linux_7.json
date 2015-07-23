@@ -3,6 +3,11 @@
     "label": "Oracle Linux 7",
     "displayName": "Oracle Linux 7.0.0.0.0",
     "MediaName": "c290a6b031d841e09f2da759bbabe71f__Oracle-Linux-7",
+    "imageReference": {
+      "publisher": "Oracle",
+      "offer": "Oracle-Linux-7",
+      "sku": "OL70"
+    },
     "OS": "Linux",
     "description": "Oracle Linux 7.0.0.0 delivers extreme performance, advanced scalability, and reliability for enterprise applications and systems. Optimized for enterprise workloads, Oracle Linux is the only operating system to offer zero-downtime updates.",
     "iconPath": "Icons/Linux",
