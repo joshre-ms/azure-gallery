@@ -5,7 +5,7 @@
     "MediaName": "3422a428aaf14529884165693cbb90d3__DreamFactory_1.7.8-0_-_Ubuntu_14.04",
     "imageReference": {
         "publisher": "Bitnami",
-        "offer": "BizTalk-Server",
+        "offer": "DreamFactory",
         "sku": "1.7"
     },
     "OS": "Linux",
