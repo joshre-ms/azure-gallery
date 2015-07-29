@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "SQL Server 2016 CTP2 Evaluation Windows Server 2012 R2",
     "displayName": "SQL Server 2016 CTP2 Evaluation on Windows Server 2012 R2",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQLServer2016CTP2.2-13.0.400.91-Evaluation-ENU-SQLENTCORE.ENU.Mar-WS2012R2",
+    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQLServer2016CTP2-13.0.407.1-Evaluation-ENU-SQLEVAL.ENU.Mar-WS2012R2",
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
       "offer": "SQL2016CTP2-WS2012R2",
