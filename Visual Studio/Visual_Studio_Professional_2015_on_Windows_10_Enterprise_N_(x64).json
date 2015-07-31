@@ -1,7 +1,7 @@
 {
     "publisher": "Microsoft",
-    "label": "Visual Studio Professional 2015 with Azure SDK 2.7 on Windows 10 Enterprise N (x64)",
-    "displayName": "Visual Studio Professional 2015 with Azure SDK 2.7 on Windows 10 Enterprise N (x64)",
+    "label": "Visual Studio Professional 2015 with Universal Windows Tools and Azure SDK 2.7 on Windows 10 Enterprise N (x64)",
+    "displayName": "Visual Studio Professional 2015 with Universal Windows Tools and Azure SDK 2.7 on Windows 10 Enterprise N (x64)",
     "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Professional-AzureSDK-2.7-W10T-Win10-N-x64-201507.30",
     "imageReference": {
       "publisher": "MicrosoftVisualStudio",
