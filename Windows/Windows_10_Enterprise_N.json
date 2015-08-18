@@ -1,15 +1,15 @@
 {
     "publisher": "Microsoft",
-    "label": "Windows 10 Enterprise Insider Preview (x64)",
-    "displayName": "Windows 10 Enterprise Insider Preview (x64)",
-    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Windows10-Enterprise-10074",
+    "label": "Windows 10 Enterprise N (x64)",
+    "displayName": "Windows 10 Enterprise N (x64)",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Windows10-Enterprise-N-10240-201507.30",
     "imageReference": {
       "publisher": "MicrosoftVisualStudio",
       "offer": "Windows",
-      "sku": "10-Enterprise"
+      "sku": "10-Enterprise-N"
     },
     "OS": "Windows",
-    "description": "For more information about this product, please visit https://insider.windows.com. Join the Windows Insider Program (https://insider.windows.com/) to receive more frequent, incremental builds of Windows. This image contains the Windows 10 Enterprise Insider Preview (x64) and is exclusively available to MSDN subscribers. It allows you to easily and quickly set up an environment in Azure to develop and test applications targeting Windows 10.",
+    "description": "This image contains Windows 10 Enterprise N (x64) and is exclusively available to MSDN subscribers.  It allows you to easily and quickly set up an environment in Azure to develop and test applications targeting Windows 10. Join the Windows Insider Program (https://insider.windows.com/) to receive more frequent, incremental builds of Windows.",
     "iconPath": "Icons/Client",
     "categories": [
         "virtualMachine",
@@ -39,7 +39,7 @@
             "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
         }
     ],
-    "eula": "http://go.microsoft.com/fwlink/?LinkId=519256",
-    "privacy": "http://go.microsoft.com/fwlink/?LinkId=506737",
+    "eula": "http://go.microsoft.com/fwlink/?LinkID=529064",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkID=521839",
     "screenshot": "Screenshots/Windows10.png"
 }

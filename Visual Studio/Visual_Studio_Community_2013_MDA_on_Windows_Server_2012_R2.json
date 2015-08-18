@@ -1,15 +1,15 @@
 {
     "publisher": "Microsoft",
     "label": "Visual Studio Community 2013 MDA on Windows Server 2012 R2",
-    "displayName": "Visual Studio Community 2013 with Tools for Apache Cordova CTP 3.1 on Windows Server 2012 R2",
-    "MediaName": "03f55de797f546a1b29d1b8d66be687a__Visual-Studio-2013-Community-12.0.31101.0-ApacheCordova-CTP3.1-AzureSDK-2.6-WS2012R2-201505.27",
+    "displayName": "Visual Studio Community 2013 Update 5 with Tools for Apache Cordova CTP 3.2 on Windows Server 2012 R2",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2013-Community-VSU5-Cordova-CTP3.2-AzureSDK-2.7-WS2012R2",
     "imageReference": {
       "publisher": "MicrosoftVisualStudio",
       "offer": "VisualStudio",
-      "sku": "2013-Community-Update-4-ws2012-cor31"
+      "sku": "VS-2013-Community-VSU5-Cordova-CTP3.2-AzureSDK-2.7-WS2012R2"
     },
     "OS": "Windows",
-    "description": "This image contains Windows Server 2012 R2, Visual Studio Community 2013, and CTP 3.1 of the Tools for Apache Cordova. It allows you to easily and quickly set up a development environment in Azure to build and test Android, iOS, and Windows apps using HTML, CSS, and JavaScript. Please see [http://go.microsoft.com/fwlink/?LinkID=397716|http://go.microsoft.com/fwlink/?LinkID=397716] for more information.",
+    "description": "This image provides Visual Studio Community 2013 Update 5, Azure Tools 2.7, and CTP 3.2 of the Tools for Apache Cordova running on Windows Server 2012 R2.  It allows you to easily and quickly set up a development environment in Azure to build and test Android, iOS, and Windows apps using HTML, CSS, and JavaScript. Please see [http://go.microsoft.com/fwlink/?LinkID=397716|http://go.microsoft.com/fwlink/?LinkID=397716] for more information.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -33,7 +33,7 @@
             "uri": "http://azure.microsoft.com/en-us/campaigns/visual-studio-2013/"
         }
     ],
-    "eula": "http://msdn.microsoft.com/subscriptions/eula",
+    "eula": "http://go.microsoft.com/fwlink/?LinkID=430755",
     "privacy": "http://go.microsoft.com/fwlink/?LinkID=286720",
     "screenshot": "Screenshots/VisualStudioOnWindowsClient.png"
 }

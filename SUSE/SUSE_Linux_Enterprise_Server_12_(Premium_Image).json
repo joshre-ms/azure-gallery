@@ -2,7 +2,7 @@
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 12 (Premium Image)",
     "displayName": "SLES 12 (Premium)",
-    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-priority-v20150213",
+    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-priority-v20150512",
     "imageReference": {
       "publisher": "SUSE",
       "offer": "SLES-Priority",
