@@ -1,0 +1,48 @@
+{
+    "publisher": "Microsoft",
+    "label": "Windows Server 2016 Technical Preview with Containers",
+    "displayName": "Windows Server Container Preview on Windows Server 2016 Technical Preview 3 Core Installation",
+    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__WindowsServer_en-us_TP3_Container_VHD_Azure.vhd",
+    "imageVersions": [
+        {
+        "version": "August, 2015",
+        "publishedDate": "8/19/2015",
+        "mediaName": "a699494373c04fc0bc8f2bb1389d6106__WindowsServer_en-us_TP3_Container_VHD_Azure.vhd"
+        }
+    ],
+     "imageReference": {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2016-Technical-Preview-3-with-Containers"
+    },
+    "OS": "Windows",
+    "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
+    "description": "This image contains the Windows Server 2016 Technical Preview 3 core installation with the Container role enabled. The new Container role on Windows Server Technical Preview 3 allows Window Server Container creation, management, and operation. For more information about Windows Server Containers, see <a href='https://msdn.microsoft.com/virtualization/windowscontainers/containers_welcome' target='_blank'>here</a>.",
+    "iconPath": "Icons/Server",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "appInfra",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Standard_D1",
+        "Small",
+        "Standard_DS2"
+    ],
+    "links": [
+     {
+            "label": "Learn more",
+            "uri": "http://windows.microsoft.com/en-us/windows/preview-how-to#how-to=tab0"
+        },
+        {
+            "label": "Documentation",
+            "uri": "http://technet.microsoft.com/en-us/library/dn765472.aspx"
+        }
+    ],
+    "eula": "http://go.microsoft.com/fwlink/?LinkId=544707",
+    "privacy": null,
+    "screenshot": null
+}
