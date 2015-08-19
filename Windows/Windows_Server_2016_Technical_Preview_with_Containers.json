@@ -28,7 +28,7 @@
     "links": [
      {
             "label": "Learn more",
-            "uri": "http://windows.microsoft.com/en-us/windows/preview-how-to#how-to=tab0"
+            "uri": "https://int.msdn.microsoft.com/virtualization/windowscontainers/quick_start/azure_setup"
         },
         {
             "label": "Documentation",
