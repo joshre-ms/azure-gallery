@@ -1,6 +1,6 @@
 {
     "publisher": "Microsoft",
-    "label": "Windows Server Container Preview",
+    "label": "Windows Server 2016 Technical Preview with Containers",
     "displayName": "Windows Server Container Preview",
     "MediaName": "a699494373c04fc0bc8f2bb1389d6106__WindowsServer_en-us_TP3_Container_VHD_Azure-20150819.vhd",
      "imageReference": {
