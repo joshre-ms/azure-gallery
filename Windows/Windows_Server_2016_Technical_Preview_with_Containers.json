@@ -27,12 +27,12 @@
     ],
     "links": [
      {
-            "label": "Learn more",
-            "uri": "https://int.msdn.microsoft.com/virtualization/windowscontainers/quick_start/azure_setup"
+            "label": "Quick Start",
+            "uri": "https://msdn.microsoft.com/virtualization/windowscontainers/quick_start/azure_setup"
         },
         {
-            "label": "Documentation",
-            "uri": "http://technet.microsoft.com/en-us/library/dn765472.aspx"
+            "label": "Learn more",
+            "uri": "https://msdn.microsoft.com/virtualization/windowscontainers/containers_welcome"
         }
     ],
     "eula": "http://go.microsoft.com/fwlink/?LinkId=544707",
