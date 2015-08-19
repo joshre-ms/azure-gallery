@@ -1,0 +1,41 @@
+{
+    "publisher": "OpenLogic",
+    "label": "CentOS-based 6.7",
+    "displayName": "CentOS-based 6.7",
+    "MediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-67-20150815",
+    "imageReference": {
+      "publisher": "OpenLogic",
+      "offer": "CentOS",
+      "sku": "6.7"
+    },
+    "OS": "Linux",
+    "description": "This distribution of Linux is based on CentOS version 6.7 and is provided by OpenLogic. It contains an installation of the Basic Server packages.",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra",
+        "azureCertified",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Standard_D1",
+        "Small",
+        "Standard_DS2"
+    ],
+    "links": [
+        {
+            "label": "Learn more",
+            "uri": "http://www.openlogic.com/azure/"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+        }
+    ],
+    "eula": "http://www.openlogic.com/azure/service-agreement/",
+    "privacy": null,
+    "screenshot": null
+}
