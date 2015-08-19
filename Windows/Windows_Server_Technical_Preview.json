@@ -9,7 +9,7 @@
       "sku": "Windows-Server-Technical-Preview"
     },
     "OS": "Windows",
-    "description": "At the heart of the Microsoft Cloud Platform, Windows Server brings the breadth and depth of Microsoft’s experience delivering global-scale cloud services to your datacenter infrastructure.  Windows Server Technical Preview provides a range of new and enhanced capabilities and features spanning server virtualization, storage, networking, server management and automation, web and application platform, access and information protection, remote desktop infrastructure, and more.  By clicking the Create button, I acknowledge that this VHD contains a preview release and should strictly be used for testing purposes . The VHD won’t be serviced or supported for production use and the trial period expires on October 1, 2015.",
+    "description": "At the heart of the Microsoft Cloud Platform, Windows Server brings the breadth and depth of Microsoft’s experience delivering global-scale cloud services to your datacenter infrastructure.  Windows Server Technical Preview provides a range of new and enhanced capabilities and features spanning server virtualization, storage, networking, server management and automation, web and application platform, access and information protection, remote desktop infrastructure, and more.  By clicking the Create button, I acknowledge that this VHD contains a preview release and should strictly be used for testing purposes . The VHD won’t be serviced or supported for production use and the trial period expires on July 15th, 2016.",
     "iconPath": "Icons/Server",
     "categories": [
         "virtualMachine",
