@@ -29,5 +29,6 @@
       "label": "Documentation",
       "uri": "https://coreos.com/docs/running-coreos/cloud-providers/azure/"
     }
-  ]
+  ],
+  "hardened": true
 }
