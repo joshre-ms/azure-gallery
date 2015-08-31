@@ -1,8 +1,8 @@
 {
     "publisher": "Riverbed Technology",
-    "label": "Riverbed SteelHead CX 8.6",
-    "displayName": "Riverbed SteelHead CX 8.6",
-    "MediaName": "63fcd0d5707b41b1b10f2a1d03ccc387__SteelHead-8.6.2-52-20141222",
+    "label": "Riverbed SteelHead CX 9.0",
+    "displayName": "Riverbed SteelHead CX 9.0",
+    "MediaName": "63fcd0d5707b41b1b10f2a1d03ccc387__SteelHead-9.0.1-87-20150420",
     "imageReference": {
       "publisher": "riverbed",
       "offer": "steelapp_traffic_manager",
