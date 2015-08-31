@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "Windows Server Technical Preview",
     "displayName": "Windows Server 2016 Technical Preview 3",
-    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-Technical-Preview-20150819-en.us-127GB.vhd",
+    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-Technical-Preview-20150818-en.us-127GB.vhd",
     "imageReference": {
       "publisher": "MicrosoftWindowsServer",
       "offer": "WindowsServer",
