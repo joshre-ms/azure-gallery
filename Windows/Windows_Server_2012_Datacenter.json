@@ -2,17 +2,17 @@
     "publisher": "Microsoft",
     "label": "Windows Server 2012 Datacenter",
     "displayName": "Windows Server 2012 Datacenter",
-    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-201506.01-en.us-127GB.vhd",
+    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-20150824-en.us-127GB.vhd",
     "imageVersions": [
         {
-        "version": "June, 2015",
-        "publishedDate": "6/25/2015",
-        "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-201506.01-en.us-127GB.vhd"
+        "version": "July, 2015",
+        "publishedDate": "7/26/2015",
+        "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-20150726-en.us-127GB.vhd"
         },
         {
-        "version": "May, 2015",
-        "publishedDate": "5/22/2015",
-        "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-201505.01-en.us-127GB.vhd"
+        "version": "August, 2015",
+        "publishedDate": "8/24/2015",
+        "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-20150824-en.us-127GB.vhd"
         }
     ],
      "imageReference": {
