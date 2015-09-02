@@ -19,9 +19,11 @@
         "database"
     ],
     "recommendedSizes": [
-        "Standard_D12",
-        "Standard_DS12",
-        "A6"
+        "Standard_DS13",
+        "Standard_DS14",
+        "Standard_GS5",
+        "Standard_D13",
+        "Standard_D14"
     ],
     "links": [
         {
