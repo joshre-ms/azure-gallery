@@ -2,12 +2,12 @@
     "publisher": "Microsoft",
     "label": "Windows Server 2008 R2 SP1",
     "displayName": "Windows Server 2008 R2 SP1",
-    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-20150824-en.us-127GB.vhd",
+    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-20150916-en.us-127GB.vhd",
     "imageVersions": [
         {
-        "version": "July, 2015",
-        "publishedDate": "7/26/2014",
-        "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-20150726-en.us-127GB.vhd"
+        "version": "September, 2015",
+        "publishedDate": "9/16/2014",
+        "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-20150916-en.us-127GB.vhd"
         },
         {
         "version": "August, 2015",
