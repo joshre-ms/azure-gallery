@@ -2,7 +2,7 @@
     "publisher": "Puppet Labs",
     "label": "Puppet Enterprise 3.2",
     "displayName": "Puppet Enterprise 3.2.3",
-    "MediaName": "de89c2ed05c748f5aded3ddc75fdcce4__PuppetEnterpriseMaster-3_2_3-amd64-server-20140514-en-us-30GB",
+    "MediaName": "de89c2ed05c748f5aded3ddc75fdcce4__PuppetEnterpriseMaster-3_2_3_1-amd64-server-20140925.1-en-us-30GB",
     "imageReference": {
       "publisher": "PuppetLabs",
       "offer": "PuppetEnterprise",
