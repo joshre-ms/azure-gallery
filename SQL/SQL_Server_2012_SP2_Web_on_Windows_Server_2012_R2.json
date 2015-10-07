@@ -9,7 +9,7 @@
       "sku": "Web"
     },
     "OS": "Windows",
-    "description": "Some SQL Server components require additional setup and configuration before use. We recommend that you use a virtual machine size of A2 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.",
+    "description": "Some SQL Server components require additional setup and configuration before use. For production workloads we recommend that you use a virtual machine size of DS2 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
