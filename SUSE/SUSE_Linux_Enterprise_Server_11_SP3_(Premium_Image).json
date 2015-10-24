@@ -2,7 +2,7 @@
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 11 SP3 (Premium Image)",
     "displayName": "SLES 11 SP3 (Premium)",
-    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp3-priority-v20150127",
+    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp3-priority-v20150330",
     "imageReference": {
       "publisher": "SUSE",
       "offer": "SLES-Priority",
