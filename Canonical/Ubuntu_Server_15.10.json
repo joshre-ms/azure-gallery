@@ -1,16 +1,16 @@
 {
     "publisher": "Canonical",
-    "label": "Ubuntu Server 12.04 LTS",
-    "displayName": "Ubuntu Server 12.04.5 LTS",
-    "MediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-12_04_5-LTS-amd64-server-20151020-en-us-30GB",
+    "label": "Ubuntu Server 15.10",
+    "displayName": "Ubuntu Server 15.10",
+    "MediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-15_10-amd64-server-20151021-en-us-30GB",
     "imageReference": {
       "publisher": "Canonical",
       "offer": "UbuntuServer",
-      "sku": "12.04.5-LTS"
+      "sku": "15.10"
     },
     "OS": "Linux",
-    "summary": "Ubuntu Server is the world's most popular Linux for cloud environments.",
-    "description": "Ubuntu Server 12.04.5 LTS (amd64 20151020) for Microsoft Azure. Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 12.04.5 LTS will be available until 2017-04-26.  Ubuntu Server is the perfect platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://www.ubuntu.com/cloud' target='_blank'>Ubuntu Cloud</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
+    "summary": "Ubuntu Server delivers the best value scale-out performance available.",
+    "description": "Ubuntu Server 15.10 (amd64 20151021) for Microsoft Azure. Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 15.10 will be available until 2016-07-22.  Ubuntu Server is the perfect platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://www.ubuntu.com/cloud' target='_blank'>Ubuntu Cloud</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -29,7 +29,7 @@
     "links": [
         {
             "label": "Documentation",
-            "uri": "https://help.ubuntu.com/12.04/index.html"
+            "uri": "https://help.ubuntu.com/15.10/index.html"
         },
         {
             "label": "FAQ",
