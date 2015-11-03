@@ -1,12 +1,12 @@
 {
     "publisher": "Puppet Labs",
-    "label": "Puppet Enterprise 3.2",
-    "displayName": "Puppet Enterprise 3.2.3",
-    "MediaName": "de89c2ed05c748f5aded3ddc75fdcce4__PuppetEnterpriseMaster-3_2_3_1-amd64-server-20140925.1-en-us-30GB",
+    "label": "Puppet Enterprise 3.7",
+    "displayName": "Puppet Enterprise 3.7.2",
+    "MediaName": "de89c2ed05c748f5aded3ddc75fdcce4__PuppetEnterpriseMaster-3_7_2-amd64-server-20150309-en-us-30GB",
     "imageReference": {
       "publisher": "PuppetLabs",
       "offer": "PuppetEnterprise",
-      "sku": "3.2"
+      "sku": "3.7"
     },
     "OS": "Linux",
     "description": "This image includes a pre-configured Puppet Master based on the Ubuntu Linux 12.04 LTS distribution for easy deployment of <a href='http://puppetlabs.com/puppet/puppet-enterprise' target='_blank'>Puppet Enterprise</a>. For additional details regarding setup of a Puppet Enterprise environment within Azure, please refer to the <a href='http://info.puppetlabs.com/pe-azure-gsg.html' target='_blank'>Getting Started Guide for Deploying a Puppet Master with Windows Azure</a>.",
@@ -19,9 +19,10 @@
         "azureCertified"
     ],
     "recommendedSizes": [
-        "Standard_D1",
-        "Small",
-        "Standard_DS2"
+        "Standard_D2",
+        "Large",
+        "Standard_DS2",
+        "Standard_D2_v2"
     ],
     "links": [
         {

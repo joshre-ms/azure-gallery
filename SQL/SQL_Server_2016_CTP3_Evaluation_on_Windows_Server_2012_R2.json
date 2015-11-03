@@ -1,15 +1,16 @@
 {
     "publisher": "Microsoft",
-    "label": "SQL Server 2012 SP2 Standard Windows Server 2012 R2",
-    "displayName": "SQL Server 2012 SP2 Standard on Windows Server 2012 R2",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2012-SP2-11.0.5569.0-Std-ENU-Win2012R2-cy15su04",
+    "label": "SQL Server 2016 CTP3 Evaluation Windows Server 2012 R2",
+    "displayName": "SQL Server 2016 CTP3 Evaluation on Windows Server 2012 R2",
+    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16CTP313.0.700.242SQLEVALWS2012R2",
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
-      "offer": "SQL2012SP2-WS2012R2",
-      "sku": "Standard"
+      "offer": "SQL2016CTP3-WS2012R2",
+      "sku": "Enterprise"
     },
     "OS": "Windows",
-    "description": "Some SQL Server components require additional setup and configuration before use. For production workloads we recommend that you use a virtual machine size of DS2 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.",
+    "summary": "Evaluation version of SQL Server 2016 CTP3 for transactional, data warehousing, business intelligence, and analytics workloads.",
+    "description": "This image contains the full version of SQL Server. For production workloads we recommend that you use a virtual machine size of DS3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -33,8 +34,8 @@
             "uri": "http://msdn.microsoft.com/library/azure/jj823132.aspx"
         },
         {
-            "label": "Feature comparison between SQL Server 2012 editions",
-            "uri": "http://msdn.microsoft.com/en-us/library/cc645993(v=sql.110).aspx"
+            "label": "SQL Server 2016 information",
+            "uri": "http://www.microsoft.com/en-us/server-cloud/products/sql-server-2016/"
         },
         {
             "label": "Support forum",
@@ -45,11 +46,12 @@
             "uri": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/#sql-server"
         }
     ],
-    "eula": "http://go.microsoft.com/fwlink/?LinkID=285691",
-    "privacy": "http://www.microsoft.com/en-us/download/details.aspx?id=29067",
+    "eula": "http://download.microsoft.com/download/B/B/3/BB34CE86-413B-4491-9CEE-F57ECC4B53F4/license_Eval.rtf",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkID=398120",
     "screenshot": null,
     "supportedExtensions": [
         "SqlIaaSAgent",
+        "SqlIaasAgent-AutoBackup",
         "SqlIaasAgent-AutoPatching"
     ]
 }

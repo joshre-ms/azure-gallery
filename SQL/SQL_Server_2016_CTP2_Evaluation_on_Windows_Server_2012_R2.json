@@ -10,7 +10,7 @@
     },
     "OS": "Windows",
     "summary": "Evaluation version of SQL Server 2016 CTP2 for transactional, data warehousing, business intelligence, and analytics workloads.",
-    "description": "This image contains the full version of SQL Server. We recommend that you use a virtual machine size of A3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.",
+    "description": "This image contains the full version of SQL Server. For production workloads we recommend that you use a virtual machine size of DS3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='http://msdn.microsoft.com/en-us/library/windowsazure/dn133151.aspx#database' target='_blank'>here</a>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -21,9 +21,12 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
-        "Standard_D13",
+        "Standard_DS12",
+        "Standard_DS11",
         "Standard_DS13",
-        "A7"
+        "Standard_D12",
+        "Standard_D11",
+        "Standard_D13"
     ],
     "links": [
         {
