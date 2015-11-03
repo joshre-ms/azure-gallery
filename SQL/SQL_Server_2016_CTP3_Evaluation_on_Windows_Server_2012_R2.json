@@ -6,7 +6,7 @@
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
       "offer": "SQL2016CTP3-WS2012R2",
-      "sku": "Enterprise"
+      "sku": "Evaluation"
     },
     "OS": "Windows",
     "summary": "Evaluation version of SQL Server 2016 CTP3 for transactional, data warehousing, business intelligence, and analytics workloads.",
