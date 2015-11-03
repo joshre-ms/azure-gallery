@@ -23,8 +23,8 @@
         "Standard_DS11",
         "Standard_GS1",
         "Standard_D1",
-        "Small",
-        "Standard_DS2"
+        "Standard_D1_v2",
+        "Small"
     ],
     "links": [
         {
