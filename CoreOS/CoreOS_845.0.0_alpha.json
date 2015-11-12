@@ -20,9 +20,10 @@
     "appInfra"
   ],
   "recommendedSizes": [
-    "Standard_D1",
-    "Small",
-    "Standard_DS2"
+        "Standard_DS1",
+        "Standard_DS2",
+        "Standard_D1",
+        "Small"    
   ],
   "links": [
     {

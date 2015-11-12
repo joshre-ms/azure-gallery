@@ -20,9 +20,10 @@
         "azureCertified"
     ],
     "recommendedSizes": [
+        "Standard_DS1",
+        "Standard_DS2",
         "Standard_D1",
-        "Small",
-        "Standard_DS2"
+        "Small"  
     ],
     "links": [
         {
