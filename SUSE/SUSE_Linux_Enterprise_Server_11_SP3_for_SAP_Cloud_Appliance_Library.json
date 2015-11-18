@@ -24,7 +24,8 @@
         "Standard_DS3",
         "A6",
         "Standard_DS12",
-        "Standard_D3"
+        "Standard_D3",
+        "Standard_D3_v2"
     ],
     "links": [
         {
