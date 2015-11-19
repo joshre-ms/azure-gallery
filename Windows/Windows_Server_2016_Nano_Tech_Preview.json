@@ -38,6 +38,6 @@
     ],
     "eula": "http://go.microsoft.com/fwlink/?LinkId=544707",
     "privacy": null,
-    "screenshot": null
+    "screenshot": null,
     "hardened": true
 }
