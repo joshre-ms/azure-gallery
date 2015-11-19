@@ -6,7 +6,7 @@
      "imageReference": {
       "publisher": "MicrosoftWindowsServer",
       "offer": "WindowsServer",
-      "sku": "2016-Technical-Preview-3-with-Containers"
+      "sku": "2016-Technical-Preview-with-Containers"
     },
     "OS": "Windows",
     "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
