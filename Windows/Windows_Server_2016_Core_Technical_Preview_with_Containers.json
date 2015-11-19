@@ -1,16 +1,16 @@
 {
     "publisher": "Microsoft",
     "label": "Windows Server 2016 Technical Preview with Containers",
-    "displayName": "Windows Server Container Preview",
-    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__WindowsServer_en-us_TP3_Container_VHD_Azure-20151005.vhd",
+    "displayName": "Windows Server 2016 Core with Containers Tech Preview 4",
+    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__WindowsServerCore_en-us_TP4_Container_Azure-20151118.vhd",
      "imageReference": {
       "publisher": "MicrosoftWindowsServer",
       "offer": "WindowsServer",
-      "sku": "2016-Technical-Preview-3-with-Containers"
+      "sku": "2016-Technical-Preview-with-Containers"
     },
     "OS": "Windows",
     "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
-    "description": "<p>This image contains the Windows Server 2016 Technical Preview 3 core installation with the Container role enabled. The new Container role on Windows Server Technical Preview 3 allows Window Server Container creation, management, and operation. For more information about Windows Server Containers, see <a href='https://msdn.microsoft.com/virtualization/windowscontainers/containers_welcome' target='_blank'>here</a></p><p>PLEASE READ PRIOR TO USING THE CONTAINER OS IMAGE:  The license terms of the Microsoft Windows Server Pre-Release software (“License Terms”) apply to your use of the Microsoft Windows Container OS Image supplement (the “supplemental” software).  By using the supplemental software, you agree to the License Terms, and you may not use it if you have not accepted the License Terms. Both the Windows Server Pre-Release software and the supplemental software are licensed by Microsoft Corporation.</p>",
+    "description": "<p>Windows Server brings the breadth and depth of Microsoft’s experience delivering global-scale cloud services to your datacenter infrastructure. Windows Server 2016 Core with Containers Tech Preview 4 allows you to try the new Windows Server Containers on the Server Core install option for Windows Server. This VHD contains a preview release and should strictly be used for testing purposes. The VHD won’t be serviced or supported for production use and the trial period expires on July 15th, 2016.</p>",
     "iconPath": "Icons/Server",
     "categories": [
         "virtualMachine",
