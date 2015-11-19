@@ -1,15 +1,15 @@
 ﻿{
     "publisher": "Microsoft",
-    "label": "Windows Server Technical Preview",
-    "displayName": "Windows Server 2016 Technical Preview 4",
-    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-Technical-Preview-20151118-en.us-127GB.vhd",
+    "label": "Windows Server 2016 Nano Technical Preview",
+    "displayName": "Windows Server 2016 Nano Technical Preview 4",
+    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Nano_TP4_Azure_20151118_8GB.vhd",
     "imageReference": {
       "publisher": "MicrosoftWindowsServer",
       "offer": "WindowsServer",
-      "sku": "Windows-Server-Technical-Preview"
+      "sku": "2016-Nano-Server-Technical-Preview"
     },
     "OS": "Windows",
-    "description": "At the heart of the Microsoft Cloud Platform, Windows Server brings the breadth and depth of Microsoft’s experience delivering global-scale cloud services to your datacenter infrastructure.  Windows Server Technical Preview provides a range of new and enhanced capabilities and features spanning server virtualization, storage, networking, server management and automation, web and application platform, access and information protection, remote desktop infrastructure, and more.  By clicking the Create button, I acknowledge that this VHD contains a preview release and should strictly be used for testing purposes . The VHD won’t be serviced or supported for production use and the trial period expires on July 15th, 2016.",
+    "description": "Nano Server is a new headless deployment option for Windows Server, running at a fraction of the size of the full operating system. This Technical Preview allows you to try Nano Server and find out how you can benefit from the reduced servicing requirements and increased agility of this new install option. This VHD contains a preview release and should strictly be used for testing purposes. The VHD won’t be serviced or supported for production use and the trial period expires on July 15th, 2016.",
     "iconPath": "Icons/Server",
     "categories": [
         "virtualMachine",
@@ -39,4 +39,5 @@
     "eula": "http://go.microsoft.com/fwlink/?LinkId=544707",
     "privacy": null,
     "screenshot": null
+    "hardened": true
 }
