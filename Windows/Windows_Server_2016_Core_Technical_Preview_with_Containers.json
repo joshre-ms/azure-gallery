@@ -10,7 +10,7 @@
     },
     "OS": "Windows",
     "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
-    "description": "<p>Windows Server brings the breadth and depth of Microsoft’s experience delivering global-scale cloud services to your datacenter infrastructure. Windows Server Core 2016 Technical Preview 4 with Containers allows you to try the new Windows Server Containers on the Server Core install option for Windows Server. This VHD contains a preview release and should strictly be used for testing purposes. The VHD won’t be serviced or supported for production use and the trial period expires on July 15th, 2016.</p>",
+    "description": "<p>Windows Server brings the breadth and depth of Microsoft’s experience delivering global-scale cloud services to your datacenter infrastructure. Windows Server 2016 Core with Containers Tech Preview 4 allows you to try the new Windows Server Containers on the Server Core install option for Windows Server. This VHD contains a preview release and should strictly be used for testing purposes. The VHD won’t be serviced or supported for production use and the trial period expires on July 15th, 2016.</p>",
     "iconPath": "Icons/Server",
     "categories": [
         "virtualMachine",
