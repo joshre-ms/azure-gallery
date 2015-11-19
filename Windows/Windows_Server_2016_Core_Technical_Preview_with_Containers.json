@@ -1,7 +1,7 @@
 {
     "publisher": "Microsoft",
     "label": "Windows Server 2016 Technical Preview with Containers",
-    "displayName": "Windows Server 2016 Core with Containers Tech Preview",
+    "displayName": "Windows Server 2016 Core with Containers Tech Preview 4",
     "MediaName": "a699494373c04fc0bc8f2bb1389d6106__WindowsServerCore_en-us_TP4_Container_Azure-20151118.vhd",
      "imageReference": {
       "publisher": "MicrosoftWindowsServer",
