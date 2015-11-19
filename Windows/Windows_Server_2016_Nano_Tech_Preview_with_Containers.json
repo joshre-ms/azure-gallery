@@ -1,0 +1,45 @@
+{
+    "publisher": "Microsoft",
+    "label": "Windows Server 2016 Nano with Containers Tech Preview",
+    "displayName": "Windows Server 2016 Nano with Containers Tech Preview 4",
+    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__NanoServer_en-us_TP4_Container_Azure-20151116.vhd",
+     "imageReference": {
+      "publisher": "MicrosoftWindowsServer",
+      "offer": "WindowsServer",
+      "sku": "2016-Nano-Server-Technical-Preview-with-Containers"
+    },
+    "OS": "Windows",
+    "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
+    "description": "<p>Nano Server is a new headless deployment option for Windows Server, running at a fraction of the size of the full operating system. Windows Server Nano 2016 Technical Preview 4 allows you to try Nano Server and find out how you can benefit from the reduced servicing requirements and increased agility of this new install option. You can also explore how Nano Server runs with the new Windows Server Containers and Hyper-V Containers for flexibility in building modern apps. This VHD contains a preview release and should strictly be used for testing purposes. The VHD won’t be serviced or supported for production use and the trial period expires on July 15th, 2016.</p>",
+    "iconPath": "Icons/Server",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "appInfra",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Standard_DS1",
+        "Standard_DS11",
+        "Standard_DS2",
+        "Standard_D1",
+        "Standard_D1_v2",
+        "Small"
+    ],
+    "links": [
+     {
+            "label": "Quick Start",
+            "uri": "https://msdn.microsoft.com/virtualization/windowscontainers/quick_start/azure_setup"
+        },
+        {
+            "label": "Learn more",
+            "uri": "https://msdn.microsoft.com/virtualization/windowscontainers/containers_welcome"
+        }
+    ],
+    "eula": "http://go.microsoft.com/fwlink/?LinkId=544707",
+    "privacy": null,
+    "screenshot": null,
+    "hardened": true
+}
