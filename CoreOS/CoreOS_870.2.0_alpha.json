@@ -1,8 +1,8 @@
 {
   "publisher": "CoreOS",
   "label": "CoreOS Alpha",
-  "displayName": "CoreOS Alpha (845.0.0)",
-  "MediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Alpha-845.0.0",
+  "displayName": "CoreOS Alpha (870.2.0)",
+  "MediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Alpha-870.2.0",
   "imageReference": {
     "publisher": "CoreOS",
     "offer": "CoreOS",
