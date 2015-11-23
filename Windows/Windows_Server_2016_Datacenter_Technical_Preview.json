@@ -1,8 +1,8 @@
 ﻿{
     "publisher": "Microsoft",
     "label": "Windows Server Technical Preview",
-    "displayName": "Windows Server 2016 Technical Preview 3",
-    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-Technical-Preview-20150819-en.us-127GB.vhd",
+    "displayName": "Windows Server 2016 Technical Preview 4",
+    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-Technical-Preview-20151118-en.us-127GB.vhd",
     "imageReference": {
       "publisher": "MicrosoftWindowsServer",
       "offer": "WindowsServer",
@@ -21,7 +21,7 @@
     "recommendedSizes": [
         "Standard_DS1",
         "Standard_DS11",
-        "Standard_GS1",
+        "Standard_DS2",
         "Standard_D1",
         "Standard_D1_v2",
         "Small"

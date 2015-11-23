@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "HPC Pack 2012 R2 Compute Node with Excel on Windows Server 2012 R2",
     "displayName": "HPC Pack 2012 R2 Compute Node with Excel on Windows Server 2012 R2",
-    "MediaName": "96316178b0644ae08bc4e037635ce104__HPC-Pack-2012R2-Update2-CN-Excel-4.4.4868.0-WS2012R2-ENU",
+    "MediaName": "96316178b0644ae08bc4e037635ce104__HPC-Pack-2012R2-Update3-CN-Excel-4.5.5079.0-WS2012R2-ENU",
     "imageReference": {
       "publisher": "MicrosoftWindowsServerHPCPack",
       "offer": "WindowsServerHPCPack",
@@ -10,7 +10,7 @@
     },
     "OS": "Windows",
     "summary": "Enterprise-class High Performance Computing solution that is simple to deploy, cost-effective, application-focused, and user-centric.",
-    "description": "This image contains the Windows Server 2012 R2 Datacenter operating system with HPC Pack 2012 R2 Update 2 and evaluation version of Microsoft Excel Professional Plus 2013 installed to create the compute node of a Windows high performance computing (HPC) cluster in Azure. We recommend using a VM size of at least A3. It is strongly recommended to use the Azure Resource Manager (ARM) templates or the HPC Pack IaaS deployment script to automatically create an HPC cluster in Azure with the HPC Pack images. For more information <a href='http://go.microsoft.com/fwlink/?LinkId=618018' target='_blank'>see here</a>.",
+    "description": "This image contains the Windows Server 2012 R2 Datacenter operating system with HPC Pack 2012 R2 Update 3 and evaluation version of Microsoft Excel Professional Plus 2013 installed to create the compute node of a Windows high performance computing (HPC) cluster in Azure. We recommend using a VM size of at least A3. It is strongly recommended to use the Azure Resource Manager (ARM) templates or the HPC Pack IaaS deployment script to automatically create an HPC cluster in Azure with the HPC Pack images. For more information <a href='http://go.microsoft.com/fwlink/?LinkId=618018' target='_blank'>see here</a>.",
     "iconPath": "Icons/Server",
     "categories": [
         "virtualMachine",
