@@ -9,7 +9,7 @@
       "sku": "Web"
     },
     "OS": "Windows",
-    "description": "For production workloads we recommend that you use a virtual machine size of DS2 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip' target='_blank'>here</a>.",
+    "description": "For production workloads we recommend that you use a virtual machine size of DS2 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip' target='_blank'>here</a>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -29,19 +29,19 @@
     "links": [
         {
             "label": "Documentation",
-            "uri": "https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-sql-server-infrastructure-services/"
+            "uri": "https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/"
         },
         {
             "label": "Feature comparison between SQL Server 2008 R2 editions",
-            "uri": "http://msdn.microsoft.com/en-us/library/cc645993(v=sql.105).aspx"
+            "uri": "http://msdn.microsoft.com/library/cc645993(v=sql.105).aspx"
         },
         {
             "label": "Support forum",
-            "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/en-US/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=SQL"
+            "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=SQL"
         },
         {
             "label": "Pricing details",
-            "uri": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/#sql-server"
+            "uri": "https://azure.microsoft.com/pricing/details/virtual-machines/#sql-server"
         }
     ],
     "eula": "http://go.microsoft.com/fwlink/?LinkID=285686",
