@@ -3,11 +3,6 @@
     "label": "Riverbed SteelHead CX 9.0",
     "displayName": "Riverbed SteelHead CX 9.0",
     "MediaName": "63fcd0d5707b41b1b10f2a1d03ccc387__SteelHead-9.0.1-87-20150420",
-    "imageReference": {
-      "publisher": "riverbed",
-      "offer": "steelapp_traffic_manager",
-      "sku": "stm_dev_64_byol"
-    },
     "OS": "Linux",
     "description": "<p>Riverbed SteelHead WAN optimization for Microsoft Azure</p><p>Riverbed SteelHead CX for Microsoft Azure speeds the transfer of data and applications to the cloud from end users over the Internet and WAN. Overcome latency, bandwidth constraints and competition for resources among applications with data, application and transport streamlining for peak application service levels. SteelHead CX speeds migration to the public cloud and accelerates access for users from virtually any location.</p><p>SteelHead CX for Microsoft Azure is available as a monthly subscription. Terms as short as six months enable cost management and the ability to cost-effectively offer the right service level based on user demand.</p><p>The SteelHead image will function in a limited fashion until a data-disk is added and a valid CCX license applied to the instance. Please use admin/password as initial login credentials to the SteelHead. For details and recommendations please refer to our support <a href = 'https://support.riverbed.com/bin/support/static/doc/cloud/cloud_sh_2.3_ug/wwhelp/wwhimpl/js/html/wwhelp.htm#href=azure_cloud_sh.7.4.html' target = '_blank'>link</a>.</p>",
     "iconPath": "Icons",
