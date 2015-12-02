@@ -1,8 +1,8 @@
 {
   "publisher": "CoreOS",
   "label": "CoreOS Beta",
-  "displayName": "CoreOS Beta (835.7.0)",
-  "MediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Beta-835.7.0",
+  "displayName": "CoreOS Beta (877.1.0)",
+  "MediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Beta-877.1.0",
   "imageReference": {
     "publisher": "CoreOS",
     "offer": "CoreOS",
