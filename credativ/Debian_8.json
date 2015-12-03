@@ -2,7 +2,7 @@
     "publisher": "credativ",
     "label": "Debian 8",
     "displayName": "Debian 8 \"Jessie\"",
-    "MediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-8-amd64-201511260549",
+    "MediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-8-amd64-20151126.0",
     "imageReference": {
       "publisher": "credativ",
       "offer": "Debian",
