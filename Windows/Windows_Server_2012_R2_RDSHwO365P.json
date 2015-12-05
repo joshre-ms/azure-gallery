@@ -1,0 +1,57 @@
+{
+    "publisher": "Microsoft",
+    "label": "Windows Server Remote Desktop Session Host with Microsoft Office 365 ProPlus",
+    "displayName": "Windows Server Remote Desktop Session Host with Microsoft Office 365 ProPlus",
+    "MediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-RDSHwO365P-on-Windows-Server-2012-R2-20151201-1848",
+    "imageVersions": [
+        {
+        "version": "December, 2015",
+        "publishedDate": "12/01/2015",
+        "mediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-RDSHwO365P-on-Windows-Server-2012-R2-20151201-1848"
+        },
+        {
+        "version": "September, 2015",
+        "publishedDate": "9/01/2015",
+        "mediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-RDSHwO365P-on-Windows-Server-2012-R2-20150901-1800"
+        }
+    ],
+     "imageReference": {
+      "publisher": "MicrosoftWindowsServerRemoteDesktop",
+      "offer": "WindowsServer",
+      "sku": "RDSH-Office365P"
+    },
+    "OS": "Windows",
+    "description": "This image contains the Windows Server 2012 R2 operating system with the Remote Desktop Session Host (RD Session Host) role installed along with Microsoft Office 365 ProPlus which has Shared Computer Activation enabled. Microsoft Office 365 ProPlus subscription is required to use Office. This image has been pre-configured for Windows Azure and or Azure RemoteApp. RD Session Host enables a server to host RemoteApp programs or session-based desktops.",
+    "iconPath": "Icons/Server",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "appInfra",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Standard_D3",
+        "Standard_D4",
+        "Large",
+        "ExtraLarge"
+    ],
+    "links": [
+        {
+            "label": "Learn more",
+            "uri": "https://azure.microsoft.com/en-us/documentation/articles/remoteapp-image-on-azurevm/"
+        },
+        {
+            "label": "Documentation",
+            "uri": "https://technet.microsoft.com/en-US/library/hh831447.aspx"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#windows"
+        }
+    ],
+    "eula": null,
+    "privacy": null,
+    "screenshot": null
+}
