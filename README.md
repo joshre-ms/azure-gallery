@@ -84,6 +84,9 @@ The objects are made of the following properties:
 ]
 ```
 
+* `createUIDefinitionHandler`
+Optional. A JSON string specifying the value of the handler tag in the createuidefinition.cs file for CRP packages. 
+
 #### Additional notes
 
 * The file name for a package manifest is not used in creating a gallery package. Feel free to name your package manifests in a a way that helps your organize them best.
