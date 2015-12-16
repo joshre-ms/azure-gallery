@@ -1,7 +1,7 @@
 {
     "publisher": "Microsoft",
-    "label": "Internal -- SQL Server 2014 SP1 Enterprise Windows Server 2012 R2",
-    "displayName": "Internal -- SQL Server 2014 SP1 Enterprise on Windows Server 2012 R2",
+    "label": "SQL Server 2014 SP1 Enterprise Windows Server 2012 R2",
+    "displayName": "(TEST) SQL Server 2014 SP1 Enterprise on Windows Server 2012 R2",
     "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-20140SP1-12.0.4100.1-Ent-ENU-Win2012R2-cy15su05",
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
@@ -55,4 +55,3 @@
     ],
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm"
 }
-
