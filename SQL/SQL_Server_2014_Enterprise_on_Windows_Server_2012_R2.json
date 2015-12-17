@@ -52,5 +52,6 @@
         "SqlIaaSAgent",
         "SqlIaasAgent-AutoBackup",
         "SqlIaasAgent-AutoPatching"
-    ]
+    ],
+    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm"
 }
