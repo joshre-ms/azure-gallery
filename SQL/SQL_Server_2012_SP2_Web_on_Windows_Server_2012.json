@@ -50,5 +50,6 @@
     "supportedExtensions": [
         "SqlIaaSAgent",
         "SqlIaasAgent-AutoPatching"
-    ]
+    ],
+    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm"
 }

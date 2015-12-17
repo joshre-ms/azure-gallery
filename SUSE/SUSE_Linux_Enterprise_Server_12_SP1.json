@@ -1,15 +1,15 @@
 {
     "publisher": "SUSE",
-    "label": "SUSE Linux Enterprise Server 12",
-    "displayName": "SLES 12",
-    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-v20151110",
+    "label": "SUSE Linux Enterprise Server 12 SP1",
+    "displayName": "SLES 12 SP1",
+    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-v20151215",
     "imageReference": {
       "publisher": "SUSE",
       "offer": "SLES",
-      "sku": "12"
+      "sku": "12-SP1"
     },
     "OS": "Linux",
-     "description": "<p><b>SUSE Linux Enterprise Server 12</b></p><p><i><b>Deprecation Notice:</b> This image is deprecated, and will be deleted on 15 June 2016. Please migrate to SLES 12 SP1.</i></p><p>Confidently run your production workloads on SUSE Linux Enterprise Server on Microsoft Azure, knowing that your service levels are guaranteed, and that help from SUSE and Microsoft engineers, if you need it, is just a phone call away.</p><p>SUSE Linux Enterprise Server is the <i>only</i> supported Enterprise Linux distribution available on Microsoft Azure, and the only one supported with tools like <a href='https://susestudio.com' target='_blank'>SUSE Studio</a> for quick and easy image creation, and <a href='https://www.suse.com/products/suse-manager/' target='_blank'>SUSE Manager</a> for monitoring and managing your Linux virtual machines using Microsoft Systems Center.</p>",
+     "description": "<p><b>SUSE Linux Enterprise Server 12 SP1</b></p><p>Confidently run your production workloads on SUSE Linux Enterprise Server on Microsoft Azure, knowing that your service levels are guaranteed, and that help from SUSE and Microsoft engineers, if you need it, is just a phone call away.</p><p>SUSE Linux Enterprise Server is the <i>only</i> supported Enterprise Linux distribution available on Microsoft Azure, and the only one supported with tools like <a href='https://susestudio.com' target='_blank'>SUSE Studio</a> for quick and easy image creation, and <a href='https://www.suse.com/products/suse-manager/' target='_blank'>SUSE Manager</a> for monitoring and managing your Linux virtual machines using Microsoft Systems Center.</p>",
     "iconPath": "Icons/SUSE",
     "categories": [
         "virtualMachine",
@@ -26,7 +26,7 @@
         "Standard_DS2",
         "Standard_D1",
         "Standard_D1_v2",
-        "Small"  
+        "Small"
     ],
     "links": [
         {
