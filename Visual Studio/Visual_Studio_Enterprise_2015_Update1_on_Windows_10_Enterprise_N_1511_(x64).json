@@ -1,7 +1,7 @@
 {
     "publisher": "Microsoft",
-    "label": "Visual Studio Enterprise 2015 Update 1 with Universal Windows Tools and Azure SDK 2.8 on Windows 10 Enterprise N (x64)",
-    "displayName": "Visual Studio Enterprise 2015 Update 1 with Universal Windows Tools and Azure SDK 2.8 on Windows 10 Enterprise N (x64)",
+    "label": "Visual Studio Enterprise 2015 Update 1 with Universal Windows Tools and Azure SDK 2.8 on Windows 10 1511 Enterprise N (x64)",
+    "displayName": "Visual Studio Enterprise 2015 Update 1 with Universal Windows Tools and Azure SDK 2.8 on Windows 10 1511 Enterprise N (x64)",
     "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Ent-VSU1-AzureSDK-2.8-W10T-1511-N-x64",
     "imageReference": {
       "publisher": "MicrosoftVisualStudio",
@@ -9,7 +9,7 @@
       "sku": "VS-2015-Ent-VSU1-AzureSDK-2.8-W10T-1511-N-x64"
     },
     "OS": "Windows",
-    "description": "This image contains Windows 10 Enterprise (x64) with Visual Studio Enterprise 2015 Update 1, including the Universal Windows app development tools and the Windows 10 SDK. It allows you to quickly setup environment in Azure to develop and test applications targeting the Universal Windows Platform.",
+    "description": "This image contains Windows 10 1511 Enterprise (x64) with Visual Studio Enterprise 2015 Update 1, including the Universal Windows app development tools and the Windows 10 SDK. It allows you to quickly setup environment in Azure to develop and test applications targeting the Universal Windows Platform.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
