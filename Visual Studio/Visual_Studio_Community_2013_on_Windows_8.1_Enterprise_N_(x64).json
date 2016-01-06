@@ -1,12 +1,12 @@
 {
     "publisher": "Microsoft",
-    "label": "Visual Studio Community 2013 Update 5 with Azure 2.7 on Windows 8.1 Enterprise N (x64)",
-    "displayName": "Visual Studio Community 2013 Update 5 with Azure 2.7 on Windows 8.1 Enterprise N (x64)",
-    "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2013-Community-VSU5-AzureSDK-2.7-Win8.1-N-x64",
+    "label": "Visual Studio Community 2013 Update 5 with Azure 2.8 on Windows 8.1 Enterprise N (x64)",
+    "displayName": "Visual Studio Community 2013 Update 5 with Azure 2.8 on Windows 8.1 Enterprise N (x64)",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2013-Comm-VSU5-AzureSDK-2.8-Win8.1-N-x64",
     "imageReference": {
       "publisher": "MicrosoftVisualStudio",
       "offer": "VisualStudio",
-      "sku": "VS-2013-Community-VSU5-AzureSDK-2.7-Win8.1-N-x64"
+      "sku": "VS-2013-Comm-VSU5-AzureSDK-2.8-Win8.1-N-x64"
     },
     "OS": "Windows",
     "description": "This Visual Studio Community 2013 Update 5 image enables you to unleash the full power of Visual Studio to develop cross-platform solutions. Create apps in one unified IDE, and incorporate new languages, features, and development tools into them with Visual Studio Extensions (available in the Visual Studio Gallery).",
