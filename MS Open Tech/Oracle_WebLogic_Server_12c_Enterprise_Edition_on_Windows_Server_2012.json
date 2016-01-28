@@ -2,14 +2,14 @@
     "publisher": "Microsoft",
     "label": "Oracle WebLogic Server 12c Enterprise",
     "displayName": "Oracle WebLogic Server 12c Enterprise Edition",
-    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__WebLogic-12.1.2.0-EE-JDK-1.7.0_85-20150810-Win-GA",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__WebLogic-12.2.1.0-EE-JDK-1.7.0_85-20160115-Win-GA",
     "imageReference": {
       "publisher": "Microsoft",
       "offer": "Oracle_WebLogic_Server_12c",
       "sku": "Oracle_Weblogic_Server_12c_Enterprise_Edition"
     },
     "OS": "Windows",
-    "description": "<a href='http://www.oracle.com/weblogicserver' target='_blank'>Oracle WebLogic Server</a> 12c Enterprise Edition (12.1.2.0) is a leading Java EE application server, delivering next-generation applications on a mission-critical cloud platform, with native cloud management, and integrated tools. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Standard_DS12</a>.",
+    "description": "<a href='http://www.oracle.com/weblogicserver' target='_blank'>Oracle WebLogic Server</a> 12c Enterprise Edition (12.2.1.0) is a leading Java EE application server, delivering next-generation applications on a mission-critical cloud platform, with native cloud management, and integrated tools. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Standard_DS12</a>.",
     "iconPath": "Icons/OracleWL",
     "categories": [
         "virtualMachine",
