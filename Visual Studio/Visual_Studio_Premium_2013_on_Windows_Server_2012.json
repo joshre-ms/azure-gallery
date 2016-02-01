@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "Visual Studio Premium 2013 Update 5 on Windows Server 2012",
     "displayName": "Visual Studio Premium 2013 Update 5 on Windows Server 2012",
-    "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2013-Prem-VSU5-AzureSDK-2.8-WS2012R2",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2013-Prem-VSU5-AzureSDK-2.8-WS2012R2-2",
     "imageReference": {
       "publisher": "MicrosoftVisualStudio",
       "offer": "VisualStudio",
