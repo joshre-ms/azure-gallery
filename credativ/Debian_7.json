@@ -2,7 +2,7 @@
     "publisher": "credativ",
     "label": "Debian 7",
     "displayName": "Debian 7 \"Wheezy\"",
-    "MediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-7-amd64-20151126.0",
+    "MediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-7-amd64-20160201.0",
     "imageReference": {
       "publisher": "credativ",
       "offer": "Debian",
@@ -10,7 +10,7 @@
     },
     "OS": "Linux",
     "summary": "Debian GNU/Linux is one of the most popular Linux distributions.",
-    "description": "Debian 7 \"Wheezy\" (20151126) for Microsoft Azure provided by credativ. Debian GNU/Linux is one of the most popular Linux distributions.",
+    "description": "Debian 7 \"Wheezy\" (20160201) for Microsoft Azure provided by credativ. Debian GNU/Linux is one of the most popular Linux distributions.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
