@@ -24,11 +24,11 @@
         "microsoftServer",
         "azure",
         "windows",
-        "appInfra",
+        "appInfra"
     ],
     "recommendedSizes": [
         "Standard_A4",
-        "Standard_A11",
+        "Standard_A11"
 
     ],
     "links": [
