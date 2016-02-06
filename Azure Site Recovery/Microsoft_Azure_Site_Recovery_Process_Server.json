@@ -3,11 +3,6 @@
     "label": "Microsoft Azure Site Recovery Process Server V2",
     "displayName": "Microsoft Azure Site Recovery Process Server V2",
     "MediaName": "d4a65b493c36471ba82b42d53fbd8063__Microsoft-Azure-Site-Recovery-Process-Server-V2-201601.01",
-    "imageReference": {
-      "publisher": "MicrosoftAzureSiteRecovery",
-      "offer": "AzureSiteRecoveryProcesServer",
-      "sku": "V2"
-    },
     "OS": "Windows",
     "summary": "Azure Site Recovery Process Server.",
     "description": "The Microsoft Azure Site Recovery Process Server is used for caching, compression, and encryption of replication traffic in the Microsoft Azure Site Recovery scenario of setting up failback of virtual machines from Microsoft Azure back to an on-premises VMware site.",
