@@ -19,9 +19,9 @@
         "database"
     ],
     "recommendedSizes": [
-        "Standard_A1",
-        "Standard_A2",
-        "Standard_A3"
+        "Basic_A1",
+        "Standard_D1",
+        "Standard_DS1"
     ],
     "links": [
         {
