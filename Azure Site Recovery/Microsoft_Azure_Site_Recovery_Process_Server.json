@@ -1,35 +1,36 @@
 {
-    "publisher": "Microsoft",
-    "label": "Microsoft Azure Site Recovery Process Server V2",
-    "displayName": "Microsoft Azure Site Recovery Process Server V2",
-    "MediaName": "d4a65b493c36471ba82b42d53fbd8063__Microsoft-Azure-Site-Recovery-Process-Server-V2-201601.01",
-    "OS": "Windows",
-    "summary": "Azure Site Recovery Process Server.",
-    "description": "The Microsoft Azure Site Recovery Process Server is used for caching, compression, and encryption of replication traffic in the Microsoft Azure Site Recovery scenario of setting up failback of virtual machines from Microsoft Azure back to an on-premises VMware site.",
-    "iconPath": "Icons",
-    "categories": [
-        "virtualMachine",
-        "microsoftServer",
-        "azure",
-        "windows",
-        "appInfra"
-    ],
-    "recommendedSizes": [
-        "Standard_A4",
-        "Standard_A11"
-
-    ],
-    "links": [
-        {
-            "label": "Documentation",
-            "uri": "https://azure.microsoft.com/documentation/services/site-recovery/"
-        },
-        {
-            "label": "Forums",
-            "uri": "https://social.technet.microsoft.com/Forums/en-US/home?forum=hypervrecovmgr&filter=alltypes&sort=lastpostdesc"
-        }
-    ],
-    "eula": null,
-    "privacy": null,
-    "screenshot": null
+  "publisher": "Microsoft",
+  "label": "Microsoft Azure Site Recovery Process Server V2",
+  "displayName": "Microsoft Azure Site Recovery Process Server V2",
+  "MediaName": "d4a65b493c36471ba82b42d53fbd8063__Microsoft-Azure-Site-Recovery-Process-Server-V2-201601.01",
+  "OS": "Windows",
+  "imageType":"VMImage",
+  "summary": "Azure Site Recovery Process Server.",
+  "description": "The Microsoft Azure Site Recovery Process Server is used for caching, compression, and encryption of replication traffic in the Microsoft Azure Site Recovery scenario of setting up failback of virtual machines from Microsoft Azure back to an on-premises VMware site.",
+  "iconPath": "Icons",
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "windows",
+    "appInfra"
+  ],
+  "recommendedSizes": [
+    "Standard_A4",
+    "Standard_A11"
+    
+  ],
+  "links": [
+    {
+      "label": "Documentation",
+      "uri": "https://azure.microsoft.com/documentation/services/site-recovery/"
+    },
+    {
+      "label": "Forums",
+      "uri": "https://social.technet.microsoft.com/Forums/en-US/home?forum=hypervrecovmgr&filter=alltypes&sort=lastpostdesc"
+    }
+  ],
+  "eula": null,
+  "privacy": null,
+  "screenshot": null
 }
