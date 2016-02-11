@@ -3,6 +3,11 @@
   "label": "Microsoft Azure Site Recovery Process Server V2",
   "displayName": "Microsoft Azure Site Recovery Process Server V2",
   "MediaName": "d4a65b493c36471ba82b42d53fbd8063__Microsoft-Azure-Site-Recovery-Process-Server-V2-201601.01",
+  "imageReference": {
+    "publisher": "Microsoft Azure Site Recovery group",
+    "offer": "Process-Server",
+    "sku": "Windows-2012-R2-Datacenter"
+  },
   "OS": "Windows",
   "imageType":"VMImage",
   "summary": "Azure Site Recovery Process Server.",
@@ -16,9 +21,9 @@
     "appInfra"
   ],
   "recommendedSizes": [
+    "Standard_A3",
     "Standard_A4",
     "Standard_A11"
-    
   ],
   "links": [
     {
@@ -30,7 +35,7 @@
       "uri": "https://social.technet.microsoft.com/Forums/en-US/home?forum=hypervrecovmgr&filter=alltypes&sort=lastpostdesc"
     }
   ],
-  "eula": null,
-  "privacy": null,
+  "eula": "http://go.microsoft.com/fwlink/?LinkId=525741",
+  "privacy": "http://go.microsoft.com/fwlink/?LinkId=512132",
   "screenshot": null
 }
