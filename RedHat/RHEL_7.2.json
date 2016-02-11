@@ -23,8 +23,9 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
-        "Basic_A1",
-        "Standard_A2"
+        "Standard_A2",
+        "Standard_D2",
+        "Standard_DS2"
     ],
     "links": [
         {
@@ -37,10 +38,10 @@
         },
         {
             "label": "Pricing details",
-            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            "uri": "http://azure.microsoft.com/pricing/details/virtual-machines/#linux"
         }
     ],
-    "eula": "http://www.redhat.com/en/about/licenses",
-    "privacy": "http://www.redhat.com/en/about/privacy-policy",
+    "eula": "http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Cloud_Subscription_Agreement_for_Microsoft_Azure_20160209.pdf",
+    "privacy": "http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Privacy_Statement_for_Microsoft_Azure_20160210.pdf",
     "screenshot": null
 }
