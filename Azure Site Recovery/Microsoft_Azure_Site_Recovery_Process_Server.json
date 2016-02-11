@@ -3,13 +3,6 @@
     "label": "Microsoft Azure Site Recovery Process Server V2",
     "displayName": "Microsoft Azure Site Recovery Process Server V2",
     "MediaName": "d4a65b493c36471ba82b42d53fbd8063__Microsoft-Azure-Site-Recovery-Process-Server-V2-201601.01",
-    "imageVersions": [
-        {
-        "version": "January, 2016",
-        "publishedDate": "01/04/2016",
-        "mediaName": "d4a65b493c36471ba82b42d53fbd8063__Microsoft-Azure-Site-Recovery-Process-Server-V2-201601.01"
-        }
-    ],
      "imageReference": {
       "publisher": "Microsoft Azure Site Recovery group",
       "offer": "Process-Server",
@@ -28,7 +21,7 @@
         "appInfra"
     ],
   "recommendedSizes": [
-	"Large",
+	"Standard_A3",
 	"Standard_A4",
     "Standard_A11"
     ],
