@@ -1,0 +1,46 @@
+{
+    "publisher": "RedHat",
+    "publisherDisplayName": "Red Hat",
+    "label": "Red Hat Enterprise Linux 6.7",
+    "displayName": "Red Hat Enterprise Linux 6.7",
+    "MediaName": "a879bbefc56a43abb0ce65052aac09f3__rhel-67-20160210",
+    "imageReference": {
+        "publisher": "RedHat",
+        "offer": "RHEL",
+        "sku": "6.7"
+    },
+    "OS": "Linux",
+    "summary": "Red Hat Enterprise Linux 6 is the world's leading enterprise Linux platform built to meet the needs of today's modern enterprise.",
+    "description": "Red Hat Enterprise Linux is the world's leading enterprise Linux platform built to meet the needs of today's modern enterprise. Microsoft's preferred choice for enterprise Linux workloads in Azure, Red Hat Enterprise Linux is an open, reliable, and secure platform designed for customers who want deployment flexibility for their business-critical workloads - from the data center to the Azure cloud - backed by tightly integrated, enterprise-grade support from Red Hat and Microsoft.",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra",
+        "azureCertified",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Basic_A1",
+        "Standard_A2"
+    ],
+    "links": [
+        {
+            "label": "Learn more",
+            "uri": "http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux"
+        },
+        {
+            "label": "Documentation",
+            "uri": "http://access.redhat.com/documentation/en/red-hat-enterprise-linux"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+        }
+    ],
+    "eula": "http://www.redhat.com/en/about/licenses",
+    "privacy": "http://www.redhat.com/en/about/privacy-policy",
+    "screenshot": null
+}
