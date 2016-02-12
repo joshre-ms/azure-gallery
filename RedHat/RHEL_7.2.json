@@ -11,7 +11,7 @@
     },
     "OS": "Linux",
     "summary": "Red Hat Enterprise Linux 7 is the world's leading enterprise Linux platform built to meet the needs of today's modern enterprise.",
-    "description": "Red Hat Enterprise Linux is the world's leading enterprise Linux platform built to meet the needs of today's modern enterprise. Microsoft's preferred choice for enterprise Linux workloads in Azure, Red Hat Enterprise Linux is an open, reliable, and secure platform designed for customers who want deployment flexibility for their business-critical workloads - from the data center to the Azure cloud - backed by tightly integrated, enterprise-grade support from Red Hat and Microsoft.",
+    "description": "Red Hat Enterprise Linux is the world's leading enterprise Linux platform built to meet the needs of today's modern enterprise. Red Hat Enterprise Linux is an open, reliable, and secure platform designed for customers who want deployment flexibility for their business-critical workloads - from the data center to the Azure cloud - backed by tightly integrated, enterprise-grade support from Red Hat and Microsoft.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
