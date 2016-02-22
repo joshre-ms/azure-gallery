@@ -2,7 +2,7 @@
     "publisher": "Canonical",
     "label": "Ubuntu Server 12.04 LTS",
     "displayName": "Ubuntu Server 12.04.5 LTS",
-    "MediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-12_04_5-LTS-amd64-server-20160201-en-us-30GB",
+    "MediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-12_04_5-LTS-amd64-server-20160217.2-en-us-30GB",
     "imageReference": {
       "publisher": "Canonical",
       "offer": "UbuntuServer",
@@ -10,7 +10,7 @@
     },
     "OS": "Linux",
     "summary": "Ubuntu Server is the world's most popular Linux for cloud environments.",
-    "description": "Ubuntu Server 12.04.5 LTS (amd64 20160201) for Microsoft Azure. Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 12.04.5 LTS will be available until 2017-04-26.  Ubuntu Server is the perfect platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://www.ubuntu.com/cloud' target='_blank'>Ubuntu Cloud</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
+    "description": "Ubuntu Server 12.04.5 LTS (amd64 20160217.2) for Microsoft Azure. Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 12.04.5 LTS will be available until 2017-04-26.  Ubuntu Server is the perfect platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://www.ubuntu.com/cloud' target='_blank'>Ubuntu Cloud</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
