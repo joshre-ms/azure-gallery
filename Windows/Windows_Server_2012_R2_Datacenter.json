@@ -2,19 +2,33 @@
     "publisher": "Microsoft",
     "label": "Windows Server 2012 R2 Datacenter",
     "displayName": "Windows Server 2012 R2 Datacenter",
-    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160126-en.us-127GB.vhd",
-    "imageVersions": [
-        {
-        "version": "December, 2015",
-        "publishedDate": "12/14/2015",
-        "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20151214-en.us-127GB.vhd"
+    "mediaReferences": {
+        "Default": {
+            "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160126-en.us-127GB.vhd",
+            "imageVersions": [
+                {
+                "version": "December, 2015",
+                "publishedDate": "12/14/2015",
+                "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20151214-en.us-127GB.vhd"
+                },
+                {
+                "version": "January, 2016",
+                "publishedDate": "01/26/2016",
+                "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160126-en.us-127GB.vhd"
+                }
+            ]
         },
-        {
-        "version": "January, 2016",
-        "publishedDate": "01/26/2016",
-        "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160126-en.us-127GB.vhd"
+        "Blackforest": {
+            "MediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-R2-20160125-en.us-127GB.vhd",
+            "imageVersions": [
+                {
+                "version": "January, 2016",
+                "publishedDate": "01/26/2016",
+                "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-R2-20160125-en.us-127GB.vhd"
+                }
+            ]
         }
-    ],
+    },
      "imageReference": {
       "publisher": "MicrosoftWindowsServer",
       "offer": "WindowsServer",
