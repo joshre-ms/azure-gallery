@@ -68,7 +68,7 @@
     ],
     "eula": null,
     "privacy": null,
-    "screenshot": null
+    "screenshot": null,
     "cloudEnvironments":  [
         "PublicAzure",
         "Blackforest"
