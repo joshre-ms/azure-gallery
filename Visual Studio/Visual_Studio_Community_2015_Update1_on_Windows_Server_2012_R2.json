@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "Visual Studio Community 2015 Update 1 with Azure SDK 2.8 on Windows Server 2012 R2",
     "displayName": "Visual Studio Community 2015 Update 1 with Azure SDK 2.8 on Windows Server 2012 R2",
-    "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Comm-VSU1-AzureSDK-28-WS2012R22016-02-21",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Comm-VSU1-AzureSDK-28-WS2012R22016-02-24",
     "imageReference": {
       "publisher": "MicrosoftVisualStudio",
       "offer": "VisualStudio",
