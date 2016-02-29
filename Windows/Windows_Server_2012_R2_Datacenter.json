@@ -54,7 +54,7 @@
         "Standard_D1_v2",
         "Small"
     ],
-    "links": [
+    "linksForEnvironments": [
         {
             "label": "Learn more",
             "uri": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/"
@@ -71,4 +71,8 @@
     "eula": null,
     "privacy": null,
     "screenshot": null
+    "cloudEnvironments":  [
+        "PublicAzure",
+        "Blackforest"
+    ]
 }
