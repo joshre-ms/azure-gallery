@@ -57,15 +57,24 @@
     "linksForEnvironments": [
         {
             "label": "Learn more",
-            "uri": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/"
+            "uri":
+                {
+                    "Default": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/"
+                }
         },
         {
             "label": "Documentation",
-            "uri": "http://technet.microsoft.com/library/hh801901.aspx"
+            "uri":
+                {
+                    "Default": "http://technet.microsoft.com/library/hh801901.aspx"
+                }
         },
         {
             "label": "Pricing details",
-            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#windows"
+            "uri":
+                {
+                    "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#windows"
+                }
         }
     ],
     "eula": null,
