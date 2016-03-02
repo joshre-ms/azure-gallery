@@ -2,7 +2,7 @@
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 12 SP1",
     "displayName": "SLES 12 SP1",
-    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-v20151215",
+    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-v20160301",
     "imageReference": {
       "publisher": "SUSE",
       "offer": "SLES",
