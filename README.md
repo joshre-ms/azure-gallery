@@ -8,6 +8,9 @@ Each folder at the root level approximately represents a publisher. A folder con
 
 ## Package manifest schema
 
+* `cloudEnvironments`
+This element is optional if publishing only to PublicAzure. But to publish to clouds other than `PublicAzure`, this element is required. A JSON array specifying the list of clouds for which the package should be published. Currently supported clouds: `PublicAzure`, `Blackforest`. 
+
 * `publisher`
 Required. A JSON string that is used to construct the package identity and is the short form of the publisher name. If a `publisherDisplayName` is not specified, then it is also used as the long form.
 
@@ -26,9 +29,6 @@ Optional. A JSON string to indicate if the `mediaName` is referencing an OS imag
 * `dataDisksCount`
 Optional. A JSON string to indicate the number of data disks the VM image contains. This is used by the portal to filter out VM sizes that support fewer data disks than the VM image requires. If `imageType` is `OSImage`, this value is ignored.
 
-* `mediaName`
-Required. A JSON string that is the `Name` value of an Operating System Image ([OS Image](http://msdn.microsoft.com/library/azure/jj157191.aspx)) or Virtual Machine Image ([VM Image](http://msdn.microsoft.com/library/azure/dn499770.aspx)). Ensure that your image is published and replicated before adding a package manifest that references it.
-
 * `os`
 Required. A JSON string that denotes the platform of the image specified in `mediaName`. The only valid values are `Windows` and `Linux`.
 
@@ -46,6 +46,31 @@ Required. A JSON array containing exactly three recommended virtual machine size
 
 * `links`
 Optional. A JSON array containing objects that specify a `label` and `uri`. These links are shown in the details blade for a gallery package. You can specify up to five links.
+Multicloud support: The `links` field is the old format which will be supported for `PublicAzure`. To publish to multiple clouds, the `linksForEnvironments` field should be used. If a file has both `links` and `linksForEnvironments` fields, the data in `linksForEnvironments` will be used for publishing the package. 
+
+* `linksForEnvironments`
+Optional. A JSON array containing objects that specify a `label` and `uri`. The `uri` field has a list of links for specifying Default urls for all clouds and overrides for specific clouds. If the Default url is not provided, that link will be made available only to the clouds specified. In the example below, the "Learn more" link will be available in all clouds and has an override for the `Blackforest` environment. The "Documentation" link will be available only for `Blackforest` and not for `PublicAzure` and other clouds. 
+```
+"linksForEnvironments": [
+    {
+        "label": "Learn more",
+        "uri": [
+            {
+                "Default": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/",
+                "Blackforest": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/blackforest"
+            }
+        ]
+    },
+    {
+        "label": "Documentation",
+        "uri": [
+            {
+                "Blackforest": "http://technet.microsoft.com/library/hh801901.aspx/Blackforest"
+            }
+        ]
+    }
+]
+```
 
 * `eula`
 Optional. A JSON string containing a URL to legal terms for a gallery package.
@@ -59,8 +84,13 @@ Optional. A JSON string specifying the relative path to a screenshot for a galle
 * `supportedExtensions`
 Optional. A JSON string array specifying the list of extensions supported by this image. Do not alter these values without prior consent. This flag might be used to render specific configuration UI for these extensions while creating virtual machine in portal.
 
+* `mediaName`
+Required if publishing only to PublicAzure. A JSON string that is the `Name` value of an Operating System Image ([OS Image](http://msdn.microsoft.com/library/azure/jj157191.aspx)) or Virtual Machine Image ([VM Image](http://msdn.microsoft.com/library/azure/dn499770.aspx)). Ensure that your image is published and replicated before adding a package manifest that references it.
+
+  Multicloud support: This element is required if publishing only to PublicAzure. If the package needs to be published to multiple environments, a different element must be used. See `mediaReferences` element below. 
+
 * `imageVersions`
-Optional. A JSON array containing objects that specify the versions available for this image. 
+This element is optional and used only for PublicAzure. If the package is being published to multiple environments, `mediaReferences`(see below) should be used to specify these. A JSON array containing objects that specify the versions available for this image. 
 The objects are made of the following properties:
   * `version`: image version string displayed to the user
   * `publishedDate`: date this version of the image was published
@@ -83,6 +113,45 @@ The objects are made of the following properties:
   }
 ]
 ```
+
+* `mediaReferences`
+Required for supporting multiple environments. A JSON array containing the objects that specify the mediaName and imageVersions available. The example below illustrates how to specify a Default set of MediaName and imageVersions, and provide an override for `Blackforest`: 
+```
+"mediaReferences": {
+    "Default": {
+    "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160126-en.us-127GB.vhd",
+    "imageVersions": [
+        {
+        "version": "December, 2015",
+        "publishedDate": "12/14/2015",
+        "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20151214-en.us-127GB.vhd"
+        },
+        {
+        "version": "January, 2016",
+        "publishedDate": "01/26/2016",
+        "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160126-en.us-127GB.vhd"
+        }
+        ]
+    },
+    "Blackforest": {
+    "mediaName": "BlackforestLatest.vhd",
+    "imageVersions": [
+        {
+        "version": "December, 2015",
+        "publishedDate": "12/14/2015",
+        "mediaName": "BlackforestVersion2015.vhd"
+        },
+        {
+        "version": "January, 2016",
+        "publishedDate": "01/26/2016",
+        "mediaName": "BlackforestLatest.vhd"
+        }
+        ]
+    }
+}
+```
+Both mediaName and imageVersions are required fields in the JSON object. If you do not want to specify imageVersions, the element should still be present, but you can assign it to null("imageVersions": null). 
+If both [MediaName, imageVersions] and [mediaReferences] are specified, mediaReferences will be used to generate the package. 
 
 * `createUIDefinitionHandler`
 Optional. A JSON string specifying the value of the handler tag in the createuidefinition.cs file for CRP packages. 
