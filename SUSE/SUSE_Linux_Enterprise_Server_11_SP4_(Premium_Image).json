@@ -2,7 +2,7 @@
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 11 SP4 (Premium Image)",
     "displayName": "SLES 11 SP4 (Premium)",
-    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-priority-v20151110",
+    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-priority-v20160301",
     "imageReference": {
       "publisher": "SUSE",
       "offer": "SLES-Priority",
@@ -25,7 +25,7 @@
         "Standard_DS2",
         "Standard_D1",
         "Standard_D1_v2",
-        "Small"  
+        "Small"
     ],
     "links": [
         {

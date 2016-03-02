@@ -1,0 +1,50 @@
+{
+    "publisher": "GitHub",
+    "label": "GitHub Enterprise",
+    "displayName": "GitHub Enterprise",
+    "MediaName": "29ad5df6dd0640ce9aae898da6e66f4f__GitHub-Enterprise-2.5.1",
+    "imageReference": {
+        "publisher": "GitHub",
+        "offer": "GitHub-Enterprise",
+        "sku": "GitHub-Enterprise"
+    },
+    "OS": "Linux",
+    "summary": "GitHub Enterprise Appliance",
+    "description": "<p>GitHub Enterprise is the private version of GitHub.com that runs on a VM in your Azure subscription. It makes collaborative coding possible and enjoyable for large-scale enterprise software development teams.</p><p><b>Bring your own license (BYOL)</b></p><p>Publisher implements their own mechanisms for securing the licensing of their product. Customers must contact the publisher directly to purchase a license to use the software.</p>",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra"
+    ],
+    "recommendedSizes": [
+        "Standard_DS3",
+        "Standard_DS4",
+        "Standard_DS12",
+        "Standard_DS13",
+        "Standard_DS14"
+    ],
+    "links": [
+        {
+            "label": "Overview",
+            "uri": "https://enterprise.github.com"
+        },
+        {
+            "label": "Documentation",
+            "uri": "https://help.github.com/enterprise"
+        },
+        {
+            "label": "FAQ",
+            "uri": "https://enterprise.github.com/faq"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+        }
+    ],
+    "eula": "https://enterprise.github.com/license",
+    "privacy": "https://enterprise.github.com/privacy",
+    "screenshot": null
+}
