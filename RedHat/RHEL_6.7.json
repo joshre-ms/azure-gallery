@@ -3,7 +3,7 @@
     "publisherDisplayName": "Red Hat",
     "label": "Red Hat Enterprise Linux 6.7",
     "displayName": "Red Hat Enterprise Linux 6.7",
-    "MediaName": "a879bbefc56a43abb0ce65052aac09f3__rhel-67-20160214",
+    "MediaName": "a879bbefc56a43abb0ce65052aac09f3__rhel-67-20160302",
     "imageReference": {
         "publisher": "RedHat",
         "offer": "RHEL",
