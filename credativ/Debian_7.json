@@ -2,7 +2,7 @@
     "publisher": "credativ",
     "label": "Debian 7",
     "displayName": "Debian 7 \"Wheezy\"",
-    "MediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-7-amd64-20160201.0",
+    "MediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-7-amd64-20160302.0",
     "imageReference": {
       "publisher": "credativ",
       "offer": "Debian",
