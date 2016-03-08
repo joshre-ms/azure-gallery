@@ -1,15 +1,15 @@
 {
     "publisher": "OpenLogic",
-    "label": "CentOS-based 6.7",
-    "displayName": "CentOS-based 6.7",
-    "MediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-67-20160303",
+    "label": "CentOS-based 7.2",
+    "displayName": "CentOS-based 7.2",
+    "MediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20160303",
     "imageReference": {
       "publisher": "OpenLogic",
       "offer": "CentOS",
-      "sku": "6.7"
+      "sku": "7.2"
     },
     "OS": "Linux",
-    "description": "This distribution of Linux is based on CentOS version 6.7 and is provided by OpenLogic. It contains an installation of the Basic Server packages.",
+    "description": "This distribution of Linux is based on CentOS version 7.2 and is provided by OpenLogic. It contains an installation of the Basic Server packages.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
