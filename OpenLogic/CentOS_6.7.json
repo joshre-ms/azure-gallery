@@ -2,7 +2,7 @@
     "publisher": "OpenLogic",
     "label": "CentOS-based 6.7",
     "displayName": "CentOS-based 6.7",
-    "MediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-67-20150815",
+    "MediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-67-20160303",
     "imageReference": {
       "publisher": "OpenLogic",
       "offer": "CentOS",

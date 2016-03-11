@@ -3,8 +3,8 @@
     "label": "Windows Server 2008 R2 SP1",
     "displayName": "Windows Server 2008 R2 SP1",
     "mediaReferences": {
-        "Default": {
-            "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-20160125-en.us-127GB.vhd",
+        "PublicAzure": {
+            "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-20160125-en.us-127GB.vhd",
             "imageVersions": [
                 {
                 "version": "December, 2015",
@@ -19,7 +19,7 @@
             ]
         },
         "Blackforest": {
-            "MediaName": "6c6aa676f3d94cf88064af211341f3a5__Win2K8R2SP1-Datacenter-20160125-en.us-127GB.vhd",
+            "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Win2K8R2SP1-Datacenter-20160125-en.us-127GB.vhd",
             "imageVersions": [
                 {
                 "version": "January, 2016",
