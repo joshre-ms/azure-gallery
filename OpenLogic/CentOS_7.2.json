@@ -1,16 +1,15 @@
 {
-    "publisher": "credativ",
-    "label": "Debian 7",
-    "displayName": "Debian 7 \"Wheezy\"",
-    "MediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-7-amd64-20160302.0",
+    "publisher": "OpenLogic",
+    "label": "CentOS-based 7.2",
+    "displayName": "CentOS-based 7.2",
+    "MediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20160303",
     "imageReference": {
-      "publisher": "credativ",
-      "offer": "Debian",
-      "sku": "7"
+      "publisher": "OpenLogic",
+      "offer": "CentOS",
+      "sku": "7.2"
     },
     "OS": "Linux",
-    "summary": "Debian GNU/Linux is one of the most popular Linux distributions.",
-    "description": "Debian 7 \"Wheezy\" for Microsoft Azure provided by credativ. Debian GNU/Linux is one of the most popular Linux distributions.",
+    "description": "This distribution of Linux is based on CentOS version 7.2 and is provided by OpenLogic. It contains an installation of the Basic Server packages.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -27,19 +26,19 @@
         "Standard_DS2",
         "Standard_D1",
         "Standard_D1_v2",
-        "Small"
+        "Small"  
     ],
     "links": [
         {
-            "label": "Wiki",
-            "uri": "https://wiki.debian.org/"
+            "label": "Learn more",
+            "uri": "http://www.openlogic.com/azure/"
         },
         {
             "label": "Pricing details",
             "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
         }
     ],
-    "eula": "https://www.debian.org/legal/licenses/",
+    "eula": "http://www.openlogic.com/azure/service-agreement/",
     "privacy": null,
     "screenshot": null
 }

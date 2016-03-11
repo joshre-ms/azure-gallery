@@ -2,7 +2,7 @@
     "publisher": "SUSE",
     "label": "openSUSE 13.2",
     "displayName": "openSUSE 13.2",
-    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-13.2-v20150512",
+    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-13.2-v20160302",
     "imageReference": {
       "publisher": "SUSE",
       "offer": "openSUSE",
@@ -26,7 +26,7 @@
         "Standard_DS2",
         "Standard_D1",
         "Standard_D1_v2",
-        "Small"  
+        "Small"
     ],
     "links": [
         {
