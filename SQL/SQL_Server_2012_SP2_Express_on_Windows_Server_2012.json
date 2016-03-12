@@ -43,5 +43,10 @@
     ],
     "eula": "http://go.microsoft.com/fwlink/?LinkID=285687",
     "privacy": "http://go.microsoft.com/fwlink/?LinkID=196910",
-    "screenshot": null
+    "screenshot": null,
+    "supportedExtensions": [
+        "SqlIaaSAgent",
+        "SqlIaasAgent-AutoPatching"
+    ],
+    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm"
 }
