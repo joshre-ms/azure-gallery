@@ -9,7 +9,7 @@
       "sku": "13.2"
     },
     "OS": "Linux",
-    "description": "Stable, innovative, and fun! A year's worth of continuous improvement in tools and procedures, and countless hours developing, packaging, and testing have produced a stable release providing the best of Free and Open Source software with our special green touch. Customization of these images can be done at <a href='http://susestudio.com' target='_blank'>SUSE Studio</a>",
+    "description": "Stable, innovative, and fun! A year's worth of continuous improvement in tools and procedures, and countless hours developing, packaging, and testing have produced a stable release providing the best of Free and Open Source software with our special green touch. Customization of these virtual machine (VM) images can be done at <a href='http://susestudio.com' target='_blank'>SUSE Studio</a>",
     "iconPath": "Icons/openSUSE",
     "categories": [
         "virtualMachine",
