@@ -6,7 +6,7 @@
     "imageReference": {
       "publisher": "Microsoft",
       "offer": "Oracle_Database_11g_R2_and_Weblogic_Server_11g",
-      "sku": "Oracle_Database_11g_R2_and_Weblogic_Server_11g_Standard_Edition"
+      "sku": "Oracle_Database_11gR2_and_WebLogic_Server_11g_Standard_Edition"
     },
 	"OS": "Windows",
     "description": "<a href='http://www.oracle.com/database' target='_blank'>Oracle Database</a> 11g R2 Standard Edition (11.2.0.4.0) is an affordable, full-featured data management solution that is ideal for midsize companies. <a href='http://www.oracle.com/weblogicserver' target='_blank'>Oracle WebLogic Server</a> 11g Standard Edition (10.3.6) is a leading Java application server for enterprises of all sizes, providing developers with the tools and technologies to write enterprise applications and services quickly and operations teams with the administration capabilities to keep them up and running. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Standard_DS12</a>.",
