@@ -10,7 +10,7 @@
     },
     "OS": "Linux",
     "summary": "GitHub Enterprise Appliance",
-    "description": "<p>GitHub Enterprise is a version of GitHub, which can be deployed on your own servers, in a private cloud, or on a VM or in this case, on your Azure instance. Developers at businesses of any size can use GitHub to securely work together across teams or around the world. GitHub Enterprise builds on GitHub with features built specifically for businesses that help your team stay compliant, fine tune permissions, integrate tools they love, and build better software with industry-standard technologies.</p><p><b>Bring your own license (BYOL)</b></p><p>Publisher implements their own mechanisms for securing the licensing of their product. Customers must contact the publisher directly to purchase a license to use the software.</p>",
+    "description": "<p>GitHub Enterprise is a version of GitHub, which can be deployed on your own servers, in a private cloud, a VM, or in this case on your Azure instance. Developers at businesses of any size can use GitHub to securely work together across teams or around the world. GitHub Enterprise builds on GitHub with features designed specifically for businesses that help your team stay compliant, fine tune permissions, integrate tools they love, and build better software with industry-standard technologies.</p><p><b>Bring your own license (BYOL)</b></p><p>Publisher implements their own mechanisms for securing the licensing of their product. Customers must contact the publisher directly to purchase a license to use the software.</p>",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
