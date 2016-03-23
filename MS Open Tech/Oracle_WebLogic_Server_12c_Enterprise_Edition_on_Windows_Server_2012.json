@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "Oracle WebLogic Server 12c Enterprise",
     "displayName": "Oracle WebLogic Server 12c Enterprise Edition",
-    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__WebLogic-12.2.1.0-EE-JDK-1.7.0_85-20160220-Win-GA",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__WebLogic-12.2.1.0-EE-JDK-1.7.0_85-20160315-Win-GA",
     "imageReference": {
       "publisher": "Microsoft",
       "offer": "Oracle_WebLogic_Server_12c",

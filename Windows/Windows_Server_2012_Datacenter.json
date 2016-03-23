@@ -35,7 +35,7 @@
       "sku": "2012-Datacenter"
     },
     "OS": "Windows",
-    "description": "Windows Server 2012 incorporates Microsoft's experience building and operating public clouds, resulting in a dynamic, highly available server platform. It offers a scalable, dynamic and multi-tenant-aware infrastructure that helps securely connect across premises.",
+    "description": "Windows Server 2012 incorporates Microsoft's experience building and operating public clouds, resulting in a dynamic, highly available server platform. The virtual machine (VM) offers a scalable, dynamic and multi-tenant-aware infrastructure that helps securely connect across premises.",
     "iconPath": "Icons/Server",
     "categories": [
         "virtualMachine",
