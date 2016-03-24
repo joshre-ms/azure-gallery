@@ -27,26 +27,46 @@
         "Standard_A8",
         "Standard_A9"
     ],
-    "links": [
+    "linksForEnvironments": [
         {
             "label": "Azure support for Linux RDMA",
-            "uri": "http://azure.microsoft.com/en-us/updates/azure-support-for-linux-rdma/"
+            "uri": [
+                {
+                    "Default": "http://azure.microsoft.com/en-us/updates/azure-support-for-linux-rdma/"
+                }
+            ]
         },
         {
             "label": "Learn more",
-            "uri": "https://www.suse.com/products/server/"
+            "uri": [
+                {
+                    "Default": "https://www.suse.com/products/server/"
+                }
+            ]
         },
         {
             "label": "Documentation",
-            "uri": "https://www.suse.com/documentation/sles-12/"
+            "uri": [
+                {
+                    "Default": "https://www.suse.com/documentation/sles-12/"
+                }
+            ]
         },
         {
             "label": "Forum",
-            "uri": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+            "uri": [
+                {
+                    "Default": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+                }
+            ]
         },
         {
             "label": "Pricing details",
-            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            "uri": [
+                {
+                    "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+                }
+            ]
         }
     ],
     "eula": "https://www.suse.com/licensing/eula/",

@@ -30,22 +30,38 @@
         "Standard_D1_v2",
         "Small"
     ],
-    "links": [
+    "linksForEnvironments": [
         {
             "label": "Learn more",
-            "uri": "https://www.suse.com/products/expandedsupport/"
+            "uri": [
+                {
+                    "Default": "https://www.suse.com/products/expandedsupport/"
+                }
+            ]
         },
         {
             "label": "Documentation",
-            "uri": "https://www.suse.com/documentation/sles11/index.html"
+            "uri": [
+                {
+                    "Default": "https://www.suse.com/documentation/sles11/index.html"
+                }
+            ]
         },
         {
             "label": "Forum",
-            "uri": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+            "uri": [
+                {
+                    "Default": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+                }
+            ]
         },
         {
             "label": "Pricing details",
-            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            "uri": [
+                {
+                    "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+                }
+            ]
         }
     ],
     "eula": "https://www.suse.com/licensing/eula/",
