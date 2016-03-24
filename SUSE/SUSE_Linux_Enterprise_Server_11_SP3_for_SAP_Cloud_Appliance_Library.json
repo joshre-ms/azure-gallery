@@ -5,7 +5,18 @@
     "cloudEnvironments": [
         "PublicAzure"
     ],
-    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp3-sapcal-v20150127",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp3-sapcal-v20150127",
+            "imageVersions": [
+                {
+                    "version": "20150127",
+                    "publishedDate": "01/27/2015",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp3-sapcal-v20150127"
+                }
+            ]
+        }
+    },
     "imageReference": {
       "publisher": "SUSE",
       "offer": "SLES-SAPCAL",

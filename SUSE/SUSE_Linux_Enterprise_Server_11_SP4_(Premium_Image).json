@@ -5,7 +5,38 @@
     "cloudEnvironments": [
         "PublicAzure"
     ],
-    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-priority-v20160301",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-priority-v20160301",
+            "imageVersions": [
+                {
+                    "version": "2016.03.01",
+                    "publishedDate": "03/01/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-priority-v20160301"
+                },
+                {
+                    "version": "2016.02.22",
+                    "publishedDate": "02/22/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-priority-v20160222"
+                },
+                {
+                    "version": "2016.02.17",
+                    "publishedDate": "02/19/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-priority-v20160217"
+                },
+                {
+                    "version": "2015.11.10",
+                    "publishedDate": "11/10/2015",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-priority-v20151110"
+                },
+                {
+                    "version": "2015.07.14",
+                    "publishedDate": "07/14/2015",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-priority-v20150714"
+                }
+            ]
+        }
+    },
     "imageReference": {
       "publisher": "SUSE",
       "offer": "SLES-Priority",
