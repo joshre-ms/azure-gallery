@@ -2,6 +2,9 @@
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 12",
     "displayName": "SLES 12",
+    "cloudEnvironments": [
+        "PublicAzure"
+    ],
     "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-v20151110",
     "imageReference": {
       "publisher": "SUSE",

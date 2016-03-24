@@ -2,6 +2,9 @@
     "publisher": "SUSE",
     "label": "openSUSE 13.2",
     "displayName": "openSUSE 13.2",
+    "cloudEnvironments": [
+        "PublicAzure"
+    ],
     "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-13.2-v20160302",
     "imageReference": {
       "publisher": "SUSE",

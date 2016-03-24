@@ -2,6 +2,10 @@
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 11 SP4",
     "displayName": "SLES 11 SP4",
+    "cloudEnvironments": [
+        "PublicAzure",
+        "Blackforest"
+    ],
     "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-v20160301",
     "imageReference": {
       "publisher": "SUSE",
