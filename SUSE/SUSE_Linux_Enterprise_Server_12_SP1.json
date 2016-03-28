@@ -2,7 +2,47 @@
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 12 SP1",
     "displayName": "SLES 12 SP1",
-    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-v20160301",
+    "cloudEnvironments": [
+        "PublicAzure",
+        "Blackforest"
+    ],
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-v20160301",
+            "imageVersions": [
+                {
+                    "version": "2016.03.01",
+                    "publishedDate": "03/01/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-v20160301"
+                },
+                {
+                    "version": "2016.02.22",
+                    "publishedDate": "02/22/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-v20160222"
+                },
+                {
+                    "version": "2016.02.17",
+                    "publishedDate": "02/17/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-v20160217"
+                },
+                {
+                    "version": "2015.12.15",
+                    "publishedDate": "12/15/2015",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-v20151215"
+                }
+            ]
+        },
+        "Blackforest": {
+            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-sles-12-sp1-v20160222",
+            "imageVersions": [
+                {
+                    "version": "2016.02.22",
+                    "publishedDate": "2016.02.22",
+                    "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-sles-12-sp1-v20160222"
+                }
+            ]
+        }
+    },
     "imageReference": {
       "publisher": "SUSE",
       "offer": "SLES",
@@ -28,22 +68,38 @@
         "Standard_D1_v2",
         "Small"
     ],
-    "links": [
+    "linksForEnvironments": [
         {
             "label": "Learn more",
-            "uri": "https://www.suse.com/products/server/"
+            "uri": [
+                {
+                    "Default": "https://www.suse.com/products/server/"
+                }
+            ]
         },
         {
             "label": "Documentation",
-            "uri": "https://www.suse.com/documentation/sles-12/"
+            "uri": [
+                {
+                    "Default": "https://www.suse.com/documentation/sles-12/"
+                }
+            ]
         },
         {
             "label": "Forum",
-            "uri": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+            "uri": [
+                {
+                    "Default": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+                }
+            ]
         },
         {
             "label": "Pricing details",
-            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            "uri": [
+                {
+                    "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+                }
+            ]
         }
     ],
     "eula": "https://www.suse.com/licensing/eula/",

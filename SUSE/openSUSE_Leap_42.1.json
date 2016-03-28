@@ -2,7 +2,31 @@
     "publisher": "SUSE",
     "label": "openSUSE Leap 42.1",
     "displayName": "openSUSE Leap 42.1",
-    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-leap-42.1-v20160302",
+    "cloudEnvironments": [
+        "PublicAzure"
+    ],
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-leap-42.1-v20160302",
+            "imageVersions": [
+                {
+                    "version": "2016.03.02",
+                    "publishedDate": "03/02/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-leap-42.1-v20160302"
+                },
+                {
+                    "version": "2016.02.22",
+                    "publishedDate": "02/22/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-leap-42.1-v20160222"
+                },
+                {
+                    "version": "2015.12.17",
+                    "publishedDate": "01/14/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-leap-42.1-v20151217"
+                }
+            ]
+        }
+    },
     "imageReference": {
       "publisher": "SUSE",
       "offer": "openSUSE-Leap",
@@ -28,18 +52,30 @@
         "Standard_D1_v2",
         "Small"
     ],
-    "links": [
+    "linksForEnvironments": [
         {
             "label": "Learn more",
-            "uri": "http://opensuse.org/"
+            "uri": [
+                {
+                    "Default": "http://opensuse.org/"
+                }
+            ]
         },
         {
             "label": "Documentation",
-            "uri": "http://opensuse.org/Portal:Documentation"
+            "uri": [
+                {
+                    "Default": "http://opensuse.org/Portal:Documentation"
+                }
+            ]
         },
         {
             "label": "Pricing details",
-            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            "uri": [
+                {
+                    "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+                }
+            ]
         }
     ],
     "eula": "https://en.opensuse.org/openSUSE:License",

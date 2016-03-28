@@ -2,7 +2,26 @@
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 12",
     "displayName": "SLES 12",
-    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-v20151110",
+    "cloudEnvironments": [
+        "PublicAzure"
+    ],
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-v20151110",
+            "imageVersions": [
+                {
+                    "version": "2015.11.10",
+                    "publishedDate": "11/10/2015",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-v20151110"
+                },
+                {
+                    "version": "2015.05.12",
+                    "publishedDate": "05/14/2015",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-v20150512"
+                }
+            ]
+        }
+    },
     "imageReference": {
       "publisher": "SUSE",
       "offer": "SLES",
@@ -28,22 +47,38 @@
         "Standard_D1_v2",
         "Small"  
     ],
-    "links": [
+    "linksForEnvironments": [
         {
             "label": "Learn more",
-            "uri": "https://www.suse.com/products/server/"
+            "uri": [
+                {
+                    "Default": "https://www.suse.com/products/server/"
+                }
+            ]
         },
         {
             "label": "Documentation",
-            "uri": "https://www.suse.com/documentation/sles-12/"
+            "uri": [
+                {
+                    "Default": "https://www.suse.com/documentation/sles-12/"
+                }
+            ]
         },
         {
             "label": "Forum",
-            "uri": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+            "uri": [
+                {
+                    "Default": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+                }
+            ]
         },
         {
             "label": "Pricing details",
-            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            "uri": [
+                {
+                    "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+                }
+            ]
         }
     ],
     "eula": "https://www.suse.com/licensing/eula/",
