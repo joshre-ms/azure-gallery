@@ -179,18 +179,7 @@ Images must be exactly 533px by 324px and in PNG format. Specifying a screenshot
 
 ## Contributing workflow
 
-Here’s how we suggest you go about changing your gallery packages:
-
-1. [Fork this project][fork] to your account.
-2. [Create a branch][branch] for the change you intend to make.
-3. Make your changes to your fork.
-4. [Send a pull request][pr] from your fork’s branch to our `master` branch.
-
-Changes to the respective gallery packages will be processed once we approve the pull request.
-
-[fork]: http://help.github.com/forking/
-[branch]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository
-[pr]: http://help.github.com/pull-requests/
+Pull requests are not necessary to add, remove, or edit packages. If you can see this README, then you have permissions to check into the repository directly.
 
 ## Contact
 
