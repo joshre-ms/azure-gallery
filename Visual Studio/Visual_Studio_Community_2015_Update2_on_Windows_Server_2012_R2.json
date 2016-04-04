@@ -1,7 +1,7 @@
 {
     "publisher": "Microsoft",
     "label": "Visual Studio Community 2015 Update 2 with Azure SDK 2.9 on Windows Server 2012 R2",
-    "displayName": "Visual Studio Community 2015 Update 2 with Universal Windows Tools and Azure SDK 2.9 on Windows 10 Enterprise N (x64)",
+    "displayName": "Visual Studio Community 2015 Update 2 with Universal Windows Tools and Azure SDK 2.9 on Windows Server 2012 R2",
     "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Comm-VSU2-AzureSDK-29-WS2012R22016-03-28",
     "imageReference": {
       "publisher": "MicrosoftVisualStudio",
