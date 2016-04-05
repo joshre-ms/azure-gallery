@@ -1,7 +1,7 @@
 {
     "publisher": "Microsoft",
     "label": "Visual Studio \"15\" Enterprise with Universal Windows Tools and Azure SDK 2.9 on Windows 10 Enterprise N (x64)",
-    "displayName": "Visual Studio \"15\" Enterprise with Universal Windows Tools and Azure SDK 2.9 on Windows 10 Enterprise N (x64)"
+    "displayName": "Visual Studio \"15\" Enterprise with Universal Windows Tools and Azure SDK 2.9 on Windows 10 Enterprise N (x64)",
     "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-Next-Preview-Ent-AzureSDK-29-W10-N2016-03-31",
     "imageReference": {
       "publisher": "MicrosoftVisualStudio",
