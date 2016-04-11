@@ -55,27 +55,21 @@
     "linksForEnvironments": [
         {
             "label": "Learn more",
-            "uri": [
-                {
-                    "Default": "http://opensuse.org/"
-                }
-            ]
+            "uri": {
+                "Default": "http://opensuse.org/"
+            }
         },
         {
             "label": "Documentation",
-            "uri": [
-                {
-                    "Default": "http://opensuse.org/Portal:Documentation"
-                }
-            ]
+            "uri": {
+                "Default": "http://opensuse.org/Portal:Documentation"
+            }
         },
         {
             "label": "Pricing details",
-            "uri": [
-                {
-                    "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
-                }
-            ]
+            "uri": {
+                "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            }
         }
     ],
     "eula": "https://en.opensuse.org/openSUSE:License",

@@ -44,35 +44,27 @@
     "linksForEnvironments": [
         {
             "label": "Learn more",
-            "uri": [
-                {
-                    "Default": "https://www.suse.com/products/sles-for-sap/"
-                }
-            ]
+            "uri": {
+                "Default": "https://www.suse.com/products/sles-for-sap/"
+            }
         },
         {
             "label": "Documentation",
-            "uri": [
-                {
-                    "Default": "https://www.suse.com/documentation/sles_for_sap/"
-                }
-            ]
+            "uri": {
+                "Default": "https://www.suse.com/documentation/sles_for_sap/"
+            }
         },
         {
             "label": "Forum",
-            "uri": [
-                {
-                    "Default": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
-                }
-            ]
+            "uri": {
+                "Default": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+            }
         },
         {
             "label": "Pricing details",
-            "uri": [
-                {
-                    "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
-                }
-            ]
+            "uri": {
+                "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            }
         }
     ],
     "eula": "https://www.suse.com/licensing/eula/",
