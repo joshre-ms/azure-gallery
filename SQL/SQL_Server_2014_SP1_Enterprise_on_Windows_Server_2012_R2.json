@@ -2,7 +2,28 @@
     "publisher": "Microsoft",
     "label": "SQL Server 2014 SP1 Enterprise Windows Server 2012 R2",
     "displayName": "SQL Server 2014 SP1 Enterprise on Windows Server 2012 R2",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-20140SP1-12.0.4100.1-Ent-ENU-Win2012R2-cy15su05",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-20140SP1-12.0.4100.1-Ent-ENU-Win2012R2-cy15su05",
+            "imageVersions": [
+                {
+                "version": "12.0.4100",
+                "publishedDate": "5/15/2015",
+                "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-20140SP1-12.0.4100.1-Ent-ENU-Win2012R2-cy15su05"
+                }
+            ]
+        },
+        "Blackforest": {
+            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__sql2014sp1-12.0.4100.1-ent-win2012r2",
+            "imageVersions": [
+                {
+                "version": "12.0.4100",
+                "publishedDate": "03/14/2016",
+                "mediaName": "d9879655e4e94679a521a62aad7b3e2f__sql2014sp1-12.0.4100.1-ent-win2012r2"
+                }
+            ]
+        }
+    },
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
       "offer": "SQL2014SP1-WS2012R2",
@@ -27,22 +48,30 @@
         "Standard_D13",
         "Standard_D14"
     ],
-    "links": [
+    "linksForEnvironments": [
         {
             "label": "Documentation",
-            "uri": "https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/"
+            "uri": {
+                "Default": "https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/"
+            }
         },
         {
             "label": "Feature comparison between SQL server 2014 editions",
-            "uri": "https://msdn.microsoft.com/library/cc645993(v=sql.120).aspx"
+            "uri": { 
+                "Default": "https://msdn.microsoft.com/library/cc645993(v=sql.120).aspx"
+            }
         },
         {
             "label": "Support forum",
-            "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=SQL"
+            "uri": { 
+                "Default": "http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=SQL"
+            }
         },
         {
             "label": "Pricing details",
-            "uri": "https://azure.microsoft.com/pricing/details/virtual-machines/#sql-server"
+            "uri": { 
+                "Default": "https://azure.microsoft.com/pricing/details/virtual-machines/#sql-server"
+            }
         }
     ],
     "eula": "http://go.microsoft.com/fwlink/?LinkID=512497",
@@ -53,6 +82,10 @@
         "SqlIaasAgent-AutoBackup",
         "SqlIaasAgent-AutoPatching"
     ],
-    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm"
+    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
+    "cloudEnvironments":  [
+        "PublicAzure",
+        "Blackforest"
+    ]
 }
 
