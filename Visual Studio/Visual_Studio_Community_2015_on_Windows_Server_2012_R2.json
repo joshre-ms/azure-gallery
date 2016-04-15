@@ -6,7 +6,7 @@
     "imageReference": {
       "publisher": "MicrosoftVisualStudio",
       "offer": "VisualStudio",
-      "sku": "VS-2015-Comm-AzureSDK-29-WS2012R2"
+      "sku": "VS-2015-Comm-AzureSDK-2.9-WS2012R2"
     },
     "OS": "Windows",
     "description": "Visual Studio Community 2015 is our free, full featured and extensible IDE for non-enterprise application development.  This image contains Windows Server 2012 R2 with Visual Studio Community 2015.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.",
