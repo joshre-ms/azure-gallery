@@ -2,7 +2,26 @@
     "publisher": "OpenLogic",
     "label": "CentOS-based 6.5",
     "displayName": "CentOS-based 6.5",
-    "MediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-65-20150904",
+    "cloudEnvironments": [
+        "PublicAzure"
+    ],
+    "mediaReferences":{
+        "PublicAzure": {
+            "mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-65-20160309",
+            "imageVersions": [
+                {
+                    "version": "2016.03.09",
+                    "publishedDate": "03/09/2016",
+                    "mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-65-20160309"
+                },
+                {
+                    "version": "2016.09.04",
+                    "publishedDate": "09/04/2015",
+                    "mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-65-20150904"
+                }
+            ]
+        }
+    }
     "imageReference": {
       "publisher": "OpenLogic",
       "offer": "CentOS",
