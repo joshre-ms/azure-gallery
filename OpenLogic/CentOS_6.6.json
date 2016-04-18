@@ -47,7 +47,7 @@
         "Standard_D1_v2",
         "Small"  
     ],
-    "links": [
+    "linksForEnvironments": [
         {
             "label": "Learn more",
             "uri": "http://www.openlogic.com/azure/"
