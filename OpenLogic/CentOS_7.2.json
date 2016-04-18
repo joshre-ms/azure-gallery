@@ -2,7 +2,38 @@
     "publisher": "OpenLogic",
     "label": "CentOS-based 7.2",
     "displayName": "CentOS-based 7.2",
-    "MediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20160303",
+    "cloudEnvironments": [
+        "PublicAzure",
+        "BlackForest"
+    ],
+    "mediaReferences":{
+        "PublicAzure": {
+            "mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20160308",
+            "imageVersions": [
+                {
+                    "version": "2016.03.08",
+                    "publishedDate": "03/08/2016",
+                    "mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-73-20160308"
+                },
+                {
+                    "version": "2016.03.03",
+                    "publishedDate": "03/03/2016",
+                    "mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20160303"
+                }
+            ]
+        },
+        "BlackForest": {
+            "mediaName": "74670972aac14ba9b65a6f34edf06e1c__OpenLogic-CentOS-72-20160325",
+            "imageVersions": [
+                {
+                    "version": "2016.03.25",
+                    "publishedDate": "03/25/2015",
+                    "mediaName": "74670972aac14ba9b65a6f34edf06e1c__OpenLogic-CentOS-72-20160325"
+                }
+            ]
+            
+        }
+    }
     "imageReference": {
       "publisher": "OpenLogic",
       "offer": "CentOS",
@@ -28,7 +59,7 @@
         "Standard_D1_v2",
         "Small"  
     ],
-    "links": [
+    "linksForEnvironments": [
         {
             "label": "Learn more",
             "uri": "http://www.openlogic.com/azure/"
