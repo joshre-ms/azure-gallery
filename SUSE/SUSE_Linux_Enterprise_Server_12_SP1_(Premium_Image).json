@@ -2,10 +2,18 @@
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 12 SP1 (Premium Image)",
     "displayName": "SLES 12 SP1 (Premium)",
+    "cloudEnvironments": [
+        "PublicAzure"
+    ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-priority-v20160301",
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-priority-v20160415",
             "imageVersions": [
+                {
+                    "version": "2016.04.15",
+                    "publishedDate": "04/15/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-priority-v20160415"
+                },
                 {
                     "version": "2016.03.01",
                     "publishedDate": "03/01/2016",
@@ -29,9 +37,6 @@
             ]
         }
     },
-    "cloudEnvironments": [
-        "PublicAzure"
-    ],
     "imageReference": {
       "publisher": "SUSE",
       "offer": "SLES-Priority",
