@@ -52,7 +52,7 @@
             "label": "Learn more",
             "uri": 
                 {
-                    "http://www.openlogic.com/azure/"
+                    "Default": "http://www.openlogic.com/azure/"
                 }
         },
         {
