@@ -2,7 +2,32 @@
     "publisher": "credativ",
     "label": "Debian 7",
     "displayName": "Debian 7 \"Wheezy\"",
-    "MediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-7-amd64-20160420.0",
+    "cloudEnvironments": [
+        "PublicAzure",
+        "Blackforest"
+    ],
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-7-amd64-20160420.0",
+            "imageVersions": [
+                {
+                    "version": "2016.04.20",
+                    "publishedDate": "04/20/2016",
+                    "mediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-7-amd64-20160420.0"
+                }
+            ]
+        },
+        "Blackforest": {
+            "mediaName": "32951de3054f406fb267f8a578f831e5__Debian-7-amd64-20160420.0",
+            "imageVersions": [
+                {
+                    "version": "2016.04.20",
+                    "publishedDate": "04/20/2016",
+                    "mediaName": "32951de3054f406fb267f8a578f831e5__Debian-7-amd64-20160420.0"
+                }
+            ]
+        }
+    },
     "imageReference": {
       "publisher": "credativ",
       "offer": "Debian",
