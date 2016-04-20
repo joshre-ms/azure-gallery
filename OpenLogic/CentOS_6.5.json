@@ -50,11 +50,17 @@
     "linksForEnvironments": [
         {
             "label": "Learn more",
-            "uri": "http://www.openlogic.com/azure/"
+            "uri": 
+                {   
+                    "Defaut": "http://www.openlogic.com/azure/"
+                }
         },
         {
             "label": "Pricing details",
-            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            "uri": 
+                {
+                    "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+                }
         }
     ],
     "eula": "http://www.openlogic.com/azure/service-agreement/",
