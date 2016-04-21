@@ -1,0 +1,94 @@
+{
+    "publisher": "SUSE",
+    "label": "openSUSE Leap 42.1",
+    "displayName": "openSUSE Leap 42.1",
+    "cloudEnvironments": [
+        "PublicAzure",
+        "Blackforest"
+    ],
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-suse-opensuse-leap-42.1-v20160415",
+            "imageVersions": [
+                {
+                    "version": "2016.04.15",
+                    "publishedDate": "04/15/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-leap-42.1-v20160415"
+                },
+                {
+                    "version": "2016.03.02",
+                    "publishedDate": "03/02/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-leap-42.1-v20160302"
+                },
+                {
+                    "version": "2016.02.22",
+                    "publishedDate": "02/22/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-leap-42.1-v20160222"
+                },
+                {
+                    "version": "2015.12.17",
+                    "publishedDate": "01/14/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-leap-42.1-v20151217"
+                }
+            ]
+        },
+        "Blackforest": {
+            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-opensuse-leap-42.1-v20160415",
+            "imageVersions": [
+                {
+                    "version": "2016.04.15",
+                    "publishedDate": "04/15/2016",
+                    "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-opensuse-leap-42.1-v20160415"
+                }
+            ]
+        }
+    },
+    "imageReference": {
+      "publisher": "SUSE",
+      "offer": "openSUSE-Leap",
+      "sku": "42.1"
+    },
+    "OS": "Linux",
+    "description": "Stable, innovative, and fun! A year's worth of continuous improvement in tools and procedures, and countless hours developing, packaging, and testing have produced a stable release providing the best of Free and Open Source software with our special green touch. Customization of these virtual machine (VM) images can be done at <a href='http://susestudio.com' target='_blank'>SUSE Studio</a>",
+    "iconPath": "Icons/openSUSE",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra",
+        "azureCertified",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Standard_DS1",
+        "Standard_DS11",
+        "Standard_DS2",
+        "Standard_D1",
+        "Standard_D1_v2",
+        "Small"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "Learn more",
+            "uri": {
+                "Default": "http://opensuse.org/"
+            }
+        },
+        {
+            "label": "Documentation",
+            "uri": {
+                "Default": "http://opensuse.org/Portal:Documentation"
+            }
+        },
+        {
+            "label": "Pricing details",
+            "uri": {
+                "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            }
+        }
+    ],
+    "eula": "https://en.opensuse.org/openSUSE:License",
+    "privacy": null,
+    "screenshot": "Screenshots/opensuse.png"
+}

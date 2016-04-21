@@ -1,0 +1,39 @@
+{
+    "publisher": "Microsoft",
+    "label": "Visual Studio \"15\" Enterprise with Azure SDK 2.9 on Windows Server 2012 R2 (x64)",
+    "displayName": "Visual Studio \"15\" Enterprise with Azure SDK 2.9 on Windows Server 2012 R2 (x64)",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-Next-Preview-Ent-AzureSDK-29-WS2012R22016-03-31",
+    "imageReference": {
+      "publisher": "MicrosoftVisualStudio",
+      "offer": "VisualStudio",
+      "sku": "VS-Next-Preview-Ent-AzureSDK-2.9-WS2012R2"
+    },
+    "OS": "Windows",
+    "description": "With Visual Studio \"15\" Enterprise on Windows Server 2012 R2 you can create applications across devices and services, using a single solution with a consistent development experience.  You get the tools you need to deliver applications for Android, iOS, and Windows, as well as modern web applications and cloud services.  This image contains a full install of Visual Studio “15” Enterprise Preview on Windows.  It includes new functionalities such as open and edit any code from any folder, C# new language features with pattern matching and nested local functions.",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "appInfra"
+    ],
+    "recommendedSizes": [
+        "Standard_D2",
+        "Medium",
+        "Standard_DS2"
+    ],
+    "links": [
+        {
+            "label": "Documentation",
+            "uri": "http://insider.windows.com/"
+        },
+        {
+            "label": "MSDN Azure benefit details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
+        }
+    ],
+    "eula": "http://go.microsoft.com/fwlink/?LinkID=614945",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkID=286720",
+    "screenshot": "Screenshots/VisualStudioOnWindows10.png"
+}

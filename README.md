@@ -8,6 +8,9 @@ Each folder at the root level approximately represents a publisher. A folder con
 
 ## Package manifest schema
 
+* `cloudEnvironments`
+You can omit this property when publishing only to `PublicAzure`. But to publish to clouds other than `PublicAzure`, this element is required. A JSON array specifying the list of clouds for which the package should be published. Currently supported clouds: `PublicAzure`, `Blackforest`. 
+
 * `publisher`
 Required. A JSON string that is used to construct the package identity and is the short form of the publisher name. If a `publisherDisplayName` is not specified, then it is also used as the long form.
 
@@ -26,9 +29,6 @@ Optional. A JSON string to indicate if the `mediaName` is referencing an OS imag
 * `dataDisksCount`
 Optional. A JSON string to indicate the number of data disks the VM image contains. This is used by the portal to filter out VM sizes that support fewer data disks than the VM image requires. If `imageType` is `OSImage`, this value is ignored.
 
-* `mediaName`
-Required. A JSON string that is the `Name` value of an Operating System Image ([OS Image](http://msdn.microsoft.com/library/azure/jj157191.aspx)) or Virtual Machine Image ([VM Image](http://msdn.microsoft.com/library/azure/dn499770.aspx)). Ensure that your image is published and replicated before adding a package manifest that references it.
-
 * `os`
 Required. A JSON string that denotes the platform of the image specified in `mediaName`. The only valid values are `Windows` and `Linux`.
 
@@ -46,6 +46,31 @@ Required. A JSON array containing exactly three recommended virtual machine size
 
 * `links`
 Optional. A JSON array containing objects that specify a `label` and `uri`. These links are shown in the details blade for a gallery package. You can specify up to five links.
+Multicloud support: The `links` field is the old format which will be supported for publishing only to `PublicAzure`. To publish to multiple clouds, the `linksForEnvironments` field should be used. If a file has both `links` and `linksForEnvironments` fields, the data in `linksForEnvironments` will be used for publishing the package. 
+
+* `linksForEnvironments`
+Optional. A JSON array containing objects that specify a `label` and `uri`. The `uri` field has a list of links for specifying Default urls for all clouds and overrides for specific clouds. If the Default url is not provided, that link will be made available only to the clouds specified. In the example below, the "Learn more" link will be available in all clouds and has an override for the `Blackforest` environment. The "Documentation" link will be available only for `Blackforest` and not for `PublicAzure` and other clouds. 
+```json
+"linksForEnvironments": [
+    {
+        "label": "Learn more",
+        "uri": [
+            {
+                "Default": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/",
+                "Blackforest": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/blackforest"
+            }
+        ]
+    },
+    {
+        "label": "Documentation",
+        "uri": [
+            {
+                "Blackforest": "http://technet.microsoft.com/library/hh801901.aspx/Blackforest"
+            }
+        ]
+    }
+]
+```
 
 * `eula`
 Optional. A JSON string containing a URL to legal terms for a gallery package.
@@ -59,8 +84,13 @@ Optional. A JSON string specifying the relative path to a screenshot for a galle
 * `supportedExtensions`
 Optional. A JSON string array specifying the list of extensions supported by this image. Do not alter these values without prior consent. This flag might be used to render specific configuration UI for these extensions while creating virtual machine in portal.
 
+* `mediaName`
+Required if publishing only to PublicAzure. A JSON string that is the `Name` value of an Operating System Image ([OS Image](http://msdn.microsoft.com/library/azure/jj157191.aspx)) or Virtual Machine Image ([VM Image](http://msdn.microsoft.com/library/azure/dn499770.aspx)). Ensure that your image is published and replicated before adding a package manifest that references it.
+
+  Multicloud support: This element is required if publishing only to PublicAzure. If the package needs to be published to multiple environments, the `mediaReferences` element(see below) should be used.
+
 * `imageVersions`
-Optional. A JSON array containing objects that specify the versions available for this image. 
+This element is optional and used only for PublicAzure. If the package is being published to multiple environments, `mediaReferences`(see below) should be used to specify these. A JSON array containing objects that specify the versions available for this image. 
 The objects are made of the following properties:
   * `version`: image version string displayed to the user
   * `publishedDate`: date this version of the image was published
@@ -69,7 +99,7 @@ The objects are made of the following properties:
   If there are image versions specified but none are selected by the user, the media name used will be the one in the required `mediaName`
 
   Example:
-```
+```json
 "imageVersions": [
   {
     "version": "2.1.0",
@@ -83,6 +113,48 @@ The objects are made of the following properties:
   }
 ]
 ```
+
+* `mediaReferences`
+Required for supporting multiple environments. A JSON array containing the objects that specify the mediaName and imageVersions available. Both mediaName and imageVersions are required fields in the JSON object. If you do not want to specify imageVersions, the element should still be present, but you can assign it to null("imageVersions": null). The example below illustrates how to specify MediaName and imageVersions, for `PublicAzure` and `Blackforest` environments: 
+```json
+"mediaReferences": {
+    "PublicAzure": {
+    "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160126-en.us-127GB.vhd",
+    "imageVersions": [
+        {
+        "version": "December, 2015",
+        "publishedDate": "12/14/2015",
+        "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20151214-en.us-127GB.vhd"
+        },
+        {
+        "version": "January, 2016",
+        "publishedDate": "01/26/2016",
+        "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160126-en.us-127GB.vhd"
+        }
+        ]
+    },
+    "Blackforest": {
+    "mediaName": "BlackforestLatest.vhd",
+    "imageVersions": [
+        {
+        "version": "December, 2015",
+        "publishedDate": "12/14/2015",
+        "mediaName": "BlackforestVersion2015.vhd"
+        },
+        {
+        "version": "January, 2016",
+        "publishedDate": "01/26/2016",
+        "mediaName": "BlackforestLatest.vhd"
+        }
+        ]
+    }
+}
+```
+
+  If both [mediaName, imageVersions] and [mediaReferences] are specified, mediaReferences will be used to generate the package and will overwrite the values of mediaName and imageVersions. 
+
+* `createUIDefinitionHandler`
+Optional. A JSON string specifying the value of the handler tag in the createuidefinition.cs file for CRP packages. 
 
 #### Additional notes
 
@@ -107,18 +179,7 @@ Images must be exactly 533px by 324px and in PNG format. Specifying a screenshot
 
 ## Contributing workflow
 
-Here’s how we suggest you go about changing your gallery packages:
-
-1. [Fork this project][fork] to your account.
-2. [Create a branch][branch] for the change you intend to make.
-3. Make your changes to your fork.
-4. [Send a pull request][pr] from your fork’s branch to our `master` branch.
-
-Changes to the respective gallery packages will be processed once we approve the pull request.
-
-[fork]: http://help.github.com/forking/
-[branch]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository
-[pr]: http://help.github.com/pull-requests/
+Pull requests are not necessary to add, remove, or edit packages. If you can see this README, then you have permissions to check into the repository directly.
 
 ## Contact
 

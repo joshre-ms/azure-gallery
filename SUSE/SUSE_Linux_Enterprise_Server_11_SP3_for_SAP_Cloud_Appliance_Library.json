@@ -2,7 +2,21 @@
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 11 SP3 for SAP Cloud Appliance",
     "displayName": "SLES 11 SP3 for SAP CAL",
-    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp3-sapcal-v20150127",
+    "cloudEnvironments": [
+        "PublicAzure"
+    ],
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp3-sapcal-v20150127",
+            "imageVersions": [
+                {
+                    "version": "20150127",
+                    "publishedDate": "01/27/2015",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp3-sapcal-v20150127"
+                }
+            ]
+        }
+    },
     "imageReference": {
       "publisher": "SUSE",
       "offer": "SLES-SAPCAL",
@@ -21,26 +35,36 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
-        "Standard_D3",
+        "Standard_DS3",
         "A6",
-        "Standard_DS12"
+        "Standard_DS12",
+        "Standard_D3",
+        "Standard_D3_v2"
     ],
-    "links": [
+    "linksForEnvironments": [
         {
             "label": "Learn more",
-            "uri": "https://www.suse.com/products/sles-for-sap/"
+            "uri": {
+                "Default": "https://www.suse.com/products/sles-for-sap/"
+            }
         },
         {
             "label": "Documentation",
-            "uri": "https://www.suse.com/documentation/sles_for_sap/"
+            "uri": {
+                "Default": "https://www.suse.com/documentation/sles_for_sap/"
+            }
         },
         {
             "label": "Forum",
-            "uri": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+            "uri": {
+                "Default": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+            }
         },
         {
             "label": "Pricing details",
-            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            "uri": {
+                "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            }
         }
     ],
     "eula": "https://www.suse.com/licensing/eula/",

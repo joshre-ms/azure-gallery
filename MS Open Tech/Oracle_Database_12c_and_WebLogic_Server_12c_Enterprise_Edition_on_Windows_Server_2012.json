@@ -2,14 +2,14 @@
     "publisher": "Microsoft",
     "label": "Oracle Database 12c and WebLogic Server 12c EE",
     "displayName": "Oracle Database 12c and WebLogic Server 12c Enterprise Edition",
-    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Oracle-Database-12.1.0.2.0-EE-WebLogic-12.1.2.0-EE-JDK-1.7.0_85-20150810-Win-GA",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__Oracle-Database-12.1.0.2.0-EE-WebLogic-12.1.3.0-EE-JDK-1.7.0_85-20160315-Win-GA",
     "imageReference": {
       "publisher": "Microsoft",
       "offer": "Oracle_Database_12c_and_Weblogic_Server_12c",
       "sku": "Oracle_Database_12c_and_Weblogic_Server_12c_Enterprise_Edition"
     },
     "OS": "Windows",
-    "description": "<a href='http://www.oracle.com/database' target='_blank'>Oracle Database</a> 12c Enterprise Edition (12.1.0.2.0) is a next-generation database designed for the cloud, providing a new multitenant architecture on top of a fast, scalable, reliable, and secure database platform. <a href='http://www.oracle.com/weblogicserver' target='_blank'>Oracle WebLogic Server</a> 12c Enterprise Edition (12.1.2.0) is a leading Java EE application server. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Standard_DS12</a>.",
+    "description": "<a href='http://www.oracle.com/database' target='_blank'>Oracle Database</a> 12c Enterprise Edition (12.1.0.2.0) is a next-generation database designed for the cloud, providing a new multitenant architecture on top of a fast, scalable, reliable, and secure database platform. <a href='http://www.oracle.com/weblogicserver' target='_blank'>Oracle WebLogic Server</a> 12c Enterprise Edition (12.1.3.0) is a leading Java EE application server. Minimum recommended virtual machine size for this image is <a href='http://go.microsoft.com/fwlink/?LinkID=309169' target='_blank'>Standard_DS12</a>.",
     "iconPath": "Icons/OracleWLDB",
     "categories": [
         "virtualMachine",

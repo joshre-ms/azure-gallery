@@ -1,0 +1,37 @@
+{
+  "publisher": "CoreOS",
+  "label": "CoreOS Stable",
+  "displayName": "CoreOS Stable (899.13.0)",
+  "MediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Stable-899.13.0",
+  "imageReference": {
+    "publisher": "CoreOS",
+    "offer": "CoreOS",
+    "sku": "Stable"
+  },
+  "os": "Linux",
+  "description": "CoreOS is a modern and minimal Linux distribution, providing an easy way to run containers, manage clusters and seamlessly update your servers - all components that enable warehouse-scale compute.",
+  "iconPath": "Icons",
+  "eula": "https://coreos.com/legal/open-source/",
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "linux",
+    "appInfra"
+  ],
+  "recommendedSizes": [
+    "Standard_DS1",
+    "Standard_DS11",
+    "Standard_DS2",
+    "Standard_D1",
+    "Standard_D1_v2",
+    "Small"
+  ],
+  "links": [
+    {
+      "label": "Documentation",
+      "uri": "https://coreos.com/docs/running-coreos/cloud-providers/azure/"
+    }
+  ],
+  "hardened": true
+}

@@ -1,0 +1,57 @@
+{
+    "publisher": "Microsoft",
+    "label": "Windows Server Remote Desktop Session Host on Windows Server 2012 R2",
+    "displayName": "Windows Server Remote Desktop Session Host on Windows Server 2012 R2",
+    "MediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-Remote-Desktop-Session-Host-on-Windows-Server-2012-R2-20151201-0133",
+    "imageVersions": [
+        {
+        "version": "December, 2015",
+        "publishedDate": "12/01/2015",
+        "mediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-Remote-Desktop-Session-Host-on-Windows-Server-2012-R2-20151201-0133"
+        },
+        {
+        "version": "August, 2015",
+        "publishedDate": "8/28/2015",
+        "mediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-Remote-Desktop-Session-Host-on-Windows-Server-2012-R2-20150828-0350"
+        }
+    ],
+     "imageReference": {
+      "publisher": "MicrosoftWindowsServerRemoteDesktop",
+      "offer": "WindowsServer",
+      "sku": "Remote-Desktop-Session-Host"
+    },
+    "OS": "Windows",
+    "description": "This image contains the Windows Server 2012 R2 operating system with the Remote Desktop Session Host (RD Session Host) role installed. This image has been pre-configured for Windows Azure. RD Session Host enables a server to host RemoteApp programs or session-based desktops.",
+    "iconPath": "Icons/Server",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "appInfra",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Standard_D3",
+        "Standard_D4",
+        "Large",
+        "ExtraLarge"
+    ],
+    "links": [
+        {
+            "label": "Learn more",
+            "uri": "https://azure.microsoft.com/en-us/documentation/articles/remoteapp-image-on-azurevm/"
+        },
+        {
+            "label": "Documentation",
+            "uri": "https://technet.microsoft.com/en-US/library/hh831447.aspx"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#windows"
+        }
+    ],
+    "eula": null,
+    "privacy": null,
+    "screenshot": null
+}

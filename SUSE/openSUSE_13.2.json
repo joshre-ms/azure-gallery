@@ -2,14 +2,38 @@
     "publisher": "SUSE",
     "label": "openSUSE 13.2",
     "displayName": "openSUSE 13.2",
-    "MediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-13.2-v20150512",
+    "cloudEnvironments": [
+        "PublicAzure"
+    ],
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-13.2-v20160302",
+            "imageVersions": [
+                {
+                    "version": "2016.03.02",
+                    "publishedDate": "03/02/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-13.2-v20160302"
+                },
+                {
+                    "version": "2016.02.22",
+                    "publishedDate": "02/22/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-13.2-v20160222"
+                },
+                {
+                    "version": "2015.05.14",
+                    "publishedDate": "05/14/2015",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-13.2-v20150512"
+                }
+            ]
+        }
+    },
     "imageReference": {
       "publisher": "SUSE",
       "offer": "openSUSE",
       "sku": "13.2"
     },
     "OS": "Linux",
-    "description": "Stable, innovative, and fun! A year's worth of continuous improvement in tools and procedures, and countless hours developing, packaging, and testing have produced a stable release providing the best of Free and Open Source software with our special green touch. Customization of these images can be done at <a href='http://susestudio.com' target='_blank'>SUSE Studio</a>",
+    "description": "Stable, innovative, and fun! A year's worth of continuous improvement in tools and procedures, and countless hours developing, packaging, and testing have produced a stable release providing the best of Free and Open Source software with our special green touch. Customization of these virtual machine (VM) images can be done at <a href='http://susestudio.com' target='_blank'>SUSE Studio</a>",
     "iconPath": "Icons/openSUSE",
     "categories": [
         "virtualMachine",
@@ -21,22 +45,31 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
+        "Standard_DS1",
+        "Standard_DS11",
+        "Standard_DS2",
         "Standard_D1",
-        "Small",
-        "Standard_DS2"
+        "Standard_D1_v2",
+        "Small"
     ],
-    "links": [
+    "linksForEnvironments": [
         {
             "label": "Learn more",
-            "uri": "http://opensuse.org/"
+            "uri": {
+                "Default": "http://opensuse.org/"
+            }
         },
         {
             "label": "Documentation",
-            "uri": "http://opensuse.org/Portal:Documentation"
+            "uri": {
+                "Default": "http://opensuse.org/Portal:Documentation"
+            }
         },
         {
             "label": "Pricing details",
-            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            "uri": {
+                "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            }
         }
     ],
     "eula": "https://en.opensuse.org/openSUSE:License",
