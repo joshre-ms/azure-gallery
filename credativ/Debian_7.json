@@ -54,14 +54,18 @@
         "Standard_D1_v2",
         "Small"
     ],
-    "links": [
+    "linksForEnvironments": [
         {
             "label": "Wiki",
-            "uri": "https://wiki.debian.org/"
+            "uri": {
+                "Default": "https://wiki.debian.org/"
+            }
         },
         {
             "label": "Pricing details",
-            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            "uri": {
+                "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            }
         }
     ],
     "eula": "https://www.debian.org/legal/licenses/",
