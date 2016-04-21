@@ -9,7 +9,7 @@
       "sku": "2016-Nano-Server-Technical-Preview"
     },
     "OS": "Windows",
-    "description": "Nano Server is a new headless deployment option for Windows Server, running at a fraction of the size of the full operating system. This Technical Preview allows you to try Nano Server and find out how you can benefit from the reduced servicing requirements and increased agility of this new install option. This VHD contains a preview release and should strictly be used for virtual machine (VM) testing purposes. The VHD won't be serviced or supported for production use and the trial period expires on July 15th, 2016.",
+    "description": "<p>Nano Server is a new headless deployment option for Windows Server, running at a fraction of the size of the full operating system. This Technical Preview allows you to try Nano Server and find out how you can benefit from the reduced servicing requirements and increased agility of this new install option. This VHD contains a preview release and should strictly be used for virtual machine (VM) testing purposes. The VHD won't be supported for production use and the trial period expires on February, 2016.</p><p> Please consult the Nano Server <a href='https://technet.microsoft.com/en-us/library/mt126167.aspx' target='_blank'>Getting Started Guide</a> on how to install optional roles & features from the online package repository.</p>",
     "iconPath": "Icons/Server",
     "categories": [
         "virtualMachine",
