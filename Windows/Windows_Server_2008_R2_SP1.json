@@ -4,17 +4,17 @@
     "displayName": "Windows Server 2008 R2 SP1",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-20160229-en.us-127GB.vhd",
+            "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-20160329-en.us-127GB.vhd",
             "imageVersions": [
+                {
+                "version": "March, 2016",
+                "publishedDate": "03/29/2016",
+                "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-20160329-en.us-127GB.vhd"
+                },
                 {
                 "version": "February, 2016",
                 "publishedDate": "02/29/2015",
                 "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-20160229-en.us-127GB.vhd"
-                },
-                {
-                "version": "January, 2016",
-                "publishedDate": "01/25/2016",
-                "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-20160125-en.us-127GB.vhd"
                 }
             ]
         },
@@ -25,6 +25,16 @@
                 "version": "February, 2016",
                 "publishedDate": "02/29/2016",
                 "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Win2K8R2SP1-Datacenter-20160229-en.us-127GB.vhd"
+                }
+            ]
+        },
+        "Mooncake": {
+            "mediaName": "55bc2b193643443bb879a78bda516fc8__Win2K8R2SP1-Datacenter-20160229-en.us-127GB.vhd",
+            "imageVersions": [
+                {
+                "version": "February, 2016",
+                "publishedDate": "02/29/2016",
+                "mediaName": "55bc2b193643443bb879a78bda516fc8__Win2K8R2SP1-Datacenter-20160229-en.us-127GB.vhd"
                 }
             ]
         }
@@ -80,6 +90,7 @@
     "screenshot": null,
     "cloudEnvironments":  [
         "PublicAzure",
-        "Blackforest"
+        "Blackforest",
+        "Mooncake"
     ]
 }
