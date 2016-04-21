@@ -9,7 +9,7 @@ Each folder at the root level approximately represents a publisher. A folder con
 ## Package manifest schema
 
 * `cloudEnvironments`
-You can omit this property when publishing only to `PublicAzure`. But to publish to clouds other than `PublicAzure`, this element is required. A JSON array specifying the list of clouds for which the package should be published. Currently supported clouds: `PublicAzure`, `Blackforest`. 
+You can omit this property when publishing only to `PublicAzure`. But to publish to clouds other than `PublicAzure`, this element is required. A JSON array specifying the list of clouds for which the package should be published. Currently supported clouds: `PublicAzure`, `Blackforest`, `Mooncake`. 
 
 * `publisher`
 Required. A JSON string that is used to construct the package identity and is the short form of the publisher name. If a `publisherDisplayName` is not specified, then it is also used as the long form.
