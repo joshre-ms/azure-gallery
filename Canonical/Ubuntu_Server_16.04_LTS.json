@@ -6,7 +6,7 @@
     "imageReference": {
       "publisher": "Canonical",
       "offer": "UbuntuServer",
-      "sku": "16.04"
+      "sku": "16.04.0-LTS"
     },
     "OS": "Linux",
     "summary": "Ubuntu Server delivers the best value scale-out performance available.",
