@@ -1,69 +1,61 @@
 {
-    "publisher": "OpenLogic",
-    "label": "CentOS-based 6.6",
-    "displayName": "CentOS-based 6.6",
-    "cloudEnvironments": [
-        "PublicAzure"
-    ],
-    "mediaReferences":{
-        "PublicAzure": {
-            "mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-66-20160309",
-            "imageVersions": [
-                {
-                    "version": "2016.03.09",
-                    "publishedDate": "03/09/2016",
-                    "mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-66-20160309"
-                },
-                {
-                    "version": "2015.07.31",
-                    "publishedDate": "07/31/2015",
-                    "mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-66-20150731"
-                }
-            ]
-        }
-    }
-    "imageReference": {
-      "publisher": "OpenLogic",
-      "offer": "CentOS",
-      "sku": "6.6"
-    },
-    "OS": "Linux",
-    "description": "This distribution of Linux is based on CentOS version 6.6 and is provided by OpenLogic. It contains an installation of the Basic Server packages.",
-    "iconPath": "Icons",
-    "categories": [
-        "virtualMachine",
-        "microsoftServer",
-        "azure",
-        "linux",
-        "appInfra",
-        "azureCertified",
-        "virtualMachineRecommended"
-    ],
-    "recommendedSizes": [
-        "Standard_DS1",
-        "Standard_DS11",
-        "Standard_DS2",
-        "Standard_D1",
-        "Standard_D1_v2",
-        "Small"  
-    ],
-    "linksForEnvironments": [
-        {
-            "label": "Learn more",
-            "uri": 
-                {
-                    "Default": "http://www.openlogic.com/azure/"
-                }
-        },
-        {
-            "label": "Pricing details",
-            "uri": 
-                {
-                    "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
-                }
-        }
-    ],
-    "eula": "http://www.openlogic.com/azure/service-agreement/",
-    "privacy": null,
-    "screenshot": null
+	"publisher": "OpenLogic",
+	"label": "CentOS-based 6.6",
+	"displayName": "CentOS-based 6.6",
+	"cloudEnvironments": [
+		"PublicAzure"
+	],
+	"mediaReferences": {
+		"PublicAzure": {
+			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-66-20160309",
+			"imageVersions": [{
+				"version": "2016.03.09",
+				"publishedDate": "03/09/2016",
+				"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-66-20160309"
+			}, {
+				"version": "2015.07.31",
+				"publishedDate": "07/31/2015",
+				"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-66-20150731"
+			}]
+		}
+	},
+	"imageReference": {
+		"publisher": "OpenLogic",
+		"offer": "CentOS",
+		"sku": "6.6"
+	},
+	"OS": "Linux",
+	"description": "This distribution of Linux is based on CentOS version 6.6 and is provided by OpenLogic. It contains an installation of the Basic Server packages.",
+	"iconPath": "Icons",
+	"categories": [
+		"virtualMachine",
+		"microsoftServer",
+		"azure",
+		"linux",
+		"appInfra",
+		"azureCertified",
+		"virtualMachineRecommended"
+	],
+	"recommendedSizes": [
+		"Standard_DS1",
+		"Standard_DS11",
+		"Standard_DS2",
+		"Standard_D1",
+		"Standard_D1_v2",
+		"Small"
+	],
+	"linksForEnvironments": [{
+		"label": "Learn more",
+		"uri": {
+			"Default": "http://www.openlogic.com/azure/"
+		}
+	}, {
+		"label": "Pricing details",
+		"uri": {
+			"Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+		}
+	}],
+	"eula": "http://www.openlogic.com/azure/service-agreement/",
+	"privacy": null,
+	"screenshot": null
 }
