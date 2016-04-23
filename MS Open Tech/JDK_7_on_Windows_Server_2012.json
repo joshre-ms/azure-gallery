@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "JDK 7 on Windows Server 2012",
     "displayName": "JDK 7",
-    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__JDK-1.7.0_85-20160315-Win-GA",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__JDK-1.7.0_85-20160419-Win-GA",
     "imageReference": {
       "publisher": "Microsoft",
       "offer": "JDK",
