@@ -1,15 +1,15 @@
 {
   "publisher": "CoreOS",
-  "label": "CoreOS Stable",
-  "displayName": "CoreOS Stable (835.13.0)",
-  "MediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Stable-835.13.0",
+  "label": "CoreOS Beta",
+  "displayName": "CoreOS Beta (991.2.0)",
+  "MediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Beta-991.2.0",
   "imageReference": {
     "publisher": "CoreOS",
     "offer": "CoreOS",
-    "sku": "Stable"
+    "sku": "Beta"
   },
   "os": "Linux",
-  "description": "CoreOS is a modern and minimal Linux distribution, providing an easy way to run containers, manage clusters and seamlessly update your servers - all components that enable warehouse-scale compute.",
+  "description": "CoreOS is a modern and minimal virtual machine (VM) Linux distribution, providing an easy way to run containers, manage clusters and seamlessly update your servers - all components that enable warehouse-scale compute.",
   "iconPath": "Icons",
   "eula": "https://coreos.com/legal/open-source/",
   "categories": [
