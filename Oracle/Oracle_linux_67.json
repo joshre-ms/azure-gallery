@@ -3,6 +3,11 @@
     "label": "Oracle Linux 6",
     "displayName": "Oracle Linux 6.7.0.0.0",
     "MediaName": "5fd6f054-23db-481d-baa5-450ba7fd98cf__Image__Oracle-Linux-67",
+    "imageReference": {
+      "publisher": "Oracle",
+      "offer": "Oracle-Linux",
+      "sku": "6"
+    },
     "OS": "Linux",
     "description": "Oracle Linux 6 brings the latest Linux innovations to market, delivering extreme performance, advanced scalability, and reliability for enterprise applications and systems.",
     "iconPath": "Icons/Linux",
