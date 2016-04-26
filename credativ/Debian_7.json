@@ -4,7 +4,8 @@
     "displayName": "Debian 7 \"Wheezy\"",
     "cloudEnvironments": [
         "PublicAzure",
-        "Blackforest"
+        "Blackforest",
+        "Mooncake"
     ],
     "mediaReferences": {
         "PublicAzure": {
@@ -24,6 +25,16 @@
                     "version": "2016.04.20",
                     "publishedDate": "04/20/2016",
                     "mediaName": "32951de3054f406fb267f8a578f831e5__Debian-7-amd64-20160420.0"
+                }
+            ]
+        },
+        "Mooncake": {
+            "mediaName": "8f699951c9734adc865d1538866f72c0__Debian-7-amd64-20160420.0",
+            "imageVersions": [
+                {
+                    "version": "2016.04.20",
+                    "publishedDate": "04/20/2016",
+                    "mediaName": "8f699951c9734adc865d1538866f72c0__Debian-7-amd64-20160420.0"
                 }
             ]
         }
