@@ -1,15 +1,24 @@
 ﻿{
     "publisher": "Microsoft",
     "label": "Windows Server 2016 Nano Technical Preview",
-    "displayName": "Windows Server 2016 Nano Technical Preview 4",
-    "MediaName": "a699494373c04fc0bc8f2bb1389d6106__Nano_TP4_Azure_20151118_8GB.vhd",
-    "imageReference": {
+    "displayName": "Windows Server 2016 Technical Preview 5 - Nano Server",
+     "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2016-Nano-20160420-en.us-8GB.vhd",
+        },
+        "Blackforest": {
+            "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2016-Nano-20160420-en.us-8GB.vhd"
+        },
+        "Mooncake": {
+            "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2016-Nano-20160420-en.us-8GB.vhd",
+        }
+    },"imageReference": {
       "publisher": "MicrosoftWindowsServer",
       "offer": "WindowsServer",
       "sku": "2016-Nano-Server-Technical-Preview"
     },
     "OS": "Windows",
-    "description": "<p>Nano Server is a new headless deployment option for Windows Server, running at a fraction of the size of the full operating system. This Technical Preview allows you to try Nano Server and find out how you can benefit from the reduced servicing requirements and increased agility of this new install option. This VHD contains a preview release and should strictly be used for virtual machine (VM) testing purposes. The VHD won't be supported for production use and the trial period expires on February, 2016.</p><p> Please consult the Nano Server <a href='https://technet.microsoft.com/en-us/library/mt126167.aspx' target='_blank'>Getting Started Guide</a> on how to install optional roles & features from the online package repository.</p>",
+    "description": "<p>Nano Server is a new headless deployment option for Windows Server, running at a fraction of the size of the full operating system. This Technical Preview allows you to try Nano Server and find out how you can benefit from the reduced servicing requirements and increased agility of this new install option. This VHD contains a preview release and should strictly be used for virtual machine (VM) testing purposes. The VHD won't be supported for production use and the trial period expires in February, 2017.</p><p> Please consult the Nano Server <a href='https://technet.microsoft.com/en-us/library/mt126167(v=ws.12).aspx' target='_blank'>Getting Started Guide</a> on how to install optional roles & features from the online package repository.</p>",
     "iconPath": "Icons/Server",
     "categories": [
         "virtualMachine",
@@ -39,5 +48,10 @@
     "eula": "http://go.microsoft.com/fwlink/?LinkId=544707",
     "privacy": null,
     "screenshot": null,
-    "hardened": true
+    "hardened": true,
+    "cloudEnvironments":  [
+        "PublicAzure",
+        "Blackforest",
+        "Mooncake"
+    ]
 }
