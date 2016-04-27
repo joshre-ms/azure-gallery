@@ -1,0 +1,54 @@
+{
+    "publisher": "Oracle",
+    "label": "Oracle Linux 6",
+    "displayName": "Oracle Linux 6.7.0.0.0",
+    "MediaName": "5fd6f054-23db-481d-baa5-450ba7fd98cf__Image__Oracle-Linux-67",
+    "imageReference": {
+      "publisher": "Oracle",
+      "offer": "Oracle-Linux",
+      "sku": "6"
+    },
+    "OS": "Linux",
+    "description": "Oracle Linux 6 brings the latest Linux innovations to market, delivering extreme performance, advanced scalability, and reliability for enterprise applications and systems.",
+    "iconPath": "Icons/Linux",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "azureCertified"
+    ],
+    "recommendedSizes": [
+        "Standard_DS1",
+        "Standard_DS11",
+        "Standard_DS2",
+        "Standard_D1",
+        "Standard_D1_v2",
+        "Small"  
+    ],
+    "links": [
+        {
+            "label": "Overview",
+            "uri": "http://www.oracle.com/linux"
+        },
+        {
+            "label": "Learn more",
+            "uri": "http://www.oracle.com/technetwork/server-storage/linux/learnmore/index.html"
+        },
+        {
+            "label": "Documentation",
+            "uri": "http://www.oracle.com/technetwork/server-storage/linux/documentation/index.html"
+        },
+        {
+            "label": "Support forum",
+            "uri": "http://forums.oracle.com/forums/forum.jspa?forumID=822"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#oracle-software"
+        }
+    ],
+    "eula": "http://www.oracle.com/technetwork/licenses/oracle-license-2016066.html",
+    "privacy": "http://www.oracle.com/us/legal/privacy/privacy-policy-078584.html",
+    "screenshot": null
+}
