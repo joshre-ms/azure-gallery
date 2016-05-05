@@ -6,7 +6,7 @@
     "imageReference": {
       "publisher": "Oracle",
       "offer": "Oracle-Linux",
-      "sku": "6"
+      "sku": "6.4"
     },
     "OS": "Linux",
     "description": "Oracle Linux 6 brings the latest Linux innovations to market, delivering extreme performance, advanced scalability, and reliability for enterprise applications and systems.",
