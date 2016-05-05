@@ -6,7 +6,7 @@
     "imageReference": {
       "publisher": "Oracle",
       "offer": "Oracle-Linux",
-      "sku": "7"
+      "sku": "7.0"
     },
     "OS": "Linux",
     "description": "Oracle Linux 7 delivers extreme performance, advanced scalability, and reliability for enterprise applications and systems. Optimized for enterprise workloads, Oracle Linux is the only operating system to offer zero-downtime updates.",
