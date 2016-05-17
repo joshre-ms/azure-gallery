@@ -19,8 +19,10 @@
         "database"
     ],
     "recommendedSizes": [
-        "Basic_A1",
+       "Basic_A1",
+        "Standard_D1_v2",
         "Standard_D1",
+        "Standard_DS1_v2",
         "Standard_DS1"
     ],
     "links": [

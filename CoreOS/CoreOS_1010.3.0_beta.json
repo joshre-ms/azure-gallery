@@ -19,14 +19,17 @@
     "linux",
     "appInfra"
   ],
-  "recommendedSizes": [
-    "Standard_DS1",
-    "Standard_DS11",
-    "Standard_DS2",
-    "Standard_D1",
-    "Standard_D1_v2",
-    "Small"
-  ],
+    "recommendedSizes": [
+        "Standard_DS1_v2",
+        "Standard_DS2_v2",
+        "Standard_DS11_v2",
+        "Standard_DS1",
+        "Standard_DS2",
+        "Standard_DS11",
+        "Standard_D1_v2",
+        "Standard_D1",
+        "Small"          
+    ],
   "links": [
     {
       "label": "Documentation",
