@@ -2,17 +2,17 @@
     "publisher": "Microsoft",
     "label": "Windows Server Remote Desktop Session Host with Microsoft Office 365 ProPlus",
     "displayName": "Windows Server Remote Desktop Session Host with Microsoft Office 365 ProPlus",
-    "MediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-RDSHwO365P-on-Windows-Server-2012-R2-20151201-1848",
+    "MediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-RDSHwO365P-on-Windows-Server-2012-R2-20160421-2018",
     "imageVersions": [
         {
-        "version": "December, 2015",
-        "publishedDate": "12/01/2015",
-        "mediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-RDSHwO365P-on-Windows-Server-2012-R2-20151201-1848"
+        "version": "April, 2016",
+        "publishedDate": "04/21/2016",
+        "mediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-RDSHwO365P-on-Windows-Server-2012-R2-20160421-2018"
         },
         {
-        "version": "September, 2015",
-        "publishedDate": "9/01/2015",
-        "mediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-RDSHwO365P-on-Windows-Server-2012-R2-20150901-1800"
+        "version": "March, 2016",
+        "publishedDate": "03/25/2015",
+        "mediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-RDSHwO365P-on-Windows-Server-2012-R2-20160325-2045"
         }
     ],
      "imageReference": {
