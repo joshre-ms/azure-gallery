@@ -2,7 +2,7 @@
     "publisher": "Canonical",
     "label": "Ubuntu Server 16.04 LTS",
     "displayName": "Ubuntu Server 16.04 LTS",
-    "MediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_04-LTS-amd64-server-20160420.3-en-us-30GB",
+    "MediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_04-LTS-amd64-server-20160516.1-en-us-30GB",
     "imageReference": {
       "publisher": "Canonical",
       "offer": "UbuntuServer",
@@ -10,7 +10,7 @@
     },
     "OS": "Linux",
     "summary": "Ubuntu Server delivers the best value scale-out performance available.",
-    "description": "Ubuntu Server 16.04 LTS (amd64 20160420.3) for Microsoft Azure. Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 16.04 will be available until April 2021.  Ubuntu Server is the perfect virtual machine (VM) platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://www.ubuntu.com/cloud' target='_blank'>Ubuntu Cloud</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
+    "description": "Ubuntu Server 16.04 LTS (amd64 20160516.1) for Microsoft Azure. Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 16.04 will be available until April 2021.  Ubuntu Server is the perfect virtual machine (VM) platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://www.ubuntu.com/cloud' target='_blank'>Ubuntu Cloud</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
