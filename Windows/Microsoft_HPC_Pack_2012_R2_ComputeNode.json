@@ -20,10 +20,10 @@
         "appInfra"
     ],
     "recommendedSizes": [
-      "Large",
-      "Standard_DS4_v2",
-      "Standard_DS4",
-      "A11"
+        "Standard_DS4_v2",
+        "Standard_DS4",
+        "Large",
+        "A11"
     ],
     "links": [
         {
