@@ -19,11 +19,11 @@
         "appInfra"
     ],
     "recommendedSizes": [
-        "Standard_D2_v2",
         "Standard_DS2_v2",
-        "Standard_D2",
         "Standard_DS2",
-        "Medium"        
+        "Standard_D2_v2",  
+        "Standard_D2",      
+        "Medium"       
     ],
     "links": [
         {
