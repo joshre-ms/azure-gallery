@@ -1,0 +1,80 @@
+{
+    "publisher": "Microsoft",
+    "label": "{BYOL} SQL Server 2014 SP1 Enterprise Windows Server 2012 R2",
+    "displayName": "{BYOL} SQL Server 2014 SP1 Enterprise on Windows Server 2012 R2",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2014-SP1-12.0.4449.0-Enterprise-ENU-WS2012R2-CY16-SU03-BYOL-2",
+            "imageVersions": [
+                {
+                "version": "12.0.44499",
+                "publishedDate": "5/16/2016",
+                "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2014-SP1-12.0.4449.0-Enterprise-ENU-WS2012R2-CY16-SU03-BYOL-2"
+                }
+            ]
+        }
+    },
+    "imageReference": {
+      "publisher": "MicrosoftSQLServer",
+      "offer": "SQL2014SP1-WS2012R2-BYOL",
+      "sku": "Enterprise"
+    },
+    "OS": "Windows",
+    "summary": "Enterprise version of SQL Server 2014 SP1 for transactional, data warehousing, business intelligence, and analytics workloads.",
+    "description": "This image contains the full version of SQL Server Enterprise to be used for <a target='_blank' href='http://www.microsoft.com/en-us/licensing/licensing-programs/software-assurance-license-mobility.aspx'> License Mobility for Software Assurance </a> (Bring Your Own License - BYOL). A SQL Server licensing cost will not be charged for this image. I also acknowledge to have a valid SQL Server Enterprise license and to <a target='_blank' href='http://d36cz9buwru1tt.cloudfront.net/License_Mobility_Customer_Verification_Guide.pdf'> provide the necessary BYOL information to Microsoft </a> within 10 days. For production workloads we recommend that you use a virtual machine size of DS3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a target='_blank' href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip'>here</a>.",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "database",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Standard_DS13_v2",
+        "Standard_DS14_v2",
+        "Standard_DS13",
+        "Standard_DS14",
+        "Standard_GS5"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "Documentation",
+            "uri": {
+                "Default": "https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/"
+            }
+        },
+        {
+            "label": "Feature comparison between SQL server 2014 editions",
+            "uri": {
+                "Default": "https://msdn.microsoft.com/library/cc645993(v=sql.120).aspx"
+            }
+        },
+        {
+            "label": "Support forum",
+            "uri": {
+                "Default": "http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=SQL"
+            }
+        },
+        {
+            "label": "Pricing details",
+            "uri": {
+                "Default": "https://azure.microsoft.com/pricing/details/virtual-machines/#sql-server"
+            }
+        }
+    ],
+    "eula": "http://go.microsoft.com/fwlink/?LinkID=512497",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkID=282418",
+    "screenshot": null,
+    "supportedExtensions": [
+        "SqlIaaSAgent",
+        "SqlIaasAgent-AutoBackup",
+        "SqlIaasAgent-AutoPatching"
+    ],
+    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
+    "cloudEnvironments":  [
+        "PublicAzure"
+    ]
+}
+
