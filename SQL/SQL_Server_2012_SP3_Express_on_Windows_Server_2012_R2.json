@@ -5,7 +5,7 @@
     "MediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2012-SP3-11.0.6523.00-Express-ENU-WS2012R2-CY16-SU03",
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
-      "offer": "SQL2012SP3-WS2012",
+      "offer": "SQL2012SP3-WS2012R2",
       "sku": "Express"
     },
     "OS": "Windows",
