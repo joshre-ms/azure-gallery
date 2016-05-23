@@ -2,7 +2,7 @@
     "publisher": "Oracle",
     "label": "Oracle Linux 7.0.0.0.1",
     "displayName": "Oracle Linux 7.0.0.0.1",
-    "MediaName": "5fd6f054-23db-481d-baa5-450ba7fd98cf__Image__Oracle-Linux-70",
+    "MediaName": "c290a6b031d841e09f2da759bbabe71f__Oracle-Linux-70",
     "imageReference": {
       "publisher": "Oracle",
       "offer": "Oracle-Linux",
@@ -19,12 +19,15 @@
         "azureCertified"
     ],
     "recommendedSizes": [
+        "Standard_DS1_v2",
+        "Standard_DS2_v2",
+        "Standard_DS11_v2",
         "Standard_DS1",
-        "Standard_DS11",
         "Standard_DS2",
-        "Standard_D1",
+        "Standard_DS11",
         "Standard_D1_v2",
-        "Small"  
+        "Standard_D1",
+        "Small"          
     ],
     "links": [
         {

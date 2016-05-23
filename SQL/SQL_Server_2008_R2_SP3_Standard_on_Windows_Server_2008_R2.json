@@ -11,21 +11,21 @@
     "OS": "Windows",
     "description": "For production workloads we recommend that you use a virtual machine size of DS2 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip' target='_blank'>here</a>.",
     "iconPath": "Icons",
-    "categories": [
-        "virtualMachine",
-        "microsoftServer",
-        "azure",
-        "windows",
-        "database"
-    ],
-    "recommendedSizes": [
-        "Standard_DS12",
-        "Standard_DS11",
-        "Standard_DS13",
-        "Standard_D12",
-        "Standard_D11",
-        "Standard_D13"
-    ],
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "windows",
+    "database"
+  ],
+  "recommendedSizes": [
+    "Standard_DS12_v2",
+    "Standard_DS11_v2",
+    "Standard_DS13_v2",
+    "Standard_DS12",
+    "Standard_DS11",
+    "Standard_DS13"
+  ],
     "links": [
         {
             "label": "Documentation",

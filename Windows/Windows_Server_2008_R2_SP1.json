@@ -47,21 +47,24 @@
     "OS": "Windows",
     "description": "Windows Server 2008 R2 is a multi-purpose server designed to increase the reliability and flexibility of your server or private cloud infrastructure, helping you to save time and reduce costs.  The virtual machine (VM) provides you with powerful tools to react to business needs with greater control and confidence.",
     "iconPath": "Icons/Server",
-    "categories": [
-        "virtualMachine",
-        "microsoftServer",
-        "azure",
-        "windows",
-        "appInfra"
-    ],
-    "recommendedSizes": [
-        "Standard_DS1",
-        "Standard_DS11",
-        "Standard_DS2",
-        "Standard_D1",
-        "Standard_D1_v2",
-        "Small"
-    ],
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "windows",
+    "appInfra"
+  ],
+  "recommendedSizes": [
+    "Standard_DS1_v2",
+    "Standard_DS2_v2",
+    "Standard_DS11_v2",
+    "Standard_DS1",
+    "Standard_DS2",
+    "Standard_DS11",
+    "Standard_D1_v2",
+    "Standard_D1",
+    "Small"          
+],
     "linksForEnvironments": [
         {
             "label": "Learn more",
