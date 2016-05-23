@@ -1,8 +1,8 @@
 {
   "publisher": "CoreOS",
   "label": "CoreOS Alpha",
-  "displayName": "CoreOS Alpha (1032.1.0)",
-  "MediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Alpha-1032.1.0",
+  "displayName": "CoreOS Alpha (1053.2.0)",
+  "MediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Alpha-1053.2.0",
   "imageReference": {
     "publisher": "CoreOS",
     "offer": "CoreOS",
@@ -20,16 +20,16 @@
     "appInfra"
   ],
   "recommendedSizes": [
-     "Standard_DS1_v2",
-      "Standard_DS2_v2",
-      "Standard_DS11_v2",
-      "Standard_DS1",
-      "Standard_DS2",
-      "Standard_DS11",
-      "Standard_D1_v2",
-      "Standard_D1",
-      "Small"          
-   ],
+    "Standard_DS1_v2",
+    "Standard_DS2_v2",
+    "Standard_DS11_v2",
+    "Standard_DS1",
+    "Standard_DS2",
+    "Standard_DS11",
+    "Standard_D1_v2",
+    "Standard_D1",
+    "Small"
+  ],
   "links": [
     {
       "label": "Documentation",
