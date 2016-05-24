@@ -5,7 +5,7 @@
     "displayName": "FreeBSD 10.3",
     "MediaName": "9db562c525e942698c605df2f0c9b26a__FreeBSD10_3-2016-05-20",
     "imageReference": {
-        "publisher": "Microsoft",
+        "publisher": "MicrosoftOSTC",
         "offer": "FreeBSD",
         "sku": "10.3"
     },
