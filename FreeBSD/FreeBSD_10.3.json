@@ -1,6 +1,6 @@
 {
-    "publisher": "Microsoft",
-    "publisherDisplayName": "Microsoft",
+    "publisher": "MicrosoftOSTC",
+    "publisherDisplayName": "Microsoft Open Source Technology Center",
     "label": "FreeBSD 10.3",
     "displayName": "FreeBSD 10.3",
     "MediaName": "9db562c525e942698c605df2f0c9b26a__FreeBSD10_3-2016-05-20",
