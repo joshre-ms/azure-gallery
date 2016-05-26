@@ -4,7 +4,8 @@
     "displayName": "SLES 12 SP1",
     "cloudEnvironments": [
         "PublicAzure",
-        "Blackforest"
+        "Blackforest",
+        "Mooncake"
     ],
     "mediaReferences": {
         "PublicAzure": {
@@ -49,6 +50,36 @@
                     "version": "2016.02.22",
                     "publishedDate": "02/22/2016",
                     "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-sles-12-sp1-v20160222"
+                }
+            ]
+        },
+        "Mooncake": {
+            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-12-sp1-v20160415",
+            "imageVersions": [
+                {
+                    "version": "2016.04.15",
+                    "publishedDate": "04/18/2016",
+                    "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-12-sp1-v20160415"
+                },
+                {
+                    "version": "2016.03.01",
+                    "publishedDate": "03/01/2016",
+                    "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-12-sp1-v20160301"
+                },
+                {
+                    "version": "2016.02.22",
+                    "publishedDate": "02/22/2016",
+                    "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-12-sp1-v20160222"
+                },
+                {
+                    "version": "2016.02.17",
+                    "publishedDate": "02/19/2016",
+                    "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-12-sp1-v20160217"
+                },
+                {
+                    "version": "2015.12.15",
+                    "publishedDate": "12/15/2015",
+                    "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-12-sp1-v20151215"
                 }
             ]
         }
