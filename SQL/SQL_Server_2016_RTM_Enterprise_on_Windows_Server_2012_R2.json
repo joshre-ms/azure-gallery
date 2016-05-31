@@ -1,0 +1,58 @@
+{
+    "publisher": "Microsoft",
+    "label": "SQL Server 2016 RTM Enterprise Windows Server 2012 R2",
+    "displayName": "SQL Server 2016 RTM Enterprise on Windows Server 2012 R2",
+    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-RTM-13.0.1601.5-Enterprise-ENU-WS2012R2-CY16-SU03",
+    "imageReference": {
+      "publisher": "MicrosoftSQLServer",
+      "offer": "SQL2016-WS2012R2",
+      "sku": "Enterprise"
+    },
+    "OS": "Windows",
+    "summary": "Enterprise version of SQL Server 2016 RTM for transactional, data warehousing, business intelligence, and analytics workloads.",
+    "description": "This image contains the full version of SQL Server. For production workloads we recommend that you use a virtual machine size of DS3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip' target='_blank'>here</a>.",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "database",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Standard_DS12_v2",
+        "Standard_DS11_v2",
+        "Standard_DS13_v2",
+        "Standard_DS12",
+        "Standard_DS11",
+        "Standard_DS13"
+    ],
+    "links": [
+        {
+            "label": "Documentation",
+            "uri": "https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/"
+        },
+        {
+            "label": "SQL Server 2016 information",
+            "uri": "http://www.microsoft.com/sqlserver2016"
+        },
+        {
+            "label": "Support forum",
+            "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=SQL"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "https://azure.microsoft.com/pricing/details/virtual-machines/#sql"
+        }
+    ],
+    "eula": "http://download.microsoft.com/download/A/A/A/AAAEF64C-7FE3-488D-A3A8-3109CC67A7A6/EULAs/license_Ent.rtf",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkID=398120",
+    "screenshot": null,
+    "supportedExtensions": [
+        "SqlIaaSAgent",
+        "SqlIaasAgent-AutoBackup",
+        "SqlIaasAgent-AutoPatching"
+    ],
+    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm"
+}
