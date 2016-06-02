@@ -1,7 +1,7 @@
 {
     "publisher": "Microsoft",
-    "label": "Visual Studio Enterprise 2015 with Azure SDK 2.9 on Windows Server 2012 R2",
-    "displayName": "Visual Studio Enterprise 2015 with Azure SDK 2.9 on Windows Server 2012 R2",
+    "label": "Visual Studio Enterprise 2015 RC with Azure SDK 2.9 on Windows Server 2012 R2",
+    "displayName": "Visual Studio Enterprise 2015 RC with Azure SDK 2.9 on Windows Server 2012 R2",
     "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Ent-AzureSDK-29-WS2012R2",
     "imageReference": {
       "publisher": "MicrosoftVisualStudio",
