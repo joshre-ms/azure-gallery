@@ -1,6 +1,6 @@
 {
     "publisher": "Oracle",
-    "label": "Oracle Linux 6",
+    "label": "Oracle Linux 6.7.0.0.0",
     "displayName": "Oracle Linux 6.7.0.0.0",
     "MediaName": "c290a6b031d841e09f2da759bbabe71f__Oracle-Linux-67",
     "imageReference": {
