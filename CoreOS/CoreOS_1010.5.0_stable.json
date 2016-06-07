@@ -1,8 +1,19 @@
 {
   "publisher": "CoreOS",
   "label": "CoreOS Stable",
-  "displayName": "CoreOS Stable (1010.5.0)",
-  "MediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Stable-1010.5.0",
+  "displayName": "CoreOS Linux (Stable)",
+  "mediaReferences": {
+    "PublicAzure": {
+      "mediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Stable-1010.5.0",
+      "imageVersions": [
+        {
+          "version": "1010.5.0",
+          "publishedDate": "05/27/2016",
+          "mediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Stable-1010.5.0"
+        }
+      ]
+    }
+  },
   "imageReference": {
     "publisher": "CoreOS",
     "offer": "CoreOS",
@@ -33,8 +44,11 @@
   "links": [
     {
       "label": "Documentation",
-      "uri": "https://coreos.com/docs/running-coreos/cloud-providers/azure/"
+      "uri": "https://coreos.com/os/docs/latest/booting-on-azure.html"
     }
   ],
-  "hardened": true
+  "hardened": true,
+  "cloudEnvironments": [
+    "PublicAzure"
+  ]
 }
