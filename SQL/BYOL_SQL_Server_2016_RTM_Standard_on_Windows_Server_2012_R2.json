@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "{BYOL} SQL Server 2016 RTM Standard Windows Server 2012 R2",
     "displayName": "{BYOL} SQL Server 2016 RTM Standard on Windows Server 2012 R2",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-RTM-13.0.1601.5-Standard-ENU-WS2012R2-CY16-SU03-BYOL2",
+    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-13.0.1601.51-Standard-ENU-WS2012R2-CY16-SU03-BYOL",
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
       "offer": "SQL2016-WS2012R2-BYOL",
