@@ -1,15 +1,15 @@
 {
     "publisher": "Microsoft",
-    "label": "SQL Server 2016 RTM Enterprise Windows Server 2012 R2",
-    "displayName": "SQL Server 2016 RTM Enterprise on Windows Server 2012 R2",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-RTM-13.0.1601.5-Enterprise-ENU-WS2012R2-CY16-SU0310",
+    "label": "SQL Server 2016 RTM Developer Windows Server 2012 R2",
+    "displayName": "SQL Server 2016 RTM Developer on Windows Server 2012 R2",
+    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-RTM-13.0.1601.5-Developer-ENU-WS2012R2-CY16-SU03",
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
       "offer": "SQL2016-WS2012R2",
-      "sku": "Enterprise"
+      "sku": "Developer"
     },
     "OS": "Windows",
-    "summary": "Enterprise version of SQL Server 2016 RTM for transactional, data warehousing, business intelligence, and analytics workloads.",
+    "summary": "Developer version of SQL Server 2016 RTM for transactional, data warehousing, business intelligence, and analytics workloads.",
     "description": "This image contains the full version of SQL Server. For production workloads we recommend that you use a virtual machine size of DS3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip' target='_blank'>here</a>.",
     "iconPath": "Icons",
     "categories": [
