@@ -6,7 +6,7 @@
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
       "offer": "SQL2016-WS2012R2",
-      "sku": "Developer"
+      "sku": "SQLDEV"
     },
     "OS": "Windows",
     "summary": "Developer version of SQL Server 2016 RTM for transactional, data warehousing, business intelligence, and analytics workloads.",
