@@ -1,0 +1,78 @@
+{
+	"publisher": "OpenLogic",
+	"label": "CentOS-based 6.8",
+	"displayName": "CentOS-based 6.8",
+	"cloudEnvironments": [
+		"PublicAzure",
+		"BlackForest",
+		"Mooncake"
+	],
+	"mediaReferences": {
+		"PublicAzure": {
+			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-68-20160616",
+			"imageVersions": [{
+				"version": "2016.06.16",
+				"publishedDate": "06/16/2016",
+				"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-68-20160616"
+			}]
+		},
+		"BlackForest": {
+			"mediaName": "74670972aac14ba9b65a6f34edf06e1c__OpenLogic-CentOS-68-20160616",
+			"imageVersions": [{
+				"version": "2016.06.16",
+				"publishedDate": "06/16/2016",
+				"mediaName": "74670972aac14ba9b65a6f34edf06e1c__OpenLogic-CentOS-68-20160616"
+			}]
+		},
+		"Mooncake": {
+			"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-68-20160617",
+			"imageVersions": [{
+				"version": "2016.06.17",
+				"publishedDate": "06/17/2016",
+				"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-68-20160617"
+			}]
+		}
+	},
+	"imageReference": {
+		"publisher": "OpenLogic",
+		"offer": "CentOS",
+		"sku": "6.8"
+	},
+	"OS": "Linux",
+	"description": "This distribution of Linux is based on CentOS version 6.8 and is provided by OpenLogic. It contains an installation of the Basic Server packages.",
+	"iconPath": "Icons",
+	"categories": [
+		"virtualMachine",
+		"microsoftServer",
+		"azure",
+		"linux",
+		"appInfra",
+		"azureCertified",
+		"virtualMachineRecommended"
+	],
+  "recommendedSizes": [
+    "Standard_DS1_v2",
+    "Standard_DS2_v2",
+    "Standard_DS11_v2",
+    "Standard_DS1",
+    "Standard_DS2",
+    "Standard_DS11",
+    "Standard_D1_v2",
+    "Standard_D1",
+    "Small"          
+  ],
+	"linksForEnvironments": [{
+		"label": "Learn more",
+		"uri": {
+			"Default": "http://www.openlogic.com/azure/"
+		}
+	}, {
+		"label": "Pricing details",
+		"uri": {
+			"Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+		}
+	}],
+	"eula": "http://www.openlogic.com/azure/service-agreement/",
+	"privacy": null,
+	"screenshot": null
+}
