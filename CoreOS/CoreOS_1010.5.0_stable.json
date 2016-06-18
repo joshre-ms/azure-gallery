@@ -12,6 +12,26 @@
           "mediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Stable-1010.5.0"
         }
       ]
+    },
+    "Blackforest": {
+      "mediaName": "ac384aecd6d24eaca1268cedd335f2a9__CoreOS-Stable-1010.5.0",
+      "imageVersions": [
+        {
+          "version": "1010.5.0",
+          "publishedDate": "05/27/2016",
+          "mediaName": "ac384aecd6d24eaca1268cedd335f2a9__CoreOS-Stable-1010.5.0"
+        }
+      ]
+    },
+    "Mooncake": {
+      "mediaName": "a54f4e2924a249fd94ad761b77c3e83d__CoreOS-Stable-1010.5.0",
+      "imageVersions": [
+        {
+          "version": "1010.5.0",
+          "publishedDate": "05/27/2016",
+          "mediaName": "a54f4e2924a249fd94ad761b77c3e83d__CoreOS-Stable-1010.5.0"
+        }
+      ]
     }
   },
   "imageReference": {
