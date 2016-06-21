@@ -9,11 +9,11 @@
 	],
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-68-20160616",
+			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-68-20160620",
 			"imageVersions": [{
-				"version": "2016.06.16",
-				"publishedDate": "06/16/2016",
-				"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-68-20160616"
+				"version": "2016.06.20",
+				"publishedDate": "06/20/2016",
+				"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-68-20160620"
 			}]
 		},
 		"BlackForest": {
