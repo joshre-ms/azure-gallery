@@ -33,11 +33,6 @@
                     "version": "2015.11.10",
                     "publishedDate": "11/10/2015",
                     "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-priority-v20151110"
-                },
-                {
-                    "version": "2015.07.14",
-                    "publishedDate": "07/14/2015",
-                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-priority-v20150714"
                 }
             ]
         }
@@ -59,12 +54,15 @@
         "azureCertified"
     ],
     "recommendedSizes": [
+        "Standard_DS1_v2",
+        "Standard_DS2_v2",
+        "Standard_DS11_v2",
         "Standard_DS1",
-        "Standard_DS11",
         "Standard_DS2",
-        "Standard_D1",
+        "Standard_DS11",
         "Standard_D1_v2",
-        "Small"
+        "Standard_D1",
+        "Small"          
     ],
     "linksForEnvironments": [
         {

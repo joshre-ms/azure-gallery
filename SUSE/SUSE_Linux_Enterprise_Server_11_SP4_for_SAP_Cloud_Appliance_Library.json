@@ -3,7 +3,8 @@
     "label": "SUSE Linux Enterprise Server 11 SP4 for SAP Cloud Appliance",
     "displayName": "SLES 11 SP4 for SAP CAL",
     "cloudEnvironments": [
-        "PublicAzure"
+        "PublicAzure",
+        "Mooncake"
     ],
     "mediaReferences": {
         "PublicAzure": {
@@ -13,6 +14,16 @@
                     "version": "2016.04.15",
                     "publishedDate": "04/15/2016",
                     "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-sapcal-v20160415"
+                }
+            ]
+        },
+        "Mooncake": {
+            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-11-sp4-sapcal-v20160415",
+            "imageVersions": [
+                {
+                    "version": "2016.04.15",
+                    "publishedDate": "04/18/2016",
+                    "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-11-sp4-sapcal-v20160415"
                 }
             ]
         }
@@ -35,11 +46,15 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
-        "Standard_DS3",
-        "A6",
-        "Standard_DS12",
-        "Standard_D3",
-        "Standard_D3_v2"
+        "Standard_DS1_v2",
+        "Standard_DS2_v2",
+        "Standard_DS11_v2",
+        "Standard_DS1",
+        "Standard_DS2",
+        "Standard_DS11",
+        "Standard_D1_v2",
+        "Standard_D1",
+        "Small"          
     ],
     "linksForEnvironments": [
         {

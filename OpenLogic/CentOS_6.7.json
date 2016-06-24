@@ -4,7 +4,8 @@
 	"displayName": "CentOS-based 6.7",
 	"cloudEnvironments": [
 		"PublicAzure",
-		"BlackForest"
+		"BlackForest",
+		"Mooncake"
 	],
 	"mediaReferences": {
 		"PublicAzure": {
@@ -30,7 +31,14 @@
 				"publishedDate": "03/10/2015",
 				"mediaName": "74670972aac14ba9b65a6f34edf06e1c__OpenLogic-CentOS-67-20160310"
 			}]
-
+		},
+		"Mooncake": {
+			"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-67-20160415",
+			"imageVersions": [{
+				"version": "2016.04.15",
+				"publishedDate": "04/14/2015",
+				"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-67-20160415"
+			}]
 		}
 	},
 	"imageReference": {
@@ -50,14 +58,17 @@
 		"azureCertified",
 		"virtualMachineRecommended"
 	],
-	"recommendedSizes": [
-		"Standard_DS1",
-		"Standard_DS11",
-		"Standard_DS2",
-		"Standard_D1",
-		"Standard_D1_v2",
-		"Small"
-	],
+  "recommendedSizes": [
+    "Standard_DS1_v2",
+    "Standard_DS2_v2",
+    "Standard_DS11_v2",
+    "Standard_DS1",
+    "Standard_DS2",
+    "Standard_DS11",
+    "Standard_D1_v2",
+    "Standard_D1",
+    "Small"          
+  ],
 	"linksForEnvironments": [{
 		"label": "Learn more",
 		"uri": {
