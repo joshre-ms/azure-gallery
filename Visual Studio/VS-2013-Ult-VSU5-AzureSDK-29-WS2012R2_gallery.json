@@ -2,7 +2,7 @@
     "publisher":  "Microsoft",
     "label":  "Visual Studio Ultimate 2013 Update 5 on Windows Server 2012 R2",
     "displayName":  "Visual Studio Ultimate 2013 Update 5 on Windows Server 2012 R2",
-    "MediaName":  "03f55de797f546a1b29d1b8d66be687a__VS-2013-Ult-VSU5-AzureSDK-29-WS2012R22016-06-07",
+    "MediaName":  "03f55de797f546a1b29d1b8d66be687a__VS-2013-Ult-VSU5-AzureSDK-29-WS2012R22016-06-15",
     "imageReference":  {
                            "publisher":  "MicrosoftVisualStudio",
                            "offer":  "VisualStudio",
@@ -38,6 +38,6 @@
                   }
               ],
     "eula":  "http://msdn.microsoft.com/subscriptions/eula",
-    "privacy":  "http://go.microsoft.com/fwlink/?LinkID=286720",
+    "privacy":  "https://www.visualstudio.com/en-us/mt675230",
     "screenshot":  "Screenshots/VisualStudioOnWindowsServer.png"
 }
