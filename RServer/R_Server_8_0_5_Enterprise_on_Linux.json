@@ -1,0 +1,55 @@
+{
+    "publisher": "Microsoft",
+    "label": "Microsoft R Server on Linux",
+    "displayName": "Microsoft R Server on Linux",
+    "MediaName": "",
+    "imageReference": {
+      "publisher": "MicrosoftRServer",
+      "offer": "RServer-Linux",
+      "sku": "Enterprise"
+    },
+    "OS": "Windows",
+    "summary": "Enterprise version of Microsoft R Server 2016 (version 8.0.5) for Linux.",
+    "description": "This image contains the Microsoft R Server 2016 (version 8.0.5) for Linux. Microsoft R Server is the most broadly deployable enterprise-class analytics platform for R available today. For production workloads we recommend that you use a virtual machine size of DS4 or higher",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "database",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Standard_DS12_v2",
+        "Standard_DS11_v2",
+        "Standard_DS13_v2",
+        "Standard_DS12",
+        "Standard_DS11",
+        "Standard_DS13"
+    ],
+    "links": [
+		{ 
+			"label": "Microsoft R documentation", 
+			"uri": "https://msdn.microsoft.com/en-us/microsoft-r" 
+		}, 
+		{ 
+			"label": "Microsoft R information", 
+			"uri": "https://www.microsoft.com/en-us/cloud-platform/r-server" 
+		}, 
+		{ 
+			"label": "Support forum", 
+			"uri": "https://social.msdn.microsoft.com/Forums/en-US/home?category=MicrosoftR" 
+		},
+        {
+            "label": "Pricing details",
+            "uri": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines"
+        }
+    ],
+    "eula": "http://go.microsoft.com/fwlink/?LinkId=525741",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkId=512132 ",
+
+    "supportedExtensions": [
+    ],
+    "createUIDefinitionHandler": "Microsoft.Compute.RSeverVm"
+}
