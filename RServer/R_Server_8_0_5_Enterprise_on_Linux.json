@@ -2,13 +2,13 @@
     "publisher": "Microsoft",
     "label": "Microsoft R Server on Linux",
     "displayName": "Microsoft R Server on Linux",
-    "MediaName": "",
+    "MediaName": "f77b6659c86e4dd9995662a711094bfc__MRS-805-VM-Linux-1-0-0",
     "imageReference": {
       "publisher": "MicrosoftRServer",
       "offer": "RServer-Linux",
       "sku": "Enterprise"
     },
-    "OS": "Windows",
+    "OS": "Linux",
     "summary": "Enterprise version of Microsoft R Server 2016 (version 8.0.5) for Linux.",
     "description": "This image contains the Microsoft R Server 2016 (version 8.0.5) for Linux. Microsoft R Server is the most broadly deployable enterprise-class analytics platform for R available today. For production workloads we recommend that you use a virtual machine size of DS4 or higher",
     "iconPath": "Icons",
