@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "Microsoft R Server on Linux",
     "displayName": "Microsoft R Server on Linux",
-    "MediaName": "f77b6659c86e4dd9995662a711094bfc__MRS-805-VM-Linux-1-0-3",
+    "MediaName": "f77b6659c86e4dd9995662a711094bfc__MRS-805-VM-Linux-1-0-4",
     "imageReference": {
       "publisher": "MicrosoftRServer",
       "offer": "RServer-Linux",
