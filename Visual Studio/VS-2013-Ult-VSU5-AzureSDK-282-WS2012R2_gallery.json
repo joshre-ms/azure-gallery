@@ -1,15 +1,15 @@
 {
     "publisher":  "Microsoft",
-    "label":  "Visual Studio Ultimate 2013 Update 5 on Windows Server 2012 R2",
-    "displayName":  "Visual Studio Ultimate 2013 Update 5 on Windows Server 2012 R2",
-    "MediaName":  "03f55de797f546a1b29d1b8d66be687a__VS-2013-Ult-VSU5-AzureSDK-29-WS2012R22016-06-15",
+    "label":  "Visual Studio Ultimate 2013 Update 5 with Azure 2.8.2 on Windows Server 2012 R2",
+    "displayName":  "Visual Studio Ultimate 2013 Update 5 with Azure 2.8.2 on Windows Server 2012 R2",
+    "MediaName":  "03f55de797f546a1b29d1b8d66be687a__VS-2013-Ult-VSU5-AzureSDK-282-WS2012R22016-07-12",
     "imageReference":  {
                            "publisher":  "MicrosoftVisualStudio",
                            "offer":  "VisualStudio",
-                           "sku":  "VS-2013-Ult-VSU5-AzureSDK-29-WS2012R2"
+                           "sku":  "VS-2013-Ult-VSU5-AzureSDK-282-WS2012R2"
                        },
     "OS":  "Windows",
-    "description":  "This image provides Visual Studio Ultimate 2013 Update 5 on Windows Server 2012 R2.  Visual Studio Ultimate represents the very best that Visual Studio has to offer. Created for enterprise-class development, it helps your team handle demanding requirements like high availability, performance, scale, and complexity. The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.",
+    "description":  "This image provides Visual Studio Ultimate 2013 Update 5 with Azure 2.8.2 on Windows Server 2012 R2.  Visual Studio Ultimate represents the very best that Visual Studio has to offer. Created for enterprise-class development, it helps your team handle demanding requirements like high availability, performance, scale, and complexity. The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.",
     "iconPath":  "Icons",
     "categories":  [
                        "virtualMachine",
