@@ -4,8 +4,18 @@
   "displayName": "CoreOS Linux (Alpha)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Alpha-1081.1.0",
+      "mediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Alpha-1097.0.0",
       "imageVersions": [
+        {
+          "version": "1097.0.0",
+          "publishedDate": "07/01/2016",
+          "mediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Alpha-1097.0.0"
+        },
+        {
+          "version": "1081.2.0",
+          "publishedDate": "06/27/2016",
+          "mediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Alpha-1081.2.0"
+        },
         {
           "version": "1081.1.0",
           "publishedDate": "06/17/2016",
@@ -19,8 +29,18 @@
       ]
     },
     "Blackforest": {
-      "mediaName": "ac384aecd6d24eaca1268cedd335f2a9__CoreOS-Alpha-1068.0.0",
+      "mediaName": "ac384aecd6d24eaca1268cedd335f2a9__CoreOS-Alpha-1097.0.0",
       "imageVersions": [
+        {
+          "version": "1097.0.0",
+          "publishedDate": "07/01/2016",
+          "mediaName": "ac384aecd6d24eaca1268cedd335f2a9__CoreOS-Alpha-1097.0.0"
+        },
+        {
+          "version": "1081.2.0",
+          "publishedDate": "06/27/2016",
+          "mediaName": "ac384aecd6d24eaca1268cedd335f2a9__CoreOS-Alpha-1081.2.0"
+        },
         {
           "version": "1068.0.0",
           "publishedDate": "06/07/2016",
@@ -29,8 +49,18 @@
       ]
     },
     "Mooncake": {
-      "mediaName": "a54f4e2924a249fd94ad761b77c3e83d__CoreOS-Alpha-1068.0.0",
+      "mediaName": "a54f4e2924a249fd94ad761b77c3e83d__CoreOS-Alpha-1097.0.0",
       "imageVersions": [
+        {
+          "version": "1097.0.0",
+          "publishedDate": "07/01/2016",
+          "mediaName": "a54f4e2924a249fd94ad761b77c3e83d__CoreOS-Alpha-1097.0.0"
+        },
+        {
+          "version": "1081.2.0",
+          "publishedDate": "06/27/2016",
+          "mediaName": "a54f4e2924a249fd94ad761b77c3e83d__CoreOS-Alpha-1081.2.0"
+        },
         {
           "version": "1068.0.0",
           "publishedDate": "06/07/2016",
