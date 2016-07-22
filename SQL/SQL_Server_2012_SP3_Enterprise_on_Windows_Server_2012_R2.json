@@ -19,6 +19,8 @@
         "database"
     ],
     "recommendedSizes": [
+        "Standard_DS13_v2",
+        "Standard_DS14_v2",
         "Standard_DS13",
         "Standard_DS14",
         "Standard_GS5"

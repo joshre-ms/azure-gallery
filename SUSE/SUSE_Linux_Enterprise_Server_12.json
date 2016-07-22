@@ -3,7 +3,8 @@
     "label": "SUSE Linux Enterprise Server 12",
     "displayName": "SLES 12",
     "cloudEnvironments": [
-        "PublicAzure"
+        "PublicAzure",
+        "Mooncake"
     ],
     "mediaReferences": {
         "PublicAzure": {
@@ -13,6 +14,16 @@
                     "version": "2015.11.10",
                     "publishedDate": "11/10/2015",
                     "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-v20151110"
+                }
+            ]
+        },
+        "Mooncake": {
+            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-12-v20151110",
+            "imageVersions": [
+                {
+                    "version": "2015.11.10",
+                    "publishedDate": "11/10/2015",
+                    "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-12-v20151110"
                 }
             ]
         }
@@ -35,12 +46,15 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
+        "Standard_DS1_v2",
+        "Standard_DS2_v2",
+        "Standard_DS11_v2",
         "Standard_DS1",
-        "Standard_DS11",
         "Standard_DS2",
-        "Standard_D1",
+        "Standard_DS11",
         "Standard_D1_v2",
-        "Small"  
+        "Standard_D1",
+        "Small"          
     ],
     "linksForEnvironments": [
         {

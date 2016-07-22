@@ -2,17 +2,17 @@
     "publisher": "Microsoft",
     "label": "Windows Server Remote Desktop Session Host on Windows Server 2012 R2",
     "displayName": "Windows Server Remote Desktop Session Host on Windows Server 2012 R2",
-    "MediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-Remote-Desktop-Session-Host-on-Windows-Server-2012-R2-20151201-0133",
+    "MediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-Remote-Desktop-Session-Host-on-Windows-Server-2012-R2-20160421-2018",
     "imageVersions": [
         {
-        "version": "December, 2015",
-        "publishedDate": "12/01/2015",
-        "mediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-Remote-Desktop-Session-Host-on-Windows-Server-2012-R2-20151201-0133"
+        "version": "April, 2016",
+        "publishedDate": "04/21/2016",
+        "mediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-Remote-Desktop-Session-Host-on-Windows-Server-2012-R2-20160421-2018"
         },
         {
-        "version": "August, 2015",
-        "publishedDate": "8/28/2015",
-        "mediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-Remote-Desktop-Session-Host-on-Windows-Server-2012-R2-20150828-0350"
+        "version": "March, 2016",
+        "publishedDate": "03/25/2016",
+        "mediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-Remote-Desktop-Session-Host-on-Windows-Server-2012-R2-20160325-2045"
         }
     ],
      "imageReference": {
@@ -32,6 +32,8 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
+        "Standard_D3_v2",
+        "Standard_D4_v2",
         "Standard_D3",
         "Standard_D4",
         "Large",

@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "SQL Server 2014 SP1 Web Windows Server 2012 R2",
     "displayName": "SQL Server 2014 SP1 Web on Windows Server 2012 R2",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-2014-SP1-12.0.4100.1-Web-ENU-Win2012R2-cy15su05",
+    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2014-Sp1-12.0.4449.0-Web-ENU-WS2012R2-CY16-SU03",
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
       "offer": "SQL2014SP1-WS2012R2",
@@ -19,12 +19,12 @@
         "database"
     ],
     "recommendedSizes": [
+        "Standard_DS12_v2",
+        "Standard_DS11_v2",
+        "Standard_DS13_v2",
         "Standard_DS12",
         "Standard_DS11",
-        "Standard_DS13",
-        "Standard_D12",
-        "Standard_D11",
-        "Standard_D13"
+        "Standard_DS13"
     ],
     "links": [
         {

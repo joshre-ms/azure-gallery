@@ -9,8 +9,12 @@
 	],
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20160308",
+			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20160620",
 			"imageVersions": [{
+				"version": "2016.06.20",
+				"publishedDate": "06/20/2016",
+				"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20160620"
+			}, {
 				"version": "2016.03.08",
 				"publishedDate": "03/08/2016",
 				"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20160308"
@@ -54,14 +58,17 @@
 		"azureCertified",
 		"virtualMachineRecommended"
 	],
-	"recommendedSizes": [
-		"Standard_DS1",
-		"Standard_DS11",
-		"Standard_DS2",
-		"Standard_D1",
-		"Standard_D1_v2",
-		"Small"
-	],
+  "recommendedSizes": [
+    "Standard_DS1_v2",
+    "Standard_DS2_v2",
+    "Standard_DS11_v2",
+    "Standard_DS1",
+    "Standard_DS2",
+    "Standard_DS11",
+    "Standard_D1_v2",
+    "Standard_D1",
+    "Small"          
+  ],
 	"linksForEnvironments": [{
 		"label": "Learn more",
 		"uri": {
