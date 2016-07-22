@@ -3,7 +3,28 @@
     "publisherDisplayName": "Microsoft Corporation",
     "label": "FreeBSD 10.3",
     "displayName": "FreeBSD 10.3",
-    "MediaName": "9db562c525e942698c605df2f0c9b26a__FreeBSD10_3-2016-06-02",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "9db562c525e942698c605df2f0c9b26a__FreeBSD10_3-2016-06-02",
+            "imageVersions": [
+		{
+                "version": "June, 2016",
+                "publishedDate": "06/02/2016",
+                "mediaName": "9db562c525e942698c605df2f0c9b26a__FreeBSD10_3-2016-06-02"
+                }
+            ]
+        },
+        "Mooncake": {
+            "mediaName": "7f4fdaae86b44261885f4eceac5f33b1__FreeBSD10_3-2016-06-02",
+            "imageVersions": [
+                {
+                "version": "June, 2016",
+                "publishedDate": "06/16/2016",
+                "mediaName": "7f4fdaae86b44261885f4eceac5f33b1__FreeBSD10_3-2016-06-02"
+                }
+            ]
+        }
+    },
     "imageReference": {
         "publisher": "MicrosoftOSTC",
         "offer": "FreeBSD",
@@ -45,4 +66,8 @@
         }
     ],
     "screenshot": null
+    "cloudEnvironments":  [
+        "PublicAzure",
+        "Mooncake"
+    ]
 }
