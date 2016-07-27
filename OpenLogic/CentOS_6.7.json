@@ -47,7 +47,7 @@
 		"sku": "6.7"
 	},
 	"OS": "Linux",
-	"description": "This distribution of Linux is based on CentOS version 6.7 and is provided by OpenLogic. It contains an installation of the Basic Server packages.",
+	"description": "This distribution of Linux is based on CentOS version 6.7 and is provided by OpenLogic. It contains an installation of the Basic Server packages.This version of CentOS is deprecated.  Please keep in mind that 6.5 no longer gets any updates, nor any security fixes.  See the CentOS FAQ for details: <a href='https://wiki.centos.org/FAQ/General' _target='head-dcca41e9a3d5ac4c6d900a991990fd11930867d6'>How does CentOS versioning work?</a>",
 	"iconPath": "Icons",
 	"categories": [
 		"virtualMachine",
