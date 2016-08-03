@@ -20,8 +20,10 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
+        "Standard_D1_v2",
         "Standard_D1",
         "Small",
+        "Standard_DS2_v2",
         "Standard_DS2"
     ],
     "links": [

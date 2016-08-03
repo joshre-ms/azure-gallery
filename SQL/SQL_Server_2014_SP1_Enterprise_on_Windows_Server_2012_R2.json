@@ -4,12 +4,12 @@
     "displayName": "SQL Server 2014 SP1 Enterprise on Windows Server 2012 R2",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-20140SP1-12.0.4100.1-Ent-ENU-Win2012R2-cy15su05",
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2014-Sp1-12.0.4449.0-Enterprise-ENU-WS2012R2-CY16-SU03",
             "imageVersions": [
                 {
-                "version": "12.0.4100",
-                "publishedDate": "5/15/2015",
-                "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-20140SP1-12.0.4100.1-Ent-ENU-Win2012R2-cy15su05"
+                "version": "12.0.44498",
+                "publishedDate": "5/14/2016",
+                "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2014-Sp1-12.0.4449.0-Enterprise-ENU-WS2012R2-CY16-SU03"
                 }
             ]
         },
@@ -20,6 +20,16 @@
                 "version": "12.0.4100",
                 "publishedDate": "03/14/2016",
                 "mediaName": "d9879655e4e94679a521a62aad7b3e2f__sql2014sp1-12.0.4100.1-ent-win2012r2"
+                }
+            ]
+        },
+        "FairFax": {
+            "mediaName": "0bd04240ad4b45118afda6ddb0581fff__SqlServer-2014-Sp1-12.0.4449.0-Enterprise-ENU-WS2012R2-CY16-SU03",
+            "imageVersions": [
+                {
+                "version": "12.0.44497",
+                "publishedDate": "6/27/2016",
+                "mediaName": "0bd04240ad4b45118afda6ddb0581fff__SqlServer-2014-Sp1-12.0.4449.0-Enterprise-ENU-WS2012R2-CY16-SU03"
                 }
             ]
         }
@@ -42,11 +52,11 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
+        "Standard_DS13_v2",
+        "Standard_DS14_v2",
         "Standard_DS13",
         "Standard_DS14",
-        "Standard_GS5",
-        "Standard_D13",
-        "Standard_D14"
+        "Standard_GS5"
     ],
     "linksForEnvironments": [
         {
@@ -85,7 +95,8 @@
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
     "cloudEnvironments":  [
         "PublicAzure",
-        "Blackforest"
+        "Blackforest",
+        "FairFax"
     ]
 }
 

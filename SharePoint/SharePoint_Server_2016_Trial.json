@@ -1,0 +1,45 @@
+{
+    "publisher": "Microsoft",
+    "label": "SharePoint Server 2016 Trial",
+    "displayName": "SharePoint Server 2016 Trial",
+    "MediaName": "c6e0f177abd8496e934234bd27f46c5d__SharePoint-2016-Trial-3-26-2016",
+    "imageReference": {
+      "publisher": "MicrosoftSharepoint",
+      "offer": "MicrosoftSharePointServer",
+      "sku": "2016"
+    },
+    "OS": "Windows",
+    "description": "Microsoft SharePoint Server 2016 Trial on Windows Server 2012 R2 Datacenter. Virtual Machines created with this trial image will expire on September 16, 2016. This image includes a complete installation of SharePoint Server 2016. Some SharePoint Server 2016 components require additional setup and configuration. You can set-up Active Directory and SQL Server required for your SharePoint farm by provisioning additional virtual machines. Minimum recommended virtual machine size for this image is Large. To evaluate the advanced capabilities of SharePoint Server 2013, we recommend that you use a virtual machine size of A4.",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "appInfra"
+    ],
+  "recommendedSizes": [
+    "Standard_D12_v2",
+    "Standard_DS12_v2",
+    "Standard_D12",
+    "Standard_DS12",
+    "A7"
+  ],
+    "links": [
+        {
+            "label": "Learn more",
+            "uri": "http://office.microsoft.com/en-us/sharepoint/"
+        },
+        {
+            "label": "Documentation",
+            "uri": "https://www.microsoft.com/en-gb/evalcenter/evaluate-sharepoint-server-2016"
+        },
+        {
+            "label": "Pricing Details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#sharepoint"
+        }
+    ],
+    "eula": "http://www.microsoft.com/en-us/download/details.aspx?id=38417",
+    "privacy": "http://www.windowsazure.com/en-us/support/legal/privacy-statement/",
+    "screenshot": null
+}

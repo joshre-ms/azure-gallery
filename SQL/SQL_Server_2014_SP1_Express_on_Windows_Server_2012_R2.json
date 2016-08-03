@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "SQL Server 2014 SP1 Express Windows Server 2012 R2",
     "displayName": "SQL Server 2014 SP1 Express on Windows Server 2012 R2",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL14PCUMAIN12.0.4449.0SQLEXPRCOMPENUWS2012R2",
+    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2014-Sp1-12.0.4449.2-Express-ENU-WS2012R2-CY16-SU03",
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
       "offer": "SQL2014SP1-WS2012R2",
@@ -19,8 +19,10 @@
         "database"
     ],
     "recommendedSizes": [
-        "Basic_A1",
+       "Basic_A1",
+        "Standard_D1_v2",
         "Standard_D1",
+        "Standard_DS1_v2",
         "Standard_DS1"
     ],
     "links": [
