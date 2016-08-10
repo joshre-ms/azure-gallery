@@ -3,7 +3,28 @@
     "publisherDisplayName": "Microsoft Corporation",
     "label": "FreeBSD 10.3",
     "displayName": "FreeBSD 10.3",
-    "MediaName": "9db562c525e942698c605df2f0c9b26a__FreeBSD10_3-2016-06-02",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "9db562c525e942698c605df2f0c9b26a__FreeBSD10_3-2016-08-08",
+            "imageVersions": [
+		{
+                "version": "Aug, 2016",
+                "publishedDate": "08/08/2016",
+                "mediaName": "9db562c525e942698c605df2f0c9b26a__FreeBSD10_3-2016-08-08"
+                }
+            ]
+        },
+        "Mooncake": {
+            "mediaName": "7f4fdaae86b44261885f4eceac5f33b1__FreeBSD10_3-2016-06-02",
+            "imageVersions": [
+                {
+                "version": "June, 2016",
+                "publishedDate": "06/16/2016",
+                "mediaName": "7f4fdaae86b44261885f4eceac5f33b1__FreeBSD10_3-2016-06-02"
+                }
+            ]
+        }
+    },
     "imageReference": {
         "publisher": "MicrosoftOSTC",
         "offer": "FreeBSD",
@@ -44,5 +65,9 @@
             "uri": "https://azure.microsoft.com/pricing/details/virtual-machines/"
         }
     ],
-    "screenshot": null
+    "screenshot": null,
+    "cloudEnvironments":  [
+        "PublicAzure",
+        "Mooncake"
+    ]
 }

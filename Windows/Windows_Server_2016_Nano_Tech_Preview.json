@@ -4,32 +4,32 @@
     "displayName": "Windows Server 2016 Technical Preview 5 - Nano Server",
      "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2016-Nano-20160420-en.us-8GB.vhd",
+            "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2016-Nano-20160801-en.us-8GB.vhd",
             "imageVersions": [
                 {
-                "version": "April, 2016",
-                "publishedDate": "04/20/2016",
-                "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2016-Nano-20160420-en.us-8GB.vhd"
+                "version": "August, 2016",
+                "publishedDate": "08/01/2016",
+                "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2016-Nano-20160801-en.us-8GB.vhd"
                 }
             ]
         },
         "Blackforest": {
-            "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2016-Nano-20160420-en.us-8GB.vhd",
+            "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2016-Nano-20160801-en.us-8GB.vhd",
             "imageVersions": [
                 {
-                "version": "April, 2016",
-                "publishedDate": "04/20/2016",
-                "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2016-Nano-20160420-en.us-8GB.vhd"
+                "version": "August, 2016",
+                "publishedDate": "08/01/2016",
+                "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2016-Nano-20160801-en.us-8GB.vhd"
                 }
             ]
         },
         "Mooncake": {
-            "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2016-Nano-20160420-en.us-8GB.vhd",
+            "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2016-Nano-20160801-en.us-8GB.vhd",
             "imageVersions": [
                 {
-                "version": "April, 2016",
-                "publishedDate": "04/20/2016",
-                "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2016-Nano-20160420-en.us-8GB.vhd"
+                "version": "August, 2016",
+                "publishedDate": "08/01/2016",
+                "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2016-Nano-20160801-en.us-8GB.vhd"
                 }
             ]
         }
