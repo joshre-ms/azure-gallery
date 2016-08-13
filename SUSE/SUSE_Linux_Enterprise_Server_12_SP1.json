@@ -9,8 +9,13 @@
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-v20160414",
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-v20160811",
             "imageVersions": [
+                {
+                    "version": "2016.08.11",
+                    "publishedDate": "08/12/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-v20160811"
+                },
                 {
                     "version": "2016.04.14",
                     "publishedDate": "04/14/2016",
@@ -39,8 +44,13 @@
             ]
         },
         "Blackforest": {
-            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-sles-12-sp1-v20160415",
+            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-sles-12-sp1-v20160811",
             "imageVersions": [
+                {
+                    "version": "2016.08.11",
+                    "publishedDate": "08/12/2016",
+                    "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-sles-12-sp1-v20160811"
+                },
                 {
                     "version": "2016.04.15",
                     "publishedDate": "04/15/2016",
@@ -54,8 +64,13 @@
             ]
         },
         "Mooncake": {
-            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-12-sp1-v20160415",
+            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-12-sp1-v20160811",
             "imageVersions": [
+                {
+                    "version": "2016.08.11",
+                    "publishedDate": "08/12/2016",
+                    "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-12-sp1-v20160811"
+                },
                 {
                     "version": "2016.04.15",
                     "publishedDate": "04/18/2016",
