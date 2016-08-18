@@ -5,7 +5,8 @@
     "cloudEnvironments": [
         "PublicAzure",
         "Blackforest",
-        "Mooncake"
+        "Mooncake",
+        "Fairfax"
     ],
     "mediaReferences": {
         "PublicAzure": {
@@ -95,6 +96,26 @@
                     "version": "2015.11.10",
                     "publishedDate": "11/10/2015",
                     "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-11-sp4-v20160217"
+                }
+            ]
+        },
+        "Fairfax": {
+            "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-sles-11-sp4-v20160812",
+            "imageVersions": [
+                {
+                    "version": "2016.08.12",
+                    "publishedDate": "08/12/2016",
+                    "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-sles-11-sp4-v20160812"
+                },
+                {
+                    "version": "2016.04.15",
+                    "publishedDate": "04/15/2016",
+                    "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-sles-11-sp4-v20160415"
+                },
+                {
+                    "version": "2016.03.01",
+                    "publishedDate": "03/01/2016",
+                    "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-sles-11-sp4-v20160301"
                 }
             ]
         }
