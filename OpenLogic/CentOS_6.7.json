@@ -5,7 +5,8 @@
 	"cloudEnvironments": [
 		"PublicAzure",
 		"BlackForest",
-		"Mooncake"
+		"Mooncake",
+		"Fairfax"
 	],
 	"mediaReferences": {
 		"PublicAzure": {
@@ -38,6 +39,14 @@
 				"version": "2016.04.15",
 				"publishedDate": "04/14/2015",
 				"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-67-20160415"
+			}]
+		},
+		"Fairfax": {
+			"mediaName": "809266fa9f4d45d8bba0a02358a8c76d__OpenLogic-CentOS-67-20160307",
+			"imageVersions": [{
+				"version": "2016.03.07",
+				"publishedDate": "03/07/2016",
+				"mediaName": "809266fa9f4d45d8bba0a02358a8c76d__OpenLogic-CentOS-67-20160307"
 			}]
 		}
 	},
