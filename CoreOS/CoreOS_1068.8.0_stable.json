@@ -77,6 +77,16 @@
           "mediaName": "a54f4e2924a249fd94ad761b77c3e83d__CoreOS-Stable-1010.5.0"
         }
       ]
+    },
+    "Fairfax": {
+      "mediaName": "108c54add45b401ca6691b74ed26a643__CoreOS-Stable-1010.5.0",
+      "imageVersions": [
+        {
+          "version": "1010.5.0",
+          "publishedDate": "05/27/2016",
+          "mediaName": "108c54add45b401ca6691b74ed26a643__CoreOS-Stable-1010.5.0"
+        }
+      ]
     }
   },
   "imageReference": {
@@ -114,6 +124,9 @@
   ],
   "hardened": true,
   "cloudEnvironments": [
-    "PublicAzure"
+    "PublicAzure",
+    "Blackforest",
+    "Mooncake",
+    "Fairfax"
   ]
 }
