@@ -15,12 +15,12 @@
             ]
         },
         "Mooncake": {
-            "mediaName": "7f4fdaae86b44261885f4eceac5f33b1__FreeBSD10_3-2016-06-02",
+            "mediaName": "7f4fdaae86b44261885f4eceac5f33b1__FreeBSD10_3-2016-08-08",
             "imageVersions": [
                 {
-                "version": "June, 2016",
-                "publishedDate": "06/16/2016",
-                "mediaName": "7f4fdaae86b44261885f4eceac5f33b1__FreeBSD10_3-2016-06-02"
+                "version": "Aug, 2016",
+                "publishedDate": "08/08/2016",
+                "mediaName": "7f4fdaae86b44261885f4eceac5f33b1__FreeBSD10_3-2016-08-08"
                 }
             ]
         }
