@@ -10,7 +10,7 @@
     },
     "OS": "Windows",
     "summary": "Web version of SQL Server 2016 RTM for transactional, data warehousing, business intelligence, and analytics workloads.",
-    "description": "This image contains the full version of SQL Server. For production workloads we recommend that you use a virtual machine size of DS3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip' target='_blank'>here</a>.",
+    "description": "This image contains the Web edition of SQL Server 2016. This provides a low-cost database solution for medium-size web applications. It includes the core database engine and Management Studio for integrated administration and development. Also includes basic versions of Reporting Services for web reports, Integration Services for moving and transforming data, and Analysis Services for data mining. We recommend that you use a virtual machine size of <strong>DS12 or higher</strong>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
