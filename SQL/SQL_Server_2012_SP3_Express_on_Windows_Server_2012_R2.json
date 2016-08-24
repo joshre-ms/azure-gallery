@@ -1,54 +1,79 @@
-{
-    "publisher": "Microsoft",
-    "label": "SQL Server 2012 SP3 Express Windows Server 2012 R2",
-    "displayName": "SQL Server 2012 SP3 Express on Windows Server 2012 R2",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2012-SP3-11.0.6523.00-Express-ENU-WS2012R2-CY16-SU03",
-    "imageReference": {
-      "publisher": "MicrosoftSQLServer",
-      "offer": "SQL2012SP3-WS2012R2",
-      "sku": "Express"
-    },
-    "OS": "Windows",
-    "description": "This image contains the Express with Tools version of SQL Server. This image does not charge for a SQL license and it is tailored for dev/test and micro workloads. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip' target='_blank'>here</a>.",
-    "iconPath": "Icons",
-    "categories": [
-        "virtualMachine",
-        "microsoftServer",
-        "azure",
-        "windows",
-        "database"
-    ],
-    "recommendedSizes": [
-       "Basic_A1",
-        "Standard_D1_v2",
-        "Standard_D1",
-        "Standard_DS1_v2",
-        "Standard_DS1"
-    ],
-    "links": [
-        {
-            "label": "Documentation",
-            "uri": "https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/"
-        },
-        {
-            "label": "Feature comparison between SQL Server 2012 editions",
-            "uri": "http://msdn.microsoft.com/library/cc645993(v=sql.110).aspx"
-        },
-        {
-            "label": "Support forum",
-            "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=SQL"
-        },
-        {
-            "label": "Pricing details",
-            "uri": "https://azure.microsoft.com/pricing/details/virtual-machines/#sql-server"
-        }
-    ],
-    "eula": "http://go.microsoft.com/fwlink/?LinkID=285687",
-    "privacy": "http://go.microsoft.com/fwlink/?LinkID=196910",
-    "screenshot": null,
-    "supportedExtensions": [
-        "SqlIaaSAgent",
-        "SqlIaasAgent-AutoPatching"
-    ],
-    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm"
+{  
+   "publisher":"Microsoft",
+   "label":"SQL Server 2012 SP3 Express Windows Server 2012 R2",
+   "displayName":"SQL Server 2012 SP3 Express on Windows Server 2012 R2",
+   "mediaReferences":{  
+      "PublicAzure":{  
+         "mediaName":"fb83b3509582419d99629ce476bcb5c8__SqlServer-2012-SP3-11.0.6523.00-Express-ENU-WS2012R2-CY16-SU03",
+         "imageVersions":[  
+            {  
+               "version":"11.0.65235",
+               "publishedDate":"5/12/2016",
+               "mediaName":"fb83b3509582419d99629ce476bcb5c8__SqlServer-2012-SP3-11.0.6523.00-Express-ENU-WS2012R2-CY16-SU03"
+            }
+         ]
+      },
+      "Mooncake":{  
+         "mediaName":"ea8d9638523541778dec3b095a0e5757__SqlServer-2012-SP3-11.0.6523.00-Express-ENU-WS2012R2-CY16-SU05",
+         "imageVersions":[  
+            {  
+               "version":"11.0.65230",
+               "publishedDate":"6/9/2016",
+               "mediaName":"ea8d9638523541778dec3b095a0e5757__SqlServer-2012-SP3-11.0.6523.00-Express-ENU-WS2012R2-CY16-SU05"
+            }
+         ]
+      }
+   },
+   "imageReference":{  
+      "publisher":"MicrosoftSQLServer",
+      "offer":"SQL2012SP3-WS2012R2",
+      "sku":"Express"
+   },
+   "OS":"Windows",
+   "description":"This image contains the Express with Tools version of SQL Server. This image does not charge for a SQL license and it is tailored for dev/test and micro workloads. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip' target='_blank'>here</a>.",
+   "iconPath":"Icons",
+   "categories":[  
+      "virtualMachine",
+      "microsoftServer",
+      "azure",
+      "windows",
+      "database"
+   ],
+   "recommendedSizes":[  
+      "Basic_A1",
+      "Standard_D1_v2",
+      "Standard_D1",
+      "Standard_DS1_v2",
+      "Standard_DS1"
+   ],
+   "links":[  
+      {  
+         "label":"Documentation",
+         "uri":"https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/"
+      },
+      {  
+         "label":"Feature comparison between SQL Server 2012 editions",
+         "uri":"http://msdn.microsoft.com/library/cc645993(v=sql.110).aspx"
+      },
+      {  
+         "label":"Support forum",
+         "uri":"http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=SQL"
+      },
+      {  
+         "label":"Pricing details",
+         "uri":"https://azure.microsoft.com/pricing/details/virtual-machines/#sql-server"
+      }
+   ],
+   "eula":"http://go.microsoft.com/fwlink/?LinkID=285687",
+   "privacy":"http://go.microsoft.com/fwlink/?LinkID=196910",
+   "screenshot":null,
+   "supportedExtensions":[  
+      "SqlIaaSAgent",
+      "SqlIaasAgent-AutoPatching"
+   ],
+   "createUIDefinitionHandler":"Microsoft.Compute.SqlVm",
+   "cloudEnvironments":[  
+      "PublicAzure",
+      "Mooncake"
+   ]
 }
