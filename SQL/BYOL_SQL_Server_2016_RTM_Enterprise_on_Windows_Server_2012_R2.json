@@ -43,12 +43,12 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
-        "Standard_DS12_v2",
-        "Standard_DS11_v2",
         "Standard_DS13_v2",
-        "Standard_DS12",
-        "Standard_DS11",
-        "Standard_DS13"
+        "Standard_DS14_v2",
+        "Standard_DS12_v2",
+        "Standard_DS13",
+        "Standard_DS14",
+        "Standard_DS12"
     ],
     "links": [
         {
