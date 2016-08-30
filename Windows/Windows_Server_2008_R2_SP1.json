@@ -4,7 +4,7 @@
   "displayName": "Windows Server 2008 R2 SP1",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-20160617-en.us-127GB.vhd",
+      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-20160812-en.us-127GB.vhd",
       "imageVersions": [
         {
           "version": "March, 2016",
@@ -20,11 +20,21 @@
           "version": "June, 2016",
           "publishedDate": "06/17/2016",
           "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-20160617-en.us-127GB.vhd"
+        },
+        {
+          "version": "July, 2016",
+          "publishedDate": "07/21/2016",
+          "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-20160721-en.us-127GB.vhd"
+        },
+        {
+          "version": "August, 2016",
+          "publishedDate": "08/12/2016",
+          "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-20160812-en.us-127GB.vhd"
         }
       ]
     },
     "Blackforest": {
-      "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Win2K8R2SP1-Datacenter-20160617-en.us-127GB.vhd",
+      "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Win2K8R2SP1-Datacenter-20160812-en.us-127GB.vhd",
       "imageVersions": [
         {
           "version": "April, 2016",
@@ -35,11 +45,21 @@
           "version": "June, 2016",
           "publishedDate": "06/17/2016",
           "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Win2K8R2SP1-Datacenter-20160617-en.us-127GB.vhd"
+        },
+        {
+          "version": "July, 2016",
+          "publishedDate": "07/21/2016",
+          "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Win2K8R2SP1-Datacenter-20160721-en.us-127GB.vhd"
+        },
+        {
+          "version": "August, 2016",
+          "publishedDate": "08/12/2016",
+          "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Win2K8R2SP1-Datacenter-20160812-en.us-127GB.vhd"
         }
       ]
     },
     "Mooncake": {
-      "mediaName": "55bc2b193643443bb879a78bda516fc8__Win2K8R2SP1-Datacenter-20160617-en.us-127GB.vhd",
+      "mediaName": "55bc2b193643443bb879a78bda516fc8__Win2K8R2SP1-Datacenter-201606812-en.us-127GB.vhd",
       "imageVersions": [
         {
           "version": "April, 2016",
@@ -50,11 +70,21 @@
           "version": "June, 2016",
           "publishedDate": "06/17/2016",
           "mediaName": "55bc2b193643443bb879a78bda516fc8__Win2K8R2SP1-Datacenter-20160617-en.us-127GB.vhd"
+        },
+        {
+          "version": "July, 2016",
+          "publishedDate": "07/21/2016",
+          "mediaName": "55bc2b193643443bb879a78bda516fc8__Win2K8R2SP1-Datacenter-20160721-en.us-127GB.vhd"
+        },
+        {
+          "version": "August, 2016",
+          "publishedDate": "08/12/2016",
+          "mediaName": "55bc2b193643443bb879a78bda516fc8__Win2K8R2SP1-Datacenter-20160812-en.us-127GB.vhd"
         }
       ]
     },
     "Fairfax": {
-      "mediaName": "c86ce82eba12456083220ee478773897__Win2K8R2SP1-Datacenter-20160617-en.us-127GB.vhd",
+      "mediaName": "c86ce82eba12456083220ee478773897__Win2K8R2SP1-Datacenter-20160812-en.us-127GB.vhd",
       "imageVersions": [
         {
           "version": "April, 2016",
@@ -65,6 +95,16 @@
           "version": "June, 2016",
           "publishedDate": "06/17/2016",
           "mediaName": "c86ce82eba12456083220ee478773897__Win2K8R2SP1-Datacenter-20160617-en.us-127GB.vhd"
+        },
+        {
+          "version": "July, 2016",
+          "publishedDate": "07/21/2016",
+          "mediaName": "c86ce82eba12456083220ee478773897__Win2K8R2SP1-Datacenter-20160721-en.us-127GB.vhd"
+        },
+        {
+          "version": "August, 2016",
+          "publishedDate": "08/12/2016",
+          "mediaName": "c86ce82eba12456083220ee478773897__Win2K8R2SP1-Datacenter-20160812-en.us-127GB.vhd"
         }
       ]
     }
@@ -118,8 +158,8 @@
                 }
         }
     ],
-    "eula": null,
-    "privacy": null,
+    "eula": "http://download.microsoft.com/Documents/UseTerms/Windows%20Server_2008%20R2%20Datacenter_English_0e64c120-39df-430f-9962-11b1184a4df2.pdf",
+    "privacy": "https://privacy.microsoft.com/en-us/windows-7-privacy-statement",
     "screenshot": null,
     "cloudEnvironments":  [
       "PublicAzure",
