@@ -2,7 +2,28 @@
     "publisher": "Microsoft",
     "label": "BizTalk Server 2016 Community Technology Preview 2",
     "displayName": "BizTalk Server 2016 Community Technology Preview 2",
-    "MediaName": "2cdc6229df6344129ee553dd3499f0d3__BizTalk-Server-2016-CTP2",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "2cdc6229df6344129ee553dd3499f0d3__BizTalk-Server-2016-CTP2",
+            "imageVersions": [
+                {
+                "version": "3.12.601",
+                "publishedDate": "6/28/2016",
+                "mediaName": "2cdc6229df6344129ee553dd3499f0d3__BizTalk-Server-2016-CTP2"
+                }
+            ]
+        },
+        "FairFax": {
+            "mediaName": "69e6fd5509634987b5987640b2506503__BizTalk-Server-2016-CTP2",
+            "imageVersions": [
+                {
+                "version": "3.12.601",
+                "publishedDate": "8/23/2016",
+                "mediaName": "69e6fd5509634987b5987640b2506503__BizTalk-Server-2016-CTP2"
+                }
+            ]
+        }
+    },
     "imageReference": {
       "publisher": "MicrosoftBizTalkServer",
       "offer": "BizTalk-Server",
@@ -44,5 +65,9 @@
     ],
     "eula": "http://go.microsoft.com/fwlink/?LinkID=780721",
     "privacy": "http://go.microsoft.com/fwlink/?LinkID=131004",
-    "screenshot": null
+    "screenshot": null,
+    "cloudEnvironments":  [
+        "PublicAzure",
+        "FairFax"
+    ]
 }

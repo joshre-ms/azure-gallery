@@ -5,7 +5,8 @@
     "cloudEnvironments": [
         "PublicAzure",
         "Blackforest",
-        "Mooncake"
+        "Mooncake",
+        "Fairfax"
     ],
     "mediaReferences": {
         "PublicAzure": {
@@ -65,6 +66,16 @@
                     "version": "2015.12.17",
                     "publishedDate": "01/14/2016",
                     "mediaName": "250d269906be4694a10aee49a3385f2d__suse-opensuse-leap-42.1-v20151217"
+                }
+            ]
+        },
+        "Fairfax": {
+            "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-opensuse-leap-42.1-v20160415",
+            "imageVersions": [
+                {
+                    "version": "2016.04.15",
+                    "publishedDate": "04/15/2016",
+                    "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-opensuse-leap-42.1-v20160415"
                 }
             ]
         }

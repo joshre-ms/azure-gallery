@@ -31,7 +31,7 @@
     },
     "OS": "Windows",
     "summary": "Enterprise version of SQL Server 2016 RTM for transactional, data warehousing, business intelligence, and analytics workloads.",
-    "description": "This image contains the full version of SQL Server. For production workloads we recommend that you use a virtual machine size of DS3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip' target='_blank'>here</a>.",
+    "description": "This image contains the full version of SQL Server 2016 Enterprise edition. Enterprise edition provides comprehensive capabilities for mission-critical transactional processing, data warehousing, and business intelligence. It includes the database engine with support for <a href='https://www.microsoft.com/en-us/cloud-platform/oltp-database-management'>In-Memory transactional processing and analytics</a>, which improves the performance of heavy workloads up to 30x. This edition also includes <a href='https://msdn.microsoft.com/en-us/library/ff877884.aspx'>Always On</a> for +99.99% high availability. <a href='https://msdn.microsoft.com/en-us/library/mt163865.aspx'>Always Encrypted</a> and <a href='https://msdn.microsoft.com/en-us/library/dn765131.aspx'>Row-Level Security</a> for the highest data protection. <a href='https://msdn.microsoft.com/en-us/library/mt604845.aspx'>R Services</a> for integrated advanced analytics. Includes Management Studio for integrated administration and development, <a href='https://msdn.microsoft.com/en-us/library/ms170438.aspx'>Reporting Services</a> for web and mobile reports, <a href='https://msdn.microsoft.com/en-us/library/bb522534.aspx'>Integration Services</a> for moving and transforming data, <a href='https://msdn.microsoft.com/en-us/library/bb522628.aspx'>Analysis Services</a> for data mining, and <a href='https://msdn.microsoft.com/en-us/library/ff929136.aspx'>Master Data Services</a> for data modeling. We recommend that you use a virtual machine size of <strong>DS13 or higher</strong>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -42,12 +42,12 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
-        "Standard_DS12_v2",
-        "Standard_DS11_v2",
         "Standard_DS13_v2",
-        "Standard_DS12",
-        "Standard_DS11",
-        "Standard_DS13"
+        "Standard_DS14_v2",
+        "Standard_DS12_v2",
+        "Standard_DS13",
+        "Standard_DS14",
+        "Standard_DS12"
     ],
     "links": [
         {

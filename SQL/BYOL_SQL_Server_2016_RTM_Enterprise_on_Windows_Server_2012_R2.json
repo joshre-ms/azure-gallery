@@ -2,7 +2,28 @@
     "publisher": "Microsoft",
     "label": "{BYOL} SQL Server 2016 RTM Enterprise Windows Server 2012 R2",
     "displayName": "{BYOL} SQL Server 2016 RTM Enterprise on Windows Server 2012 R2",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-13.0.1601.51-Enterprise-ENU-WS2012R2-CY16-SU03-BYOL",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-13.0.1601.51-Enterprise-ENU-WS2012R2-CY16-SU03-BYOL",
+            "imageVersions": [
+                {
+                "version": "13.0.16021",
+                "publishedDate": "6/6/2016",
+                "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-13.0.1601.51-Enterprise-ENU-WS2012R2-CY16-SU03-BYOL"
+                }
+            ]
+        },
+        "FairFax": {
+            "mediaName": "0bd04240ad4b45118afda6ddb0581fff__sqlserver-2016-13.0.1601.51-enterprise-enu-ws2012r2-cy16-su03-byol",
+            "imageVersions": [
+                {
+                "version": "13.0.1609",
+                "publishedDate": "7/28/2016",
+                "mediaName": "0bd04240ad4b45118afda6ddb0581fff__sqlserver-2016-13.0.1601.51-enterprise-enu-ws2012r2-cy16-su03-byol"
+                }
+            ]
+        }
+    },
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
       "offer": "SQL2016-WS2012R2-BYOL",
@@ -10,7 +31,7 @@
     },
     "OS": "Windows",
     "summary": "Enterprise version of SQL Server 2016 RTM for transactional, data warehousing, business intelligence, and analytics workloads.",
-    "description": "This image contains the full version of SQL Server Enterprise to be used for <a target='_blank' href='http://www.microsoft.com/en-us/licensing/licensing-programs/software-assurance-license-mobility.aspx'> License Mobility for Software Assurance </a> (Bring Your Own License - BYOL). A SQL Server licensing cost will not be charged for this image. I also acknowledge to have a valid SQL Server Enterprise license and to <a target='_blank' href='http://d36cz9buwru1tt.cloudfront.net/License_Mobility_Customer_Verification_Guide.pdf'> provide the necessary BYOL information to Microsoft </a> within 10 days. For production workloads we recommend that you use a virtual machine size of DS3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a target='_blank' href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip'>here</a>.",
+    "description": "This image contains the full version of SQL Server 2016 Enterprise to be used for <a href='http://www.microsoft.com/en-us/licensing/licensing-programs/software-assurance-license-mobility.aspx'>License Mobility for Software Assurance </a>(Bring Your Own License - BYOL). A SQL Server licensing cost will not be charged for this image. You must acknowledge that you have a valid SQL Server Enterprise license and <a href='http://d36cz9buwru1tt.cloudfront.net/License_Mobility_Customer_Verification_Guide.pdf'>provide the necessary BYOL information to Microsoft </a>within 10 days. Enterprise edition provides comprehensive capabilities for mission-critical transactional processing, data warehousing, and business intelligence. It includes the database engine with support for <a href='https://www.microsoft.com/en-us/cloud-platform/oltp-database-management'>In-Memory transactional processing and analytics</a>, which improves the performance of heavy workloads up to 30x. This edition also includes Always On for +99.99% high availability. Always Encrypted and Row-Level Security for the highest data protection. R Services for integrated advanced analytics. Includes Management Studio for integrated administration and development, Reporting Services for web and mobile reports, Integration Services for moving and transforming data, Analysis Services for data mining, and Master Data Services for data modeling. We recommend that you use a virtual machine size of <strong>DS13 or higher</strong>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -22,12 +43,12 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
-        "Standard_DS12_v2",
-        "Standard_DS11_v2",
         "Standard_DS13_v2",
-        "Standard_DS12",
-        "Standard_DS11",
-        "Standard_DS13"
+        "Standard_DS14_v2",
+        "Standard_DS12_v2",
+        "Standard_DS13",
+        "Standard_DS14",
+        "Standard_DS12"
     ],
     "links": [
         {
@@ -55,5 +76,9 @@
         "SqlIaasAgent-AutoBackup",
         "SqlIaasAgent-AutoPatching"
     ],
-    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm"
+    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
+    "cloudEnvironments":  [
+        "PublicAzure",
+        "FairFax"
+    ]
 }

@@ -7,8 +7,13 @@
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-priority-v20160415",
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-priority-v20160812",
             "imageVersions": [
+                {
+                    "version": "2016.08.12",
+                    "publishedDate": "08/12/2016",
+                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-priority-v20160812"
+                },
                 {
                     "version": "2016.04.15",
                     "publishedDate": "04/15/2016",

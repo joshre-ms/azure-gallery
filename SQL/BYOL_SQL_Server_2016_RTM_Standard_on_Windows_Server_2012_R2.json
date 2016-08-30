@@ -2,7 +2,28 @@
     "publisher": "Microsoft",
     "label": "{BYOL} SQL Server 2016 RTM Standard Windows Server 2012 R2",
     "displayName": "{BYOL} SQL Server 2016 RTM Standard on Windows Server 2012 R2",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-13.0.1601.51-Standard-ENU-WS2012R2-CY16-SU03-BYOL",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-13.0.1601.51-Standard-ENU-WS2012R2-CY16-SU03-BYOL",
+            "imageVersions": [
+                {
+                "version": "13.0.16020",
+                "publishedDate": "6/6/2016",
+                "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-13.0.1601.51-Standard-ENU-WS2012R2-CY16-SU03-BYOL"
+                }
+            ]
+        },
+        "FairFax": {
+            "mediaName": "0bd04240ad4b45118afda6ddb0581fff__sqlserver-2016-13.0.1601.51-standard-enu-ws2012r2-cy16-su03-byol",
+            "imageVersions": [
+                {
+                "version": "13.0.1609",
+                "publishedDate": "7/28/2016",
+                "mediaName": "0bd04240ad4b45118afda6ddb0581fff__sqlserver-2016-13.0.1601.51-standard-enu-ws2012r2-cy16-su03-byol"
+                }
+            ]
+        }
+    },
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
       "offer": "SQL2016-WS2012R2-BYOL",
@@ -55,5 +76,9 @@
         "SqlIaasAgent-AutoBackup",
         "SqlIaasAgent-AutoPatching"
     ],
-    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm"
+    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
+    "cloudEnvironments":  [
+        "PublicAzure",
+        "FairFax"
+    ]
 }
