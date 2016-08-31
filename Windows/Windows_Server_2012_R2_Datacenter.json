@@ -4,7 +4,7 @@
   "displayName": "Windows Server 2012 R2 Datacenter",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160617-en.us-127GB.vhd",
+      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160812-en.us-127GB.vhd",
       "imageVersions": [
         {
           "version": "February, 2016",
@@ -20,11 +20,21 @@
           "version": "June, 2016",
           "publishedDate": "06/17/2016",
           "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160617-en.us-127GB.vhd"
+        },
+        {
+          "version": "July, 2016",
+          "publishedDate": "07/21/2016",
+          "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160721-en.us-127GB.vhd"
+        },
+        {
+          "version": "August, 2016",
+          "publishedDate": "08/12/2016",
+          "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160812-en.us-127GB.vhd"
         }
       ]
     },
     "Blackforest": {
-      "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-R2-20160617-en.us-127GB.vhd",
+      "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-R2-20160812-en.us-127GB.vhd",
       "imageVersions": [
         {
           "version": "April, 2016",
@@ -35,11 +45,21 @@
           "version": "June, 2016",
           "publishedDate": "06/17/2016",
           "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-R2-20160617-en.us-127GB.vhd"
+        },
+        {
+          "version": "July, 2016",
+          "publishedDate": "07/21/2016",
+          "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-R2-20160721-en.us-127GB.vhd"
+        },
+        {
+          "version": "August, 2016",
+          "publishedDate": "08/12/2016",
+          "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-R2-20160812-en.us-127GB.vhd"
         }
       ]
     },
     "Mooncake": {
-      "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20160617-en.us-127GB.vhd",
+      "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20160812-en.us-127GB.vhd",
       "imageVersions": [
         {
           "version": "April, 2016",
@@ -50,11 +70,21 @@
           "version": "June, 2016",
           "publishedDate": "06/17/2016",
           "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20160617-en.us-127GB.vhd"
+        },
+        {
+          "version": "July, 2016",
+          "publishedDate": "07/21/2016",
+          "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20160721-en.us-127GB.vhd"
+        },
+        {
+          "version": "August, 2016",
+          "publishedDate": "08/12/2016",
+          "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20160812-en.us-127GB.vhd"
         }
       ]
     },
     "Fairfax": {
-      "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-R2-20160617-en.us-127GB.vhd",
+      "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-R2-20160812-en.us-127GB.vhd",
       "imageVersions": [
         {
           "version": "April, 2016",
@@ -65,6 +95,16 @@
           "version": "June, 2016",
           "publishedDate": "06/17/2016",
           "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-R2-20160617-en.us-127GB.vhd"
+        },
+        {
+          "version": "July, 2016",
+          "publishedDate": "07/21/2016",
+          "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-R2-20160721-en.us-127GB.vhd"
+        },
+        {
+          "version": "August, 2016",
+          "publishedDate": "08/12/2016",
+          "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-R2-20160812-en.us-127GB.vhd"
         }
       ]
     }
@@ -120,8 +160,8 @@
                 }
         }
     ],
-    "eula": null,
-    "privacy": null,
+    "eula": "http://download.microsoft.com/Documents/UseTerms/Windows%20Server_2012%20R2%20Datacenter_English_20812733-0262-474c-9370-0145d77dd648.pdf",
+    "privacy": "https://privacy.microsoft.com/en-us/windows-8-1-privacy-statement",
     "screenshot": null,
     "cloudEnvironments":  [
       "PublicAzure",
