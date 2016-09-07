@@ -31,7 +31,7 @@
     },
     "OS": "Windows",
     "summary": "Standard version of SQL Server 2016 RTM for transactional, data warehousing, business intelligence, and analytics workloads.",
-    "description": "This image contains the full version of SQL Server. For production workloads we recommend that you use a virtual machine size of DS3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip' target='_blank'>here</a>.",
+    "description": "This image contains the Standard edition of SQL Server 2016. Standard edition provides core data management capabilities for medium-size transactional processing and data warehousing. It includes the database engine with a basic version of Always On high availability and Row-Level Security. Includes Management Studio for integrated administration and development, basic versions of Reporting Services for web reports, Integration Services for moving and transforming data, and Analysis Services for data mining. We recommend that you use a virtual machine size of <strong>DS12 or higher</strong>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -43,11 +43,11 @@
     ],
     "recommendedSizes": [
         "Standard_DS12_v2",
-        "Standard_DS11_v2",
         "Standard_DS13_v2",
+        "Standard_DS11_v2",
         "Standard_DS12",
-        "Standard_DS11",
-        "Standard_DS13"
+        "Standard_DS13",
+        "Standard_DS11"
     ],
     "links": [
         {
