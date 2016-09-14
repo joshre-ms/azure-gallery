@@ -1,0 +1,35 @@
+{
+    "publisher":  "Microsoft",
+    "label":  "Azure Jenkins 0.1.0",
+    "displayName":  "Azure Jenkins 0.1.0",
+    "MediaName":  "03f55de797f546a1b29d1b8d66be687a__Jenkins272-Ubuntu1404LTS2016-09-13",
+    "imageReference":  {
+                           "publisher":  "MicrosoftVisualStudio",
+                           "offer":  "VisualStudio",
+                           "sku":  "Jenkins272-Ubuntu1404LTS"
+                       },
+    "OS":  "Linux",
+    "description":  "Azure Jenkins published by Microsoft is a pre-configured, ready to run image of Jenkins with a set of pipelines, jobs and Azure plugins pre-installed. This image will help developers quickly build, integrate, deploy, test and release virtually any app using Jenkins with Azure resources. This version of Azure Jenkins lets you create a Jenkins instance on Azure using the quickstart template. You can run a single script to pre-configure your Jenkins instance to use any Azure resources, and run a pipeline and jobs that show how best to configure and use Jenkins with Azure Storage. In this image we provided samples on downloading files from Azure storage in a Jenkins job, uploading files to your Azure storage in a Jenkins job, as well as a pipeline you can view and run to download and upload files to Azure Storage.  We will continuously update this image with pipelines and jobs to configure and use Jenkins with Azure resources such as Storage, VMs, Web Apps and Docker Containers. For any questions and comments or future updates to this image, please feel free to contact us at the email address below. We appreciate your feedback and support. Jenkins is licensed by https://jenkins.io under the MIT license. The Azure Jenkins logo is a derivative of the Jenkins logo licensed by https://jenkins.io under the Creative Commons Attribution-ShareAlike 3.0 Unported License.",
+    "iconPath":  "Icons/Jenkins",
+    "categories":  [
+                       "virtualMachine",
+                       "microsoftServer",
+                       "azure",
+                       "windows",
+                       "appInfra"
+                   ],
+    "recommendedSizes":  null,
+    "links":  [
+                  {
+                      "label":  "Documentation",
+                      "uri":  "https://go.microsoft.com/fwlink/?linkid=825749"
+                  },
+                  {
+                      "label":  "Feedback",
+                      "uri":  "mailto:azdevopspub@microsoft.com"
+                  }
+              ],
+    "eula":  "https://opensource.org/licenses/MIT",
+    "privacy":  "https://www.microsoft.com/en-us/privacystatement/OnlineServices/Default.aspx",
+    "screenshot":  "screenshots/JenkinsAzureOnUbuntu14.png"
+}
