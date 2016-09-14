@@ -18,7 +18,10 @@
                        "windows",
                        "appInfra"
                    ],
-    "recommendedSizes":  null,
+    "recommendedSizes":  [
+                             "Standard_DS1_v2",
+                             "Standard_DS2_v2" 
+                         ],
     "links":  [
                   {
                       "label":  "Documentation",
