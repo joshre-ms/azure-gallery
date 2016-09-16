@@ -42,6 +42,7 @@
     "OS": "Windows",
     "description": "Windows Server 2016 Technical Preview is an opportunity to experience the cloud-ready operating system that delivers new layers of security and Azure-inspired innovation for the applications and infrastructure that power your business.  Increase security and reduce risk with multiple layers of protection built into the operating system.  Evolve your datacenter to save money and gain flexibility with software-defined datacenter technologies inspired by Microsoft Azure. Innovate faster with an application platform optimized for the applications you run today, as well as the cloud-based apps of tomorrow. This VHD contains a preview release and should strictly be used for testing purposes. The VHD won’t be serviced or supported for production use and the trial period expires in February 2017.",
     "iconPath": "Icons/Server",
+    "supportsSriov": true,
     "categories": [
         "virtualMachine",
         "microsoftServer",
