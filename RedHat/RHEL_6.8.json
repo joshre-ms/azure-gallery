@@ -5,12 +5,17 @@
     "displayName": "Red Hat Enterprise Linux 6.8",
     "mediaReferences": {
       "PublicAzure": {
-        "mediaName": "a879bbefc56a43abb0ce65052aac09f3__rhel-68-20160510",
+        "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_6_8_Standard_Azure_RHUI-20160920-211525",
         "imageVersions": [
           {
             "version": "May, 2016",
             "publishedDate": "05/10/2016",
             "mediaName": "a879bbefc56a43abb0ce65052aac09f3__rhel-68-20160510"
+          },
+          {
+            "version": "September, 2016",
+            "publishedDate": "09/21/2016",
+            "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_6_8_Standard_Azure_RHUI-20160920-211525"
           }
         ]
       },
