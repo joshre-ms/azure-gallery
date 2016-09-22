@@ -46,5 +46,6 @@
     ],
     "eula": "https://enterprise.github.com/license",
     "privacy": "https://enterprise.github.com/privacy",
-    "screenshot": null
+    "screenshot": null,
+    "hardened": true
 }
