@@ -8,11 +8,6 @@
             "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_7_2_Standard_Azure_RHUI-20160920-211525",
             "imageVersions": [
                 {
-                    "version": "March, 2016",
-                    "publishedDate": "03/02/2016",
-                    "mediaName": "a879bbefc56a43abb0ce65052aac09f3__rhel-72-20160302"
-                },
-                {
                     "version": "September, 2016",
                     "publishedDate": "09/21/2016",
                     "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_7_2_Standard_Azure_RHUI-20160920-211525"
