@@ -129,6 +129,8 @@
   ],
   "hardened": true,
   "cloudEnvironments": [
-    "PublicAzure"
+    "PublicAzure",
+    "Blackforest",
+    "Mooncake"
   ]
 }
