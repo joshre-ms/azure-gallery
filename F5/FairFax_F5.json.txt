@@ -1,6 +1,6 @@
 {
-    "publisher": "f5-networks",
-    "label": "F5 BIG-IP ADC (RM Image only-Classic not supported)",
+    "publisher": "F5 Networks",
+    "label": "F5 BIG-IP ADC",
     "displayName": "F5 BIG-IP ADC",
        "imageReference": {
           "publisher": "f5-networks",
@@ -19,7 +19,7 @@ For more information, go to https://f5.com/products/modules",
     "recommendedSizes": [
         "Standard_A7",
     ],
-    "links": [
+    "linksForEnvironments": [
         {
             "label": "F5 BIG-IP Licensing Information",
             "uri": "https://f5.com/products/how-to-buy/simplified-licensing"
@@ -41,7 +41,6 @@ For more information, go to https://f5.com/products/modules",
     "privacy": "https://f5.com/about-us/policies",
     "screenshot": null
     "cloudEnvironments": {
-       "PublicAzure",
        "Fairfax"
      }
 }
