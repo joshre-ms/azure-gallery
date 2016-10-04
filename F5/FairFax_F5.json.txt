@@ -37,7 +37,7 @@ For more information, go to https://f5.com/products/modules",
             "uri": "https://interact.f5.com/azuref5trial.html?utm_source=msft&utm_medium=shorturl&utm_campaign=azuretrial"
         }
     ],
-    "eula": "",
+    "eula": "https://support.f5.com/kb/en-us/solutions/public/k/69/sol69415800.html",
     "privacy": "https://f5.com/about-us/policies",
     "screenshot": null
     "cloudEnvironments": {
