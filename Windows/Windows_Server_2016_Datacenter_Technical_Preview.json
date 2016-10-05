@@ -4,12 +4,12 @@
     "displayName": "Windows Server 2016 Technical Preview 5",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-Technical-Preview-20160802-en.us-127GB.vhd",
+            "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-Technical-Preview-20160920-en.us-127GB.vhd",
             "imageVersions": [
                 {
-                "version": "August, 2016",
-                "publishedDate": "08/02/2016",
-                "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-Technical-Preview-20160802-en.us-127GB.vhd"
+                "version": "September, 2016",
+                "publishedDate": "09/20/2016",
+                "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-Technical-Preview-20160920-en.us-127GB.vhd"
                 }
             ]
         },
@@ -24,13 +24,13 @@
             ]
         },
         "Mooncake": {
-            "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-Technical-Preview-20160802-en.us-127GB.vhd",
+            "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-Technical-Preview-20160920-en.us-127GB.vhd",
             "imageVersions": [
-                {
-                "version": "August, 2016",
-                "publishedDate": "08/02/2016",
-                "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-Technical-Preview-20160802-en.us-127GB.vhd"
-                }
+              {
+                "version": "September, 2016",
+                "publishedDate": "09/20/2016",
+                "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-Technical-Preview-20160920-en.us-127GB.vhd"
+              }
             ]
         }
     },
