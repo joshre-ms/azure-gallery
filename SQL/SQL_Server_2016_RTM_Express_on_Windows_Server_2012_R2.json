@@ -10,8 +10,9 @@
     },
     "OS": "Windows",
     "summary": "Express version of SQL Server 2016 RTM.",
-    "description": "This image contains the Express with Tools version of SQL Server. This image does not charge for a SQL license and it is tailored for dev/test and micro workloads. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip' target='_blank'>here</a>.",
+    "description": "This image contains the Express edition of SQL Server 2016. This is an entry-level free database system for lightweight applications. It includes the core database engine, limited to 1 GB memory and 10 GB storage, and Management Studio for integrated administration and development. We recommend that you use a virtual machine size of <strong>DS1 or higher</strong>.",
     "iconPath": "Icons",
+    "supportsSriov": true,
     "categories": [
         "virtualMachine",
         "microsoftServer",
@@ -21,11 +22,9 @@
         "virtualMachineRecommended"
     ],
 "recommendedSizes": [
-        "Basic_A1",
-        "Standard_D1_v2",
-        "Standard_D1",
-        "Standard_DS1_v2",
-        "Standard_DS1"
+        "Standard_DS2_v2",
+        "Standard_DS1",
+        "Standard_DS2"
     ],
     "links": [
         {

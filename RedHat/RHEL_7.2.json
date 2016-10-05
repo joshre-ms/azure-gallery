@@ -3,7 +3,29 @@
     "publisherDisplayName": "Red Hat",
     "label": "Red Hat Enterprise Linux 7.2",
     "displayName": "Red Hat Enterprise Linux 7.2",
-    "MediaName": "a879bbefc56a43abb0ce65052aac09f3__rhel-72-20160302",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_7_2_Standard_Azure_RHUI-20160920-211525",
+            "imageVersions": [
+                {
+                    "version": "September, 2016",
+                    "publishedDate": "09/21/2016",
+                    "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_7_2_Standard_Azure_RHUI-20160920-211525"
+                }
+            ]
+        },
+        "Fairfax": {
+            "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_7_2_Standard_USGov_RHUI-20160920-211525",
+            "imageVersions": [
+                {
+                    "version": "September, 2016",
+                    "publishedDate": "09/21/2016",
+                    "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_7_2_Standard_USGov_RHUI-20160920-211525"
+                }
+            ]
+
+        }
+    },
     "imageReference": {
         "publisher": "RedHat",
         "offer": "RHEL",
@@ -46,5 +68,9 @@
     "eula": "http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Cloud_Software_Subscription_Agreement_for_Microsoft_Azure.pdf",
     "privacy": "http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Privacy_Statement_for_Microsoft_Azure.pdf",
     "screenshot": null,
-    "isPremiumThirdParty": true
+    "isPremiumThirdParty": true,
+    "cloudEnvironments": [
+        "PublicAzure",
+        "Fairfax"
+    ]
 }
