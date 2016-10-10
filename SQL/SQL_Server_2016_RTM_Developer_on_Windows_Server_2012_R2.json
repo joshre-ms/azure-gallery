@@ -12,6 +12,7 @@
     "summary": "Developer version of SQL Server 2016 RTM for transactional, data warehousing, business intelligence, and analytics workloads.",
     "description": "This image contains the Developer version of SQL Server 2016. This includes all the functionality of Enterprise edition, but it is licensed for development and testing only, not production. It includes the database engine with support for <a href='https://www.microsoft.com/en-us/cloud-platform/oltp-database-management'>In-Memory transactional processing and analytics</a>, which improves the performance of heavy workloads up to 30x. This edition also includes Always On for +99.99% high availability. Always Encrypted and Row-Level Security for the highest data protection. R Services for integrated advanced analytics. Includes Management Studio for integrated administration and development, Reporting Services for web and mobile reports, Integration Services for moving and transforming data, Analysis Services for data mining, and Master Data Services for data modeling. We recommend that you use a virtual machine size of <strong>DS2 or higher</strong> for development and functional testing. <strong>DS13 or higher</strong> for performance testing.",
     "iconPath": "Icons",
+    "supportsSriov": true,
     "categories": [
         "virtualMachine",
         "microsoftServer",

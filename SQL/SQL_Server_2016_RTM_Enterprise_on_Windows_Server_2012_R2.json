@@ -4,12 +4,12 @@
     "displayName": "SQL Server 2016 RTM Enterprise on Windows Server 2012 R2",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-RTM-13.0.1601.5-Enterprise-ENU-WS2012R2-CY16-SU0310",
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-RTM-RServices-13.0.1601.5-Enterprise-ENU-WS2012R2-CY16-SU0310020",
             "imageVersions": [
                 {
-                    "version": "13.0.26024",
-                    "publishedDate": "6/07/2016",
-                    "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-RTM-13.0.1601.5-Enterprise-ENU-WS2012R2-CY16-SU0310"
+                    "version": "13.0.26035",
+                    "publishedDate": "08/08/2016",
+                    "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-RTM-RServices-13.0.1601.5-Enterprise-ENU-WS2012R2-CY16-SU0310020"
                 }
             ]
         },
@@ -33,6 +33,7 @@
     "summary": "Enterprise version of SQL Server 2016 RTM for transactional, data warehousing, business intelligence, and analytics workloads.",
     "description": "This image contains the full version of SQL Server 2016 Enterprise edition. Enterprise edition provides comprehensive capabilities for mission-critical transactional processing, data warehousing, and business intelligence. It includes the database engine with support for <a href='https://www.microsoft.com/en-us/cloud-platform/oltp-database-management'>In-Memory transactional processing and analytics</a>, which improves the performance of heavy workloads up to 30x. This edition also includes <a href='https://msdn.microsoft.com/en-us/library/ff877884.aspx'>Always On</a> for +99.99% high availability. <a href='https://msdn.microsoft.com/en-us/library/mt163865.aspx'>Always Encrypted</a> and <a href='https://msdn.microsoft.com/en-us/library/dn765131.aspx'>Row-Level Security</a> for the highest data protection. <a href='https://msdn.microsoft.com/en-us/library/mt604845.aspx'>R Services</a> for integrated advanced analytics. Includes Management Studio for integrated administration and development, <a href='https://msdn.microsoft.com/en-us/library/ms170438.aspx'>Reporting Services</a> for web and mobile reports, <a href='https://msdn.microsoft.com/en-us/library/bb522534.aspx'>Integration Services</a> for moving and transforming data, <a href='https://msdn.microsoft.com/en-us/library/bb522628.aspx'>Analysis Services</a> for data mining, and <a href='https://msdn.microsoft.com/en-us/library/ff929136.aspx'>Master Data Services</a> for data modeling. We recommend that you use a virtual machine size of <strong>DS13 or higher</strong>.",
     "iconPath": "Icons",
+    "supportsSriov": true,
     "categories": [
         "virtualMachine",
         "microsoftServer",

@@ -4,12 +4,12 @@
     "displayName": "SQL Server 2014 SP1 Enterprise on Windows Server 2012 R2",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2014-Sp1-12.0.4449.0-Enterprise-ENU-WS2012R2-CY16-SU03",
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2014-Sp1-12.0.4449.0-Enterprise-RServices-ENU-WS2012R2-CY16-SU031",
             "imageVersions": [
                 {
-                "version": "12.0.44498",
-                "publishedDate": "5/14/2016",
-                "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2014-Sp1-12.0.4449.0-Enterprise-ENU-WS2012R2-CY16-SU03"
+                "version": "12.0.44499",
+                "publishedDate": "08/08/2016",
+                "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2014-Sp1-12.0.4449.0-Enterprise-RServices-ENU-WS2012R2-CY16-SU031"
                 }
             ]
         },
@@ -43,6 +43,7 @@
     "summary": "Enterprise version of SQL Server 2014 SP1 for transactional, data warehousing, business intelligence, and analytics workloads.",
     "description": "This image contains the full version of SQL Server. For production workloads we recommend that you use a virtual machine size of DS3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip' target='_blank'>here</a>.",
     "iconPath": "Icons",
+    "supportsSriov": true,
     "categories": [
         "virtualMachine",
         "microsoftServer",

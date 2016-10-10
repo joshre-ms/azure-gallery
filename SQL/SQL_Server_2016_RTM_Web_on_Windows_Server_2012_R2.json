@@ -12,6 +12,7 @@
     "summary": "Web version of SQL Server 2016 RTM for transactional, data warehousing, business intelligence, and analytics workloads.",
     "description": "This image contains the Web edition of SQL Server 2016. This provides a low-cost database solution for medium-size web applications. It includes the core database engine and Management Studio for integrated administration and development. Also includes basic versions of Reporting Services for web reports, Integration Services for moving and transforming data, and Analysis Services for data mining. We recommend that you use a virtual machine size of <strong>DS12 or higher</strong>.",
     "iconPath": "Icons",
+    "supportsSriov": true,
     "categories": [
         "virtualMachine",
         "microsoftServer",

@@ -4,53 +4,18 @@
   "displayName": "Windows Server 2012 R2 Datacenter",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160812-en.us-127GB.vhd",
+      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160915-en.us-127GB.vhd",
       "imageVersions": [
         {
-          "version": "February, 2016",
-          "publishedDate": "02/29/2016",
-          "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160229-en.us-127GB.vhd"
-        },
-        {
-          "version": "April, 2016",
-          "publishedDate": "04/30/2016",
-          "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160430-en.us-127GB.vhd"
-        },
-        {
-          "version": "June, 2016",
-          "publishedDate": "06/17/2016",
-          "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160617-en.us-127GB.vhd"
-        },
-        {
-          "version": "July, 2016",
-          "publishedDate": "07/21/2016",
-          "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160721-en.us-127GB.vhd"
-        },
-        {
-          "version": "August, 2016",
-          "publishedDate": "08/12/2016",
-          "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160812-en.us-127GB.vhd"
+          "version": "September, 2016",
+          "publishedDate": "09/15/2016",
+          "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160915-en.us-127GB.vhd"
         }
       ]
     },
     "Blackforest": {
       "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-R2-20160812-en.us-127GB.vhd",
       "imageVersions": [
-        {
-          "version": "April, 2016",
-          "publishedDate": "04/30/2016",
-          "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-R2-20160430-en.us-127GB.vhd"
-        },
-        {
-          "version": "June, 2016",
-          "publishedDate": "06/17/2016",
-          "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-R2-20160617-en.us-127GB.vhd"
-        },
-        {
-          "version": "July, 2016",
-          "publishedDate": "07/21/2016",
-          "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-R2-20160721-en.us-127GB.vhd"
-        },
         {
           "version": "August, 2016",
           "publishedDate": "08/12/2016",
@@ -59,52 +24,22 @@
       ]
     },
     "Mooncake": {
-      "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20160812-en.us-127GB.vhd",
+      "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20160915-en.us-127GB.vhd",
       "imageVersions": [
         {
-          "version": "April, 2016",
-          "publishedDate": "04/30/2016",
-          "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20160430-en.us-127GB.vhd"
-        },
-        {
-          "version": "June, 2016",
-          "publishedDate": "06/17/2016",
-          "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20160617-en.us-127GB.vhd"
-        },
-        {
-          "version": "July, 2016",
-          "publishedDate": "07/21/2016",
-          "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20160721-en.us-127GB.vhd"
-        },
-        {
-          "version": "August, 2016",
-          "publishedDate": "08/12/2016",
-          "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20160812-en.us-127GB.vhd"
+          "version": "September, 2016",
+          "publishedDate": "09/15/2016",
+          "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20160915-en.us-127GB.vhd"
         }
       ]
     },
     "Fairfax": {
-      "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-R2-20160812-en.us-127GB.vhd",
+      "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-R2-20160915-en.us-127GB.vhd",
       "imageVersions": [
         {
-          "version": "April, 2016",
-          "publishedDate": "04/30/2016",
-          "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-R2-20160430-en.us-127GB.vhd"
-        },
-        {
-          "version": "June, 2016",
-          "publishedDate": "06/17/2016",
-          "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-R2-20160617-en.us-127GB.vhd"
-        },
-        {
-          "version": "July, 2016",
-          "publishedDate": "07/21/2016",
-          "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-R2-20160721-en.us-127GB.vhd"
-        },
-        {
-          "version": "August, 2016",
-          "publishedDate": "08/12/2016",
-          "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-R2-20160812-en.us-127GB.vhd"
+          "version": "September, 2016",
+          "publishedDate": "09/15/2016",
+          "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-R2-20160915-en.us-127GB.vhd"
         }
       ]
     }
@@ -118,6 +53,7 @@
     "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
     "description": "At the heart of the Microsoft Cloud OS vision, Windows Server 2012 R2 brings Microsoft's experience delivering global-scale cloud services into your infrastructure. The virtual machine (VM) offers enterprise-class performance, flexibility for your applications and excellent economics for your datacenter and hybrid cloud environment. This image includes Windows Server 2012 R2 Update (KB2919355).",
     "iconPath": "Icons/Server",
+    "supportsSriov": true,
     "categories": [
         "virtualMachine",
         "microsoftServer",
