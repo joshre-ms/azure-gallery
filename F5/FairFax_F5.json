@@ -1,9 +1,9 @@
 {
-    "publisher": "ACEPublishing",
+    "publisher": "F5 Networks",
     "label": "F5 BIG-IP ADC",
     "displayName": "F5 BIG-IP ADC",
        "imageReference": {
-          "publisher": "f5-networks",
+          "publisher": "ACEPublishing",
           "offer": "f5-big-ip",
           "sku": "f5-bigip-virtual-edition-best-byol"
         },
