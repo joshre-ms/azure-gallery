@@ -2,6 +2,14 @@
   "publisher": "Microsoft",
   "label": "Windows Server 2016 Datacenter",
   "displayName": "Windows Server 2016 Datacenter",
+  "mediaReferences": {
+    "PublicAzure": {
+      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2016-Datacenter-20161010-en.us-127GB.vhd"
+    },
+    "Mooncake": {
+      "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2016-Datacenter-20161010-en.us-127GB.vhd"
+    }
+  },
   "imageReference": {
     "publisher": "MicrosoftWindowsServer",
     "offer": "WindowsServer",
