@@ -1,0 +1,44 @@
+{
+    "publisher": "F5 Networks",
+    "label": "F5 BIG-IP ADC",
+    "displayName": "F5 BIG-IP ADC",
+       "imageReference": {
+          "publisher": "ACEPublishing",
+          "offer": "f5-big-ip",
+          "sku": "f5-bigip-virtual-edition-best-byol"
+        },
+    "OS": "Linux",
+    "description": "F5 BIG-IP ADC VE BEST delivers the ultimate in security, performance, and availability for your applications.  In addition to intelligent traffic management, load balancing, DNS, DDoS protection, and application acceleration, BEST provides the most effective web application firewall (ASM) that ensures PCI compliance and protects applications against OWASP top 10 threats, automated attacks, vulnerability exploits, web scrapping, anomalous traffic patterns and zero-day attacks.  BEST also includes Access Policy Manager (APM), which secures and simplifies anywhere, anytime application access, via dynamic, prescriptive, actionable policies leveraging user identity, context, environment, and risk.\nFor more information, go to https://f5.com/products/modules",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+	"azure"
+    ],
+    "recommendedSizes": [
+        "Standard_A7"
+    ],
+    "links": [
+        {
+            "label": "F5 BIG-IP Licensing Information",
+            "uri": "https://f5.com/products/how-to-buy/simplified-licensing"
+        },
+        {
+            "label": "F5 BIG-IP Virtual Editions Data Sheet",
+            "uri": "https://www.f5.com/pdf/products/big-ip-virtual-editions-datasheet.pdf"
+        },
+        {
+            "label": "F5 Support Details",
+            "uri": "https://f5.com/support"
+        },
+        {
+            "label": "F5 Big-IP Free Trial",
+            "uri": "https://interact.f5.com/azuref5trial.html?utm_source=msft&utm_medium=shorturl&utm_campaign=azuretrial"
+        }
+    ],
+    "eula": "https://support.f5.com/kb/en-us/solutions/public/k/69/sol69415800.html",
+    "privacy": "https://f5.com/about-us/policies",
+    "screenshot": null,
+    "cloudEnvironments": [
+       "Fairfax"
+     ]
+}
