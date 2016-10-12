@@ -68,7 +68,6 @@
     ],
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
     "cloudEnvironments":  [
-        "PublicAzure",
-        "FairFax"
+        "PublicAzure"
     ]
 }
