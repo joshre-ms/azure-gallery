@@ -1,0 +1,40 @@
+{
+    "publisher":  "Microsoft",
+    "label":  "Visual Studio \"15\" Enterprise Preview 5 with Universal Windows Tools and Azure SDK 2.9.1 on Windows 10 Enterprise N (x64)",
+    "displayName":  "Visual Studio \"15\" Enterprise Preview 5 with Universal Windows Tools and Azure SDK 2.9.1 on Windows 10 Enterprise N (x64)",
+    "MediaName":  "03f55de797f546a1b29d1b8d66be687a__VS-Dev15-Preview5-Ent-AzureSDK-291-Win10-N2016-10-05",
+    "imageReference":  {
+                           "publisher":  "MicrosoftVisualStudio",
+                           "offer":  "VisualStudio",
+                           "sku":  "VS-Dev15-Preview5-Ent-AzureSDK-291-Win10-N"
+                       },
+    "OS":  "Windows",
+    "description":  "With Visual Studio \"15\" Enterprise Preview 5 on Windows 10 you can create applications across devices and services, using a single solution with a consistent development experience.  You get the tools you need to deliver applications for Android, iOS, and Windows, as well as modern web applications and cloud services.  This image contains a full install of Visual Studio \"15\" Enterprise Preview 5 on Windows 10.  It includes new functionalities such as open and edit any code from any folder, C# new language features with pattern matching and nested local functions, and  XAML edit and continue for Universal Windows 10 and WPF apps.",
+    "iconPath":  "Icons",
+    "categories":  [
+                       "virtualMachine",
+                       "microsoftServer",
+                       "azure",
+                       "47970b32416a",
+                       "windows",
+                       "appInfra"
+                   ],
+    "recommendedSizes":  [
+                             "Standard_D2",
+                             "Medium",
+                             "Standard_DS2"
+                         ],
+    "links":  [
+                  {
+                      "label":  "Documentation",
+                      "uri":  "http://azure.microsoft.com/en-us/campaigns/visual-studio-2013/"
+                  },
+                  {
+                      "label":  "MSDN Azure benefit details",
+                      "uri":  "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
+                  }
+              ],
+    "eula":  "https://www.visualstudio.com/support/legal/mt662452",
+    "privacy":  "https://www.visualstudio.com/en-us/mt675230",
+    "screenshot":  "Screenshots/VisualStudioOnWindows10.png"
+}

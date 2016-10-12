@@ -1,44 +1,49 @@
 {
-    "publisher": "Microsoft",
-    "label": "Windows Server 2012 Datacenter",
-    "displayName": "Windows Server 2012 Datacenter",
-    "mediaReferences": {
-        "PublicAzure": {
-            "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-20160329-en.us-127GB.vhd",
-            "imageVersions": [
-                {
-                "version": "March, 2016",
-                "publishedDate": "03/29/2016",
-                "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-20160329-en.us-127GB.vhd"
-                },
-                {
-                "version": "February, 2016",
-                "publishedDate": "02/29/2016",
-                "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-20160229-en.us-127GB.vhd"
-                }
-            ]
-        },
-        "Blackforest": {
-            "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-Datacenter-20160229-en.us-127GB.vhd",
-            "imageVersions": [
-                {
-                "version": "February, 2016",
-                "publishedDate": "02/29/2016",
-                "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-Datacenter-20160229-en.us-127GB.vhd"
-                }
-            ]
-        },
-        "Mooncake": {
-            "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-Datacenter-20160229-en.us-127GB.vhd",
-            "imageVersions": [
-                {
-                "version": "February, 2016",
-                "publishedDate": "02/29/2016",
-                "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-Datacenter-20160229-en.us-127GB.vhd"
-                }
-            ]
+  "publisher": "Microsoft",
+  "label": "Windows Server 2012 Datacenter",
+  "displayName": "Windows Server 2012 Datacenter",
+  "mediaReferences": {
+    "PublicAzure": {
+      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-20160915-en.us-127GB.vhd",
+      "imageVersions": [
+        {
+          "version": "September, 2016",
+          "publishedDate": "09/15/2016",
+          "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-20160915-en.us-127GB.vhd"
         }
+      ]
     },
+    "Blackforest": {
+      "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-Datacenter-20160812-en.us-127GB.vhd",
+      "imageVersions": [
+        {
+          "version": "August, 2016",
+          "publishedDate": "08/12/2016",
+          "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-Datacenter-20160812-en.us-127GB.vhd"
+        }
+      ]
+    },
+    "Mooncake": {
+      "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-Datacenter-20160915-en.us-127GB.vhd",
+      "imageVersions": [
+        {
+          "version": "September, 2016",
+          "publishedDate": "09/15/2016",
+          "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-Datacenter-20160915-en.us-127GB.vhd"
+        }
+      ]
+    },
+    "Fairfax": {
+      "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-Datacenter-20160915-en.us-127GB.vhd",
+      "imageVersions": [
+        {
+          "version": "September, 2016",
+          "publishedDate": "09/15/2016",
+          "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-Datacenter-20160915-en.us-127GB.vhd"
+        }
+      ]
+    }
+  },
      "imageReference": {
       "publisher": "MicrosoftWindowsServer",
       "offer": "WindowsServer",
@@ -55,12 +60,15 @@
         "appInfra"
     ],
     "recommendedSizes": [
+        "Standard_DS1_v2",
+        "Standard_DS2_v2",
+        "Standard_DS11_v2",
         "Standard_DS1",
-        "Standard_DS11",
         "Standard_DS2",
-        "Standard_D1",
+        "Standard_DS11",
         "Standard_D1_v2",
-        "Small"
+        "Standard_D1",
+        "Small"          
     ],
     "linksForEnvironments": [
         {
@@ -85,12 +93,13 @@
                 }
         }
     ],
-    "eula": null,
-    "privacy": null,
+    "eula": "http://download.microsoft.com/Documents/UseTerms/Windows%20Server_2012%20Datacenter_English_97974250-7a55-4236-bde8-546f0cec9c85.pdf",
+    "privacy": "https://privacy.microsoft.com/en-us/windows-8-privacy-statement",
     "screenshot": null,
     "cloudEnvironments":  [
-        "PublicAzure",
-        "Blackforest",
-        "Mooncake"
+      "PublicAzure",
+      "Blackforest",
+      "Mooncake",
+      "Fairfax"
     ]
 }

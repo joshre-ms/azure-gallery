@@ -1,44 +1,49 @@
 {
-    "publisher": "Microsoft",
-    "label": "Windows Server 2012 R2 Datacenter",
-    "displayName": "Windows Server 2012 R2 Datacenter",
-    "mediaReferences": {
-        "PublicAzure": {
-            "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160329-en.us-127GB.vhd",
-            "imageVersions": [
-                {
-                "version": "March, 2016",
-                "publishedDate": "03/29/2016",
-                "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160329-en.us-127GB.vhd"
-                },
-                {
-                "version": "February, 2016",
-                "publishedDate": "02/29/2016",
-                "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160229-en.us-127GB.vhd"
-                }
-            ]
-        },
-        "Blackforest": {
-            "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-R2-20160229-en.us-127GB.vhd",
-            "imageVersions": [
-                {
-                "version": "February, 2016",
-                "publishedDate": "02/29/2016",
-                "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-R2-20160229-en.us-127GB.vhd"
-                }
-            ]
-        },
-        "Mooncake": {
-            "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20160229-en.us-127GB.vhd",
-            "imageVersions": [
-                {
-                "version": "February, 2016",
-                "publishedDate": "02/29/2016",
-                "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20160229-en.us-127GB.vhd"
-                }
-            ]
+  "publisher": "Microsoft",
+  "label": "Windows Server 2012 R2 Datacenter",
+  "displayName": "Windows Server 2012 R2 Datacenter",
+  "mediaReferences": {
+    "PublicAzure": {
+      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160915-en.us-127GB.vhd",
+      "imageVersions": [
+        {
+          "version": "September, 2016",
+          "publishedDate": "09/15/2016",
+          "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20160915-en.us-127GB.vhd"
         }
+      ]
     },
+    "Blackforest": {
+      "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-R2-20160812-en.us-127GB.vhd",
+      "imageVersions": [
+        {
+          "version": "August, 2016",
+          "publishedDate": "08/12/2016",
+          "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-R2-20160812-en.us-127GB.vhd"
+        }
+      ]
+    },
+    "Mooncake": {
+      "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20160915-en.us-127GB.vhd",
+      "imageVersions": [
+        {
+          "version": "September, 2016",
+          "publishedDate": "09/15/2016",
+          "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20160915-en.us-127GB.vhd"
+        }
+      ]
+    },
+    "Fairfax": {
+      "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-R2-20160915-en.us-127GB.vhd",
+      "imageVersions": [
+        {
+          "version": "September, 2016",
+          "publishedDate": "09/15/2016",
+          "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-R2-20160915-en.us-127GB.vhd"
+        }
+      ]
+    }
+  },
      "imageReference": {
       "publisher": "MicrosoftWindowsServer",
       "offer": "WindowsServer",
@@ -48,6 +53,7 @@
     "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
     "description": "At the heart of the Microsoft Cloud OS vision, Windows Server 2012 R2 brings Microsoft's experience delivering global-scale cloud services into your infrastructure. The virtual machine (VM) offers enterprise-class performance, flexibility for your applications and excellent economics for your datacenter and hybrid cloud environment. This image includes Windows Server 2012 R2 Update (KB2919355).",
     "iconPath": "Icons/Server",
+    "supportsSriov": true,
     "categories": [
         "virtualMachine",
         "microsoftServer",
@@ -57,12 +63,15 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
+        "Standard_DS1_v2",
+        "Standard_DS2_v2",
+        "Standard_DS11_v2",
         "Standard_DS1",
-        "Standard_DS11",
         "Standard_DS2",
-        "Standard_D1",
+        "Standard_DS11",
         "Standard_D1_v2",
-        "Small"
+        "Standard_D1",
+        "Small"          
     ],
     "linksForEnvironments": [
         {
@@ -87,12 +96,13 @@
                 }
         }
     ],
-    "eula": null,
-    "privacy": null,
+    "eula": "http://download.microsoft.com/Documents/UseTerms/Windows%20Server_2012%20R2%20Datacenter_English_20812733-0262-474c-9370-0145d77dd648.pdf",
+    "privacy": "https://privacy.microsoft.com/en-us/windows-8-1-privacy-statement",
     "screenshot": null,
     "cloudEnvironments":  [
-        "PublicAzure",
-        "Blackforest",
-        "Mooncake"
+      "PublicAzure",
+      "Blackforest",
+      "Mooncake",
+      "Fairfax"
     ]
 }

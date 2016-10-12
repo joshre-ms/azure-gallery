@@ -1,0 +1,60 @@
+{
+	"publisher": "OpenLogic",
+	"label": "CentOS-based 6.5 HPC",
+	"displayName": "CentOS-based 6.5 HPC",
+	"cloudEnvironments": [
+		"PublicAzure"
+	],
+	"mediaReferences": {
+		"PublicAzure": {
+			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-65-HPC-20160408",
+			"imageVersions": [{
+				"version": "2016.04.08",
+				"publishedDate": "04/14/2016",
+				"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-65-HPC-20160408"
+			}]
+		}
+	},
+	"imageReference": {
+		"publisher": "OpenLogic",
+		"offer": "CentOS-HPC",
+		"sku": "6.5"
+	},
+	"OS": "Linux",
+	"description": "This distribution of Linux High Performance Computing (HPC) is based on CentOS version 6.5 and is provided by OpenLogic. It contains an installation of the Basic Server packages and is intended for HPC workloads on Azure's A8 and A9 instances.",
+	"iconPath": "Icons",
+	"categories": [
+		"virtualMachine",
+		"microsoftServer",
+		"azure",
+		"linux",
+		"appInfra",
+		"azureCertified",
+		"virtualMachineRecommended"
+	],
+  "recommendedSizes": [
+    "Standard_DS1_v2",
+    "Standard_DS2_v2",
+    "Standard_DS11_v2",
+    "Standard_DS1",
+    "Standard_DS2",
+    "Standard_DS11",
+    "Standard_D1_v2",
+    "Standard_D1",
+    "Small"          
+  ],
+	"linksForEnvironments": [{
+		"label": "Learn more",
+		"uri": {
+			"Default": "http://www.openlogic.com/azure/"
+		}
+	}, {
+		"label": "Pricing details",
+		"uri": {
+			"Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+		}
+	}],
+	"eula": "http://www.openlogic.com/azure/service-agreement/",
+	"privacy": null,
+	"screenshot": null
+}

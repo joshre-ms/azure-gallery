@@ -23,9 +23,11 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
-        "Standard_A2",
+        "Standard_D2_v2",
+        "Standard_DS2_v2", 
         "Standard_D2",
-        "Standard_DS2"
+        "Standard_DS2",
+        "Standard_A2"
     ],
     "links": [
         {
@@ -43,5 +45,6 @@
     ],
     "eula": "http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Cloud_Software_Subscription_Agreement_for_Microsoft_Azure.pdf",
     "privacy": "http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Privacy_Statement_for_Microsoft_Azure.pdf",
-    "screenshot": null
+    "screenshot": null,
+    "isPremiumThirdParty": true
 }

@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "JDK 8 on Windows Server 2012 R2",
     "displayName": "JDK 8",
-    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__JDK-1.8.0_77-20160329-Win-GA",
+    "MediaName": "0c0083a6d9a24f2d91800e52cad83950__JDK-1.8.0_77-20160523-Win-GA",
     "imageReference": {
       "publisher": "Microsoft",
       "offer": "JDK",
