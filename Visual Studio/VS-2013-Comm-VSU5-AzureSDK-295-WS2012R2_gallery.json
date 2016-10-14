@@ -1,15 +1,15 @@
 {
     "publisher":  "Microsoft",
-    "label":  "Visual Studio Premium 2013 Update 5 on Windows Server 2012 R2",
-    "displayName":  "Visual Studio Premium 2013 Update 5 on Windows Server 2012 R2",
-    "MediaName":  "03f55de797f546a1b29d1b8d66be687a__VS-2013-Prem-VSU5-AzureSDK-282-WS2012R22016-07-12",
+    "label":  "Visual Studio Community 2013 Update 5 with Azure Tools 2.9 on Windows Server 2012 R2",
+    "displayName":  "Visual Studio Community 2013 Update 5 with Azure Tools 2.9 on Windows Server 2012 R2",
+    "MediaName":  "03f55de797f546a1b29d1b8d66be687a__VS-2013-Comm-VSU5-AzureSDK-295-WS2012R22016-10-13",
     "imageReference":  {
                            "publisher":  "MicrosoftVisualStudio",
                            "offer":  "VisualStudio",
-                           "sku":  "VS-2013-Prem-VSU5-AzureSDK-282-WS2012R2"
+                           "sku":  "VS-2013-Comm-VSU5-AzureSDK-295-WS2012R2"
                        },
     "OS":  "Windows",
-    "description":  "This image provides Visual Studio Premium 2013 Update 5 with Azure 2.8 on Windows Server 2012 R2.  Visual Studio Premium streamlines collaboration between all members of the development team.  Designed for efficient team development, it lets you adopt agile practices at your own pace, so your team can accomplish more, faster. The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.",
+    "description":  "This image of Visual Studio Community 2013 Update 5 with Azure Tools 2.9 enables you to unleash the full power of Visual Studio to develop cross-platform solutions.  Create apps in one unified IDE, and incorporate new languages, features, and development tools into them with Visual Studio Extensions (available in the Visual Studio Gallery). The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.",
     "iconPath":  "Icons",
     "categories":  [
                        "virtualMachine",
@@ -33,7 +33,7 @@
                       "uri":  "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
                   }
               ],
-    "eula":  "http://msdn.microsoft.com/subscriptions/eula",
-    "privacy":  "https://www.visualstudio.com/en-us/mt675230",
+    "eula":  "http://go.microsoft.com/fwlink/?LinkId=430755",
+    "privacy":  "https://visualstudio.com/en-us/mt675230",
     "screenshot":  "Screenshots/VisualStudioOnWindowsServer.png"
 }
