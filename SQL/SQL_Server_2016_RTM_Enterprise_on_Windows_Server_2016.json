@@ -16,7 +16,7 @@
     },
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
-      "offer": "SQL2016-WS2012R2",
+      "offer": "SQL2016-WS2016",
       "sku": "Enterprise"
     },
     "OS": "Windows",
