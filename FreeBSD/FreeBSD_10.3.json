@@ -5,12 +5,12 @@
     "displayName": "FreeBSD 10.3",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "9db562c525e942698c605df2f0c9b26a__FreeBSD10_3-2016-09-26",
+            "mediaName": "9db562c525e942698c605df2f0c9b26a__FreeBSD10_3-2016-10-13",
             "imageVersions": [
 		{
-                "version": "Sep, 2016",
-                "publishedDate": "09/26/2016",
-                "mediaName": "9db562c525e942698c605df2f0c9b26a__FreeBSD10_3-2016-09-26"
+                "version": "Oct, 2016",
+                "publishedDate": "10/13/2016",
+                "mediaName": "9db562c525e942698c605df2f0c9b26a__FreeBSD10_3-2016-10-13"
                 }
             ]
         },
