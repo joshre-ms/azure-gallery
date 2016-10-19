@@ -66,15 +66,21 @@
     "linksForEnvironments": [
         {
             "label": "Documentation",
-            "Default": "https://help.ubuntu.com/16.10/index.html"
+            "uri": {
+                "Default": "https://help.ubuntu.com/16.10/index.html"
+            }
         },
         {
             "label": "FAQ",
-            "Default": "https://help.ubuntu.com/community/ServerFaq"
+            "uri": {
+                "Default": "https://help.ubuntu.com/community/ServerFaq"
+            }
         },
         {
             "label": "Pricing details",
-            "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            "uri": {
+                "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            }
         }
     ],
     "eula": "http://www.ubuntu.com/project/about-ubuntu/licensing",
