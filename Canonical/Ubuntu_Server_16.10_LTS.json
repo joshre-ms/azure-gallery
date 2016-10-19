@@ -37,7 +37,7 @@
     "imageReference": {
       "publisher": "Canonical",
       "offer": "UbuntuServer",
-      "sku": "16.10.0"
+      "sku": "16.10"
     },
     "OS": "Linux",
     "summary": "Ubuntu Server delivers the best value scale-out performance available.",
@@ -83,7 +83,6 @@
     "cloudEnvironments":  [
       "PublicAzure",
       "Blackforest",
-      "Mooncake",
-      "Fairfax"
+      "Mooncake"
     ]
 }
