@@ -5,34 +5,10 @@
     "displayName": "Red Hat Enterprise Linux 6.8",
     "mediaReferences": {
       "PublicAzure": {
-        "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_6_8_Standard_Azure_RHUI-20161014092242",
-        "imageVersions": [
-          {
-            "version": "September, 2016",
-            "publishedDate": "09/21/2016",
-            "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_6_8_Standard_Azure_RHUI-20160920-211525"
-          },
-          {
-            "version": "October, 2016",
-            "publishedDate": "10/24/2016",
-            "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_6_8_Standard_Azure_RHUI-20161014092242"
-          }
-        ]
+        "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_6_8_Standard_Azure_RHUI-20161014092242"
       },
       "Fairfax": {
-        "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_6_8_Standard_USGov_RHUI-20161014235333",
-        "imageVersions": [
-          {
-            "version": "September, 2016",
-            "publishedDate": "09/21/2016",
-            "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_6_8_Standard_USGov_RHUI-20160920-211525"
-          },
-          {
-            "version": "October, 2016",
-            "publishedDate": "10/24/2016",
-            "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_6_8_Standard_USGov_RHUI-20161014235333"
-          }
-        ]
+        "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_6_8_Standard_USGov_RHUI-20161014235333"
       }
     },
     "imageReference": {

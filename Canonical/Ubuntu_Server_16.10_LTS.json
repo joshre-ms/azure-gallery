@@ -4,34 +4,13 @@
     "displayName": "Ubuntu Server 16.10",
     "mediaReferences": {
       "PublicAzure": {
-        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB",
-        "imageVersions": [
-          {
-            "version": "October, 2016",
-            "publishedDate": "10/12/2016",
-            "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB"
-          }
-        ]
+        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB"
       },
       "Blackforest": {
-        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB",
-        "imageVersions": [
-          {
-            "version": "October, 2016",
-            "publishedDate": "10/12/2016",
-            "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB"
-          }
-        ]
+        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB"
       },
       "Mooncake": {
-        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB",
-        "imageVersions": [
-          {
-            "version": "October, 2016",
-            "publishedDate": "10/12/2016",
-            "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB"
-          }
-        ]
+        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB"
       }
     },
     "imageReference": {
