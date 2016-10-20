@@ -3,20 +3,20 @@
     "label": "Ubuntu Server 16.10",
     "displayName": "Ubuntu Server 16.10",
     "mediaReferences": {
-      "PublicAzure": {
-        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB"
-      },
-      "Blackforest": {
-        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB"
-      },
-      "Mooncake": {
-        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB"
-      }
+        "PublicAzure": {
+            "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB"
+        },
+        "Blackforest": {
+            "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB"
+        },
+        "Mooncake": {
+            "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB"
+        }
     },
     "imageReference": {
-      "publisher": "Canonical",
-      "offer": "UbuntuServer",
-      "sku": "16.10"
+        "publisher": "Canonical",
+        "offer": "UbuntuServer",
+        "sku": "16.10"
     },
     "OS": "Linux",
     "summary": "Ubuntu Server delivers the best value scale-out performance available.",
@@ -66,8 +66,8 @@
     "privacy": "http://www.ubuntu.com/aboutus/privacypolicy",
     "screenshot": null,
     "cloudEnvironments":  [
-      "PublicAzure",
-      "Blackforest",
-      "Mooncake"
+        "PublicAzure",
+        "Blackforest",
+        "Mooncake"
     ]
 }

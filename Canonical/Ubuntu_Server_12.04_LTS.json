@@ -3,23 +3,23 @@
     "label": "Ubuntu Server 12.04 LTS",
     "displayName": "Ubuntu Server 12.04.5 LTS",
     "mediaReferences": {
-      "PublicAzure": {
-        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-12_04_5-LTS-amd64-server-20161010-en-us-30GB"
-      },
-      "Blackforest": {
-        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-12_04_5-LTS-amd64-server-20161010-en-us-30GB"
-      },
-      "Mooncake": {
-        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-12_04_5-LTS-amd64-server-20161010-en-us-30GB"
-      },
-      "Fairfax": {
-        "mediaName": "d4d4f475036b47668a34e4f26d782ef3__Ubuntu-12_04_5-LTS-amd64-server-20160919-en-us-30GB"
-      }
+        "PublicAzure": {
+            "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-12_04_5-LTS-amd64-server-20161010-en-us-30GB"
+        },
+        "Blackforest": {
+            "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-12_04_5-LTS-amd64-server-20161010-en-us-30GB"
+        },
+        "Mooncake": {
+            "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-12_04_5-LTS-amd64-server-20161010-en-us-30GB"
+        },
+        "Fairfax": {
+            "mediaName": "d4d4f475036b47668a34e4f26d782ef3__Ubuntu-12_04_5-LTS-amd64-server-20160919-en-us-30GB"
+        }
     },
     "imageReference": {
-      "publisher": "Canonical",
-      "offer": "UbuntuServer",
-      "sku": "12.04.5-LTS"
+        "publisher": "Canonical",
+        "offer": "UbuntuServer",
+        "sku": "12.04.5-LTS"
     },
     "OS": "Linux",
     "summary": "Ubuntu Server is the world's most popular Linux for cloud environments.",
