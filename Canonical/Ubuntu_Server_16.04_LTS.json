@@ -11,6 +11,9 @@
       },
       "Mooncake": {
         "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_04-LTS-amd64-server-20161011-en-us-30GB"
+      },
+      "Fairfax": {
+        "mediaName": "d4d4f475036b47668a34e4f26d782ef3__Ubuntu-16_04-LTS-amd64-server-20160922-en-us-30GB"
       }
     },
     "imageReference": {
@@ -68,6 +71,7 @@
     "cloudEnvironments":  [
         "PublicAzure",
         "Blackforest",
-        "Mooncake"
+        "Mooncake",
+        "Fairfax"
     ]
 }
