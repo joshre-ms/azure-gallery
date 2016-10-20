@@ -1,18 +1,15 @@
 {
     "publisher": "Microsoft",
-    "label": "SQL Server 2016 RTM Enterprise Windows Server 2012 R2",
-    "displayName": "SQL Server 2016 RTM Enterprise on Windows Server 2012 R2",
+    "label": "SQL Server 2016 RTM Enterprise Windows Server 2016",
+    "displayName": "SQL Server 2016 RTM Enterprise on Windows Server 2016",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-RTM-RServices-13.0.1601.5-Enterprise-ENU-WS2012R2-CY16-SU0310020"
-        },
-        "FairFax": {
-            "mediaName": "0bd04240ad4b45118afda6ddb0581fff__SqlServer-2016-RTM-13.0.1601.5-Enterprise-ENU-WS2012R2-CY16-SU03"
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLENTCORE.ENU.Nov-WS2016-127gb.09.28.16.07.48"
         }
     },
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
-      "offer": "SQL2016-WS2012R2",
+      "offer": "SQL2016-WS2016",
       "sku": "Enterprise"
     },
     "OS": "Windows",
@@ -64,7 +61,6 @@
     ],
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
     "cloudEnvironments":  [
-        "PublicAzure",
-        "FairFax"
+        "PublicAzure"
     ]
 }

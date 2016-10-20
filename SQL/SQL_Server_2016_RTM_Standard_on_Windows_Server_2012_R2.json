@@ -4,24 +4,10 @@
     "displayName": "SQL Server 2016 RTM Standard on Windows Server 2012 R2",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-RTM-13.0.1601.5-Standard-ENU-WS2012R2-CY16-SU03v6",
-            "imageVersions": [
-                {
-                    "version": "13.0.16020",
-                    "publishedDate": "6/02/2016",
-                    "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-RTM-13.0.1601.5-Standard-ENU-WS2012R2-CY16-SU03v6"
-                }
-            ]
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-RTM-13.0.1601.5-Standard-ENU-WS2012R2-CY16-SU03v6"
         },
         "FairFax": {
-            "mediaName": "0bd04240ad4b45118afda6ddb0581fff__SqlServer-2016-RTM-13.0.1601.5-Standard-ENU-WS2012R2-CY16-SU03v5",
-            "imageVersions": [
-                {
-                "version": "13.0.16018",
-                "publishedDate": "6/27/2016",
-                "mediaName": "0bd04240ad4b45118afda6ddb0581fff__SqlServer-2016-RTM-13.0.1601.5-Standard-ENU-WS2012R2-CY16-SU03v5"
-                }
-            ]
+            "mediaName": "0bd04240ad4b45118afda6ddb0581fff__SqlServer-2016-RTM-13.0.1601.5-Standard-ENU-WS2012R2-CY16-SU03v5"
         }
     },
     "imageReference": {

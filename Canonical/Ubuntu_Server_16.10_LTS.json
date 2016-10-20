@@ -1,26 +1,26 @@
 {
     "publisher": "Canonical",
-    "label": "Ubuntu Server 12.04 LTS",
-    "displayName": "Ubuntu Server 12.04.5 LTS",
+    "label": "Ubuntu Server 16.10",
+    "displayName": "Ubuntu Server 16.10",
     "mediaReferences": {
       "PublicAzure": {
-        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-12_04_5-LTS-amd64-server-20161010-en-us-30GB"
+        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB"
       },
       "Blackforest": {
-        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-12_04_5-LTS-amd64-server-20161010-en-us-30GB"
+        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB"
       },
       "Mooncake": {
-        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-12_04_5-LTS-amd64-server-20161010-en-us-30GB"
+        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_10-amd64-server-20161012.3-en-us-30GB"
       }
     },
     "imageReference": {
       "publisher": "Canonical",
       "offer": "UbuntuServer",
-      "sku": "12.04.5-LTS"
+      "sku": "16.10"
     },
     "OS": "Linux",
-    "summary": "Ubuntu Server is the world's most popular Linux for cloud environments.",
-    "description": "Ubuntu Server 12.04.5 LTS (amd64 20161010) for Microsoft Azure. Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 12.04.5 LTS will be available until 2017-04-26.  Ubuntu Server is the perfect platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://partners.ubuntu.com/microsoft' target='_blank'>Ubuntu on Azure</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
+    "summary": "Ubuntu Server delivers the best value scale-out performance available.",
+    "description": "Ubuntu Server 16.10 (amd64 20161012.3) for Microsoft Azure. Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 16.10 will be available until July 2017.  Ubuntu Server is the perfect virtual machine (VM) platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://partners.ubuntu.com/microsoft' target='_blank'>Ubuntu on Azure</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -46,7 +46,7 @@
         {
             "label": "Documentation",
             "uri": {
-                "Default": "https://help.ubuntu.com/12.04/index.html"
+                "Default": "https://help.ubuntu.com/16.10/index.html"
             }
         },
         {
@@ -66,8 +66,8 @@
     "privacy": "http://www.ubuntu.com/aboutus/privacypolicy",
     "screenshot": null,
     "cloudEnvironments":  [
-        "PublicAzure",
-        "Blackforest",
-        "Mooncake"
+      "PublicAzure",
+      "Blackforest",
+      "Mooncake"
     ]
 }
