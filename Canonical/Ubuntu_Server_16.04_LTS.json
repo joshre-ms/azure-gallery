@@ -2,7 +2,17 @@
     "publisher": "Canonical",
     "label": "Ubuntu Server 16.04 LTS",
     "displayName": "Ubuntu Server 16.04 LTS",
-    "MediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_04-LTS-amd64-server-20161011-en-us-30GB",
+    "mediaReferences": {
+      "PublicAzure": {
+        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_04-LTS-amd64-server-20161011-en-us-30GB"
+      },
+      "Blackforest": {
+        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_04-LTS-amd64-server-20161011-en-us-30GB"
+      },
+      "Mooncake": {
+        "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-16_04-LTS-amd64-server-20161011-en-us-30GB"
+      }
+    },
     "imageReference": {
       "publisher": "Canonical",
       "offer": "UbuntuServer",
@@ -30,23 +40,34 @@
         "Standard_DS11",
         "Standard_D1_v2",
         "Standard_D1",
-        "Small"          
+        "Small"
     ],
-    "links": [
+    "linksForEnvironments": [
         {
             "label": "Documentation",
-            "uri": "https://help.ubuntu.com/16.04/index.html"
+            "uri": {
+                "Default": "https://help.ubuntu.com/16.04/index.html"
+            }
         },
         {
             "label": "FAQ",
-            "uri": "https://help.ubuntu.com/community/ServerFaq"
+            "uri": {
+                "Default": "https://help.ubuntu.com/community/ServerFaq"
+            }
         },
         {
             "label": "Pricing details",
-            "uri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            "uri": {
+                "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            }
         }
     ],
     "eula": "http://www.ubuntu.com/project/about-ubuntu/licensing",
     "privacy": "http://www.ubuntu.com/aboutus/privacypolicy",
-    "screenshot": null
+    "screenshot": null,
+    "cloudEnvironments":  [
+        "PublicAzure",
+        "Blackforest",
+        "Mooncake"
+    ]
 }
