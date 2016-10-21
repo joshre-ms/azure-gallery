@@ -1,23 +1,25 @@
 {
     "publisher": "Microsoft",
-    "label": "SQL Server 2016 RTM Standard Windows Server 2012 R2",
-    "displayName": "SQL Server 2016 RTM Standard on Windows Server 2012 R2",
+    "label": "{BYOL} SQL Server 2016 RTM Standard Windows Server 2016",
+    "displayName": "{BYOL} SQL Server 2016 RTM Standard on Windows Server 2016",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLSTD.ENU.Nov-WS2012R2-127gb.09.25.16.03.18"
-        },
-        "FairFax": {
-            "mediaName": "0bd04240ad4b45118afda6ddb0581fff__SqlServer-2016-RTM-13.0.1601.5-Standard-ENU-WS2012R2-CY16-SU03v5"
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLSTD.ENU.Nov-WS2016-127gb.09.28.16.07.48-byol",
+            "imageVersions": [
+                {
+                    "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLSTD.ENU.Nov-WS2016-127gb.09.28.16.07.48-byol"
+                }
+            ]
         }
     },
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
-      "offer": "SQL2016-WS2012R2",
+      "offer": "SQL2016-WS2016-BYOL",
       "sku": "Standard"
     },
     "OS": "Windows",
     "summary": "Standard version of SQL Server 2016 RTM for transactional, data warehousing, business intelligence, and analytics workloads.",
-    "description": "This image contains the Standard edition of SQL Server 2016. Standard edition provides core data management capabilities for medium-size transactional processing and data warehousing. It includes the database engine with a basic version of Always On high availability and Row-Level Security. Includes Management Studio for integrated administration and development, basic versions of Reporting Services for web reports, Integration Services for moving and transforming data, and Analysis Services for data mining. We recommend that you use a virtual machine size of <strong>DS12 or higher</strong>.",
+    "description": "This image contains the full version of SQL Server Standard to be used for License Mobility through Software Assurance <http://www.microsoft.com/en-us/licensing/licensing-programs/software-assurance-license-mobility.aspx>  (Bring Your Own License - BYOL).A SQL Server licensing cost will not be charged for this image.For production workloads we recommend that you use a virtual machine size of DS3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see  <https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip> here.",
     "iconPath": "Icons",
     "supportsSriov": true,
     "categories": [
@@ -64,7 +66,6 @@
     ],
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
     "cloudEnvironments":  [
-        "PublicAzure",
-        "FairFax"
+        "PublicAzure"
     ]
 }
