@@ -8,24 +8,10 @@
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-sapcal-v20160415",
-            "imageVersions": [
-                {
-                    "version": "2016.04.15",
-                    "publishedDate": "04/15/2016",
-                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-sapcal-v20160415"
-                }
-            ]
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-sapcal-v20161024"
         },
         "Mooncake": {
-            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-11-sp4-sapcal-v20160415",
-            "imageVersions": [
-                {
-                    "version": "2016.04.15",
-                    "publishedDate": "04/18/2016",
-                    "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-11-sp4-sapcal-v20160415"
-                }
-            ]
+            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-11-sp4-sapcal-v20161024"
         }
     },
     "imageReference": {
@@ -54,7 +40,7 @@
         "Standard_DS11",
         "Standard_D1_v2",
         "Standard_D1",
-        "Small"          
+        "Small"
     ],
     "linksForEnvironments": [
         {

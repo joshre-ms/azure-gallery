@@ -4,24 +4,10 @@
     "displayName": "SQL Server 2016 RTM Enterprise on Windows Server 2012 R2",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-RTM-RServices-13.0.1601.5-Enterprise-ENU-WS2012R2-CY16-SU0310020",
-            "imageVersions": [
-                {
-                    "version": "13.0.26035",
-                    "publishedDate": "08/08/2016",
-                    "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-RTM-RServices-13.0.1601.5-Enterprise-ENU-WS2012R2-CY16-SU0310020"
-                }
-            ]
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLENTCORE.ENU.Nov-WS2012R2-127gb.09.26.16.06.59"
         },
         "FairFax": {
-            "mediaName": "0bd04240ad4b45118afda6ddb0581fff__SqlServer-2016-RTM-13.0.1601.5-Enterprise-ENU-WS2012R2-CY16-SU03",
-            "imageVersions": [
-                {
-                "version": "13.0.1601.5",
-                "publishedDate": "6/27/2016",
-                "mediaName": "0bd04240ad4b45118afda6ddb0581fff__SqlServer-2016-RTM-13.0.1601.5-Enterprise-ENU-WS2012R2-CY16-SU03"
-                }
-            ]
+            "mediaName": "0bd04240ad4b45118afda6ddb0581fff__SqlServer-2016-RTM-13.0.1601.5-Enterprise-ENU-WS2012R2-CY16-SU03"
         }
     },
     "imageReference": {

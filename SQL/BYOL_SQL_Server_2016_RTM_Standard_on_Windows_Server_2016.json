@@ -1,29 +1,30 @@
 {
     "publisher": "Microsoft",
-    "label": "{BYOL} SQL Server 2016 RTM Standard Windows Server 2012 R2",
-    "displayName": "{BYOL} SQL Server 2016 RTM Standard on Windows Server 2012 R2",
+    "label": "{BYOL} SQL Server 2016 RTM Standard Windows Server 2016",
+    "displayName": "{BYOL} SQL Server 2016 RTM Standard on Windows Server 2016",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2016-13.0.1601.51-Standard-ENU-WS2012R2-CY16-SU03-BYOL"
-        },
-        "FairFax": {
-            "mediaName": "0bd04240ad4b45118afda6ddb0581fff__sqlserver-2016-13.0.1601.51-standard-enu-ws2012r2-cy16-su03-byol"
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLSTD.ENU.Nov-WS2016-127gb.09.28.16.07.48-byol",
+            "imageVersions": [
+                {
+                    "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLSTD.ENU.Nov-WS2016-127gb.09.28.16.07.48-byol"
+                }
+            ]
         }
     },
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
-      "offer": "SQL2016-WS2012R2-BYOL",
+      "offer": "SQL2016-WS2016-BYOL",
       "sku": "Standard"
     },
     "OS": "Windows",
     "summary": "Standard version of SQL Server 2016 RTM for transactional, data warehousing, business intelligence, and analytics workloads.",
-    "description": "This image contains the full version of SQL Server Standard to be used for <a target='_blank' href='http://www.microsoft.com/en-us/licensing/licensing-programs/software-assurance-license-mobility.aspx'>License Mobility for Software Assurance</a> (Bring Your Own License - BYOL). A SQL Server licensing cost will not be charged for this image. I also acknowledge to have a valid SQL Server Standard license and to <a target='_blank' href='http://d36cz9buwru1tt.cloudfront.net/License_Mobility_Customer_Verification_Guide.pdf'> provide the necessary BYOL information to Microsoft </a> within 10 days. For production workloads we recommend that you use a virtual machine size of DS3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a target='_blank' href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip'>here</a>.",
+    "description": "This image contains the full version of SQL Server Standard to be used for License Mobility through Software Assurance <http://www.microsoft.com/en-us/licensing/licensing-programs/software-assurance-license-mobility.aspx>  (Bring Your Own License - BYOL).A SQL Server licensing cost will not be charged for this image.For production workloads we recommend that you use a virtual machine size of DS3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see  <https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip> here.",
     "iconPath": "Icons",
     "supportsSriov": true,
     "categories": [
         "virtualMachine",
         "microsoftServer",
-        "enterpriseagreementonly",
         "azure",
         "windows",
         "database",
@@ -31,11 +32,11 @@
     ],
     "recommendedSizes": [
         "Standard_DS12_v2",
-        "Standard_DS11_v2",
         "Standard_DS13_v2",
+        "Standard_DS11_v2",
         "Standard_DS12",
-        "Standard_DS11",
-        "Standard_DS13"
+        "Standard_DS13",
+        "Standard_DS11"
     ],
     "links": [
         {
@@ -65,7 +66,6 @@
     ],
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
     "cloudEnvironments":  [
-        "PublicAzure",
-        "FairFax"
+        "PublicAzure"
     ]
 }

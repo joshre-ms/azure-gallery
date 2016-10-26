@@ -4,24 +4,10 @@
     "displayName": "BizTalk Server 2016 Community Technology Preview 2",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "2cdc6229df6344129ee553dd3499f0d3__BizTalk-Server-2016-CTP2",
-            "imageVersions": [
-                {
-                "version": "3.12.601",
-                "publishedDate": "6/28/2016",
-                "mediaName": "2cdc6229df6344129ee553dd3499f0d3__BizTalk-Server-2016-CTP2"
-                }
-            ]
+            "mediaName": "2cdc6229df6344129ee553dd3499f0d3__BizTalk-Server-2016-CTP2"
         },
         "FairFax": {
-            "mediaName": "69e6fd5509634987b5987640b2506503__BizTalk-Server-2016-CTP2",
-            "imageVersions": [
-                {
-                "version": "3.12.601",
-                "publishedDate": "8/23/2016",
-                "mediaName": "69e6fd5509634987b5987640b2506503__BizTalk-Server-2016-CTP2"
-                }
-            ]
+            "mediaName": "69e6fd5509634987b5987640b2506503__BizTalk-Server-2016-CTP2"
         }
     },
     "imageReference": {

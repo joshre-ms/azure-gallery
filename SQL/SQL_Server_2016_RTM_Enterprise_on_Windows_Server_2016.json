@@ -4,19 +4,12 @@
     "displayName": "SQL Server 2016 RTM Enterprise on Windows Server 2016",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLENTCORE.ENU.Nov-WS2016-127gb.09.28.16.07.48",
-            "imageVersions": [
-                {
-                    "version": "13.0.26024",
-                    "publishedDate": "6/07/2016",
-                    "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLENTCORE.ENU.Nov-WS2016-127gb.09.28.16.07.48"
-                }
-            ]
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLENTCORE.ENU.Nov-WS2016-127gb.09.28.16.07.48"
         }
     },
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
-      "offer": "SQL2016-WS2012R2",
+      "offer": "SQL2016-WS2016",
       "sku": "Enterprise"
     },
     "OS": "Windows",

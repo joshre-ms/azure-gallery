@@ -10,74 +10,16 @@
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-leap-42.1-v20160415",
-            "imageVersions": [
-                {
-                    "version": "2016.04.15",
-                    "publishedDate": "04/15/2016",
-                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-leap-42.1-v20160415"
-                },
-                {
-                    "version": "2016.03.02",
-                    "publishedDate": "03/02/2016",
-                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-leap-42.1-v20160302"
-                },
-                {
-                    "version": "2016.02.22",
-                    "publishedDate": "02/22/2016",
-                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-leap-42.1-v20160222"
-                },
-                {
-                    "version": "2015.12.17",
-                    "publishedDate": "01/14/2016",
-                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-leap-42.1-v20151217"
-                }
-            ]
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-leap-42.1-v20160415"
         },
         "Blackforest": {
-            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-opensuse-leap-42.1-v20160415",
-            "imageVersions": [
-                {
-                    "version": "2016.04.15",
-                    "publishedDate": "04/15/2016",
-                    "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-opensuse-leap-42.1-v20160415"
-                }
-            ]
+            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-opensuse-leap-42.1-v20160415"
         },
         "Mooncake": {
-            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-opensuse-leap-42.1-v20160415",
-            "imageVersions": [
-                {
-                    "version": "2016.04.15",
-                    "publishedDate": "04/18/2016",
-                    "mediaName": "250d269906be4694a10aee49a3385f2d__suse-opensuse-leap-42.1-v20160415"
-                },
-                {
-                    "version": "2016.03.02",
-                    "publishedDate": "03/02/2016",
-                    "mediaName": "250d269906be4694a10aee49a3385f2d__suse-opensuse-leap-42.1-v20160302"
-                },
-                {
-                    "version": "2016.02.22",
-                    "publishedDate": "02/22/2016",
-                    "mediaName": "250d269906be4694a10aee49a3385f2d__suse-opensuse-leap-42.1-v20160222"
-                },
-                {
-                    "version": "2015.12.17",
-                    "publishedDate": "01/14/2016",
-                    "mediaName": "250d269906be4694a10aee49a3385f2d__suse-opensuse-leap-42.1-v20151217"
-                }
-            ]
+            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-opensuse-leap-42.1-v20160415"
         },
         "Fairfax": {
-            "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-opensuse-leap-42.1-v20160415",
-            "imageVersions": [
-                {
-                    "version": "2016.04.15",
-                    "publishedDate": "04/15/2016",
-                    "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-opensuse-leap-42.1-v20160415"
-                }
-            ]
+            "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-opensuse-leap-42.1-v20160415"
         }
     },
     "imageReference": {

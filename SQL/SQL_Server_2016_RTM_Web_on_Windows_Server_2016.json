@@ -5,7 +5,7 @@
     "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLWEB.ENU.Nov-WS2016-127gb.09.28.16.07.48",
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
-      "offer": "SQL2016-WS2012R2",
+      "offer": "SQL2016-WS2016",
       "sku": "Web"
     },
     "OS": "Windows",
