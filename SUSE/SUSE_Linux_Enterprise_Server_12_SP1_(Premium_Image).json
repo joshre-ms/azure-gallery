@@ -7,7 +7,7 @@
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-priority-v20160812"
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-priority-v20161021"
         }
     },
     "imageReference": {
@@ -35,7 +35,7 @@
         "Standard_DS11",
         "Standard_D1_v2",
         "Standard_D1",
-        "Small"          
+        "Small"
     ],
     "linksForEnvironments": [
         {

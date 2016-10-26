@@ -35,6 +35,9 @@ Required. A JSON string that denotes the platform of the image specified in `med
 * `description`
 Required. A JSON string that contains the description of a gallery package. You can use basic HTML tags to format the content.
 
+* `descriptionsForEnvironments`
+Optional. A JSON object containg a default description as well as descriptions per-environment. If the default description is not provided, then only the per-environment descriptions will be used. If a file has both `description` and `descriptionsForEnvironments` fields, the data in `descriptionsForEnvironments` will be used for publishing the package.
+
 * `iconPath`
 Required. A JSON string specifying the relative path to the icons for a gallery package.
 
