@@ -7,10 +7,10 @@
             "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-12_04_5-LTS-amd64-server-20161020.1-en-us-30GB"
         },
         "Blackforest": {
-            "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-12_04_5-LTS-amd64-server-20161010-en-us-30GB"
+            "mediaName": "c250f855e92241968d8ee9500700a6b4__Ubuntu-12_04_5-LTS-amd64-server-20160829-en-us-30GB"
         },
         "Mooncake": {
-            "mediaName": "b549f4301d0b4295b8e76ceb65df47d4__Ubuntu-12_04_5-LTS-amd64-server-20160627-en-us-30GB"
+            "mediaName": "b549f4301d0b4295b8e76ceb65df47d4__Ubuntu-12_04_5-LTS-amd64-server-20161020.1-en-us-30GB"
         },
         "Fairfax": {
             "mediaName": "d4d4f475036b47668a34e4f26d782ef3__Ubuntu-12_04_5-LTS-amd64-server-20160919-en-us-30GB"
@@ -23,7 +23,7 @@
     },
     "OS": "Linux",
     "summary": "Ubuntu Server is the world's most popular Linux for cloud environments.",
-    "description": "Ubuntu Server 12.04.5 LTS (amd64 20161020.1 Public Azure), (amd64 20160627 Azure China), (amd64 20160919 GovCloud). Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 12.04.5 LTS will be available until 2017-04-26.  Ubuntu Server is the perfect platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://partners.ubuntu.com/microsoft' target='_blank'>Ubuntu on Azure</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
+    "description": "Ubuntu Server 12.04.5 LTS amd64 20161020.1 Public Azure, 20160829 Blackforest, 20161020.1 Azure China, 20160919 GovCloud. Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 12.04.5 LTS will be available until 2017-04-26.  Ubuntu Server is the perfect platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://partners.ubuntu.com/microsoft' target='_blank'>Ubuntu on Azure</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
