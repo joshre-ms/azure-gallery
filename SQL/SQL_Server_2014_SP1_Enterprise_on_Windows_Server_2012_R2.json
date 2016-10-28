@@ -11,6 +11,9 @@
         },
         "FairFax": {
             "mediaName": "0bd04240ad4b45118afda6ddb0581fff__SqlServer-2014-Sp1-12.0.4449.0-Enterprise-ENU-WS2012R2-CY16-SU03"
+        },
+        "Mooncake": {
+            "mediaName": "74bb2f0b8dcc47fbb2914b60ed940c35__SqlServer-2014-Sp1-12.0.4449.0-Enterprise-RServices-ENU-WS2012R2-CY16-SU031"
         }
     },
     "imageReference": {
@@ -76,7 +79,8 @@
     "cloudEnvironments":  [
         "PublicAzure",
         "Blackforest",
-        "FairFax"
+        "FairFax",
+        "Mooncake"
     ]
 }
 

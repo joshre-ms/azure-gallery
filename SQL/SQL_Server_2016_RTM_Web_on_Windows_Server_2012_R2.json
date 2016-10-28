@@ -2,7 +2,14 @@
     "publisher": "Microsoft",
     "label": "SQL Server 2016 RTM Web Windows Server 2012 R2",
     "displayName": "SQL Server 2016 RTM Web on Windows Server 2012 R2",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLWEB.ENU.Nov-WS2012R2-127gb.09.25.16.03.18",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLWEB.ENU.Nov-WS2012R2-127gb.09.25.16.03.18"
+        },
+        "Mooncake": {
+            "mediaName": "74bb2f0b8dcc47fbb2914b60ed940c35__SqlServer-2016-RTM-13.0.1601.5-Web-ENU-WS2012R2-CY16-SU03v5"
+        }
+    },
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
       "offer": "SQL2016-WS2012R2",
@@ -55,5 +62,9 @@
         "SqlIaasAgent-AutoBackup",
         "SqlIaasAgent-AutoPatching"
     ],
-    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm"
+    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
+    "cloudEnvironments":  [
+        "PublicAzure",
+        "Mooncake"
+    ]
 }
