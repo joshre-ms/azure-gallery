@@ -2,7 +2,7 @@
     "publisher": "Oracle",
     "label": "Oracle Linux 6.7.0.0.1",
     "displayName": "Oracle Linux 6.7.0.0.1",
-    "MediaName": "c290a6b031d841e09f2da759bbabe71f__Oracle-Linux-67-201611007",
+    "MediaName": "c290a6b031d841e09f2da759bbabe71f__Oracle-Linux-67-20161007",
     "imageReference": {
       "publisher": "Oracle",
       "offer": "Oracle-Linux",
