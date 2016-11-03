@@ -23,7 +23,7 @@
     },
     "OS": "Linux",
     "summary": "Ubuntu Server delivers the best value scale-out performance available.",
-    "description": "Ubuntu Server 16.04 LTS amd64 20161020 Public Azure, 20160907.1 Blackforest, 20161020 Azure China, 20160922 GovCloud. Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 16.04 will be available until April 2021.  Ubuntu Server is the perfect virtual machine (VM) platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://partners.ubuntu.com/microsoft' target='_blank'>Ubuntu on Azure</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
+    "description": "Ubuntu Server 16.04 LTS amd64 20161020 Public Azure, 20160907.1 Azure Germany, 20161020 Azure China, 20160922 Azure Gov. Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 16.04 will be available until April 2021.  Ubuntu Server is the perfect virtual machine (VM) platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://partners.ubuntu.com/microsoft' target='_blank'>Ubuntu on Azure</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
