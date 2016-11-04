@@ -1,22 +1,19 @@
 {
     "publisher": "Microsoft",
-    "label": "BizTalk Server 2016 Community Technology Preview 2",
-    "displayName": "BizTalk Server 2016 Community Technology Preview 2",
+    "label": "BizTalk Server 2016",
+    "displayName": "BizTalk Server 2016",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "2cdc6229df6344129ee553dd3499f0d3__BizTalk-Server-2016-CTP2"
-        },
-        "FairFax": {
-            "mediaName": "69e6fd5509634987b5987640b2506503__BizTalk-Server-2016-CTP2"
+            "mediaName": "2cdc6229df6344129ee553dd3499f0d3__BizTalk-Server-2016-Enterprise-Oct-2016"
         }
     },
     "imageReference": {
       "publisher": "MicrosoftBizTalkServer",
       "offer": "BizTalk-Server",
-      "sku": "2016-PreRelease"
+      "sku": "2016-Enterprise"
     },
     "OS": "Windows",
-    "description": "Microsoft BizTalk Server 2016 Community Technology Preview 2 on Windows Server 2016 Technical Preview 4. This release focuses on a number of important improvements. Support for SQL Server 2016 AlwaysOn Availability Groups makes production high availability (HA) workloads in Azure a reality. We have also made numerous improvements and enhancements to BizTalk based on your feedback, we hope you like them. See documentation at https://msdn.microsoft.com/en-US/library/mt670742.aspx for more information.",
+    "description": "Microsoft BizTalk Server 2016 on Windows Server 2016. This release focuses on a number of important improvements. Support for SQL Server 2016 AlwaysOn Availability Groups makes production high availability (HA) workloads in Azure a reality. We have also made numerous improvements and enhancements to BizTalk based on your feedback, we hope you like them. See documentation at https://msdn.microsoft.com/en-US/library/mt670742.aspx for more information.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -53,7 +50,6 @@
     "privacy": "http://go.microsoft.com/fwlink/?LinkID=131004",
     "screenshot": null,
     "cloudEnvironments":  [
-        "PublicAzure",
-        "FairFax"
+        "PublicAzure"
     ]
 }

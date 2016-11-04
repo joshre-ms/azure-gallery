@@ -1,12 +1,12 @@
 {
     "publisher": "Oracle",
-    "label": "Oracle Linux 6.7.0.0.1",
-    "displayName": "Oracle Linux 6.7.0.0.1",
-    "MediaName": "c290a6b031d841e09f2da759bbabe71f__Oracle-Linux-67-20161007",
+    "label": "Oracle Linux 6.8.0.0.1",
+    "displayName": "Oracle Linux 6.8.0.0.1",
+    "MediaName": "c290a6b031d841e09f2da759bbabe71f__OracleLinux-6.8-x86_64-20161020",
     "imageReference": {
       "publisher": "Oracle",
       "offer": "Oracle-Linux",
-      "sku": "6.7"
+      "sku": "6.8"
     },
     "OS": "Linux",
     "description": "Oracle Linux 6 brings the latest Linux innovations to market, delivering extreme performance, advanced scalability, and reliability for enterprise applications and systems.",
