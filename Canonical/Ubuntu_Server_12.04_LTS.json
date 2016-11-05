@@ -23,7 +23,7 @@
     },
     "OS": "Linux",
     "summary": "Ubuntu Server is the world's most popular Linux for cloud environments.",
-    "description": "Ubuntu Server 12.04.5 LTS amd64 20161020.1 Public Azure, 20160829 Blackforest, 20161020.1 Azure China, 20160919 GovCloud. Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 12.04.5 LTS will be available until 2017-04-26.  Ubuntu Server is the perfect platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://partners.ubuntu.com/microsoft' target='_blank'>Ubuntu on Azure</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
+    "description": "Ubuntu Server 12.04.5 LTS amd64 20161020.1 Public Azure, 20160829 Azure Germany, 20161020.1 Azure China, 20160919 Azure Gov. Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 12.04.5 LTS will be available until 2017-04-26.  Ubuntu Server is the perfect platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://partners.ubuntu.com/microsoft' target='_blank'>Ubuntu on Azure</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
