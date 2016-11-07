@@ -1,27 +1,13 @@
 {
   "publisher": "Microsoft",
-  "label": "Visual Studio Enterprise 2015  Update 3 with Universal Windows Tools and Azure SDK 2.9 on Windows 10 Enterprise N (x64)",
-  "displayName": "Visual Studio Enterprise 2015  Update 3 with Universal Windows Tools and Azure SDK 2.9 on Windows 10 Enterprise N (x64)",
+  "label": "Visual Studio Enterprise 2015 Update 3 with Universal Windows Tools and Azure SDK 2.9 on Windows 10 Enterprise N (x64)",
+  "displayName": "Visual Studio Enterprise 2015 Update 3 with Universal Windows Tools and Azure SDK 2.9 on Windows 10 Enterprise N (x64)",
   "mediaReferences": {
-    "publicAzure": {
-      "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Ent-VSU3-AzureSDK-29-Win10-N",
-      "ImageVersions": [
-        {
-          "version": "50.300.302",
-          "publishedDate": "11/7/2016",
-          "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Ent-VSU3-AzureSDK-29-Win10-N"
-        }
-      ]
+    "PublicAzure": {
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Ent-VSU3-AzureSDK-29-Win10-N2016-11-06",
     },
-    "fairfax": {
-      "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Ent-VSU3-AzureSDK-29-Win10-N",
-      "ImageVersions": [
-        {
-          "version": "50.300.302",
-          "publishedDate": "11/7/2016",
-          "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Ent-VSU3-AzureSDK-29-Win10-N"
-        }
-      ]
+    "Fairfax": {
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Ent-VSU3-AzureSDK-29-Win10-N2016-11-06",
     }
   },
   "imageReference": {
@@ -29,7 +15,7 @@
     "offer": "VisualStudio",
     "sku": "VS-2015-Ent-VSU3-AzureSDK-29-Win10-N"
   },
-  "os": "Windows",
+  "OS": "Windows",
   "description": "This image contains a full install of Visual Studio Enterprise 2015 Update 3 on Windows 10 Enterprise N (Anniversary Update), including the Universal Windows app development tools, the Windows 10 SDK, and the latest Azure SDK. It allows you to quickly setup environment in Azure to develop and test applications targeting the Universal Windows Platform.\n\nThe Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.",
   "icon": {
     "path": "Icons",
@@ -64,7 +50,7 @@
   "eula": "http://msdn.microsoft.com/subscriptions/eula",
   "privacy": "https://go.microsoft.com/fwlink/?LinkID=824704",
   "screenshot": "Screenshots/VisualStudioOnWindows10.png",
-  "cloudenvironments": [
+  "cloudEnvironments": [
     "PublicAzure",
     "Fairfax"
   ]
