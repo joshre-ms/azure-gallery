@@ -17,11 +17,7 @@
   },
   "OS": "Windows",
   "description": "This image contains a full install of Visual Studio Enterprise 2015 Update 3 on Windows 10 Enterprise N (Anniversary Update), including the Universal Windows app development tools, the Windows 10 SDK, and the latest Azure SDK. It allows you to quickly setup environment in Azure to develop and test applications targeting the Universal Windows Platform.\n\nThe Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.",
-  "icon": {
-    "path": "Icons",
-    "uri": "VisualStudio2013_100.png",
-    "smalluri": "VisualStudio2013_45.png"
-  },
+  "iconPath": "Icons",
   "categories": [
     "virtualMachine",
     "microsoftServer",
