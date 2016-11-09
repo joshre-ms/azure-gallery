@@ -4,10 +4,10 @@
   "displayName": "Visual Studio Enterprise 2015 Update 3 with Universal Windows Tools and Azure SDK 2.9 on Windows 10 Enterprise N (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Ent-VSU3-AzureSDK-29-Win10-N2016-11-06",
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Ent-VSU3-AzureSDK-29-Win10-N2016-11-06"
     },
     "Fairfax": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Ent-VSU3-AzureSDK-29-Win10-N2016-11-06",
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Ent-VSU3-AzureSDK-29-Win10-N2016-11-06"
     }
   },
   "imageReference": {
