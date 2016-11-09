@@ -1,16 +1,16 @@
 {
   "publisher": "Microsoft",
-  "label": "[BYOL] Windows Server 2008 R2 SP1",
-  "displayName": "[BYOL] Windows Server 2008 R2 SP1",
+  "label": "[HUB] Windows Server 2008 R2 SP1",
+  "displayName": "[HUB] Windows Server 2008 R2 SP1",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-BYOL-20160915-en.us-127GB.vhd"
+      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-HUB-20161012-en.us-127GB.vhd"
     }
   },
   "imageReference": {
     "publisher": "MicrosoftWindowsServer",
-    "offer": "WindowsServer",
-    "sku": "2008-R2-SP1-BYOL"
+    "offer": "WindowsServer-HUB",
+    "sku": "2008-R2-SP1-HUB"
   },
   "OS": "Windows",
   "description": "Windows Server 2008 R2 is a multi-purpose server designed to increase the reliability and flexibility of your server or private cloud infrastructure, helping you to save time and reduce costs.  The virtual machine (VM) provides you with powerful tools to react to business needs with greater control and confidence.",

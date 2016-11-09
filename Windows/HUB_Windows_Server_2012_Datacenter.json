@@ -1,16 +1,16 @@
 {
   "publisher": "Microsoft",
-  "label": "[BYOL] Windows Server 2012 Datacenter",
-  "displayName": "[BYOL] Windows Server 2012 Datacenter",
+  "label": "[HUB] Windows Server 2012 Datacenter",
+  "displayName": "[HUB] Windows Server 2012 Datacenter",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-BYOL-20160915-en.us-127GB.vhd"
+      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-HUB-20161012-en.us-127GB.vhd"
     }
   },
   "imageReference": {
     "publisher": "MicrosoftWindowsServer",
-    "offer": "WindowsServer",
-    "sku": "2012-Datacenter-BYOL"
+    "offer": "WindowsServer-HUB",
+    "sku": "2012-Datacenter-HUB"
   },
   "OS": "Windows",
   "description": "Windows Server 2012 incorporates Microsoft's experience building and operating public clouds, resulting in a dynamic, highly available server platform. The virtual machine (VM) offers a scalable, dynamic and multi-tenant-aware infrastructure that helps securely connect across premises.",
