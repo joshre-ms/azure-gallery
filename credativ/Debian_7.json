@@ -9,34 +9,13 @@
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-7-amd64-20160420.0",
-            "imageVersions": [
-                {
-                    "version": "2016.04.20",
-                    "publishedDate": "04/20/2016",
-                    "mediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-7-amd64-20160420.0"
-                }
-            ]
+            "mediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-7-amd64-20161102.0"
         },
         "Blackforest": {
-            "mediaName": "32951de3054f406fb267f8a578f831e5__Debian-7-amd64-20160420.0",
-            "imageVersions": [
-                {
-                    "version": "2016.04.20",
-                    "publishedDate": "04/20/2016",
-                    "mediaName": "32951de3054f406fb267f8a578f831e5__Debian-7-amd64-20160420.0"
-                }
-            ]
+            "mediaName": "32951de3054f406fb267f8a578f831e5__Debian-7-amd64-20161102.0"
         },
         "Mooncake": {
-            "mediaName": "8f699951c9734adc865d1538866f72c0__Debian-7-amd64-20160420.0",
-            "imageVersions": [
-                {
-                    "version": "2016.04.20",
-                    "publishedDate": "04/20/2016",
-                    "mediaName": "8f699951c9734adc865d1538866f72c0__Debian-7-amd64-20160420.0"
-                }
-            ]
+            "mediaName": "8f699951c9734adc865d1538866f72c0__Debian-7-amd64-20161102.0"
         }
     },
     "imageReference": {
@@ -58,12 +37,15 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
+        "Standard_DS1_v2",
+        "Standard_DS2_v2",
+        "Standard_DS11_v2",
         "Standard_DS1",
-        "Standard_DS11",
         "Standard_DS2",
-        "Standard_D1",
+        "Standard_DS11",
         "Standard_D1_v2",
-        "Small"
+        "Standard_D1",
+        "Small"          
     ],
     "linksForEnvironments": [
         {

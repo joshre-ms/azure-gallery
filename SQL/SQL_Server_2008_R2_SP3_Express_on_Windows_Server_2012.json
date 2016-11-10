@@ -11,6 +11,7 @@
     "OS": "Windows",
     "description": "This image contains the Express with Tools version of SQL Server. This image does not charge for a SQL license and it is tailored for dev/test and micro workloads. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip' target='_blank'>here</a>.",
     "iconPath": "Icons",
+    "supportsSriov": true,
     "categories": [
         "virtualMachine",
         "microsoftServer",
@@ -20,7 +21,9 @@
     ],
     "recommendedSizes": [
         "Basic_A1",
+        "Standard_D1_v2",
         "Standard_D1",
+        "Standard_DS1_v2",
         "Standard_DS1"
     ],
     "links": [

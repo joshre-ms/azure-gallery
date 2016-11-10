@@ -1,0 +1,66 @@
+{
+    "publisher": "Microsoft",
+    "label": "SQL Server 2016 RTM Enterprise Windows Server 2016",
+    "displayName": "SQL Server 2016 RTM Enterprise on Windows Server 2016",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLENTCORE.ENU.Nov-WS2016-127gb.09.28.16.07.48"
+        }
+    },
+    "imageReference": {
+      "publisher": "MicrosoftSQLServer",
+      "offer": "SQL2016-WS2016",
+      "sku": "Enterprise"
+    },
+    "OS": "Windows",
+    "summary": "Enterprise version of SQL Server 2016 RTM for transactional, data warehousing, business intelligence, and analytics workloads.",
+    "description": "This image contains the full version of SQL Server 2016 Enterprise edition. Enterprise edition provides comprehensive capabilities for mission-critical transactional processing, data warehousing, and business intelligence. It includes the database engine with support for <a href='https://www.microsoft.com/en-us/cloud-platform/oltp-database-management'>In-Memory transactional processing and analytics</a>, which improves the performance of heavy workloads up to 30x. This edition also includes <a href='https://msdn.microsoft.com/en-us/library/ff877884.aspx'>Always On</a> for +99.99% high availability. <a href='https://msdn.microsoft.com/en-us/library/mt163865.aspx'>Always Encrypted</a> and <a href='https://msdn.microsoft.com/en-us/library/dn765131.aspx'>Row-Level Security</a> for the highest data protection. <a href='https://msdn.microsoft.com/en-us/library/mt604845.aspx'>R Services</a> for integrated advanced analytics. Includes Management Studio for integrated administration and development, <a href='https://msdn.microsoft.com/en-us/library/ms170438.aspx'>Reporting Services</a> for web and mobile reports, <a href='https://msdn.microsoft.com/en-us/library/bb522534.aspx'>Integration Services</a> for moving and transforming data, <a href='https://msdn.microsoft.com/en-us/library/bb522628.aspx'>Analysis Services</a> for data mining, and <a href='https://msdn.microsoft.com/en-us/library/ff929136.aspx'>Master Data Services</a> for data modeling. We recommend that you use a virtual machine size of <strong>DS13 or higher</strong>.",
+    "iconPath": "Icons",
+    "supportsSriov": true,
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "database",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Standard_DS13_v2",
+        "Standard_DS14_v2",
+        "Standard_DS12_v2",
+        "Standard_DS13",
+        "Standard_DS14",
+        "Standard_DS12"
+    ],
+    "links": [
+        {
+            "label": "Documentation",
+            "uri": "https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/"
+        },
+        {
+            "label": "SQL Server 2016 information",
+            "uri": "http://www.microsoft.com/sqlserver2016"
+        },
+        {
+            "label": "Support forum",
+            "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=SQL"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "https://azure.microsoft.com/pricing/details/virtual-machines/#sql"
+        }
+    ],
+    "eula": "http://download.microsoft.com/download/A/A/A/AAAEF64C-7FE3-488D-A3A8-3109CC67A7A6/EULAs/license_Ent.rtf",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkID=398120",
+    "screenshot": null,
+    "supportedExtensions": [
+        "SqlIaaSAgent",
+        "SqlIaasAgent-AutoBackup",
+        "SqlIaasAgent-AutoPatching"
+    ],
+    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
+    "cloudEnvironments":  [
+        "PublicAzure"
+    ]
+}

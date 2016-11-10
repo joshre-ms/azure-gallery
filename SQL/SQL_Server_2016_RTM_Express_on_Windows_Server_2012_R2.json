@@ -1,0 +1,67 @@
+{
+    "publisher": "Microsoft",
+    "label": "SQL Server 2016 RTM Express Windows Server 2012 R2",
+    "displayName": "SQL Server 2016 RTM Express on Windows Server 2012 R2",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLEXPRCOMP.ENU.Nov-WS2012R2-127gb.09.30.16.10.21"
+        },
+        "Mooncake": {
+            "mediaName": "74bb2f0b8dcc47fbb2914b60ed940c35__SqlServer-2016-RTM-13.0.1601.5-Express-ENU-WS2012R2-CY16-SU03v7"
+        }
+    },
+    "imageReference": {
+      "publisher": "MicrosoftSQLServer",
+      "offer": "SQL2016-WS2012R2",
+      "sku": "Express"
+    },
+    "OS": "Windows",
+    "summary": "Express version of SQL Server 2016 RTM.",
+    "description": "This image contains the Express edition of SQL Server 2016. This is an entry-level free database system for lightweight applications. It includes the core database engine, limited to 1 GB memory and 10 GB storage, and Management Studio for integrated administration and development. We recommend that you use a virtual machine size of <strong>DS1 or higher</strong>.",
+    "iconPath": "Icons",
+    "supportsSriov": true,
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "database",
+        "virtualMachineRecommended"
+    ],
+"recommendedSizes": [
+        "Standard_DS2_v2",
+        "Standard_DS1",
+        "Standard_DS2"
+    ],
+    "links": [
+        {
+            "label": "Documentation",
+            "uri": "https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/"
+        },
+        {
+            "label": "SQL Server 2016 information",
+            "uri": "http://www.microsoft.com/sqlserver2016"
+        },
+        {
+            "label": "Support forum",
+            "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=SQL"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "https://azure.microsoft.com/pricing/details/virtual-machines/#sql"
+        }
+    ],
+    "eula": "http://download.microsoft.com/download/A/A/A/AAAEF64C-7FE3-488D-A3A8-3109CC67A7A6/EULAs/license_Expr.rtf",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkID=398120",
+    "screenshot": null,
+    "supportedExtensions": [
+        "SqlIaaSAgent",
+        "SqlIaasAgent-AutoBackup",
+        "SqlIaasAgent-AutoPatching"
+    ],
+    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
+    "cloudEnvironments":  [
+        "PublicAzure",
+        "Mooncake"
+    ]
+}

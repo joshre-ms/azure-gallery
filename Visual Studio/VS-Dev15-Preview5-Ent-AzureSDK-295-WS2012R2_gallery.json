@@ -1,0 +1,39 @@
+{
+    "publisher":  "Microsoft",
+    "label":  "Visual Studio \"15\" Enterprise Preview 5 with Azure SDK 2.9 on Windows Server 2012 R2 (x64)",
+    "displayName":  "Visual Studio \"15\" Enterprise Preview 5 with Azure SDK 2.9 on Windows Server 2012 R2 (x64)",
+    "MediaName":  "03f55de797f546a1b29d1b8d66be687a__VS-Dev15-Preview5-Ent-AzureSDK-295-WS2012R22016-10-11",
+    "imageReference":  {
+                           "publisher":  "MicrosoftVisualStudio",
+                           "offer":  "VisualStudio",
+                           "sku":  "VS-Dev15-Preview5-Ent-AzureSDK-295-WS2012R2"
+                       },
+    "OS":  "Windows",
+    "description":  "With Visual Studio \"15\" Enterprise Preview 5 on Windows Server 2012 R2 you can create applications across devices and services, using a single solution with a consistent development experience.  You get the tools you need to deliver applications for Android, iOS, and Windows, as well as modern web applications and cloud services.  This image contains a full install of Visual Studio \"15\" Enterprise Preview 5 on Windows Server.  It includes new functionalities such as open and edit any code from any folder, C# new language features with pattern matching and nested local functions.",
+    "iconPath":  "Icons",
+    "categories":  [
+                       "virtualMachine",
+                       "microsoftServer",
+                       "azure",
+                       "windows",
+                       "appInfra"
+                   ],
+    "recommendedSizes":  [
+                             "Standard_D2",
+                             "Medium",
+                             "Standard_DS2"
+                         ],
+    "links":  [
+                  {
+                      "label":  "Documentation",
+                      "uri":  "http://azure.microsoft.com/en-us/campaigns/visual-studio-2013/"
+                  },
+                  {
+                      "label":  "MSDN Azure benefit details",
+                      "uri":  "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
+                  }
+              ],
+    "eula":  "https://www.visualstudio.com/support/legal/mt662452",
+    "privacy":  "https://www.visualstudio.com/en-us/mt675230",
+    "screenshot":  "Screenshots/VisualStudioOnWindowsServer.png"
+}

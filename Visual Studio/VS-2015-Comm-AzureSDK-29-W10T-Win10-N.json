@@ -1,0 +1,42 @@
+{
+    "publisher": "Microsoft",
+    "label": "Visual Studio Community 2015 with Universal Windows Tools and Azure SDK 2.9 on Windows 10 Enterprise N (x64)",
+    "displayName": "Visual Studio Community 2015 with Universal Windows Tools and Azure SDK 2.9 on Windows 10 Enterprise N (x64)",
+    "MediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Comm-AzureSDK-29-W10T-Win10-N",
+    "imageReference": {
+      "publisher": "MicrosoftVisualStudio",
+      "offer": "VisualStudio",
+      "sku": "VS-2015-Comm-AzureSDK-2.9-W10T-Win10-N"
+    },
+    "OS": "Windows",
+    "description": "This image contains Windows 10 Enterprise N (x64) with Visual Studio Community 2015, including the Universal Windows app development tools and the Windows 10 SDK. It allows you to quickly setup environment in Azure to develop and test applications targeting the Universal Windows Platform.",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "47970b32416a",
+        "windows",
+        "appInfra"
+    ],
+    "recommendedSizes": [
+        "Standard_DS2_v2",
+        "Standard_DS2",
+        "Standard_D2_v2",  
+        "Standard_D2",      
+        "Medium"       
+    ],
+    "links": [
+        {
+            "label": "Documentation",
+            "uri": "http://insider.windows.com/"
+        },
+        {
+            "label": "MSDN Azure benefit details",
+            "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
+        }
+    ],
+    "eula": "http://go.microsoft.com/fwlink/?LinkID=614946",
+    "privacy": "https://www.visualstudio.com/en-us/mt675230",
+    "screenshot": "Screenshots/VisualStudioOnWindows10.png"
+}

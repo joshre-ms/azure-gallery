@@ -3,28 +3,15 @@
     "label": "openSUSE 13.2",
     "displayName": "openSUSE 13.2",
     "cloudEnvironments": [
-        "PublicAzure"
+        "PublicAzure",
+        "Mooncake"
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-13.2-v20160302",
-            "imageVersions": [
-                {
-                    "version": "2016.03.02",
-                    "publishedDate": "03/02/2016",
-                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-13.2-v20160302"
-                },
-                {
-                    "version": "2016.02.22",
-                    "publishedDate": "02/22/2016",
-                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-13.2-v20160222"
-                },
-                {
-                    "version": "2015.05.14",
-                    "publishedDate": "05/14/2015",
-                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-13.2-v20150512"
-                }
-            ]
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-13.2-v20160302"
+        },
+        "Mooncake": {
+            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-opensuse-13.2-v20160302"
         }
     },
     "imageReference": {
@@ -45,12 +32,15 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
+        "Standard_DS1_v2",
+        "Standard_DS2_v2",
+        "Standard_DS11_v2",
         "Standard_DS1",
-        "Standard_DS11",
         "Standard_DS2",
-        "Standard_D1",
+        "Standard_DS11",
         "Standard_D1_v2",
-        "Small"
+        "Standard_D1",
+        "Small"          
     ],
     "linksForEnvironments": [
         {

@@ -8,24 +8,10 @@
 	],
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-71-20160308",
-			"imageVersions": [{
-				"version": "2016.03.08",
-				"publishedDate": "03/08/2016",
-				"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-71-20160308"
-			}, {
-				"version": "2015.07.31",
-				"publishedDate": "07/31/2015",
-				"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-71-20150731"
-			}]
+			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-71-20160308"
 		},
 		"Mooncake": {
-			"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-71-20160329",
-			"imageVersions": [{
-				"version": "2016.03.29",
-				"publishedDate": "04/04/2015",
-				"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-71-20160329"
-			}]
+			"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-71-20160329"
 		}
 	},
 	"imageReference": {
@@ -34,7 +20,7 @@
 		"sku": "7.1"
 	},
 	"OS": "Linux",
-	"description": "This distribution of Linux is based on CentOS version 7.1 and is provided by OpenLogic. It contains an installation of the Basic Server packages.",
+	"description": "This distribution of Linux is based on CentOS version 7.1 and is provided by OpenLogic. It contains an installation of the Basic Server packages. This version of CentOS is deprecated.  Please keep in mind that 7.1 no longer gets any updates, nor any security fixes.  See the CentOS FAQ for details: <a href='https://wiki.centos.org/FAQ/General' _target='head-dcca41e9a3d5ac4c6d900a991990fd11930867d6'>How does CentOS versioning work?</a>",
 	"iconPath": "Icons",
 	"categories": [
 		"virtualMachine",
@@ -45,14 +31,17 @@
 		"azureCertified",
 		"virtualMachineRecommended"
 	],
-	"recommendedSizes": [
-		"Standard_DS1",
-		"Standard_DS11",
-		"Standard_DS2",
-		"Standard_D1",
-		"Standard_D1_v2",
-		"Small"
-	],
+  "recommendedSizes": [
+    "Standard_DS1_v2",
+    "Standard_DS2_v2",
+    "Standard_DS11_v2",
+    "Standard_DS1",
+    "Standard_DS2",
+    "Standard_DS11",
+    "Standard_D1_v2",
+    "Standard_D1",
+    "Small"          
+  ],
 	"linksForEnvironments": [{
 		"label": "Learn more",
 		"uri": {

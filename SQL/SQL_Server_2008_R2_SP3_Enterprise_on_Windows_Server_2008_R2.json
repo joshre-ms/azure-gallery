@@ -11,6 +11,7 @@
     "OS": "Windows",
     "description": "This image contains the full version of SQL Server. For production workloads, we recommend that you use a virtual machine size of DS3 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip' target='_blank'>here</a>.",
     "iconPath": "Icons",
+    "supportsSriov": true,
     "categories": [
         "virtualMachine",
         "microsoftServer",
@@ -18,13 +19,13 @@
         "windows",
         "database"
     ],
-    "recommendedSizes": [
-        "Standard_DS13",
-        "Standard_DS14",
-        "Standard_GS5",
-        "Standard_D13",
-        "Standard_D14"
-    ],
+  "recommendedSizes": [
+    "Standard_DS13_v2",
+    "Standard_DS14_v2",
+    "Standard_DS13",
+    "Standard_DS14",
+    "Standard_GS5"
+  ],
     "links": [
         {
             "label": "Documentation",

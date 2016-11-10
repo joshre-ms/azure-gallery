@@ -7,14 +7,7 @@
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-hpc-priority-v20150708",
-            "imageVersions": [
-                {
-                    "version": "2015.07.08",
-                    "publishedDate": "07/08/2015",
-                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-hpc-priority-v20150708"
-                }
-            ]
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-hpc-priority-v20150708"
         }
     },
     "imageReference": {
@@ -72,5 +65,6 @@
     ],
     "eula": "https://www.suse.com/licensing/eula/",
     "privacy": "https://www.suse.com/company/policies/privacy/",
-    "screenshot": "Screenshots/suse.png"
+    "screenshot": "Screenshots/suse.png",
+    "isPremiumThirdParty": true
 }

@@ -1,0 +1,78 @@
+{
+    "publisher": "SUSE",
+    "label": "SUSE Linux Enterprise Server for SAP Applications 12 SP2 (Bring Your Own Subscription)",
+    "displayName": "SLES for SAP 12 SP2 (BYOS)",
+    "cloudEnvironments": [
+        "PublicAzure",
+        "Blackforest",
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-sap-12-sp2-byos-v20161104"
+        },
+        "Blackforest": {
+            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-sles-sap-12-sp2-byos-v20161104"
+        },
+        "Mooncake": {
+            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-sap-12-sp2-byos-v20161104"
+        }
+    },
+    "imageReference": {
+      "publisher": "SUSE",
+      "offer": "SLES-SAP-BYOS",
+      "sku": "12-SP2"
+    },
+    "OS": "Linux",
+     "description": "<p><b>SUSE Linux Enterprise Server 12 SP2</b></p><p>Get the most from your SAP HANA and SAP business application software with decreased downtime, greater operating efficiency, and accelerated innovation. Utilize your business data in real time with the power of SAP and the reliability, availability, and serviceability of SUSE Linux Enterprise Server for SAP Applications.<p><i>Instances of BYOS (bring your own subscription) images must be registered using your SUSE subscription keys in order to receive security updates and support.</i></p>",
+    "iconPath": "Icons/SUSE",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra",
+        "azureCertified",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Standard_DS1_v2",
+        "Standard_DS2_v2",
+        "Standard_DS11_v2",
+        "Standard_DS1",
+        "Standard_DS2",
+        "Standard_DS11",
+        "Standard_D1_v2",
+        "Standard_D1",
+        "Small"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "Learn more",
+            "uri": {
+                "Default": "https://www.suse.com/products/sles-for-sap/"
+            }
+        },
+        {
+            "label": "Documentation",
+            "uri": {
+                "Default": "https://www.suse.com/documentation/sles-for-sap-12/"
+            }
+        },
+        {
+            "label": "Forum",
+            "uri": {
+                "Default": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+            }
+        },
+        {
+            "label": "Pricing details",
+            "uri": {
+                "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            }
+        }
+    ],
+    "eula": "https://www.suse.com/licensing/eula/",
+    "privacy": "https://www.suse.com/company/policies/privacy/",
+    "screenshot": "Screenshots/suse.png"
+}
