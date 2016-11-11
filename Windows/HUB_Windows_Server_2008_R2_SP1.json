@@ -2,11 +2,6 @@
   "publisher": "Microsoft",
   "label": "[HUB] Windows Server 2008 R2 SP1",
   "displayName": "[HUB] Windows Server 2008 R2 SP1",
-  "mediaReferences": {
-    "PublicAzure": {
-      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Win2K8R2SP1-Datacenter-HUB-20161012-en.us-127GB.vhd"
-    }
-  },
   "imageReference": {
     "publisher": "MicrosoftWindowsServer",
     "offer": "WindowsServer-HUB",
@@ -57,8 +52,5 @@
   ],
   "eula": "http://download.microsoft.com/Documents/UseTerms/Windows%20Server_2008%20R2%20Datacenter_English_0e64c120-39df-430f-9962-11b1184a4df2.pdf",
   "privacy": "https://privacy.microsoft.com/en-us/windows-7-privacy-statement",
-  "screenshot": null,
-  "cloudEnvironments": [
-    "PublicAzure"
-  ]
+  "screenshot": null
 }
