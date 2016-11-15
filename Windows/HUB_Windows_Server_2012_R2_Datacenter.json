@@ -1,16 +1,11 @@
 {
   "publisher": "Microsoft",
-  "label": "[BYOL] Windows Server 2012 R2 Datacenter",
-  "displayName": "[BYOL] Windows Server 2012 R2 Datacenter",
-  "mediaReferences": {
-    "PublicAzure": {
-      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-BYOL-20160915-en.us-127GB.vhd"
-    }
-  },
+  "label": "[HUB] Windows Server 2012 R2 Datacenter",
+  "displayName": "[HUB] Windows Server 2012 R2 Datacenter",
   "imageReference": {
     "publisher": "MicrosoftWindowsServer",
-    "offer": "WindowsServer",
-    "sku": "2012-R2-Datacenter-BYOL"
+    "offer": "WindowsServer-HUB",
+    "sku": "2012-R2-Datacenter-HUB"
   },
   "OS": "Windows",
   "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
@@ -60,8 +55,5 @@
   ],
   "eula": "http://download.microsoft.com/Documents/UseTerms/Windows%20Server_2012%20R2%20Datacenter_English_20812733-0262-474c-9370-0145d77dd648.pdf",
   "privacy": "https://privacy.microsoft.com/en-us/windows-8-1-privacy-statement",
-  "screenshot": null,
-  "cloudEnvironments": [
-    "PublicAzure"
-  ]
+  "screenshot": null
 }
