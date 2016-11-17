@@ -1,8 +1,12 @@
 {
-  "publisher": "Microsoft",
-  "label": "SSAppliance V1",
-  "displayName": "SSAppliance V1",
-  "MediaName": "9b7cfe55da0349d5a8316a8cc4741f87__StorSimple-Helsinki-Series-V1-Preview",
+    "publisher": "Microsoft",
+    "label": "SSAppliance V1",
+    "displayName": "SSAppliance V1",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "9b7cfe55da0349d5a8316a8cc4741f87__StorSimple-Helsinki-Series-V1-Preview"
+        },
+    },
   "imageReference": {
     "publisher": "MicrosoftAzureStorSimple",
     "offer": "Cloud Appliance",
@@ -21,9 +25,8 @@
     "appInfra"
   ],
   "recommendedSizes": [
-    "Standard_A4",
-    "Standard_DS4",
-    "Standard_D5_v2"
+    "Standard_A3",
+    "Standard_DS3",
   ],
   "links": [
     {
