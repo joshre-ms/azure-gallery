@@ -24,6 +24,7 @@
         "virtualMachine",
         "microsoftServer",
         "azure",
+        "enterpriseagreementonly",
         "windows",
         "database",
         "virtualMachineRecommended"
