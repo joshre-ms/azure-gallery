@@ -7,11 +7,6 @@
 			"mediaName": "9b7cfe55da0349d5a8316a8cc4741f87__StorSimple-Helsinki-Series-V1-Preview"
 		}
 	},
-	"imageReference": {
-		"publisher": "MicrosoftHybridCloudStorage",
-		"offer": "Cloud Appliance",
-		"sku": "Windows-2012-R2-Datacenter"
-	},
 	"OS": "Windows",
 	"imageType": "VMImage",
 	"summary": "Azure StorSimple Cloud Appliance",
