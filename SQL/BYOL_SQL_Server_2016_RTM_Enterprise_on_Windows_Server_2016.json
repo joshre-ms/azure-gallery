@@ -5,6 +5,9 @@
     "mediaReferences": {
         "PublicAzure": {
             "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLENTCORE.ENU.Nov-WS2016-127gb.09.28.16.07.48-byol"
+        },
+        "FairFax": {
+            "mediaName": "0bd04240ad4b45118afda6ddb0581fff__SQL16-RTM-QFE-CU-13.0.2164.0-SQLENTCORE.ENU.Nov-WS2016-127gb.09.28.16.07.48-byol"
         }
     },
     "imageReference": {
@@ -61,6 +64,7 @@
     ],
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
     "cloudEnvironments":  [
-        "PublicAzure"
+        "PublicAzure",
+        "FairFax"
     ]
 }
