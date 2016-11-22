@@ -1,0 +1,54 @@
+{
+    "publisher": "Microsoft",
+    "label": "SQL Server vNext on Red Hat Enterprise Linux 7.2",
+    "displayName": "SQL Server vNext on Red Hat Enterprise Linux 7.2",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQLvNextLinux09"
+        }
+    },
+    "imageReference": {
+      "publisher": "MicrosoftSQLServer",
+      "offer": "SQLvNextRHEL",
+      "sku": "Evaluation"
+    },
+    "OS": "Linux",
+    "description": "This image contains the Evaluation version of SQL Server vNext. This includes the restricted, in progress, version of SQL Server, licensed for development and testing only, not production. We recommend that you use a virtual machine size of DS2 or higher for development and functional testing. DS13 or higher for performance testing. After provisioning, please run '$sudo /opt/mssql/bin/sqlservr-setup' to configure and start SQL Server.  See documentation for additional details.  https://docs.microsoft.com/en-us/sql/linux/. By clicking 'Create' you agree that Red Hat is providing you a 180-day Red Hat Subscription Evaluation for evaluation purposes subject Red Hat Subscription Services Agreement (http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Cloud_Software_Subscription_Agreement_for_Microsoft_Azure.pdf) and the Privacy Statement (http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Privacy_Statement_for_Microsoft_Azure.pdf). If you use the Red Hat Subscription for any purpose other than evaluation, you agree to pay the applicable Subscription Fee(s) for each Unit, which is in addition to any and all other remedies available to Red Hat under applicable law. Examples of situations where you would incur additional fees and be in violation of the Agreement include, but are not limited to: using the services provided under the evaluation program for a production installation, offering support services to third parties, or complementing or supplementing third party support services with services received through the Red Hat Subscription evaluation program. By proceeding, you acknowledge that you have read and agree to these terms which governs use of this evaluation.",
+    "iconPath": "Icons",
+    "supportsSriov": true,
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "database"
+    ],
+    "recommendedSizes": [
+        "Standard_DS12_v2",
+        "Standard_DS11_v2",
+        "Standard_DS13_v2",
+        "Standard_DS12",
+        "Standard_DS11",
+        "Standard_DS13"
+    ],
+    "links": [
+        {
+            "label": "Documentation",
+            "uri": "https://www.microsoft.com/en-us/sql-server/sql-server-on-linux"
+        },
+        {
+            "label": "Support Forum",
+            "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=SQL"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines/red-hat"
+        }],
+    "eula": "http://download.microsoft.com/download/A/A/A/AAAEF64C-7FE3-488D-A3A8-3109CC67A7A6/EULAs/license_Ent.rtf",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkID=398120",
+    "screenshot": null,
+    "supportedExtensions": [],
+    "cloudEnvironments":  [
+        "PublicAzure"
+    ]
+}
