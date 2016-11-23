@@ -10,13 +10,13 @@
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-leap-42.1-v20160415"
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-leap-42.1-v20161121"
         },
         "Blackforest": {
-            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-opensuse-leap-42.1-v20160415"
+            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-opensuse-leap-42.1-v20161121"
         },
         "Mooncake": {
-            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-opensuse-leap-42.1-v20160415"
+            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-opensuse-leap-42.1-v20161121"
         },
         "Fairfax": {
             "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-opensuse-leap-42.1-v20160415"
@@ -48,7 +48,7 @@
         "Standard_DS11",
         "Standard_D1_v2",
         "Standard_D1",
-        "Small"          
+        "Small"
     ],
     "linksForEnvironments": [
         {
