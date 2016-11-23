@@ -43,7 +43,7 @@
               ],
     "eula":  "http://go.microsoft.com/fwlink/?LinkID=614946",
     "privacy":  "https://go.microsoft.com/fwlink/?LinkID=824704",
-    "screenshot":  "Screenshots/VisualStudioOnWindows10.png"
+    "screenshot":  "Screenshots/VisualStudioOnWindows10.png",
     "cloudEnvironments": [
     "PublicAzure",
     "Fairfax"
