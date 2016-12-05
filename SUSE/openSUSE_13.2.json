@@ -3,8 +3,7 @@
     "label": "openSUSE 13.2",
     "displayName": "openSUSE 13.2",
     "cloudEnvironments": [
-        "PublicAzure",
-        "Mooncake"
+        "PublicAzure"
     ],
     "mediaReferences": {
         "PublicAzure": {
