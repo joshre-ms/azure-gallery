@@ -3,15 +3,11 @@
     "label": "openSUSE 13.2",
     "displayName": "openSUSE 13.2",
     "cloudEnvironments": [
-        "PublicAzure",
-        "Mooncake"
+        "PublicAzure"
     ],
     "mediaReferences": {
         "PublicAzure": {
             "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-opensuse-13.2-v20160302"
-        },
-        "Mooncake": {
-            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-opensuse-13.2-v20160302"
         }
     },
     "imageReference": {
@@ -40,7 +36,7 @@
         "Standard_DS11",
         "Standard_D1_v2",
         "Standard_D1",
-        "Small"          
+        "Small"
     ],
     "linksForEnvironments": [
         {
