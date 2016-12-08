@@ -2,7 +2,14 @@
     "publisher": "Microsoft",
     "label": "SQL Server 2016 RTM Developer Windows Server 2016",
     "displayName": "SQL Server 2016 RTM Developer on Windows Server 2016",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLDEV.ENU.Nov-WS2016-127gb.09.28.16.11.51",
+     "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLDEV.ENU.Nov-WS2016-127gb.09.28.16.11.51"
+        },
+        "BlackForest": {
+            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL16-RTM-QFE-CU-13.0.2164.0-SQLDEV.ENU.Nov-WS2016-127gb.09.28.16.11.51"
+        }
+    },  
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
       "offer": "SQL2016-WS2016",
@@ -55,5 +62,9 @@
         "SqlIaasAgent-AutoBackup",
         "SqlIaasAgent-AutoPatching"
     ],
-    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm"
+    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
+    "cloudEnvironments":  [
+        "PublicAzure",
+        "BlackForest"
+    ]
 }
