@@ -6,7 +6,7 @@
         "PublicAzure": {
             "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-PCU-Main-13.0.4001.0-SQLEXPRCOMP.ENU.Nov-WS2016-127gb.11.15.16.02.11"
         },
-        "MoonCake": {
+        "Mooncake": {
             "mediaName": "74bb2f0b8dcc47fbb2914b60ed940c35__SQL16-PCU-Main-13.0.4001.0-SQLEXPRCOMP.ENU.Nov-WS2016-127gb.11.15.16.02.11"
         }
     },
@@ -62,6 +62,6 @@
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
     "cloudEnvironments":  [
         "PublicAzure",
-        "MoonCake"
+        "Mooncake"
     ]
 }

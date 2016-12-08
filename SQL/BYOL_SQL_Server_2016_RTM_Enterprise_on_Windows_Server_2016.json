@@ -69,6 +69,7 @@
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
     "cloudEnvironments":  [
         "PublicAzure",
-        "FairFax"
+        "FairFax",
+        "Blackforest"
     ]
 }
