@@ -1,0 +1,41 @@
+{
+	"publisher": "MicrosoftHybridCloudStorage",
+	"label": "SSAppliance V1",
+	"displayName": "SSAppliance V1",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "9b7cfe55da0349d5a8316a8cc4741f87__StorSimple-Helsinki-Series-V1-Preview"
+        }
+    },
+    "imageReference": {
+    "publisher": "MicrosoftHybridCloudStorage",
+    "offer": "StorSimpleVA",
+    "sku": "StorSimpleHelsinkiPreviewV1"
+  },
+	"OS": "Windows",
+	"imageType": "VMImage",
+	"summary": "Azure StorSimple Cloud Appliance",
+	"description": "Microsoft Azure StorSimple Cloud Appliance (SCA) is an enterprise-class, full-featured cloud NAS filer that extends native Azure storage by combining multiple disks and layering on a full NAS feature set. It supports the maximum storage capacity available on Azure compute instances. Its available on-demand from the Azure Marketplace.",
+	"iconPath": "Icons",
+	"categories": [
+		"virtualMachine",
+		"microsoftServer",
+		"azure",
+		"windows",
+		"appInfra"
+	],
+	"recommendedSizes": [
+		"Standard_A3",
+		"Standard_DS3"
+	],
+	"links": [{
+		"label": "Documentation",
+		"uri": "https://azure.microsoft.com/documentation/services/storsimple/"
+	}, {
+		"label": "Forums",
+		"uri": "https://social.technet.microsoft.com/Forums/azure/en-US/home?forum=StorSimple"
+	}],
+	"eula": "http://go.microsoft.com/fwlink/?LinkId=525741",
+	"privacy": "http://go.microsoft.com/fwlink/?LinkId=512132",
+	"screenshot": null
+}

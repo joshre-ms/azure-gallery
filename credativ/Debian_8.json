@@ -5,17 +5,21 @@
     "cloudEnvironments": [
         "PublicAzure",
         "Blackforest",
-        "Mooncake"
+        "Mooncake",
+        "Fairfax"
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-8-amd64-20160912.0"
+            "mediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-8-amd64-20161102.0"
         },
         "Blackforest": {
-            "mediaName": "32951de3054f406fb267f8a578f831e5__Debian-8-amd64-20160912.0"
+            "mediaName": "32951de3054f406fb267f8a578f831e5__Debian-8-amd64-20161102.0"
         },
         "Mooncake": {
-            "mediaName": "8f699951c9734adc865d1538866f72c0__Debian-8-amd64-20160912.0"
+            "mediaName": "8f699951c9734adc865d1538866f72c0__Debian-8-amd64-20161102.0"
+        },
+        "Fairfax": {
+            "mediaName": "c6ef7ce39e7948dca1816cbb2b7e7e70__Debian-8-amd64-20160912.0"
         }
     },
     "imageReference": {

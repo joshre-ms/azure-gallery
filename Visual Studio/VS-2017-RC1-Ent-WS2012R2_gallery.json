@@ -1,0 +1,48 @@
+﻿{
+  "publisher": "Microsoft",
+  "label": "Visual Studio 2017 Enterprise RC on Windows Server 2012 R2 (x64)",
+  "displayName": "Visual Studio 2017 Enterprise RC on Windows Server 2012 R2 (x64)",
+  "mediaReferences": {
+    "PublicAzure": {
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-RC1-Ent-WS2012R22016-11-16"
+    },
+    "Fairfax": {
+      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2017-RC1-Ent-WS2012R22016-11-16"
+    }
+  },
+  "imageReference": {
+    "publisher": "MicrosoftVisualStudio",
+    "offer": "VisualStudio",
+    "sku": "VS-2017-RC1-Ent-WS2012R2"
+  },
+  "OS": "Windows",
+  "description": "With Visual Studio Enterprise you can create applications across devices and services, using an integrated, end-to-end DevOps solution for productivity and coordination across teams of any size. You get the tools you need to design, build, deploy and manage desktop, Windows Store, Windows Phone, and Office apps, as well as mobile and web apps across any device, web site, cloud service, and more.  This image contains Visual Studio Enterprise 2017 RC on Windows Server 2012 R2.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.",
+  "iconPath": "Icons",
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "windows",
+    "appInfra"
+  ],
+  "recommendedSizes": [
+    "Standard_A3",
+    "Standard_D2",
+    "Standard_D2_v2",
+    "Standard_DS2",
+    "Standard_DS2_v2"
+  ],
+  "links": [
+    {
+      "label": "Visual Studio subscribers Azure benefit details",
+      "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
+    }
+  ],
+  "eula": "https://go.microsoft.com/fwlink/?linkid=829617",
+  "privacy": "https://go.microsoft.com/fwlink/?LinkID=824704",
+  "screenshot": "Screenshots/VisualStudioOnWindowsServer.png",
+  "cloudEnvironments": [
+    "PublicAzure",
+    "Fairfax"
+  ]
+}
