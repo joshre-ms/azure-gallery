@@ -5,6 +5,12 @@
     "mediaReferences": {
         "PublicAzure": {
             "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-PCU-Main-13.0.4001.0-SQLSTD.ENU.Nov-WS2016-127gb.11.12.16.07.26"
+        },
+        "BlackForest": {
+            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL16-PCU-Main-13.0.4001.0-SQLSTD.ENU.Nov-WS2016-127gb.11.12.16.07.26"
+        },
+        "Mooncake": {
+            "mediaName": "74bb2f0b8dcc47fbb2914b60ed940c35__SQL16-PCU-Main-13.0.4001.0-SQLSTD.ENU.Nov-WS2016-127gb.11.12.16.07.26"
         }
     },
     "imageReference": {
@@ -55,7 +61,9 @@
         "SqlIaasAgent-AutoPatching"
     ],
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
-    "cloudEnvironments": [
-        "PublicAzure"
+    "cloudEnvironments":  [
+        "PublicAzure",
+        "BlackForest",
+        "Mooncake"
     ]
 }

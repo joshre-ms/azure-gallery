@@ -5,6 +5,9 @@
     "mediaReferences": {
         "PublicAzure": {
             "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-RTM-QFE-CU-13.0.2164.0-SQLSTD.ENU.Nov-WS2016-127gb.09.28.16.07.48"
+        },
+        "BlackForest": {
+            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL16-RTM-QFE-CU-13.0.2164.0-SQLSTD.ENU.Nov-WS2016-127gb.09.28.16.07.48"
         }
     },
     "imageReference": {
@@ -61,6 +64,7 @@
     ],
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
     "cloudEnvironments":  [
-        "PublicAzure"
+        "PublicAzure",
+        "BlackForest"
     ]
 }
