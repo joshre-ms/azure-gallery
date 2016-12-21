@@ -2,7 +2,17 @@
     "publisher": "Microsoft",
     "label": "SQL Server 2014 SP2 Express Windows Server 2012 R2",
     "displayName": "SQL Server 2014 SP2 Express on Windows Server 2012 R2",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__SQL14-PCU-MAIN-12.0.5000.0-SQLEXPR.ENU.Nov-WS2012R2-127gb.09.27.16.01.56",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL14-PCU-MAIN-12.0.5000.0-SQLEXPR.ENU.Nov-WS2012R2-127gb.09.27.16.01.56"
+        },
+        "BlackForest": {
+            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL14-PCU-MAIN-12.0.5000.0-SQLEXPR.ENU.Nov-WS2012R2-127gb.09.27.16.01.56"
+        },
+        "Mooncake": {
+            "mediaName": "74bb2f0b8dcc47fbb2914b60ed940c35__SQLEXPR.ENU.Nov-WS2012R2-127gb.09.27.16.01.560"
+        }
+    },
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
       "offer": "SQL2014SP2-WS2012R2",
@@ -51,5 +61,10 @@
         "SqlIaaSAgent",
         "SqlIaasAgent-AutoPatching"
     ],
-    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm"
+    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
+    "cloudEnvironments":  [
+        "PublicAzure",
+        "BlackForest",
+        "Mooncake"
+    ]
 }

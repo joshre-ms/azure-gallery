@@ -1,0 +1,47 @@
+﻿{
+  "publisher": "Microsoft",
+  "label": "[HUB] Windows Server 2016 Datacenter",
+  "displayName": "[HUB] Windows Server 2016 Datacenter",
+  "imageReference": {
+    "publisher": "MicrosoftWindowsServer",
+    "offer": "WindowsServer-HUB",
+    "sku": "2016-Datacenter-HUB"
+  },
+  "OS": "Windows",
+  "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
+  "description": "Windows Server 2016 is the cloud-ready operating system that delivers new layers of security and Azure-inspired innovation for the applications and infrastructure that power your business. Increase security and reduce risk with multiple layers of protection built into the operating system.  Evolve your datacenter to save money and gain flexibility with software-defined compute, storage and network technologies. Innovate faster with an application platform optimized for the applications you run today, as well as the cloud-based apps of tomorrow.",
+  "iconPath": "Icons/Server",
+  "supportsSriov": true,
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "enterpriseagreementonly",
+    "azure",
+    "windows",
+    "appInfra"
+  ],
+  "recommendedSizes": [
+    "Standard_DS1_v2",
+    "Standard_DS2_v2",
+    "Standard_DS11_v2",
+    "Standard_DS1",
+    "Standard_DS2",
+    "Standard_DS11",
+    "Standard_D1_v2",
+    "Standard_D1",
+    "Small"
+  ],
+  "links": [
+    {
+      "label": "Learn more",
+      "uri": "http://www.microsoft.com/windowsserver"
+    },
+    {
+      "label": "Documentation",
+      "uri": "http://technet.microsoft.com/en-us/library/dn765472.aspx"
+    }
+  ],
+  "eula": "https://go.microsoft.com/fwlink/?linkid=825699",
+  "privacy": "https://go.microsoft.com/fwlink/?linkid=734730",
+  "screenshot": null
+}
