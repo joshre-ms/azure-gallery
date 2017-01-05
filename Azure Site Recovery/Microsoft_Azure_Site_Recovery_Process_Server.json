@@ -2,7 +2,7 @@
   "publisher": "Microsoft",
   "label": "Microsoft Azure Site Recovery Process Server V2",
   "displayName": "Microsoft Azure Site Recovery Process Server V2",
-  "MediaName": "d4a65b493c36471ba82b42d53fbd8063__Microsoft-Azure-Site-Recovery-Process-Server-V2-201610.01",
+  "MediaName": "d4a65b493c36471ba82b42d53fbd8063__Microsoft-Azure-Site-Recovery-Process-Server-V2-201612.01",
   "imageReference": {
     "publisher": "MicrosoftAzureSiteRecovery",
     "offer": "Process-Server",

@@ -2,8 +2,15 @@
     "publisher": "Microsoft",
     "label": "Windows Server Remote Desktop Session Host on Windows Server 2012 R2",
     "displayName": "Windows Server Remote Desktop Session Host on Windows Server 2012 R2",
-    "MediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-Remote-Desktop-Session-Host-on-Windows-Server-2012-R2-20160421-2018",
-     "imageReference": {
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "ad072bd3082149369c449ba5832401ae__Windows-Server-Remote-Desktop-Session-Host-on-Windows-Server-2012-R2-20161021-2226"
+        },
+        "FairFax": {
+            "mediaName": "3bb301fd98cd414aadcb507aa64926a2__Windows-Server-Remote-Desktop-Session-Host-on-Windows-Server-2012-R2-20161021-2226"
+        }
+    },
+    "imageReference": {
       "publisher": "MicrosoftWindowsServerRemoteDesktop",
       "offer": "WindowsServer",
       "sku": "Remote-Desktop-Session-Host"
@@ -43,5 +50,9 @@
     ],
     "eula": null,
     "privacy": null,
-    "screenshot": null
+    "screenshot": null,
+    "cloudEnvironments": [
+        "PublicAzure",
+        "FairFax"
+    ]
 }
