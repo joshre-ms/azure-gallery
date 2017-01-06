@@ -8,24 +8,10 @@
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-sapcal-v20160926",
-            "imageVersions": [
-                {
-                    "version": "2016.09.26",
-                    "publishedDate": "09/26/2016",
-                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-sapcal-v20160926"
-                }
-            ]
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-sapcal-v20161216"
         },
         "Mooncake": {
-            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-12-sp1-sapcal-v20160926",
-            "imageVersions": [
-                {
-                    "version": "2016.09.26",
-                    "publishedDate": "09/26/2016",
-                    "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-12-sp1-sapcal-v20160926"
-                }
-            ]
+            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-12-sp1-sapcal-v20161216"
         }
     },
     "imageReference": {

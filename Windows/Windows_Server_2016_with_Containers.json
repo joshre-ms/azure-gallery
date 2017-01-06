@@ -1,0 +1,66 @@
+{
+  "publisher": "Microsoft",
+  "label": "Windows Server 2016 Datacenter - with Containers",
+  "displayName": "Windows Server 2016 Datacenter - with Containers",
+  "mediaReferences": {
+    "PublicAzure": {
+      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2016-with-Containers-20161213-en.us-127GB.vhd"
+    },
+    "Blackforest": {
+      "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2016-with-Containers-20161213-en.us-127GB.vhd"
+    },
+    "Mooncake": {
+      "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2016-with-Containers-20161213-en.us-127GB.vhd"
+    },
+    "Fairfax": {
+      "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2016-with-Containers-20161213-en.us-127GB.vhd"
+    }
+  },
+  "imageReference": {
+    "publisher": "MicrosoftWindowsServer",
+    "offer": "WindowsServer",
+    "sku": "2016-Datacenter-with-Containers"
+  },
+  "OS": "Windows",
+  "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
+  "description": "<p>Windows Server 2016 with Containers allows you to try the new Windows Server Container feature with both Server Core and Nano Server Container OS Images installed and ready to use with Docker. For more information about Windows Server Containers, see <a href='https://msdn.microsoft.com/virtualization/windowscontainers/containers_welcome' target='_blank'>here</a></p>",
+  "iconPath": "Icons/Server",
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "windows",
+    "appInfra",
+    "virtualMachineRecommended"
+  ],
+  "recommendedSizes": [
+    "Standard_DS1_v2",
+    "Standard_DS2_v2",
+    "Standard_DS11_v2",
+    "Standard_DS1",
+    "Standard_DS2",
+    "Standard_DS11",
+    "Standard_D1_v2",
+    "Standard_D1",
+    "Small"
+  ],
+  "links": [
+    {
+      "label": "Quick Start",
+      "uri": "https://msdn.microsoft.com/en-us/virtualization/windowscontainers/quick_start/quick_start"
+    },
+    {
+      "label": "Learn more",
+      "uri": "https://msdn.microsoft.com/virtualization/windowscontainers/containers_welcome"
+    }
+  ],
+  "eula": "https://go.microsoft.com/fwlink/?linkid=825699",
+  "privacy": "https://go.microsoft.com/fwlink/?linkid=734730",
+  "screenshot": null,
+  "cloudEnvironments": [
+    "PublicAzure",
+    "Blackforest",
+    "Mooncake",
+    "Fairfax"
+  ]
+}

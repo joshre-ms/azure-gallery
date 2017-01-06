@@ -4,26 +4,15 @@
     "label": "Red Hat Enterprise Linux 6.8",
     "displayName": "Red Hat Enterprise Linux 6.8",
     "mediaReferences": {
-      "PublicAzure": {
-        "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_6_8_Standard_Azure_RHUI-20160920-211525",
-        "imageVersions": [
-          {
-            "version": "September, 2016",
-            "publishedDate": "09/21/2016",
-            "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_6_8_Standard_Azure_RHUI-20160920-211525"
-          }
-        ]
-      },
-      "Fairfax": {
-        "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_6_8_Standard_USGov_RHUI-20160920-211525",
-        "imageVersions": [
-          {
-            "version": "September, 2016",
-            "publishedDate": "09/21/2016",
-            "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_6_8_Standard_USGov_RHUI-20160920-211525"
-          }
-        ]
-      }
+        "PublicAzure": {
+            "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_6_8_Standard_Azure_RHUI-20161213053902"
+        },
+        "Fairfax": {
+            "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_6_8_Standard_USGov_RHUI-20161214172743"
+        },
+        "Blackforest": {
+            "mediaName": "988f99737d6c4d3695891eef87a99de7__RHEL_6_8_Standard_Germany_RHUI-20161214200408"
+        }
     },
     "imageReference": {
         "publisher": "RedHat",
@@ -32,7 +21,10 @@
     },
     "OS": "Linux",
     "summary": "Red Hat Enterprise Linux 6 is the world's leading enterprise Linux platform built to meet the needs of today's modern enterprise.",
-    "description": "<p><b>Red Hat Enterprise Linux 6.8 - Pay-As-You-Go Premium Image</b></p><p>Red Hat Enterprise Linux is the world's leading enterprise Linux platform built to meet the needs of today's modern enterprise. Red Hat Enterprise Linux is the preferred choice for enterprise Linux  virtual machine (VM) workloads on Microsoft Azure. Red Hat Enterprise Linux is an open, reliable, and secure platform designed for customers who want deployment flexibility for their business-critical workloads - from the data center to the Azure cloud - backed by tightly integrated, enterprise-grade support from Red Hat and Microsoft.</p><p><b>Pricing</b></p><p>Use of this Pay-As-You-Go image carries a separate hourly charge that is <i>in addition</i> to Microsoft's Linux VM rates. Total price of the VM consists of the base Linux VM price (shown on the next pages) plus RHEL VM image surcharge. See <a href='https://azure.microsoft.com/pricing/details/virtual-machines/#red-hat' _target='_blank'>Red Hat Enterprise Linux pricing</a> for details.</p><font color='red'><p><b>No free trials, no monetary credit trials</b></p></font><p>Provisioning a VM from this image requires a subscription with no spending limit and a verified payment method (usually a credit card) associated with the subscription. <font color='red'>If you provision RHEL VM without removing the spending limit your subscription will get disabled and all VMs/services stopped.</font> If you do run into this state, to re-enable the subscription <a href='https://account.windowsazure.com/Subscriptions' _target='_blank'>remove the spending limit</a>. Your remaining credits will be restored for the current billing cycle but <a href='https://azure.microsoft.com/pricing/details/virtual-machines/#red-hat' _target='_blank'>RHEL VM image surcharge</a> will go against your credit card if you choose to re-start and continue running it.</p><p><b>Legal Terms</b></p><p>By clicking 'Create': I (a) agree to the <a href='http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Cloud_Software_Subscription_Agreement_for_Microsoft_Azure.pdf' _target='blank'>legal terms</a> and <a href='http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Privacy_Statement_for_Microsoft_Azure.pdf' _target='blank'>privacy statement</a> associated with this offering, (b) authorize Microsoft to charge or bill my current payment method for the fees associated with my use of the offering, including applicable taxes, with the same billing frequency as my Azure subscription, until I discontinue use of the offering, and (c) agree that Microsoft may share my contact information and transaction details with Red Hat. Microsoft does not provide rights for third-party products or services. See the <a href='https://azure.microsoft.com/support/legal/marketplace-terms/' _target='blank'>Azure Marketplace Terms</a> for additional terms.</p>",
+    "description": "<p><b>Red Hat Enterprise Linux 6.8 - Pay-As-You-Go Premium Image</b></p><p>Red Hat Enterprise Linux is the world's leading enterprise Linux platform built to meet the needs of today's modern enterprise. Red Hat Enterprise Linux is the preferred choice for enterprise Linux virtual machine (VM) workloads on Microsoft Azure. Red Hat Enterprise Linux is an open, reliable, and secure platform designed for customers who want deployment flexibility for their business-critical workloads - from the data center to the Azure cloud - backed by tightly integrated, enterprise-grade support from Red Hat and Microsoft.</p><p><b>Pricing</b></p><p>Use of this Pay-As-You-Go image carries a separate hourly charge that is <i>in addition</i> to Microsoft's Linux VM rates. Total price of the VM consists of the base Linux VM price (shown on the next pages) plus RHEL VM image surcharge. See <a href='https://azure.microsoft.com/pricing/details/virtual-machines/#red-hat' _target='_blank'>Red Hat Enterprise Linux pricing</a> for details.</p><font color='red'><p><b>No free trials, no monetary credit trials</b></p></font><p>Provisioning a VM from this image requires a subscription with no spending limit and a verified payment method (usually a credit card) associated with the subscription. <font color='red'>If you provision RHEL VM without removing the spending limit your subscription will get disabled and all VMs/services stopped.</font> If you do run into this state, to re-enable the subscription <a href='https://account.windowsazure.com/Subscriptions' _target='_blank'>remove the spending limit</a>. Your remaining credits will be restored for the current billing cycle but <a href='https://azure.microsoft.com/pricing/details/virtual-machines/#red-hat' _target='_blank'>RHEL VM image surcharge</a> will go against your credit card if you choose to re-start and continue running it.</p><p><b>Legal Terms</b></p><p>By clicking 'Create': I (a) agree to the <a href='http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Cloud_Software_Subscription_Agreement_for_Microsoft_Azure.pdf' _target='blank'>legal terms</a> and <a href='http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Privacy_Statement_for_Microsoft_Azure.pdf' _target='blank'>privacy statement</a> associated with this offering, (b) authorize Microsoft to charge or bill my current payment method for the fees associated with my use of the offering, including applicable taxes, with the same billing frequency as my Azure subscription, until I discontinue use of the offering, and (c) agree that Microsoft may share my contact information and transaction details with Red Hat. Microsoft does not provide rights for third-party products or services. See the <a href='https://azure.microsoft.com/support/legal/marketplace-terms/' _target='blank'>Azure Marketplace Terms</a> for additional terms.</p>",
+    "descriptionsForEnvironments": {
+        "Fairfax": "<p><b>Red Hat Enterprise Linux 6.8 - Pay-As-You-Go Premium Image</b></p><p>Red Hat Enterprise Linux is the world's leading enterprise Linux platform built to meet the needs of today's modern enterprise. Red Hat Enterprise Linux is the preferred choice for enterprise Linux virtual machine (VM) workloads on Microsoft Azure. Red Hat Enterprise Linux is an open, reliable, and secure platform designed for customers who want deployment flexibility for their business-critical workloads - from the data center to the Azure cloud - backed by tightly integrated, enterprise-grade support from Red Hat and Microsoft.</p><p><b>Pricing</b></p><p>Use of this Pay-As-You-Go image carries a separate hourly charge that is <i>in addition</i> to Microsoft's Linux VM rates. Total price of the VM consists of the base Linux VM price (shown on the next pages) plus RHEL VM image surcharge. See <a href='https://azure.microsoft.com/pricing/details/virtual-machines/#red-hat' _target='_blank'>Red Hat Enterprise Linux pricing</a> for details.</p><font color='red'><p><b>No free trials, no monetary credit trials</b></p></font><p>Provisioning a VM from this image requires a subscription with no spending limit and a verified payment method (usually a credit card) associated with the subscription. <font color='red'>If you provision RHEL VM without removing the spending limit your subscription will get disabled and all VMs/services stopped.</font> If you do run into this state, to re-enable the subscription <a href='https://account.windowsazure.com/Subscriptions' _target='_blank'>remove the spending limit</a>. Your remaining credits will be restored for the current billing cycle but <a href='https://azure.microsoft.com/pricing/details/virtual-machines/#red-hat' _target='_blank'>RHEL VM image surcharge</a> will go against your credit card if you choose to re-start and continue running it.</p><p><b>Legal Terms</b></p><p>By clicking 'Create': I (a) agree to the <a href='http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Cloud_Software_Subscription_Agreement_for_Microsoft_Azure.pdf' _target='blank'>legal terms</a> and <a href='http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Privacy_Statement_for_Microsoft_Azure.pdf' _target='blank'>privacy statement</a> associated with this offering, (b) authorize Microsoft to charge or bill my current payment method for the fees associated with my use of the offering, including applicable taxes, with the same billing frequency as my Azure subscription, until I discontinue use of the offering, and (c) agree that Microsoft may share my contact information and transaction details with Red Hat. For VMs deployed from this image in Azure US Government you are not permitted to transmit information, data or technology governed by the International Traffic in Arms Regulations (ITAR), or otherwise requiring an export license, to Red Hat in the course of your use of this product. Microsoft does not provide rights for third-party products or services. See the <a href='https://azure.microsoft.com/support/legal/marketplace-terms/' _target='blank'>Azure Marketplace Terms</a> for additional terms.</p>"
+    },
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -45,7 +37,7 @@
     ],
     "recommendedSizes": [
         "Standard_D2_v2",
-        "Standard_DS2_v2", 
+        "Standard_DS2_v2",
         "Standard_D2",
         "Standard_DS2",
         "Standard_A2"
@@ -69,7 +61,8 @@
     "screenshot": null,
     "isPremiumThirdParty": true,
     "cloudEnvironments": [
-      "PublicAzure",
-      "Fairfax"
+        "PublicAzure",
+        "Fairfax",
+        "Blackforest"
     ]
 }

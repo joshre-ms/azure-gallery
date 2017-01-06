@@ -1,0 +1,71 @@
+{
+    "publisher": "Microsoft",
+    "label": "SQL Server 2014 SP2 Web Windows Server 2012 R2",
+    "displayName": "SQL Server 2014 SP2 Web on Windows Server 2012 R2",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL14-PCU-MAIN-12.0.5000.0-SQLWEB.ENU.Nov-WS2012R2-127gb.09.27.16.01.04"
+        },
+        "BlackForest": {
+            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL14-PCU-MAIN-12.0.5000.0-SQLWEB.ENU.Nov-WS2012R2-127gb.09.27.16.01.04"
+        },
+        "Mooncake": {
+            "mediaName": "74bb2f0b8dcc47fbb2914b60ed940c35__SQL14-PCU-MAIN-12.0.5000.0-SQLWEB.ENU.Nov-WS2012R2-127gb.09.27.16.01.040"
+        }
+    },
+    "imageReference": {
+      "publisher": "MicrosoftSQLServer",
+      "offer": "SQL2014SP2-WS2012R2",
+      "sku": "Web"
+    },
+    "OS": "Windows",
+    "description": "For production workloads we recommend that you use a virtual machine size of DS2 or higher. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip' target='_blank'>here</a>.",
+    "iconPath": "Icons",
+    "supportsSriov": true,
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "database"
+    ],
+    "recommendedSizes": [
+        "Standard_DS12_v2",
+        "Standard_DS11_v2",
+        "Standard_DS13_v2",
+        "Standard_DS12",
+        "Standard_DS11",
+        "Standard_DS13"
+    ],
+    "links": [
+        {
+            "label": "Documentation",
+            "uri": "https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/"
+        },
+        {
+            "label": "Feature comparison between SQL server 2014 editions",
+            "uri": "https://msdn.microsoft.com/library/cc645993(v=sql.120).aspx"
+        },
+        {
+            "label": "Support forum",
+            "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=SQL"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "https://azure.microsoft.com/pricing/details/virtual-machines/#sql-server"
+        }
+    ],
+    "eula": "http://go.microsoft.com/fwlink/?LinkID=512495",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkID=282418",
+    "screenshot": null,
+    "supportedExtensions": [
+        "SqlIaaSAgent",
+        "SqlIaasAgent-AutoPatching"
+    ],
+    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
+    "cloudEnvironments":  [
+        "PublicAzure",
+        "BlackForest",
+        "Mooncake"
+    ]
+}

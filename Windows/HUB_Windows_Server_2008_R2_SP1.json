@@ -1,0 +1,56 @@
+{
+  "publisher": "Microsoft",
+  "label": "[HUB] Windows Server 2008 R2 SP1",
+  "displayName": "[HUB] Windows Server 2008 R2 SP1",
+  "imageReference": {
+    "publisher": "MicrosoftWindowsServer",
+    "offer": "WindowsServer-HUB",
+    "sku": "2008-R2-SP1-HUB"
+  },
+  "OS": "Windows",
+  "description": "Windows Server 2008 R2 is a multi-purpose server designed to increase the reliability and flexibility of your server or private cloud infrastructure, helping you to save time and reduce costs.  The virtual machine (VM) provides you with powerful tools to react to business needs with greater control and confidence.",
+  "iconPath": "Icons/Server",
+  "supportsHub": true,
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "enterpriseagreementonly",
+    "azure",
+    "windows",
+    "appInfra"
+  ],
+  "recommendedSizes": [
+    "Standard_DS1_v2",
+    "Standard_DS2_v2",
+    "Standard_DS11_v2",
+    "Standard_DS1",
+    "Standard_DS2",
+    "Standard_DS11",
+    "Standard_D1_v2",
+    "Standard_D1",
+    "Small"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "Learn more",
+      "uri": {
+        "Default": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/"
+      }
+    },
+    {
+      "label": "Documentation",
+      "uri": {
+        "Default": "http://technet.microsoft.com/library/dd349801.aspx"
+      }
+    },
+    {
+      "label": "Pricing details",
+      "uri": {
+        "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#windows"
+      }
+    }
+  ],
+  "eula": "http://download.microsoft.com/Documents/UseTerms/Windows%20Server_2008%20R2%20Datacenter_English_0e64c120-39df-430f-9962-11b1184a4df2.pdf",
+  "privacy": "https://privacy.microsoft.com/en-us/windows-7-privacy-statement",
+  "screenshot": null
+}

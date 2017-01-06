@@ -5,24 +5,10 @@
     "displayName": "FreeBSD 10.3",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "9db562c525e942698c605df2f0c9b26a__FreeBSD10_3-2016-09-22",
-            "imageVersions": [
-		{
-                "version": "Sep, 2016",
-                "publishedDate": "09/22/2016",
-                "mediaName": "9db562c525e942698c605df2f0c9b26a__FreeBSD10_3-2016-09-22"
-                }
-            ]
+            "mediaName": "9db562c525e942698c605df2f0c9b26a__FreeBSD10_3-2016-12-23"
         },
         "Mooncake": {
-            "mediaName": "7f4fdaae86b44261885f4eceac5f33b1__FreeBSD10_3-2016-08-08",
-            "imageVersions": [
-                {
-                "version": "Aug, 2016",
-                "publishedDate": "08/08/2016",
-                "mediaName": "7f4fdaae86b44261885f4eceac5f33b1__FreeBSD10_3-2016-08-08"
-                }
-            ]
+            "mediaName": "7f4fdaae86b44261885f4eceac5f33b1__FreeBSD10_3-2016-12-23"
         }
     },
     "imageReference": {
@@ -66,6 +52,7 @@
         }
     ],
     "screenshot": null,
+    "hardened": true,
     "cloudEnvironments":  [
         "PublicAzure",
         "Mooncake"

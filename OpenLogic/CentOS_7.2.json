@@ -10,44 +10,16 @@
 	],
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20160620",
-			"imageVersions": [{
-				"version": "2016.06.20",
-				"publishedDate": "06/20/2016",
-				"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20160620"
-			}, {
-				"version": "2016.03.08",
-				"publishedDate": "03/08/2016",
-				"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20160308"
-			}, {
-				"version": "2016.03.03",
-				"publishedDate": "03/03/2016",
-				"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20160303"
-			}]
+			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20160620"
 		},
 		"BlackForest": {
-			"mediaName": "74670972aac14ba9b65a6f34edf06e1c__OpenLogic-CentOS-72-20160325",
-			"imageVersions": [{
-				"version": "2016.03.25",
-				"publishedDate": "03/25/2015",
-				"mediaName": "74670972aac14ba9b65a6f34edf06e1c__OpenLogic-CentOS-72-20160325"
-			}]
+			"mediaName": "74670972aac14ba9b65a6f34edf06e1c__OpenLogic-CentOS-72-20160325"
 		},
 		"Mooncake": {
-			"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-72-20160329",
-			"imageVersions": [{
-				"version": "2016.03.29",
-				"publishedDate": "04/04/2015",
-				"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-72-20160329"
-			}]
+			"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-72-20160329"
 		},
 		"Fairfax": {
-			"mediaName": "809266fa9f4d45d8bba0a02358a8c76d__OpenLogic-CentOS-72-20160620",
-			"imageVersions": [{
-				"version": "2016.06.20",
-				"publishedDate": "06/20/2016",
-				"mediaName": "809266fa9f4d45d8bba0a02358a8c76d__OpenLogic-CentOS-72-20160620"
-			}]
+			"mediaName": "809266fa9f4d45d8bba0a02358a8c76d__OpenLogic-CentOS-72-20161026"
 		}
 	},
 	"imageReference": {

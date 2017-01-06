@@ -7,14 +7,7 @@
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-hpc-priority-v20160824",
-            "imageVersions": [
-                {
-                    "version": "2016.08.24",
-                    "publishedDate": "08/24/2016",
-                    "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-hpc-priority-v20160824"
-                }
-            ]
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp1-hpc-priority-v20161221"
         }
     },
     "imageReference": {

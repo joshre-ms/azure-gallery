@@ -1,0 +1,82 @@
+{
+    "publisher": "SUSE",
+    "label": "SUSE Linux Enterprise Server 12 SP2",
+    "displayName": "SLES 12 SP2",
+    "cloudEnvironments": [
+        "PublicAzure",
+        "Blackforest",
+        "Mooncake",
+        "Fairfax"
+    ],
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp2-v20161214"
+        },
+        "Blackforest": {
+            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-sles-12-sp2-v20161214"
+        },
+        "Mooncake": {
+            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-12-sp2-v20161214"
+        },
+        "Fairfax": {
+            "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-sles-12-sp2-v20161103"
+        }
+    },
+    "imageReference": {
+      "publisher": "SUSE",
+      "offer": "SLES",
+      "sku": "12-SP2"
+    },
+    "OS": "Linux",
+     "description": "<p><b>SUSE Linux Enterprise Server 12 SP2</b></p><p>Confidently run your production workloads on SUSE Linux Enterprise Server on Microsoft Azure, knowing that your service levels are guaranteed, and that help from SUSE and Microsoft engineers, if you need it, is just a phone call away.</p><p>SUSE Linux Enterprise Server is the <i>only</i> supported Enterprise Linux virtual machine (VM) distribution available on Microsoft Azure, and the only one supported with tools like <a href='https://susestudio.com' target='_blank'>SUSE Studio</a> for quick and easy image creation, and <a href='https://www.suse.com/products/suse-manager/' target='_blank'>SUSE Manager</a> for monitoring and managing your Linux virtual machines using Microsoft Systems Center.</p>",
+    "iconPath": "Icons/SUSE",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra",
+        "azureCertified",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Standard_DS1_v2",
+        "Standard_DS2_v2",
+        "Standard_DS11_v2",
+        "Standard_DS1",
+        "Standard_DS2",
+        "Standard_DS11",
+        "Standard_D1_v2",
+        "Standard_D1",
+        "Small"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "Learn more",
+            "uri": {
+                "Default": "https://www.suse.com/products/server/"
+            }
+        },
+        {
+            "label": "Documentation",
+            "uri": {
+                "Default": "https://www.suse.com/documentation/sles-12/"
+            }
+        },
+        {
+            "label": "Forum",
+            "uri": {
+                "Default": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+            }
+        },
+        {
+            "label": "Pricing details",
+            "uri": {
+                "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            }
+        }
+    ],
+    "eula": "https://www.suse.com/licensing/eula/",
+    "privacy": "https://www.suse.com/company/policies/privacy/",
+    "screenshot": "Screenshots/suse.png"
+}
