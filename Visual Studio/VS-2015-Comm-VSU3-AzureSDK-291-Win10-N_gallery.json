@@ -6,7 +6,7 @@
     "imageReference":  {
                            "publisher":  "MicrosoftVisualStudio",
                            "offer":  "VisualStudio",
-                           "sku":  "VS-2015-Comm-VSU3-AzureSDK-291-Win10-N"
+                           "sku":  "VS-2015-Comm-VSU3-AzureSDK-29-Win10-N"
                        },
     "OS":  "Windows",
     "description":  "This image contains Visual Studio Community 2015 Update 3 on the latest Windows 10 Enterprise N, including the Universal Windows app development tools and the Windows 10 SDK. It allows you to quickly setup environment in Azure to develop and test applications targeting the Universal Windows Platform. The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.",
