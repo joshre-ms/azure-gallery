@@ -5,13 +5,13 @@
     "displayName": "Red Hat Enterprise Linux 7.2",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_7_2_Standard_Azure_RHUI-20161214225953"
+            "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_7_2_Standard_Azure_RHUI-20161026220742"
         },
         "Fairfax": {
-            "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_7_2_Standard_USGov_RHUI-20161216000102"
+            "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_7_2_Standard_USGov_RHUI-20161026175943"
         },
         "Blackforest": {
-            "mediaName": "988f99737d6c4d3695891eef87a99de7__RHEL_7_2_Standard_Germany_RHUI-20161215002428"
+            "mediaName": "988f99737d6c4d3695891eef87a99de7__RHEL_7_2_Standard_Germany_RHUI-20161026204312"
         }
     },
     "imageReference": {
