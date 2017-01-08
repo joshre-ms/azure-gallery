@@ -1,25 +1,25 @@
 {
   "publisher": "CoreOS",
-  "label": "Container Linux Alpha",
-  "displayName": "Container Linux (Alpha)",
+  "label": "CoreOS Alpha",
+  "displayName": "CoreOS Linux (Alpha)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "2b171e93f07c4903bcad35bda10acf22__Container-Linux-Alpha-1284.0.0"
+      "mediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Alpha-1262.0.0"
     },
     "Blackforest": {
-      "mediaName": "ac384aecd6d24eaca1268cedd335f2a9__Container-Linux-Alpha-1284.0.0"
+      "mediaName": "ac384aecd6d24eaca1268cedd335f2a9__CoreOS-Alpha-1262.0.0"
     },
     "Mooncake": {
-      "mediaName": "a54f4e2924a249fd94ad761b77c3e83d__Container-Linux-Alpha-1284.0.0"
+      "mediaName": "a54f4e2924a249fd94ad761b77c3e83d__CoreOS-Alpha-1262.0.0"
     }
   },
   "imageReference": {
     "publisher": "CoreOS",
-    "offer": "Container-Linux",
+    "offer": "CoreOS",
     "sku": "Alpha"
   },
   "os": "Linux",
-  "description": "CoreOS Container Linux is a modern and minimal Linux distribution, providing an easy way to run containers, manage clusters and seamlessly update your servers - all components that enable warehouse-scale compute.",
+  "description": "CoreOS is a modern and minimal Linux distribution, providing an easy way to run containers, manage clusters and seamlessly update your servers - all components that enable warehouse-scale compute.",
   "iconPath": "Icons",
   "eula": "https://coreos.com/legal/open-source/",
   "categories": [
