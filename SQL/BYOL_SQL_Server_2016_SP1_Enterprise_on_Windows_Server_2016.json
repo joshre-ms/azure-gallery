@@ -8,7 +8,10 @@
         },
         "BlackForest": {
             "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL16-PCU-Main-13.0.4001.0-SQLENTCORE.ENU.Nov-WS2016-127gb.11.11.16.08.14-byol"
-        }
+        },
+		"FairFax":{
+			"mediaName": "0bd04240ad4b45118afda6ddb0581fff__SQL16-PCU-Main-13.0.4001.0-SQLENTCORE.ENU.Nov-WS2016-127gb.11.11.16.08.14-byol"
+		}
     },
     "imageReference": {
         "publisher": "MicrosoftSQLServer",
@@ -61,6 +64,7 @@
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
     "cloudEnvironments": [
         "PublicAzure",
-        "BlackForest"
+        "BlackForest",
+        "FairFax"
     ]
 }
