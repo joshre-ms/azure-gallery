@@ -4,10 +4,10 @@
   "displayName": "Visual Studio Community 2015 with Azure SDK 2.9 on Windows Server 2012 R2",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Comm-AzureSDK-29-WS2012R2-2016-12-09"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Comm-AzureSDK-29-WS2012R2-2017-01-02"
     },
     "Fairfax": {
-      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2015-Comm-AzureSDK-29-WS2012R2-2016-12-09"
+      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2015-Comm-AzureSDK-29-WS2012R2-2017-01-02"
     }
   },
   "imageReference": {
