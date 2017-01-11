@@ -1,20 +1,18 @@
 {
   "publisher": "Microsoft",
-  "label": "[HUB] Windows Server 2012 Datacenter",
-  "displayName": "[HUB] Windows Server 2012 Datacenter",
+  "label": "Windows Server 2008 R2 SP1 (zh-cn)",
+  "displayName": "Windows Server 2008 R2 SP1 (zh-cn)",
   "imageReference": {
     "publisher": "MicrosoftWindowsServer",
-    "offer": "WindowsServer-HUB",
-    "sku": "2012-Datacenter-HUB"
+    "offer": "WindowsServer",
+    "sku": "2008-R2-SP1-zhcn"
   },
   "OS": "Windows",
-  "description": "Windows Server 2012 incorporates Microsoft's experience building and operating public clouds, resulting in a dynamic, highly available server platform. The virtual machine (VM) offers a scalable, dynamic and multi-tenant-aware infrastructure that helps securely connect across premises.",
+  "description": "This is the Simplified Chinese (ZH-CN) version. Windows Server 2008 R2 is a multi-purpose server designed to increase the reliability and flexibility of your server or private cloud infrastructure, helping you to save time and reduce costs.  The virtual machine (VM) provides you with powerful tools to react to business needs with greater control and confidence.",
   "iconPath": "Icons/Server",
-  "supportsHub": true,
   "categories": [
     "virtualMachine",
     "microsoftServer",
-    "enterpriseagreementonly",
     "azure",
     "windows",
     "appInfra"
@@ -40,7 +38,7 @@
     {
       "label": "Documentation",
       "uri": {
-        "Default": "http://technet.microsoft.com/library/hh801901.aspx"
+        "Default": "http://technet.microsoft.com/library/dd349801.aspx"
       }
     },
     {
@@ -50,11 +48,10 @@
       }
     }
   ],
-  "eula": "http://download.microsoft.com/Documents/UseTerms/Windows%20Server_2012%20Datacenter_English_97974250-7a55-4236-bde8-546f0cec9c85.pdf",
-  "privacy": "https://privacy.microsoft.com/en-us/windows-8-privacy-statement",
+  "eula": "http://download.microsoft.com/Documents/UseTerms/Windows%20Server_2008%20R2%20Datacenter_English_0e64c120-39df-430f-9962-11b1184a4df2.pdf",
+  "privacy": "https://privacy.microsoft.com/en-us/windows-7-privacy-statement",
   "screenshot": null,
   "cloudEnvironments": [
-    "PublicAzure",
-    "Fairfax"
+    "Mooncake"
   ]
 }

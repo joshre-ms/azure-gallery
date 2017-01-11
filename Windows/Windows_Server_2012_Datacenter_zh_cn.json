@@ -1,20 +1,18 @@
 {
   "publisher": "Microsoft",
-  "label": "[HUB] Windows Server 2012 Datacenter",
-  "displayName": "[HUB] Windows Server 2012 Datacenter",
+  "label": "Windows Server 2012 Datacenter (zh-cn)",
+  "displayName": "Windows Server 2012 Datacenter (zh-cn)",
   "imageReference": {
     "publisher": "MicrosoftWindowsServer",
-    "offer": "WindowsServer-HUB",
-    "sku": "2012-Datacenter-HUB"
+    "offer": "WindowsServer",
+    "sku": "2012-Datacenter-zhcn"
   },
   "OS": "Windows",
-  "description": "Windows Server 2012 incorporates Microsoft's experience building and operating public clouds, resulting in a dynamic, highly available server platform. The virtual machine (VM) offers a scalable, dynamic and multi-tenant-aware infrastructure that helps securely connect across premises.",
+  "description": "This is the Simplified Chinese (ZH-CN) version. Windows Server 2012 incorporates Microsoft's experience building and operating public clouds, resulting in a dynamic, highly available server platform. The virtual machine (VM) offers a scalable, dynamic and multi-tenant-aware infrastructure that helps securely connect across premises.",
   "iconPath": "Icons/Server",
-  "supportsHub": true,
   "categories": [
     "virtualMachine",
     "microsoftServer",
-    "enterpriseagreementonly",
     "azure",
     "windows",
     "appInfra"
@@ -54,7 +52,6 @@
   "privacy": "https://privacy.microsoft.com/en-us/windows-8-privacy-statement",
   "screenshot": null,
   "cloudEnvironments": [
-    "PublicAzure",
-    "Fairfax"
+    "Mooncake"
   ]
 }
