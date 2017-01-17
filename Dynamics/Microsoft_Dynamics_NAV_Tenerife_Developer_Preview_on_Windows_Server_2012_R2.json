@@ -2,10 +2,10 @@
     "publisher": "Microsoft",
     "label": "Microsoft Dynamics NAV 'Tenerife' Developer Perview",
     "displayName": "Microsoft Dynamics NAV 'Tenerife' Developer Preview",
-    "MediaName": "9a03679de0e64e0e94fb8d7fd3c72ff1__Dynamics-NAV-Tenerife-Developer-Preview-201612.01-127GB",
+    "MediaName": "9a03679de0e64e0e94fb8d7fd3c72ff1__Dynamics-NAV-Tenerife-Developer-Preview-201701.01-127GB",
     "imageReference": {
       "publisher": "MicrosoftDynamicsNAV",
-      "offer": "DynamicsNAV",
+      "offer": "zx2DynamicsNAV",
       "sku": "Tenerife"
     },
     "OS": "Windows",
