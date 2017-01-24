@@ -1,0 +1,70 @@
+{
+    "publisher": "SUSE",
+    "label": "SUSE Linux Enterprise Server for SAP Applications 12 SP1",
+    "displayName": "SLES for SAP 12 SP1",
+    "cloudEnvironments": [
+        "PublicAzure"
+    ],
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-sap-12-sp1-v20170123"
+        }
+    },
+    "imageReference": {
+      "publisher": "SUSE",
+      "offer": "SLES-SAP",
+      "sku": "12-SP1"
+    },
+    "OS": "Linux",
+     "description": "<p><b>SUSE Linux Enterprise Server for SAP Applications 12 SP1</b></p><p>Get the most from your SAP HANA and SAP business application software with decreased downtime, greater operating efficiency, and accelerated innovation. Utilize your business data in real time with the power of SAP and the reliability, availability, and serviceability of SUSE Linux Enterprise Server for SAP Applications.</p>",
+    "iconPath": "Icons/SUSE",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra",
+        "azureCertified",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Standard_DS1_v2",
+        "Standard_DS2_v2",
+        "Standard_DS11_v2",
+        "Standard_DS1",
+        "Standard_DS2",
+        "Standard_DS11",
+        "Standard_D1_v2",
+        "Standard_D1",
+        "Small"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "Learn more",
+            "uri": {
+                "Default": "https://www.suse.com/products/sles-for-sap/"
+            }
+        },
+        {
+            "label": "Documentation",
+            "uri": {
+                "Default": "https://www.suse.com/documentation/sles-for-sap-12/"
+            }
+        },
+        {
+            "label": "Forum",
+            "uri": {
+                "Default": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+            }
+        },
+        {
+            "label": "Pricing details",
+            "uri": {
+                "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            }
+        }
+    ],
+    "eula": "https://www.suse.com/licensing/eula/",
+    "privacy": "https://www.suse.com/company/policies/privacy/",
+    "screenshot": "Screenshots/suse.png"
+}
