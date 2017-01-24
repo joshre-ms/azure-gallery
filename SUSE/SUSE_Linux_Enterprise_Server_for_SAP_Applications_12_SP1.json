@@ -1,34 +1,22 @@
 {
     "publisher": "SUSE",
-    "label": "SUSE Linux Enterprise Server for SAP Applications 12 SP2 (Bring Your Own Subscription)",
-    "displayName": "SLES for SAP 12 SP2 (BYOS)",
+    "label": "SUSE Linux Enterprise Server for SAP Applications 12 SP1",
+    "displayName": "SLES for SAP 12 SP1",
     "cloudEnvironments": [
-        "PublicAzure",
-        "Blackforest",
-        "Mooncake",
-        "Fairfax"
+        "PublicAzure"
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-sap-12-sp2-byos-v20161104"
-        },
-        "Blackforest": {
-            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-sles-sap-12-sp2-byos-v20161104"
-        },
-        "Mooncake": {
-            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-sap-12-sp2-byos-v20161104"
-        },
-        "Fairfax": {
-            "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-sles-sap-12-sp2-byos-v20161104"
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-sap-12-sp1-v20170123"
         }
     },
     "imageReference": {
       "publisher": "SUSE",
-      "offer": "SLES-SAP-BYOS",
-      "sku": "12-SP2"
+      "offer": "SLES-SAP",
+      "sku": "12-SP1"
     },
     "OS": "Linux",
-     "description": "<p><b>SUSE Linux Enterprise Server for SAP Applications 12 SP2 (Bring Your Own Subscription)</b></p><p>Get the most from your SAP HANA and SAP business application software with decreased downtime, greater operating efficiency, and accelerated innovation. Utilize your business data in real time with the power of SAP and the reliability, availability, and serviceability of SUSE Linux Enterprise Server for SAP Applications.</p><p><i>Instances of BYOS (bring your own subscription) images must be registered using your SUSE subscription keys in order to receive security updates and support.</i></p>",
+     "description": "<p><b>SUSE Linux Enterprise Server for SAP Applications 12 SP1</b></p><p>Get the most from your SAP HANA and SAP business application software with decreased downtime, greater operating efficiency, and accelerated innovation. Utilize your business data in real time with the power of SAP and the reliability, availability, and serviceability of SUSE Linux Enterprise Server for SAP Applications.</p>",
     "iconPath": "Icons/SUSE",
     "categories": [
         "virtualMachine",
