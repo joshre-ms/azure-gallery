@@ -10,13 +10,13 @@
 	],
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20160620"
+			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20170105"
 		},
 		"BlackForest": {
-			"mediaName": "74670972aac14ba9b65a6f34edf06e1c__OpenLogic-CentOS-72-20160325"
+			"mediaName": "74670972aac14ba9b65a6f34edf06e1c__OpenLogic-CentOS-72-20170105"
 		},
 		"Mooncake": {
-			"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-72-20160329"
+			"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-72-20160120"
 		},
 		"Fairfax": {
 			"mediaName": "809266fa9f4d45d8bba0a02358a8c76d__OpenLogic-CentOS-72-20161026"
