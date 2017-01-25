@@ -1,19 +1,19 @@
 {
     "publisher": "Microsoft",
-    "label": "BizTalk Server 2016 Enterprise",
-    "displayName": "BizTalk Server 2016 Enterprise",
+    "label": "BizTalk Server 2016 Standard",
+    "displayName": "BizTalk Server 2016 Standard",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "2cdc6229df6344129ee553dd3499f0d3__BizTalk-Server-2016-Enterprise-Jan-2017"
+            "mediaName": "2cdc6229df6344129ee553dd3499f0d3__BizTalk-Server-2016-Standard-Jan-2017"
         }
     },
     "imageReference": {
       "publisher": "MicrosoftBizTalkServer",
       "offer": "BizTalk-Server",
-      "sku": "2016-Enterprise"
+      "sku": "2016-Standard"
     },
     "OS": "Windows",
-    "description": "Microsoft BizTalk Server 2016 Enterprise on Windows Server 2016. See documentation at https://msdn.microsoft.com/en-US/library/mt670742.aspx for more information.",
+    "description": "Microsoft BizTalk Server 2016 Standard on Windows Server 2016. See documentation at https://msdn.microsoft.com/en-US/library/mt670742.aspx for more information.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
