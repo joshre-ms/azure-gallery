@@ -40,15 +40,15 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
-        "Standard_DS1_v2",
-        "Standard_DS2_v2",
-        "Standard_DS11_v2",
-        "Standard_DS1",
-        "Standard_DS2",
-        "Standard_DS11",
-        "Standard_D1_v2",
-        "Standard_D1",
-        "Small"
+        "Standard_DS15_v2",
+        "Standard_DS14_v2",
+        "Standard_DS13_v2",
+        "Standard_DS12_v2",
+        "Standard_GS5",
+        "Standard_GS4",
+        "Standard_GS3",
+        "Standard_GS2",
+        "Large"
     ],
     "linksForEnvironments": [
         {
