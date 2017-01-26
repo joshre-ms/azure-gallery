@@ -5,9 +5,6 @@
   "mediaReferences": {
     "PublicAzure": {
       "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Comm-VSU3-AzureSDK-29-Win10-N-2017-01-13"
-    },
-    "Fairfax": {
-      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2015-Comm-VSU3-AzureSDK-29-Win10-N-2017-01-13"
     }
   },
   "imageReference": {
@@ -47,7 +44,6 @@
   "privacy": "https://go.microsoft.com/fwlink/?LinkID=824704",
   "screenshot": "Screenshots/VisualStudioOnWindows10.png",
   "cloudEnvironments": [
-    "PublicAzure",
-    "Fairfax"
+    "PublicAzure"
   ]
 }
