@@ -9,6 +9,7 @@
                            "sku":  "Windows-10-N-x64"
                        },
     "OS":  "Windows",
+    "summary": "This image contains Windows 10 Enterprise N (x64) (Anniversary Update) and is exclusively available to Visual Studio subscribers.",
     "description":  "This image contains Windows 10 Enterprise N (x64) (Anniversary Update) and is exclusively available to Visual Studio subscribers.  It allows you to easily and quickly set up an environment in Azure to develop and test applications targeting Windows 10.Join the Windows Insider Program (https://insider.windows.com/) to receive more frequent, incremental builds of Windows.",
     "iconPath":  "Icons/Client",
     "categories":  [

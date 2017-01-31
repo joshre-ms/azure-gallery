@@ -1,0 +1,52 @@
+{
+  "publisher": "Microsoft",
+  "label": "HPC Pack 2016 Head Node on Windows Server 2016",
+  "displayName": "HPC Pack 2016 Head Node on Windows Server 2016",
+  "MediaName": "96316178b0644ae08bc4e037635ce104__HPC-Pack-2016-HN-5.0.5826.0-WS2016-ENU",
+  "imageReference": {
+    "publisher": "MicrosoftWindowsServerHPCPack",
+    "offer": "WindowsServerHPCPack",
+    "sku": "2016HN-WS2016"
+  },
+  "OS": "Windows",
+  "summary": "Enterprise-class High Performance Computing solution that is simple to deploy, cost-effective, application-focused, and user-centric.",
+  "description": "This image contains the Windows Server 2016 Datacenter operating system with HPC Pack 2016 setup package to create the head node of an HPC Pack 2016 cluster in Azure. Microsoft SQL Server 2016 Express is also pre-installed. We recommend using a VM size of at least A4. If you plan to add cluster compute nodes to the head node, the VM must be created in an Azure virtual network. Configure the network before creating the VM. It is strongly recommended to use the Azure Resource Manager (ARM) templates to automatically create an HPC Pack 2016 cluster in Azure with the HPC Pack 2016 images. For more information <a href='http://go.microsoft.com/fwlink/?LinkId=835203' target='_blank'>see here</a>.",
+  "iconPath": "Icons/Server",
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "windows",
+    "appInfra"
+  ],
+  "recommendedSizes": [
+    "Standard_D4_v2",
+    "Standard_D4",
+    "Standard_F8",
+    "Standard_A8_v2",
+    "A7",
+    "Standard_DS14_v2",
+    "Standard_DS14"
+  ],
+  "links": [
+    {
+      "label": "Deploy an HPC Pack 2016 cluster in Azure",
+      "uri": "http://go.microsoft.com/fwlink/?LinkID=835203"
+    },
+    {
+      "label": "Microsoft HPC Pack",
+      "uri": "http://technet.microsoft.com/en-us/library/cc514029.aspx"
+    },
+    {
+      "label": "HPC Forum",
+      "uri": "http://social.microsoft.com/Forums/en-US/home?category=windowshpc"
+    },
+    {
+      "label": "HPC Team Blog",
+      "uri": "http://blogs.technet.com/b/windowshpc"
+    }
+  ],
+  "eula": "http://go.microsoft.com/fwlink/?LinkID=507756",
+  "privacy": "http://go.microsoft.com/fwlink/?LinkID=507755",
+  "screenshot": "Screenshots/HPCPackCluster.png"
+}

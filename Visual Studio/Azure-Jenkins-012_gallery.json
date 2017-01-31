@@ -5,9 +5,6 @@
   "mediaReferences": {
     "PublicAzure": {
       "mediaName": "03f55de797f546a1b29d1b8d66be687a__Azure-Jenkins-012-2016-12-19"
-    },
-    "Fairfax": {
-      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__Azure-Jenkins-012-2016-12-19"
     }
   },
   "imageReference": {
@@ -47,7 +44,6 @@
   "privacy": "https://www.microsoft.com/en-us/privacystatement/OnlineServices/Default.aspx",
   "screenshot": "screenshots/JenkinsAzureOnUbuntu14.png",
   "cloudEnvironments": [
-    "PublicAzure",
-    "Fairfax"
+    "PublicAzure"
   ]
 }
