@@ -4,13 +4,16 @@
   "displayName": "Visual Studio Community 2017 RC on Windows 10 Enterprise N (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-RC2-Comm-Win10-N-2016-12-13"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-RC3-Comm-Win10-N-2017-01-30"
+    },
+    "Fairfax": {
+      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2017-RC3-Comm-Win10-N-2017-01-30"
     }
   },
   "imageReference": {
     "publisher": "MicrosoftVisualStudio",
     "offer": "VisualStudio",
-    "sku": "VS-2017-RC2-Comm-Win10-N"
+    "sku": "VS-2017-RC3-Comm-Win10-N"
   },
   "OS": "Windows",
   "description": "Visual Studio Community is our free, full featured and extensible IDE for non-enterprise application development.  This image contains a full install of Visual Studio Community 2017 RC on the Windows 10 Enterprise N (Anniversary Update), including the Universal Windows app development tools and the latest Windows 10 SDK. It allows you to quickly setup environment in Azure to develop and test applications targeting the Universal Windows Platform.",
@@ -44,6 +47,7 @@
   "privacy": "https://go.microsoft.com/fwlink/?LinkID=824704",
   "screenshot": "Screenshots/VisualStudioOnWindows10.png",
   "cloudEnvironments": [
-    "PublicAzure"
+    "PublicAzure",
+    "Fairfax"
   ]
 }
