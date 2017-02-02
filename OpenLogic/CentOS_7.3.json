@@ -1,5 +1,5 @@
 {
-	"publisher": "OpenLogic",
+	"publisher": "Rogue Wave Software (formerly OpenLogic)",
 	"label": "CentOS-based 7.3",
 	"displayName": "CentOS-based 7.3",
 	"cloudEnvironments": [
@@ -43,12 +43,13 @@
 		}
 	},
 	"imageReference": {
-		"publisher": "OpenLogic",
+		"publisher": "Rogue Wave Software (formerly OpenLogic)",
 		"offer": "CentOS",
 		"sku": "7.3"
 	},
 	"OS": "Linux",
-	"description": "This distribution of Linux is based on CentOS version 7.3 and is provided by OpenLogic. It contains an installation of the Basic Server packages.",
+	"summary": "This distribution of Linux is based on CentOS and is provided by Rogue Wave Software.",
+	"description": "This distribution of Linux is based on CentOS version 7.3 and is provided by Rogue Wave Software (formerly OpenLogic). It contains an installation of the Basic Server packages.",
 	"iconPath": "Icons",
 	"categories": [
 		"virtualMachine",
@@ -70,7 +71,7 @@
 	"linksForEnvironments": [{
 		"label": "Learn more",
 		"uri": {
-			"Default": "http://www.openlogic.com/azure/"
+			"Default": "http://www.roguewave.com/products-services/open-source-support/centos-on-azure"
 		}
 	}, {
 		"label": "Pricing details",
@@ -78,7 +79,7 @@
 			"Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
 		}
 	}],
-	"eula": "http://www.openlogic.com/azure/service-agreement/",
+	"eula": "http://www.roguewave.com/products-services/services/open-source-software/cloud-services/azure/service-agreement",
 	"privacy": null,
 	"screenshot": null
 }
