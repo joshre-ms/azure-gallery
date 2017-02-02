@@ -9,6 +9,9 @@
         },
         "Mooncake": {
             "mediaName": "7f4fdaae86b44261885f4eceac5f33b1__FreeBSD11_0-2017-01-11"
+        },
+        "Fairfax": {
+            "mediaName": "cef94ad088774201b8f6625bf4aea779__9db562c525e942698c605df2f0c9b26a_FreeBSD11_0-2017-01-11"
         }
     },
     "imageReference": {
@@ -54,6 +57,7 @@
     "screenshot": null,
     "cloudEnvironments":  [
         "PublicAzure",
-        "Mooncake"
+        "Mooncake",
+        "Fairfax"
     ]
 }
