@@ -1,5 +1,5 @@
 {
-	"publisher": "OpenLogic",
+	"publisher": "Rogue Wave Software (formerly OpenLogic)",
 	"label": "CentOS-based 6.8",
 	"displayName": "CentOS-based 6.8",
 	"cloudEnvironments": [
@@ -10,13 +10,13 @@
 	],
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-68-20160620"
+			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-68-20170105"
 		},
 		"BlackForest": {
-			"mediaName": "74670972aac14ba9b65a6f34edf06e1c__OpenLogic-CentOS-68-20160616"
+			"mediaName": "74670972aac14ba9b65a6f34edf06e1c__OpenLogic-CentOS-68-20170105"
 		},
 		"Mooncake": {
-			"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-68-20160617"
+			"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-68-20170120"
 		},
 		"Fairfax": {
 			"mediaName": "809266fa9f4d45d8bba0a02358a8c76d__OpenLogic-CentOS-68-20161026"
@@ -28,7 +28,8 @@
 		"sku": "6.8"
 	},
 	"OS": "Linux",
-	"description": "This distribution of Linux is based on CentOS version 6.8 and is provided by OpenLogic. It contains an installation of the Basic Server packages.",
+	"summary": "This distribution of Linux is based on CentOS and is provided by Rogue Wave Software.",
+	"description": "This distribution of Linux is based on CentOS version 6.8 and is provided by Rogue Wave Software (formerly OpenLogic). It contains an installation of the Basic Server packages.",
 	"iconPath": "Icons",
 	"categories": [
 		"virtualMachine",
@@ -53,7 +54,7 @@
 	"linksForEnvironments": [{
 		"label": "Learn more",
 		"uri": {
-			"Default": "http://www.openlogic.com/azure/"
+			"Default": "http://www.roguewave.com/products-services/open-source-support/centos-on-azure"
 		}
 	}, {
 		"label": "Pricing details",
@@ -61,7 +62,7 @@
 			"Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
 		}
 	}],
-	"eula": "http://www.openlogic.com/azure/service-agreement/",
+	"eula": "http://www.roguewave.com/products-services/services/open-source-software/cloud-services/azure/service-agreement",
 	"privacy": null,
 	"screenshot": null
 }

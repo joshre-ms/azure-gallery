@@ -9,6 +9,7 @@
       "sku": "12.1.0.2"
     },
     "OS": "Linux",
+    "summary": "Oracle Database 12c Standard Edition is an affordable, full-featured data management solution that is ideal for midsize companies.",
     "description": "Oracle Database 12c Standard Edition is an affordable, full-featured data management solution that is ideal for midsize companies.",
     "iconPath": "Icons/Database",
     "categories": [

@@ -9,6 +9,7 @@
       "sku": "6.8"
     },
     "OS": "Linux",
+    "summary": "Oracle Linux 6 brings the latest Linux innovations to market, delivering extreme performance, advanced scalability, and reliability for enterprise applications and systems.",
     "description": "Oracle Linux 6 brings the latest Linux innovations to market, delivering extreme performance, advanced scalability, and reliability for enterprise applications and systems.",
     "iconPath": "Icons/Linux",
     "categories": [
