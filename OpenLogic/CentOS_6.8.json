@@ -23,7 +23,7 @@
 		}
 	},
 	"imageReference": {
-		"publisher": "Rogue Wave Software (formerly OpenLogic)",
+		"publisher": "OpenLogic",
 		"offer": "CentOS",
 		"sku": "6.8"
 	},
