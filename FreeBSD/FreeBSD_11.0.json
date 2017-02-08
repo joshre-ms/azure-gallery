@@ -12,6 +12,9 @@
         },
         "Fairfax": {
             "mediaName": "cef94ad088774201b8f6625bf4aea779__9db562c525e942698c605df2f0c9b26a_FreeBSD11_0-2017-01-11"
+        },
+        "Blackforest": {
+            "mediaName": "86ec8714bb9b4a749574d44867a28c1d__FreeBSD11_0-2017-01-11"
         }
     },
     "imageReference": {
@@ -59,6 +62,7 @@
     "cloudEnvironments":  [
         "PublicAzure",
         "Mooncake",
-        "Fairfax"
+        "Fairfax",
+        "Blackforest"
     ]
 }
