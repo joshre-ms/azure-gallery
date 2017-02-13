@@ -4,10 +4,10 @@
   "displayName": "Visual Studio Community 2017 RC on Windows Server 2016 (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-RC3-Comm-WS2016-2017-01-31"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-RC3-Comm-WS2016-2017-02-08"
     },
     "Fairfax": {
-      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2017-RC3-Comm-WS2016-2017-01-31"
+      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2017-RC3-Comm-WS2016-2017-02-08"
     }
   },
   "imageReference": {
