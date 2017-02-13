@@ -2,7 +2,7 @@
     "publisher": "Oracle",
     "label": "Oracle Database 12.1.0.2 Enterprise Edition",
     "displayName": "Oracle Database 12.1.0.2 Enterprise Edition",
-    "MediaName": "c290a6b031d841e09f2da759bbabe71f__db12ee-oracle",
+    "MediaName": "c290a6b031d841e09f2da759bbabe71f__db12ee-oracle-20170202",
     "imageReference": {
       "publisher": "Oracle",
       "offer": "Oracle-Database-Ee",
