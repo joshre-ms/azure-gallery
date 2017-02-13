@@ -4,8 +4,9 @@
   "displayName": "Visual Studio Enterprise 2017 RC on Windows 10 Enterprise N (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-RC3-Ent-Win10-N-2017-01-30"
-    }
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-RC3-Ent-Win10-N-2017-02-07"
+    },
+    "Fairfax": null
   },
   "imageReference": {
     "publisher": "MicrosoftVisualStudio",
