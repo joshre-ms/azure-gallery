@@ -4,7 +4,7 @@
   "displayName": "Visual Studio Community 2015 Update 3 with Universal Windows Tools and Azure SDK 2.9 on Windows 10 Enterprise N (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Comm-VSU3-AzureSDK-29-Win10-N-2017-01-13"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Comm-VSU3-AzureSDK-29-Win10-N-2017-02-16"
     }
   },
   "imageReference": {
@@ -13,8 +13,8 @@
     "sku": "VS-2015-Comm-VSU3-AzureSDK-29-Win10-N"
   },
   "OS": "Windows",
-  "description": "This image contains a full install of Visual Studio Community 2015 Update 3 on Windows 10 Enterprise N (Anniversary Update), including the latest Universal Windows app development tools, the Anniversary Update Windows 10 SDK, and the latest Azure SDK. It allows you to quickly setup environment in Azure to develop and test applications targeting the Universal Windows Platform.\n\nThe Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.",
-  "iconPath": "Icons",
+  "description": "This image contains a full install of Visual Studio Community 2015 Update 3 on Windows 10 Enterprise N (Anniversary Update), including the latest Universal Windows app development tools, the Anniversary Update Windows 10 SDK, and the latest Azure SDK. It allows you to quickly setup environment in Azure to develop and test applications targeting the Universal Windows Platform.\n\nThis image was created from the latest bits available on 2/16/2017.\n\nThe Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.",
+  "iconPath": "Icons/VS2015",
   "categories": [
     "virtualMachine",
     "microsoftServer",
