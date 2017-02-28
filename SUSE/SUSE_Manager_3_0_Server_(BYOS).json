@@ -1,0 +1,69 @@
+{
+    "publisher": "SUSE",
+    "label": "SUSE Manager 3.0 Server (Bring Your Own Subscription)",
+    "displayName": "SUSE Manager 3.0 Server (BYOS)",
+    "cloudEnvironments": [
+        "PublicAzure"
+    ],
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-manager-3-0-server-byos-v20170130"
+        }
+    },
+    "imageReference": {
+      "publisher": "SUSE",
+      "offer": "SUSE-Manager-Server-BYOS",
+      "sku": "3.0"
+    },
+    "OS": "Linux",
+     "description": "<p><b>SUSE Manager 3.0 Server</b></p><p>Built for Linux, SUSE Manager delivers best-in-class open source infrastructure management capabilities that empowers IT to reduce complexity and regain control of IT assets by enabling you to comprehensively manage Linux systems with a single, centralized solution. SUSE Manager provides automated and cost-effective software, asset, patch and configuration management, as well as, system provisioning and monitoring capabilities. These capabilities enable you to easily manage your enterprise Linux system deployments across physical, virtual and cloud environments. As a result, your organization can decrease total cost of ownership while securing enterprise systems and improving compliance and service quality.</p><p><i>Instances of BYOS (bring your own subscription) images must be registered using your SUSE subscription keys in order to receive security updates and support.</i></p>",
+    "iconPath": "Icons/SUSE",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra",
+        "azureCertified",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Standard_G2",
+        "Standard_DS13_v2",
+        "Standard_DS13",
+        "Standard_D13_v2",
+        "Standard_D13",
+        "Standard_A8m_v2",
+        "Standard_A10",
+        "Standard_A7"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "Learn more",
+            "uri": {
+                "Default": "https://www.suse.com/products/suse-manager/"
+            }
+        },
+        {
+            "label": "Documentation",
+            "uri": {
+                "Default": "https://www.suse.com/documentation/suse-manager-3/"
+            }
+        },
+        {
+            "label": "Forum",
+            "uri": {
+                "Default": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+            }
+        },
+        {
+            "label": "Pricing details",
+            "uri": {
+                "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            }
+        }
+    ],
+    "eula": "https://www.suse.com/licensing/eula/",
+    "privacy": "https://www.suse.com/company/policies/privacy/",
+    "screenshot": "Screenshots/suse.png"
+}

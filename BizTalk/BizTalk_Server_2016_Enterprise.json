@@ -1,10 +1,10 @@
 {
     "publisher": "Microsoft",
-    "label": "BizTalk Server 2016",
-    "displayName": "BizTalk Server 2016",
+    "label": "BizTalk Server 2016 Enterprise",
+    "displayName": "BizTalk Server 2016 Enterprise",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "2cdc6229df6344129ee553dd3499f0d3__BizTalk-Server-2016-Enterprise-Oct-2016"
+            "mediaName": "2cdc6229df6344129ee553dd3499f0d3__BizTalk-Server-2016-Enterprise-Jan-2017"
         }
     },
     "imageReference": {
@@ -13,7 +13,7 @@
       "sku": "2016-Enterprise"
     },
     "OS": "Windows",
-    "description": "Microsoft BizTalk Server 2016 on Windows Server 2016. This release focuses on a number of important improvements. Support for SQL Server 2016 AlwaysOn Availability Groups makes production high availability (HA) workloads in Azure a reality. We have also made numerous improvements and enhancements to BizTalk based on your feedback, we hope you like them. See documentation at https://msdn.microsoft.com/en-US/library/mt670742.aspx for more information.",
+    "description": "Microsoft BizTalk Server 2016 Enterprise on Windows Server 2016. See documentation at https://msdn.microsoft.com/en-US/library/mt670742.aspx for more information.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -39,10 +39,6 @@
         {
             "label": "Support forum",
             "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/en-US/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=BizTalk"
-        },
-        {
-            "label": "MSDN Azure benefit details",
-            "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
         }
     ],
     "eula": "http://go.microsoft.com/fwlink/?LinkID=780721",
