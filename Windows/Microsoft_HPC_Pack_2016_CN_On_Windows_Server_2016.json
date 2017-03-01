@@ -1,0 +1,51 @@
+{
+  "publisher": "Microsoft",
+  "label": "HPC Pack 2016 Compute Node on Windows Server 2016",
+  "displayName": "HPC Pack 2016 Compute Node on Windows Server 2016",
+  "MediaName": "96316178b0644ae08bc4e037635ce104__HPC-Pack-2016-CN-5.0.5826.0-WS2016-ENU",
+  "imageReference": {
+    "publisher": "MicrosoftWindowsServerHPCPack",
+    "offer": "WindowsServerHPCPack",
+    "sku": "2016CN-WS2016"
+  },
+  "OS": "Windows",
+  "summary": "Enterprise-class High Performance Computing solution that is simple to deploy, cost-effective, application-focused, and user-centric.",
+  "description": "This image contains the Windows Server 2016 Datacenter operating system with HPC Pack 2016 installed to create the compute node of a Microsoft HPC Pack 2016 cluster in Azure. We recommend using a VM size of at least A3. It is strongly recommended to use the Azure Resource Manager (ARM) templates to automatically create an HPC Pack 2016 cluster in Azure with the HPC Pack 2016 images. For more information <a href='http://go.microsoft.com/fwlink/?LinkId=835203' target='_blank'>see here</a>.",
+  "iconPath": "Icons/Server",
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "windows",
+    "appInfra"
+  ],
+  "recommendedSizes": [
+    "Standard_D3_v2",
+    "Standard_D3",
+    "Standard_F4",
+    "Standard_A4_v2",
+    "Large",
+    "A11"
+  ],
+  "links": [
+    {
+      "label": "Deploy an HPC Pack 2016 cluster in Azure",
+      "uri": "http://go.microsoft.com/fwlink/?LinkID=835203"
+    },
+    {
+      "label": "Microsoft HPC Pack",
+      "uri": "http://technet.microsoft.com/en-us/library/cc514029.aspx"
+    },
+    {
+      "label": "HPC Forum",
+      "uri": "http://social.microsoft.com/Forums/en-US/home?category=windowshpc"
+    },
+    {
+      "label": "HPC Team Blog",
+      "uri": "http://blogs.technet.com/b/windowshpc"
+    }
+  ],
+  "eula": "http://go.microsoft.com/fwlink/?LinkID=507756",
+  "privacy": "http://go.microsoft.com/fwlink/?LinkID=507755",
+  "screenshot": "Screenshots/HPCPackCluster.png"
+}

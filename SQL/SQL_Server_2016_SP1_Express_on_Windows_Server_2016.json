@@ -1,13 +1,16 @@
 {
     "publisher": "Microsoft",
-    "label": "SQL Server 2016 SP1 Express Windows Server 2016",
-    "displayName": "SQL Server 2016 SP1 Express on Windows Server 2016",
+    "label": "Free License: SQL Server 2016 SP1 Express Windows Server 2016",
+    "displayName": "Free License: SQL Server 2016 SP1 Express on Windows Server 2016",
     "mediaReferences": {
         "PublicAzure": {
             "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-PCU-Main-13.0.4001.0-SQLEXPRCOMP.ENU.Nov-WS2016-127gb.11.15.16.02.11"
         },
         "Mooncake": {
             "mediaName": "74bb2f0b8dcc47fbb2914b60ed940c35__SQL16-PCU-Main-13.0.4001.0-SQLEXPRCOMP.ENU.Nov-WS2016-127gb.11.15.16.02.11"
+        },
+        "Blackforest": {
+            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL16-PCU-Main-13.0.4001.0-SQLEXPRCOMP.ENU.Nov-WS2016-127gb.11.15.16.02.11"
         }
     },
     "imageReference": {
@@ -17,7 +20,7 @@
     },
     "OS": "Windows",
     "summary": "Express version of SQL Server 2016 SP1.",
-    "description": "This image contains the Express edition of SQL Server 2016. This is an entry-level free database system for lightweight applications. It includes the core database engine, limited to 1 GB memory and 10 GB storage, and Management Studio for integrated administration and development. We recommend that you use a virtual machine size of <strong>DS1 or higher</strong>.",
+    "description": "This image contains the Express edition of SQL Server 2016. This is a free (no SQL Server licensing cost) database system for lightweight applications. It includes the core database engine, limited to 1 GB memory and 10 GB storage, and Management Studio for integrated administration and development. We recommend that you use a virtual machine size of <strong>DS1 or higher</strong>.",
     "iconPath": "Icons",
     "supportsSriov": true,
     "categories": [
@@ -62,6 +65,7 @@
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
     "cloudEnvironments":  [
         "PublicAzure",
-        "Mooncake"
+        "Mooncake",
+        "Blackforest"
     ]
 }
