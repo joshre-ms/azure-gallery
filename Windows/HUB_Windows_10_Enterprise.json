@@ -1,0 +1,47 @@
+﻿{
+  "publisher": "Microsoft",
+  "label": "[HUB] Windows 10 Enterprise",
+  "displayName": "[HUB] Windows 10 Enterprise Preview",
+  "imageReference": {
+    "publisher": "MicrosoftWindowsServer",
+    "offer": "Windows-HUB",
+    "sku": "Windows-10-HUB"
+  },
+  "OS": "Windows",
+  "summary": "Windows 10 Enterprise",
+  "description": "Windows Enterprise customers rely on the most secure, up-to-date version of Windows 10 when using it for their business.  Under the Microsoft Azure HUB Windows 10 Preview terms, Enterprise Agreement customers with qualifying licenses can now run Windows 10 on Azure, which provides the best cloud environment to run Microsoft software.  Through consistency and seamless integration across cloud and on-premises, unmatched product capabilities, superior support across the entire Microsoft stack and the best prices with flexible options, we provide customers best in class experience and performance they expect from Microsoft.",
+  "iconPath": "Icons/Client",
+  "supportsHub": true,
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "enterpriseagreementonly",
+    "azure",
+    "windows",
+    "appInfra",
+    "clientOS"
+  ],
+  "recommendedSizes": [
+    "Standard_DS1_v2",
+    "Standard_DS2_v2",
+    "Standard_DS11_v2",
+    "Standard_DS1",
+    "Standard_DS2",
+    "Standard_DS11",
+    "Standard_D1_v2",
+    "Standard_D1",
+    "Small"
+  ],
+  "links": [
+    {
+      "label": "Azure Hybrid Use Benefits",
+      "uri": "https://azure.microsoft.com/en-us/pricing/hybrid-use-benefit/"
+    }
+  ],
+  "eula": "https://azure.microsoft.com/en-us/support/legal/preview-supplemental-terms/",
+  "privacy": "https://go.microsoft.com/fwlink/?linkid=734730",
+  "screenshot": null,
+  "cloudEnvironments": [
+    "PublicAzure"
+  ]
+}
