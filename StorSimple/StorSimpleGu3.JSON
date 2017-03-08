@@ -1,0 +1,38 @@
+{
+  "publisher": "MicrosoftHybridCloudStorage",
+  "label": "Garda Update 3 refresh",
+  "displayName": "StorSimple Garda Update 3 refresh",
+  "MediaName": "9b7cfe55da0349d5a8316a8cc4741f87__StorSimple-VirtualAppliance-GU3Refresh-2016-21-09_billpatched",
+  "imageReference": {
+    "publisher": "MicrosoftHybridCloudStorage",
+    "offer": "StorSimple",
+    "sku": "StorSimple-Garda-8000-Series",
+    "version": "9600.17759.160826"
+  },
+ "OS": "Windows",
+  "imageType":"VMImage",
+  "summary": "Azure StorSimple Cloud Appliance",
+  "description": "Microsoft Azure StorSimple Cloud Appliance (SCA) is an enterprise-class, full-featured cloud NAS filer that extends native Azure storage by combining multiple disks and layering on a full NAS feature set. It supports the maximum storage capacity available on Azure compute instances. Its available on-demand from the Azure Marketplace.",
+  "iconPath": "Icons",
+  "categories": [
+    "virtualMachine",
+    "azure"
+ ],
+  "recommendedSizes": [
+    "Standard_A3",
+    "Standard_DS3"
+  ],
+  "links": [
+    {
+      "label": "Documentation",
+      "uri": "https://azure.microsoft.com/en-us/documentation/services/storsimple/"
+    },
+    {
+      "label": "Forums",
+      "uri": "https://social.msdn.microsoft.com/forums/azure/en-US/home?forum=StorSimple"
+    }
+  ],
+  "eula": "http://go.microsoft.com/fwlink/?LinkId=525741",
+  "privacy": "http://go.microsoft.com/fwlink/?LinkId=512132",
+  "screenshot": null
+}
