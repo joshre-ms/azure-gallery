@@ -2,8 +2,14 @@
     "publisher": "Oracle",
     "label": "Oracle Database 12.1.0.2 Standard Edition",
     "displayName": "Oracle Database 12.1.0.2 Standard Edition",
-    "MediaName": "c290a6b031d841e09f2da759bbabe71f__db12se-oracle",
+    "MediaName": "c290a6b031d841e09f2da759bbabe71f__db12se-oracle-20170202",
+    "imageReference": {
+      "publisher": "Oracle",
+      "offer": "Oracle-Database-Se",
+      "sku": "12.1.0.2"
+    },
     "OS": "Linux",
+    "summary": "Oracle Database 12c Standard Edition is an affordable, full-featured data management solution that is ideal for midsize companies.",
     "description": "Oracle Database 12c Standard Edition is an affordable, full-featured data management solution that is ideal for midsize companies.",
     "iconPath": "Icons/Database",
     "categories": [

@@ -2,7 +2,17 @@
   "publisher": "Microsoft",
   "label": "Microsoft Azure Site Recovery Process Server V2",
   "displayName": "Microsoft Azure Site Recovery Process Server V2",
-  "MediaName": "d4a65b493c36471ba82b42d53fbd8063__Microsoft-Azure-Site-Recovery-Process-Server-V2-201605.01",
+  "mediaReferences": {
+      "PublicAzure": {
+          "mediaName": "d4a65b493c36471ba82b42d53fbd8063__Microsoft-Azure-Site-Recovery-Process-Server-V2-201702.01"
+      },
+      "Mooncake": {
+          "mediaName": "4c79fec56804401f828d9e7701be3b6c__Microsoft-Azure-Site-Recovery-Process-Server-V2-201702.01"
+      },
+      "Fairfax": {
+          "mediaName": "86a95f9bfa35485f911b6e54159d5afc__Microsoft-Azure-Site-Recovery-Process-Server-V2-201702.01"
+      }
+  },
   "imageReference": {
     "publisher": "MicrosoftAzureSiteRecovery",
     "offer": "Process-Server",
@@ -37,5 +47,10 @@
   ],
   "eula": "http://go.microsoft.com/fwlink/?LinkId=525741",
   "privacy": "http://go.microsoft.com/fwlink/?LinkId=512132",
-  "screenshot": null
+  "screenshot": null,
+  "cloudEnvironments":  [
+      "PublicAzure",
+      "Mooncake",
+      "Fairfax"
+  ]
 }
