@@ -1,0 +1,57 @@
+{
+  "publisher": "Microsoft",
+  "label": "Windows Server 2012 Datacenter (zh-cn)",
+  "displayName": "Windows Server 2012 Datacenter (zh-cn)",
+  "imageReference": {
+    "publisher": "MicrosoftWindowsServer",
+    "offer": "WindowsServer",
+    "sku": "2012-Datacenter-zhcn"
+  },
+  "OS": "Windows",
+  "description": "This is the Simplified Chinese (ZH-CN) version. Windows Server 2012 incorporates Microsoft's experience building and operating public clouds, resulting in a dynamic, highly available server platform. The virtual machine (VM) offers a scalable, dynamic and multi-tenant-aware infrastructure that helps securely connect across premises.",
+  "iconPath": "Icons/Server",
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "windows",
+    "appInfra"
+  ],
+  "recommendedSizes": [
+    "Standard_DS1_v2",
+    "Standard_DS2_v2",
+    "Standard_DS11_v2",
+    "Standard_DS1",
+    "Standard_DS2",
+    "Standard_DS11",
+    "Standard_D1_v2",
+    "Standard_D1",
+    "Small"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "Learn more",
+      "uri": {
+        "Default": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/"
+      }
+    },
+    {
+      "label": "Documentation",
+      "uri": {
+        "Default": "http://technet.microsoft.com/library/hh801901.aspx"
+      }
+    },
+    {
+      "label": "Pricing details",
+      "uri": {
+        "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#windows"
+      }
+    }
+  ],
+  "eula": "http://download.microsoft.com/Documents/UseTerms/Windows%20Server_2012%20Datacenter_English_97974250-7a55-4236-bde8-546f0cec9c85.pdf",
+  "privacy": "https://privacy.microsoft.com/en-us/windows-8-privacy-statement",
+  "screenshot": null,
+  "cloudEnvironments": [
+    "Mooncake"
+  ]
+}

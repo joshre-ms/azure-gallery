@@ -1,5 +1,5 @@
 {
-	"publisher": "OpenLogic",
+	"publisher": "Rogue Wave Software (formerly OpenLogic)",
 	"label": "CentOS-based 7.2",
 	"displayName": "CentOS-based 7.2",
 	"cloudEnvironments": [
@@ -10,16 +10,16 @@
 	],
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20160620"
+			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-72-20170105"
 		},
 		"BlackForest": {
-			"mediaName": "74670972aac14ba9b65a6f34edf06e1c__OpenLogic-CentOS-72-20160325"
+			"mediaName": "74670972aac14ba9b65a6f34edf06e1c__OpenLogic-CentOS-72-20170105"
 		},
 		"Mooncake": {
-			"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-72-20160329"
+			"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-72-20160120"
 		},
 		"Fairfax": {
-			"mediaName": "809266fa9f4d45d8bba0a02358a8c76d__OpenLogic-CentOS-72-20160620"
+			"mediaName": "809266fa9f4d45d8bba0a02358a8c76d__OpenLogic-CentOS-72-20161026"
 		}
 	},
 	"imageReference": {
@@ -28,7 +28,8 @@
 		"sku": "7.2"
 	},
 	"OS": "Linux",
-	"description": "This distribution of Linux is based on CentOS version 7.2 and is provided by OpenLogic. It contains an installation of the Basic Server packages.",
+	"summary": "This distribution of Linux is based on CentOS and is provided by Rogue Wave Software.",
+	"description": "This distribution of Linux is based on CentOS version 7.2 and is provided by Rogue Wave Software (formerly OpenLogic). This release of CentOS is deprecated and no longer supported. The CentOS Project provides updates or other changes ONLY for the latest version of each major branch. Thus, if the latest minor version of CentOS-7 is version 7.3 then the CentOS Project only provides updated software for this minor version in the 7 branch. If you are using an older minor version than the latest in a given branch, then you are missing security and bugfix updates. More information on the CentOS release model is in the CentOS FAQ: https://wiki.centos.org/FAQ/General#head-dcca41e9a3d5ac4c6d900a991990fd11930867d6:",
 	"iconPath": "Icons",
 	"categories": [
 		"virtualMachine",
@@ -53,7 +54,7 @@
 	"linksForEnvironments": [{
 		"label": "Learn more",
 		"uri": {
-			"Default": "http://www.openlogic.com/azure/"
+			"Default": "http://www.roguewave.com/products-services/open-source-support/centos-on-azure"
 		}
 	}, {
 		"label": "Pricing details",
@@ -61,7 +62,7 @@
 			"Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
 		}
 	}],
-	"eula": "http://www.openlogic.com/azure/service-agreement/",
+	"eula": "http://www.roguewave.com/products-services/services/open-source-software/cloud-services/azure/service-agreement",
 	"privacy": null,
 	"screenshot": null
 }

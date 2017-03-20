@@ -1,0 +1,50 @@
+{
+    "publisher": "Microsoft",
+    "label": "BizTalk Server 2016 Developer",
+    "displayName": "BizTalk Server 2016 Developer",
+    "mediaReferences": {
+      "PublicAzure": {
+        "mediaName": "2cdc6229df6344129ee553dd3499f0d3__BizTalk-Server-2016-Developer-Oct-2016"
+      }
+    },
+    "imageReference": {
+      "publisher": "MicrosoftBizTalkServer",
+      "offer": "BizTalk-Server",
+      "sku": "2016-Developer"
+    },
+    "OS": "Windows",
+    "description": "Microsoft BizTalk Server 2016 Developer on Windows Server 2016. See documentation at https://msdn.microsoft.com/en-US/library/mt670742.aspx for more information.",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "appInfra"
+    ],
+    "recommendedSizes": [
+        "Standard_D12",
+        "Standard_DS12",
+        "A6"
+    ],
+    "links": [
+        {
+            "label": "Learn more",
+            "uri": "http://www.microsoft.com/server-cloud/products/biztalk/default.aspx"
+        },
+        {
+            "label": "Documentation",
+            "uri": "http://msdn.microsoft.com/en-us/library/azure/jj248689.aspx"
+        },
+        {
+            "label": "Support forum",
+            "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/en-US/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=BizTalk"
+        }
+    ],
+    "eula": "http://go.microsoft.com/fwlink/?LinkID=780721",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkID=131004",
+    "screenshot": null,
+    "cloudEnvironments":  [
+        "PublicAzure"
+    ]
+}

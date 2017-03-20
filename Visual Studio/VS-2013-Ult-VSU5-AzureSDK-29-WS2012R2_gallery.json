@@ -1,0 +1,48 @@
+﻿{
+  "publisher": "Microsoft",
+  "label": "Visual Studio Ultimate 2013 Update 5 with Azure Tools 2.9 on Windows Server 2012 R2",
+  "displayName": "Visual Studio Ultimate 2013 Update 5 with Azure Tools 2.9 on Windows Server 2012 R2",
+  "mediaReferences": {
+    "PublicAzure": {
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2013-Ult-VSU5-AzureSDK-29-WS2012R2-2017-03-08"
+    }
+  },
+  "imageReference": {
+    "publisher": "MicrosoftVisualStudio",
+    "offer": "VisualStudio",
+    "sku": "VS-2013-Ult-VSU5-AzureSDK-29-WS2012R2"
+  },
+  "OS": "Windows",
+  "description": "This image provides Visual Studio Ultimate 2013 Update 5 with Azure Tools 2.9 on Windows Server 2012 R2.  Visual Studio Ultimate represents the very best that Visual Studio has to offer. Created for enterprise-class development, it helps your team handle demanding requirements like high availability, performance, scale, and complexity. \n\nThis image was created from the latest bits available on 3/8/2017.\n\nThe Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.",
+  "iconPath": "Icons/VS2013",
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "windows",
+    "appInfra"
+  ],
+  "recommendedSizes": [
+    "Standard_A3",
+    "Standard_D2",
+    "Standard_D2_v2",
+    "Standard_DS2",
+    "Standard_DS2_v2"
+  ],
+  "links": [
+    {
+      "label": "Visual Studio subscribers Azure benefit details",
+      "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
+    },
+    {
+      "label": "Documentation",
+      "uri": "http://azure.microsoft.com/en-us/campaigns/visual-studio-2013/"
+    }
+  ],
+  "eula": "http://msdn.microsoft.com/subscriptions/eula",
+  "privacy": "http://go.microsoft.com/fwlink/?LinkID=286720",
+  "screenshot": "Screenshots/VisualStudioOnWindowsServer.png",
+  "cloudEnvironments": [
+    "PublicAzure"
+  ]
+}
