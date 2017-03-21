@@ -4,7 +4,8 @@
     "displayName": "SUSE Manager 3.0 Proxy (BYOS)",
     "cloudEnvironments": [
         "PublicAzure",
-        "Blackforest"
+        "Blackforest",
+        "Mooncake"
     ],
     "mediaReferences": {
         "PublicAzure": {
@@ -12,6 +13,9 @@
         },
         "Blackforest": {
             "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-manager-3-0-proxy-byos-v20170320"
+        },
+        "Mooncake": {
+            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-manager-3-0-proxy-byos-v20170320"
         }
     },
     "imageReference": {
