@@ -10,7 +10,7 @@
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-sap-12-sp1-byos-v20161216"
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-sap-12-sp1-byos-v20170320"
         },
         "Blackforest": {
             "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-sles-sap-12-sp1-byos-v20161216"
