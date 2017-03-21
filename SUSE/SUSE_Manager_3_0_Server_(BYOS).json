@@ -3,11 +3,15 @@
     "label": "SUSE Manager 3.0 Server (Bring Your Own Subscription)",
     "displayName": "SUSE Manager 3.0 Server (BYOS)",
     "cloudEnvironments": [
-        "PublicAzure"
+        "PublicAzure",
+        "Blackforest"
     ],
     "mediaReferences": {
         "PublicAzure": {
             "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-manager-3-0-server-byos-v20170320"
+        },
+        "Blackforest": {
+            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-manager-3-0-server-byos-v20170320"
         }
     },
     "imageReference": {
