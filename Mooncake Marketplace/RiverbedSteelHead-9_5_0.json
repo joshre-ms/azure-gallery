@@ -40,15 +40,15 @@
     ],
     "linksForEnvironments": [
         {
-            "label": "更多信息",
+            "label": "用户手册",
             "uri": {
-                "Default": "http://www.riverbed.com"
+                "Default": "https://support.riverbed.com/bin/support/static/di5l5q1pugsr8hb8r6m6s24f93/html/u1uf3dcdldlsidrem0hpb52gjq/sh_cloud_9.5_ug_html/index.html#page/sh_cloud_9.5_ug%2Frvbd_azure_appliance.html%23"
             }
         },
         {
-            "label": "定价详细信息",
+            "label": "购买 Riverbed SteelHead",
             "uri": {
-                "Default": "https://www.azure.cn/pricing/details/virtual-machines/"
+                "Default": "https://www.riverbed.com/sg/forms/sales-contact/steelhead-contact.html"
             }
         }
     ],
