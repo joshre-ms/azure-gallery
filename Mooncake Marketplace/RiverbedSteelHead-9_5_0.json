@@ -18,7 +18,7 @@
         }
     },
     "imageReference": {
-      "publisher": "riverbed",
+      "publisher": "AzureChinaMarketplace",
       "offer": "riverbed-steelhead-9-5-0",
       "sku": "riverbed-steelhead-9-5-0"
     },
