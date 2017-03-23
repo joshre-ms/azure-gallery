@@ -5,7 +5,7 @@
     "displayName": "Red Hat Enterprise Linux 6.7 for SAP HANA",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_6_7_SAP-HANA_PAYG_LVM_Azure_RHUI-20170310191817s"
+            "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_6_7_SAP-HANA_PAYG_LVM_Azure_RHUI-20170310191817"
         },
         "Fairfax": {
             "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_6_7_SAP-HANA_PAYG_LVM_USGov_RHUI-20170310191528"
