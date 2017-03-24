@@ -30,7 +30,6 @@
         "appInfra",
         "azureCertified",
         "virtualMachineRecommended",
-        "virtualMachine-Arm",
         "networking"
     ],
     "recommendedSizes": [
@@ -52,5 +51,6 @@
             }
         }
     ],
-    "eula": "http://www.riverbed.com/legal/license.html"
+    "eula": "http://www.riverbed.com/legal/license.html",
+    "addHideKey": true
 }
