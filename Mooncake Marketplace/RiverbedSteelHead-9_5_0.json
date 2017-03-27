@@ -1,0 +1,56 @@
+﻿{
+    "publisher": "riverbed",
+    "publisherDisplayName": "网合科技",
+    "publisherLegalName": "网合科技（北京）有限公司上海分公司",
+    "label": "Riverbed SteelHead CX 9.5.0",
+    "displayName": "Riverbed SteelHead CX 9.5.0",
+    "OS": "Linux",
+    "imageType":"VMImage",
+    "summary": "SteelHead CX for Cloud 可优化云中应用的性能，助力混合型企业和IaaS云服务。",
+    "description": "让全球几乎任何地方的用户可以加快迁移到和访问 Azure 中的应用程序。无论有怎样的网络延迟和企业带宽限制，使用 Riverbed SteelHead 均可符合用户的应用程序性能 SLA。\n<br />\n<br />\nRiverbed SteelHead 为业界首屈一指的优化解决方案，可加速在软件定义 WAN 内交付所有应用程序。此外，该解决方案连续九年被评为&ldquo;Gartner WAN 优化控制器魔力象限&rdquo;中的领导者。若采用 Azure 的 SteelHead CX，您即可获得：\n<ul>\n<li>Riverbed 在 Azure 云端首屈一指的优化解决方案，可在任何网络、应用程序可见性和控制中使应用程序达到最高性能。</li>\n<li>通过优化各式各样的云端应用程序，在混合网络中提供最佳的最终用户体验。\n</li>\n</ul>\nSteelHead CX for Azure Cloud 通过优化各式各样的云端应用程序的性能，在混合网络中提供最佳的最终用户体验。无论用户在哪里，无论有怎样的网络延迟和企业带宽限制，使用该解决方案均可帮助您符合用户的应用程序性能 SLA。\n<br />\n<br />\nSteelhead 的许可证需要向Riverbed公司进行购买。在添加有效的许可证之前，SteelHead 映像以受限方式运行。请使用&ldquo;admin/password&rdquo;SteelHead 的初始登录凭据。在可优化 WAN 吞吐量和连接方面，Riverbed 提供了大量的性能许可选项。还提供了灵活的付款许可证模式。订阅期限从 6 个月到 3 年不等，以便支持此产品的随成长付费模式。",
+    "iconPath": "Icons/RiverbedSteelHead-9_5_0",
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__RiverbedSteelHead-9_5_0"
+        }
+    },
+    "imageReference": {
+      "publisher": "AzureChinaMarketplace",
+      "offer": "riverbed-steelhead-9-5-0",
+      "sku": "riverbed-steelhead-9-5-0"
+    },
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra",
+        "azureCertified",
+        "virtualMachineRecommended",
+        "networking"
+    ],
+    "recommendedSizes": [
+      "Standard_D3",
+      "Standard_D14_v2",
+      "Standard_A2"        
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "用户手册",
+            "uri": {
+                "Default": "https://support.riverbed.com/bin/support/static/di5l5q1pugsr8hb8r6m6s24f93/html/u1uf3dcdldlsidrem0hpb52gjq/sh_cloud_9.5_ug_html/index.html#page/sh_cloud_9.5_ug%2Frvbd_azure_appliance.html%23"
+            }
+        },
+        {
+            "label": "购买 Riverbed SteelHead",
+            "uri": {
+                "Default": "https://www.riverbed.com/sg/forms/sales-contact/steelhead-contact.html"
+            }
+        }
+    ],
+    "eula": "http://www.riverbed.com/legal/license.html",
+    "addHideKey": true
+}
