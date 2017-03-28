@@ -110,6 +110,9 @@ Required for supporting multiple environments. A JSON array containing the objec
 * `createUIDefinitionHandler`
 Optional. A JSON string specifying the value of the handler tag in the createuidefinition.cs file for CRP packages. 
 
+* `addHideKey`
+Optional. A boolean indicating whether the gallery package should be hidden from the public. If set to `true`, the gallery package will only be visible if the URI query parameter `microsoft_azure_marketplace_itemhidekey=xrp` is specified, e.g. https://portal.azure.com/?microsoft_azure_marketplace_itemhidekey=xrp.
+
 #### Additional notes
 
 * The file name for a package manifest is not used in creating a gallery package. Feel free to name your package manifests in a a way that helps your organize them best.
