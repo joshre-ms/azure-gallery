@@ -3,6 +3,7 @@
   "label": "Visual Studio Community 2017 on Windows Server 2016 (x64)",
   "displayName": "Visual Studio Community 2017 on Windows Server 2016 (x64)",
   "mediaReferences": {
+    "PublicAzure": {
       "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-Comm-WS2016-2017-03-06"
     },
     "Fairfax": {
