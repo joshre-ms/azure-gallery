@@ -1,7 +1,7 @@
 {
     "publisher": "Oracle",
     "label": "Oracle Linux 7.3.0.0.0",
-    "displayName": "Oracle Linux 7.2.0.0.0",
+    "displayName": "Oracle Linux 7.3.0.0.0",
     "MediaName": "c290a6b031d841e09f2da759bbabe71f__OracleLinux-7.3-x86_64-20170320-b634",
     "imageReference": {
       "publisher": "Oracle",
