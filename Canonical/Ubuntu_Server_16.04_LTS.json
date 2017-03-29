@@ -25,6 +25,7 @@
     "summary": "Ubuntu Server delivers the best value scale-out performance available.",
     "description": "Ubuntu Server 16.04 LTS amd64 20170307 Public Azure, 20170113 Azure Germany, 20170307 Azure China, 20161221 Azure Gov. Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 16.04 will be available until April 2021.  Ubuntu Server is the perfect virtual machine (VM) platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://partners.ubuntu.com/microsoft' target='_blank'>Ubuntu on Azure</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
     "iconPath": "Icons",
+    "supportsSriov": true,
     "categories": [
         "virtualMachine",
         "microsoftServer",
