@@ -11,6 +11,9 @@
         },
         "Blackforest": {
             "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL16-PCU-Main-13.0.4001.0-SQLEXPRCOMP.ENU.Nov-WS2016-127gb.11.15.16.02.11"
+        },
+        "FairFax": {
+            "mediaName": "0bd04240ad4b45118afda6ddb0581fff__SQL16-PCU-Main-13.0.4001.0-SQLEXPRCOMP.ENU.Nov-WS2016-127gb.11.15.16.02.11"
         }
     },
     "imageReference": {
@@ -66,6 +69,7 @@
     "cloudEnvironments":  [
         "PublicAzure",
         "Mooncake",
-        "Blackforest"
+        "Blackforest",
+        "FairFax"
     ]
 }
