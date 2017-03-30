@@ -1,5 +1,6 @@
 {
-	"publisher": "Rogue Wave Software (formerly OpenLogic)",
+	"publisher": "RogueWave",
+	"publisherDisplayName": "Rogue Wave Software (formerly OpenLogic)",
 	"label": "CentOS-based 7.3",
 	"displayName": "CentOS-based 7.3",
 	"cloudEnvironments": [

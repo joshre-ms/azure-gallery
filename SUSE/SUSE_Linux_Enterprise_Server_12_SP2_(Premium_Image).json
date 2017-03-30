@@ -7,7 +7,7 @@
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp2-priority-v20161214"
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp2-priority-v20170320"
         }
     },
     "imageReference": {
