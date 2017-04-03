@@ -1,0 +1,51 @@
+{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Hillstone-VirtualizedNGFW-Flagship-5_5R2P3"
+        }
+    },
+    "publisher": "hillstone-networks",
+    "publisherDisplayName": "山石网科",
+    "publisherLegalName": "山石网科通信技术(北京)有限公司",
+    "label": "Hillstone Virtualized NGFW Flagship 5.5R2P3 (BYOL)",
+    "displayName": "山石网科虚拟化下一代防火墙旗舰版 5.5R2P3 (BYOL)",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "cloudedge-virtual-ngfw",
+        "sku": "Flagship_5.5R2P3"
+    },
+    "summary": "山石云界虚拟化下一代防火墙适用于虚拟化云平台，可以为公有云租户和中小企业私有云提供安全防护。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    山石云界虚拟化下一代防火墙系列是专门为虚拟化环境设计的虚拟化网络安全产品，以纯软件形态部署，适用于虚拟化云平台，为用户提供不同安全等级应用之间的安全隔离和安全防护。产品支持精细化应用识别、VPN（IPSEC/SSL/L2TP）、入侵防御、负载均衡等功能，具备快速部署能力，即可为租户提供安全防护，又可为中小企业私有云用户提供高性价比的防护方案，能够降低客户初始采购和管理维护成本。山石云界还通过与公有云服务相结合，进行便捷的虚拟网络管理，为公有云环境中的独立租户提供专属的安全隔离和策略保护。具备各种日志记录查询功能，能够有效记录网络情况，并提供实时流量和安全事件的报表统计功能，帮助管理员全面掌握网络运行状态，提高运维效率。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>使用WEB或者SSH登录方式,用户名密码均为创建虚拟机时所设置的用户名密码,SSH端口22,HTTPS端口443</li>\r\n    <li>\r\n        登录后导入软件许可证方可正常使用,如果还没有软件许可证,请联系山石网科客服购买，也可通过网上申请：\r\n        <br> <a href=\"http://www.hillstonenet.com.cn/ordering/try.html\" target=\"_blank\"> http://www.hillstonenet.com.cn/ordering/try.html</a>\r\n    </li>\r\n</ol>",
+    "iconPath": "Icons/Hillstone-VirtualizedNGFW-Flagship-5_5R2P3",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "appInfra",
+        "networking",
+        "security",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Basic_A2",
+        "Basic_A3",
+        "Standard_D2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "http://www.hillstonenet.com.cn/"
+            }
+        }
+    ],
+    "eula": "https://vfw.blob.core.chinacloudapi.cn/doc/软件许可及服务协议V2.0.pdf",
+    "privacy": null,
+    "addHideKey": true
+}

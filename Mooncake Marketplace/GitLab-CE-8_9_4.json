@@ -1,0 +1,49 @@
+{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__GitLab-CE-8_9_4"
+        }
+    },
+    "publisher": "GitLabCommunity",
+    "publisherDisplayName": "GitLab社区",
+    "publisherLegalName": "GitLab社区",
+    "label": "GitLab CE 8.9.4 (OpenLogic CentOS 7.2)",
+    "displayName": "GitLab CE 8.9.4 (OpenLogic CentOS 7.2)",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "GitLab",
+        "sku": "CE_CentOS"
+    },
+    "summary": "GitLab实现一个自托管Git 项目仓库，可通过 Web 界面访问，它能够浏览源代码，管理缺陷和注释。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    GitLab <a href=\"https://about.gitlab.com/\" target=\"_blank\">https://about.gitlab.com/</a> 是一个利用 Ruby on Rails 开发的开源应用程序，实现一个自托管的\r\n    Git 项目仓库，可通过 Web 界面进行访问公开的或者私人项目。它拥有与Github类似的功能，能够浏览源代码，管理缺陷和注释。可以管理团队对仓库的访问，它非常易于浏览提交过的版本并提供一个文件历史库。团队成员可以利用内置的简单聊天程序(Wall)进行交流。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>\r\n        部署镜像后通过 ssh 登录虚拟机，然后在命令行执行下列命令：\r\n        <br> sudo nano /etc/hostname <em># 更新为所部署虚拟机的真实 FQDN（如{DnsName}.chinacloudapp.cn）</em>\r\n        <br> sudo nano /etc/gitlab/gitlab.rb <em># 更新 external_url 为外部域名，如 'http://{DnsName}.chinacloudapp.cn'</em>\r\n        <br> sudo gitlab-ctl reconfigure\r\n        <br> sudo gitlab-ctl restart\r\n    </li>\r\n    <li>访问 http://{DnsName}.chinacloudapp.cn 以登录和使用 Git 服务器。首次访问时会自动跳转到密码重置页面，需要设定密码以初始化管理员账号，之后即可登录进行管理操作，默认用户名 root。</li>\r\n</ol>\r\n<strong>技术详情</strong>\r\n<ul>\r\n    <li>\r\n        使用putty远程登录服务器\r\n        <ol>\r\n            <li>\r\n                下载 linux 端的远程工具 putty\r\n            </li>\r\n            <li>\r\n                下载后解压并打开 putty.exe，并输入您的服务器 IP 及端口，端口一般默认为 22\r\n            </li>\r\n            <li>\r\n                用户默认具有 sudo 权限\r\n            </li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        程序安装位置\r\n        <ul>\r\n            <li>\r\n                GitLab\r\n                <br>/opt/gitlab\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        系统服务启动和停止\r\n        <br> 服务启动，停止，重启操作\r\n        <br> sudo gitlab-ctl (start|stop|restart)\r\n    </li>\r\n    <li>\r\n        log缺省查看地址\r\n        <ul>\r\n            <li>\r\n                GitLab\r\n                <br>/var/log/gitlab\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        其它\r\n        <ul>\r\n            <li>\r\n                GitLab config\r\n                <br>/etc/gitlab/gitlab.rb\r\n            </li>\r\n        </ul>\r\n    </li>\r\n</ul>",
+    "iconPath": "Icons/GitLab-CE-8_9_4",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "devService",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "https://about.gitlab.com"
+            }
+        }
+    ],
+    "eula": null,
+    "privacy": null,
+    "addHideKey": true
+}

@@ -1,0 +1,49 @@
+{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__WukongCRM-0_5_4"
+        }
+    },
+    "publisher": "KaKaLuoTe",
+    "publisherDisplayName": "卡卡罗特",
+    "publisherLegalName": "郑州卡卡罗特软件科技有限公司",
+    "label": "Wukong CRM 0.5.4 (OpenLogic CentOS7.2)",
+    "displayName": "悟空CRM 0.5.4 (OpenLogic CentOS7.2)",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "WukongCRM",
+        "sku": "CentOS"
+    },
+    "summary": "悟空CRM结合中小企业现状，实现了进销存一体化、营销、财务记账、销售管理、企业内部管理等功能。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    悟空CRM结合中小企业现状，采用科学的客户关系管理模型，还包括进销存一体化、营销、财务记账、企业内部管理等功能，完整的销售周期及售后管理让企业实际运作更加方便快捷。悟空CRM不仅能够科学的管理客户关系，而且能够全方位提高营销、销售和服务诸多日常业务的自动化和科学化，更进一步改善企业科学决策、实现企业管理信息化！\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>悟空CRM是一款免费的CRM管理系统，如需要购买企业版，请联系我们。 </li>\r\n    <li>MySQL数据库名：5kcrm，端口：3306；数据库用户名及密码，root:123+Win123 </li>\r\n    <li>悟空CRM虚拟机部署完毕后，对外提供的web服务，入口为：http://{DnsName}.chinacloudapp.cn/wukong/index.php </li>\r\n    <li>Web入口的CRM管理员用户名密码，admin:admin，请登录后修改 </li>\r\n    <li>悟空CRM帮助文档：<a href=\"http://www.5kcrm.com/index.php?m=doc\" target=\"_blank\">http://www.5kcrm.com/index.php?m=doc</a>。 </li>\r\n</ol>\r\n\r\n<strong>技术详情</strong>\r\n<ul>\r\n    <li>\r\n        使用SSH、WEB方式登录服务器\r\n        <ol>\r\n            <li>下载 linux 端的远程工具 putty。 </li>\r\n            <li>下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22。 </li>\r\n            <li>使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd </li>\r\n            <li>悟空CRM的访问地址为：http://{DnsName}.chinacloudapp.cn/wukong/index.php </li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n\r\n        程序安装位置\r\n        <ul>\r\n            <li>\r\n                悟空crm0.5.4\r\n                <br>/data/src/apache/htdocs/wukong/\r\n            </li>\r\n            <li>\r\n                Apache2.4.0\r\n                <br>/data/src/apache\r\n            </li>\r\n            <li>\r\n                php5.6.22\r\n                <br>/data/soft/php\r\n            </li>\r\n            <li>\r\n                mysql5.6.30\r\n                <br>/data/soft/mysql\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        系统服务启动和停止\r\n        <br> 服务启动，停止，重启操作（如果mysqld操作服务报错，请kill掉mysql多余的进程，再进行重启操作）\r\n        <br> service mysqld (start|stop|restart)\r\n        <br> service httpd (start|stop|restart)\r\n        <br>\r\n    </li>\r\n    <li>\r\n        Log缺省查看地址\r\n        <ul>\r\n            <li>\r\n                Apache\r\n                <br>/data/src/apache/logs\r\n            </li>\r\n            <li>\r\n                mysql\r\n                <br>/var/log/mysqld.log\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        其他\r\n        <br> 如果需要PHP扩展安装，比如mbstring，zlib扩展等，请进入/home/azureuser/lampX/下面解压缩相应的php5.6.22源代码包，进入php-5.6.22/ext，进行扩展安装.\r\n    </li>\r\n</ul>",
+    "iconPath": "Icons/WukongCRM-0_5_4",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "businessApplication",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "http://www.crm.cc/"
+            }
+        }
+    ],
+    "eula": "http://www.crm.cc/product/free",
+    "privacy": null,
+    "addHideKey": true
+}

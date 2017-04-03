@@ -1,0 +1,49 @@
+{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Bugzilla-5_0_3"
+        }
+    },
+    "publisher": "BugzillaCommunity",
+    "publisherDisplayName": "Bugzilla社区",
+    "publisherLegalName": "Bugzilla社区",
+    "label": "Bugzilla 5.0.3 (OpenLogic CentOS 7.2)",
+    "displayName": "Bugzilla 5.0.3 (OpenLogic CentOS 7.2)",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "Bugzilla",
+        "sku": "CentOS"
+    },
+    "summary": "Bugzilla是著名的开源缺陷跟踪系统，它可以控制软件开发中Bug管理的整个生命周期。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    Bugzilla是Mozilla公司提供的一款开源的免费Bug追踪系统，用来帮助你管理软件开发，建立完善的BUG跟踪体系。它可以进行软件开发生命周期中的Bug管理，包括提交（new），修复（resolve），关闭（close）等，用户可以通过它维护bug的优先级列表，并及时通知开发者。使我们更好的在软件开发过程中跟踪软件错误的处理过程，为开发和测试工作以及产品质量的度量提供数据支持，从而有效的保证软件产品的质量。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>通过ssh登录到虚拟机 , 输入创建虚机时的用户名和密码。</li>\r\n    <li>MySQL数据库用户名及密码，root:无、Apache Http对外端口：80。</li>\r\n    <li>进入/var/www/html 目录输入 sudo ./checksetup.pl，根据提示输入管理员邮箱，管理员名，密码等信息。</li>\r\n    <li>通过浏览器访问首页 http://{DnsName}.chinacloudapp.cn/。</li>\r\n    <li>Bugzilla帮助文档 <a href=\"https://www.bugzilla.org/docs\" target=\"_blank\">https://www.bugzilla.org/docs</a></li>\r\n</ol>\r\n<strong>技术详情</strong>\r\n<ul>\r\n    <li>\r\n        使用putty远程登录服务器\r\n        <ol>\r\n            <li>下载 linux 端的远程工具 putty</li>\r\n            <li>下载后解压并打开 putty.exe，并输入您的服务器 IP 及端口，端口一般默认为 22</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        程序安装位置\r\n        <ul>\r\n            <li>\r\n                httpd 2.4.6\r\n                <br>/usr/lib64/httpd</li>\r\n            <li>\r\n                bugzilla 5.0.3\r\n                <br>/var/www/bugzilla</li>\r\n            <li>\r\n                mariadb 5.5.47\r\n                <br>/var/lib/mysql\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        系统服务启动和停止\r\n        <br> 服务启动，停止，重启操作\r\n        <br> service mariadb (start|stop|restart)\r\n    </li>\r\n    <li>\r\n        log缺省查看地址\r\n        <ul>\r\n            <li>\r\n                mariadb\r\n                <br>/var/log/mariadb\r\n            </li>\r\n            <li>\r\n                httpd\r\n                <br>/var/log/httpd\r\n            </li>\r\n        </ul>\r\n        注意，mysql缺省只记录error-log，如果需要记录全部log，请在/etc/my.cnf配置文件中增加log地址，例如：\r\n        <br> general_log=ON\r\n        <br> general_log_file=/var/log/mariadb/mariadb.log\r\n    </li>\r\n</ul>",
+    "iconPath": "Icons/Bugzilla-5_0_3",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "devService",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "https://www.bugzilla.org"
+            }
+        }
+    ],
+    "eula": null,
+    "privacy": null,
+    "addHideKey": true
+}

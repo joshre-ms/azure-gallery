@@ -1,0 +1,52 @@
+{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__MySQL-5_6_30"
+        }
+    },
+    "publisher": "MySQLCommunity",
+    "publisherDisplayName": "MySQL社区",
+    "publisherLegalName": "MySQL社区",
+    "label": "MySQL 5.6.30 (OpenLogic CentOS7.2)",
+    "displayName": "MySQL 5.6.30 (OpenLogic CentOS7.2)",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "MySQL",
+        "sku": "CentOS"
+    },
+    "summary": "MySQL是最流行的中小关系型数据库管理系统，所采用的语言是最常用的标准化SQL语言。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    MySQL是一个真正的多用户、多线程SQL数据库服务器。SQL（结构化查询语言）是世界上最流行的和标准化的数据库语言。MySQL是以一个客户机/服务器结构的实现，它由一个服务器守护程序mysqld和很多不同的客户程序和库组成。 SQL是一种标准化的语言，它使得存储、更新和存取信息更容易。例如，你能用SQL语言为一个网站检索产品信息及存储顾客信息，同时MySQL也足够快和灵活以允许你存储记录文件和图像。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>\r\n        MySQL数据库用户名为root, 密码：无，端口：3306\r\n    </li>\r\n</ol>\r\n<strong>技术详情</strong>\r\n<ul>\r\n    <li>\r\n        使用putty远程登录服务器\r\n        <ol>\r\n            <li>下载 linux 端的远程工具 putty。 </li>\r\n            <li>下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22。 </li>\r\n            <li>使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd </li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        程序安装位置\r\n        <ul>\r\n            <li>\r\n                mysql5.6.30\r\n                <br>/usr/local/mysql\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        系统服务启动、停止和重启\r\n        <br> 系统缺省为开启启动，手动操作如下。（如果mysqld操作服务报错，请kill掉mysql多余的进程，再进行重启操作）\r\n        <br> service mysqld (start|stop|restart)\r\n    </li>\r\n    <li>\r\n        log缺省查看地址\r\n        <br> 注意：mysql缺省只记录error-log，如果需要记录全部log，请在/etc/my.cnf配置文件中增加log地址，例如：\r\n        <br> general_log=ON\r\n        <br> general_log_file=/data/mysqldb/mysql.log\r\n    </li>\r\n</ul>",
+    "iconPath": "Icons/MySQL-5_6_30",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "appInfra",
+        "devService",
+        "storage",
+        "database",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "https://www.mysql.com/"
+            }
+        }
+    ],
+    "eula": null,
+    "privacy": null,
+    "addHideKey": true
+}

@@ -1,0 +1,62 @@
+{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__LAMP-stack-5_6_22"
+        }
+    },
+    "publisher": "ApacheCommunity",
+    "publisherDisplayName": "Apache社区",
+    "publisherLegalName": "Apache社区",
+    "label": "LAMP Stack 5.6.22 (OpenLogic CentOS 7.2)",
+    "displayName": "LAMP Stack 5.6.22 (OpenLogic CentOS 7.2)",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "LAMP-Stack",
+        "sku": "CentOS"
+    },
+    "summary": "LAMP包括Linux+Apache+Mysql+PHP，是一组常用来搭建动态网站或者服务器的开源软件。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    LAMP 是指一组通常一起使用来运行动态网站或者服务器的自由软件名称首字母缩写：Linux, Apache, MySQL, PHP，它们本身都是各自独立的程序，但是共同组成了一个强大的Web应用程序平台，同时该开源软件开发的项目在软件方面的投资成本较低，因此受到整个IT界的关注。LAMP是最强大的网站解决方案，您也可以在此\r\n    LAMP 的基础上扩展自己的功能或应用需求。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>mysql数据库用户名及密码，root:123+Win123，请登录及时修改，缺省端口号3306。 </li>\r\n    <li>web入口：http：//{DnsName}.chinacloudapp.cn </li>\r\n    <li>某些软件需要PHP扩展安装，比如mbstring，zlib扩展等，请进入/home/azureuser/lampX/下面解压缩相应的php源代码包，进入php-x.x.x/ext，进行扩展安装。 </li>\r\n</ol>\r\n<strong>技术详情</strong>\r\n<ul>\r\n    <li>\r\n        使用putty远程登录服务器\r\n        <ol>\r\n            <li>下载 linux 端的远程工具 putty。 </li>\r\n            <li>下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22。 </li>\r\n            <li>使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd </li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        程序安装位置\r\n        <ul>\r\n            <li>\r\n                apache 2.4.20\r\n                <br>/opt/apache\r\n            </li>\r\n            <li>\r\n                php 5.6.22\r\n                <br>/opt/php\r\n            </li>\r\n            <li>\r\n                mysql 5.6.30\r\n                <br>/usr/local/mysql\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        系统服务启动、停止和重启\r\n        <br> 系统缺省为开机启动，手动操作如下，请用 root 账号或使用 sudo执行。\r\n        <br> service mysql (start|stop|restart)\r\n        <br> service httpd (start|stop|restart)\r\n    </li>\r\n    <li>\r\n        log缺省查看地址\r\n        <ul>\r\n            <li>\r\n                mysql\r\n                <br>/data/mysqldb/\r\n            </li>\r\n            <li>\r\n                httpd\r\n                <br>/opt/apache/logs/\r\n            </li>\r\n        </ul>\r\n        注意，mysql缺省只记录error-log，如果需要记录全部log，请在/etc/my.cnf配置文件中增加log地址，例如：\r\n        <br> general_log=ON\r\n        <br> general_log_file=/data/mysqldb/mysql.log\r\n    </li>\r\n    <li>\r\n        其它\r\n        <br> 如果需要PHP扩展安装，比如mbstring，zlib扩展等，请进入/home/azureuser/lampX/下面解压缩相应的php5.6.22源代码包，进入php-5.6.22/ext，进行扩展安装。\r\n    </li>\r\n</ul>",
+    "iconPath": "Icons/LAMP-stack-5_6_22",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "appInfra",
+        "devService",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "Apache",
+            "uri": {
+                "Default": "https://httpd.apache.org"
+            }
+        },
+        {
+            "label": "MySQL",
+            "uri": {
+                "Default": "http://www.mysql.com"
+            }
+        },
+        {
+            "label": "PHP",
+            "uri": {
+                "Default": "http://www.php.net"
+            }
+        }
+    ],
+    "eula": null,
+    "privacy": null,
+    "addHideKey": true
+}

@@ -1,0 +1,52 @@
+{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Mahara-16_10"
+        }
+    },
+    "publisher": "MaharaCommunity",
+    "publisherDisplayName": "Mahara社区",
+    "publisherLegalName": "Mahara社区",
+    "label": "Mahara 16.10 (Ubuntu 16.04)",
+    "displayName": "Mahara 16.10 (Ubuntu 16.04)",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "Mahara",
+        "sku": "Ubuntu"
+    },
+    "summary": "Mahara是一个线上学习系统，它具有学习型部落、数位学习历程、电子履历表产生器及网络社区等功能。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    Mahara 是一个开源且功能齐全的线上学习系统。它具有学习型部落，数位学习历程，电子履历表产生器及网络社区等功能。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>部署后访问 http://{DnsName}.chinacloudapp.cn/ 进行安装和使用。</li>\r\n    <li>编辑 /var/www/html/config.php 查看数据库名称和用户/密码，并设定 $cfg-&gt;urlsecret。</li>\r\n    <li>建立 cron * * * * * curl http://{DnsName}.chinacloudapp.cn/lib/cron.php。</li>\r\n    <li>MySQL 数据库 mahara 用户名/密码为 mahara 和 rahama，其它均可选择默认。MySQL root 初始密码为 toor，请适时修改。</li>\r\n</ol>\r\n\r\n<strong>技术详情</strong>\r\n<ul>\r\n    <li>\r\n        使用SSH、WEB方式登录服务器\r\n        <ol>\r\n            <li>下载 linux 端的远程工具 putty。</li>\r\n            <li>下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22。</li>\r\n            <li> 使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        程序安装位置\r\n        <ul>\r\n            <li>\r\n                Mahara\r\n                <br>/var/www/html\r\n            </li>\r\n            <li> Apache\r\n                <br>/usr/sbin/apache\r\n            </li>\r\n            <li> PHP\r\n                <br>/usr/bin/php\r\n            </li>\r\n            <li> MySQL\r\n                <br>/var/bin/mysql\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        系统服务启动和停止\r\n        <br> service apache2 (start|stop|restart)\r\n    </li>\r\n    <li>\r\n        Log缺省查看地址\r\n        <br> httpd /var/log/apache2\r\n    </li>\r\n</ul>",
+    "iconPath": "Icons/Mahara-16_10",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "businessApplication",
+        "web",
+        "webRecommended",
+        "media",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "https://mahara.org/"
+            }
+        }
+    ],
+    "eula": "http://mahara.org/interaction/forum/topic.php?id=2938#post12639",
+    "privacy": null,
+    "addHideKey": true
+}

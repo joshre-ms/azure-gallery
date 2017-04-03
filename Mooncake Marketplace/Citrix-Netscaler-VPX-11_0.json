@@ -1,0 +1,52 @@
+{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Citrix-Netscaler-VPX-11_0"
+        }
+    },
+    "publisher": "citrix",
+    "publisherDisplayName": "思杰",
+    "publisherLegalName": "思杰系统信息技术(北京)有限公司",
+    "label": "Citrix Netscaler VPX 11.0",
+    "displayName": "Citrix Netscaler VPX 11.0",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "netscalervpx110-6531",
+        "sku": "netscalerbyol"
+    },
+    "summary": "Citrix NetScaler VPX可以在虚拟设备中提供完整的Web应用负载均衡、加速、安全和卸载等功能。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    Web应用的部署复杂且成本较高，需要在越来越多的设备上为用户部署各种不同的应用。 这种需求可能会使IT部门疲于应付，无法提供足够理想的用户体验；与此同时，公司业务要求 Web应用随时可用并且安全可靠，IT部门可以通过部署虚拟化基础架构作为推动设备整合、降低成本并实现按需分配资源，迅速响应业务需求。Citrix®\r\n    NetScaler®VPX将虚拟化和网络设备融合在一起。NetScaler VPX使通常只有专用高端网络设备才能提供的功能也可以通过虚拟设备提供。这些虚拟设备可以轻松而动态地部署在一台服务器上，也可以部署在整个云计算数据中心内。NetScaler\r\n    VPX的简便性和灵活性使您可以轻松而经济高效地全面优化 所有Web应用。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>使用WEB或者SSH登录方式,用户名密码均为创建虚拟机时所设置的用户名密码,SSH端口22,HTTPS端口443</li>\r\n    <li>\r\n        登录后导入需软件许可证方可正常使用,如果还没有软件许可证,请联系Citrix客服购买，也可通过网上申请：\r\n        <br><a href=\"https://www.citrix.com/lp/try/netscaler-vpx-platinum.html\" target=\"_blank\">https://www.citrix.com/lp/try/netscaler-vpx-platinum.html</a>\r\n    </li>\r\n</ol>",
+    "iconPath": "Icons/Citrix-Netscaler-VPX-11_0",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "appInfra",
+        "businessApplication",
+        "networking",
+        "security",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2",
+        "Standard_A3",
+        "Standard_A4"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "http://www.citrix.com.cn/"
+            }
+        }
+    ],
+    "eula": "http://www.citrix.com/content/dam/citrix/en_us/documents/buy/enterprise-software-eula-cn.pdf",
+    "privacy": null,
+    "addHideKey": true
+}

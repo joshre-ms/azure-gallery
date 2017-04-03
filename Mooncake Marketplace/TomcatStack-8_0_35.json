@@ -1,0 +1,50 @@
+{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__TomcatStack-8_0_35"
+        }
+    },
+    "publisher": "ApacheCommunity",
+    "publisherDisplayName": "Apache社区",
+    "publisherLegalName": "Apache社区",
+    "label": "Tomcat Stack 8.0.35 (OpenLogic CentOS7.2)",
+    "displayName": "Tomcat Stack 8.0.35 (OpenLogic CentOS7.2)",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "Tomcat-Stack",
+        "sku": "CentOS"
+    },
+    "summary": "本Stack包含了Tomcat Web服务器、Apache httpd静态页面服务器以及数据库Mysql。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    Tomcat 服务器是一个免费的开放源代码的Web应用服务器，实际上Tomcat 部分是Apache 服务器的扩展，但它是独立运行的，是一个servlet容器和web server。当Apache和Tomcat互相搭配，Apache 为HTML页面服务，而Tomcat\r\n    实际上运行JSP 页面和Servlet。本镜像综合了Apache httpd, Tomcat和Mysql数据库服务，是搭建web服务器系统的首选。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>MySQL数据库用户名及密码，root:123+Win123，端口号：3306 </li>\r\n    <li>Tomcat对外http端口：8080 </li>\r\n    <li>Apache Http对外端口：80 </li>\r\n    <li>Tomcat的管理界面 http://{DnsName}.chinacloudapp.cn:8080 ，点击连接“server status”等的初始用户名密码为：tomcat/tomcat，虚拟机建立后请ssh登录然后修改，配置文件位置在\r\n        /opt/apache-tomcat-8.0.35/conf/tomcat-users.xml </li>\r\n</ol>\r\n<strong>技术详情</strong>\r\n<ul>\r\n    <li>\r\n        使用putty远程登录服务器\r\n        <ol>\r\n            <li>下载 linux 端的远程工具 putty。 </li>\r\n            <li>下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22。 </li>\r\n            <li>使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd </li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        程序安装位置\r\n        <ul>\r\n            <li>\r\n                tomcat8.0.35\r\n                <br>/opt/apache-tomcat-8.0.35\r\n            </li>\r\n            <li>\r\n                apache2.4.20\r\n                <br>/opt/apache\r\n            </li>\r\n            <li>\r\n                mysql5.6.30\r\n                <br>/usr/local/mysql\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        系统服务启动、停止和重启\r\n        <br> 系统缺省为开机启动，手动操作如下，请用 root 账号或使用 sudo执行。\r\n        <br> service tomcatd (start|stop|restart)\r\n        <br> service mysql (start|stop|restart)\r\n        <br> service httpd (start|stop|restart)\r\n    </li>\r\n    <li>\r\n        log缺省查看地址\r\n        <ul>\r\n            <li>\r\n                tomcat\r\n                <br>/opt/apache-tomcat-8.0.35/logs/\r\n            </li>\r\n            <li>\r\n                mysql\r\n                <br>/data/mysqldb/\r\n            </li>\r\n            <li>\r\n                httpd\r\n                <br>/opt/apache/logs/\r\n            </li>\r\n        </ul>\r\n        注意，mysql缺省只记录error-log，如果需要记录全部log，请在/etc/my.cnf配置文件中增加log地址，例如：\r\n        <br> general_log=ON\r\n        <br> general_log_file=/data/mysqldb/mysql.log\r\n    </li>\r\n</ul>",
+    "iconPath": "Icons/TomcatStack-8_0_35",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "appInfra",
+        "devService",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "https://tomcat.apache.org"
+            }
+        }
+    ],
+    "eula": null,
+    "privacy": null,
+    "addHideKey": true
+}

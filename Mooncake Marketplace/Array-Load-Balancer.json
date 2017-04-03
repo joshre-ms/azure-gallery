@@ -1,0 +1,51 @@
+{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Array-Load-Balancer"
+        }
+    },
+    "publisher": "array_networks",
+    "publisherDisplayName": "华耀中国",
+    "publisherLegalName": "华耀（中国）科技有限公司",
+    "label": "Array Load Balancer (vAPV)",
+    "displayName": "Array负载均衡控制器 (vAPV)",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "array-networks-vapv",
+        "sku": "array-vapv-azure-byol"
+    },
+    "summary": "Array Networks vAPV是一款包含加密、路由、负载均衡、应用安全等功能的应用控制管理器。",
+    "description": "<p>\r\n    Array Networks vAPV是一款易于配置、灵活、安全并提供高性能高容量体验的应用控制管理器。vAPV for Azure是与Azure云环境继承的一款虚拟设备，为物理环境、虚拟环境和云计算环境提供相同的功能特性。一体化的vAPV虚拟设备为灵活的应用交付方案提供一系列的丰富功能，包括高级SSL加密、易于配置的内容路由、L3到L7的服务器负载均衡、IPv4/IPv6双协议栈及应用安全。vAPV\r\n    for Azure提供简单/快速配置，以最小的管理工作量按需访问计算资源。提供高达99.999%的应用可用性，5倍应用加速及面向各层的应用安全。\r\n</p>\r\n<p> 客户必须直接向Array Networks购买许可和支持方能使用vAPV for Azure。</p>",
+    "iconPath": "Icons/Array-Load-Balancer",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "appInfra",
+        "networking",
+        "security",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A3",
+        "Standard_A2",
+        "Standard_A1"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "http://www.arraynetworks.com.cn"
+            }
+        }
+    ],
+    "eula": null,
+    "privacy": null,
+    "addHideKey": true
+}
