@@ -5,12 +5,6 @@
   "mediaReferences": {
     "PublicAzure": {
       "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-Ent-v151-WS2016-2017-04-06"
-    },
-    "Fairfax": {
-      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2017-Ent-v151-WS2016-2017-04-06"
-    },
-    "Blackforest": {
-      "mediaName": "42d7b4b4fccf42a49a84cddb435e1cea__VS-2017-Ent-v151-WS2016-2017-04-06"
     }
   },
   "imageReference": {
@@ -45,8 +39,6 @@
   "privacy": "https://go.microsoft.com/fwlink/?LinkID=824704",
   "screenshot": "Screenshots/VisualStudioOnWindowsServer.png",
   "cloudEnvironments": [
-    "PublicAzure",
-    "Fairfax",
-    "Blackforest"
+    "PublicAzure"
   ]
 }
