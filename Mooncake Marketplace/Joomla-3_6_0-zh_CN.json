@@ -1,0 +1,51 @@
+﻿{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Joomla-3_6_0-zh_CN"
+        }
+    },
+    "publisher": "JoomlaCommunity",
+    "publisherDisplayName": "Joomla社区",
+    "publisherLegalName": "Joomla社区",
+    "label": "Joomla 3.6.0 zh-CN (Openlogic CentOS 7.2)",
+    "displayName": "Joomla 3.6.0 简体中文 (Openlogic CentOS 7.2)",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "Joomla",
+        "sku": "zh_CN_CentOS"
+    },
+    "summary": "Joomla用于万维网与内部网建站，比如商业网站、个人blog、资讯管理系统等，可进行二次开发。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    Joomla是一套自由、开放源代码的内容管理系统，以PHP撰写，用于发布内容在万维网与内部网，通常被用来搭建商业网站、个人部落格、资讯管理系统、Web 服务等，还可以进行二次开发以扩充使用范围。其功能包含可提高效能的页面快取、RSS馈送、页面的可打印版本、新闻摘要、部落格、投票、网站搜寻、与语言国际化。Joomla!是一套自由的开源软件，使用GPL授权，任何人随时都能下载\r\n    Joomla! 并立即使用它。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>Joomla虚拟机部署完毕后，Web服务地址为：http://{DnsName}.chinacloudapp.cn/joomla/；</li>\r\n    <li>Web入口的管理员用户名密码，admin:admin，请登录后及时修改,后台管理登录入口为：http://&lt;DnsName&gt;.chinacloudapp.cn/joomla/administrator/；</li>\r\n    <li>数据库名：joomla，端口：3306；数据库用户名及密码，root:123+Win123；</li>\r\n    <li>Joomla官方帮助文档：https://docs.joomla.org/Main_Page。</li>\r\n</ol>\r\n<strong>技术详情</strong>\r\n<ul>\r\n    <li>\r\n        使用SSH、WEB方式登录服务器\r\n        <ol>\r\n            <li>下载 linux 端的远程工具 putty。 </li>\r\n            <li>下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22。</li>\r\n            <li>使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd</li>\r\n            <li>Joomla访问地址为：http://{DnsName}.chinacloudapp.cn/joomla/</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        程序安装位置\r\n        <ul>\r\n            <li>\r\n                Joomla3.6.0\r\n                <br>/opt/apache/htdocs/joomla\r\n            </li>\r\n            <li>\r\n                Apache2.4.0\r\n                <br>/opt/apache\r\n            </li>\r\n            <li>\r\n                php5.6.22\r\n                <br>/opt/php\r\n            </li>\r\n            <li>\r\n                mysql5.6.30\r\n                <br>/usr/local/mysql\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        系统服务启动和停止\r\n        <br> 服务启动，停止，重启操作（如果mysqld操作服务报错，请kill掉mysql多余的进程，再进行重启操作）\r\n        <br> service mysqld (start|stop|restart)\r\n        <br> service httpd (start|stop|restart)<br>\r\n    </li>\r\n    <li>\r\n        Log缺省查看地址\r\n        <br> Apache /data/src/apache/logs\r\n        <br> mysql /var/log/mysqld.log\r\n    </li>\r\n</ul>",
+    "iconPath": "Icons/Joomla-3_6_0-zh_CN",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "web",
+        "webRecommended",
+        "blogCms",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "https://www.joomla.org/"
+            }
+        }
+    ],
+    "eula": null,
+    "privacy": null,
+    "addHideKey": true
+}

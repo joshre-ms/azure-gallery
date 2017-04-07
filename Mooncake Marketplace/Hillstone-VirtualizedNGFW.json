@@ -1,0 +1,52 @@
+﻿{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Hillstone-VirtualizedNGFW"
+        }
+    },
+    "publisher": "hillstone-networks",
+    "publisherDisplayName": "山石网科",
+    "publisherLegalName": "山石网科通信技术(北京)有限公司",
+    "label": "Hillstone Virtualized NGFW",
+    "displayName": "山石网科虚拟化下一代防火墙",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "cloudedge-virtual-ngfw",
+        "sku": "Standard"
+    },
+    "summary": "山石云界虚拟化下一代防火墙适用于虚拟化云平台，可以为公有云租户和中小企业私有云提供安全防护。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    山石云界虚拟化下一代防火墙系列是专门为虚拟化环境设计的虚拟化网络安全产品，以纯软件形态部署，适用于虚拟化云平台，为用户提供不同安全等级应用之间的安全隔离和安全防护。产品支持精细化应用识别、VPN（IPSEC/SSL/L2TP）、入侵防御、负载均衡等功能，具备快速部署能力，即可为租户提供安全防护，又可为中小企业私有云用户提供高性价比的防护方案，能够降低客户初始采购和管理维护成本。山石云界还通过与公有云服务相结合，进行便捷的虚拟网络管理，为公有云环境中的独立租户提供专属的安全隔离和策略保护。具备各种日志记录查询功能，能够有效记录网络情况，并提供实时流量和安全事件的报表统计功能，帮助管理员全面掌握网络运行状态，提高运维效率。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>使用WEB或者SSH登录方式,用户名密码均为创建虚拟机时所设置的用户名密码,SSH端口22,HTTPS端口443</li>\r\n    <li>登录后导入需软件许可证方可正常使用,如果还没有软件许可证,请联系山石网科客服购买，也可通过网上申请： <a href=\"http://www.hillstonenet.com.cn/ordering/try.html\">http://www.hillstonenet.com.cn/ordering/try.html</a></li>\r\n</ol>\r\n<strong>拥有专业NGFW 安全防护功能：</strong>\r\n<ul>\r\n    <li>山石云·界虚拟防火墙拥有与NGFW 相同的操作系统，具有丰富的网络安全防护功能，对网络威胁进行防御，能够满足企业分支及多租户环境中的网络安全需求。</li>\r\n    <li>山石云·界虚拟防火墙为公有云租户提供南北向的安全防护，具备精细化应用管控、VPN（IPSEC/SSL/L2TP）、入侵防御（IPS）、攻击防护、链路与服务器负载均衡、QoS、NAT、WAF（web防护）等安全功能</li>\r\n    <li>虚拟防火墙能够检测通过VPC的网络流量，精确识别应用类型、访问者身份和权限，提供基于应用和用户的访问控制，阻止异常的网络访问行为</li>\r\n    <li>虚拟防火墙提供IPSec VPN和SSL VPN功能，用户通过互联网访问企业在公有云上的服务时，为访问者建立安全加密隧道，保证用户可以在任何地点、任何时间安全地使用公有云服务</li>\r\n    <li>虚拟防火墙提供服务器负载均衡功能， 支持多种负载调度算法，可以帮助企业组建虚拟机集群，用户的流量能够被平均地分配给集群中各个负载服务器。 </li>\r\n</ul>\r\n<strong>基于软件的山石云·界，适于虚拟化环境部署：</strong>\r\n<p>\r\n    在虚拟化环境中，用户的计算、存储、数据资源都是运行在服务器的虚拟机上，在考虑安全防护的设计时，山石云·界可在虚拟机上实现快速灵活的部署。以虚拟化形式部署的设备，能够克服物理防火墙的限制，在虚拟化环境中可部署于更加靠近VM的位置，对于VPC内部的流量进行过滤，实现对于南北向流量的安全防护。\r\n</p>\r\n<strong>结合云平台的安全可视化管理：</strong>\r\n<p>\r\n    山石云·界通过与公有云服务相结合，进行便捷的虚拟网络管理，为公有云环境中的独立租户提供专属的安全隔离和策略保护。山石云·界具有与NGFW 一致的管理界面，图形化交互直观易用。具备各种日志记录查询功能，能够有效记录网络情况，并提供实时流量和安全事件的报表统计功能，帮助管理员全面掌握网络运行状态，提高运维效率。\r\n</p>",
+    "iconPath": "Icons/Hillstone-VirtualizedNGFW",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "appInfra",
+        "networking",
+        "security",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Basic_A1",
+        "Basic_A2",
+        "Standard_D1"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "http://www.hillstonenet.com.cn/"
+            }
+        }
+    ],
+    "eula": "https://vfw.blob.core.chinacloudapi.cn/doc/软件许可及服务协议V2.0.pdf",
+    "privacy": null,
+    "addHideKey": true,
+    "screenshot": "Screenshots/Hillstone-VirtualizedNGFW/1.png"
+}

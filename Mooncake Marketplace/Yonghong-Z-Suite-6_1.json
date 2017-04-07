@@ -1,0 +1,52 @@
+﻿{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Yonghong-Z-Suite-6_1"
+        }
+    },
+    "publisher": "YongHongTech",
+    "publisherDisplayName": "永洪商智",
+    "publisherLegalName": "永洪商智科技有限公司",
+    "label": "Yonghong Z-Suite 6.1(CentOS 6.4)",
+    "displayName": "Yonghong Z-Suite 6.1 (CentOS 6.4)",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "Yonghong-Z-Suite",
+        "sku": "CentOS"
+    },
+    "summary": "永洪BI是一款商务智能软件，可以直接导入细节数据并通过拖拽快速生成分析报表，减轻业务人员负担。",
+    "description": "<strong>产品介绍</strong>\r\n<p>本镜像是一款商务智能软件。包括敏捷BI和Mpp数据集市。</p>\r\n<p>永洪BI享有超快上线周期和高性价比的美誉;拖拽式的简单操作使得人人都能以自服务的方式来进行数据分析。它的速度快得超乎你的想象，只需几分钟时间就能生成分析结果，一天时间内变更分析需求;它支持所有报表以及定制式中国报表，完美满足客户对数据分析和展现的多变需求。</p>\r\n<p>MPP 数据集市是永洪自主研发的一款大数据高性能计算引擎软件，采用列存储、分布式计算、内存计算、分布式通讯等技术。 这是一个具备分布式并行实时处理，复杂查询优化，复杂分析支持的大数据计算处理数据库系统，可在秒级速度内处理百亿级甚至更多的数据量，帮您轻松应对大数据时代的挑战。</p>\r\n<p>产品内整合了聚类、分类、回归、时序等深度分析算法，让用户能在一个操作界面中同时进行统计分析和深度分析，且对二者进行关联处理。通过结合深度分析算法，帮助用户洞察无法直接观测到的数据背后的关联、趋势和逻辑。界面极为易用，无需技术背景，业务人员可轻松上手，自服务完成深度分析需求。通过深度分析算法进行数据预测和数据关联性洞察，实现对数据含义和价值的深度挖掘。</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>部署完毕后，访问http://{DnsName}.chinacloudapp.cn:8080/ 进行使用。</li>\r\n    <li>需要开放的端口：SSH端口 22，Tomcat端口 8080。</li>\r\n    <li>首次访问后将出现更新license页面，请联系永洪科技获取license以使用本产品。联系电话：010-5843 0929，联系邮件：<a href=\"mailto:public@yonghongtech.com\">public@yonghongtech.com</a>。</li>\r\n</ol>",
+    "iconPath": "Icons/Yonghong-Z-Suite-6_1",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "businessApplication",
+        "analytics",
+        "bigData",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "http://www.yonghongtech.com"
+            }
+        }
+    ],
+    "eula": "http://www.yonghongtech.com/agreement",
+    "privacy": null,
+    "addHideKey": true,
+    "screenshot": "Screenshots/Yonghong-Z-Suite-6_1/1.png"
+}

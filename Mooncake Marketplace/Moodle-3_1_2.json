@@ -1,0 +1,49 @@
+﻿{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Moodle-3_1_2"
+        }
+    },
+    "publisher": "MoodleCommunity",
+    "publisherDisplayName": "Moodle社区",
+    "publisherLegalName": "Moodle社区",
+    "label": "Moodle 3.1.2 (Ubuntu 16.04 )",
+    "displayName": "Moodle 3.1.2 (Ubuntu 16.04 )",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "Moodle",
+        "sku": "Ubuntu"
+    },
+    "summary": "Moodle是一个开源及自由的电子学习软件平台，亦称为课程管理系统、学习管理系统或虚拟学习环境。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    Moodle https://moodle.org/ 是一个开源及自由的电子学习软件平台，亦称为课程管理系统、学习管理系统或虚拟学习环境。Moodle 特色异于其他商业线上教学平台，属于开放源代码的类别。<br>\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>部署后访问 http://{DnsName}.chinacloudapp.cn/ 进行安装和使用。</li>\r\n    <li>可在首页选择中文界面。</li>\r\n    <li>MySQL 数据库 moodle 用户名/密码为 moodle 和 doomle，其它均可选择默认。MySQL root 初始密码为 toor，请适时修改。</li>\r\n</ol>\r\n<strong>技术详情</strong>\r\n<ul>\r\n    <li>\r\n        使用SSH、WEB方式登录服务器\r\n        <ol>\r\n            <li>下载 linux 端的远程工具 putty。</li>\r\n            <li>下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22。</li>\r\n            <li>使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        程序安装位置\r\n        <ul>\r\n            <li>\r\n                Moodle\r\n                <br>/var/www/html\r\n            </li>\r\n            <li>\r\n                Apache\r\n                <br>/usr/sbin/apache\r\n            </li>\r\n            <li>\r\n                PHP\r\n                <br>/usr/bin/php\r\n            </li>\r\n            <li>\r\n                MySQL\r\n                <br>/var/bin/mysql\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        系统服务启动和停止\r\n        <br> service apache2 (start|stop|restart)\r\n    </li>\r\n    <li>\r\n        Log缺省查看地址\r\n        <br> httpd /var/log/apache2\r\n    </li>\r\n</ul>",
+    "iconPath": "Icons/Moodle-3_1_2",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "businessApplication",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "https://moodle.org/"
+            }
+        }
+    ],
+    "eula": "http://docs.moodle.org/31/en/Standards",
+    "privacy": null,
+    "addHideKey": true
+}

@@ -1,0 +1,51 @@
+﻿{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__ownCloud-9_1_1"
+        }
+    },
+    "publisher": "OwncloudCommunity",
+    "publisherDisplayName": "Owncloud社区",
+    "publisherLegalName": "Owncloud社区",
+    "label": "ownCloud 9.1.1 (Ubuntu 16.04)",
+    "displayName": "ownCloud 9.1.1 (Ubuntu 16.04)",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "ownCloud",
+        "sku": "Ubuntu"
+    },
+    "summary": "Owncloud可以创建私有的Web或云服务，包括文件管理、音乐、日历、联系人等功能。",
+    "description": "<p>\r\n    Owncloud <a href=\"https://www.owncloud.org\" target=\"_blank\">https://www.owncloud.org</a> 提供私人的 Web 服务。当前主要功能包括文件管理（内建文件分享）、音乐、日历、联系人等等，可在\r\n    PC 和服务器上运行。\r\n</p>\r\n<p>\r\n    部署后访问 <a href=\"http://DNSname/owncloud\" target=\"_blank\">http://DNSname/owncloud</a> 进行安装和使用。数据库名称等可以随意设置。MySQL root 初始密码为\r\n    toor，请适时修改。\r\n</p>",
+    "iconPath": "Icons/ownCloud-9_1_1",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "web",
+        "webRecommended",
+        "blogCms",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "http://owncloud.org/"
+            }
+        }
+    ],
+    "eula": "http://www.gnu.org/licenses/agpl-3.0.html",
+    "privacy": null,
+    "addHideKey": true
+}

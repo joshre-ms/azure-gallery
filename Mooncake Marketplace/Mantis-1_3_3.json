@@ -1,0 +1,49 @@
+﻿{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Mantis-1_3_3"
+        }
+    },
+    "publisher": "MantisCommunity",
+    "publisherDisplayName": "Mantis社区",
+    "publisherLegalName": "Mantis社区",
+    "label": "Mantis 1.3.3 (Ubuntu 16.04)",
+    "displayName": "Mantis 1.3.3 (Ubuntu 16.04)",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "Mantis",
+        "sku": "Ubuntu"
+    },
+    "summary": "Mantis是一个基于PHP技术的轻量级的开源Bug跟踪系统，以Web的形式提供项目管理及Bug跟踪服务。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    Mantis缺陷管理平台,也做MantisBT，全称Mantis Bug Tracker。Mantis是一个基于PHP技术 的轻量级的开源缺陷跟踪系统，以Web操作的形式提供项目管理及缺陷跟踪服务。在功能上、 实用性上足以满足中小型项目的管理及跟踪。更重要的是其开源，不需要负担任何费用。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>部署后访问 http://{DnsName}.chinacloudapp.cn/ 进行安装和使用。</li>\r\n    <li>可在首页选择中文界面。</li>\r\n    <li>MySQL 数据库 Mantis用户名/密码为 mantis 和 tanmis，其它均可选择默认。MySQL root 初始密码为 toor，请适时修改。</li>\r\n</ol>\r\n<strong>技术详情</strong>\r\n<ul>\r\n    <li>\r\n        使用SSH、WEB方式登录服务器\r\n        <ol>\r\n            <li>下载 linux 端的远程工具 putty。</li>\r\n            <li>下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22。</li>\r\n            <li>使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd</li>\r\n        </ol>\r\n        <br> 程序安装位置\r\n        <ul>\r\n            <li>\r\n                Mantis\r\n                <br>/var/www/html\r\n            </li>\r\n            <li>\r\n                Apache\r\n                <br>/usr/sbin/apache\r\n            </li>\r\n            <li>\r\n                PHP\r\n                <br>/usr/bin/php\r\n            </li>\r\n            <li>\r\n                MySQL\r\n                <br>/var/bin/mysql\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        系统服务启动和停止\r\n        <br> service apache2 (start|stop|restart)\r\n    </li>\r\n    <li>\r\n        Log缺省查看地址\r\n        <br> httpd /var/log/apache2\r\n    </li>\r\n</ul>",
+    "iconPath": "Icons/Mantis-1_3_3",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "devService",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "https://www.mantisbt.org/"
+            }
+        }
+    ],
+    "eula": "https://www.mantisbt.org/hosting.php",
+    "privacy": null,
+    "addHideKey": true
+}

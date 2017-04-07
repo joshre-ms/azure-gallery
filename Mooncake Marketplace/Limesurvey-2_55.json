@@ -1,0 +1,49 @@
+﻿{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Limesurvey-2_55"
+        }
+    },
+    "publisher": "LimesurveyCommunity",
+    "publisherDisplayName": "Limesurvey社区",
+    "publisherLegalName": "Limesurvey社区",
+    "label": "Limesurvey 2.55 (Ubuntu 16.04)",
+    "displayName": "Limesurvey 2.55 (Ubuntu 16.04)",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "Limesurvey",
+        "sku": "Ubuntu"
+    },
+    "summary": "Limesurvey是一款开源的在线问卷管理系统，具有问卷的设计、修改、发布、回收和统计等多项功能。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    Limesurvey是一款在线LimeSurvey问卷管理系统,具有问卷的设计、修改、发布、回收和统计等多项功能。同时它也是一个开源软件,其最新版本的软件包可以完全免费获取和使用。它集成了调查程序开发、调查问卷的发布以及数据收集等功能,使用它,用户不必了解这些功能的编程细节。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>部署后访问 http://{DnsName}.chinacloudapp.cn/ 进行安装和使用。</li>\r\n    <li>可在首页选择中文界面。</li>\r\n    <li>MySQL 数据库 Lime 用户名/密码为 lime 和 emil，其它均可选择默认。MySQL root 初始密码为 toor，请适时修改。</li>\r\n</ol>\r\n<br>\r\n<strong>技术详情</strong>\r\n<ul>\r\n    <li>\r\n        使用SSH、WEB方式登录服务器\r\n        <ol>\r\n            <li>下载 linux 端的远程工具 putty。</li>\r\n            <li>下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22。</li>\r\n            <li>使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd</li>\r\n        </ol>\r\n        <br> 程序安装位置\r\n        <ul>\r\n            <li>\r\n                Lime\r\n                <br>/var/www/html\r\n            </li>\r\n            <li>\r\n                Apache\r\n                <br>/usr/sbin/apache\r\n            </li>\r\n            <li>\r\n                PHP\r\n                <br>/usr/bin/php\r\n            </li>\r\n            <li>\r\n                MySQL\r\n                <br>/var/bin/mysql\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        系统服务启动和停止\r\n        <br> service apache2 (start|stop|restart)\r\n    </li>\r\n    <li>\r\n        Log缺省查看地址\r\n        <br> httpd /var/log/apache2\r\n    </li>\r\n</ul>",
+    "iconPath": "Icons/Limesurvey-2_55",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "businessApplication",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "https://manual.limesurvey.org/Installation"
+            }
+        }
+    ],
+    "eula": "http://www.gnu.org/licenses/gpl.html",
+    "privacy": null,
+    "addHideKey": true
+}

@@ -4,7 +4,7 @@
   "displayName": "Windows Server 2012 Datacenter",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-20161214-en.us-127GB.vhd"
+      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-20170316-en.us-30GB.vhd"
     },
     "Blackforest": {
       "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-Datacenter-20161214-en.us-127GB.vhd"
@@ -73,5 +73,7 @@
       "Blackforest",
       "Mooncake",
       "Fairfax"
-    ]
+    ],
+    "addHideKey": true,
+    "supportsHubOnOffSwitch": true 
 }
