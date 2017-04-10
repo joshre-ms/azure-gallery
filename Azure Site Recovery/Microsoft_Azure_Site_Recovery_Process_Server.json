@@ -11,6 +11,9 @@
       },
       "Fairfax": {
           "mediaName": "86a95f9bfa35485f911b6e54159d5afc__Microsoft-Azure-Site-Recovery-Process-Server-V2-201703.01"
+      },
+      "Blackforest": {
+          "mediaName": "e236071cdea648c1902ccb1a568d8780__Microsoft-Azure-Site-Recovery-Process-Server-V2-201703.01"
       }
   },
   "imageReference": {
@@ -51,6 +54,7 @@
   "cloudEnvironments":  [
       "PublicAzure",
       "Mooncake",
-      "Fairfax"
+      "Fairfax",
+      "Blackforest"
   ]
 }
