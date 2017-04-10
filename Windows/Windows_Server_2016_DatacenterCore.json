@@ -1,30 +1,17 @@
 ﻿{
   "publisher": "Microsoft",
-  "label": "Windows Server 2016 - Nano Server",
-  "displayName": "Windows Server 2016 - Nano Server",
-  "mediaReferences": {
-    "PublicAzure": {
-      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2016-Nano-20170328-en.us-8GB.vhd"
-    },
-    "Blackforest": {
-      "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2016-Nano-20170328-en.us-8GB.vhd"
-    },
-    "Mooncake": {
-      "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2016-Nano-20170328-en.us-8GB.vhd"
-    },
-    "Fairfax": {
-      "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2016-Nano-20170328-en.us-8GB.vhd"
-    }
-  },
+  "label": "Windows Server 2016 Datacenter - Server Core",
+  "displayName": "Windows Server 2016 Datacenter - Server Core",
   "imageReference": {
     "publisher": "MicrosoftWindowsServer",
     "offer": "WindowsServer",
-    "sku": "2016-Nano-Server"
+    "sku": "2016-Datacenter-Server-Core"
   },
   "OS": "Windows",
   "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
-  "description": "<p>Nano Server is a new headless installation option for Windows Server, running at a fraction of the size of the full operating system. Please consult the Nano Server <a href='http://go.microsoft.com/fwlink/?LinkId=825555' target='_blank'>Getting Started Guide</a> on how to install optional roles and features from the online package repository.</p>",
+  "description": "Windows Server 2016 is a comprehensive server operating system designed to run the applications and infrastructure that power your business. Server Core is a headless installation option which does not include the graphical user interface.",
   "iconPath": "Icons/Server",
+  "supportsSriov": true,
   "categories": [
     "virtualMachine",
     "microsoftServer",
@@ -56,7 +43,6 @@
   "eula": "https://go.microsoft.com/fwlink/?linkid=825699",
   "privacy": "https://go.microsoft.com/fwlink/?linkid=734730",
   "screenshot": null,
-  "hardened": true,
   "cloudEnvironments": [
     "PublicAzure",
     "Blackforest",
