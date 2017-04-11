@@ -13,7 +13,7 @@
       "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2016-Datacenter-20170406-en.us-127GB.vhd"
     },
     "Fairfax": {
-      "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2016-Datacenter-20161213-en.us-127GB.vhd"
+      "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2016-Datacenter-20170406-en.us-127GB.vhd"
     }
   },
   "imageReference": {
@@ -63,6 +63,5 @@
     "Mooncake",
     "Fairfax"
   ],
-  "addHideKey": true,
   "supportsHubOnOffSwitch": true
 }

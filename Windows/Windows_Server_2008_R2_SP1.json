@@ -13,7 +13,7 @@
       "mediaName": "55bc2b193643443bb879a78bda516fc8__Win2K8R2SP1-Datacenter-20170406-en.us-127GB.vhd"
     },
     "Fairfax": {
-      "mediaName": "c86ce82eba12456083220ee478773897__Win2K8R2SP1-Datacenter-20170110-en.us-127GB.vhd"
+      "mediaName": "c86ce82eba12456083220ee478773897__Win2K8R2SP1-Datacenter-20170406-en.us-127GB.vhd"
     }
   },
     "imageReference": {
@@ -74,6 +74,5 @@
       "Mooncake",
       "Fairfax"
     ],
-    "addHideKey": true,
     "supportsHubOnOffSwitch": true 
 }
