@@ -48,6 +48,12 @@
             "uri": {
                 "Default": "https://www.riverbed.com/sg/forms/sales-contact/steelhead-contact.html"
             }
+        },
+        {
+            "label": "Riverbed-SteelHead-ARM-Operation-Guide",
+            "uri": {
+                "Default": "https://scdocs.blob.core.chinacloudapi.cn/docs/Riverbed-SteelHead-ARM-Operation-Guide.pdf"
+            }
         }
     ],
     "eula": "http://www.riverbed.com/legal/license.html",

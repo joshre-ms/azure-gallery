@@ -10,8 +10,8 @@
     "publisher": "MediaWikiCommunity",
     "publisherDisplayName": "MediaWiki社区",
     "publisherLegalName": "MediaWiki社区",
-    "label": "MediaWiki 1.26.3 (OpenLogic CentOS 7.2)",
-    "displayName": "MediaWiki 1.26.3 (OpenLogic CentOS 7.2)",
+    "label": "MediaWiki 1.26.3 (CentOS 7.2)",
+    "displayName": "MediaWiki 1.26.3 (CentOS 7.2)",
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {

@@ -10,8 +10,8 @@
     "publisher": "Qssec",
     "publisherDisplayName": "青松云安全",
     "publisherLegalName": "青松智慧(北京)科技有限公司",
-    "label": "Qssec WAF 1.0.655 (Ubuntu 14.04 server)",
-    "displayName": "青松云安全 WAF 1.0.655 (ubuntu 14.04 server)",
+    "label": "Qssec WAF 1.0.655 (Ubuntu 14.04)",
+    "displayName": "青松云安全 WAF 1.0.655 (Ubuntu 14.04)",
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
@@ -20,7 +20,7 @@
         "sku": "Ubuntu"
     },
     "summary": "青松云WAF专门保护企业WEB网站免受攻击并自带负载均衡功能，可满足大型互联网企业的需要。",
-    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    青松云WAF针对企业业务真实安全需求，提供自动与主动双防御策略，隐藏企业网站源地址，有效检测并拦阻漏洞攻击如SQL注入，XSS跨站及黑客入侵，恶意扫描等威胁行为，并对0day攻击快速做出响应，可与青松DDoS云防御相结合，有效缓解DDoS攻击带来的影响，保护企业网站信息安全可靠。青松云WAF支持对http及https的请求防护，除默认防御规则库，提供自定义规则配置功能，可针对IP，URI，Method等进行对应规则设置，满足企业自身使用和需求制订的各异化要求，防御更精准。自带四层和七层负载均衡功能，具备高可用性和线性扩展的能力，安全独控，灵活管理，是支持大型互联网在线业务的防护需要。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>服务端口：TCP_10050，TCP_62222，TCP_80，TCP_443 </li>\r\n    <li>虚拟机创建完成后需有效的青松云许可证才能正常使用，请联系青松客服购买，联系电话：4008 198 123 </li>\r\n</ol>",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    青松云WAF针对企业业务真实安全需求，提供自动与主动双防御策略，隐藏企业网站源地址，有效检测并拦阻漏洞攻击如SQL注入，XSS跨站及黑客入侵，恶意扫描等威胁行为，并对0day攻击快速做出响应，可与青松DDoS云防御相结合，有效缓解DDoS攻击带来的影响，保护企业网站信息安全可靠。青松云WAF支持对http及https的请求防护，除默认防御规则库，提供自定义规则配置功能，可针对IP，URI，Method等进行对应规则设置，满足企业自身使用和需求制订的各异化要求，防御更精准。自带四层和七层负载均衡功能，具备高可用性和线性扩展的能力，安全独控，灵活管理，是支持大型互联网在线业务的防护需要。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>服务端口：TCP_10050（监控端口），TCP_62222（SSH登陆端口），TCP_80（流量引入云WAF端口），TCP_443（流量引入云WAF端口）。这些端口需要在镜像部署完成后，手动在网络安全组中打开。</li>\r\n    <li>使用密码加公钥，通过62222端口SSH登陆，登陆SSH后仅可查看系统信息，无需用户进行portal登陆配置，全部配置工作由青松安全工程师完成。</li>\r\n    <li>虚拟机创建完成后需有效的青松云许可证才能正常使用，请联系青松客服购买，联系电话：4008 198 123</li>\r\n</ol>",
     "iconPath": "Icons/qssec-WAF-1_0_655",
     "categories": [
         "virtualMachine",
@@ -42,6 +42,12 @@
             "label": "来源网站",
             "uri": {
                 "Default": "https://www.qssec.com/index.html"
+            }
+        },
+        {
+            "label": "Qssec-WAF-1.0.655-ARM-Operation-Guide",
+            "uri": {
+                "Default": "https://scdocs.blob.core.chinacloudapi.cn/docs/Qssec-WAF-1.0.655-ARM-Operation-Guide.pdf"
             }
         }
     ],

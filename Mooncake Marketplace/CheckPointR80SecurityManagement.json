@@ -43,6 +43,12 @@
             "uri": {
                 "Default": "http://www.checkpoint.com.cn/"
             }
+        },
+        {
+            "label": "Check-Point-R80-Security-Management-Operation-Guide",
+            "uri": {
+                "Default": "https://scdocs.blob.core.chinacloudapi.cn/docs/Check-Point-R80-Security-Management-Operation-Guide.pdf"
+            }
         }
     ],
     "eula": null,

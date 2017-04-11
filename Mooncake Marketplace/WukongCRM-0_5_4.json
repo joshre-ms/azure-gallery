@@ -11,7 +11,7 @@
     "publisherDisplayName": "卡卡罗特",
     "publisherLegalName": "郑州卡卡罗特软件科技有限公司",
     "label": "Wukong CRM 0.5.4 (OpenLogic CentOS7.2)",
-    "displayName": "悟空CRM 0.5.4 (OpenLogic CentOS7.2)",
+    "displayName": "悟空CRM 0.5.4 (CentOS7.2)",
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {

@@ -11,7 +11,7 @@
     "publisherDisplayName": "MongoDB社区",
     "publisherLegalName": "MongoDB社区",
     "label": "MongoDB 2.6.0 (OpenLogic CentOS7.2)",
-    "displayName": "MongoDB 2.6.0 (OpenLogic CentOS7.2)",
+    "displayName": "MongoDB 2.6.0 (CentOS7.2)",
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {

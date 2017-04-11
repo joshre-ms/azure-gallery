@@ -11,7 +11,7 @@
     "publisherDisplayName": "MySQL社区",
     "publisherLegalName": "MySQL社区",
     "label": "MySQL 5.6.30 (OpenLogic CentOS7.2)",
-    "displayName": "MySQL 5.6.30 (OpenLogic CentOS7.2)",
+    "displayName": "MySQL 5.6.30 (CentOS7.2)",
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {

@@ -43,10 +43,16 @@
             "uri": {
                 "Default": "http://www.fortinet.com.cn/index.html"
             }
+        },
+        {
+            "label": "FortiGate-ARM-Operation-Guide",
+            "uri": {
+                "Default": "https://scdocs.blob.core.chinacloudapi.cn/docs/FortiGate-ARM-Operation-Guide.pdf"
+            }
         }
     ],
     "eula": "http://www.fortinet.com.cn/solutions/next_generation_firewall.html",
     "privacy": null,
     "addHideKey": true,
-    "screenshot": "Screenshots/FortinetNGFW-5_2/1.png"
+    "screenshot": "Screenshots/FortinetNGFW-5_2"
 }
