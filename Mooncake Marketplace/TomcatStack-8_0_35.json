@@ -11,7 +11,7 @@
     "publisherDisplayName": "Apache社区",
     "publisherLegalName": "Apache社区",
     "label": "Tomcat Stack 8.0.35 (OpenLogic CentOS7.2)",
-    "displayName": "Tomcat Stack 8.0.35 (OpenLogic CentOS7.2)",
+    "displayName": "Tomcat Stack 8.0.35 (CentOS 7.2)",
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {

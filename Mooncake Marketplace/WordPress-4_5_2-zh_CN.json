@@ -11,7 +11,7 @@
     "publisherDisplayName": "WordPress社区",
     "publisherLegalName": "WordPress社区",
     "label": "WordPress 4.5.2 zh-CN (Openlogic CentOS 7.2)",
-    "displayName": "WordPress 4.5.2 简体中文 (Openlogic CentOS 7.2)",
+    "displayName": "WordPress 4.5.2 简体中文 (CentOS 7.2)",
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {

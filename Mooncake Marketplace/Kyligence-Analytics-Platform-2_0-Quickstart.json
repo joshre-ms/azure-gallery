@@ -29,6 +29,8 @@
         "azureCertified",
         "appInfra",
         "devService",
+        "analytics",
+        "bigData",
         "linux"
     ],
     "recommendedSizes": [
@@ -41,6 +43,18 @@
             "label": "来源网站",
             "uri": {
                 "Default": "http://kyligence.io"
+            }
+        },
+        {
+            "label": "KAP手册",
+            "uri": {
+                "Default": "https://kyligence.gitbooks.io/kap-manual/content/zh-cn/"
+            }
+        },
+        {
+            "label": "Azure镜像快速上手",
+            "uri": {
+                "Default": "https://kyligence.gitbooks.io/kap-manual/content/zh-cn/quickstart/quickstart_azure.cn.html"
             }
         }
     ],

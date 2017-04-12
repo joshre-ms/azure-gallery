@@ -43,6 +43,12 @@
             "uri": {
                 "Default": "http://www.checkpoint.com.cn/"
             }
+        },
+        {
+            "label": "Check-Point-Security-Gateway-ARM-Operation-Guide",
+            "uri": {
+                "Default": "https://scdocs.blob.core.chinacloudapi.cn/docs/Check-Point-Security-Gateway-ARM-Operation-Guide.pdf"
+            }
         }
     ],
     "eula": "http://www.checkpoint.com/support-services/software-license-agreement-limited-hardware-warranty/",

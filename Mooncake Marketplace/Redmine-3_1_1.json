@@ -1,0 +1,49 @@
+﻿{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Redmine-3_1_1"
+        }
+    },
+    "publisher": "Bitnami",
+    "publisherDisplayName": "Bitnami",
+    "publisherLegalName": "BitRockInc.",
+    "label": "Redmine 3.1.1 (Ubuntu 14.04)",
+    "displayName": "Redmine 3.1.1 (Ubuntu 14.04)",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "Redmine",
+        "sku": "Ubuntu"
+    },
+    "summary": "Redmine是基于WEB的项目管理软件，提供项目管理、WIKI、新闻台等功能，并集成了GIT、SVN、CVS等工具。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    Redmine是用RUBY开发的基于WEB的项目管理软件，提供项目管理、WIKI、新闻台等功能，集成版本管理系统GIT、SVN、CVS等等。通过WEB 形式把成员、任务、文档、讨论以及各种形式的资源组织在一起，推动项目的进度。Redmine\r\n    是以 Ruby on Rails 撰写的架构，它横跨多个平台与数据库，它的设计很明显是受一些类似功能软件包的Trac所影响。此外，它也是Bitnami 应用库的一部分。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>\r\n        redmine虚拟机部署完毕后，对外提供的web服务，入口为：http://{DnsName}.chinacloudapp.cn/；\r\n    </li>\r\n    <li>\r\n        web入口的管理员用户名密码，user:bitnami，请登录后修改；\r\n    </li>\r\n    <li>\r\n        数据库名：binami_redmine，端口：3306\r\n        <br> 数据库用户名及密码，root:bitnami；\r\n    </li>\r\n    <li>\r\n        Redmine官方帮助文档：<a href=\"http://www.redmine.org/projects/redmine/wiki/FAQ\" target=\"_blank\">http://www.redmine.org/projects/redmine/wiki/FAQ</a>。\r\n    </li>\r\n</ol>\r\n<strong>技术详情</strong>\r\n<ul>\r\n    <li>\r\n        使用SSH、WEB方式登录服务器\r\n        <ol>\r\n            <li>\r\n                下载 linux 端的远程工具 putty。\r\n            </li>\r\n            <li>\r\n                下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22。\r\n            </li>\r\n            <li>\r\n                使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd\r\n            </li>\r\n            <li>\r\n                Redmine访问地址为：http://{DnsName}.chinacloudapp.cn/\r\n            </li>\r\n            <li>\r\n                设置中文，使用用户名/密码：user/bitnami登录后在管理中设置简体中文后保存。\r\n            </li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        程序安装位置\r\n        <ul>\r\n            <li>\r\n                Redmine 3.1.1\r\n                <br>/opt/bitnami\r\n            </li>\r\n            <li>\r\n                ruby 2.0.0\r\n                <br>/opt/bitnami/ruby\r\n            </li>\r\n            <li>\r\n                mysql 5.5.45\r\n                <br>/opt/bitnami/mysql\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        系统服务启动和停止\r\n        <br> 服务启动，停止，重启操作（如果mysqld操作服务报错，请kill掉mysql多余的进程，再进行重启操作）\r\n        <br> service mysqld (start|stop|restart)\r\n    </li>\r\n    <li>\r\n        Log缺省查看地址\r\n        <ul>\r\n            <li>\r\n                mysql\r\n                <br>/opt/bitnami/mysql/data/mysqld.log\r\n            </li>\r\n        </ul>\r\n    </li>\r\n</ul>",
+    "iconPath": "Icons/Redmine-3_1_1",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "devService",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "https://www.redmine.org/"
+            }
+        }
+    ],
+    "eula": null,
+    "privacy": null,
+    "addHideKey": true
+}

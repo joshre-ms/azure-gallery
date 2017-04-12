@@ -43,6 +43,12 @@
             "uri": {
                 "Default": "http://f5.com/zh/"
             }
+        },
+        {
+            "label": "F5-WAF-12.0-ARM-Operation-Guide",
+            "uri": {
+                "Default": "https://scdocs.blob.core.chinacloudapi.cn/docs/F5-WAF-12.0-ARM-Operation-Guide.pdf"
+            }
         }
     ],
     "eula": null,

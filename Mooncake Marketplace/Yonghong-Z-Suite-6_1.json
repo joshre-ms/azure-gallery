@@ -43,10 +43,46 @@
             "uri": {
                 "Default": "http://www.yonghongtech.com"
             }
+        },
+        {
+            "label": "永洪快速入门手册",
+            "uri": {
+                "Default": "http://www.yonghongtech.com/plus/view.php?aid=35"
+            }
+        },
+        {
+            "label": "永洪Administrator手册",
+            "uri": {
+                "Default": "http://www.yonghongtech.com/plus/view.php?aid=33"
+            }
+        },
+        {
+            "label": "永洪Dashboard手册",
+            "uri": {
+                "Default": "http://www.yonghongtech.com/plus/view.php?aid=31"
+            }
+        },
+        {
+            "label": "永洪Scripting手册",
+            "uri": {
+                "Default": "http://www.yonghongtech.com/plus/view.php?aid=29"
+            }
+        },
+        {
+            "label": "永洪报表美化手册",
+            "uri": {
+                "Default": "http://www.yonghongtech.com/plus/view.php?aid=26"
+            }
+        },
+        {
+            "label": "永洪深度分析手册",
+            "uri": {
+                "Default": "http://www.yonghongtech.com/plus/view.php?aid=453"
+            }
         }
     ],
     "eula": "http://www.yonghongtech.com/agreement",
     "privacy": null,
     "addHideKey": true,
-    "screenshot": "Screenshots/Yonghong-Z-Suite-6_1/1.png"
+    "screenshot": "Screenshots/Yonghong-Z-Suite-6_1"
 }
