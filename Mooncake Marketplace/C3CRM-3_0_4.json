@@ -11,7 +11,7 @@
     "publisherDisplayName": "上海瑞策",
     "publisherLegalName": "上海瑞策软件有限公司",
     "label": "C3 CRM 3.0.4 (CentOS 6.5)",
-    "displayName": "易客CRM 3.0.4 (CentOS 6.5)",
+    "displayName": "易客CRM 3.0.4 (OpenLogic CentOS 6.5)",
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {

@@ -10,7 +10,7 @@
     "publisher": "ElasticCommunity",
     "publisherDisplayName": "Elastic社区",
     "publisherLegalName": "Elastic社区",
-    "label": "Elasticsearch 2.3 (CentOS 7.2)",
+    "label": "Elasticsearch 2.3 (OpenLogic CentOS 7.2)",
     "displayName": "Elasticsearch 2.3 (CentOS 7.2)",
     "imageType": "VMImage",
     "os": "Linux",

@@ -10,7 +10,7 @@
     "publisher": "GitLabCommunity",
     "publisherDisplayName": "GitLab社区",
     "publisherLegalName": "GitLab社区",
-    "label": "GitLab CE 8.9.4 (CentOS 7.2)",
+    "label": "GitLab CE 8.9.4 (OpenLogic CentOS 7.2)",
     "displayName": "GitLab CE 8.9.4 (CentOS 7.2)",
     "imageType": "VMImage",
     "os": "Linux",

@@ -10,7 +10,7 @@
     "publisher": "BugzillaCommunity",
     "publisherDisplayName": "Bugzilla社区",
     "publisherLegalName": "Bugzilla社区",
-    "label": "Bugzilla 5.0.3 (CentOS 7.2)",
+    "label": "Bugzilla 5.0.3 (OpenLogic CentOS 7.2)",
     "displayName": "Bugzilla 5.0.3 (CentOS 7.2)",
     "imageType": "VMImage",
     "os": "Linux",

@@ -10,7 +10,7 @@
     "publisher": "NagiosCommunity",
     "publisherDisplayName": "Nagios社区",
     "publisherLegalName": "Nagios社区",
-    "label": "Nagios 4.1.1 (CentOS 7.2)",
+    "label": "Nagios 4.1.1 (OpenLogic CentOS 7.2)",
     "displayName": "Nagios 4.1.1 (CentOS 7.2)",
     "imageType": "VMImage",
     "os": "Linux",

@@ -11,7 +11,7 @@
     "publisherDisplayName": "Piwik社区",
     "publisherLegalName": "Piwik社区",
     "label": "Piwik 2.16.1 (OpenLogic CentOS7.2)",
-    "displayName": "Piwik 2.16.1 (CentOS7.2)",
+    "displayName": "Piwik 2.16.1 (CentOS 7.2)",
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {

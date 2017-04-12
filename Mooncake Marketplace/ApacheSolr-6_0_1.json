@@ -10,7 +10,7 @@
     "publisher": "ApacheCommunity",
     "publisherDisplayName": "Apache社区",
     "publisherLegalName": "Apache社区",
-    "label": "Apache Solr 6.0.1 (CentOS 7.2)",
+    "label": "Apache Solr 6.0.1 (OpenLogic CentOS 7.2)",
     "displayName": "Apache Solr 6.0.1 (CentOS 7.2)",
     "imageType": "VMImage",
     "os": "Linux",

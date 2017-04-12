@@ -10,7 +10,7 @@
     "publisher": "ApacheCommunity",
     "publisherDisplayName": "Apache社区",
     "publisherLegalName": "Apache社区",
-    "label": "LEMP (LNMP) Stack 5.4.16 (CentOS 7.2)",
+    "label": "LEMP (LNMP) Stack 5.4.16 (OpenLogic CentOS 7.2)",
     "displayName": "LEMP (LNMP) Stack 5.4.16 (CentOS 7.2)",
     "imageType": "VMImage",
     "os": "Linux",

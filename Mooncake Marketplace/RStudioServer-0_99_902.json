@@ -10,7 +10,7 @@
     "publisher": "RstudioCommunity",
     "publisherDisplayName": "Rstudio社区",
     "publisherLegalName": "Rstudio社区",
-    "label": "RStudio Server 0.99.902 (CentOS 7.2)",
+    "label": "RStudio Server 0.99.902 (Openlogic CentOS 7.2)",
     "displayName": "RStudio Server 0.99.902 (CentOS 7.2)",
     "imageType": "VMImage",
     "os": "Linux",
