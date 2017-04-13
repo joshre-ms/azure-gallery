@@ -22,6 +22,7 @@
       "sku": "2008-R2-SP1"
     },
     "OS": "Windows",
+    "summary": "Simple to deploy, cost-effective, application-focused, and user-centric.  Also offers Hybrid Use Benefit (HUB) for licenses with Software Assurance.",
     "description": "Windows Server 2008 R2 is a multi-purpose server designed to increase the reliability and flexibility of your server or private cloud infrastructure, helping you to save time and reduce costs.  The virtual machine (VM) provides you with powerful tools to react to business needs with greater control and confidence.",
     "iconPath": "Icons/Server",
   "categories": [
