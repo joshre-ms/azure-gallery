@@ -59,6 +59,12 @@
             }
         },
         {
+            "label": "Further information",
+            "uri": {
+                "Default": "https://wiki.debian.org/Cloud/MicrosoftAzure"
+            }
+        },
+        {
             "label": "Pricing details",
             "uri": {
                 "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
