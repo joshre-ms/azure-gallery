@@ -8,7 +8,7 @@
         },
         "Fairfax": {
             "mediaName": "049f7c1557c347a4ad99582c8112fccc__OracleLinux-7.2-x86_64-20161020"
-        },
+        }
     },
     "imageReference": {
       "publisher": "Oracle",
