@@ -1,7 +1,7 @@
 {
   "publisher": "Microsoft",
-  "label": "Microsoft R Server 2016 (version 9.1.0) for Linux (Ubuntu version 16.04)",
-  "displayName": "Microsoft R Server 2016 (version 9.1.0) for Linux (Ubuntu version 16.04)",
+  "label": "Microsoft R Server (version 9.1.0) for Linux (Ubuntu version 16.04)",
+  "displayName": "Microsoft R Server (version 9.1.0) for Linux (Ubuntu version 16.04)",
   "mediaReferences": {
     "PublicAzure": {
       "mediaName": "f77b6659c86e4dd9995662a711094bfc__MRS-910-VM-Ubuntu-1-0-0"
@@ -16,8 +16,8 @@
     "sku": "Enterprise"
   },
   "OS": "Linux",
-  "summary": "Enterprise version of Microsoft R Server 2016 (version 9.1.0) for Linux (Ubuntu version 16.04).",
-  "description": "This image contains Microsoft R Server 2016 (version 9.1.0) for Linux (Ubuntu version 16.04). Microsoft R Server is the most broadly deployable enterprise-class analytics platform for R available today. For production workloads we recommend that you use a virtual machine size of DS4 or higher.",
+  "summary": "Enterprise version of Microsoft R Server (version 9.1.0) for Linux (Ubuntu version 16.04).",
+  "description": "This image contains Microsoft R Server (version 9.1.0) for Linux (Ubuntu version 16.04). Microsoft R Server is the most broadly deployable enterprise-class analytics platform for R available today. For production workloads we recommend that you use a virtual machine size of DS4 or higher.",
   "iconPath": "Icons",
   "categories": [
     "virtualMachine",
@@ -64,7 +64,8 @@
   ],
   "createUIDefinitionHandler": "Microsoft.Compute.RSeverVm",
   "cloudEnvironments": [
-    "PublicAzure"
+    "PublicAzure",
+    "Mooncake"
   ]
 
 }
