@@ -2,7 +2,14 @@
     "publisher": "Oracle",
     "label": "Oracle Linux 6.7.0.0.1",
     "displayName": "Oracle Linux 6.7.0.0.1",
-    "MediaName": "c290a6b031d841e09f2da759bbabe71f__Oracle-Linux-67-20161007",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "c290a6b031d841e09f2da759bbabe71f__Oracle-Linux-67-20161007"
+        },
+        "Fairfax": {
+            "mediaName": "049f7c1557c347a4ad99582c8112fccc__OracleLinux-6.7-x86_64-20161007"
+        }
+    },
     "imageReference": {
       "publisher": "Oracle",
       "offer": "Oracle-Linux",
@@ -11,6 +18,9 @@
     "OS": "Linux",
     "summary": "Oracle Linux 6 brings the latest Linux innovations to market, delivering extreme performance, advanced scalability, and reliability for enterprise applications and systems.",
     "description": "Oracle Linux 6 brings the latest Linux innovations to market, delivering extreme performance, advanced scalability, and reliability for enterprise applications and systems.",
+    "descriptionsForEnvironments": {
+        "Fairfax": "Oracle Linux 6 brings the latest Linux innovations to market, delivering extreme performance, advanced scalability, and reliability for enterprise applications and systems."
+    },
     "iconPath": "Icons/Linux",
     "categories": [
         "virtualMachine",

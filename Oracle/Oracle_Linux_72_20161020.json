@@ -2,7 +2,14 @@
     "publisher": "Oracle",
     "label": "Oracle Linux 7.2.0.0.1",
     "displayName": "Oracle Linux 7.2.0.0.1",
-    "MediaName": "c290a6b031d841e09f2da759bbabe71f__OracleLinux-7.2-x86_64-20161020",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "c290a6b031d841e09f2da759bbabe71f__OracleLinux-7.2-x86_64-20161020"
+        },
+        "Fairfax": {
+            "mediaName": "049f7c1557c347a4ad99582c8112fccc__OracleLinux-7.2-x86_64-20161020"
+        }
+    },
     "imageReference": {
       "publisher": "Oracle",
       "offer": "Oracle-Linux",
@@ -11,6 +18,9 @@
     "OS": "Linux",
     "summary": "Oracle Linux 7 delivers extreme performance, advanced scalability, and reliability for enterprise applications and systems. Optimized for enterprise workloads, Oracle Linux is the only operating system to offer zero-downtime updates.",
     "description": "Oracle Linux 7 delivers extreme performance, advanced scalability, and reliability for enterprise applications and systems. Optimized for enterprise workloads, Oracle Linux is the only operating system to offer zero-downtime updates.",
+    "descriptionsForEnvironments": {
+        "Fairfax": "Oracle Linux 7 delivers extreme performance, advanced scalability, and reliability for enterprise applications and systems. Optimized for enterprise workloads, Oracle Linux is the only operating system to offer zero-downtime updates."
+    },
     "iconPath": "Icons/Linux",
     "categories": [
         "virtualMachine",

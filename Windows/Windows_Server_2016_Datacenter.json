@@ -4,16 +4,16 @@
   "displayName": "Windows Server 2016 Datacenter",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2016-Datacenter-20170314-en.us-30GB.vhd"
+      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2016-Datacenter-20170406-en.us-127GB.vhd"
     },
     "Blackforest": {
-      "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2016-Datacenter-20161213-en.us-127GB.vhd"
+      "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2016-Datacenter-20170406-en.us-127GB.vhd"
     },
     "Mooncake": {
-      "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2016-Datacenter-20161213-en.us-127GB.vhd"
+      "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2016-Datacenter-20170406-en.us-127GB.vhd"
     },
     "Fairfax": {
-      "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2016-Datacenter-20161213-en.us-127GB.vhd"
+      "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2016-Datacenter-20170406-en.us-127GB.vhd"
     }
   },
   "imageReference": {
@@ -22,7 +22,7 @@
     "sku": "2016-Datacenter"
   },
   "OS": "Windows",
-  "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
+  "summary": "Simple to deploy, cost-effective, application-focused, and user-centric.  Also offers Hybrid Use Benefit (HUB) for licenses with Software Assurance.",
   "description": "Windows Server 2016 is the cloud-ready operating system that delivers new layers of security and Azure-inspired innovation for the applications and infrastructure that power your business. Increase security and reduce risk with multiple layers of protection built into the operating system.  Evolve your datacenter to save money and gain flexibility with software-defined compute, storage and network technologies. Innovate faster with an application platform optimized for the applications you run today, as well as the cloud-based apps of tomorrow.",
   "iconPath": "Icons/Server",
   "supportsSriov": true,
@@ -63,6 +63,5 @@
     "Mooncake",
     "Fairfax"
   ],
-  "addHideKey": true,
   "supportsHubOnOffSwitch": true
 }
