@@ -68,7 +68,6 @@
     "cloudEnvironments":  [
         "PublicAzure",
         "Blackforest",
-        "Mooncake",
-        "Fairfax"
+        "Mooncake"
     ]
 }
