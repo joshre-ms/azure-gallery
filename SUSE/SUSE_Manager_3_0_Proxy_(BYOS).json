@@ -3,11 +3,19 @@
     "label": "SUSE Manager 3.0 Proxy (Bring Your Own Subscription)",
     "displayName": "SUSE Manager 3.0 Proxy (BYOS)",
     "cloudEnvironments": [
-        "PublicAzure"
+        "PublicAzure",
+        "Blackforest",
+        "Mooncake"
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-manager-3-0-proxy-byos-v20170130"
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-manager-3-0-proxy-byos-v20170320"
+        },
+        "Blackforest": {
+            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-manager-3-0-proxy-byos-v20170320"
+        },
+        "Mooncake": {
+            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-manager-3-0-proxy-byos-v20170320"
         }
     },
     "imageReference": {

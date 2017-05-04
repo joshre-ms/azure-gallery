@@ -1,0 +1,51 @@
+﻿{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__AppScale-3_01"
+        }
+    },
+    "publisher": "ZhongAnTechnology",
+    "publisherDisplayName": "中桉信息",
+    "publisherLegalName": "北京中桉信息技术有限公司",
+    "label": "AppScale3.01",
+    "displayName": "AppScale3.01",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "AppScale",
+        "sku": "Ubuntu"
+    },
+    "summary": "AppScale实现了Google App Engine的开源实现和API，用户可以在任何地方发布基于GAE的应用。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    AppScale是一个开源的云计算平台项目，目的是提供和GAE兼容的平台，让用户的GAE应用可以不经修改，就可以迁移到AppScale上。\r\n</p>\r\n<ul>\r\n    <li>是你的GAE应用可以在任何公有云或者基础设施上运行。</li>\r\n    <li>为你的应用提供快速的开发测试环境</li>\r\n    <li>给开发者和云管理员控制应用部署、数据存储、资源使用、备份和迁移。</li>\r\n</ul>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>在 Azure 镜像市场选择AppScale镜像，然后点击“部署”。</li>\r\n    <li>切换至root目录下，使用 appscale/scripts/fast-start.sh --no-demo-app 启动AppScale，您需要等待几分钟。 </li>\r\n    <li>部署成功之后的入口地址：http://{DnsName}.chinacloudapp.cn:1080/status,在终结点中添加TCP端口：1080,1443,5555,2812,8080,4380。(AppScale的Web管理界面使用1080,1443,Web监控程序使用2812和5555，测试程序端口号8080和4380)</li>\r\n    <li>使用浏览器访问该入口，即可进入AppScale的Web管理页面。</li>\r\n    <li>AppScale管理员帐号为 a@a.com ，密码是 aaaaaa。</li>\r\n    <li>您可以设置默认的管理员帐号和密码。</li>\r\n    <li>产品具体的使用手册请参考：<a href=\"https://www.appscale.com/try-appscale\" target=\"_blank\">https://www.appscale.com/try-appscale</a></li>\r\n</ol>\r\n<strong>技术详情</strong>\r\n<ul>\r\n    <li>\r\n        使用SSH方式登录服务器\r\n        <ol>\r\n            <li>下载 linux 端的远程工具 putty。</li>\r\n            <li>下载后解压并打开 putty.exe，并输入您的服务器 IP（或 DNS 域名地址）及端口，端口一般默认为 22。</li>\r\n            <li>使用部署虚拟机的时候生成的用户名登录，此用户名具有 sudo 权限，进入 Linux 后如果需要 root 权限，可以执行： sudo su -</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        程序安装和配置路径：\r\n        <ul>\r\n            <li>\r\n                appscale\r\n                <br>/root/appscale\r\n            </li>\r\n            <li>\r\n                appscale-tools\r\n                <br>/root/appscale-tools\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        系统服务启动和停止 服务启动，停止，清除操作\r\n        <br> appscale (up|down|claen)\r\n    </li>\r\n</ul>",
+    "iconPath": "Icons/AppScale-3_01",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "appInfra",
+        "devService",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "http://www.appscale.com/"
+            }
+        }
+    ],
+    "eula": "http://github.com/AppScale/appscale",
+    "privacy": null,
+    "addHideKey": true,
+    "screenshot": "Screenshots/AppScale-3_01"
+}

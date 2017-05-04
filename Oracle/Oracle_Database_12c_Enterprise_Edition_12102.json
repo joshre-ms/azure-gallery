@@ -2,7 +2,14 @@
     "publisher": "Oracle",
     "label": "Oracle Database 12.1.0.2 Enterprise Edition",
     "displayName": "Oracle Database 12.1.0.2 Enterprise Edition",
-    "MediaName": "c290a6b031d841e09f2da759bbabe71f__db12ee-oracle-20170202",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "c290a6b031d841e09f2da759bbabe71f__db12ee-oracle-20170202"
+        },
+        "Fairfax": {
+            "mediaName": "049f7c1557c347a4ad99582c8112fccc__db12ee-oracle-20170206"
+        }
+    },
     "imageReference": {
       "publisher": "Oracle",
       "offer": "Oracle-Database-Ee",
@@ -10,7 +17,10 @@
     },
     "OS": "Linux",
     "summary": "Oracle Database 12c Enterprise Edition (12.1.0.2.0) is a next-generation database designed for the cloud.",
-    "description": "Oracle Database 12c Enterprise Edition (12.1.0.2.0) is a next-generation database designed for the cloud. It offers more than 500 new features including a new multitenant architecture that simplifies consolidating databases onto the cloud and enables customers to manage many databases as one without changing their applications. Customers can choose a wide range of Oracle Database Enterprise Edition options to deliver on business users' performance, security, big data, cloud, and availability service-level expectations. Minimum recommended virtual machine size for this image is Small.",
+    "description": "<p>Oracle Database 12c Enterprise Edition (12.1.0.2.0) is a next-generation database designed for the cloud. It offers more than 500 new features including a new multitenant architecture that simplifies consolidating databases onto the cloud and enables customers to manage many databases as one without changing their applications. Customers can choose a wide range of Oracle Database Enterprise Edition options to deliver on business users' performance, security, big data, cloud, and availability service-level expectations.</p><p></p><p>This image is a <b>Bring-Your-Own-License</b> image that assumes you have already procured the appropriate licenses with Oracle and are properly licensed to run this image in Microsoft Azure.</p>",
+    "descriptionsForEnvironments": {
+        "Fairfax": "<p>Oracle Database 12c Enterprise Edition (12.1.0.2.0) is a next-generation database designed for the cloud. It offers more than 500 new features including a new multitenant architecture that simplifies consolidating databases onto the cloud and enables customers to manage many databases as one without changing their applications. Customers can choose a wide range of Oracle Database Enterprise Edition options to deliver on business users' performance, security, big data, cloud, and availability service-level expectations.</p><p></p><p>This image is a <b>Bring-Your-Own-License</b> image that assumes you have already procured the appropriate licenses with Oracle and are properly licensed to run this image in Microsoft Azure.</p>"
+    },
     "iconPath": "Icons/Database",
     "categories": [
         "virtualMachine",
@@ -49,5 +59,9 @@
     ],
     "eula": "http://www.oracle.com/technetwork/licenses/oracle-license-2016066.html",
     "privacy": "http://www.oracle.com/us/legal/privacy/privacy-policy-078584.html",
-    "screenshot": null
+    "screenshot": null,
+    "cloudEnvironments": [
+        "PublicAzure",
+        "Fairfax"
+    ]
 }

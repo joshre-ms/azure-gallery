@@ -53,7 +53,7 @@
         "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=SQL"
     }, {
         "label": "Pricing details",
-        "uri": "https://azure.microsoft.com/pricing/details/virtual-machines/#sql"
+        "uri": "https://azure.microsoft.com/pricing/details/virtual-machines/sql-server-enterprise"
     }],
     "eula": "http://download.microsoft.com/download/A/A/A/AAAEF64C-7FE3-488D-A3A8-3109CC67A7A6/EULAs/license_Ent.rtf",
     "privacy": "http://go.microsoft.com/fwlink/?LinkID=398120",

@@ -1,0 +1,70 @@
+{
+  "publisher": "Microsoft",
+  "label": "Microsoft R Server (version 9.1.0) for Linux (CentOS version 7.2)",
+  "displayName": "Microsoft R Server (version 9.1.0) for Linux (CentOS version 7.2)",
+  "mediaReferences": {
+    "PublicAzure": {
+      "mediaName": "f77b6659c86e4dd9995662a711094bfc__MRS-910-VM-CentOS-1-0-2"
+    },
+    "Mooncake": {
+      "mediaName": "ecd3b9dd41b84c64beac85a74e60372b__MRS-910-VM-CentOS-1-0-2"
+    }
+  },
+  "imageReference": {
+    "publisher": "MicrosoftRServer",
+    "offer": "RServer-CentOS",
+    "sku": "Enterprise"
+  },
+  "OS": "Linux",
+  "summary": "Enterprise version of Microsoft R Server (version 9.1.0) for Linux (CentOS version 7.2).",
+  "description": "This image contains Microsoft R Server(version 9.1.0) for Linux (CentOS version 7.2). Microsoft R Server is the most broadly deployable enterprise-class analytics platform for R available today. For production workloads we recommend that you use a virtual machine size of DS4 or higher.",
+  "iconPath": "Icons",
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "windows",
+    "database",
+    "virtualMachineRecommended"
+  ],
+  "recommendedSizes": [
+    "Standard_DS12_v2",
+    "Standard_DS11_v2",
+    "Standard_DS13_v2",
+    "Standard_DS12",
+    "Standard_DS11",
+    "Standard_DS13"
+  ],
+  "links": [
+    {
+      "label": "Documentation",
+      "uri": "https://go.microsoft.com/fwlink/?linkid=838462"
+    },
+    {
+      "label": "Microsoft R documentation",
+      "uri": "https://msdn.microsoft.com/microsoft-r"
+    },
+    {
+      "label": "Microsoft R information",
+      "uri": "https://www.microsoft.com/en-us/cloud-platform/r-server"
+    },
+    {
+      "label": "Support forum",
+      "uri": "https://social.msdn.microsoft.com/Forums/en-US/home?category=MicrosoftR"
+    },
+    {
+      "label": "Pricing details",
+      "uri": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines"
+    }
+  ],
+  "eula": "http://go.microsoft.com/fwlink/?LinkId=525741",
+  "privacy": "http://go.microsoft.com/fwlink/?LinkId=512132 ",
+
+  "supportedExtensions": [
+  ],
+  "createUIDefinitionHandler": "Microsoft.Compute.RSeverVm",
+  "cloudEnvironments": [
+    "PublicAzure",
+    "Mooncake"
+  ]
+}

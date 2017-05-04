@@ -1,0 +1,49 @@
+﻿{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__SuiteCRM-7_7_6"
+        }
+    },
+    "publisher": "SuiteCRMCommunity",
+    "publisherDisplayName": "SuiteCRM社区",
+    "publisherLegalName": "SuiteCRM社区",
+    "label": "SuiteCRM 7.7.6 (Ubuntu 16.04)",
+    "displayName": "SuiteCRM 7.7.6 (Ubuntu 16.04)",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "SuiteCRM",
+        "sku": "Ubuntu"
+    },
+    "summary": "开源的客户关系管理（CRM）系统，很多跨国公司、民间组织和中小企业都将SuiteCRM作为他们的理想之选。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    SuiteCRM一个开源的客户关系管理（CRM）系统。SuiteCRM永久免费对用户开放，且在功能性上 完全不逊于Salesforce, SAP, Siebel和SugarCRM。这一点使得很多跨国公司，民间组织和 中小企业都将开源的SuiteCRM作为他们的理想之选。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li> 部署后访问 http://{DnsName}.chinacloudapp.cn/ 进行安装和使用。</li>\r\n    <li>\r\n        MySQL 数据库 suitecrm 用户名/密码为 suitecrm/crmsuite，Hostname: localhost。其它均可选择默认。\r\n        <br> MySQL root 初始密码为 toor，请适时修改。\r\n    </li>\r\n</ol>\r\n<strong>技术详情</strong>\r\n<ul>\r\n    <li>\r\n        使用SSH、WEB方式登录服务器\r\n        <ol>\r\n            <li>下载 linux 端的远程工具 putty。</li>\r\n            <li>下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22。</li>\r\n            <li>使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd</li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        程序安装位置\r\n        <ul>\r\n            <li>\r\n                Suite\r\n                <br>/var/www/html\r\n            </li>\r\n            <li>\r\n                Apache\r\n                <br>/usr/sbin/apache\r\n            </li>\r\n            <li>\r\n                PHP\r\n                <br>/usr/bin/php\r\n            </li>\r\n            <li>\r\n                MySQL\r\n                <br>/var/bin/mysql\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        系统服务启动和停止\r\n        <br>service apache2 (start|stop|restart)\r\n    </li>\r\n    <li>\r\n        Log缺省查看地址\r\n        <ul>\r\n            <li>\r\n                httpd\r\n                <br>/var/log/apache2\r\n            </li>\r\n        </ul>\r\n    </li>\r\n</ul>",
+    "iconPath": "Icons/SuiteCRM-7_7_6",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "businessApplication",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "http://suitecrm.com/download"
+            }
+        }
+    ],
+    "eula": "http://suitecrm.com/download",
+    "privacy": null,
+    "addHideKey": true
+}

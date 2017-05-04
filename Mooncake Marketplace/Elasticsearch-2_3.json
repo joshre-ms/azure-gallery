@@ -1,0 +1,49 @@
+﻿{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Elasticsearch-2_3"
+        }
+    },
+    "publisher": "ElasticCommunity",
+    "publisherDisplayName": "Elastic社区",
+    "publisherLegalName": "Elastic社区",
+    "label": "Elasticsearch 2.3 (OpenLogic CentOS 7.2)",
+    "displayName": "Elasticsearch 2.3 (CentOS 7.2)",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "ElasticSearch",
+        "sku": "CentOS"
+    },
+    "summary": "Elasticsearch是一个基于Apache Lucene的开源搜索引擎，并提供高级实时数据处理功能。",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    Elasticsearch <a href=\"https://www.elastic.co/\" target=\"_blank\">https://www.elastic.co/</a> 是一个基于 Apache Lucene (TM)\r\n    的开源搜索引擎。Elasticsearch 使用 Java 开发并使用 Lucene 作为其核心来实现所有索引和搜索的功能，但是它通过简单的 RESTful API 来隐藏 Lucene 的复杂性，从而让全文搜索变得简单。同时，Elasticsearch\r\n    还具有分布式实时文件存储，实时分析搜索引擎等功能，这些功能被集成到一个服务器之中。应用通过简单的 RESTful API 或是各种语言的客户端甚至命令行即可与之交互。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>中文参考文档 <a href=\"http://es.xiaoleilu.com/index.html\" target=\"_blank\">http://es.xiaoleilu.com/index.html</a> </li>\r\n    <li> 本地端口 9200，登录到主机后可用 curl http://localhost:9200 验证。 </li>\r\n</ol>\r\n<strong>技术详情</strong>\r\n<ul>\r\n    <li>\r\n        使用putty远程登录服务器\r\n        <ol>\r\n            <li>\r\n                下载 linux 端的远程工具 putty\r\n            </li>\r\n            <li>\r\n                下载后解压并打开 putty.exe，并输入您的服务器 IP 及端口，端口一般默认为 22\r\n            </li>\r\n            <li>\r\n                用户默认具有 sudo 权限\r\n            </li>\r\n        </ol>\r\n\r\n    </li>\r\n    <li>\r\n        程序安装位置\r\n        <ul>\r\n            <li>\r\n                elasticsearch\r\n                <br>/usr/share/elasticsearch\r\n            </li>\r\n        </ul>\r\n    </li>\r\n    <li>\r\n        系统服务启动和停止\r\n        <br> elasticsearch 服务启动，停止，重启操作\r\n        <br> sudo service elasticsearch (start|stop|restart)\r\n    </li>\r\n    <li>\r\n        外网访问权限\r\n        <br> /etc/elasticsearch 目录下修改 elasticsearch.yml 配置文件\r\n        <ul>\r\n            network.host: 0.0.0.0\r\n            <br> http.port: 9200\r\n        </ul>\r\n        登录Azure Manage在对应虚机配置Endpoint中增加9200端口\r\n    </li>\r\n    <li>\r\n        log缺省查看地址\r\n        <ul>\r\n            <li>\r\n                elasticsearch\r\n                <br>/var/log/elasticsearch\r\n            </li>\r\n        </ul>\r\n    </li>\r\n</ul>",
+    "iconPath": "Icons/Elasticsearch-2_3",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "appinfra",
+        "linux"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "https://www.elastic.co"
+            }
+        }
+    ],
+    "eula": "https://vmdepot.msopentech.cn/User/DefaultToU",
+    "privacy": null,
+    "addHideKey": true
+}

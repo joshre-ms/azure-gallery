@@ -1,0 +1,52 @@
+﻿{
+  "publisher": "Microsoft",
+  "label": "Windows Server 2016 Datacenter - Server Core",
+  "displayName": "Windows Server 2016 Datacenter - Server Core",
+  "imageReference": {
+    "publisher": "MicrosoftWindowsServer",
+    "offer": "WindowsServer",
+    "sku": "2016-Datacenter-Server-Core"
+  },
+  "OS": "Windows",
+  "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
+  "description": "Windows Server 2016 is a comprehensive server operating system designed to run the applications and infrastructure that power your business. Server Core is a headless installation option which does not include the graphical user interface.",
+  "iconPath": "Icons/Server",
+  "supportsSriov": true,
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "windows",
+    "appInfra"
+  ],
+  "recommendedSizes": [
+    "Standard_DS1_v2",
+    "Standard_DS2_v2",
+    "Standard_DS11_v2",
+    "Standard_DS1",
+    "Standard_DS2",
+    "Standard_DS11",
+    "Standard_D1_v2",
+    "Standard_D1",
+    "Small"
+  ],
+  "links": [
+    {
+      "label": "Learn more",
+      "uri": "http://www.microsoft.com/windowsserver"
+    },
+    {
+      "label": "Documentation",
+      "uri": "http://technet.microsoft.com/en-us/library/dn765472.aspx"
+    }
+  ],
+  "eula": "https://go.microsoft.com/fwlink/?linkid=825699",
+  "privacy": "https://go.microsoft.com/fwlink/?linkid=734730",
+  "screenshot": null,
+  "cloudEnvironments": [
+    "PublicAzure",
+    "Blackforest",
+    "Mooncake",
+    "Fairfax"
+  ]
+}

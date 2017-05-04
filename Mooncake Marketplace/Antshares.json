@@ -1,0 +1,51 @@
+﻿{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Antshares"
+        }
+    },
+    "publisher": "Antshares",
+    "publisherDisplayName": "氦氪互联网金融",
+    "publisherLegalName": "上海氦氪互联网金融信息服务有限公司",
+    "label": "Antshares",
+    "displayName": "小蚁Antshares",
+    "imageType": "VMImage",
+    "os": "Windows",
+    "imageReference": {
+        "publisher": "AzureChinaMarketplace",
+        "offer": "Antshares",
+        "sku": "Standard"
+    },
+    "summary": "小蚁是基于区块链技术，通过点对点网络提供登记发行、转让交易、清算交割等金融业务的去中心化网络协议。",
+    "description": "<strong>小蚁Antshares简介：</strong>\r\n<p>\r\n    小蚁是基于区块链技术，将实体世界的资产和权益进行数字化，通过点对点网络进行登记发行、转让交易、清算交割等金融业务的去中心化网络协议。官方网站：<a href=\"https://www.antshares.org\" target=\"_blank\">www.antshares.org</a>\r\n</p>\r\n<strong>镜像描述：</strong>\r\n<p>\r\n    该镜像是在Windows Server 2016中部署的，中包含小蚁Antshares中的两个项目：<strong>AntsharesDaemon </strong>和 <b>AntSharesUI</b> 前者是为开发者提供的命令行客户端，后者是为高级用户提供的图形界面的客户端。\r\n</p>\r\n<p>\r\n    两个软件及所需运行环境均在虚拟机的镜像中安装好，程序位于<strong>C盘根目录</strong>，桌面上有相应的快捷方式。用镜像创建好虚拟机后，通过&ldquo;远程桌面连接&rdquo;登录到Azure云服务器中就可以使用其中的程序了。\r\n    <a href=\"https://www.azure.cn/documentation/articles/cloud-services-nodejs-enable-remote-desktop/#bookmark-2\" target=\"_blank\">在Azure中使用远程桌面连接登录虚拟机</a>    从步骤二开始看。\r\n</p>\r\n<ul>\r\n    <li>\r\n        <strong>AntsharesDaemon: </strong>（为开发者提供的命令行客户端）\r\n        <br> AntsharesDaemon有以下三个功能：\r\n        <ol>\r\n            <li>\r\n                每个小蚁节点都可选的提供了一套API接口，用于从节点获取区块链数据，使得开发区块链应用变得十分方便。接口通过 <a href=\"http://www.jsonrpc.org/specification\" target=\"_blank\">JSON-RPC</a>                的方式提供，底层使用HTTP/HTTPS协议进行通讯。<a href=\"https://github.com/AntShares/AntShares/wiki/API%E5%8F%82%E8%80%83\" target=\"_blank\">API参考</a>\r\n                <br> 要启动一个提供RPC服务的节点，可运行以下命令启动RPC服务：打开cmd，进入C:\\AntsharesDaemon目录后输入\r\n                <ul> dotnet AntSharesDaemon.dll /rpc </ul>\r\n            </li>\r\n            <li>\r\n                它是一个命令行的钱包，你可以通过命令行与其交互，操纵你的资产，基本功能有：创建钱包、打开钱包、重建钱包索引、显示所有账户、显示所有地址、显示所有资产、创建地址、导入导出私钥、发送资产等。\r\n                <br> 启动方式为：打开cmd，进入C:\\AntsharesDaemon目录后输入\r\n                <ul> dotnet AntSharesDaemon.dll </ul>\r\n                查看所有命令：进入AntsharesDaemon程序后输入\r\n                <ul> help </ul>\r\n            </li>\r\n            <li>\r\n                它包含一个共识机制，可以开启Consensus与其它节点达成共识\r\n                <br> 开始共识的方式：进入AntsharesDaemon程序后输入\r\n                <ul> start consensus </ul>\r\n                注：参与共识首先要通过投票选举成为小蚁区块链的记账人。\r\n            </li>\r\n        </ol>\r\n    </li>\r\n    <li>\r\n        <strong>AntSharesUI: </strong>（为高级用户提供的图形界面的客户端）\r\n        <br> AntSharesUI是Windows上的钱包客户端，包含AntsharesDaemon中除共识以外的所有基本功能以及注册资产、分发资产、交易、选举、投票、提取小蚁币等高级功能。\r\n    </li>\r\n</ul>\r\n启动方式：双击C:\\AntSharesCore目录下的 <strong>AntSharesUI.exe</strong>\r\n<ul>\r\n    <li>\r\n        github: <a href=\"https://www.github.com/antshares\" target=\"_blank\">www.github.com/antshares</a>\r\n    </li>\r\n    <li>\r\n        开发团队: <a href=\"mailto:dev@antshares.org\">dev@antshares.org</a>\r\n    </li>\r\n    <li>\r\n        官方网站: <a href=\"https://www.antshares.org\" target=\"_blank\">www.antshares.org</a>\r\n    </li>\r\n</ul>\r\n该镜像为 <strong>开源</strong>、<strong>免费</strong>，由小蚁团队开发维护",
+    "iconPath": "Icons/Antshares",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "appInfra",
+        "devService",
+        "windows"
+    ],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "http://www.antshares.org"
+            }
+        }
+    ],
+    "eula": "http://github.com/AntShares/AntShares/blob/master/LICENSE",
+    "privacy": null,
+    "addHideKey": true,
+    "screenshot": "Screenshots/Antshares"
+}
