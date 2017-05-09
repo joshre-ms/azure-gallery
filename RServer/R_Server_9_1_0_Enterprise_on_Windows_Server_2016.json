@@ -17,7 +17,7 @@
   },
   "OS": "Windows",
   "summary": "R Server Only SQL Server 2016 Enterprise",
-  "description": "This image of SQL Server 2016 Enterprise (version 9.1.0) edition has been pre-configured with Microsoft R Server (Standalone) installation. Microsoft R Server (Standalone) provides the option to develop high performance R solutions on Windows while connecting to the database or data source of your choice. This image is charged exactly like SQL Server 2016 Enterprise image, but it contains no Database elements and has the core ScaleR and DeployR functionality optimized for Windows environments. For production workloads we recommend that you use a virtual machine size of DS4 or higher.",
+  "description": "This image of SQL Server 2016 Enterprise edition has been pre-configured with Microsoft R Server (Standalone) installation. Microsoft R Server (Standalone) provides the option to develop high performance R solutions on Windows while connecting to the database or data source of your choice. This image is charged exactly like SQL Server 2016 Enterprise image, but it contains the standalone version of Microsoft R Server and has the core ScaleR and Operationalization functionality optimized for Windows environments. For production workloads we recommend that you use a virtual machine size of DS4 or higher.",
   "iconPath": "Icons",
   "categories": [
     "virtualMachine",
@@ -64,6 +64,7 @@
   ],
   "createUIDefinitionHandler": "Microsoft.Compute.RSeverVm",
   "cloudEnvironments": [
-    "PublicAzure"
+    "PublicAzure",
+    "Mooncake"
   ]
 }

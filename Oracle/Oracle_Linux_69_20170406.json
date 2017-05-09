@@ -1,26 +1,16 @@
 {
     "publisher": "Oracle",
-    "label": "Oracle Linux 6.7.0.0.1",
-    "displayName": "Oracle Linux 6.7.0.0.1",
-    "mediaReferences": {
-        "PublicAzure": {
-            "mediaName": "c290a6b031d841e09f2da759bbabe71f__Oracle-Linux-67-20161007"
-        },
-        "Fairfax": {
-            "mediaName": "049f7c1557c347a4ad99582c8112fccc__OracleLinux-6.7-x86_64-20161007"
-        }
-    },
+    "label": "Oracle Linux 6.9.0.0.0",
+    "displayName": "Oracle Linux 6.9.0.0.0",
+    "MediaName": "c290a6b031d841e09f2da759bbabe71f__OracleLinux-6.9-x86_64-20170406-b773",
     "imageReference": {
       "publisher": "Oracle",
       "offer": "Oracle-Linux",
-      "sku": "6.7"
+      "sku": "6.9"
     },
     "OS": "Linux",
     "summary": "Oracle Linux 6 brings the latest Linux innovations to market, delivering extreme performance, advanced scalability, and reliability for enterprise applications and systems.",
     "description": "Oracle Linux 6 brings the latest Linux innovations to market, delivering extreme performance, advanced scalability, and reliability for enterprise applications and systems.",
-    "descriptionsForEnvironments": {
-        "Fairfax": "Oracle Linux 6 brings the latest Linux innovations to market, delivering extreme performance, advanced scalability, and reliability for enterprise applications and systems."
-    },
     "iconPath": "Icons/Linux",
     "categories": [
         "virtualMachine",
@@ -61,9 +51,5 @@
     ],
     "eula": "http://www.oracle.com/technetwork/licenses/oracle-license-2016066.html",
     "privacy": "http://www.oracle.com/us/legal/privacy/privacy-policy-078584.html",
-    "screenshot": null,
-    "cloudEnvironments": [
-        "PublicAzure",
-        "Fairfax"
-    ]
+    "screenshot": null
 }

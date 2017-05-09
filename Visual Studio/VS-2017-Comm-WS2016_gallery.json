@@ -4,10 +4,10 @@
   "displayName": "Visual Studio Community 2017 on Windows Server 2016 (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-Comm-WS2016-2017-03-06"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-Comm-WS2016-2017-04-25"
     },
     "Fairfax": {
-      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2017-Comm-WS2016-2017-03-06"
+      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2017-Comm-WS2016-2017-04-25"
     }
   },
   "imageReference": {
@@ -16,7 +16,7 @@
     "sku": "VS-2017-Comm-WS2016"
   },
   "OS": "Windows",
-  "description": "Visual Studio Community is our free, full featured and extensible IDE for non-enterprise application development.  This image contains a full product install of the originally released (\"RTW\" version) of Visual Studio Community 2017 on Windows Server 2016.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.\n\nThis image was created from the latest bits available on 3/27/2017.\n\nThe Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.",
+  "description": "Visual Studio Community is our free, full featured and extensible IDE for non-enterprise application development.  This image contains a full product install of the originally released (\"RTW\" version) of Visual Studio Community 2017 on Windows Server 2016.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.\n\nThis image was created from the latest bits available on 4/25/2017.\r\n\r\nThe Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.",
   "iconPath": "Icons/VS2017",
   "categories": [
     "virtualMachine",
@@ -34,7 +34,7 @@
   ],
   "links": [
     {
-      "label": "Visual Studio subscribers Azure benefit details",
+      "label": "Monthly Azure credit for Visual Studio subscribers",
       "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
     }
   ],
