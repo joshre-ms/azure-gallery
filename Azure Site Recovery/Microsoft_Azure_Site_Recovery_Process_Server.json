@@ -4,7 +4,7 @@
   "displayName": "Microsoft Azure Site Recovery Process Server V2",
   "mediaReferences": {
       "PublicAzure": {
-          "mediaName": "d4a65b493c36471ba82b42d53fbd8063__Microsoft-Azure-Site-Recovery-Process-Server-V2-201703.01"
+          "mediaName": "d4a65b493c36471ba82b42d53fbd8063__Microsoft-Azure-Site-Recovery-Process-Server-V2-201705.01"
       },
       "Mooncake": {
           "mediaName": "4c79fec56804401f828d9e7701be3b6c__Microsoft-Azure-Site-Recovery-Process-Server-V2-201703.01"

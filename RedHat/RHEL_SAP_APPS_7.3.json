@@ -5,13 +5,13 @@
     "displayName": "Red Hat Enterprise Linux 7.3 for SAP Business Apps",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_7_3_SAP-APPS_PAYG_LVM_Azure_RHUI-20170313201430"
+            "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_7_3_SAP-APPS_PAYG_LVM_Azure_RHUI-20170509042459"
         },
         "Fairfax": {
-            "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_7_3_SAP-APPS_PAYG_LVM_USGov_RHUI-20170313201402"
+            "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_7_3_SAP-APPS_PAYG_LVM_USGov_RHUI-20170509003849"
         },
         "Blackforest": {
-            "mediaName": "988f99737d6c4d3695891eef87a99de7__RHEL_7_3_SAP-APPS_PAYG_LVM_Germany_RHUI-20170313201549"
+            "mediaName": "988f99737d6c4d3695891eef87a99de7__RHEL_7_3_SAP-APPS_PAYG_LVM_Germany_RHUI-20170508220848"
         }
     },
     "imageReference": {

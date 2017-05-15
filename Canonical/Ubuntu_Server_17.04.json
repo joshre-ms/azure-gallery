@@ -1,29 +1,26 @@
 {
     "publisher": "Canonical",
-    "label": "Ubuntu Server 12.04 LTS",
-    "displayName": "Ubuntu Server 12.04.5 LTS",
+    "label": "Ubuntu Server 17.04",
+    "displayName": "Ubuntu Server 17.04",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-12_04_5-LTS-amd64-server-20170330-en-us-30GB"
+            "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-17_04-amd64-server-20170412.1-en-us-30GB"
         },
        "Mooncake": {
-            "mediaName": "b549f4301d0b4295b8e76ceb65df47d4__Ubuntu-12_04_5-LTS-amd64-server-20170330-en-us-30GB"
+            "mediaName": "b549f4301d0b4295b8e76ceb65df47d4__Ubuntu-17_04-amd64-server-20170412.1-en-us-30GB"
         },
-	"Blackforest": {
-            "mediaName": "c250f855e92241968d8ee9500700a6b4__Ubuntu-12_04_5-LTS-amd64-server-20170110-en-us-30GB"
-        },
-        "Fairfax": {
-            "mediaName": "d4d4f475036b47668a34e4f26d782ef3__Ubuntu-12_04_5-LTS-amd64-server-20170110-en-us-30GB"
+        "Blackforest": {
+            "mediaName": "c250f855e92241968d8ee9500700a6b4__Ubuntu-17_04-amd64-server-20170412.1-en-us-30GB"
         }
     },
     "imageReference": {
         "publisher": "Canonical",
         "offer": "UbuntuServer",
-        "sku": "12.04.5-LTS"
+        "sku": "17.04"
     },
     "OS": "Linux",
-    "summary": "Ubuntu Server is the world's most popular Linux for cloud environments.",
-    "description": "Ubuntu Server 12.04.5 LTS amd64 20170330 Public Azure, 20170330 Azure China, 20170110 Azure Germany, 20170110 Azure Gov. Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 12.04.5 LTS will be available until 2017-04-26.  Ubuntu Server is the perfect platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://partners.ubuntu.com/microsoft' target='_blank'>Ubuntu on Azure</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
+    "summary": "Ubuntu Server delivers the best value scale-out performance available.",
+    "description": "Ubuntu Server 17.04 amd64 20170412.1 Public Azure, 20170412.1 Azure China, 20170412.1 Azure Germany, 20170412.1 Azure Gov. Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 17.04 will be available until January 2018.  Ubuntu Server is the perfect virtual machine (VM) platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://partners.ubuntu.com/microsoft' target='_blank'>Ubuntu on Azure</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -49,7 +46,7 @@
         {
             "label": "Documentation",
             "uri": {
-                "Default": "https://help.ubuntu.com/12.04/index.html"
+                "Default": "https://help.ubuntu.com/17.04/index.html"
             }
         },
         {
@@ -71,7 +68,6 @@
     "cloudEnvironments":  [
         "PublicAzure",
         "Blackforest",
-        "Mooncake",
-        "Fairfax"
+        "Mooncake"
     ]
 }
