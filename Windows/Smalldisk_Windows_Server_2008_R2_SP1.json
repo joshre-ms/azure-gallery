@@ -10,7 +10,7 @@
     "imageReference": {
       "publisher": "MicrosoftWindowsServer",
       "offer": "WindowsServer",
-      "sku": "2008-R2-SP1"
+      "sku": "2008-R2-SP1-smalldisk"
     },
     "OS": "Windows",
     "summary": "<br><b>Note: This image comes with a 30GB OS Disk</b></br>Simple to deploy, cost-effective, application-focused, and user-centric.  Also offers Hybrid Use Benefit (HUB) for licenses with Software Assurance.",
