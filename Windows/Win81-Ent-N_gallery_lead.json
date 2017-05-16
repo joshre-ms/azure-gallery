@@ -1,0 +1,51 @@
+﻿{
+  "publisher": "Microsoft",
+  "label": "Windows 8.1 Enterprise N (x64) Lead",
+  "displayName": "Windows 8.1 Enterprise N (x64) LeadGen Test",
+  "mediaReferences": {
+    "PublicAzure": {
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Win81-Ent-N-2017-04-20"
+    }
+  },
+  "imageReference": {
+    "publisher": "MicrosoftWindowsServer",
+    "offer": "WindowsServer",
+    "sku": "2016-Datacenter"
+  },
+  "OS": "Windows",
+  "description": "This image contains Windows 8.1 Enterprise N (x64) and is exclusively available to Visual Studio subscribers. It allows you to easily and quickly set up an environment in Azure to develop and test applications targeting Windows 8.1.\n\nThis image was created from the latest bits available on 4/20/2017.",
+  "iconPath": "Icons/Client",
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "47970b32416a",
+    "windows",
+    "appInfra"
+  ],
+  "recommendedSizes": [
+    "Standard_A3",
+    "Standard_D2",
+    "Standard_D2_v2",
+    "Standard_DS2",
+    "Standard_DS2_v2"
+  ],
+  "links": [
+    {
+      "label": "Monthly Azure credit for Visual Studio subscribers",
+      "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
+    }
+  ],
+  "eula": "http://go.microsoft.com/fwlink/?LinkID=529064",
+  "privacy": "http://go.microsoft.com/fwlink/?LinkID=521839",
+  "screenshot": "Screenshots/Windows8.png",
+  "cloudEnvironments": [
+    "PublicAzure"
+  ],
+  "leadGeneration": {
+    "PublicAzure": {
+        "productId": "abc"
+    }
+  },
+  "addHideKey": true
+}
