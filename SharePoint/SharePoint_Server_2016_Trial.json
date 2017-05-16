@@ -2,14 +2,14 @@
     "publisher": "Microsoft",
     "label": "SharePoint Server 2016 Trial",
     "displayName": "SharePoint Server 2016 Trial",
-    "MediaName": "c6e0f177abd8496e934234bd27f46c5d__SharePoint-2016-Trial-3-7-2017",
+    "MediaName": "c6e0f177abd8496e934234bd27f46c5d__SharePoint-2016-Trial-5-16-2017",
     "imageReference": {
       "publisher": "MicrosoftSharepoint",
       "offer": "MicrosoftSharePointServer",
       "sku": "2016"
     },
     "OS": "Windows",
-    "description": "Microsoft SharePoint Server 2016 Trial on Windows Server 2016 Datacenter. Virtual Machines created with this trial image will expire on September 5, 2017. This image includes a complete installation of SharePoint Server 2016. Some SharePoint Server 2016 components require additional setup and configuration. You can set-up Active Directory and SQL Server required for your SharePoint farm by provisioning additional virtual machines. Minimum recommended virtual machine size for this image is Large. To evaluate the advanced capabilities of SharePoint Server 2016, we recommend that you use a minimum virtual machine size of D3.",
+    "description": "Microsoft SharePoint Server 2016 Trial on Windows Server 2016 Datacenter. Virtual Machines created with this trial image will expire on November 15, 2017. This image includes a complete installation of SharePoint Server 2016. Some SharePoint Server 2016 components require additional setup and configuration. You can set-up Active Directory and SQL Server required for your SharePoint farm by provisioning additional virtual machines. Minimum recommended virtual machine size for this image is Large. To evaluate the advanced capabilities of SharePoint Server 2016, we recommend that you use a minimum virtual machine size of D3.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",

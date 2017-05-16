@@ -1,28 +1,19 @@
 {
   "publisher": "Microsoft",
-  "label": "Windows Server 2012 R2 Datacenter",
-  "displayName": "Windows Server 2012 R2 Datacenter",
+  "label": "[smalldisk] Windows Server 2012 R2 Datacenter",
+  "displayName": "[smalldisk] Windows Server 2012 R2 Datacenter",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20170420-en.us-127GB.vhd"
-    },
-    "Blackforest": {
-      "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-R2-20170420-en.us-127GB.vhd"
-    },
-    "Mooncake": {
-      "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-R2-20170420-en.us-127GB.vhd"
-    },
-    "Fairfax": {
-      "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-R2-20170420-en.us-127GB.vhd"
+      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20170415-en.us-30GB.vhd"
     }
   },
      "imageReference": {
       "publisher": "MicrosoftWindowsServer",
       "offer": "WindowsServer",
-      "sku": "2012-R2-Datacenter"
+      "sku": "2012-R2-Datacenter-smalldisk"
     },
     "OS": "Windows",
-    "summary": "Simple to deploy, cost-effective, application-focused, and user-centric.  Also offers Hybrid Use Benefit (HUB) for licenses with Software Assurance.",
+    "summary": "<br><b>Note: This image comes with a 30GB OS Disk</b></br>Simple to deploy, cost-effective, application-focused, and user-centric.  Also offers Hybrid Use Benefit (HUB) for licenses with Software Assurance.",
     "description": "At the heart of the Microsoft Cloud OS vision, Windows Server 2012 R2 brings Microsoft's experience delivering global-scale cloud services into your infrastructure. The virtual machine (VM) offers enterprise-class performance, flexibility for your applications and excellent economics for your datacenter and hybrid cloud environment. This image includes Windows Server 2012 R2 Update (KB2919355).",
     "iconPath": "Icons/Server",
     "supportsSriov": true,
@@ -72,10 +63,6 @@
     "privacy": "https://privacy.microsoft.com/en-us/windows-8-1-privacy-statement",
     "screenshot": null,
     "cloudEnvironments":  [
-      "PublicAzure",
-      "Blackforest",
-      "Mooncake",
-      "Fairfax"
-    ],
-    "supportsHubOnOffSwitch": true 
+      "PublicAzure"
+    ]
 }
