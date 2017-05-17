@@ -1,7 +1,15 @@
 {
     "addHideKey": true,
     "leadGeneration": {
-        "productId": "firstParty_RedHat_TestLeadGen_1.0"
+        "PublicAzure": {
+            "productId":"firstParty_RedHat_TestLeadGen_1.0"
+        },
+        "Fairfax": {
+            "productId":""
+        },
+        "Blackforest": {
+            "productId":""
+        }
     },
     "publisher": "RedHat",
     "publisherDisplayName": "Red Hat",
