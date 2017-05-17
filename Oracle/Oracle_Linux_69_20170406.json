@@ -2,14 +2,7 @@
     "publisher": "Oracle",
     "label": "Oracle Linux 6.9.0.0.0",
     "displayName": "Oracle Linux 6.9.0.0.0",
-    "mediaReferences": {
-        "PublicAzure": {
-            "mediaName": "c290a6b031d841e09f2da759bbabe71f__OracleLinux-6.9-x86_64-20170406-b773"
-        },
-        "Fairfax": {
-            "mediaName": ""
-        }
-    },
+    "MediaName": "c290a6b031d841e09f2da759bbabe71f__OracleLinux-6.9-x86_64-20170406-b773",
     "imageReference": {
       "publisher": "Oracle",
       "offer": "Oracle-Linux",
