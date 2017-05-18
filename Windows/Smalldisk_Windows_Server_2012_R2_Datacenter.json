@@ -13,8 +13,8 @@
       "sku": "2012-R2-Datacenter-smalldisk"
     },
     "OS": "Windows",
-    "summary": "<br><b>Note: This image comes with a 30GB OS Disk</b></br>Simple to deploy, cost-effective, application-focused, and user-centric.  Also offers Hybrid Use Benefit (HUB) for licenses with Software Assurance.",
-    "description": "At the heart of the Microsoft Cloud OS vision, Windows Server 2012 R2 brings Microsoft's experience delivering global-scale cloud services into your infrastructure. The virtual machine (VM) offers enterprise-class performance, flexibility for your applications and excellent economics for your datacenter and hybrid cloud environment. This image includes Windows Server 2012 R2 Update (KB2919355).",
+    "summary": "Simple to deploy, cost-effective, application-focused, and user-centric.  Also offers Hybrid Use Benefit (HUB) for licenses with Software Assurance.",
+    "description": "<p><b>Note: This image comes with a 30GB OS Disk</b></p>At the heart of the Microsoft Cloud OS vision, Windows Server 2012 R2 brings Microsoft's experience delivering global-scale cloud services into your infrastructure. The virtual machine (VM) offers enterprise-class performance, flexibility for your applications and excellent economics for your datacenter and hybrid cloud environment. This image includes Windows Server 2012 R2 Update (KB2919355).",
     "iconPath": "Icons/Server",
     "supportsSriov": true,
     "categories": [
