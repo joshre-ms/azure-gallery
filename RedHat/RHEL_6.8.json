@@ -64,5 +64,16 @@
         "PublicAzure",
         "Fairfax",
         "Blackforest"
-    ]
+    ],
+    "leadGeneration": {
+        "PublicAzure": {
+            "productId": "firstParty_RHEL_6.8"
+        },
+        "Fairfax": {
+            "productId": ""
+        },
+        "Blackforest": {
+            "productId": ""
+        }
+    }
 }

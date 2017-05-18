@@ -1,6 +1,6 @@
 {
   "publisher": "Microsoft",
-  "label": "Windows Server 2016 Datacenter Test",
+  "label": "Windows Server 2016 Datacenter ARM",
   "displayName": "Windows Server 2016 Datacenter",
 
   "imageReference": {
@@ -40,11 +40,7 @@
   "privacy": "https://go.microsoft.com/fwlink/?linkid=734730",
   "screenshot": null,
   "cloudEnvironments": [
-    "PublicAzure",
-    "Blackforest",
-    "Mooncake",
-    "Fairfax"
+    "PublicAzure"
   ],
-  "addHideKey": true,
   "supportsHubOnOffSwitch": true
 }

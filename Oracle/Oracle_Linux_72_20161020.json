@@ -17,10 +17,7 @@
     },
     "OS": "Linux",
     "summary": "Oracle Linux 7 delivers extreme performance, advanced scalability, and reliability for enterprise applications and systems. Optimized for enterprise workloads, Oracle Linux is the only operating system to offer zero-downtime updates.",
-    "description": "Oracle Linux 7 delivers extreme performance, advanced scalability, and reliability for enterprise applications and systems. Optimized for enterprise workloads, Oracle Linux is the only operating system to offer zero-downtime updates.",
-    "descriptionsForEnvironments": {
-        "Fairfax": "Oracle Linux 7 delivers extreme performance, advanced scalability, and reliability for enterprise applications and systems. Optimized for enterprise workloads, Oracle Linux is the only operating system to offer zero-downtime updates."
-    },
+    "description": "<p>The Oracle Linux operating system is engineered for open cloud infrastructure. It delivers leading performance, scalability and reliability for enterprise SaaS and PaaS workloads as well as traditional enterprise applications.</p><p>Oracle Linux with the Unbreakable Enterprise Kernel is developed and tested to support demanding  enterprise workloads, such as Oracle Database. Additionally, with Oracle Linux Support, customers can benefit from Oracle Ksplice for zero-downtime kernel and user space updates, comprehensive kernel and application tracing with DTrace, and more. Unlike many other commercial Linux distributions, Oracle Linux is easy to download and completely free to use, distribute and update.</p><p><b>Pricing:</p></b>Oracle provides license mobility for customers who want to run Oracle software on Microsoft Azure – giving customers greater deployment flexibility and choice. For more details, see the FAQ below.<p><b>Additional information:</b></p><ul><li><a href='http://www.oracle.com/linux'>Oracle Linux Offerings</a></li><li><a href='http://www.oracle.com/technetwork/server-storage/linux/documentation/index.html'>Oracle Linux Documentation</a></li><li><a href='https://www.oracle.com/linux/support/index.html'>Oracle Linux support offerings</a></li><li><a href='http://www.oracle.com/technetwork/topics/cloud/faq-1963009.html'>Oracle and Microsoft Azure Agreement FAQ</a></li></ul>",
     "iconPath": "Icons/Linux",
     "categories": [
         "virtualMachine",

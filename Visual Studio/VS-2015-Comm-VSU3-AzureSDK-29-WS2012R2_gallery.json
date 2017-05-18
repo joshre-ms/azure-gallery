@@ -4,13 +4,7 @@
   "displayName": "Visual Studio Community 2015 Update 3 with Azure SDK 2.9 on Windows Server 2012 R2",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Comm-VSU3-AzureSDK-29-WS2012R2-2017-02-16"
-    },
-    "Fairfax": {
-      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2015-Comm-VSU3-AzureSDK-29-WS2012R2-2017-02-16"
-    },
-    "Blackforest": {
-      "mediaName": "42d7b4b4fccf42a49a84cddb435e1cea__VS-2015-Comm-VSU3-AzureSDK-29-WS2012R2-2017-02-16"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Comm-VSU3-AzureSDK-29-WS2012R2-2017-05-17"
     }
   },
   "imageReference": {
@@ -19,7 +13,7 @@
     "sku": "VS-2015-Comm-VSU3-AzureSDK-29-WS2012R2"
   },
   "OS": "Windows",
-  "description": "Visual Studio Community 2015 Update 3 is our free, full featured and extensible IDE for non-enterprise application development. This image contains Windows Server 2012 R2 with Visual Studio Community 2015 Update 3. It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.\n\nThis image was created from the latest bits available on 2/16/2017.\n\nThe Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.",
+  "description": "<p>Visual Studio Community 2015 Update 3 is our free, full featured and extensible IDE for non-enterprise application development. This image contains Windows Server 2012 R2 with Visual Studio Community 2015 Update 3. It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.</p><p>This image was created from the latest bits available on 5/17/2017.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.</p>",
   "iconPath": "Icons/VS2015",
   "categories": [
     "virtualMachine",
@@ -37,7 +31,7 @@
   ],
   "links": [
     {
-      "label": "Visual Studio subscribers Azure benefit details",
+      "label": "Monthly Azure credit for Visual Studio subscribers",
       "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
     }
   ],
@@ -45,8 +39,6 @@
   "privacy": "https://go.microsoft.com/fwlink/?LinkID=824704",
   "screenshot": "Screenshots/VisualStudioOnWindowsServer.png",
   "cloudEnvironments": [
-    "PublicAzure",
-    "Fairfax",
-    "Blackforest"
+    "PublicAzure"
   ]
 }

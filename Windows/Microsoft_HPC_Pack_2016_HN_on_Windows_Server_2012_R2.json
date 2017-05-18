@@ -2,7 +2,7 @@
   "publisher": "Microsoft",
   "label": "HPC Pack 2016 Head Node on Windows Server 2012 R2",
   "displayName": "HPC Pack 2016 Head Node on Windows Server 2012 R2",
-  "MediaName": "96316178b0644ae08bc4e037635ce104__HPC-Pack-2016-HN-5.0.5826.0-WS2012R2-ENU",
+  "MediaName": "96316178b0644ae08bc4e037635ce104__HPC-Pack-2016-HN-5.0.5827.0-WS2012R2-ENU",
   "imageReference": {
     "publisher": "MicrosoftWindowsServerHPCPack",
     "offer": "WindowsServerHPCPack",
