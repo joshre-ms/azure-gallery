@@ -64,5 +64,16 @@
         "PublicAzure",
         "Fairfax",
         "Blackforest"
-    ]
+    ],
+    "leadGeneration": {
+        "PublicAzure": {
+            "productId": "firstParty_RHEL_SAP_HANA_6.7"
+        },
+        "Fairfax": {
+            "productId": ""
+        },
+        "Blackforest": {
+            "productId": ""
+        }
+    }
 }
