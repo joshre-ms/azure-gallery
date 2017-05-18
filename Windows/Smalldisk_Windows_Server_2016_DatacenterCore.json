@@ -13,8 +13,8 @@
     "sku": "2016-Datacenter-Server-Core-smalldisk"
   },
   "OS": "Windows",
-  "summary": "<br><b>Note: This image comes with a 30GB OS Disk</b></br>Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
-  "description": "Windows Server 2016 is a comprehensive server operating system designed to run the applications and infrastructure that power your business. Server Core is a headless installation option which does not include the graphical user interface.",
+  "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
+  "description": "<p><b>Note: This image comes with a 30GB OS Disk</b></p>Windows Server 2016 is a comprehensive server operating system designed to run the applications and infrastructure that power your business. Server Core is a headless installation option which does not include the graphical user interface.",
   "iconPath": "Icons/Server",
   "supportsSriov": true,
   "categories": [
