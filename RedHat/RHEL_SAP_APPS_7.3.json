@@ -64,5 +64,16 @@
         "PublicAzure",
         "Fairfax",
         "Blackforest"
-    ]
+    ],
+    "leadGeneration": {
+        "PublicAzure": {
+            "productId": "firstParty_RHEL_SAP_APPS_7.3"
+        },
+        "Fairfax": {
+            "productId": ""
+        },
+        "Blackforest": {
+            "productId": ""
+        }
+    }
 }
