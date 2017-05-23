@@ -21,7 +21,8 @@
         "microsoftServer",
         "azure",
         "linux",
-        "database"
+        "database",
+        "sqlservercuration"
     ],
     "recommendedSizes": [
         "Standard_DS12_v2",

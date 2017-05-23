@@ -20,7 +20,8 @@
         "linux",
         "appInfra",
         "azureCertified",
-        "virtualMachineRecommended"
+        "virtualMachineRecommended",
+        "redhatenterpriselinuxcuration"
     ],
     "recommendedSizes": [
         "Standard_D2_v2",

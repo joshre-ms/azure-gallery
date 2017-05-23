@@ -19,7 +19,8 @@
     "azure",
     "windows",
     "appInfra",
-    "clientOS"
+    "clientOS",
+    "windowscuration"
   ],
   "recommendedSizes": [
     "Standard_DS1_v2",

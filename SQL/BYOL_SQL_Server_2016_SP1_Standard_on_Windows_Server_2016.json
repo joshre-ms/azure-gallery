@@ -30,7 +30,8 @@
         "windows",
         "enterpriseagreementonly",
         "database",
-        "virtualMachineRecommended"
+        "virtualMachineRecommended",
+        "sqlservercuration"
     ],
     "recommendedSizes": [
         "Standard_DS12_v2",

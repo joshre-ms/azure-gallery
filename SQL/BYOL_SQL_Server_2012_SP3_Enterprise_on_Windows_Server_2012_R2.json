@@ -28,7 +28,8 @@
         "enterpriseagreementonly",
         "azure",
         "windows",
-        "database"
+        "database",
+        "sqlservercuration"
     ],
     "recommendedSizes": [
         "Standard_DS13_v2",

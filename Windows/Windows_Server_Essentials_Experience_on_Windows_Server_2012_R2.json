@@ -17,7 +17,8 @@
         "azure",
         "windows",
         "appInfra",
-        "virtualMachineRecommended"
+        "virtualMachineRecommended",
+        "windowsservercuration"
     ],
     "recommendedSizes": [
         "Standard_D1_v2",

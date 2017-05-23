@@ -30,7 +30,8 @@
         "microsoftServer",
         "azure",
         "windows",
-        "database"
+        "database",
+        "sqlservercuration"
     ],
     "recommendedSizes": [
        "Basic_A1",
