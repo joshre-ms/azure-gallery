@@ -4,7 +4,7 @@
     "displayName": "SQL Server 2012 SP3 Express on Windows Server 2012 R2",
     "mediaReferences": {
       "PublicAzure": {
-        "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2012-SP3-11.0.6523.0-EXP-ENU-WS2012R2-CY16-SU03-SecurityUpdate"
+        "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2012-SP3-11.0.6523.0-EXP-ENU-WS2012R2-CY16-SU03-SecurityUpdate_2"
       },
       "Mooncake": {
         "mediaName": "74bb2f0b8dcc47fbb2914b60ed940c35__SqlServer-2012-SP3-11.0.6523.0-EXP-ENU-WS2012R2-CY16-SU03-SecurityUpdate"
