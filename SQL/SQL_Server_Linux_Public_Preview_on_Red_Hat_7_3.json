@@ -5,6 +5,9 @@
 	"mediaReferences": {
 		"PublicAzure": {
 			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQLVM_CTP2_v01"
+		},
+		"FairFax": {
+			"mediaName": "0bd04240ad4b45118afda6ddb0581fff__SQLVM_CTP2_v01"
 		}
 	},
 	"imageReference": {
@@ -21,7 +24,8 @@
         "microsoftServer",
         "azure",
         "linux",
-        "database"
+        "database",
+        "sqlservercuration"
     ],
     "recommendedSizes": [
         "Standard_DS12_v2",
@@ -49,6 +53,7 @@
     "screenshot": null,
     "supportedExtensions": [],
     "cloudEnvironments":  [
-        "PublicAzure"
+        "PublicAzure",
+        "FairFax"
     ]
 }

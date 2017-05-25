@@ -1,0 +1,46 @@
+﻿{
+  "publisher": "Microsoft",
+  "label": "Visual Studio Enterprise 2015 Update 3 with Universal Windows Tools and Azure SDK 2.9 on Windows 10 Enterprise N (x64)",
+  "displayName": "Visual Studio Enterprise 2015 Update 3 with Universal Windows Tools and Azure SDK 2.9 on Windows 10 Enterprise N (x64)",
+  "mediaReferences": {
+    "PublicAzure": {
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Ent-VSU3-AzureSDK-29-Win10-N-2017-05-23"
+    }
+  },
+  "imageReference": {
+    "publisher": "MicrosoftVisualStudio",
+    "offer": "VisualStudio",
+    "sku": "VS-2015-Ent-VSU3-AzureSDK-29-Win10-N"
+  },
+  "OS": "Windows",
+  "description": "<p>This image contains a full install of Visual Studio Enterprise 2015 Update 3 on Windows 10 Enterprise N (Anniversary Update), including the Universal Windows app development tools, the Windows 10 SDK, and the latest Azure SDK. It allows you to quickly setup environment in Azure to develop and test applications targeting the Universal Windows Platform.</p><p>This image was created from the latest bits available on 5/23/2017.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.</p>",
+  "iconPath": "Icons/VS2015",
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "47970b32416a",
+    "windows",
+    "appInfra",
+    "visualstudiocuration"
+  ],
+  "recommendedSizes": [
+    "Standard_A3",
+    "Standard_D2",
+    "Standard_D2_v2",
+    "Standard_DS2",
+    "Standard_DS2_v2"
+  ],
+  "links": [
+    {
+      "label": "Monthly Azure credit for Visual Studio subscribers",
+      "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
+    }
+  ],
+  "eula": "https://msdn.microsoft.com/subscriptions/eula",
+  "privacy": "https://go.microsoft.com/fwlink/?LinkID=824704",
+  "screenshot": "Screenshots/VisualStudioOnWindows10.png",
+  "cloudEnvironments": [
+    "PublicAzure"
+  ]
+}

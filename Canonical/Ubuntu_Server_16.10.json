@@ -32,7 +32,8 @@
         "linux",
         "appInfra",
         "azureCertified",
-        "virtualMachineRecommended"
+        "virtualMachineRecommended",
+        "ubuntuservercuration"
     ],
     "recommendedSizes": [
         "Standard_DS1_v2",

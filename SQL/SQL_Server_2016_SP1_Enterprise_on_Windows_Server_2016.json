@@ -32,7 +32,8 @@
         "azure",
         "windows",
         "database",
-        "virtualMachineRecommended"
+        "virtualMachineRecommended",
+        "sqlservercuration"
     ],
     "recommendedSizes": [
         "Standard_DS13_v2",
