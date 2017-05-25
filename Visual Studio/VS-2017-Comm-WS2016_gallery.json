@@ -23,7 +23,8 @@
     "microsoftServer",
     "azure",
     "windows",
-    "appInfra"
+    "appInfra",
+    "visualstudiocuration" 
   ],
   "recommendedSizes": [
     "Standard_A3",
