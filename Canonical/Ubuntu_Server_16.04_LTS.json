@@ -1,5 +1,6 @@
 {
     "publisher": "Canonical",
+     "publisherDisplayName": "Canonical",
     "label": "Ubuntu Server 16.04 LTS",
     "displayName": "Ubuntu Server 16.04 LTS",
     "mediaReferences": {
