@@ -70,7 +70,7 @@
     "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
     "leadGeneration": {
           "PublicAzure": {
-             "productId":"firstParty_SUSE_Linux_Enterprise_Server_12_SP1"
+             "productId":"firstParty_SUSE_Linux_Enterprise_Server_12_SP1_-_optimized_for_High_Performance_Compute"
          },
          "Fairfax": {
              "productId":""
