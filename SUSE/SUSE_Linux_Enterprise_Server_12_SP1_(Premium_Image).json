@@ -70,7 +70,7 @@
     "screenshot": "Screenshots/suse.png",
     "leadGeneration": {
           "PublicAzure": {
-             "productId":"firstParty_SUSE_Linux_Enterprise_Server_12_SP1"
+             "productId":"firstParty_SUSE_Linux_Enterprise_Server_12_SP1_(Premium_Image)"
          },
          "Fairfax": {
              "productId":""
