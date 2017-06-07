@@ -43,7 +43,7 @@
 	"linksForEnvironments": [{
 		"label": "Learn more",
 		"uri": {
-			"Default": "http://www.roguewave.com/products-services/open-source-support/centos-on-azure"
+			"Default":  "http://www.roguewave.com/products-services/open-source-support/centos-on-azure"
 		}
 	}, {
 		"label": "Pricing details",
