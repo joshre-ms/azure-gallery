@@ -1,5 +1,6 @@
 {
     "publisher": "Canonical",
+     "publisherDisplayName": "Canonical",
     "label": "Ubuntu Server 16.04 LTS",
     "displayName": "Ubuntu Server 16.04 LTS",
     "mediaReferences": {
@@ -69,11 +70,23 @@
     ],
     "eula": "http://www.ubuntu.com/project/about-ubuntu/licensing",
     "privacy": "http://www.ubuntu.com/aboutus/privacypolicy",
+     "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
     "screenshot": null,
     "cloudEnvironments":  [
         "PublicAzure",
         "Blackforest",
         "Mooncake",
         "Fairfax"
-    ]
+    ],
+"leadGeneration": {
+          "PublicAzure": {
+             "productId":"firstParty_Ubuntu_Server_16.04_LTS"
+         },
+         "Fairfax": {
+             "productId":""
+         },
+         "Blackforest": {
+             "productId":""
+         }
+      }
 }
