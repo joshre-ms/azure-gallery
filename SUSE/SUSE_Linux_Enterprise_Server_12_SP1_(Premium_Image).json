@@ -1,6 +1,7 @@
 {
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 12 SP1 (Premium Image)",
+    "publisherDisplayName": "SUSE",
     "displayName": "SLES 12 SP1 (Premium)",
     "cloudEnvironments": [
         "PublicAzure"
@@ -65,6 +66,18 @@
     ],
     "eula": "https://www.suse.com/licensing/eula/",
     "privacy": "https://www.suse.com/company/policies/privacy/",
+    "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
     "screenshot": "Screenshots/suse.png",
+    "leadGeneration": {
+          "PublicAzure": {
+             "productId":"firstParty_SUSE_Linux_Enterprise_Server_12_SP1"
+         },
+         "Fairfax": {
+             "productId":""
+         },
+         "Blackforest": {
+             "productId":""
+         }
+      },
     "isPremiumThirdParty": true
 }
