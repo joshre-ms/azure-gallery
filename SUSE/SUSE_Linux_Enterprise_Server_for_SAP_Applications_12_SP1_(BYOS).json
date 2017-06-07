@@ -82,7 +82,7 @@
     "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
 "leadGeneration": {
           "PublicAzure": {
-             "productId":"firstParty_SUSE_Linux_Enterprise_Server_for_SAP_Applications_12_SP1_(BYOS)	"
+             "productId":"firstParty_SUSE_Linux_Enterprise_Server_for_SAP_Applications_12_SP1_(BYOS)"
          },
          "Fairfax": {
              "productId":""
