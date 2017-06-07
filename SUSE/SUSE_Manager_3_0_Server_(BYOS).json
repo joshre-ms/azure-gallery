@@ -2,6 +2,7 @@
     "publisher": "SUSE",
     "label": "SUSE Manager 3.0 Server (Bring Your Own Subscription)",
     "displayName": "SUSE Manager 3.0 Server (BYOS)",
+    "publisherDisplayName": "SUSE",	 
     "cloudEnvironments": [
         "PublicAzure",
         "Blackforest",
@@ -77,5 +78,17 @@
     ],
     "eula": "https://www.suse.com/licensing/eula/",
     "privacy": "https://www.suse.com/company/policies/privacy/",
+    "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
+"leadGeneration": {
+          "PublicAzure": {
+             "productId":"firstParty_SUSE_Manager_3_0_Server_(BYOS)"
+         },
+         "Fairfax": {
+             "productId":""
+         },
+         "Blackforest": {
+             "productId":""
+         }
+      },
     "screenshot": "Screenshots/suse.png"
 }
