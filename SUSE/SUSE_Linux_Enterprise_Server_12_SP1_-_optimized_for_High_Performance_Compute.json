@@ -1,6 +1,7 @@
 {
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 12 SP1 - optimized for High Performance Compute",
+    "publisherDisplayName": "SUSE",	
     "displayName": "SLES 12 SP1 for HPC",
     "cloudEnvironments": [
         "PublicAzure"
@@ -65,5 +66,18 @@
     ],
     "eula": "https://www.suse.com/licensing/eula/",
     "privacy": "https://www.suse.com/company/policies/privacy/",
-    "screenshot": "Screenshots/suse.png"
+    "screenshot": "Screenshots/suse.png",
+    "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
+    "leadGeneration": {
+          "PublicAzure": {
+             "productId":"firstParty_SUSE_Linux_Enterprise_Server_12_SP1"
+         },
+         "Fairfax": {
+             "productId":""
+         },
+         "Blackforest": {
+             "productId":""
+         }
+      }
+    
 }
