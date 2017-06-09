@@ -2,6 +2,7 @@
     "publisher": "SUSE",
     "label": "openSUSE Leap 42.1",
     "displayName": "openSUSE Leap 42.1",
+    "publisherDisplayName": "SUSE",	 
     "cloudEnvironments": [
         "PublicAzure",
         "Blackforest",
@@ -72,5 +73,17 @@
     ],
     "eula": "https://en.opensuse.org/openSUSE:License",
     "privacy": null,
+    "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
+"leadGeneration": {
+          "PublicAzure": {
+             "productId":"firstParty_openSUSE_Leap_42.1"
+         },
+         "Fairfax": {
+             "productId":""
+         },
+         "Blackforest": {
+             "productId":""
+         }
+      },
     "screenshot": "Screenshots/opensuse.png"
 }

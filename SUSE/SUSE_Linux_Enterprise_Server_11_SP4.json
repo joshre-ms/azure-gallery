@@ -1,6 +1,7 @@
 {
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 11 SP4",
+    "publisherDisplayName": "SUSE",
     "displayName": "SLES 11 SP4",
     "cloudEnvironments": [
         "PublicAzure",
@@ -78,5 +79,17 @@
     ],
     "eula": "https://www.suse.com/licensing/eula/",
     "privacy": "https://www.suse.com/company/policies/privacy/",
-    "screenshot": "Screenshots/suse.png"
+    "screenshot": "Screenshots/suse.png",
+    "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
+    "leadGeneration": {
+          "PublicAzure": {
+             "productId":"firstParty_SUSE_Linux_Enterprise_Server_11_SP4"
+         },
+         "Fairfax": {
+             "productId":""
+         },
+         "Blackforest": {
+             "productId":""
+         }
+      }
 }

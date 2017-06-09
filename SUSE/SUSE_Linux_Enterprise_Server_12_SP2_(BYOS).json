@@ -2,6 +2,7 @@
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 12 SP2 (Bring Your Own Subscription)",
     "displayName": "SLES 12 SP2 (BYOS)",
+    "publisherDisplayName": "SUSE",	 
     "cloudEnvironments": [
         "PublicAzure",
         "Blackforest",
@@ -78,5 +79,17 @@
     ],
     "eula": "https://www.suse.com/licensing/eula/",
     "privacy": "https://www.suse.com/company/policies/privacy/",
+    "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
+"leadGeneration": {
+          "PublicAzure": {
+             "productId":"firstParty_SUSE_Linux_Enterprise_Server_12_SP2_(BYOS)"
+         },
+         "Fairfax": {
+             "productId":""
+         },
+         "Blackforest": {
+             "productId":""
+         }
+      },
     "screenshot": "Screenshots/suse.png"
 }
