@@ -4,7 +4,7 @@
   "displayName": "Visual Studio Enterprise 2017 on Windows Server 2016 (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-Ent-WS2016-2017-05-24"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-Ent-WS2016-2017-06-15"
     },
     "Fairfax": {
       "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2017-Ent-WS2016-2017-05-24"
@@ -16,7 +16,7 @@
     "sku": "VS-2017-Ent-WS2016"
   },
   "OS": "Windows",
-  "description": "<p>With Visual Studio Enterprise you can create applications across devices and services, using an integrated, end-to-end DevOps solution for productivity and coordination across teams of any size. You get the tools you need to design, build, deploy and manage desktop, Windows Store, Windows Phone, and Office apps, as well as mobile and web apps across any device, web site, cloud service, and more.  This image contains a full prodct install of the originally released (or 'RTW') version of Visual Studio Enterprise 2017 on Windows Server 2016.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.</p><p>This image was created from the latest bits available on 5/24/2017.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.</p>",
+  "description": "<p>With Visual Studio Enterprise you can create applications across devices and services, using an integrated, end-to-end DevOps solution for productivity and coordination across teams of any size. You get the tools you need to design, build, deploy and manage desktop, Windows Store, Windows Phone, and Office apps, as well as mobile and web apps across any device, web site, cloud service, and more.  This image contains a full prodct install of the originally released (or 'RTW') version of Visual Studio Enterprise 2017 on Windows Server 2016.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.</p><p>This image was created from the latest bits available on 6/15/2017.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.</p>",
   "iconPath": "Icons/VS2017",
   "categories": [
     "virtualMachine",
@@ -24,7 +24,7 @@
     "azure",
     "windows",
     "appInfra",
-    "visualstudiocuration" 
+    "visualstudiocuration"
   ],
   "recommendedSizes": [
     "Standard_A3",

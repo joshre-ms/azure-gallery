@@ -4,7 +4,7 @@
   "displayName": "Visual Studio Community 2017 on Windows Server 2016 (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-Comm-WS2016-2017-05-24"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-Comm-WS2016-2017-06-15"
     },
     "Fairfax": {
       "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2017-Comm-WS2016-2017-05-24"
@@ -16,7 +16,7 @@
     "sku": "VS-2017-Comm-WS2016"
   },
   "OS": "Windows",
-  "description": "<p>Visual Studio Community is our free, full featured and extensible IDE for non-enterprise application development.  This image contains a full product install of the originally released (or 'RTW') version of Visual Studio Community 2017 on Windows Server 2016.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.</p><p>This image was created from the latest bits available on 5/24/2017.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.</p>",
+  "description": "<p>Visual Studio Community is our free, full featured and extensible IDE for non-enterprise application development.  This image contains a full product install of the originally released (or 'RTW') version of Visual Studio Community 2017 on Windows Server 2016.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.</p><p>This image was created from the latest bits available on 6/15/2017.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.</p>",
   "iconPath": "Icons/VS2017",
   "categories": [
     "virtualMachine",
@@ -24,7 +24,7 @@
     "azure",
     "windows",
     "appInfra",
-    "visualstudiocuration" 
+    "visualstudiocuration"
   ],
   "recommendedSizes": [
     "Standard_A3",
