@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "OpenfireCommunity",
         "offer": "Openfire",
         "sku": "CentOS"
     },

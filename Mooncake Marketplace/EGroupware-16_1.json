@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "EGroupwareCommunity",
         "offer": "Egroupware",
         "sku": "Ubuntu"
     },

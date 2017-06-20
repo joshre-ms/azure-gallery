@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "ElasticCommunity",
         "offer": "ElasticSearch",
         "sku": "CentOS"
     },

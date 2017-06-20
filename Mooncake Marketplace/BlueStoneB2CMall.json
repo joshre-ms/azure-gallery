@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "72d96ff559a64e39ac594d8493284081__BlueStoneB2CMall"
+            "mediaName": "91183adafeeb4e18b28649c3096ef4fb__BlueStoneB2CMall"
         }
     },
     "publisher": "BlueStoneEcommerceSolution",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Windows",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "BlueStoneEcommerceSolution",
         "offer": "B2CMall",
         "sku": "Standard"
     },
