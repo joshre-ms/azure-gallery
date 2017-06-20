@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "72d96ff559a64e39ac594d8493284081__Array-Load-Balancer"
+            "mediaName": "4da173519a6b42ac8ae53a4efbcb91a5__Array-Load-Balancer"
         }
     },
     "publisher": "array_networks",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "array_networks",
         "offer": "array-networks-vapv",
         "sku": "array-vapv-azure-byol"
     },

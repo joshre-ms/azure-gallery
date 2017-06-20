@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "72d96ff559a64e39ac594d8493284081__Redmine-3_1_1"
+            "mediaName": "17f5a7a3b9fb4021a44da21ee64ff85e__Redmine-3_1_1"
         }
     },
     "publisher": "Bitnami",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "Bitnami",
         "offer": "Redmine",
         "sku": "Ubuntu"
     },

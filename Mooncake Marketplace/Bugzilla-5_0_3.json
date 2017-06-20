@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "BugzillaCommunity",
         "offer": "Bugzilla",
         "sku": "CentOS"
     },

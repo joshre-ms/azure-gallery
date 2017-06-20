@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "72d96ff559a64e39ac594d8493284081__Antshares"
+            "mediaName": "4403e6c48c574a5d98954918606611bf__Antshares"
         }
     },
     "publisher": "Antshares",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Windows",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "Antshares",
         "offer": "Antshares",
         "sku": "Standard"
     },

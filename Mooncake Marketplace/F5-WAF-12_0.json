@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "72d96ff559a64e39ac594d8493284081__F5-WAF-12_0"
+            "mediaName": "5c26e7ffdb294152a0f3ae64b3667034__F5-WAF-12_0"
         }
     },
     "publisher": "f5-networks",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "f5-networks",
         "offer": "f5-web-application-firewall",
         "sku": "f5-waf-byol"
     },

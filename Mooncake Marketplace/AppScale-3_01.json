@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "72d96ff559a64e39ac594d8493284081__AppScale-3_01"
+            "mediaName": "d59735a5e1314640902648aa72d80ddd__AppScale-3_01"
         }
     },
     "publisher": "ZhongAnTechnology",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "ZhongAnTechnology",
         "offer": "AppScale",
         "sku": "Ubuntu"
     },
