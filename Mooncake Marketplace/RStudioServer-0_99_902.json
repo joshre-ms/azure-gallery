@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "RstudioCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "RStudioServer",
         "sku": "CentOS"
     },

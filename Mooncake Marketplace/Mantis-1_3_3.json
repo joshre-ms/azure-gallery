@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "MantisCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "Mantis",
         "sku": "Ubuntu"
     },

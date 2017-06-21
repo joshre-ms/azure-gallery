@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "e9f9a3a238e44febb11d859a3a981f23__Check-Point-Security-Gateway-R77_30-036_148"
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Check-Point-Security-Gateway-R77_30-036_148"
         }
     },
     "publisher": "checkpoint",
@@ -15,11 +15,11 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "checkpoint",
+        "publisher": "AzureChinaMarketplace",
         "offer": "check-point-r77",
         "sku": "sg-byol"
     },
-    "summary": "\"Check Point vSEC下一代威胁防御安全网关通过对网络进行监控分析,为云端网络提供专业的实时防护服务。\"",
+    "summary": "Check Point vSEC下一代威胁防御安全网关通过对网络进行监控分析,为云端网络提供专业的实时防护服务。",
     "description": "<strong>产品介绍</strong>\r\n<p>\r\n    云架构的广泛采纳受到企业转型愿望的推动，以提高效率、速度、敏捷性和成本控制。虽然与传统IT基础设施相比，云解决方案具有许多优势，但过时的安全方法不能满足云环境的动态性，使组织暴露于一系列新的安全风险中。 Check Point和Azure联合起来，将高级安全防护扩展到其Azure公共和混合云环境中，给客户提供同类最佳的安全体验。vSEC与Azure无缝集成，提供到公共和混合云资产的可靠连接，同时通过行业领先的威胁防御，保护应用和数据。此外，vSEC明显简化了私有、混合和公共云网络的安全管理与策略执行。因此，在从数据中心迁移到Azure混合云环境时，IT组织可获得随虚拟应用程序移动的高级安全态势。\r\n</p>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>使用WEB或者SSH方式登录,用户名为admin,密码为创建虚拟机时所设置密码（创建虚拟机时所设置的用户名无效）,登录进入可以免费测试15天,之后需要您联系CheckPoint购买有效的软件许可证方可正常使用。</li>\r\n    <li>需要开放的端口：SSH端口22,HTTPS端口443,SmartDashboard与Vsec界面通信端口18190,18191</li>\r\n</ol>",
     "iconPath": "Icons/Check-Point-Security-Gateway-R77_30-036_148",
     "categories": [

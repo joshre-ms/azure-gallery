@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "DrupalCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "Drupal",
         "sku": "zh_CN_CentOS"
     },

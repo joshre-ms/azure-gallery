@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "OrangehrmCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "OrangeHRM",
         "sku": "Ubuntu"
     },

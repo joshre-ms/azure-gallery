@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "CodiadCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "Codiad",
         "sku": "Ubuntu"
     },

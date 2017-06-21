@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "e9fe051ba4224477abe39c73822e0edb__Yonghong-Z-Suite-6_1"
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Yonghong-Z-Suite-6_1"
         }
     },
     "publisher": "YongHongTech",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "YongHongTech",
+        "publisher": "AzureChinaMarketplace",
         "offer": "Yonghong-Z-Suite",
         "sku": "CentOS"
     },

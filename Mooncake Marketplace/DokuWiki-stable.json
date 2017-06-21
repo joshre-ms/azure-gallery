@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "DocuwikiCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "DokuWiki-Stable",
         "sku": "Standard_Ubuntu"
     },

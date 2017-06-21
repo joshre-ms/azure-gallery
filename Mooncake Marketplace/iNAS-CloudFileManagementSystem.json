@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "0b2a611a7d064611ad89ba8fd05ead65__iNAS-CloudFileManagementSystem"
+            "mediaName": "72d96ff559a64e39ac594d8493284081__iNAS-CloudFileManagementSystem"
         }
     },
     "publisher": "ZiShengTechnology",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Windows",
     "imageReference": {
-        "publisher": "ZiShengTechnology",
+        "publisher": "AzureChinaMarketplace",
         "offer": "iNASCloudFileManagementSystem",
         "sku": "Standard"
     },

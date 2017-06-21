@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "761367895dc345e88f833a6e05ab2e01__VideoConference20Party100Client-v2_65_1_12"
+            "mediaName": "72d96ff559a64e39ac594d8493284081__VideoConference20Party100Client-v2_65_1_12"
         }
     },
     "publisher": "QingYangChuangXin",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Windows",
     "imageReference": {
-        "publisher": "QingYangChuangXin",
+        "publisher": "AzureChinaMarketplace",
         "offer": "VideoConference20Party100Client",
         "sku": "2.65.1.12"
     },

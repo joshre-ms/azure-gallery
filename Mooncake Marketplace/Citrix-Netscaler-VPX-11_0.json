@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "214cfeafaf7144a5b8000383604e2454__Citrix-Netscaler-VPX-11_0"
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Citrix-Netscaler-VPX-11_0"
         }
     },
     "publisher": "citrix",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "citrix",
+        "publisher": "AzureChinaMarketplace",
         "offer": "netscalervpx110-6531",
         "sku": "netscalerbyol"
     },

@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "LimesurveyCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "Limesurvey",
         "sku": "Ubuntu"
     },

@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "e9f9a3a238e44febb11d859a3a981f23__CheckPointR80SecurityManagement"
+            "mediaName": "72d96ff559a64e39ac594d8493284081__CheckPointR80SecurityManagement"
         }
     },
     "publisher": "checkpoint",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "checkpoint",
+        "publisher": "AzureChinaMarketplace",
         "offer": "check-point-r80",
         "sku": "sg-byol"
     },

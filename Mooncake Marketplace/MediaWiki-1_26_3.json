@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "MediaWikiCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "MediaWiki",
         "sku": "CentOS"
     },

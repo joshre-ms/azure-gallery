@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "Neo4jCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "Neo4j",
         "sku": "Ubuntu"
     },

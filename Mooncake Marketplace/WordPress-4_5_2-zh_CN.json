@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "WordPressCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "WordPress",
         "sku": "zh_CN_CentOS"
     },

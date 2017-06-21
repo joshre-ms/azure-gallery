@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "7f2b7056a0d54de98a7490225358aa1e__Yunshipei-Xcloud-Multiple-Screens-5_0"
+            "mediaName": "72d96ff559a64e39ac594d8493284081__Yunshipei-Xcloud-Multiple-Screens-5_0"
         }
     },
     "publisher": "AllMobilize",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Windows",
     "imageReference": {
-        "publisher": "AllMobilize",
+        "publisher": "AzureChinaMarketplace",
         "offer": "AllMobilizeXcloud",
         "sku": "Standard"
     },

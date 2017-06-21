@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "MongoDBCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "MongoDB",
         "sku": "CentOS"
     },

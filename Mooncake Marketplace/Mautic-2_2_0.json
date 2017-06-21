@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "MauticCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "Mautic",
         "sku": "Ubuntu"
     },

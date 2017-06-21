@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "OpencartCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "OpenCart",
         "sku": "Ubuntu"
     },

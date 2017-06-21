@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "4e6583f9884844379a805420541085fa__NeoKylinAdvancedServerOperationSystem-6"
+            "mediaName": "72d96ff559a64e39ac594d8493284081__NeoKylinAdvancedServerOperationSystem-6"
         }
     },
     "publisher": "NeoKylin",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "NeoKylin",
+        "publisher": "AzureChinaMarketplace",
         "offer": "NeoKylinAdvancedServerOperationSystem",
         "sku": "V6"
     },

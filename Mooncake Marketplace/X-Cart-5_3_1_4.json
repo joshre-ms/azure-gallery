@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "XcartCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "X-Cart",
         "sku": "5.3.1.4_Ubuntu"
     },

@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "c109cbcdf0ce4393b6c00e97aea68db0__C3CRM-3_0_4"
+            "mediaName": "72d96ff559a64e39ac594d8493284081__C3CRM-3_0_4"
         }
     },
     "publisher": "C3CRM",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "C3CRM",
+        "publisher": "AzureChinaMarketplace",
         "offer": "C3CRM",
         "sku": "CentOS"
     },

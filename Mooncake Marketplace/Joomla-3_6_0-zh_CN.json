@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "JoomlaCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "Joomla",
         "sku": "zh_CN_CentOS"
     },

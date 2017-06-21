@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "DiscourseCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "Discourse",
         "sku": "Standard_Ubuntu"
     },

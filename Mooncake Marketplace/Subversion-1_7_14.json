@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "ApacheCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "Subversion",
         "sku": "CentOS"
     },
