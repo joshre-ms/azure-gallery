@@ -8,6 +8,9 @@
     },
     "Fairfax": {
       "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2017-Comm-WS2016-2017-06-15"
+    },
+    "Blackforest": {
+      "mediaName": "42d7b4b4fccf42a49a84cddb435e1cea__VS-2017-Comm-WS2016-2017-06-15"
     }
   },
   "imageReference": {
@@ -44,6 +47,7 @@
   "screenshot": "Screenshots/VisualStudioOnWindowsServer.png",
   "cloudEnvironments": [
     "PublicAzure",
-    "Fairfax"
+    "Fairfax",
+    "Blackforest"
   ]
 }
