@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "72d96ff559a64e39ac594d8493284081__Prestashop-1_6_1_6-zh_CN"
+            "mediaName": "fa04733e67a74f7d99262bb19713ed69__Prestashop-1_6_1_6-zh_CN"
         }
     },
     "publisher": "Prestashop",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "Prestashop",
         "offer": "Prestashop",
         "sku": "1.6.1.6-zh_CN_CentOS"
     },

@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "72d96ff559a64e39ac594d8493284081__Zentao-Project-Management-Software-8_2_4"
+            "mediaName": "91c0e4bfecc045c5861d9a3de8b94adc__Zentao-Project-Management-Software-8_2_4"
         }
     },
     "publisher": "NatureEasySoft",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "NatureEasySoft",
         "offer": "ZentaoProjectManagement",
         "sku": "Ubuntu"
     },

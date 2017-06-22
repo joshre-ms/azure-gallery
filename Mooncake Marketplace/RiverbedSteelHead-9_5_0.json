@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "72d96ff559a64e39ac594d8493284081__RiverbedSteelHead-9_5_0"
+            "mediaName": "b36447ad653e48dea23378960f404421__RiverbedSteelHead-9_5_0"
         }
     },
     "publisher": "riverbed",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "riverbed",
         "offer": "riverbed-steelhead-9-5-0",
         "sku": "riverbed-steelhead-9-5-0"
     },

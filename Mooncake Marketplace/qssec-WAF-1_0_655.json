@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "72d96ff559a64e39ac594d8493284081__qssec-WAF-1_0_655"
+            "mediaName": "cfa3834df22a4af4a347b27c1754cf25__qssec-WAF-1_0_655"
         }
     },
     "publisher": "Qssec",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "Qssec",
         "offer": "Qssec-WAF",
         "sku": "Ubuntu"
     },

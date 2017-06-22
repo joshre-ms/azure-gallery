@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "72d96ff559a64e39ac594d8493284081__VtigerCRM-6_4_0-zh_CN"
+            "mediaName": "98eb8cb52a6c4477a8d2ac4033446d0a__VtigerCRM-6_4_0-zh_CN"
         }
     },
     "publisher": "VtigerCompany",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "VtigerCompany",
         "offer": "VtigerCRM",
         "sku": "zh_CN_CentOS"
     },
