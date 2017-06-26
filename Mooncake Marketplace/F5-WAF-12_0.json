@@ -32,6 +32,13 @@
         "security",
         "linux"
     ],
+    "endpoints": [
+        {
+            "endpointName": "HTTPS",
+            "protocol": "TCP",
+            "publicPort": 443
+        }
+    ],
     "recommendedSizes": [
         "Standard_A3",
         "Standard_D2",

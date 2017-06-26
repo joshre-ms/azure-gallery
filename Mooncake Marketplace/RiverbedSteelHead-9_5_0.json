@@ -31,6 +31,38 @@
         "networking",
         "linux"
     ],
+    "endpoints": [
+        {
+            "endpointName": "port-1",
+            "protocol": "TCP",
+            "publicPort": 7800
+        },
+        {
+            "endpointName": "port-2",
+            "protocol": "TCP",
+            "publicPort": 7801
+        },
+        {
+            "endpointName": "port-3",
+            "protocol": "TCP",
+            "publicPort": 7810
+        },
+        {
+            "endpointName": "port-4",
+            "protocol": "TCP",
+            "publicPort": 7850
+        },
+        {
+            "endpointName": "HTTP",
+            "protocol": "TCP",
+            "publicPort": 80
+        },
+        {
+            "endpointName": "HTTPS",
+            "protocol": "TCP",
+            "publicPort": 443
+        }
+    ],
     "recommendedSizes": [
         "Standard_D3",
         "Standard_D14_v2",

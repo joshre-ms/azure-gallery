@@ -32,6 +32,23 @@
         "security",
         "linux"
     ],
+    "endpoints": [
+        {
+            "endpointName": "vsec-ui-1",
+            "protocol": "TCP",
+            "publicPort": 18190
+        },
+        {
+            "endpointName": "vsec-ui-1",
+            "protocol": "TCP",
+            "publicPort": 18191
+        },
+        {
+            "endpointName": "HTTPS",
+            "protocol": "TCP",
+            "publicPort": 443
+        }
+    ],
     "recommendedSizes": [
         "Standard_D2",
         "Standard_D3",
