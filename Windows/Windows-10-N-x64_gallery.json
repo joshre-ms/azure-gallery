@@ -1,10 +1,10 @@
 ﻿{
   "publisher": "Microsoft",
-  "label": "Windows 10 Enterprise N",
-  "displayName": "Windows 10 Enterprise N",
+  "label": "Windows 10 Enterprise N (x64)",
+  "displayName": "Windows 10 Enterprise N (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Windows-10-N-x64-2017-05-15"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Windows-10-N-x64-2017-06-23"
     }
   },
   "imageReference": {
@@ -19,10 +19,10 @@
     "virtualMachine",
     "microsoftServer",
     "azure",
-    "47970b32416a",
     "windows",
     "appInfra",
-    "windowscuration"
+    "windowscuration",
+    "47970b32416a"
   ],
   "recommendedSizes": [
     "Standard_A3",
