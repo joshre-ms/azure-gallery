@@ -31,6 +31,38 @@
         "devService",
         "linux"
     ],
+    "endpoints": [
+        {
+            "endpointName": "management-portal-http",
+            "protocol": "TCP",
+            "publicPort": 1080
+        },
+        {
+            "endpointName": "management-portal-https",
+            "protocol": "TCP",
+            "publicPort": 1443
+        },
+        {
+            "endpointName": "monitoring-1",
+            "protocol": "TCP",
+            "publicPort": 2812
+        },
+        {
+            "endpointName": "monitoring-2",
+            "protocol": "TCP",
+            "publicPort": 5555
+        },
+        {
+            "endpointName": "test-1",
+            "protocol": "TCP",
+            "publicPort": 8080
+        },
+        {
+            "endpointName": "test2",
+            "protocol": "TCP",
+            "publicPort": 4380
+        }
+    ],
     "recommendedSizes": [
         "Standard_A2_v2",
         "Standard_D1_v2",

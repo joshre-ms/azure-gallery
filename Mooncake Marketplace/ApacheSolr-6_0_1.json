@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "ApacheCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "ApacheSolr",
         "sku": "CentOS"
     },
@@ -30,6 +30,18 @@
         "appInfra",
         "devService",
         "linux"
+    ],
+    "endpoints": [
+        {
+            "endpointName": "HTTP",
+            "protocol": "TCP",
+            "publicPort": 80
+        },
+        {
+            "endpointName": "portal",
+            "protocol": "TCP",
+            "publicPort": 8983
+        }
     ],
     "recommendedSizes": [
         "Standard_A2_v2",

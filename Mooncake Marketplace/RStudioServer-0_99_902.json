@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "RstudioCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "RStudioServer",
         "sku": "CentOS"
     },
@@ -30,6 +30,13 @@
         "analytics",
         "devService",
         "linux"
+    ],
+    "endpoints": [
+        {
+            "endpointName": "HTTP",
+            "protocol": "TCP",
+            "publicPort": 8787
+        }
     ],
     "recommendedSizes": [
         "Standard_A2_v2",

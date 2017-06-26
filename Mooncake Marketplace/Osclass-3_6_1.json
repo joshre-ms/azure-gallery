@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "OsclassCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "Osclass",
         "sku": "CentOS"
     },
@@ -31,6 +31,13 @@
         "webRecommended",
         "blogCms",
         "linux"
+    ],
+    "endpoints": [
+        {
+            "endpointName": "HTTP",
+            "protocol": "TCP",
+            "publicPort": 80
+        }
     ],
     "recommendedSizes": [
         "Standard_A2_v2",

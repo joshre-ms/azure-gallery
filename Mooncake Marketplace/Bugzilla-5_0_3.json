@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "BugzillaCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "Bugzilla",
         "sku": "CentOS"
     },
@@ -29,6 +29,13 @@
         "azureCertified",
         "devService",
         "linux"
+    ],
+    "endpoints": [
+        {
+            "endpointName": "HTTP",
+            "protocol": "TCP",
+            "publicPort": 80
+        }
     ],
     "recommendedSizes": [
         "Standard_A2_v2",

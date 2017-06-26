@@ -9,13 +9,13 @@
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-9-amd64-20170619.0"
+            "mediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-9-amd64-20170621.0"
         },
         "Blackforest": {
-            "mediaName": "32951de3054f406fb267f8a578f831e5__Debian-9-amd64-20170619.0"
+            "mediaName": "32951de3054f406fb267f8a578f831e5__Debian-9-amd64-20170621.0"
         },
         "Mooncake": {
-            "mediaName": "8f699951c9734adc865d1538866f72c0__Debian-9-amd64-20170619.0"
+            "mediaName": "8f699951c9734adc865d1538866f72c0__Debian-9-amd64-20170621.0"
         }
     },
     "imageReference": {

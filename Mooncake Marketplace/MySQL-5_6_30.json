@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "MySQLCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "MySQL",
         "sku": "CentOS"
     },
@@ -32,6 +32,13 @@
         "storage",
         "database",
         "linux"
+    ],
+    "endpoints": [
+        {
+            "endpointName": "MySQL",
+            "protocol": "TCP",
+            "publicPort": 3306
+        }
     ],
     "recommendedSizes": [
         "Standard_A2_v2",

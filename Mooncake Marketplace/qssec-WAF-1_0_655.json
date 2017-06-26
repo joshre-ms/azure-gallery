@@ -32,6 +32,28 @@
         "security",
         "linux"
     ],
+    "endpoints": [
+        {
+            "endpointName": "monitoring",
+            "protocol": "TCP",
+            "publicPort": 10050
+        },
+        {
+            "endpointName": "SSH",
+            "protocol": "TCP",
+            "publicPort": 62222
+        },
+        {
+            "endpointName": "HTTP",
+            "protocol": "TCP",
+            "publicPort": 80
+        },
+        {
+            "endpointName": "HTTPS",
+            "protocol": "TCP",
+            "publicPort": 443
+        }
+    ],
     "recommendedSizes": [
         "Standard_A2_v2",
         "Standard_D1_v2",

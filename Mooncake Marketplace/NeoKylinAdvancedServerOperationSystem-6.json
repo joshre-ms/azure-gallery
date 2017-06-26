@@ -30,6 +30,13 @@
         "appInfra",
         "linux"
     ],
+    "endpoints": [
+        {
+            "endpointName": "port-1",
+            "protocol": "TCP",
+            "publicPort": 111
+        }
+    ],
     "recommendedSizes": [
         "Standard_A2_v2",
         "Standard_D1_v2",

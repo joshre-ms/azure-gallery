@@ -32,6 +32,38 @@
         "security",
         "linux"
     ],
+    "endpoints": [
+        {
+            "endpointName": "port-1",
+            "protocol": "TCP",
+            "publicPort": 257
+        },
+        {
+            "endpointName": "port-2",
+            "protocol": "TCP",
+            "publicPort": 18210
+        },
+        {
+            "endpointName": "port-3",
+            "protocol": "TCP",
+            "publicPort": 18264
+        },
+        {
+            "endpointName": "port-4",
+            "protocol": "TCP",
+            "publicPort": 18190
+        },
+        {
+            "endpointName": "port-5",
+            "protocol": "TCP",
+            "publicPort": 19009
+        },
+        {
+            "endpointName": "HTTPS",
+            "protocol": "TCP",
+            "publicPort": 443
+        }
+    ],
     "recommendedSizes": [
         "Standard_D3_v2",
         "Standard_D3",

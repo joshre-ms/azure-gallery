@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "MongoDBCommunity",
+        "publisher": "AzureChinaMarketplace",
         "offer": "MongoDB",
         "sku": "CentOS"
     },
@@ -33,6 +33,13 @@
         "database",
         "bigData",
         "linux"
+    ],
+    "endpoints": [
+        {
+            "endpointName": "MongoDB",
+            "protocol": "TCP",
+            "publicPort": 27017
+        }
     ],
     "recommendedSizes": [
         "Standard_A2_v2",
