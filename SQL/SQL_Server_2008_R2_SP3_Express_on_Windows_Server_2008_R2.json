@@ -1,0 +1,51 @@
+{
+    "publisher": "Microsoft",
+    "label": "SQL Server 2008 R2 SP3 Express Windows Server 2008 R2",
+    "displayName": "SQL Server 2008 R2 SP3 Express on Windows Server 2008 R2",
+    "MediaName": "fb83b3509582419d99629ce476bcb5c8__Server-2008R2-SP3-10.50.6000.34-Exp-ENU-Win2008R2-SecurityUpdate",
+    "imageReference": {
+      "publisher": "MicrosoftSQLServer",
+      "offer": "SQL2008R2SP3-WS2008R2SP1",
+      "sku": "Express"
+    },
+    "OS": "Windows",
+    "description": "This image contains the Express with Tools version of SQL Server. This image does not charge for a SQL license and it is tailored for dev/test and micro workloads. This image has been pre-configured for Windows Azure, including enabling CEIP which can be disabled, for more info see <a href='https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/#customer-experience-improvement-program-ceip' target='_blank'>here</a>.",
+    "iconPath": "Icons",
+    "supportsSriov": true,
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "windows",
+        "database",
+		 "sqlservercuration"
+    ],
+    "recommendedSizes": [
+        "Basic_A1",
+        "Standard_D1_v2",
+        "Standard_D1",
+        "Standard_DS1_v2",
+        "Standard_DS1"
+    ],
+    "links": [
+        {
+            "label": "Documentation",
+            "uri": "https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/"
+        },
+        {
+            "label": "Feature comparison between SQL Server 2008 R2 editions",
+            "uri": "http://msdn.microsoft.com/library/cc645993(v=sql.105).aspx"
+        },
+        {
+            "label": "Support forum",
+            "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=SQL"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "https://azure.microsoft.com/pricing/details/virtual-machines/#sql-server"
+        }
+    ],
+    "eula": "http://go.microsoft.com/fwlink/?LinkID=285685",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkID=90944",
+    "screenshot": null
+}
