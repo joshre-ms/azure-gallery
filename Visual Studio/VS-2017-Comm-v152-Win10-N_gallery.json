@@ -4,7 +4,7 @@
   "displayName": "Visual Studio Community 2017 (version 15.2) on Windows 10 Enterprise N (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-Comm-v152-Win10-N-2017-05-17"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-Comm-v152-Win10-N-2017-06-26"
     }
   },
   "imageReference": {
@@ -13,16 +13,16 @@
     "sku": "VS-2017-Comm-v152-Win10-N"
   },
   "OS": "Windows",
-  "description": "<p>Visual Studio Community (version 15.2) is our free, full featured and extensible IDE for non-enterprise application development.  This image contains a full product install of the latest Visual Studio Community 2017 on the very latest Windows 10 Enterprise N (Creators Update), including the latest Universal Windows app development tools and the latest Windows 10 SDK. It allows you to quickly setup environment in Azure to develop and test applications targeting the Universal Windows Platform.</p><p>This image was created from the latest bits available on 5/17/2017.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.</p>",
+  "description": "<p>Visual Studio Community (version 15.2) is our free, full featured and extensible IDE for non-enterprise application development.  This image contains a full product install of the latest Visual Studio Community 2017 on the very latest Windows 10 Enterprise N (Creators Update), including the latest Universal Windows app development tools and the latest Windows 10 SDK. It allows you to quickly setup environment in Azure to develop and test applications targeting the Universal Windows Platform.</p><p>This image was created from the latest bits available on 6/26/2017.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.</p>",
   "iconPath": "Icons/VS2017",
   "categories": [
     "virtualMachine",
     "microsoftServer",
     "azure",
-    "47970b32416a",
     "windows",
     "appInfra",
-    "visualstudiocuration"
+    "visualstudiocuration",
+    "47970b32416a"
   ],
   "recommendedSizes": [
     "Standard_A3",
@@ -37,7 +37,7 @@
       "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
     }
   ],
-  "eula": "http://msdn.microsoft.com/subscriptions/eula",
+  "eula": "https://msdn.microsoft.com/subscriptions/eula",
   "privacy": "https://go.microsoft.com/fwlink/?LinkID=824704",
   "screenshot": "Screenshots/VisualStudioOnWindows10.png",
   "cloudEnvironments": [
