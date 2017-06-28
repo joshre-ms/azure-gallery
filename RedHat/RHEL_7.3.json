@@ -8,10 +8,10 @@
             "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_7_3_Standard_PAYG_RawPart_Azure_RHUI-20170530180739"
         },
         "Fairfax": {
-            "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_7_3_Standard_PAYG_RawPart_USGov_RHUI-20170530174602"
+            "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_7_3_Standard_PAYG_RawPart_USGov_RHUI-20170627203400"
         },
         "Blackforest": {
-            "mediaName": "988f99737d6c4d3695891eef87a99de7__RHEL_7_3_Standard_PAYG_RawPart_Germany_RHUI-20170530174846"
+            "mediaName": "988f99737d6c4d3695891eef87a99de7__RHEL_7_3_Standard_PAYG_RawPart_Germany_RHUI-20170627210404"
         }
     },
     "imageReference": {
