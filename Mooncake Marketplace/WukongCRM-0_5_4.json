@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "72d96ff559a64e39ac594d8493284081__WukongCRM-0_5_4"
+            "mediaName": "ddcc39a2178f41ca8b72046279e7eb9d__WukongCRM-0_5_4"
         }
     },
     "publisher": "KaKaLuoTe",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "KaKaLuoTe",
         "offer": "WukongCRM",
         "sku": "CentOS"
     },
@@ -29,6 +29,13 @@
         "azureCertified",
         "businessApplication",
         "linux"
+    ],
+    "endpoints": [
+        {
+            "endpointName": "HTTP",
+            "protocol": "TCP",
+            "publicPort": 80
+        }
     ],
     "recommendedSizes": [
         "Standard_A2_v2",

@@ -2,18 +2,19 @@
   "publisher": "CoreOS",
   "label": "CoreOS Stable",
   "displayName": "CoreOS Linux (Stable)",
+  "publisherDisplayName": "CoreOS",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Stable-1353.7.0"
+      "mediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Stable-1409.6.0"
     },
     "Blackforest": {
-      "mediaName": "ac384aecd6d24eaca1268cedd335f2a9__CoreOS-Stable-1353.7.0"
+      "mediaName": "ac384aecd6d24eaca1268cedd335f2a9__CoreOS-Stable-1409.6.0"
     },
     "Mooncake": {
-      "mediaName": "a54f4e2924a249fd94ad761b77c3e83d__CoreOS-Stable-1353.7.0"
+      "mediaName": "a54f4e2924a249fd94ad761b77c3e83d__CoreOS-Stable-1409.6.0"
     },
     "Fairfax": {
-      "mediaName": "108c54add45b401ca6691b74ed26a643__CoreOS-Stable-1235.6.0"
+      "mediaName": "108c54add45b401ca6691b74ed26a643__CoreOS-Stable-1353.8.0"
     }
   },
   "imageReference": {
@@ -25,6 +26,7 @@
   "description": "CoreOS is a modern and minimal Linux distribution, providing an easy way to run containers, manage clusters and seamlessly update your servers - all components that enable warehouse-scale compute.",
   "iconPath": "Icons",
   "eula": "https://coreos.com/legal/open-source/",
+  "privacy": "https://coreos.com/legal/privacy/",
   "categories": [
     "virtualMachine",
     "microsoftServer",
@@ -50,6 +52,17 @@
     }
   ],
   "hardened": true,
+  "leadGeneration": {
+    "PublicAzure": {
+      "productId": "firstParty_CoreOS_1409.5.0_stable.json"
+    },
+    "Fairfax": {
+      "productId": ""
+    },
+    "Blackforest": {
+      "productId": ""
+    }
+  },
   "cloudEnvironments": [
     "PublicAzure",
     "Blackforest",

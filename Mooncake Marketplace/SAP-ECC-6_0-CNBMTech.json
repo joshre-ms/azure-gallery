@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "72d96ff559a64e39ac594d8493284081__SAP-ECC-6_0-CNBMTech"
+            "mediaName": "913e4283c0af4f0893485745ebb6caf4__SAP-ECC-6_0-CNBMTech"
         }
     },
     "publisher": "CNBMTechnology",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "CNBMTechnology",
         "offer": "SAP-ECC",
         "sku": "6.0-CNBMTech_Suse"
     },

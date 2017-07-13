@@ -28,7 +28,8 @@
         "azure",
         "linux",
         "database",
-        "azureCertified"
+        "azureCertified",
+        "oracledatabasecuration"
     ],
     "recommendedSizes": [
         "Standard_D12",

@@ -4,13 +4,13 @@
     "displayName": "{BYOL} SQL Server 2016 SP1 Standard on Windows Server 2016",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-PCU-Main-13.0.4001.0-SQLSTD.ENU.Nov-WS2016-127gb.11.12.16.07.26-byol"
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-PCU-Main-13.0.4001.0-SQLSTD.ENU.Nov-WS2016-127gb.11.12.16.07.26_BYOL_SecurityUpdate"
         },
         "BlackForest": {
-            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL16-PCU-Main-13.0.4001.0-SQLSTD.ENU.Nov-WS2016-127gb.11.12.16.07.26-byol"
+            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL16-PCU-Main-13.0.4001.0-SQLSTD.ENU.Nov-WS2016-127gb.11.12.16.07.26_BYOL_SecurityUpdate"
         },
         "FairFax": {
-            "mediaName": "0bd04240ad4b45118afda6ddb0581fff__QL16-PCU-Main-13.0.4001.0-SQLSTD.ENU.Nov-WS2016-127gb.11.12.16.07.26-byol"
+            "mediaName": "0bd04240ad4b45118afda6ddb0581fff__SQL16-PCU-Main-13.0.4001.0-SQLSTD.ENU.Nov-WS2016-127gb.11.12.16.07.26_BYOL_SecurityUpdate"
         }
     },
     "imageReference": {
@@ -30,7 +30,8 @@
         "windows",
         "enterpriseagreementonly",
         "database",
-        "virtualMachineRecommended"
+        "virtualMachineRecommended",
+        "sqlservercuration"
     ],
     "recommendedSizes": [
         "Standard_DS12_v2",

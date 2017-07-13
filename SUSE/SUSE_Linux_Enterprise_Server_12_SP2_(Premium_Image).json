@@ -2,12 +2,13 @@
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 12 SP2 (Premium Image)",
     "displayName": "SLES 12 SP2 (Premium)",
+    "publisherDisplayName": "SUSE",	 	
     "cloudEnvironments": [
         "PublicAzure"
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp2-priority-v20170320"
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp2-priority-v20170620"
         }
     },
     "imageReference": {
@@ -18,6 +19,7 @@
     "OS": "Linux",
     "description": "<p><b>SUSE Linux Enterprise Server 12 SP2 (Premium Image - PRIORITY Support)</b></p><p>Confidently run your production workloads on SUSE Linux Enterprise Server on Microsoft Azure, knowing that your service levels are guaranteed, and that help from SUSE and Microsoft engineers, if you need it, is just a phone call away.</p><p>SUSE Linux Enterprise Server is the <i>only</i> supported Enterprise Linux distribution available on Microsoft Azure, and the only one supported with tools like <a href='https://susestudio.com' target='_blank'>SUSE Studio</a> for quick and easy image creation, and <a href='https://www.suse.com/products/suse-manager/' target='_blank'>SUSE Manager</a> for monitoring and managing your Linux virtual machines (VM) using Microsoft Systems Center.</p><p><b>This Premium image with PRIORITY support includes updates, patches, and support through 24x7 web, email, chat and phone from SUSE</b>. Virtual machines (VM) created from this image incur per-hour support fees, in addition to Azure platform fees. An Azure support plan is required (developer or above). Support incidents are initiated through <a href='http://azure.microsoft.com/en-us/support/options/' target='_blank'>Azure Support</a>.</p>",
     "iconPath": "Icons/SUSE",
+    "supportsSriov": true,
     "categories": [
         "virtualMachine",
         "microsoftServer",
@@ -66,5 +68,17 @@
     "eula": "https://www.suse.com/licensing/eula/",
     "privacy": "https://www.suse.com/company/policies/privacy/",
     "screenshot": "Screenshots/suse.png",
+    "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
+"leadGeneration": {
+          "PublicAzure": {
+             "productId":"firstParty_SUSE_Linux_Enterprise_Server_12_SP2_(Premium_Image)"
+         },
+         "Fairfax": {
+             "productId":""
+         },
+         "Blackforest": {
+             "productId":""
+         }
+      },    
     "isPremiumThirdParty": true
 }

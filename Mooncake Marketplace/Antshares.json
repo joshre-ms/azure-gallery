@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "72d96ff559a64e39ac594d8493284081__Antshares"
+            "mediaName": "4403e6c48c574a5d98954918606611bf__Antshares"
         }
     },
     "publisher": "Antshares",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Windows",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "Antshares",
         "offer": "Antshares",
         "sku": "Standard"
     },
@@ -30,6 +30,38 @@
         "appInfra",
         "devService",
         "windows"
+    ],
+    "endpoints": [
+        {
+            "endpointName": "port-1",
+            "protocol": "TCP",
+            "publicPort": 10331
+        },
+        {
+            "endpointName": "port-2",
+            "protocol": "TCP",
+            "publicPort": 10332
+        },
+        {
+            "endpointName": "port-3",
+            "protocol": "TCP",
+            "publicPort": 10333
+        },
+        {
+            "endpointName": "port-4",
+            "protocol": "TCP",
+            "publicPort": 20331
+        },
+        {
+            "endpointName": "port-5",
+            "protocol": "TCP",
+            "publicPort": 20332
+        },
+        {
+            "endpointName": "port-6",
+            "protocol": "TCP",
+            "publicPort": 20333
+        }
     ],
     "recommendedSizes": [
         "Standard_A2_v2",

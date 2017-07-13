@@ -1,6 +1,7 @@
 {
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server for SAP Applications 12 SP1 (Bring Your Own Subscription)",
+    "publisherDisplayName": "SUSE",	 
     "displayName": "SLES for SAP 12 SP1 (BYOS)",
     "cloudEnvironments": [
         "PublicAzure",
@@ -19,7 +20,7 @@
             "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-sap-12-sp1-byos-v20170515"
         },
         "Fairfax": {
-            "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-sles-sap-12-sp1-byos-v20161216"
+            "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-sles-sap-12-sp1-byos-v20170515"
         }
     },
     "imageReference": {
@@ -78,5 +79,17 @@
     ],
     "eula": "https://www.suse.com/licensing/eula/",
     "privacy": "https://www.suse.com/company/policies/privacy/",
+    "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
+"leadGeneration": {
+          "PublicAzure": {
+             "productId":"firstParty_SUSE_Linux_Enterprise_Server_for_SAP_Applications_12_SP1_(BYOS)"
+         },
+         "Fairfax": {
+             "productId":""
+         },
+         "Blackforest": {
+             "productId":""
+         }
+      },
     "screenshot": "Screenshots/suse.png"
 }

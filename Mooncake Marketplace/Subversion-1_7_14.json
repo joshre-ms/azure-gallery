@@ -30,6 +30,18 @@
         "devService",
         "linux"
     ],
+    "endpoints": [
+        {
+            "endpointName": "HTTP",
+            "protocol": "TCP",
+            "publicPort": 80
+        },
+        {
+            "endpointName": "HTTPS",
+            "protocol": "TCP",
+            "publicPort": 443
+        }
+    ],
     "recommendedSizes": [
         "Standard_A2_v2",
         "Standard_D1_v2",

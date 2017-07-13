@@ -19,7 +19,8 @@
     "enterpriseagreementonly",
     "azure",
     "windows",
-    "appInfra"
+    "appInfra",
+    "windowsservercuration"
   ],
   "recommendedSizes": [
     "Standard_DS1_v2",

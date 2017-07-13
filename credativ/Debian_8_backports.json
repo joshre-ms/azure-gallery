@@ -1,0 +1,73 @@
+{
+    "publisher": "credativ",
+    "label": "Debian 8 backports",
+    "displayName": "Debian 8 \"Jessie\" with backports kernel",
+    "cloudEnvironments": [
+        "PublicAzure",
+        "Blackforest",
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-8-backports-amd64-20170619.0"
+        },
+        "Blackforest": {
+            "mediaName": "32951de3054f406fb267f8a578f831e5__Debian-8-backports-amd64-20170619.0"
+        },
+        "Mooncake": {
+            "mediaName": "8f699951c9734adc865d1538866f72c0__Debian-8-backports-amd64-20170619.0"
+        }
+    },
+    "imageReference": {
+      "publisher": "credativ",
+      "offer": "Debian",
+      "sku": "8-backports"
+    },
+    "OS": "Linux",
+    "summary": "Debian GNU/Linux is one of the most popular Linux distributions.",
+    "description": "Debian 8 \"Jessie\" with backports kernel for Microsoft Azure provided by credativ. Debian GNU/Linux is one of the most popular Linux distributions.",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra",
+        "azureCertified",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Standard_DS1_v2",
+        "Standard_DS2_v2",
+        "Standard_DS11_v2",
+        "Standard_DS1",
+        "Standard_DS2",
+        "Standard_DS11",
+        "Standard_D1_v2",
+        "Standard_D1",
+        "Small"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "Wiki",
+            "uri": {
+                "Default": "https://wiki.debian.org/"
+            }
+        },
+        {
+            "label": "Further information",
+            "uri": {
+                "Default": "https://wiki.debian.org/Cloud/MicrosoftAzure"
+            }
+        },
+        {
+            "label": "Pricing details",
+            "uri": {
+                "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            }
+        }
+    ],
+    "eula": "https://www.debian.org/social_contract",
+    "privacy": null,
+    "screenshot": null
+}

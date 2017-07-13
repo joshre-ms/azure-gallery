@@ -3,7 +3,7 @@
     "publisherDisplayName": "Red Hat",
     "label": "Red Hat Enterprise Linux 6.7",
     "displayName": "Red Hat Enterprise Linux 6.7",
-    "MediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_6_7_Standard_PAYG_RawPart_Azure_RHUI-20170508215605",
+    "MediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_6_7_Standard_PAYG_RawPart_Azure_RHUI-20170530175236",
     "imageReference": {
         "publisher": "RedHat",
         "offer": "RHEL",
@@ -20,7 +20,8 @@
         "linux",
         "appInfra",
         "azureCertified",
-        "virtualMachineRecommended"
+        "virtualMachineRecommended",
+        "redhatenterpriselinuxcuration"
     ],
     "recommendedSizes": [
         "Standard_D2_v2",

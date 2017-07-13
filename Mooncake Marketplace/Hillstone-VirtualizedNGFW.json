@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "72d96ff559a64e39ac594d8493284081__Hillstone-VirtualizedNGFW"
+            "mediaName": "cc4e8727d55547ee821ce77f8482a2d8__Hillstone-VirtualizedNGFW"
         }
     },
     "publisher": "hillstone-networks",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "hillstone-networks",
         "offer": "cloudedge-virtual-ngfw",
         "sku": "Standard"
     },
@@ -31,6 +31,13 @@
         "networking",
         "security",
         "linux"
+    ],
+    "endpoints": [
+        {
+            "endpointName": "HTTPS",
+            "protocol": "TCP",
+            "publicPort": 443
+        }
     ],
     "recommendedSizes": [
         "Basic_A1",

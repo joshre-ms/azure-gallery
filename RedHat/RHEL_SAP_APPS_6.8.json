@@ -5,13 +5,13 @@
     "displayName": "Red Hat Enterprise Linux 6.8 for SAP Business Apps",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_6_8_SAP-APPS_PAYG_LVM_Azure_RHUI-20170508223026"
+            "mediaName": "a879bbefc56a43abb0ce65052aac09f3__RHEL_6_8_SAP-APPS_PAYG_LVM_Azure_RHUI-20170530230445"
         },
         "Fairfax": {
-            "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_6_8_SAP-APPS_PAYG_LVM_USGov_RHUI-20170509003434"
+            "mediaName": "7270925e68c74eb5bb0a4607c1a3769d__RHEL_6_8_SAP-APPS_PAYG_LVM_USGov_RHUI-20170530230539"
         },
         "Blackforest": {
-            "mediaName": "988f99737d6c4d3695891eef87a99de7__RHEL_6_8_SAP-APPS_PAYG_LVM_Germany_RHUI-20170509003732"
+            "mediaName": "988f99737d6c4d3695891eef87a99de7__RHEL_6_8_SAP-APPS_PAYG_LVM_Germany_RHUI-20170530231550"
         }
     },
     "imageReference": {
@@ -33,7 +33,8 @@
         "linux",
         "appInfra",
         "azureCertified",
-        "virtualMachineRecommended"
+        "virtualMachineRecommended",
+        "redhatenterpriselinuxcuration"
     ],
     "recommendedSizes": [
         "Standard_D2_v2",

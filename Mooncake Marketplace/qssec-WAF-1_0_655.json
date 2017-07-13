@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "72d96ff559a64e39ac594d8493284081__qssec-WAF-1_0_655"
+            "mediaName": "cfa3834df22a4af4a347b27c1754cf25__qssec-WAF-1_0_655"
         }
     },
     "publisher": "Qssec",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "Qssec",
         "offer": "Qssec-WAF",
         "sku": "Ubuntu"
     },
@@ -31,6 +31,28 @@
         "networking",
         "security",
         "linux"
+    ],
+    "endpoints": [
+        {
+            "endpointName": "monitoring",
+            "protocol": "TCP",
+            "publicPort": 10050
+        },
+        {
+            "endpointName": "SSH",
+            "protocol": "TCP",
+            "publicPort": 62222
+        },
+        {
+            "endpointName": "HTTP",
+            "protocol": "TCP",
+            "publicPort": 80
+        },
+        {
+            "endpointName": "HTTPS",
+            "protocol": "TCP",
+            "publicPort": 443
+        }
     ],
     "recommendedSizes": [
         "Standard_A2_v2",

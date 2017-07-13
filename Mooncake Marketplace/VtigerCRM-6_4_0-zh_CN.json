@@ -7,7 +7,7 @@
             "mediaName": "72d96ff559a64e39ac594d8493284081__VtigerCRM-6_4_0-zh_CN"
         }
     },
-    "publisher": "VtigerCompany",
+    "publisher": "VtigerCommunity",
     "publisherDisplayName": "Vtiger社区",
     "publisherLegalName": "Vtiger社区",
     "label": "VtigerCRM 6.4.0 zh-CN (Openlogic CentOS 7.2)",
@@ -29,6 +29,13 @@
         "azureCertified",
         "businessApplication",
         "linux"
+    ],
+    "endpoints": [
+        {
+            "endpointName": "HTTP",
+            "protocol": "TCP",
+            "publicPort": 80
+        }
     ],
     "recommendedSizes": [
         "Standard_A2_v2",

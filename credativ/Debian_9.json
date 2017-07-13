@@ -1,35 +1,31 @@
 {
     "publisher": "credativ",
-    "label": "Debian 7",
-    "displayName": "Debian 7 \"Wheezy\"",
+    "label": "Debian 9",
+    "displayName": "Debian 9 \"Stretch\"",
     "cloudEnvironments": [
         "PublicAzure",
         "Blackforest",
-        "Mooncake",
-        "Fairfax"
+        "Mooncake"
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-7-amd64-20161102.0"
+            "mediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-9-amd64-20170621.0"
         },
         "Blackforest": {
-            "mediaName": "32951de3054f406fb267f8a578f831e5__Debian-7-amd64-20161102.0"
+            "mediaName": "32951de3054f406fb267f8a578f831e5__Debian-9-amd64-20170621.0"
         },
         "Mooncake": {
-            "mediaName": "8f699951c9734adc865d1538866f72c0__Debian-7-amd64-20161102.0"
-        },
-        "Fairfax": {
-            "mediaName": "c6ef7ce39e7948dca1816cbb2b7e7e70__Debian-7-amd64-20161102.0"
+            "mediaName": "8f699951c9734adc865d1538866f72c0__Debian-9-amd64-20170621.0"
         }
     },
     "imageReference": {
       "publisher": "credativ",
       "offer": "Debian",
-      "sku": "7"
+      "sku": "9"
     },
     "OS": "Linux",
     "summary": "Debian GNU/Linux is one of the most popular Linux distributions.",
-    "description": "Debian 7 \"Wheezy\" for Microsoft Azure provided by credativ. Debian GNU/Linux is one of the most popular Linux distributions.",
+    "description": "Debian 9 \"Stretch\" for Microsoft Azure provided by credativ. Debian GNU/Linux is one of the most popular Linux distributions.",
     "iconPath": "Icons",
     "categories": [
         "virtualMachine",
@@ -49,7 +45,7 @@
         "Standard_DS11",
         "Standard_D1_v2",
         "Standard_D1",
-        "Small"          
+        "Small"
     ],
     "linksForEnvironments": [
         {

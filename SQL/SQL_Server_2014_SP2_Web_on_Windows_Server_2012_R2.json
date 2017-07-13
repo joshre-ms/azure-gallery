@@ -4,16 +4,16 @@
     "displayName": "SQL Server 2014 SP2 Web on Windows Server 2012 R2",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL14-PCU-MAIN-12.0.5000.0-SQLWEB.ENU.Nov-WS2012R2-127gb.05.16.17.21.01.04v2-SecurityUpdate"
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL14-PCU-MAIN-12.0.5000.0-SQLWEB.ENU.Nov-WS2012R2-127gb.05.16.17.21.01.04v2-SecurityUpdate_2"
+        }, 
+        "Blackforest": {
+            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL14-PCU-MAIN-12.0.5000.0-SQLWEB.ENU.Nov-WS2012R2-127gb.05.16.17.21.01.04v2-SecurityUpdate_2"
         },
-        "BlackForest": {
-            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL14-PCU-MAIN-12.0.5000.0-SQLWEB.ENU.Nov-WS2012R2-127gb.09.27.16.01.04"
-        },
-        "Mooncake": {
-            "mediaName": "74bb2f0b8dcc47fbb2914b60ed940c35__SQL14-PCU-MAIN-12.0.5000.0-SQLWEB.ENU.Nov-WS2012R2-127gb.09.27.16.01.040"
+		"Mooncake": {
+            "mediaName": "74bb2f0b8dcc47fbb2914b60ed940c35__SQL14-PCU-MAIN-12.0.5000.0-SQLWEB.ENU.Nov-WS2012R2-127gb.05.16.17.21.01.04v2-SecurityUpdate_2"
         },
 		"FairFax": {
-			"mediaName": "0bd04240ad4b45118afda6ddb0581fff__SQL14-PCU-MAIN-12.0.5000.0-SQLWEB.ENU.Nov-WS2012R2-127gb.09.27.16.01.04"
+			"mediaName": "0bd04240ad4b45118afda6ddb0581fff__SQL14-PCU-MAIN-12.0.5000.0-SQLWEB.ENU.Nov-WS2012R2-127gb.05.16.17.21.01.04v2-SecurityUpdate_2"
 		}
     },
     "imageReference": {
@@ -30,7 +30,8 @@
         "microsoftServer",
         "azure",
         "windows",
-        "database"
+        "database",
+        "sqlservercuration"
     ],
     "recommendedSizes": [
         "Standard_DS12_v2",
@@ -68,8 +69,8 @@
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
     "cloudEnvironments":  [
         "PublicAzure",
-        "BlackForest",
         "Mooncake",
-		"FairFax"
+		"FairFax",
+		"Blackforest"
     ]
 }

@@ -1,11 +1,11 @@
 {
     "publisher": "Microsoft",
-    "label": "SQL Server 2008 R2 SP3 Express Windows Server 2012",
-    "displayName": "SQL Server 2008 R2 SP3 Express on Windows Server 2012",
-    "MediaName": "fb83b3509582419d99629ce476bcb5c8__KJSP310.50.6000.34SQLEXPRCOMPENUWS2012",
+    "label": "SQL Server 2008 R2 SP3 Express Windows Server 2008 R2",
+    "displayName": "SQL Server 2008 R2 SP3 Express on Windows Server 2008 R2",
+    "MediaName": "fb83b3509582419d99629ce476bcb5c8__Server-2008R2-SP3-10.50.6000.34-Exp-ENU-Win2008R2-SecurityUpdate",
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
-      "offer": "SQL2008R2SP3-WS2012",
+      "offer": "SQL2008R2SP3-WS2008R2SP1",
       "sku": "Express"
     },
     "OS": "Windows",
@@ -17,7 +17,8 @@
         "microsoftServer",
         "azure",
         "windows",
-        "database"
+        "database",
+		 "sqlservercuration"
     ],
     "recommendedSizes": [
         "Basic_A1",

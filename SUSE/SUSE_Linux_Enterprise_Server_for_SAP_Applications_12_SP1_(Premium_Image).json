@@ -2,12 +2,13 @@
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server for SAP Applications 12 SP1 (Premium Image)",
     "displayName": "SLES for SAP 12 SP1 (Premium)",
+    "publisherDisplayName": "SUSE",	 
     "cloudEnvironments": [
         "PublicAzure"
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-sap-12-sp1-v20170515"
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-sap-12-sp1-v20170620"
         }
     },
     "imageReference": {
@@ -67,5 +68,17 @@
     "eula": "https://www.suse.com/licensing/eula/",
     "privacy": "https://www.suse.com/company/policies/privacy/",
     "screenshot": "Screenshots/suse.png",
+    "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
+"leadGeneration": {
+          "PublicAzure": {
+             "productId":"firstParty_SUSE_Linux_Enterprise_Server_for_SAP_Applications_12_SP1_(Premium_Image)"
+         },
+         "Fairfax": {
+             "productId":""
+         },
+         "Blackforest": {
+             "productId":""
+         }
+      },
     "isPremiumThirdParty": true
 }

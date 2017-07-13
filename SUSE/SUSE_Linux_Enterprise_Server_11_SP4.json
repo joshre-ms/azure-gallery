@@ -1,6 +1,7 @@
 {
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 11 SP4",
+    "publisherDisplayName": "SUSE",
     "displayName": "SLES 11 SP4",
     "cloudEnvironments": [
         "PublicAzure",
@@ -10,16 +11,16 @@
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-v20170320"
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-11-sp4-v20170622"
         },
         "Blackforest": {
-            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-sles-11-sp4-v20170320"
+            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-sles-11-sp4-v20170622"
         },
         "Mooncake": {
-            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-11-sp4-v20170320"
+            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-11-sp4-v20170622"
         },
         "Fairfax": {
-            "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-sles-11-sp4-v20161021"
+            "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-sles-11-sp4-v20170320"
         }
     },
     "imageReference": {
@@ -78,5 +79,17 @@
     ],
     "eula": "https://www.suse.com/licensing/eula/",
     "privacy": "https://www.suse.com/company/policies/privacy/",
-    "screenshot": "Screenshots/suse.png"
+    "screenshot": "Screenshots/suse.png",
+    "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
+    "leadGeneration": {
+          "PublicAzure": {
+             "productId":"firstParty_SUSE_Linux_Enterprise_Server_11_SP4"
+         },
+         "Fairfax": {
+             "productId":""
+         },
+         "Blackforest": {
+             "productId":""
+         }
+      }
 }

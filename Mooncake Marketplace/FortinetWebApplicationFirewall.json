@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "72d96ff559a64e39ac594d8493284081__FortinetWebApplicationFirewall"
+            "mediaName": "83f69c3ec4fc46c6b9cc4a43c5abeb09__FortinetWebApplicationFirewall"
         }
     },
     "publisher": "Fortinet",
@@ -15,7 +15,7 @@
     "imageType": "VMImage",
     "os": "Linux",
     "imageReference": {
-        "publisher": "AzureChinaMarketplace",
+        "publisher": "Fortinet",
         "offer": "fortinet_fortiweb-vm_v5",
         "sku": "fortinet_fw-vm"
     },
@@ -31,6 +31,18 @@
         "networking",
         "security",
         "linux"
+    ],
+    "endpoints": [
+        {
+            "endpointName": "HTTP",
+            "protocol": "TCP",
+            "publicPort": 80
+        },
+        {
+            "endpointName": "HTTPS",
+            "protocol": "TCP",
+            "publicPort": 443
+        }
     ],
     "recommendedSizes": [
         "Standard_D3",

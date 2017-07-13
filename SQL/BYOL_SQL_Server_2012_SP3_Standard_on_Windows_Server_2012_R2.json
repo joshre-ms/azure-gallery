@@ -4,10 +4,13 @@
     "displayName": "{BYOL} SQL Server 2012 SP3 Standard on Windows Server 2012 R2",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2012-SP3-11.0.6523.011-Standard-ENU-WS2012R2-CY16-SU03-BYOL_v4-SecurityUpdate"
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SqlServer-2012-SP3-11.0.6523.011-Standard-ENU-WS2012R2-CY16-SU03-BYOL_v4-SecurityUpdate_2a"
         },
         "FairFax": {
-            "mediaName": "0bd04240ad4b45118afda6ddb0581fff__sqlserver-2012-sp3-11.0.6523.011-standard-enu-ws2012r2-cy16-su03-byol"
+            "mediaName": "0bd04240ad4b45118afda6ddb0581fff__SqlServer-2012-SP3-11.0.6523.011-Standard-ENU-WS2012R2-CY16-SU03-BYOL_v4-SecurityUpdate_2a"
+        },
+        "BlackForest": {
+            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SqlServer-2012-SP3-11.0.6523.011-Standard-ENU-WS2012R2-CY16-SU03-BYOL_v4-SecurityUpdate_2a"
         }
     },
     "imageReference": {
@@ -26,7 +29,8 @@
         "azure",
         "windows",
         "database",
-        "virtualMachineRecommended"
+        "virtualMachineRecommended",
+        "sqlservercuration"
     ],
     "recommendedSizes": [
         "Standard_DS12_v2",
@@ -64,6 +68,7 @@
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
     "cloudEnvironments":  [
         "PublicAzure",
-        "FairFax"
+        "FairFax",
+        "BlackForest"
     ]
 }

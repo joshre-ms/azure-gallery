@@ -1,0 +1,46 @@
+﻿{
+  "publisher": "Microsoft",
+  "label": "Windows 7 Enterprise N with SP1 (x64)",
+  "displayName": "Windows 7 Enterprise N with SP1 (x64)",
+  "mediaReferences": {
+    "PublicAzure": {
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Win7-SP1-Ent-N-x64-2017-05-18"
+    }
+  },
+  "imageReference": {
+    "publisher": "MicrosoftVisualStudio",
+    "offer": "Windows",
+    "sku": "Win7-SP1-Ent-N-x64"
+  },
+  "OS": "Windows",
+  "description": "<p>This image contains Windows 7 Enterprise N (x64) with SP1 and is exclusively available to Visual Studio subscribers. It allows you to easily and quickly set up an environment in Azure to develop and test applications targeting Windows 7.</p>",
+  "iconPath": "Icons/Client",
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "47970b32416a",
+    "windows",
+    "appInfra",
+    "windowscuration"
+  ],
+  "recommendedSizes": [
+    "Standard_A3",
+    "Standard_D2",
+    "Standard_D2_v2",
+    "Standard_DS2",
+    "Standard_DS2_v2"
+  ],
+  "links": [
+    {
+      "label": "Monthly Azure credit for Visual Studio subscribers",
+      "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
+    }
+  ],
+  "eula": "http://go.microsoft.com/fwlink/?LinkID=529064",
+  "privacy": "http://go.microsoft.com/fwlink/?LinkID=521839",
+  "screenshot": "Screenshots/Windows7.png",
+  "cloudEnvironments": [
+    "PublicAzure"
+  ]
+}

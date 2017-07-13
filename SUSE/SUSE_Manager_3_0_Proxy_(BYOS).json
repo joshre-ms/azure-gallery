@@ -2,10 +2,12 @@
     "publisher": "SUSE",
     "label": "SUSE Manager 3.0 Proxy (Bring Your Own Subscription)",
     "displayName": "SUSE Manager 3.0 Proxy (BYOS)",
+    "publisherDisplayName": "SUSE",
     "cloudEnvironments": [
         "PublicAzure",
         "Blackforest",
-        "Mooncake"
+        "Mooncake",
+        "Fairfax"
     ],
     "mediaReferences": {
         "PublicAzure": {
@@ -16,6 +18,9 @@
         },
         "Mooncake": {
             "mediaName": "250d269906be4694a10aee49a3385f2d__suse-manager-3-0-proxy-byos-v20170320"
+        },
+        "Fairfax": {
+            "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-manager-3-0-proxy-byos-v20170320"
         }
     },
     "imageReference": {
@@ -73,5 +78,17 @@
     ],
     "eula": "https://www.suse.com/licensing/eula/",
     "privacy": "https://www.suse.com/company/policies/privacy/",
+    "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
+"leadGeneration": {
+          "PublicAzure": {
+             "productId":"firstParty_SUSE_Manager_3_0_Proxy_(BYOS)"
+         },
+         "Fairfax": {
+             "productId":""
+         },
+         "Blackforest": {
+             "productId":""
+         }
+      },
     "screenshot": "Screenshots/suse.png"
 }

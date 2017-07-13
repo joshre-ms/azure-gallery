@@ -4,7 +4,7 @@
   "displayName": "[smalldisk] Windows Server 2012 R2 Datacenter",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20170415-en.us-30GB.vhd"
+      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-R2-20170510-en.us-30GB.vhd"
     }
   },
      "imageReference": {
@@ -23,7 +23,8 @@
         "azure",
         "windows",
         "appInfra",
-        "virtualMachineRecommended"
+        "virtualMachineRecommended",
+        "windowsservercuration"
     ],
     "recommendedSizes": [
         "Standard_DS1_v2",
