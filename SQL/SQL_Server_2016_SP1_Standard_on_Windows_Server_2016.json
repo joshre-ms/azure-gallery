@@ -4,7 +4,7 @@
     "displayName": "SQL Server 2016 SP1 Standard on Windows Server 2016",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-PCU-Main-13.0.4001.0-SQLSTD.ENU.Nov-WS2016-127gb.11.12.16.07.26_SecurityUpdate"
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16_SP1_QFE-CU13.0.4435.0SQLSTDWindowsServer2016-Datacenter1"
         },
         "BlackForest": {
             "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL16_SP1_QFE-CU13.0.4435.0SQLSTDWindowsServer2016-Datacenter1"
