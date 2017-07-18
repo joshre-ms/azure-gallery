@@ -4,7 +4,7 @@
   "displayName": "Windows 7 Enterprise N with SP1 (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Win7-SP1-Ent-N-x64-2017-05-18"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Win7-SP1-Ent-N-x64-2017-07-13"
     }
   },
   "imageReference": {
@@ -19,10 +19,10 @@
     "virtualMachine",
     "microsoftServer",
     "azure",
-    "47970b32416a",
     "windows",
     "appInfra",
-    "windowscuration"
+    "windowscuration",
+    "47970b32416a"
   ],
   "recommendedSizes": [
     "Standard_A3",
@@ -37,8 +37,8 @@
       "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
     }
   ],
-  "eula": "http://go.microsoft.com/fwlink/?LinkID=529064",
-  "privacy": "http://go.microsoft.com/fwlink/?LinkID=521839",
+  "eula": "https://go.microsoft.com/fwlink/?LinkID=529064",
+  "privacy": "https://go.microsoft.com/fwlink/?LinkID=521839",
   "screenshot": "Screenshots/Windows7.png",
   "cloudEnvironments": [
     "PublicAzure"
