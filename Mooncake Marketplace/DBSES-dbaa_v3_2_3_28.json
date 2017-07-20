@@ -1,0 +1,64 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "a26e07bf36334e7e8e0659a152d096a4__DBSES-dbaa_v3_2_3_28"
+    }
+  },
+  "publisher": "DBSES",
+  "publisherDisplayName": "安华金和",
+  "publisherLegalName": "北京安华金和科技有限公司",
+  "label": null,
+  "displayName": "云数据库审计系统_镜像版（DBAudit-EnCloud）",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "DBSES",
+    "offer": "dbaa_v3_2_3_28",
+    "sku": "V3.2.3.28"
+  },
+  "summary": "安华金和率先推出安华金和云数据库审计,符合等级保护三级标准，帮助用户满足合规性要求。",
+  "description": "<strong>特别注意：</strong>\n<ul>\n    <li>由于Azure的限制，购买时无法挂载数据盘，需要在购买之后关闭虚拟机，并在虚拟机上附加500G以上的数据盘后重启虚拟机，系统才能正常初始化并正常使用。</li>\n    <li>出于产品知识产权保护，用户对云服务器无法直接登陆，如遇到特殊问题需要登陆服务器，需要您的用户名、密码和厂商登陆钥匙共同授权才能访问，忘见谅。</li>\n</ul>",
+  "iconPath": "Icons/DBSES-dbaa_v3_2_3_28",
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "linux",
+    "database",
+    "security",
+    "compliance"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "443"
+    },
+    {
+      "endpointName": "port-2",
+      "protocol": "TCP",
+      "publicPort": "9266"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_A4_v2",
+    "Standard_D1_v2",
+    "Standard_D2_v2"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://www.dbsec.cn"
+      }
+    }
+  ],
+  "eula": "http://www.dbscloud.cn/DBScloudTrialSaas/jsp/mkt.docx",
+  "privacy": null,
+  "addHideKey": true,
+  "screenshot": "Screenshots/DBSES-dbaa_v3_2_3_28"
+}

@@ -1,0 +1,64 @@
+﻿{
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "5b190e9fb98a47ff8a7619d87183d115__nsfocus-vsas_h01"
+        }
+    },
+    "publisher": "NSFOCUS",
+    "publisherDisplayName": "绿盟科技",
+    "publisherLegalName": "北京神州绿盟科技有限公司",
+    "label": "vsas_h01_BYOL",
+    "displayName": "绿盟堡垒机云服务（vSAS-H）",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "NSFOCUS",
+        "offer": "vsas_h01",
+        "sku": "BYOL"
+    },
+    "summary": "绿盟堡垒机云服务（vSAS-H），是绿盟科技针对公有云场景，以虚拟化设备形态为核心的安全服务。",
+    "description": "<strong>产品介绍</strong>\n<p>\n    绿盟堡垒机云服务（vSAS）,是绿盟科技针对公有云场景，以虚拟化设备形态为核心的安全服务，部署在公有网平台，通过限制终端对云资源的直接访问，采用协议代理的方式、可进行账号统一管理、资源和权限统一分配、操作全程审计。\n</p>\n<p>\n特点和优势：\n</p>\n<ul>\n    <li>多维度、细粒度的认证与授权体系。</li>\n    <li>全程运维行为审计。</li>\n    <li>强大的应用扩展能力。</li>\n    <li>灵活多样的登录方式。</li>\n    <li>自身安全性保障。</li>\n</ul>\n<strong>使用说明</strong>\n<ul>\n    <li>使用WEB或者SSH登录方式,用户名密码均为创建虚拟机时所设置的用户名密码,SSH端口22,HTTPS端口443。 </li>\n    <li>登录后导入需软件许可证方可正常使用,如果还没有软件许可证,请联系绿盟客服购买。</li>\n</ul>",
+    "iconPath": "Icons/nsfocus-vsas_h01",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "appInfra",
+        "networking",
+        "security",
+        "linux"
+    ],
+    "endpoints": [
+        {
+            "endpointName": "SSH",
+            "protocol": "TCP",
+            "publicPort": 22
+        },
+        {
+            "endpointName": "HTTPS",
+            "protocol": "TCP",
+            "publicPort": 443
+        }
+    ],
+    "recommendedSizes": [
+        "Standard_A3",
+        "Standard_A4",
+        "Standard_D3"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "http://cloud.nsfocus.com"
+            }
+        }
+    ],
+    "eula": "http://www.dbscloud.cn/doc/用户协议.docx",
+    "privacy": null,
+    "addHideKey": true,
+    "screenshot": "Screenshots/nsfocus-vsas_h01"
+}
