@@ -20,8 +20,7 @@
         "sku": "Standard"
     },
     "summary": "Xcloud跨屏云可以帮助企业快速、安全、高效地将现有PC版网页适配成HTML5移动应用。",
-    "description": "<strong>使用说明：</strong>\r\n<ol>\r\n    <li>在Azure镜像市场选择云适配Xcloud网站跨屏云镜像，然后点击“部署”。</li>\r\n    <li>部署成功之后的入口地址：http://{DnsName}.chinacloudapp.cn</li>\r\n    <li>使用浏览器访问该入口，即可进入跨屏云的后台配置页面。</li>\r\n    <li>联系云适配客服电话400-069-0309购买软件许可证，我们为您提供相应的服务支持。</li>\r\n    <li>云适配Xcloud网站跨屏云前台适配定制页面为：<a href=\"http://platform.yunshipei.com/\" target=\"_blank\">http://platform.yunshipei.com/</a></li>\r\n    <li>网站适配好后，我们为您开启私有部署，您通过跨屏云的后台配置页面同步即可。</li>\r\n    <li>Xcloud网站跨屏云具体的使用手册请参考：<a href=\"http://dev.xcloud.yunshipei.com/index.html\" target=\"_blank\">http://dev.xcloud.yunshipei.com/index.html</a></li>\r\n</ol>",
-    "iconPath": "Icons/Yunshipei-Xcloud-Multiple-Screens-5_0",
+    "description": "<strong>使用说明：</strong>\r\n<ol>\r\n    <li>在Azure镜像市场选择云适配Xcloud网站跨屏云镜像，然后点击“部署”。</li>\r\n    <li>部署成功之后，需要在资源组中建立负载均衡器，设置前段IP配置、后端池和入站NAT规则，目的是为把外部的TCP_80转换为内部的TCP_30000端口，再通过网络安全组配置入站安全规则，打开TCP_30000端口。</li>\r\n    <li>配置完成之后，可通过负载均衡器中绑定的公共IP地址进行Web访问；也可点击进入公共IP地址配置自定义域名，然后通过浏览器 http://{DnsName}.{ResourceGroupLocation}.cloudapp.chinacloudapi.cn进行访问。</li>\r\n    <li>联系云适配客服电话400-069-0309购买软件许可证，我们为您提供相应的服务支持。</li>\r\n    <li>云适配Xcloud网站跨屏云前台适配定制页面为：<a href=\"http://platform.yunshipei.com/\" target=\"_blank\">http://platform.yunshipei.com/</a></li>\r\n    <li>网站适配好后，我们为您开启私有部署，您通过跨屏云的后台配置页面同步即可。</li>\r\n    <li>Xcloud网站跨屏云具体的使用手册请参考：<a href=\"http://dev.xcloud.yunshipei.com/index.html\" target=\"_blank\">http://dev.xcloud.yunshipei.com/index.html</a></li>\r\n</ol>",
     "categories": [
         "virtualMachine",
         "microsoftServer",
@@ -40,7 +39,7 @@
         {
             "label": "来源网站",
             "uri": {
-                "Default": "https://www.yunshipei.com/"
+                "Default": "http://www.yunshipei.com/"
             }
         }
     ],
