@@ -46,13 +46,7 @@
         {
             "label": "来源网站",
             "uri": {
-                "Default": "https://www.cs2c.com.cn"
-            }
-        },
-        {
-            "label": "系统管理员手册",
-            "uri": {
-                "Default": "http://neocertify.cs2c.com.cn/docs/NLAS_V6.0_System_Administration.pdf"
+                "Default": "http://www.cs2c.com.cn/"
             }
         }
     ],
