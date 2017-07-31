@@ -4,7 +4,7 @@
     ],
     "mediaReferences": {
         "Mooncake": {
-            "mediaName": "91183adafeeb4e18b28649c3096ef4fb__BlueStoneB2CMall"
+            "mediaName": "91183adafeeb4e18b28649c3096ef4fb__BlueStoneEcommerceSolution-B2CMall"
         }
     },
     "publisher": "BlueStoneEcommerceSolution",
@@ -32,6 +32,13 @@
         "ecommerce",
         "windows"
     ],
+    "endpoints": [
+        {
+            "endpointName": "HTTP",
+            "protocol": "TCP",
+            "publicPort": 80
+        }
+    ],
     "recommendedSizes": [
         "Standard_A2_v2",
         "Standard_D1_v2",
@@ -47,6 +54,5 @@
     ],
     "eula": null,
     "privacy": null,
-    "addHideKey": true,
-    "screenshot": "Screenshots/BlueStoneB2CMall"
+    "addHideKey": true
 }
