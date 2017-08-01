@@ -39,7 +39,7 @@
             "publicPort": 18190
         },
         {
-            "endpointName": "vsec-ui-1",
+            "endpointName": "vsec-ui-2",
             "protocol": "TCP",
             "publicPort": 18191
         },
