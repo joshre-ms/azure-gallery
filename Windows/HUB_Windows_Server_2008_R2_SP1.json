@@ -8,7 +8,7 @@
     "sku": "2008-R2-SP1-HUB"
   },
   "OS": "Windows",
-  "description": "Windows Server 2008 R2 is a multi-purpose server designed to increase the reliability and flexibility of your server or private cloud infrastructure, helping you to save time and reduce costs.  The virtual machine (VM) provides you with powerful tools to react to business needs with greater control and confidence.",
+  "description": "<h3 style=\"color: #5e9ca0;\"><span style=\"color: #ff0000;\">This image offering is set to retire on 8/31/2017, please use the standard Windows Server 2008 R2 SP1 image with \"Save money\" option for Hybrid Use Benefits. For more information, click&nbsp;<a href=\"https://support.microsoft.com/en-us/help/4036360/retirement-azure-hybrid-use-benefit-images-for-ea-subscriptions\">here</a></span></h3><p>Windows Server 2008 R2 is a multi-purpose server designed to increase the reliability and flexibility of your server or private cloud infrastructure, helping you to save time and reduce costs. The virtual machine (VM) provides you with powerful tools to react to business needs with greater control and confidence.</p>",
   "iconPath": "Icons/Server",
   "supportsHub": true,
   "categories": [
