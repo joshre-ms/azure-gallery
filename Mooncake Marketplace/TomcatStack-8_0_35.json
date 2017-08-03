@@ -41,6 +41,11 @@
             "endpointName": "tomcat-http",
             "protocol": "TCP",
             "publicPort": 8080
+        },
+         {
+            "endpointName": "mysql",
+            "protocol": "TCP",
+            "publicPort": 3306
         }
     ],
     "recommendedSizes": [
