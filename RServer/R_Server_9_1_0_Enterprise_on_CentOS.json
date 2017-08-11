@@ -11,6 +11,9 @@
     },
     "Fairfax": {
       "mediaName": "5ed929c742ab466aaf4c7af43a19e384__MRS-910-VM-CentOS-1-0-2"
+    },
+    "BlackForest": {
+      "mediaName": "09c0463f202a4ba185440d963f6b8f2d__MRS-910-VM-CentOS-1-0-2"
     }
   },
   "imageReference": {
@@ -69,6 +72,7 @@
   "cloudEnvironments": [
     "PublicAzure",
     "Mooncake",
-    "Fairfax"
+    "Fairfax",
+    "BlackForest"
   ]
 }
