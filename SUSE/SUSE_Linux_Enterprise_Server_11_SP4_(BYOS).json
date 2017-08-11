@@ -1,12 +1,13 @@
 {
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server 11 SP4 (Bring Your Own Subscription)",
-    "publisherDisplayName": "SUSE",	
+    "publisherDisplayName": "SUSE",
     "displayName": "SLES 11 SP4 (BYOS)",
     "cloudEnvironments": [
         "PublicAzure",
         "Blackforest",
-        "Mooncake"
+        "Mooncake",
+        "Fairfax"
     ],
     "mediaReferences": {
         "PublicAzure": {
@@ -17,6 +18,9 @@
         },
         "Mooncake": {
             "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-11-sp4-byos-v20170320"
+        },
+        "Fairfax": {
+            "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-sles-11-sp4-byos-v20170320"
         }
     },
     "imageReference": {

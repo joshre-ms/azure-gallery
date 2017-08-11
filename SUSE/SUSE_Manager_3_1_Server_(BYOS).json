@@ -6,7 +6,8 @@
     "cloudEnvironments": [
         "PublicAzure",
         "Blackforest",
-        "Mooncake"
+        "Mooncake",
+        "Fairfax"
     ],
     "mediaReferences": {
         "PublicAzure": {
@@ -17,6 +18,9 @@
         },
         "Mooncake": {
             "mediaName": "250d269906be4694a10aee49a3385f2d__suse-manager-3-1-server-byos-v20170627"
+        },
+        "Fairfax": {
+            "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-manager-3-1-server-byos-v20170627"
         }
     },
     "imageReference": {
@@ -77,7 +81,7 @@
     "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
 "leadGeneration": {
           "PublicAzure": {
-             "productId":"firstParty_SUSE_Manager_3_0_Server_(BYOS)"
+             "productId":"firstParty_SUSE_Manager_3_1_Server_(BYOS)"
          },
          "Fairfax": {
              "productId":""
