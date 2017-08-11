@@ -29,6 +29,7 @@
         "azureCertified",
         "appInfra",
         "networking",
+        "appliances",
         "linux"
     ],
     "endpoints": [
@@ -83,6 +84,5 @@
         }
     ],
     "eula": "http://www.riverbed.com/legal/license.html",
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

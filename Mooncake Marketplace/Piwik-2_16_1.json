@@ -28,7 +28,6 @@
         "azure",
         "azureCertified",
         "analytics",
-        "bigData",
         "linux"
     ],
     "endpoints": [
@@ -52,6 +51,5 @@
         }
     ],
     "eula": null,
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

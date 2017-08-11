@@ -28,7 +28,7 @@
         "azure",
         "azureCertified",
         "web",
-        "webRecommended",
+        "blogCms",
         "media",
         "linux"
     ],
@@ -53,6 +53,5 @@
         }
     ],
     "eula": "http://coppermine-gallery.net/team/#license",
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

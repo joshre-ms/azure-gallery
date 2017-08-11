@@ -28,6 +28,7 @@
         "azure",
         "azureCertified",
         "appInfra",
+        "appliances",
         "networking",
         "security",
         "linux"
@@ -65,6 +66,5 @@
     ],
     "eula": "http://www.fortinet.com.cn/products/fortiweb/index.html",
     "privacy": null,
-    "addHideKey": true,
     "screenshot": "Screenshots/FortinetWebApplicationFirewall"
 }

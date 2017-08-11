@@ -27,9 +27,7 @@
         "microsoftServer",
         "azure",
         "azureCertified",
-        "businessApplication",
         "web",
-        "webRecommended",
         "ecommerce",
         "linux"
     ],
@@ -54,6 +52,5 @@
         }
     ],
     "eula": null,
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

@@ -28,8 +28,6 @@
         "azure",
         "azureCertified",
         "appInfra",
-        "devService",
-        "storage",
         "database",
         "linux"
     ],
@@ -54,6 +52,5 @@
         }
     ],
     "eula": null,
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

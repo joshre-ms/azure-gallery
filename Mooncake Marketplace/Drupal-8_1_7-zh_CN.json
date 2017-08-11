@@ -27,9 +27,7 @@
         "microsoftServer",
         "azure",
         "azureCertified",
-        "devService",
         "web",
-        "webRecommended",
         "blogCms",
         "linux"
     ],
@@ -59,6 +57,5 @@
         }
     ],
     "eula": null,
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

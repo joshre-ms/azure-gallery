@@ -29,8 +29,6 @@
         "azureCertified",
         "businessApplication",
         "web",
-        "webRecommended",
-        "media",
         "linux"
     ],
     "endpoints": [
@@ -54,6 +52,5 @@
         }
     ],
     "eula": "http://mahara.org/interaction/forum/topic.php?id=2938#post12639",
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

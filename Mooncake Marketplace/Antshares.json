@@ -29,6 +29,7 @@
         "azureCertified",
         "appInfra",
         "devService",
+        "blockchain",
         "windows"
     ],
     "endpoints": [
@@ -78,6 +79,5 @@
     ],
     "eula": "http://github.com/AntShares/AntShares/blob/master/LICENSE",
     "privacy": null,
-    "addHideKey": true,
     "screenshot": "Screenshots/Antshares"
 }

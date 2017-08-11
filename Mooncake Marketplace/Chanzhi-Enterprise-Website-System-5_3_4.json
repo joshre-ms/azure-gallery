@@ -29,7 +29,6 @@
         "azureCertified",
         "businessApplication",
         "web",
-        "webRecommended",
         "blogCms",
         "linux"
     ],
@@ -67,6 +66,5 @@
     ],
     "eula": "http://www.chanzhi.org/book/chanzhieps/58_license.html",
     "privacy": null,
-    "addHideKey": true,
     "screenshot": "Screenshots/Chanzhi-Enterprise-Website-System-5_3_4"
 }

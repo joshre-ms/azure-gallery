@@ -28,6 +28,7 @@
         "azure",
         "azureCertified",
         "appInfra",
+        "appliances",
         "networking",
         "security",
         "linux"
@@ -78,6 +79,5 @@
         }
     ],
     "eula": null,
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

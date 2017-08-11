@@ -28,6 +28,7 @@
         "azure",
         "azureCertified",
         "businessApplication",
+        "web",
         "linux"
     ],
     "endpoints": [
@@ -51,6 +52,5 @@
         }
     ],
     "eula": "http://www.gnu.org/licenses/gpl.html",
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

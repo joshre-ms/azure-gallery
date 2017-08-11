@@ -28,7 +28,8 @@
         "azure",
         "azureCertified",
         "appInfra",
-        "linux"
+        "linux",
+        "os"
     ],
     "endpoints": [
         {
@@ -51,6 +52,5 @@
         }
     ],
     "eula": "http://www.cs2c.com.cn/news/index.php?id=1001",
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

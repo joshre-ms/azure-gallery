@@ -28,10 +28,8 @@
         "azure",
         "azureCertified",
         "appInfra",
-        "devService",
-        "storage",
         "database",
-        "bigData",
+        "nosql",
         "linux"
     ],
     "endpoints": [
@@ -55,6 +53,5 @@
         }
     ],
     "eula": null,
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

@@ -27,7 +27,6 @@
         "microsoftServer",
         "azure",
         "azureCertified",
-        "businessApplication",
         "analytics",
         "bigData",
         "linux"
@@ -90,6 +89,5 @@
     ],
     "eula": "http://www.yonghongtech.com/agreement",
     "privacy": null,
-    "addHideKey": true,
     "screenshot": "Screenshots/Yonghong-Z-Suite-6_1"
 }

@@ -27,7 +27,7 @@
         "microsoftServer",
         "azure",
         "azureCertified",
-        "businessApplication",
+        "web",
         "linux"
     ],
     "endpoints": [
@@ -51,6 +51,5 @@
         }
     ],
     "eula": "http://docs.moodle.org/31/en/Standards",
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

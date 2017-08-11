@@ -28,7 +28,7 @@
         "azure",
         "azureCertified",
         "appInfra",
-        "businessApplication",
+        "appliances",
         "networking",
         "security",
         "linux"
@@ -54,6 +54,5 @@
         }
     ],
     "eula": "http://www.citrix.com/content/dam/citrix/en_us/documents/buy/enterprise-software-eula-cn.pdf",
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

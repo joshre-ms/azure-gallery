@@ -28,7 +28,6 @@
         "azure",
         "azureCertified",
         "appInfra",
-        "devService",
         "linux"
     ],
     "endpoints": [
@@ -64,6 +63,5 @@
         }
     ],
     "eula": null,
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

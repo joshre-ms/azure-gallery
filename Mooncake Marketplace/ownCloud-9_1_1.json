@@ -28,7 +28,6 @@
         "azure",
         "azureCertified",
         "web",
-        "webRecommended",
         "blogCms",
         "linux"
     ],
@@ -53,6 +52,5 @@
         }
     ],
     "eula": "http://www.gnu.org/licenses/agpl-3.0.html",
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

@@ -28,7 +28,7 @@
         "azure",
         "azureCertified",
         "appInfra",
-        "devService",
+        "starterSite",
         "linux"
     ],
     "endpoints": [
@@ -42,7 +42,7 @@
             "protocol": "TCP",
             "publicPort": 8080
         },
-         {
+        {
             "endpointName": "mysql",
             "protocol": "TCP",
             "publicPort": 3306
@@ -62,6 +62,5 @@
         }
     ],
     "eula": null,
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

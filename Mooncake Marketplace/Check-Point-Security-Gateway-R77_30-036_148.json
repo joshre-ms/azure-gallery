@@ -28,6 +28,7 @@
         "azure",
         "azureCertified",
         "appInfra",
+        "appliances",
         "networking",
         "security",
         "linux"
@@ -69,6 +70,5 @@
         }
     ],
     "eula": "http://www.checkpoint.com/support-services/software-license-agreement-limited-hardware-warranty/",
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

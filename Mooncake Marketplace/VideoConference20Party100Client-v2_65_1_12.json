@@ -30,7 +30,7 @@
         "businessApplication",
         "windows"
     ],
-     "endpoints": [
+    "endpoints": [
         {
             "endpointName": "VideoPort",
             "protocol": "TCP",
@@ -52,6 +52,5 @@
     ],
     "eula": "http://www.qycx.com/cn/qm-license-100u.htm",
     "privacy": null,
-    "addHideKey": true,
     "screenshot": "Screenshots/VideoConference20Party100Client-v2_65_1_12"
 }

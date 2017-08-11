@@ -28,6 +28,7 @@
         "azure",
         "azureCertified",
         "appInfra",
+        "devService",
         "linux"
     ],
     "recommendedSizes": [
@@ -44,6 +45,5 @@
         }
     ],
     "eula": "https://vmdepot.msopentech.cn/User/DefaultToU",
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

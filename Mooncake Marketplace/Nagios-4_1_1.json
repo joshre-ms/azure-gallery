@@ -27,7 +27,6 @@
         "microsoftServer",
         "azure",
         "azureCertified",
-        "appInfra",
         "devService",
         "monitoring",
         "linux"
@@ -53,6 +52,5 @@
         }
     ],
     "eula": null,
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

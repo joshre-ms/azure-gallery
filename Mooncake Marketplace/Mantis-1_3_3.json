@@ -51,6 +51,5 @@
         }
     ],
     "eula": "https://www.mantisbt.org/hosting.php",
-    "privacy": null,
-    "addHideKey": true
+    "privacy": null
 }

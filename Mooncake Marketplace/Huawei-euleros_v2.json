@@ -1,50 +1,50 @@
 ﻿{
-  "cloudEnvironments": [
-    "Mooncake"
-  ],
-  "mediaReferences": {
-    "Mooncake": {
-      "mediaName": "b4c4614e96bb4fb9af8c6af6bfd91860__Huawei-euleros_v2"
-    }
-  },
-  "publisher": "Huawei",
-  "publisherDisplayName": "华为",
-  "publisherLegalName": "华为技术有限公司",
-  "label": "euleros_v2_byol",
-  "displayName": "华为服务器操作系统EulerOS V2.0",
-  "imageType": "VMImage",
-  "os": "Linux",
-  "imageReference": {
+    "cloudEnvironments": [
+        "Mooncake"
+    ],
+    "mediaReferences": {
+        "Mooncake": {
+            "mediaName": "b4c4614e96bb4fb9af8c6af6bfd91860__Huawei-euleros_v2"
+        }
+    },
     "publisher": "Huawei",
-    "offer": "euleros_v2",
-    "sku": "BYOL"
-  },
-  "summary": " 华为服务器操作系统EulerOS 基于CentOS稳定版本，实现简单易用，为客户提供增强的安全性、良好的兼容性以及高可靠性；它能够满足企业在实际应用中对操作系统不断增长的需求，为用户提供了富有竞争力的开放式IT平台。该系统镜像是专为Azure平台定制优化的服务器操作系统，具有极强的可靠性、安全性，同时在编译系统、虚拟存储系统、CPU调度、IO驱动、网络和文件系统等方面做了大量的优化。",
-  "description": "\n<strong>产品详情</strong>\n<p>\n产品介绍\n</p>\n<p>\n 操作系统是业务运营依赖的基础，用户构建基础架构时，需要依赖它的可靠性和安全性；在云业务、虚拟机、物理硬件中部署应用程序时，需要让应用程序易于管理和控制；在运行应用程序时，希望实现高性能；同时要能够维护和管理它们所运行的平台。另外，操作系统还需要为用户业务和架构发展提供足够的灵活性。EulerOS能够提供上述功能，满足客户不断发展、变化的需求。\n</p>\n<p>\n安全性\n</p>\n<p>\nEulerOS已经通过公安部信息安全技术操作系统安全技术要求四级认证，并且提供多种增强的安全技术（SELinux）来防止入侵，保护用户的系统和数据的安全。EulerOS是最安全的操作系统之一，用户可以在物理机、虚拟机和云部署中使用安全套件来保护应用程序、数据，还可以通过相应的安全配置项来自定义安全策略。\n</p>\n<p>\n可用性\n</p>\n<p>\nEulerOS客户能够向其用户提供电信级超长期的可靠性和稳定性。EulerOS的高可靠性是借助高级硬件的可靠性、可用性和可维护性 (RAS) 来实现的。 用户可以使用系统自带的 Pacemaker 集群管理器和 GFS2 集群文件系统，进一步增强应用程序在物理机以及虚拟机中的弹性。\n</p>\n<p>\n性能\n</p>\n<p>\nEulerOS是适用于 x86 机器的性能最好的操作系统之一，能够运行在高度可扩展的多核系统上，支持最严苛的工作负载。EulerOS在编译系统、虚拟存储系统、CPU调度、IO驱动、网络和文件系统等方面做了大量的优化。性能优化功能允许用户调整基础架构，以便精确满足服务的负载需求。在编译系统、虚拟存储系统、CPU调度、IO驱动、网络和文件系统等方面做了大量的优化。性能优化功能允许用户调整基础架构，以便精确满足服务的负载需求。\n</p>\n<p>\n存储\n</p>\n<p>\nEulerOS默认文件系统是Ext4，此系统高度可扩展（最大为 500 TB）。EulerOS还提供其他文件系统（Ext4、CIFS 和GFS2），方便用户灵活定制存储架构，满足用户的数据要求。EulerOS服务器内置有存储管理功能，例如快照和备份工具，可以帮助用户实现业务连续性以及系统崩溃后的数据恢复。\n</p>\n<p>\n系统管理\n</p>\n<p>\nEulerOS使用systemd管理流程和服务。systemd 是一种平行化的管理流程和服务框架，可让管理员快速启动和停止流程。如果客户的平台已使用第三方IT管理系统，用户可以使用 OpenLMI 提供的标准界面进行集成。\n</p>\n<p>\n虚拟化\n</p>\n<p>\nEulerOS 支持基于 KVM 的虚拟化功能。EulerOS 可充当虚拟机的主机或作为客户机在受支持的管理程序（其中包括VMware 或 Microsoft Hyper-V）上运行。EulerOS 作为客户机的性能与处理许多工作负载的物理虚拟机的性能几乎相同。\n</p>\n<p>\n应用程序基础架构\n</p>\n<p>\n操作系统通常被视为是通用的基础平台，它必须支持各种各样的工作负载。EulerOS还提供一些额外的功能，用户满足运行应用程序的要求，例如应用程序隔离功能、用户身份验证服务和管理功能。\n</p>\n<p>\n容器\n</p>\n<p>\nLinux容器是在单一的主机上运行多个独立的Linux容器的虚拟化方法。它不提供虚拟机，而是提供一个虚拟环境，有自己的CPU、内存、块I/O、网络和资源控制机制。EulerOS 中的 Linux 容器结合了轻量级应用程序隔离和灵活的映像部署方法。容器占用的空间小，消耗的成本低并且维护操作简单，从而降低了应用程序的部署成本。\n</p>\n<p>\n身份管理\n</p>\n<p>\n身份管理对数据和应用程序安全性至关重要。EulerOS提供一整套身份管理功能，这些功能简化了用户验证和访问权限管理。其中一项功能能够让用户在 Linux、UNIX 和 Microsoft Windows 域之间集中管理身份，可以让用户在访问不同域中的应用程序时，提供单点登录的体验。\n</p>\n<p>\n资源管理\n</p>\n<p>\nEulerOS 可让管理员和应用程序开发人员细粒度的控制资源，例如内存、网络、CPU等等，以更好的满足业务需求。使用 systemd，用户可从对流程、安全性和服务进行集中式管理。此外，容器可以提供隔离、安全的环境，方便用户进行开发、测试等。\n</p>\n<p>\n工具\n</p>\n<p>\nEulerOS包括使用最新的稳定技术来支持创建现代应用程序的全套开源工具，其中包括开发工具（如 OpenJDK7、GCC、Ruby、Python、PHP 和 Perl）、性能工具（如 Perf、SystemTap 和 Valgrind 等）、数据库（例如 MariaDB、MongoDB 和 PostreSQL） 和 Apache Web 服务器。\n</p>\n<strong>使用说明</strong>\n<p>特别说明：关于本镜像使用请与我们联系（400-8828-000）。</p>",
-  "iconPath": "Icons/Huawei-euleros_v2",
-  "categories": [
-    "virtualMachine",
-    "microsoftServer",
-    "azure",
-    "azureCertified",
-    "linux"
-  ],
-  "endpoints": [],
-  "recommendedSizes": [
-    "Standard_A2_v2",
-    "Standard_D1_v2",
-    "Standard_D2_v2"
-  ],
-  "linksForEnvironments": [
-    {
-      "label": "来源网站",
-      "uri": {
-        "Default": "http://developer.huawei.com/ict/cn/site-euleros"
-      }
-    }
-  ],
-  "eula": "http://developer.huawei.com/ict/cn/site-euleros/article/privacy-policy",
-  "privacy": null,
-  "addHideKey": true,
-  "screenshot": "Screenshots/Huawei-euleros_v2"
+    "publisherDisplayName": "华为",
+    "publisherLegalName": "华为技术有限公司",
+    "label": "euleros_v2_byol",
+    "displayName": "华为服务器操作系统EulerOS V2.0",
+    "imageType": "VMImage",
+    "os": "Linux",
+    "imageReference": {
+        "publisher": "Huawei",
+        "offer": "euleros_v2",
+        "sku": "BYOL"
+    },
+    "summary": " 华为服务器操作系统EulerOS 基于CentOS稳定版本，实现简单易用，为客户提供增强的安全性、良好的兼容性以及高可靠性；它能够满足企业在实际应用中对操作系统不断增长的需求，为用户提供了富有竞争力的开放式IT平台。该系统镜像是专为Azure平台定制优化的服务器操作系统，具有极强的可靠性、安全性，同时在编译系统、虚拟存储系统、CPU调度、IO驱动、网络和文件系统等方面做了大量的优化。",
+    "description": "\n<strong>产品详情</strong>\n<p>\n产品介绍\n</p>\n<p>\n 操作系统是业务运营依赖的基础，用户构建基础架构时，需要依赖它的可靠性和安全性；在云业务、虚拟机、物理硬件中部署应用程序时，需要让应用程序易于管理和控制；在运行应用程序时，希望实现高性能；同时要能够维护和管理它们所运行的平台。另外，操作系统还需要为用户业务和架构发展提供足够的灵活性。EulerOS能够提供上述功能，满足客户不断发展、变化的需求。\n</p>\n<p>\n安全性\n</p>\n<p>\nEulerOS已经通过公安部信息安全技术操作系统安全技术要求四级认证，并且提供多种增强的安全技术（SELinux）来防止入侵，保护用户的系统和数据的安全。EulerOS是最安全的操作系统之一，用户可以在物理机、虚拟机和云部署中使用安全套件来保护应用程序、数据，还可以通过相应的安全配置项来自定义安全策略。\n</p>\n<p>\n可用性\n</p>\n<p>\nEulerOS客户能够向其用户提供电信级超长期的可靠性和稳定性。EulerOS的高可靠性是借助高级硬件的可靠性、可用性和可维护性 (RAS) 来实现的。 用户可以使用系统自带的 Pacemaker 集群管理器和 GFS2 集群文件系统，进一步增强应用程序在物理机以及虚拟机中的弹性。\n</p>\n<p>\n性能\n</p>\n<p>\nEulerOS是适用于 x86 机器的性能最好的操作系统之一，能够运行在高度可扩展的多核系统上，支持最严苛的工作负载。EulerOS在编译系统、虚拟存储系统、CPU调度、IO驱动、网络和文件系统等方面做了大量的优化。性能优化功能允许用户调整基础架构，以便精确满足服务的负载需求。在编译系统、虚拟存储系统、CPU调度、IO驱动、网络和文件系统等方面做了大量的优化。性能优化功能允许用户调整基础架构，以便精确满足服务的负载需求。\n</p>\n<p>\n存储\n</p>\n<p>\nEulerOS默认文件系统是Ext4，此系统高度可扩展（最大为 500 TB）。EulerOS还提供其他文件系统（Ext4、CIFS 和GFS2），方便用户灵活定制存储架构，满足用户的数据要求。EulerOS服务器内置有存储管理功能，例如快照和备份工具，可以帮助用户实现业务连续性以及系统崩溃后的数据恢复。\n</p>\n<p>\n系统管理\n</p>\n<p>\nEulerOS使用systemd管理流程和服务。systemd 是一种平行化的管理流程和服务框架，可让管理员快速启动和停止流程。如果客户的平台已使用第三方IT管理系统，用户可以使用 OpenLMI 提供的标准界面进行集成。\n</p>\n<p>\n虚拟化\n</p>\n<p>\nEulerOS 支持基于 KVM 的虚拟化功能。EulerOS 可充当虚拟机的主机或作为客户机在受支持的管理程序（其中包括VMware 或 Microsoft Hyper-V）上运行。EulerOS 作为客户机的性能与处理许多工作负载的物理虚拟机的性能几乎相同。\n</p>\n<p>\n应用程序基础架构\n</p>\n<p>\n操作系统通常被视为是通用的基础平台，它必须支持各种各样的工作负载。EulerOS还提供一些额外的功能，用户满足运行应用程序的要求，例如应用程序隔离功能、用户身份验证服务和管理功能。\n</p>\n<p>\n容器\n</p>\n<p>\nLinux容器是在单一的主机上运行多个独立的Linux容器的虚拟化方法。它不提供虚拟机，而是提供一个虚拟环境，有自己的CPU、内存、块I/O、网络和资源控制机制。EulerOS 中的 Linux 容器结合了轻量级应用程序隔离和灵活的映像部署方法。容器占用的空间小，消耗的成本低并且维护操作简单，从而降低了应用程序的部署成本。\n</p>\n<p>\n身份管理\n</p>\n<p>\n身份管理对数据和应用程序安全性至关重要。EulerOS提供一整套身份管理功能，这些功能简化了用户验证和访问权限管理。其中一项功能能够让用户在 Linux、UNIX 和 Microsoft Windows 域之间集中管理身份，可以让用户在访问不同域中的应用程序时，提供单点登录的体验。\n</p>\n<p>\n资源管理\n</p>\n<p>\nEulerOS 可让管理员和应用程序开发人员细粒度的控制资源，例如内存、网络、CPU等等，以更好的满足业务需求。使用 systemd，用户可从对流程、安全性和服务进行集中式管理。此外，容器可以提供隔离、安全的环境，方便用户进行开发、测试等。\n</p>\n<p>\n工具\n</p>\n<p>\nEulerOS包括使用最新的稳定技术来支持创建现代应用程序的全套开源工具，其中包括开发工具（如 OpenJDK7、GCC、Ruby、Python、PHP 和 Perl）、性能工具（如 Perf、SystemTap 和 Valgrind 等）、数据库（例如 MariaDB、MongoDB 和 PostreSQL） 和 Apache Web 服务器。\n</p>\n<strong>使用说明</strong>\n<p>特别说明：关于本镜像使用请与我们联系（400-8828-000）。</p>",
+    "iconPath": "Icons/Huawei-euleros_v2",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "azureCertified",
+        "linux",
+        "os"
+    ],
+    "endpoints": [],
+    "recommendedSizes": [
+        "Standard_A2_v2",
+        "Standard_D1_v2",
+        "Standard_D2_v2"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "来源网站",
+            "uri": {
+                "Default": "http://developer.huawei.com/ict/cn/site-euleros"
+            }
+        }
+    ],
+    "eula": "http://developer.huawei.com/ict/cn/site-euleros/article/privacy-policy",
+    "privacy": null,
+    "screenshot": "Screenshots/Huawei-euleros_v2"
 }
