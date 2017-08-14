@@ -27,6 +27,7 @@
         "azureCertified"
     ],
     "recommendedSizes": [
+        "Standard_D2s_v3",
         "Standard_DS1",
         "Standard_DS11",
         "Standard_DS2",

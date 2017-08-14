@@ -18,13 +18,15 @@
         "windows",
         "appInfra"
     ],
-  "recommendedSizes": [
-    "Standard_D12_v2",
-    "Standard_DS12_v2",
-    "Standard_D12",
-    "Standard_DS12",
-    "A7"
-  ],
+    "recommendedSizes": [
+        "Standard_E4_v3",
+        "Standard_E4s_v3",
+        "Standard_D12_v2",
+        "Standard_DS12_v2",
+        "Standard_D12",
+        "Standard_DS12",
+        "A7"
+    ],
     "links": [
         {
             "label": "Learn more",

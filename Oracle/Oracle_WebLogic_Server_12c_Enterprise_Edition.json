@@ -21,11 +21,10 @@
         "azureCertified"
     ],
     "recommendedSizes": [
-        "Standard_D12_v2",
-        "Standard_DS14_v2",
+        "Standard_E4s_v3",
         "Standard_D12",
         "Standard_DS14",
-        "A6" 
+        "A6"
     ],
     "links": [
         {

@@ -20,6 +20,9 @@
         "appInfra"
     ],
     "recommendedSizes": [
+        "Standard_D2s_v3",
+        "Standard_D4s_v3",
+        "Standard_E2s_v3",    
         "Standard_DS3",
         "Standard_DS4",
         "Standard_DS12",

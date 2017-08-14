@@ -32,6 +32,7 @@
         "oracledatabasecuration"
     ],
     "recommendedSizes": [
+        "Standard_E4s_v3",
         "Standard_D12",
         "A6",
         "Standard_DS14"
