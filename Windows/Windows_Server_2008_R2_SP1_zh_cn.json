@@ -20,7 +20,9 @@
   ],
   "recommendedSizes": [
     "Standard_DS1_v2",
+    "Standard_D2s_v3",
     "Standard_DS2_v2",
+    "Standard_E2s_v3",
     "Standard_DS11_v2",
     "Standard_DS1",
     "Standard_DS2",

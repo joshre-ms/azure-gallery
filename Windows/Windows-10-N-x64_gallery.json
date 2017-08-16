@@ -26,8 +26,10 @@
   ],
   "recommendedSizes": [
     "Standard_A3",
+    "Standard_D2_v3",
     "Standard_D2",
     "Standard_D2_v2",
+    "Standard_D2s_v3",
     "Standard_DS2",
     "Standard_DS2_v2"
   ],

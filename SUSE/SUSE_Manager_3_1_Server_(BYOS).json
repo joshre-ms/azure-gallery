@@ -41,6 +41,8 @@
         "virtualMachineRecommended"
     ],
     "recommendedSizes": [
+        "Standard_E4_v3",
+        "Standard_E4s_v3",
         "Standard_G2",
         "Standard_DS13_v2",
         "Standard_DS13",
