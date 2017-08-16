@@ -4,13 +4,13 @@
     "displayName": "{BYOL} SQL Server 2016 SP1 Enterprise on Windows Server 2016",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16-PCU-Main-13.0.4001.0-SQLENTCORE.ENU.Nov-WS2016-127gb.11.11.16.08.14_BYOL_SecurityUpdate"
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16_SP1_QFE-CU13.0.4435.0SQLENTCOREWindowsServer20162-BYOL"
         },
         "BlackForest": {
-            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL16_SP1_QFE-CU13.0.4435.0SQLENTCOREWindowsServer2016-Datacenter0-BYOL2"
+            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL16_SP1_QFE-CU13.0.4435.0SQLENTCOREWindowsServer20162-BYOL"
         },
 		"FairFax":{
-			"mediaName": "0bd04240ad4b45118afda6ddb0581fff__SQL16_SP1_QFE-CU13.0.4435.0SQLENTCOREWindowsServer2016-Datacenter0-BYOL2"
+			"mediaName": "0bd04240ad4b45118afda6ddb0581fff__SQL16_SP1_QFE-CU13.0.4435.0SQLENTCOREWindowsServer20162-BYOL"
 		}
     },
     "imageReference": {
