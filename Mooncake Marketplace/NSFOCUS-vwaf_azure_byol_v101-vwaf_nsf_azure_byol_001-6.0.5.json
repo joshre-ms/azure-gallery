@@ -1,0 +1,68 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "5b190e9fb98a47ff8a7619d87183d115__NSFOCUS-vwaf_azure_byol_v101-vwaf_nsf_azure_byol_001-6.0.5"
+    }
+  },
+  "publisher": "NSFOCUS",
+  "publisherDisplayName": "绿盟科技",
+  "publisherLegalName": "北京神州绿盟科技有限公司",
+  "label": "vwaf_azure_byol_v101_vwaf_nsf_azure_byol_001",
+  "displayName": "绿盟网站安全防护服务(vWAF)",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "NSFOCUS",
+    "offer": "vwaf_azure_byol_v101",
+    "sku": "vwaf_nsf_azure_byol_001"
+  },
+  "summary": "绿盟网站安全防护服务（vWAF）是基于虚拟化Web应用防火墙的SaaS安全服务，帮助客户防御Web攻并保护网站安全",
+  "description": "<strong>产品介绍</strong>\n<p>\n    绿盟网站安全防护服务(vWAF)，是绿盟科技针对公有云场景，以虚拟化设备形态为核心的安全服务，全面防护企业客户部署在公有云上的Web业务。核心防护引擎、智能检测引擎、自学习引擎、智能补丁，多种防护，全面对抗OWASP Top10威胁。按需购买，方便扩容。2016年WAF产品大中华区市场份额第一，连续7年（2010-2016）引领WAF国内市场；连续3年（2014-2016）入选Gartner魔力象限，2016年唯一入选Gartner魔力象限的国内WAF。\n</p>\n<p>\n特点和优势：\n</p>\n<ul>\n    <li>客户资产视角。</li>\n    <li>优化的向导系统。</li>\n    <li>细致高校的规则体系。</li>\n    <li>多层次的防护机制。</li>\n    <li>更加适应公有云特性。</li>\n</ul>\n<strong>使用说明</strong>\n<ul>\n    <li>正式使用或试用请联系绿盟客服获取相关资料，了解如何获取许可证和使用方法。</li>\n    <li>使用https://IP:1443可以访问到vWAF的管理页面，IP为该虚拟机的可访问IP。</li>\n</ul>",
+  "iconPath": "Icons/NSFOCUS-vwaf_azure_byol_v101-vwaf_nsf_azure_byol_001-6.0.5",
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "appliances",
+    "networking",
+    "security",
+    "Linux"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "1443"
+    },
+    {
+      "endpointName": "port-2",
+      "protocol": "TCP",
+      "publicPort": "443"
+    },
+    {
+      "endpointName": "port-3",
+      "protocol": "TCP",
+      "publicPort": "80"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_A2_v2",
+    "Standard_D1_v2",
+    "Standard_D2_v2"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://cloud.nsfocus.com"
+      }
+    }
+  ],
+  "eula": "http://cloud.nsfocus.com ",
+  "privacy": null,
+  "addHideKey": true
+}
