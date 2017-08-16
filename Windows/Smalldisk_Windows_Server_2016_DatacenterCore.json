@@ -4,7 +4,7 @@
   "displayName": "[smalldisk] Windows Server 2016 Datacenter - Server Core",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2016-DatacenterCore-20170712-en.us-30GB.vhd"
+      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2016-DatacenterCore-20170630-en.us-30GB.vhd"
     }
   },
   "imageReference": {
