@@ -136,7 +136,7 @@ Images must be exactly 533px by 324px and in PNG format. Specifying a screenshot
 
 ## Contributing workflow
 
-Pull requests are not necessary to add, remove, or edit packages. If you can see this README, then you have permissions to check into the repository directly.
+Please create a pull request from your forked repo to add, remove, or edit packages. Push permission directly to this repo is restricted to the admins.
 
 ## Contact
 
