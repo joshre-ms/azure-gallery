@@ -28,6 +28,7 @@
         "azure",
         "azureCertified",
         "web",
+        "webRecommended",
         "linux"
     ],
     "endpoints": [

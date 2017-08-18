@@ -29,6 +29,7 @@
         "azureCertified",
         "businessApplication",
         "web",
+        "webRecommended",
         "linux"
     ],
     "endpoints": [

@@ -29,6 +29,7 @@
         "azureCertified",
         "appInfra",
         "web",
+        "webRecommended",
         "starterSite",
         "linux"
     ],
