@@ -4,10 +4,7 @@
 	"label": "CentOS-based 7.3 LVM",
 	"displayName": "CentOS-based 7.3 LVM",
 	"cloudEnvironments": [
-		"PublicAzure",
-		"BlackForest",
-		"Mooncake",
-		"Fairfax"
+		"PublicAzure"
 	],
 	"mediaReferences": {
 		"PublicAzure": {
@@ -17,7 +14,7 @@
 	"imageReference": {
 		"publisher": "OpenLogic",
 		"offer": "CentOS-LVM",
-		"sku": "7.3-LVM"
+		"sku": "7-LVM"
 	},
 	"OS": "Linux",
 	"summary": "This distribution of Linux is based on CentOS and is provided by Rogue Wave Software.",
