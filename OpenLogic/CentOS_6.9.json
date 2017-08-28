@@ -65,5 +65,16 @@
 	}],
 	"eula": "http://www.roguewave.com/products-services/services/open-source-software/cloud-services/azure/service-agreement",
 	"privacy": null,
+    "leadGeneration": {
+		"PublicAzure": {
+			"productId":"firstParty_CentOS_6.9"
+		},
+		"Fairfax": {
+			"productId":""
+		},
+		"Blackforest": {
+			"productId":""
+		}
+	},
 	"screenshot": null
 }
