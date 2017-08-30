@@ -35,6 +35,10 @@
   ],
   "links": [
     {
+      "label": "Introducing Windows Server 2016",
+      "uri": "https://go.microsoft.com/fwlink/?linkid=828598"
+    },
+    {
       "label": "Learn more",
       "uri": "http://www.microsoft.com/windowsserver"
     },
