@@ -72,5 +72,6 @@
     ],
     "eula": "https://www.debian.org/social_contract",
     "privacy": null,
+    "supportsBackup": true,
     "screenshot": null
 }

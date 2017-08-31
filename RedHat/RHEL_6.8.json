@@ -61,6 +61,7 @@
     ],
     "eula": "http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Cloud_Software_Subscription_Agreement_for_Microsoft_Azure.pdf",
     "privacy": "http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Privacy_Statement_for_Microsoft_Azure.pdf",
+    "supportsBackup": true,
     "screenshot": null,
     "isPremiumThirdParty": true,
     "cloudEnvironments": [

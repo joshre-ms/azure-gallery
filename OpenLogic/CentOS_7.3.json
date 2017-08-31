@@ -66,6 +66,7 @@
 	}],
 	"eula": "http://www.roguewave.com/products-services/services/open-source-software/cloud-services/azure/service-agreement",
 	"privacy": null,
+	"supportsBackup": true,
     "leadGeneration": {
 		"PublicAzure": {
 			"productId":"firstParty_CentOS_7.3"

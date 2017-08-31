@@ -73,6 +73,7 @@
     ],
     "eula": "http://www.ubuntu.com/project/about-ubuntu/licensing",
     "privacy": "http://www.ubuntu.com/aboutus/privacypolicy",
+    "supportsBackup": true,
      "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
     "screenshot": null,
     "cloudEnvironments":  [
