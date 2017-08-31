@@ -1,0 +1,94 @@
+{
+  "publisher": "Microsoft",
+  "label": "Data Science Virtual Machine - Windows Server 2016",
+  "displayName": "Data Science Virtual Machine - Windows Server 2016",
+  
+  "imageReference": {
+    "publisher": "Microsoft-Ads",
+    "offer": "DSVM-Windows-2016",
+    "sku": "Standard"
+  },
+  "OS": "Windows",
+  "summary": "Exploration, analysis, modelling, and development tools for data science and artificial intelligence.",
+  "description": "<p>The <strong>'Data Science Virtual Machine (DSVM)'</strong> is a 'Windows Server 2016 with Containers' VM &amp; includes popular tools for data exploration, analysis, modeling &amp; development.</p>
+  <p>Highlights:</p>
+  <li>Microsoft R Server - Dev. Ed. (Scalable R)</li>
+  <li>Anaconda Python</li>
+  <li>SQL Server 2016 Dev. Ed. -&nbsp;With In-Database R analytics</li>
+  <li>Microsoft Office 365 ProPlus BYOL&nbsp;- Shared Computer Activation</li>
+  <li>Julia Pro + Juno Editor</li>
+  <li>Jupyter notebooks</li>
+  <li>Visual Studio Community Ed.&nbsp;+ Python, R &amp; node.js tools</li>
+  <li>Power BI Desktop</li>
+  <li>Deep learning tools e.g. Microsoft Cognitive Toolkit (CNTK 2.0), TensorFlow &amp; mxnet</li>
+  <li>ML algorithm libraries e.g. xgboost, Vowpal Wabbit</li>
+  <li>Azure SDKs + libraries for&nbsp;various Azure Cloud offerings. Integration tools are included for:&nbsp;
+  <ol>
+  <li><a href=\"https://azure.microsoft.com/en-us/services/machine-learning/\">Azure Machine Learning</a></li>
+  <li><a href=\"https://azure.microsoft.com/en-us/services/data-factory/\">Azure Data Factory</a></li>
+  <li><a href=\"https://azure.microsoft.com/en-us/services/stream-analytics/\">Stream Analytics</a></li>
+  <li><a href=\"https://azure.microsoft.com/en-us/services/sql-data-warehouse/\">SQL Data Warehouse</a></li>
+  <li><a href=\"https://azure.microsoft.com/en-us/services/hdinsight/\">Hadoop + Apache Spark (HDICluster)</a></li>
+  <li><a href=\"https://azure.microsoft.com/en-us/services/data-lake-store/\">Data Lake</a></li>
+  <li><a href=\"https://azure.microsoft.com/en-us/services/storage/blobs/\">Blob storage</a></li>
+  <li>ML &amp; Data Science tutorials as Jupyter notebooks</li>
+  </ol>
+  </li>
+  <p>Tools for ML model operationalization as web services in the cloud, using Azure&nbsp;ML or Microsoft R Server.</p>
+  <p>Pre-configured and tested&nbsp;with Nvidia drivers, CUDA Toolkit 8.0, &amp; NVIDIA cuDNN library for GPU workloads available if using&nbsp;<a href=\"https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes-gpu\">NC class VM SKUs</a>.</p>
+  <p>Queries &amp; feedback: <a href=\"http://aka.ms/dsvm/forum\">DSVM community support forum</a></p>
+  <p>Resources: <a href=\"http://aka.ms/dsvm/workshop\">DIY Guide</a></p>",
+  "iconPath": "icons/windows",
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "analytics",
+    "bigData",
+    "database",
+    "azure",
+    "windows",
+    "virtualMachineRecommended"
+  ],
+  "recommendedSizes": [
+    "Standard_E4s_v3",
+    "Standard_E2s_v3",
+    "Standard_E8s_v3",
+    "Standard_DS12_v2",
+    "Standard_DS11_v2",
+    "Standard_DS13_v2",
+    "Standard_DS12",
+    "Standard_DS11",
+    "Standard_DS13"
+  ],
+  "links": [
+    {
+      "label": "Documentation",
+      "uri": "http://aka.ms/dsvmdoc"
+    },
+    {
+      "label": "DSVM Community Forum",
+      "uri": "http://aka.ms/dsvm/forum"
+    },
+    {
+      "label": "Overview",
+      "uri": "https://docs.microsoft.com/azure/machine-learning/machine-learning-data-science-virtual-machine-overview"
+    },
+    {
+      "label": "Webinar",
+      "uri": "http://aka.ms/dsvm/webinar"
+    },
+    {
+      "label": "DSVM Homepage",
+      "uri": "http://aka.ms/dsvm"
+    }
+  ],
+  "eula": "https://aka.ms/dsvm/termsofuse",
+  "privacy": "https://www.microsoft.com/EN-US/privacystatement/OnlineServices/Default.aspx",
+  "screenshot": null,
+  "supportedExtensions": [
+  ],
+   "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "addHideKey": true
+}
