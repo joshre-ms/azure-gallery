@@ -5,13 +5,14 @@
   "imageReference": {
     "publisher": "MicrosoftWindowsServer",
     "offer": "WindowsServer",
-    "sku": "2016-Datacenter"
+    "sku": "2016-Datacenter-smalldisk"
   },
   "OS": "Windows",
   "summary": "Windows 10 Enterprise",
   "description": "Windows Enterprise customers rely on the most secure, up-to-date version of Windows 10 when using it for their business.  Under the Microsoft Azure HUB Windows 10 Preview terms, Enterprise Agreement customers with qualifying licenses can now run Windows 10 on Azure, which provides the best cloud environment to run Microsoft software.  Through consistency and seamless integration across cloud and on-premises, unmatched product capabilities, superior support across the entire Microsoft stack and the best prices with flexible options, we provide customers best in class experience and performance they expect from Microsoft.",
   "iconPath": "Icons/Client",
-  "supportsClientHub": true,
+  "freeTierEligible": "true",
+  "defaultImageSizeGB": 30,
   "categories": [
     "virtualMachine",
     "microsoftServer",
