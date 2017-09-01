@@ -90,5 +90,5 @@
    "cloudEnvironments": [
     "Mooncake"
   ],
-  "addHideKey": true
+  "addHideKey": false
 }
