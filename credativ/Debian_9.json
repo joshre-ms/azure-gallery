@@ -73,5 +73,8 @@
     "eula": "https://www.debian.org/social_contract",
     "privacy": null,
     "supportsBackup": true,
+    "freeTierEligible": "true",
+    "defaultImageSizeGB": 30,
+    "addHideKey": true,
     "screenshot": null
 }

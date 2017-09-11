@@ -67,6 +67,9 @@
     "eula": "https://www.suse.com/licensing/eula/",
     "privacy": "https://www.suse.com/company/policies/privacy/",
     "supportsBackup": true,
+    "freeTierEligible": "true",
+  	"defaultImageSizeGB": 30,
+ 	"addHideKey": true,
     "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
     "screenshot": "Screenshots/suse.png",
     "leadGeneration": {

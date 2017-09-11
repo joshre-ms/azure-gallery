@@ -51,6 +51,9 @@
   ],
   "eula": "https://go.microsoft.com/fwlink/?linkid=825699",
   "privacy": "https://go.microsoft.com/fwlink/?linkid=734730",
+  "freeTierEligible": "true",
+  "defaultImageSizeGB": 31,
+  "addHideKey": true,
   "screenshot": null,
   "cloudEnvironments": [
     "PublicAzure"

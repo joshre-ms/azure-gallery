@@ -49,5 +49,8 @@
     ],
     "eula": "http://puppetlabs.com/solutions/microsoft#Eula",
     "privacy": "http://puppetlabs.com/privacy",
+    "freeTierEligible": "true",
+  	"defaultImageSizeGB": 30,
+ 	"addHideKey": true,
     "screenshot": "Screenshots/PEAzureScreenshot.png"
 }

@@ -55,6 +55,9 @@
         }
     ],
     "screenshot": null,
+    "freeTierEligible": "true",
+    "defaultImageSizeGB": 30,
+    "addHideKey": true,
     "cloudEnvironments":  [
         "PublicAzure",
         "Mooncake"

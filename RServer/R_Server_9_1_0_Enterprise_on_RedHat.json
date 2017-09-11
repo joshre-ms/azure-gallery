@@ -72,6 +72,9 @@
   "supportedExtensions": [
   ],
   "createUIDefinitionHandler": "Microsoft.Compute.RSeverVm",
+  "freeTierEligible": "true",
+  "defaultImageSizeGB": 32,
+  "addHideKey": true,
   "cloudEnvironments": [
     "PublicAzure",
     "Mooncake",

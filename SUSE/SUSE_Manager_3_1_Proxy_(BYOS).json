@@ -92,5 +92,8 @@
              "productId":""
          }
       },
+    "freeTierEligible": "true",
+  	"defaultImageSizeGB": 30,
+ 	"addHideKey": true,
     "screenshot": "Screenshots/suse.png"
 }

@@ -53,6 +53,7 @@
   ],
   "eula": "http://download.microsoft.com/Documents/UseTerms/Windows%20Server_2008%20R2%20Datacenter_English_0e64c120-39df-430f-9962-11b1184a4df2.pdf",
   "privacy": "https://privacy.microsoft.com/en-us/windows-7-privacy-statement",
+  "supportsHubOnOffSwitch": true,
   "screenshot": null,
   "cloudEnvironments": [
     "Mooncake"

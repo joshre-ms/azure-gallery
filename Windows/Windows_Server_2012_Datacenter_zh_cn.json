@@ -53,6 +53,7 @@
   ],
   "eula": "http://download.microsoft.com/Documents/UseTerms/Windows%20Server_2012%20Datacenter_English_97974250-7a55-4236-bde8-546f0cec9c85.pdf",
   "privacy": "https://privacy.microsoft.com/en-us/windows-8-privacy-statement",
+  "supportsHubOnOffSwitch": true,
   "screenshot": null,
   "cloudEnvironments": [
     "Mooncake"

@@ -52,6 +52,9 @@
     }
   ],
   "hardened": true,
+  "freeTierEligible": "true",
+  "defaultImageSizeGB": 31,
+  "addHideKey": true,
   "cloudEnvironments": [
     "PublicAzure",
     "Blackforest",

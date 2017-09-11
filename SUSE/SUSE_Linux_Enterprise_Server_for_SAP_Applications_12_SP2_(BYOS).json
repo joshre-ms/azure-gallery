@@ -85,6 +85,9 @@
     "eula": "https://www.suse.com/licensing/eula/",
     "privacy": "https://www.suse.com/company/policies/privacy/",
     "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
+    "freeTierEligible": "true",
+  	"defaultImageSizeGB": 30,
+ 	"addHideKey": true,
 "leadGeneration": {
           "PublicAzure": {
              "productId":"firstParty_SUSE_Linux_Enterprise_Server_for_SAP_Applications_12_SP2_(BYOS)"
