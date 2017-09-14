@@ -1,0 +1,88 @@
+{
+    "publisher": "SUSE",
+    "label": "SUSE Linux Enterprise Server 12 SP3 - optimized for High Performance Compute",
+    "publisherDisplayName": "SUSE",
+    "displayName": "SLES 12 SP3 for HPC",
+    "cloudEnvironments": [
+        "PublicAzure"
+    ],
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp3-hpc-v20170913"
+        }
+    },
+    "imageReference": {
+      "publisher": "SUSE",
+      "offer": "SLES-HPC",
+      "sku": "12-SP3"
+    },
+    "OS": "Linux",
+     "description": "<p><b>SUSE Linux Enterprise Server 12 SP3 - optimized for High Performance Compute</b></p><p>Confidently run your production workloads on SUSE Linux Enterprise Server on Microsoft Azure, knowing that your service levels are guaranteed, and that help from SUSE and Microsoft engineers, if you need it, is just a phone call away.</p><p>SUSE Linux Enterprise Server is the <i>only</i> supported Enterprise Linux distribution available on Microsoft Azure, and the only one supported with tools like <a href='https://susestudio.com' target='_blank'>SUSE Studio</a> for quick and easy image creation, and <a href='https://www.suse.com/products/suse-manager/' target='_blank'>SUSE Manager</a> for monitoring and managing your Linux virtual machines using Microsoft Systems Center.</p><p><i>This image supports the low latency network interface option (RDMA) available for select instance types.</i></p>",
+    "iconPath": "Icons/SUSE",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra",
+        "azureCertified",
+        "virtualMachineRecommended"
+    ],
+    "recommendedSizes": [
+        "Standard_A8",
+        "Standard_A9",
+        "Standard_H16r",
+        "Standard_H16mr"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "Azure support for Linux RDMA",
+            "uri": {
+                "Default": "http://azure.microsoft.com/en-us/updates/azure-support-for-linux-rdma/"
+            }
+        },
+        {
+            "label": "Learn more",
+            "uri": {
+                "Default": "https://www.suse.com/products/server/"
+            }
+        },
+        {
+            "label": "Documentation",
+            "uri": {
+                "Default": "https://www.suse.com/documentation/sles-12/"
+            }
+        },
+        {
+            "label": "Forum",
+            "uri": {
+                "Default": "https://forums.suse.com/forumdisplay.php?93-SUSE-Public-Cloud"
+            }
+        },
+        {
+            "label": "Pricing details",
+            "uri": {
+                "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            }
+        }
+    ],
+    "eula": "https://www.suse.com/licensing/eula/",
+    "privacy": "https://www.suse.com/company/policies/privacy/",
+    "screenshot": "Screenshots/suse.png",
+    "freeTierEligible": "true",
+  	"defaultImageSizeGB": 30,
+ 	"addHideKey": true,
+    "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
+    "leadGeneration": {
+          "PublicAzure": {
+             "productId":"firstParty_SUSE_Linux_Enterprise_Server_12_SP3_-_optimized_for_High_Performance_Compute"
+         },
+         "Fairfax": {
+             "productId":""
+         },
+         "Blackforest": {
+             "productId":""
+         }
+      }
+
+}
