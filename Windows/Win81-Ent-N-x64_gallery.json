@@ -4,7 +4,7 @@
   "displayName": "Windows 8.1 Enterprise N (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Win81-Ent-N-x64-2017-08-11"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Win81-Ent-N-x64-2017-09-14"
     }
   },
   "imageReference": {
@@ -26,10 +26,9 @@
   ],
   "recommendedSizes": [
     "Standard_A3",
-    "Standard_D2_v3",
     "Standard_D2",
-    "Standard_D2s_v3",
     "Standard_D2_v2",
+    "Standard_D2_v3",
     "Standard_DS2",
     "Standard_DS2_v2"
   ],
