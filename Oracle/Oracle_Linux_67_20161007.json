@@ -39,9 +39,6 @@
     "eula": "http://www.oracle.com/technetwork/licenses/oracle-license-2016066.html",
     "privacy": "http://www.oracle.com/us/legal/privacy/privacy-policy-078584.html",
     "supportsBackup": true,
-    "freeTierEligible": "true",
-  	"defaultImageSizeGB": 30,
- 	"addHideKey": true,
     "screenshot": null,
     "cloudEnvironments": [
         "PublicAzure",
