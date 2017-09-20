@@ -1,8 +1,8 @@
 {
 	"addHideKey": true,
     "publisher": "Microsoft",
-    "label": "SQL Server 2017 Express on Windows Server 2016",
-    "displayName": "SQL Server 2017 Express on Windows Server 2016",
+    "label": "Free SQL Server License: SQL Server 2017 Express on Windows Server 2016",
+    "displayName": "Free SQL Server License: SQL Server 2017 Express on Windows Server 2016",
     "mediaReferences": {
         "PublicAzure": {
             "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL_PreRelease14.0.1000.169SQLEXPRWindowsServer20163"
@@ -25,13 +25,7 @@
         "database",
         "sqlservercuration"
     ],
-    "recommendedSizes": [
-       "Basic_A1",
-        "Standard_D1_v2",
-        "Standard_D1",
-        "Standard_DS1_v2",
-        "Standard_DS1"
-    ],
+    "recommendedSizes": ["Standard_D8s_v3", "Standard_D16s_v3", "Standard_E4s_v3", "Standard_DS13_v2", "Standard_DS14_v2", "Standard_DS12_v2", "Standard_DS13", "Standard_DS14", "Standard_DS12"],
     "links": [
         {
             "label": "Documentation",
