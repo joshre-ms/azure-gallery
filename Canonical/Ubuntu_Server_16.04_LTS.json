@@ -53,7 +53,13 @@
     ],
     "linksForEnvironments": [
         {
-            "label": "Documentation",
+            "label": "Linux VM Documentation",
+            "uri": {
+                "Default": "https://docs.microsoft.com/azure/virtual-machines/linux/"
+            }
+        },
+        {
+            "label": "Ubuntu Documentation",
             "uri": {
                 "Default": "https://help.ubuntu.com/16.04/index.html"
             }
