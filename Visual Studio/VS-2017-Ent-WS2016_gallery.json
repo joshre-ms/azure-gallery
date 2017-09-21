@@ -8,6 +8,9 @@
     },
     "Fairfax": {
       "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2017-Ent-WS2016-2017-09-18"
+    },
+    "Mooncake": {
+      "mediaName": "d470023494674677a3094100e43cd68d__VS-2017-Ent-WS2016-2017-09-18"
     }
   },
   "imageReference": {
@@ -45,6 +48,7 @@
   "screenshot": "Screenshots/VisualStudioOnWindowsServer.png",
   "cloudEnvironments": [
     "PublicAzure",
-    "Fairfax"
+    "Fairfax",
+    "Mooncake"
   ]
 }
