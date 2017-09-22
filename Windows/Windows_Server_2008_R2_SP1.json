@@ -46,27 +46,14 @@
     "Standard_D1",
     "Small"
   ],
-    "linksForEnvironments": [
+    "links": [
         {
-            "label": "Learn more",
-            "uri":
-                {
-                    "Default": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/"
-                }
+          "label": "Documentation",
+          "uri": "https://docs.microsoft.com/azure/virtual-machines/windows/"
         },
         {
-            "label": "Documentation",
-            "uri":
-                {
-                    "Default": "http://technet.microsoft.com/library/dd349801.aspx"
-                }
-        },
-        {
-            "label": "Pricing details",
-            "uri":
-                {
-                    "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#windows"
-                }
+          "label": "What's New in 2008 R2",
+          "uri": "http://technet.microsoft.com/library/dd349801.aspx"
         }
     ],
     "eula": "http://download.microsoft.com/Documents/UseTerms/Windows%20Server_2008%20R2%20Datacenter_English_0e64c120-39df-430f-9962-11b1184a4df2.pdf",

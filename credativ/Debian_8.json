@@ -79,6 +79,5 @@
     "supportsBackup": true,
     "freeTierEligible": "true",
     "defaultImageSizeGB": 30,
-    "addHideKey": true,
     "screenshot": null
 }

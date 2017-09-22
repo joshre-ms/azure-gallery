@@ -57,7 +57,6 @@
   "hardened": true,
   "freeTierEligible": "true",
   "defaultImageSizeGB": 31,
-  "addHideKey": true,
   "leadGeneration": {
     "PublicAzure": {
       "productId": "firstParty_CoreOS_1409.5.0_stable.json"

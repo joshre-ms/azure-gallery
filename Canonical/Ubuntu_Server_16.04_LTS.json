@@ -82,7 +82,6 @@
     "supportsBackup": true,
     "freeTierEligible": "true",
     "defaultImageSizeGB": 30,
-    "addHideKey": true,
     "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
     "screenshot": null,
     "cloudEnvironments":  [

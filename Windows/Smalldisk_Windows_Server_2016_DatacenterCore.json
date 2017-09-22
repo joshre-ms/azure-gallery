@@ -4,7 +4,7 @@
   "displayName": "[smalldisk] Windows Server 2016 Datacenter - Server Core",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2016-DatacenterCore-20170811-en.us-30GB.vhd"
+      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2016-DatacenterCore-20170630-en.us-30GB.vhd"
     }
   },
   "imageReference": {
@@ -40,20 +40,27 @@
       "Small" 
   ],
   "links": [
-    {
-      "label": "Learn more",
-      "uri": "http://www.microsoft.com/windowsserver"
-    },
-    {
-      "label": "Documentation",
-      "uri": "http://technet.microsoft.com/en-us/library/dn765472.aspx"
-    }
+       {
+          "label": "Documentation",
+          "uri": "https://docs.microsoft.com/azure/virtual-machines/windows/"
+       },
+       {
+          "label": "Introducing Windows Server 2016",
+          "uri": "https://go.microsoft.com/fwlink/?linkid=828598"
+       },
+       {
+          "label": "What's New in 2016",
+          "uri": "http://technet.microsoft.com/library/dn765472.aspx"
+       },
+       {
+          "label": "Learn more",
+          "uri": "http://www.microsoft.com/windowsserver"
+       }
   ],
   "eula": "https://go.microsoft.com/fwlink/?linkid=825699",
   "privacy": "https://go.microsoft.com/fwlink/?linkid=734730",
   "freeTierEligible": "true",
   "defaultImageSizeGB": 31,
-  "addHideKey": true,
   "screenshot": null,
   "cloudEnvironments": [
     "PublicAzure"

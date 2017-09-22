@@ -48,27 +48,18 @@
         "Standard_D1",
         "Small"
     ],
-    "linksForEnvironments": [
+    "links": [
         {
-            "label": "Learn more",
-            "uri":
-                {
-                    "Default": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/"
-                }
+          "label": "Documentation",
+          "uri": "https://docs.microsoft.com/azure/virtual-machines/windows/"
         },
         {
-            "label": "Documentation",
-            "uri":
-                {
-                    "Default": "http://technet.microsoft.com/library/hh801901.aspx"
-                }
+          "label": "What's New in 2012 R2",
+          "uri": "http://technet.microsoft.com/library/hh801901.aspx"
         },
         {
-            "label": "Pricing details",
-            "uri":
-                {
-                    "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#windows"
-                }
+          "label": "Learn more",
+          "uri": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/"
         }
     ],
     "eula": "http://download.microsoft.com/Documents/UseTerms/Windows%20Server_2012%20R2%20Datacenter_English_20812733-0262-474c-9370-0145d77dd648.pdf",

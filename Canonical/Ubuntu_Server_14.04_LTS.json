@@ -80,7 +80,6 @@
     "supportsBackup": true, 
     "freeTierEligible": "true",
     "defaultImageSizeGB": 30,
-    "addHideKey": true,
     "privacy": "http://www.ubuntu.com/aboutus/privacypolicy",
     "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
     "screenshot": null,
