@@ -5,7 +5,7 @@
 	"displayName": "Free SQL Server License: SQL Server 2017 Developer on SLES 12 SP2",
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL2017RTM-Developer-SLES-Priority12-SP314"
+			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-SQLDEVSLES-Priority12-SP35"
 		}
 	},
 	"imageReference": {

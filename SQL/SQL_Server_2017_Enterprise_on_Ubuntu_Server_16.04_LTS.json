@@ -5,7 +5,7 @@
 	"displayName": "SQL Server 2017 Enterprise on Ubuntu Server 16.04 LTS",
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL2017RTM-Enterprise-UbuntuServer16.04-LTS6"
+			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-EnterpriseUbuntuServer16.04-LTS2"
 		}
 	},
 	"imageReference": {

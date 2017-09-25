@@ -1,11 +1,11 @@
 {
 	"addHideKey": true,
 	"publisher": "Microsoft",
-	"label": "Free SQL Server License: SQL Server 2017 Express on Red Hat Enterprise Linux 7",
-	"displayName": "Free SQL Server License: SQL Server 2017 Express on Red Hat Enterprise Linux 7",
+	"label": "Free SQL Server License: SQL Server 2017 Express on Red Hat Enterprise Linux 7.4",
+	"displayName": "Free SQL Server License: SQL Server 2017 Express on Red Hat Enterprise Linux 7.4",
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL2017RTM-Express-RHEL7-RAW7"
+			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-ExpressRHEL7-RAW3"
 		}
 	},
 	"imageReference": {
@@ -14,7 +14,7 @@
 		"sku": "Express"
 	},
 	"OS": "Linux",
-	"description": "This image contains the Express edition of SQL Server 2017 on Red Hat Enterprise Linux 7. This is a free (no SQL Server licensing cost) database system for lightweight applications. It includes the core database engine, limited to 1 GB memory and 10 GB storage, and Management Studio for integrated administration and development. We recommend that you use a virtual machine size of DS1 or higher.",
+	"description": "This image contains the Express edition of SQL Server 2017 on Red Hat Enterprise Linux 7.4. This is a free (no SQL Server licensing cost) database system for lightweight applications. It includes the core database engine, limited to 1 GB memory and 10 GB storage, and Management Studio for integrated administration and development. We recommend that you use a virtual machine size of DS1 or higher.",
 	"iconPath": "Icons",
 	"supportsSriov": true,
 	"categories": [

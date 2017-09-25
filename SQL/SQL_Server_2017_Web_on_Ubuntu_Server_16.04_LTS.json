@@ -5,7 +5,7 @@
 	"displayName": "SQL Server 2017 Web on Ubuntu Server 16.04 LTS",
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL2017RTM-Web-UbuntuServer16.04-LTS9"
+			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-WebUbuntuServer16.04-LTS3"
 		}
 	},
 	"imageReference": {

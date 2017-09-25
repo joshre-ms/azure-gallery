@@ -5,7 +5,7 @@
 	"displayName": "SQL Server 2017 Web on SLES 12 SP2",
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL2017RTM-Web-SLES-Priority12-SP35"
+			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-WebSLES-Priority12-SP37"
 		}
 	},
 	"imageReference": {

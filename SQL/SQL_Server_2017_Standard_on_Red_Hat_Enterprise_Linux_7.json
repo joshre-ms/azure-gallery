@@ -1,11 +1,11 @@
 {
 	"addHideKey": true,
 	"publisher": "Microsoft",
-	"label": "SQL Server 2017 Standard on Red Hat Enterprise Linux 7",
-	"displayName": "SQL Server 2017 Standard on Red Hat Enterprise Linux 7",
+	"label": "SQL Server 2017 Standard on Red Hat Enterprise Linux 7.4",
+	"displayName": "SQL Server 2017 Standard on Red Hat Enterprise Linux 7.4",
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL2017RTM-Standard-RHEL7-RAW8"
+			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-StandardRHEL7-RAW3"
 		}
 	},
 	"imageReference": {
@@ -14,7 +14,7 @@
 		"sku": "Standard"
 	},
 	"OS": "Linux",
-	"description": "This image contains the Standard edition of SQL Server 2017 on Red Hat Enterprise Linux 7. Standard edition provides core data management capabilities for medium-size transactional processing. For a comprehensive list of the components included in Enterprise edition on Linux go to http://docs.microsoft.com/en-us/sql/linux/sql-server-linux-editions-and-components-2017. We recommend that you use a virtual machine size of DS12 or higher.",
+	"description": "This image contains the Standard edition of SQL Server 2017 on Red Hat Enterprise Linux 7.4. Standard edition provides core data management capabilities for medium-size transactional processing. For a comprehensive list of the components included in Enterprise edition on Linux go to http://docs.microsoft.com/en-us/sql/linux/sql-server-linux-editions-and-components-2017. We recommend that you use a virtual machine size of DS12 or higher.",
 	"iconPath": "Icons",
 	"supportsSriov": true,
 	"categories": [

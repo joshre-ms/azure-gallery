@@ -5,7 +5,7 @@
 	"displayName": "SQL Server 2017 Standard on Ubuntu Server 16.04 LTS",
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL2017RTM-Standard-UbuntuServer16.04-LTS8"
+			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-StandardUbuntuServer16.04-LTS4"
 		}
 	},
 	"imageReference": {

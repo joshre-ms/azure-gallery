@@ -1,11 +1,11 @@
 {
 	"addHideKey": true,
     "publisher": "Microsoft",
-    "label": "Free SQL Server License: SQL Server 2017 Developer on Red Hat Enterprise Linux 7",
-    "displayName": "Free SQL Server License: SQL Server 2017 Developer on Red Hat Enterprise Linux 7",
+    "label": "Free SQL Server License: SQL Server 2017 Developer on Red Hat Enterprise Linux 7.4",
+    "displayName": "Free SQL Server License: SQL Server 2017 Developer on Red Hat Enterprise Linux 7.4",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL2017RTM-Developer-RHEL7-RAW5"
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-SQLDEVRHEL7-RAW4"
         }
     },
     "imageReference": {
@@ -14,7 +14,7 @@
       "sku": "SQLDEV"
     },
     "OS": "Linux",
-    "description": "This image contains the Developer edition of SQL Server 2017 on Red Hat Enterprise Linux 7. This free edition (no SQL Server licensing cost) includes all the functionality of Enterprise edition, but it is licensed for development and testing only, not production. It provides comprehensive capabilities for mission-critical transactional processing, data warehousing, and real-time business intelligence.",
+    "description": "This image contains the Developer edition of SQL Server 2017 on Red Hat Enterprise Linux 7.4. This free edition (no SQL Server licensing cost) includes all the functionality of Enterprise edition, but it is licensed for development and testing only, not production. It provides comprehensive capabilities for mission-critical transactional processing, data warehousing, and real-time business intelligence.",
     "iconPath": "Icons",
     "supportsSriov": true,
     "categories": [

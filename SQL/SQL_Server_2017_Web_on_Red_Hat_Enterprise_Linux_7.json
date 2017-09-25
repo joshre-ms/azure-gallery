@@ -1,11 +1,11 @@
 {
 	"addHideKey": true,
 	"publisher": "Microsoft",
-	"label": "SQL Server 2017 Web on Red Hat Enterprise Linux 7",
-	"displayName": "SQL Server 2017 Web on Red Hat Enterprise Linux 7",
+	"label": "SQL Server 2017 Web on Red Hat Enterprise Linux 7.4",
+	"displayName": "SQL Server 2017 Web on Red Hat Enterprise Linux 7.4",
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL2017RTM-Web-RHEL7-RAW9"
+			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-WebRHEL7-RAW2"
 		}
 	},
 	"imageReference": {
@@ -14,7 +14,7 @@
 		"sku": "Web"
 	},
 	"OS": "Linux",
-	"description": "This image contains the Web edition of SQL Server 2017 on Red Hat Enterprise Linux 7. This provides a low-cost database solution for medium-size web applications. For a comprehensive list of the components included in Enterprise edition on Linux go to http://docs.microsoft.com/en-us/sql/linux/sql-server-linux-editions-and-components-2017. We recommend that you use a virtual machine size of DS12 or higher.",
+	"description": "This image contains the Web edition of SQL Server 2017 on Red Hat Enterprise Linux 7.4. This provides a low-cost database solution for medium-size web applications. For a comprehensive list of the components included in Enterprise edition on Linux go to http://docs.microsoft.com/en-us/sql/linux/sql-server-linux-editions-and-components-2017. We recommend that you use a virtual machine size of DS12 or higher.",
 	"iconPath": "Icons",
 	"supportsSriov": true,
 	"categories": [

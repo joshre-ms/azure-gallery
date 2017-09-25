@@ -5,7 +5,7 @@
 	"displayName": "SQL Server 2017 Enterprise on SLES 12 SP2",
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL2017RTM-Enterprise-SLES-Priority12-SP313"
+			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-EnterpriseSLES-Priority12-SP33"
 		}
 	},
 	"imageReference": {
