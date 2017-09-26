@@ -14,7 +14,7 @@
 		"sku": "Standard"
 	},
 	"OS": "Linux",
-	"description": "This image contains the Standard edition of SQL Server 2017 on Ubuntu Server 16.04 LTS. Standard edition provides core data management capabilities for medium-size transactional processing. For a comprehensive list of the components included in Enterprise edition on Linux go to http://docs.microsoft.com/en-us/sql/linux/sql-server-linux-editions-and-components-2017. We recommend that you use a virtual machine size of DS12 or higher.",
+	"description": "This image contains the Standard edition of SQL Server 2017 on Ubuntu Server 16.04 LTS. Standard edition provides core data management capabilities for medium-size transactional processing. For a comprehensive list of the components included in Enterprise edition on Linux go to http://docs.microsoft.com/en-us/sql/linux/sql-server-linux-editions-and-components-2017. We recommend that you use a virtual machine size of DS12 or higher.<br />After provisioning, please run <strong>‘$sudo /opt/mssql/bin/mssql-conf set-sa-password’</strong> to configure SQL Server.  <br />See documentation for additional details.  https://docs.microsoft.com/azure/virtual-machines/linux/sql/provision-sql-server-linux-virtual-machine.",
 	"iconPath": "Icons",
 	"supportsSriov": true,
 	"categories": [
@@ -46,7 +46,6 @@
 	"supportedExtensions": [
 		"SqlIaaSAgent"
 	],
-	"createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
 	"cloudEnvironments": [
 		"PublicAzure"
 	]
