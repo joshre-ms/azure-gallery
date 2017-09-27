@@ -25,7 +25,7 @@
         "database",
         "sqlservercuration"
     ],
-    "recommendedSizes": ["Standard_D8s_v3", "Standard_D16s_v3", "Standard_E4s_v3", "Standard_DS13_v2", "Standard_DS14_v2", "Standard_DS12_v2", "Standard_DS13", "Standard_DS14", "Standard_DS12"],
+    "recommendedSizes": ["Standard_DS13_v2", "Standard_DS14_v2", "Standard_DS12_v2", "Standard_DS13", "Standard_DS14", "Standard_DS12"],
     "links": [
         {
             "label": "Documentation",
