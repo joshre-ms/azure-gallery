@@ -5,12 +5,12 @@
 	"displayName": "SQL Server 2017 Web on SLES 12 SP2",
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-WebSLES-Priority12-SP37"
+			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-WebSLES-Priority12-SP25"
 		}
 	},
 	"imageReference": {
 		"publisher": "MicrosoftSQLServer",
-		"offer": "SQL2017-SLES12SP3",
+		"offer": "SQL2017-SLES12SP2",
 		"sku": "Web"
 	},
 	"OS": "Linux",

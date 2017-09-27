@@ -5,12 +5,12 @@
 	"displayName": "SQL Server 2017 Standard on SLES 12 SP2",
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-StandardSLES-Priority12-SP33"
+			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-StandardSLES-Priority12-SP25"
 		}
 	},
 	"imageReference": {
 		"publisher": "MicrosoftSQLServer",
-		"offer": "SQL2017-SLES12SP3",
+		"offer": "SQL2017-SLES12SP2",
 		"sku": "Standard"
 	},
 	"OS": "Linux",
