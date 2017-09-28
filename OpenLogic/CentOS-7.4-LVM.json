@@ -1,0 +1,69 @@
+{
+	"publisher": "RogueWave",
+	"publisherDisplayName": "Rogue Wave Software (formerly OpenLogic)",
+	"label": "CentOS-based 7.4 LVM",
+	"displayName": "CentOS-based 7.4 LVM",
+	"cloudEnvironments": [
+		"PublicAzure"
+	],
+	"mediaReferences": {
+		"PublicAzure": {
+			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-74-LVM-20170925"
+		}
+	},
+	"imageReference": {
+		"publisher": "OpenLogic",
+		"offer": "CentOS-LVM",
+		"sku": "7-LVM"
+	},
+	"OS": "Linux",
+	"summary": "This distribution of Linux is based on CentOS and is provided by Rogue Wave Software.",
+	"description": "This distribution of Linux is based on CentOS $vMajor.$vMinor and optimized for Logical Volume Manager (LVM) support in Microsoft Azure and is provided by Rogue Wave Software (formally OpenLogic). It contains an installation of the Basic Server packages. Please refer to https://docs.microsoft.com/en-us/azure/virtual-machines/linux/configure-lvm for more information.",
+	"iconPath": "Icons",
+    "supportsSriov": true,
+	"categories": [
+		"virtualMachine",
+		"microsoftServer",
+		"azure",
+		"linux",
+		"appInfra",
+		"azureCertified",
+		"virtualMachineRecommended"
+	],
+	"recommendedSizes": [
+		"Standard_D2s_v3", 
+		"Standard_D4s_v3", 
+		"Standard_E2s_v3",
+		"Standard_DS1",
+		"Standard_DS11",
+		"Standard_DS2",
+		"Standard_D1",
+		"Standard_D1_v2",
+		"Small"
+	],
+	"linksForEnvironments": [{
+		"label": "Learn more",
+		"uri": {
+			"Default": "http://www.roguewave.com/products-services/open-source-support/centos-on-azure"
+		}
+	}, {
+		"label": "Pricing details",
+		"uri": {
+			"Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+		}
+	}],
+	"eula": "http://www.roguewave.com/products-services/services/open-source-software/cloud-services/azure/service-agreement",
+	"privacy": null,
+    "leadGeneration": {
+		"PublicAzure": {
+			"productId":"firstParty_CentOS-7.4-LVM"
+		},
+		"Fairfax": {
+			"productId":""
+		},
+		"Blackforest": {
+			"productId":""
+		}
+	},
+	"screenshot": null
+}
