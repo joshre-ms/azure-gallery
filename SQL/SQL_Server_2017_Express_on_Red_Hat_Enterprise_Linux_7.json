@@ -1,5 +1,4 @@
 {
-	"addHideKey": true,
 	"publisher": "Microsoft",
 	"label": "Free SQL Server License: SQL Server 2017 Express on Red Hat Enterprise Linux 7.4",
 	"displayName": "Free SQL Server License: SQL Server 2017 Express on Red Hat Enterprise Linux 7.4",
@@ -14,7 +13,7 @@
 		"sku": "Express"
 	},
 	"OS": "Linux",
-	"description": "This image contains the Express edition of SQL Server 2017 on Red Hat Enterprise Linux 7.4. This is a free (no SQL Server licensing cost) database system for lightweight applications. It includes the core database engine, limited to 1 GB memory and 10 GB storage, and Management Studio for integrated administration and development. We recommend that you use a virtual machine size of DS1 or higher. <br />After provisioning, please run <strong>‘$sudo /opt/mssql/bin/mssql-conf set-sa-password’</strong> to configure SQL Server.  <br />See documentation for additional details.  https://docs.microsoft.com/azure/virtual-machines/linux/sql/provision-sql-server-linux-virtual-machine.",
+	"description": "This image contains the Express edition of SQL Server 2017 on Red Hat Enterprise Linux 7.4. This is a free (no SQL Server licensing cost) database system for lightweight applications. It includes the core database engine, limited to 1 GB memory and 10 GB storage, and Management Studio for integrated administration and development. We recommend that you use a virtual machine size of DS1 or higher. <br />After provisioning, please run <strong>$sudo /opt/mssql/bin/mssql-conf set-sa-password</strong> to configure SQL Server.  <br />See documentation for additional details.  https://docs.microsoft.com/azure/virtual-machines/linux/sql/provision-sql-server-linux-virtual-machine.",
 	"iconPath": "Icons",
 	"supportsSriov": true,
 	"categories": [

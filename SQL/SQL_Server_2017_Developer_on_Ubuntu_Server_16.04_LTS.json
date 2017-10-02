@@ -1,5 +1,4 @@
 {
-	"addHideKey": true,
 	"publisher": "Microsoft",
 	"label": "Free SQL Server License: SQL Server 2017 Developer on Ubuntu Server 16.04 LTS",
 	"displayName": "Free SQL Server License: SQL Server 2017 Developer on Ubuntu Server 16.04 LTS",
@@ -14,7 +13,7 @@
 		"sku": "SQLDEV"
 	},
 	"OS": "Linux",
-	"description": "This image contains the Developer edition of SQL Server 2017 on Ubuntu Server 16.04 LTS. This free edition (no SQL Server licensing cost) includes all the functionality of Enterprise edition, but it is licensed for development and testing only, not production. It provides comprehensive capabilities for mission-critical transactional processing, data warehousing, and real-time business intelligence.<br />After provisioning, please run <strong>‘$sudo /opt/mssql/bin/mssql-conf set-sa-password’</strong> to configure SQL Server.  <br />See documentation for additional details.  https://docs.microsoft.com/azure/virtual-machines/linux/sql/provision-sql-server-linux-virtual-machine.",
+	"description": "This image contains the Developer edition of SQL Server 2017 on Ubuntu Server 16.04 LTS. This free edition (no SQL Server licensing cost) includes all the functionality of Enterprise edition, but it is licensed for development and testing only, not production. It provides comprehensive capabilities for mission-critical transactional processing, data warehousing, and real-time business intelligence.<br />After provisioning, please run <strong>$sudo /opt/mssql/bin/mssql-conf set-sa-password</strong> to configure SQL Server.  <br />See documentation for additional details.  https://docs.microsoft.com/azure/virtual-machines/linux/sql/provision-sql-server-linux-virtual-machine.",
 	"iconPath": "Icons",
 	"supportsSriov": true,
 	"categories": [

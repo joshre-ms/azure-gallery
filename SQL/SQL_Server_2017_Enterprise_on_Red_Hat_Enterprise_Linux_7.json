@@ -1,5 +1,4 @@
 {
-	"addHideKey": true,
 	"publisher": "Microsoft",
 	"label": "SQL Server 2017 Enterprise on Red Hat Enterprise Linux 7.4",
 	"displayName": "SQL Server 2017 Enterprise on Red Hat Enterprise Linux 7.4",
@@ -14,7 +13,7 @@
 		"sku": "Enterprise"
 	},
 	"OS": "Linux",
-	"description": "This image contains the full version of SQL Server 2017 Enterprise edition on Red Hat Enterprise Linux 7.4. SQL Server 2017 represents a major step towards making SQL Server a platform that gives you choices of development languages, data types, on-premises or cloud, and operating systems by bringing the power of SQL Server to Linux, Linux-based Docker containers, and Windows. For a comprehensive list of the components included in Enterprise edition on Linux go to http://docs.microsoft.com/en-us/sql/linux/sql-server-linux-editions-and-components-2017. We recommend that you use a virtual machine size of DS13 or higher.<br />After provisioning, please run <strong>‘$sudo /opt/mssql/bin/mssql-conf set-sa-password’</strong> to configure SQL Server.  <br />See documentation for additional details.  https://docs.microsoft.com/azure/virtual-machines/linux/sql/provision-sql-server-linux-virtual-machine.",
+	"description": "This image contains the full version of SQL Server 2017 Enterprise edition on Red Hat Enterprise Linux 7.4. SQL Server 2017 represents a major step towards making SQL Server a platform that gives you choices of development languages, data types, on-premises or cloud, and operating systems by bringing the power of SQL Server to Linux, Linux-based Docker containers, and Windows. For a comprehensive list of the components included in Enterprise edition on Linux go to http://docs.microsoft.com/en-us/sql/linux/sql-server-linux-editions-and-components-2017. We recommend that you use a virtual machine size of DS13 or higher.<br />After provisioning, please run <strong>$sudo /opt/mssql/bin/mssql-conf set-sa-password</strong> to configure SQL Server.  <br />See documentation for additional details.  https://docs.microsoft.com/azure/virtual-machines/linux/sql/provision-sql-server-linux-virtual-machine.",
 	"iconPath": "Icons",
 	"supportsSriov": true,
 	"categories": [
