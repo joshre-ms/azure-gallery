@@ -47,5 +47,6 @@
 	],
 	"cloudEnvironments": [
 		"PublicAzure"
-	]
+	],    
+    "isPremiumThirdParty": true
 }
