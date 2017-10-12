@@ -18,7 +18,7 @@
 	},
 	"OS": "Linux",
 	"summary": "This distribution of Linux is based on CentOS and is provided by Rogue Wave Software.",
-	"description": "This distribution of Linux is based on CentOS $vMajor.$vMinor and optimized for Logical Volume Manager (LVM) support in Microsoft Azure and is provided by Rogue Wave Software (formally OpenLogic). It contains an installation of the Basic Server packages. Please refer to https://docs.microsoft.com/en-us/azure/virtual-machines/linux/configure-lvm for more information.",
+	"description": "This distribution of Linux is based on CentOS 7.4 and optimized for Logical Volume Manager (LVM) support in Microsoft Azure and is provided by Rogue Wave Software (formally OpenLogic). It contains an installation of the Basic Server packages. Please refer to https://docs.microsoft.com/en-us/azure/virtual-machines/linux/configure-lvm for more information.",
 	"iconPath": "Icons",
     "supportsSriov": true,
 	"categories": [
