@@ -76,6 +76,6 @@
 	},
 	"freeTierEligible": "true",
   	"defaultImageSizeGB": 31,
- 	"addHideKey": true,
+ 	"addHideKey": false,
 	"screenshot": null
 }
