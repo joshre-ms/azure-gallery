@@ -2,7 +2,7 @@
     "publisher": "Microsoft",
     "label": "HPC Pack 2012 R2 Compute Node with Excel on Windows Server 2012 R2",
     "displayName": "HPC Pack 2012 R2 Compute Node with Excel on Windows Server 2012 R2",
-    "MediaName": "96316178b0644ae08bc4e037635ce104__HPC-Pack-2012R2-Update3-CN-Excel-4.5.5161.0-WS2012R2-ENU",
+    "MediaName": "96316178b0644ae08bc4e037635ce104__HPC-Pack-2012R2-Update3-CN-Excel-4.5.5170.0-WS2012R2-ENU",
     "imageReference": {
       "publisher": "MicrosoftWindowsServerHPCPack",
       "offer": "WindowsServerHPCPack",
