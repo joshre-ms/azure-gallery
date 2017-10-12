@@ -9,13 +9,13 @@
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-8-backports-amd64-20170619.0"
+            "mediaName": "6a83c2d016534a7a917bcd21b6e1c0c9__Debian-8-backports-amd64-20171009.0"
         },
         "Blackforest": {
-            "mediaName": "32951de3054f406fb267f8a578f831e5__Debian-8-backports-amd64-20170619.0"
+            "mediaName": "32951de3054f406fb267f8a578f831e5__Debian-8-backports-amd64-20171009.0"
         },
         "Mooncake": {
-            "mediaName": "8f699951c9734adc865d1538866f72c0__Debian-8-backports-amd64-20170619.0"
+            "mediaName": "8f699951c9734adc865d1538866f72c0__Debian-8-backports-amd64-20171009.0"
         }
     },
     "imageReference": {
@@ -72,6 +72,7 @@
     ],
     "eula": "https://www.debian.org/social_contract",
     "privacy": null,
+    "supportsBackup": true,
     "freeTierEligible": "true",
     "defaultImageSizeGB": 30,
     "screenshot": null
