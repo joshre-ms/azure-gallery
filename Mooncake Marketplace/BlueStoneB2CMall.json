@@ -20,7 +20,7 @@
         "sku": "Standard"
     },
     "summary": "青石B2C系统可以帮助您快速搭建电子商务网站，连接客户、经销商和消费者，融合物流、资金流和信息流。",
-    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    本镜像是一款免费的电子商务解决方案软件，主要包括一套电子商务门户网站，主要提供一致的完整的在线购物体验。通过安装实施本软件，可以快速的搭建一套属于自己的电子商务门户网站，有效的提高公司内品牌知名度，有利于公司产品的推广和营销。\r\n</p>\r\n<ul>\r\n    <li>商品展示</li>\r\n    <li>在线下单</li>\r\n    <li>在线支付</li>\r\n</ul>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>在 Azure 镜像市场选择【青石B2C商城】镜像，点击“部署”。</li>\r\n    <li>部署成功之后，可通过公共IP地址进行Web访问；也可点击进入公共IP地址配置自定义域名，然后通过浏览器 http://{DnsName}.{ResourceGroupLocation}.cloudapp.chinacloudapi.cn进行访问。</li>\r\n    <li>使用浏览器访问该入口，即可进入网站的初始配置页面。</li>\r\n    <li>体验账号 商户ID:21，软件授权码：0a54afcb-4496-45ba-a652-0234dbffe6bd,若想购买和使用正式产品，请电话（028-84175191，或使用本镜像提供的联系方式）联系青石科技人员获取初始参数。</li>\r\n    <li>设置初始参数后，请联系青石科技人员获得后台ERP账号，登陆ERP系统可以设置商城使用哪套皮肤、首页展示内容、上架哪些商品等</li>\r\n</ol>",
+    "description": "<strong>产品介绍</strong>\n<p>\n本镜像是一款免费的电子商务解决方案软件，主要包括一套电子商务门户网站，主要提供一致的完整的在线购物体验。通过安装实施本软件，可以快速的搭建一套属于自己的电子商务门户网站，有效的提高公司内品牌知名度，有利于公司产品的推广和营销。\n</p>\n<ul>\n    <li>商品展示</li>\n    <li>在线下单</li>\n    <li>在线支付</li>\n</ul>\n<p>\n</p>\n<strong>使用说明</strong>\n<ul>\n    <li>在 Azure 镜像市场选择【青石B2C商城】镜像，点击“部署”。</li>\n    <li>部署成功之后，可通过公共IP地址进行Web访问；也可点击进入公共IP地址配置自定义域名，然后通过浏览器 http://{DnsName}.{ResourceGroupLocation}.cloudapp.chinacloudapi.cn进行访问。</li>\n    <li>使用浏览器访问该入口，即可进入网站的初始配置页面。</li>\n    <li>体验账号 商户ID:21，软件授权码：0a54afcb-4496-45ba-a652-0234dbffe6bd,若想购买和使用正式产品，请电话（028-84175191，或使用本镜像提供的联系方式）联系青石科技人员获取初始参数。</li>\n    <li>设置初始参数后，请联系青石科技人员获得后台ERP账号，登陆ERP系统可以设置商城使用哪套皮肤、首页展示内容、上架哪些商品等。</li>\n</ul>\n<p>\n</p>\n<!--Legal Terms-->\n<h3 class=\"msportalfx-text-header\">法律声明</h3>\n<p></p>\n<p>\n通过单击 \"创建\" 按钮, 我承认我从青石万维得到了这个软件, 并且了解青石万维的\n<a target=\"_blank\" href=\"http://www.ecbluestone.com/news/detail/51/\">法律条款</a>\n适用于它。Microsoft 不为第三方服务商的软件提供权利保护。\n</p>",
     "iconPath": "Icons/BlueStoneB2CMall",
     "categories": [
         "virtualMachine",
@@ -52,6 +52,6 @@
             }
         }
     ],
-    "eula": null,
+    "eula": "http://www.ecbluestone.com/news/detail/51/",
     "privacy": null
 }

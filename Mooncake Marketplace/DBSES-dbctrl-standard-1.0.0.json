@@ -60,6 +60,24 @@
       "uri": {
         "Default": "http://www.dbscloud.cn"
       }
+    },
+    {
+      "label": "产品接入文档",
+      "uri": {
+        "Default": "http://www.dbscloud.cn/doc/dbctrl_access.docx"
+      }
+    },
+    {
+      "label": "产品用户手册",
+      "uri": {
+        "Default": "http://www.dbscloud.cn/doc/DBCtrl-Manual(ctroller_encloud)3.0.pdf"
+      }
+    },
+    {
+      "label": "产品FAQ",
+      "uri": {
+        "Default": "http://www.dbscloud.cn/doc/dbctrl_FAQ.pdf"
+      }
     }
   ],
   "eula": "http://www.dbscloud.cn/doc/azure_mkt_dbctrl.docx",
