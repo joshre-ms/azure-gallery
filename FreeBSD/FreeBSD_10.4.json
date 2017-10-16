@@ -5,7 +5,7 @@
     "displayName": "FreeBSD 10.4",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "9db562c525e942698c605df2f0c9b26a__FreeBSD10_4-2017-09-28"
+            "mediaName": "9db562c525e942698c605df2f0c9b26a__FreeBSD10_4-2017-10-10"
         }
     },
     "imageReference": {
