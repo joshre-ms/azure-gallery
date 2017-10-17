@@ -22,8 +22,8 @@
     "sku": "2016-Datacenter-with-Containers"
   },
   "OS": "Windows",
-  "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
-  "description": "<p>Windows Server 2016 with Containers allows you to try the new Windows Server Container feature with both Server Core and Nano Server Container OS Images installed and ready to use with Docker. For more information about Windows Server Containers, see <a href='https://msdn.microsoft.com/virtualization/windowscontainers/containers_welcome' target='_blank'>here</a></p>",
+  "summary": "A comprehensive server operating system designed to run the applications and infrastructure that power your business.",
+  "description": "Windows Server 2016 with Containers is a comprehensive server operating system designed to run the applications and infrastructure that power your business. It includes built-in layers of security and innovation to help you run traditional and cloud-native applications with confidence.  This image is a Server with Desktop Experience that includes Windows Server container images installed and ready to use with Docker. <p>This image can be used with <a href='https://docs.microsoft.com/azure/virtual-machines/windows/hybrid-use-benefit-licensing' target='_blank'>Azure Hybrid Benefit for Windows Server.</a></p>",
   "iconPath": "Icons/Server",
   "categories": [
     "virtualMachine",

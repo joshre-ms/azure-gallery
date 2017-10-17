@@ -22,8 +22,8 @@
     "sku": "2016-Datacenter-Server-Core"
   },
   "OS": "Windows",
-  "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
-  "description": "Windows Server 2016 is a comprehensive server operating system designed to run the applications and infrastructure that power your business. Server Core is a headless installation option which does not include the graphical user interface.",
+  "summary": "A comprehensive server operating system designed to run the applications and infrastructure that power your business.",
+  "description": "Windows Server 2016 is a comprehensive server operating system designed to run the applications and infrastructure that power your business. It includes built-in layers of security at the OS level and innovation to help you run traditional and cloud-native applications with confidence. This Server Core image omits the GUI for a smaller OS footprint. <p>This image can be used with <a href='https://docs.microsoft.com/azure/virtual-machines/windows/hybrid-use-benefit-licensing' target='_blank'>Azure Hybrid Benefit for Windows Server.</a></p>",
   "iconPath": "Icons/Server",
   "supportsSriov": true,
   "categories": [

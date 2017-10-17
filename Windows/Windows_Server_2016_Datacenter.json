@@ -22,8 +22,8 @@
     "sku": "2016-Datacenter"
   },
   "OS": "Windows",
-  "summary": "Simple to deploy, cost-effective, application-focused, and user-centric.  Also offers Hybrid Use Benefit (HUB) for licenses with Software Assurance.",
-  "description": "Windows Server 2016 is the cloud-ready operating system that delivers new layers of security and Azure-inspired innovation for the applications and infrastructure that power your business. Increase security and reduce risk with multiple layers of protection built into the operating system.  Evolve your datacenter to save money and gain flexibility with software-defined compute, storage and network technologies. Innovate faster with an application platform optimized for the applications you run today, as well as the cloud-based apps of tomorrow.",
+  "summary": "A comprehensive server operating system designed to run the applications and infrastructure that power your business.",
+  "description": "Windows Server 2016 is a comprehensive server operating system designed to run the applications and infrastructure that power your business. It includes built-in layers of security and innovation to help you run traditional and cloud-native applications with confidence. This Server with Desktop Experience image includes all roles including the graphical user interface (GUI). <p>This image can be used with <a href='https://docs.microsoft.com/azure/virtual-machines/windows/hybrid-use-benefit-licensing' target='_blank'>Azure Hybrid Benefit for Windows Server.</a></p>",
   "iconPath": "Icons/Server",
   "supportsSriov": true,
   "categories": [

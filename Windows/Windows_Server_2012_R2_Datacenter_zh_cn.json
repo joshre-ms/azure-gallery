@@ -9,7 +9,7 @@
   },
   "OS": "Windows",
   "summary": "Enterprise-class solutions that are simple to deploy, cost-effective, application-focused, and user-centric.",
-  "description": "This is the Simplified Chinese (ZH-CN) version. At the heart of the Microsoft Cloud OS vision, Windows Server 2012 R2 brings Microsoft's experience delivering global-scale cloud services into your infrastructure. The virtual machine (VM) offers enterprise-class performance, flexibility for your applications and excellent economics for your datacenter and hybrid cloud environment. This image includes Windows Server 2012 R2 Update (KB2919355).",
+  "description": "This is the Simplified Chinese (ZH-CN) version. Windows Server 2012 R2 Datacenter edition offers application compatibility for traditional applications and workloads.  This image includes Windows Server 2012 R2 Update (KB2919355). <p>This image can be used with <a href='https://docs.microsoft.com/azure/virtual-machines/windows/hybrid-use-benefit-licensing' target='_blank'>Azure Hybrid Benefit for Windows Server.</a></p>",
   "iconPath": "Icons/Server",
   "supportsSriov": true,
   "categories": [
@@ -42,14 +42,10 @@
         {
           "label": "What's New in 2012 R2",
           "uri": "http://technet.microsoft.com/library/hh801901.aspx"
-        },
-        {
-          "label": "Learn more",
-          "uri": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/"
         }
     ],
   "eula": "http://download.microsoft.com/Documents/UseTerms/Windows%20Server_2012%20R2%20Datacenter_English_20812733-0262-474c-9370-0145d77dd648.pdf",
-  "privacy": "https://privacy.microsoft.com/en-us/windows-8-1-privacy-statement",
+  "privacy": "https://privacy.microsoft.com/windows-8-1-privacy-statement",
   "supportsHubOnOffSwitch": true,
   "screenshot": null,
   "cloudEnvironments": [

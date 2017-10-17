@@ -13,8 +13,8 @@
       "sku": "2008-R2-SP1-smalldisk"
     },
     "OS": "Windows",
-    "summary": "Simple to deploy, cost-effective, application-focused, and user-centric.  Also offers Hybrid Use Benefit (HUB) for licenses with Software Assurance.",
-    "description": "<p><b>Note: This image comes with a 30GB OS Disk</b></p>Windows Server 2008 R2 is a multi-purpose server designed to increase the reliability and flexibility of your server or private cloud infrastructure, helping you to save time and reduce costs.  The virtual machine (VM) provides you with powerful tools to react to business needs with greater control and confidence.",
+    "summary": "Simple to deploy, cost-effective, application-focused, and user-centric.",
+    "description": "<p><b>Note: This image comes with a 30GB OS Disk</b></p>Windows Server 2008 R2 is a popular, multi-purpose server operating system that organizations around the globe trust to run their mission-critical workloads.<p>This image can be used with <a href='https://docs.microsoft.com/azure/virtual-machines/windows/hybrid-use-benefit-licensing' target='_blank'>Azure Hybrid Benefit for Windows Server.</a></p>",
     "iconPath": "Icons/Server",
   "categories": [
     "virtualMachine",
@@ -49,7 +49,7 @@
         }
     ],
     "eula": "http://download.microsoft.com/Documents/UseTerms/Windows%20Server_2008%20R2%20Datacenter_English_0e64c120-39df-430f-9962-11b1184a4df2.pdf",
-    "privacy": "https://privacy.microsoft.com/en-us/windows-7-privacy-statement",
+    "privacy": "https://privacy.microsoft.com/windows-7-privacy-statement",
     "freeTierEligible": "true",
     "defaultImageSizeGB": 31,
     "screenshot": null,
