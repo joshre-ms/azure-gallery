@@ -4,13 +4,13 @@
   "displayName": "Visual Studio Community 2015 Update 3 with Azure SDK 2.9 on Windows Server 2012 R2",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Comm-VSU3-AzureSDK-29-WS2012R2-2017-09-14"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Comm-VSU3-AzureSDK-29-WS2012R2-2017-10-12"
     },
     "Fairfax": {
-      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2015-Comm-VSU3-AzureSDK-29-WS2012R2-2017-09-14"
+      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2015-Comm-VSU3-AzureSDK-29-WS2012R2-2017-10-12"
     },
     "Mooncake": {
-      "mediaName": "d470023494674677a3094100e43cd68d__VS-2015-Comm-VSU3-AzureSDK-29-WS2012R2-2017-09-14"
+      "mediaName": "d470023494674677a3094100e43cd68d__VS-2015-Comm-VSU3-AzureSDK-29-WS2012R2-2017-10-12"
     }
   },
   "imageReference": {
@@ -19,7 +19,7 @@
     "sku": "VS-2015-Comm-VSU3-AzureSDK-29-WS2012R2"
   },
   "OS": "Windows",
-  "description": "<p>Visual Studio Community 2015 Update 3 is our free, full featured and extensible IDE for non-enterprise application development. This image contains Windows Server 2012 R2 with Visual Studio Community 2015 Update 3. It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.</p><p>This image was created from the latest bits available on 9/14/2017.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.</p>",
+  "description": "<p>Visual Studio Community 2015 Update 3 is our free, full featured and extensible IDE for non-enterprise application development. This image contains Windows Server 2012 R2 with Visual Studio Community 2015 Update 3. It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.</p><p>This image was created from the latest bits available on 10/12/2017.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.</p>",
   "iconPath": "Icons/VS2015",
   "categories": [
     "virtualMachine",
