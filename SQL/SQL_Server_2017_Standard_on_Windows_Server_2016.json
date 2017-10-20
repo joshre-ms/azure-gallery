@@ -4,8 +4,11 @@
     "displayName": "SQL Server 2017 Standard on Windows Server 2016",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL_PreRelease14.0.1000.169SQLSTDWindowsServer20163"
-        }
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL_PreRelease14.0.1000.169SQLSTDWindowsServer20162"
+        },
+		"Mooncake": {
+			"mediaName": "74bb2f0b8dcc47fbb2914b60ed940c35__SQL_PreRelease14.0.1000.169SQLSTDWindowsServer20162"
+		}
     },
     "imageReference": {
       "publisher": "MicrosoftSQLServer",
@@ -51,6 +54,7 @@
     ],
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
     "cloudEnvironments":  [
-        "PublicAzure"
+        "PublicAzure",
+		"Mooncake"
     ]
 }
