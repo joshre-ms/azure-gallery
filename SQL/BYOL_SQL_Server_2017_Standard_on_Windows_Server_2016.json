@@ -1,0 +1,57 @@
+{ 
+    "publisher": "Microsoft",
+    "label": "{BYOL} SQL Server 2017 Standard on Windows Server 2016",
+    "displayName": "{BYOL} SQL Server 2017 Standard on Windows Server 2016",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL_PreRelease14.0.1000.169SQLSTDWindowsServer20161-BYOL"
+        }
+    },
+    "imageReference": {
+      "publisher": "MicrosoftSQLServer",
+      "offer": "SQL2017-WS2016-BYOL",
+      "sku": "Standard"
+    },
+    "OS": "Windows",
+    "description": "This image contains the Standard edition of SQL Server 2017 to be used for License Mobility for Software Assurance (Bring Your Own License - BYOL). A SQL Server licensing cost will not be charged for this image. You must acknowledge that you have a valid SQL Server Standard license and provide the necessary BYOL information to Microsoft within 10 days. Standard edition provides core data management capabilities for medium-size transactional processing and data warehousing. It includes the database engine with a basic version of Always On high availability and Row-Level Security. Includes Management Studio for integrated administration and development, basic versions of Reporting Services for web reports, Integration Services for moving and transforming data, and Analysis Services for data mining. We recommend that you use a virtual machine size of DS12 or higher.",
+    "iconPath": "Icons",
+    "supportsSriov": true,
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "enterpriseagreementonly",
+        "azure",
+        "windows",
+        "database",
+        "sqlservercuration"
+    ],
+    "recommendedSizes": ["Standard_DS13_v2", "Standard_DS14_v2", "Standard_DS12_v2", "Standard_DS13", "Standard_DS14", "Standard_DS12"],
+    "links": [
+        {
+            "label": "Documentation",
+            "uri": "https://azure.microsoft.com/documentation/articles/virtual-machines-sql-server-infrastructure-services/"
+        },
+        {
+            "label": "SQL Server 2017  information",
+            "uri": "https://www.microsoft.com/en-us/sql-server/sql-server-2017"
+        },
+        {
+            "label": "Support forum",
+            "uri": "http://social.msdn.microsoft.com/Forums/windowsazure/home?forum=WAVirtualMachinesforWindows&filter=unanswered&brandIgnore=True&sort=relevancedesc&searchTerm=SQL"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "https://azure.microsoft.com/pricing/details/virtual-machines/#sql"
+        }
+    ],
+    "eula": "https://go.microsoft.com/fwlink/?linkid=857683",
+    "privacy": "http://go.microsoft.com/fwlink/?LinkID=829490",
+    "screenshot": null,
+    "supportedExtensions": [
+        "SqlIaaSAgent"
+    ],
+    "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
+    "cloudEnvironments":  [
+        "PublicAzure"
+    ]
+}
