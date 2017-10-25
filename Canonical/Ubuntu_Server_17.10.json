@@ -1,0 +1,99 @@
+{
+    "publisher": "Canonical",
+    "publisherDisplayName": "Canonical",
+    "label": "Ubuntu Server 17.10",
+    "displayName": "Ubuntu Server 17.10",
+    "mediaReferences": {
+        "PublicAzure": {
+            "mediaName": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-17_10-amd64-server-20171017-en-us-30GB"
+        },
+        "Mooncake": {
+            "mediaName": "b549f4301d0b4295b8e76ceb65df47d4__Ubuntu-17_10-amd64-server-20171017-en-us-30GB"
+        },
+        "Blackforest": {
+            "mediaName": "c250f855e92241968d8ee9500700a6b4__Ubuntu-17_10-amd64-server-20171017-en-us-30GB"
+        }
+    },
+    "imageReference": {
+        "publisher": "Canonical",
+        "offer": "UbuntuServer",
+        "sku": "17.10"
+    },
+    "OS": "Linux",
+    "summary": "Ubuntu Server delivers the best value scale-out performance available.",
+    "description": "Ubuntu Server 17.10 amd64 20171017 Public Azure, 20171017 Azure China, 20171017 Azure Germany, 20171017 Azure Gov. Ubuntu Server is the world's most popular Linux for cloud environments. Updates and patches for Ubuntu 17.10 will be available until July 2018.  Ubuntu Server is the perfect virtual machine (VM) platform for all workloads from web applications to NoSQL databases and Hadoop. For more information see <a href='http://partners.ubuntu.com/microsoft' target='_blank'>Ubuntu on Azure</a> and <a href='http://juju.ubuntu.com' target='_blank'>using Juju to deploy your workloads</a>.",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra",
+        "azureCertified",
+        "virtualMachineRecommended",
+        "ubuntuservercuration"
+    ],
+    "recommendedSizes": [
+        "Standard_D2s_v3",
+        "Standard_D4s_v3",
+        "Standard_E2s_v3",           
+        "Standard_DS1_v2",
+        "Standard_DS2_v2",
+        "Standard_DS11_v2",
+        "Standard_DS1",
+        "Standard_DS2",
+        "Standard_DS11",
+        "Standard_D1_v2",
+        "Standard_D1",
+        "Small"          
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "Linux VM Documentation",
+            "uri": {
+                "Default": "https://docs.microsoft.com/azure/virtual-machines/linux/"
+            }
+        },
+        {
+            "label": "Ubuntu Documentation",
+            "uri": {
+                "Default": "https://help.ubuntu.com/17.10/index.html"
+            }
+        },
+        {
+            "label": "FAQ",
+            "uri": {
+                "Default": "https://help.ubuntu.com/community/ServerFaq"
+            }
+        },
+        {
+            "label": "Pricing details",
+            "uri": {
+                "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+            }
+        }
+    ],
+    "eula": "http://www.ubuntu.com/project/about-ubuntu/licensing",
+    "privacy": "http://www.ubuntu.com/aboutus/privacypolicy",
+    "supportsBackup": true,
+    "freeTierEligible": "true",
+    "defaultImageSizeGB": 30,
+    "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
+    "screenshot": null,
+    "cloudEnvironments":  [
+        "PublicAzure",
+        "Blackforest",
+        "Mooncake"
+    ],
+    "leadGeneration": {
+          "PublicAzure": {
+             "productId":"firstParty_Ubuntu_Server_17.10"
+         },
+         "Fairfax": {
+             "productId":""
+         },
+         "Blackforest": {
+             "productId":""
+         }
+      }
+}
