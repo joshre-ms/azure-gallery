@@ -60,12 +60,11 @@
     "privacy": "https://privacy.microsoft.com/windows-8-privacy-statement",
     "supportsBackup": true,
     "screenshot": null,
+    "supportsHubOnOffSwitch": true,
     "cloudEnvironments":  [
       "PublicAzure",
       "Blackforest",
       "Mooncake",
       "Fairfax"
-    ],
-    "supportsHubOnOffSwitch": true,
-    "supportsBackup": true
+    ]
 }

@@ -1,0 +1,57 @@
+{
+  "publisher": "Microsoft",
+  "label": "Windows Server, version 1709",
+  "displayName": "Windows Server, version 1709",
+  "mediaReferences": {
+    "PublicAzure": {
+      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-Datacenter-Core-1709-20171012-en.us-30GB.vhd"
+    }
+  },
+  "imageReference": {
+    "publisher": "MicrosoftWindowsServer",
+    "offer": "WindowsServerSemiAnnual",
+    "sku": "Datacenter-Core-1709-smalldisk"
+  },
+  "OS": "Windows",
+  "description": "Windows Server, version 1709 is a Semi-Annual Channel release based on the Server Core installation option of the Datacenter edition. A new release comes out every six months and is supported for 18 months. Support will end in May 2019. Check the <a href='https://support.microsoft.com/lifecycle' target='_blank'>Lifecycle Support Page</a> for support dates and always use the latest release if possible.</p>",
+  "iconPath": "Icons/Server",
+  "supportsSriov": true,
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "windows",
+    "appInfra",
+    "windowsservercuration"
+  ],
+  "recommendedSizes": [
+    "Standard_DS1_v2",
+    "Standard_D4s_v3", 
+    "Standard_E2s_v3",    
+    "Standard_DS2_v2",
+    "Standard_DS11_v2",
+    "Standard_DS1",
+    "Standard_DS2",
+    "Standard_DS11",
+    "Standard_D1_v2",
+    "Standard_D1",
+    "Small"
+  ],
+  "links": [
+       {
+          "label": "Documentation",
+          "uri": "https://docs.microsoft.com/azure/virtual-machines/windows/"
+       },
+       {
+          "label": "Introducing Windows Server, version 1709",
+          "uri": "https://go.microsoft.com/fwlink/?linkid=856276"
+       }
+  ],
+  "eula": "https://go.microsoft.com/fwlink/?linkid=825699",
+  "privacy": "https://go.microsoft.com/fwlink/?linkid=734730",
+  "screenshot": null,
+  "cloudEnvironments": [
+    "PublicAzure"
+  ],
+  "supportsHubOnOffSwitch": true
+}
