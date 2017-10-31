@@ -1,7 +1,7 @@
 {
 	"publisher": "Microsoft",
 	"label": "SQL Server 2017 Standard on Red Hat Enterprise Linux 7.4",
-	"displayName": "SQL Server 2017 Standard on Red Hat Enterprise Linux 7.4",
+	"displayName": "SQL Server 2017 Standard on Red Hat Enterprise Linux 7.4 (RHEL)",
 	"mediaReferences": {
 		"PublicAzure": {
 			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-StandardRHEL7-RAW3"

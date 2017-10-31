@@ -1,7 +1,7 @@
 {
 	"publisher": "Microsoft",
 	"label": "SQL Server 2017 Enterprise on SLES 12 SP2",
-	"displayName": "SQL Server 2017 Enterprise on SLES 12 SP2",
+	"displayName": "SQL Server 2017 Enterprise on SUSE Linux Enterprise Server (SLES) 12 SP2",
 	"mediaReferences": {
 		"PublicAzure": {
 			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-EnterpriseSLES-Priority12-SP25"

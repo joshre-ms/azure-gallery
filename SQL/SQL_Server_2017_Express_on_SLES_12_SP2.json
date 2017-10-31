@@ -1,7 +1,7 @@
 {
 	"publisher": "Microsoft",
 	"label": "Free SQL Server License: SQL Server 2017 Express on SLES 12 SP2",
-	"displayName": "Free SQL Server License: SQL Server 2017 Express on SLES 12 SP2",
+	"displayName": "Free SQL Server License: SQL Server 2017 Express on SUSE Linux Enterprise Server (SLES) 12 SP2",
 	"mediaReferences": {
 		"PublicAzure": {
 			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-ExpressSLES-Priority12-SP25"
