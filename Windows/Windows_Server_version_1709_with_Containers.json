@@ -5,6 +5,15 @@
   "mediaReferences": {
     "PublicAzure": {
       "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-Datacenter-Core-1709-with-Containers-20171012-en.us-30GB.vhd"
+    },
+    "Blackforest": {
+      "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-Datacenter-Core-1709-with-Containers-20171012-en.us-30GB.vhd"
+    },
+    "Mooncake": {
+      "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-Datacenter-Core-1709-with-Containers-20171012-en.us-30GB.vhd"
+    },
+    "Fairfax": {
+      "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-Datacenter-Core-1709-with-Containers-20171012-en.us-30GB.vhd"
     }
   },
   "imageReference": {
@@ -59,7 +68,10 @@
   "privacy": "https://go.microsoft.com/fwlink/?linkid=734730",
   "screenshot": null,
   "cloudEnvironments": [
-    "PublicAzure"
+    "PublicAzure",
+    "Blackforest",
+    "Mooncake",
+    "Fairfax"
   ],
   "supportsHubOnOffSwitch": true
 }
