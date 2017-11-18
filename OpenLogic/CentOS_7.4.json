@@ -10,7 +10,7 @@
 	],
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-74-20170919"
+			"mediaName": "5112500ae3b842c8b9c604889f8753c3__OpenLogic-CentOS-74-20171110"
 		},
 		"BlackForest": {
 			"mediaName": "74670972aac14ba9b65a6f34edf06e1c__OpenLogic-CentOS-74-20170919"
@@ -26,7 +26,7 @@
 	},
 	"OS": "Linux",
 	"summary": "This distribution of Linux is based on CentOS and is provided by Rogue Wave Software.",
-	"description": "This distribution of Linux is based on CentOS version 7.4 and is provided by Rogue Wave Software (formerly OpenLogic). It contains an installation of the Basic Server packages.",
+	"description": "This distribution of Linux is based on CentOS version 7.4 and is provided by Rogue Wave Software (formerly OpenLogic). It contains an installation of the Basic Server packages. (1110)",
 	"iconPath": "Icons",
     "supportsSriov": true,
 	"categories": [
