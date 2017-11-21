@@ -1,0 +1,69 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "cc4e8727d55547ee821ce77f8482a2d8__hillstone-networks-vsg6000-cloudedge-vm02-5.5.3"
+    }
+  },
+  "publisher": "hillstone-networks",
+  "publisherDisplayName": "山石网科",
+  "publisherLegalName": "北京山石网科信息技术有限公司",
+  "label": "hillstone-networksv_sg6000-cloudedge-vm02",
+  "displayName": "山石网科-虚拟化下一代防火墙 旗舰版(BYOL)",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "hillstone-networks",
+    "offer": "hillstone-networksv",
+    "sku": "sg6000-cloudedge-vm02"
+  },
+  "summary": "山石云界虚拟化下一代防火墙是专门为虚拟化环境设计的虚拟化网络安全产品",
+  "description": "<strong>产品介绍</strong>\n<p>\n山石云界虚拟化下一代防火墙系列是专门为虚拟化环境设计的虚拟化网络安全产品，以纯软件形态部署，适用于虚拟化云平台，为用户提供不同安全等级应用之间的安全隔离和安全防护。产品支持精细化应用识别、VPN（IPSEC/SSL/L2TP）、入侵防御、负载均衡等功能，具备快速部署能力，即可为租户提供安全防护，又可为中小企业私有云用户提供高性价比的防护方案，能够降低客户初始采购和管理维护成本。山石云界还通过与公有云服务相结合，进行便捷的虚拟网络管理，为公有云环境中的独立租户提供专属的安全隔离和策略保护。具备各种日志记录查询功能，能够有效记录网络情况，并提供实时流量和安全事件的报表统计功能，帮助管理员全面掌握网络运行状态，提高运维效率。\n</p>\n<p>\n</p>\n<strong>使用说明</strong>\n<ul>\n    <li>选择虚拟机型号，请参见“山石网科-虚拟化下一代防火墙 旗舰版(BYOL)支持Azure虚机资源规格说明”</li>\n    <li>使用WEB或者SSH登录方式,用户名密码均为创建虚拟机时所设置的用户名密码,SSH端口22,HTTPS端口443</li>\n    <li> 登录后导入软件许可证方可正常使用,如果还没有软件许可证,请联系山石网科客服购买，也可通过网上申请： http://www.hillstonenet.com.cn/ordering/try.html</li>\n</ul> <br><!--Legal Terms-->\n<h3 class=\"msportalfx-text-header\">法律声明</h3>\n<p></p>\n<p>\n通过单击 \"创建\" 按钮, 我承认我从山石网科得到了这个软件, 并且了解山石网科的\n<a target=\"_blank\" href=\"https://www.hillstonenet.com.cn/download/18690/\">法律条款</a>\n适用于它。Microsoft 不为第三方服务商的软件提供权利保护。\n</p>",
+  "iconPath": "Icons/hillstone-networks-vsg6000-cloudedge-vm02-5.5.3",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "os",
+    "networking",
+    "security"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "22"
+    },
+    {
+      "endpointName": "port-2",
+      "protocol": "TCP",
+      "publicPort": "443"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_A2_v2",
+    "Standard_D2",
+    "Standard_D2_v2"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://www.hillstonenet.com.cn"
+      }
+    },
+     {
+      "label": "山石网科-虚拟化下一代防火墙 旗舰版(BYOL)支持Azure虚机资源规格说明",
+      "uri": {
+        "Default": "https://www.hillstonenet.com.cn/download/18683/"
+      }
+    }
+  ],
+  "privacy": null,
+  "addHideKey": true,
+  "screenshot": "Screenshots/hillstone-networks-vsg6000-cloudedge-vm02-5.5.3"
+}
