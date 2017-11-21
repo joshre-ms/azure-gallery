@@ -4,7 +4,7 @@
   "displayName": "Windows 10 Enterprise N (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Windows-10-N-x64-2017-10-12"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Windows-10-N-x64-2017-11-16"
     }
   },
   "imageReference": {
@@ -13,7 +13,7 @@
     "sku": "Windows-10-N-x64"
   },
   "OS": "Windows",
-  "description": "<p>This image contains Windows 10 Enterprise N (x64) (Creators Update) and is exclusively available to Visual Studio subscribers.  It allows you to easily and quickly set up an environment in Azure to develop and test applications targeting Windows 10.</p><p>Join the Windows Insider Program (https://insider.windows.com/) to receive more frequent, incremental builds of Windows.</p>",
+  "description": "<p>This image contains Windows 10 Enterprise N (x64) (Fall Creators Update (RS3)) and is exclusively available to Visual Studio subscribers.  It allows you to easily and quickly set up an environment in Azure to develop and test applications targeting Windows 10.</p><p>Join the Windows Insider Program (https://insider.windows.com/) to receive more frequent, incremental builds of Windows.</p>",
   "iconPath": "Icons/Client",
   "categories": [
     "virtualMachine",
@@ -25,12 +25,13 @@
     "47970b32416a"
   ],
   "recommendedSizes": [
-    "Standard_A3",
-    "Standard_D2",
-    "Standard_D2_v2",
     "Standard_D2_v3",
-    "Standard_DS2",
-    "Standard_DS2_v2"
+    "Standard_D2s_v3",
+    "Standard_D4_v3",
+    "Standard_D4s_v3",
+    "Standard_D2_v2",
+    "Standard_D2S_v2",
+    "Standard_D3_v2"
   ],
   "links": [
     {
@@ -38,8 +39,8 @@
       "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
     }
   ],
-  "eula": "https://www.microsoft.com/en-us/Useterms/Retail/Windows/10/UseTerms_Retail_Windows_10_English.htm",
-  "privacy": "https://go.microsoft.com/fwlink/?LinkID=521839",
+  "eula": "https://docs.microsoft.com/en-us/visualstudio/subscriptions/vs-license-terms",
+  "privacy": "https://go.microsoft.com/fwlink/?LinkID=529552",
   "screenshot": "Screenshots/Windows10.png",
   "cloudEnvironments": [
     "PublicAzure"
