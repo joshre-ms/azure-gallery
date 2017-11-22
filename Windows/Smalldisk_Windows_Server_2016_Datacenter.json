@@ -61,6 +61,7 @@
   "privacy": "https://go.microsoft.com/fwlink/?linkid=734730",
   "freeTierEligible": "true",
   "defaultImageSizeGB": 31,
+  "supportsHubOnOffSwitch": true, 
   "screenshot": null,
   "cloudEnvironments": [
     "PublicAzure"

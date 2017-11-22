@@ -68,6 +68,7 @@
   "eula": "https://go.microsoft.com/fwlink/?linkid=825699",
   "privacy": "https://go.microsoft.com/fwlink/?linkid=734730",
   "supportsBackup": true,
+  "supportsHubOnOffSwitch": true, 
   "screenshot": null,
   "cloudEnvironments": [
     "PublicAzure",

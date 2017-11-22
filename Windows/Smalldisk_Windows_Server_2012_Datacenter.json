@@ -52,6 +52,7 @@
     "privacy": "https://privacy.microsoft.com/windows-8-privacy-statement",
     "freeTierEligible": "true",
   	"defaultImageSizeGB": 31,
+    "supportsHubOnOffSwitch": true, 
     "screenshot": null,
     "cloudEnvironments":  [
       "PublicAzure"
