@@ -1,0 +1,69 @@
+{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "a26e07bf36334e7e8e0659a152d096a4__DBSES-dba-std-std-3.2.4"
+    }
+  },
+  "publisher": "DBSES",
+  "publisherDisplayName": "安华金和",
+  "publisherLegalName": "北京安华金和科技有限公司",
+  "label": "dba-std_std",
+  "displayName": "云数据库审计_标准版（DBAudit-EnCloud）",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "DBSES",
+    "offer": "dba-std",
+    "sku": "std"
+  },
+  "summary": "安华金和率先推出安华金和云数据库审计,符合等级保护三级标准，帮助用户满足合规性要求。",
+  "description": "\n  <h2>产品简介</h2>\n  <p>&nbsp;&nbsp;&nbsp; 伴随用户应用上云，云端数据安全面临严峻挑战。安华金和基于公有云平台，率先推出云数据安全审计产品（简称DBDBAudit-EnCloud），同时支持RDS云数据库、ECS自建数据库，符合等级保护三级标准，帮助用户满足合规性要求。DBAudit-EnCloud基于安华金和多年在数据库安全领域的深厚技术积累，将数据库监控与审计技术与公有云环境相结合，形成对云环境下核心数据的安全防护，以及对云端数据库提供安全诊断、安全维护、安全管理等价值。</p>\n  <h2>产品价值</h2>\n  <ul>\n    <li>\n      <p>独立于云平台，站在第三方视角为用户提供数据安全保障；</p>\n    </li>\n    <li>\n      <p>帮助用户进行数据安全事件的分析、追查、定责；</p>\n    </li>\n    <li>\n      <p>帮助用户监控诊断数据库运行性能；</p>\n    </li>\n    <li>\n      <p>帮助用户发现程序后门，降低数据泄密的损失；</p>\n    </li>\n    <li>\n      <p>帮助用户提供数据库实时风险告警能力，及时响应数据库攻击；</p>\n    </li>\n  </ul>\n  <h2>产品优势</h2>\n  <ul>\n    <li>\n      <p>&nbsp;公有云平台首个第三方数据库审计产品；</p>\n    </li>\n    <li>\n      <p>独家支持RDS免插件审计；</p>\n    </li>\n    <li>\n      <p>唯一能够100%准确的审计客户来源（IP，登录名）的数据库审计产品；</p>\n    </li>\n    <li>\n      <p>首个满足等保三要求，唯一具备等保报表的数据库审计产品；</p>\n    </li>\n    <li>\n      <p>全面支持自建数据库审计。</p>\n    </li>\n  </ul>\n  <h2>性能参数：</h2>\n  <ul>\n    <li>\n      <p>1个数据库实例</p>\n    </li>\n    <li>\n      <p>峰值1000条SQL/秒级吞吐量&nbsp;</p>\n    </li>\n    <li>\n      <p>500个数据库并发会话数&nbsp;</p>\n    </li>\n    <li>\n      <p>100万/小时入库速率&nbsp;</p>\n    </li>\n    <li>\n      <p>3亿条在线SQL语句存储支持&nbsp;</p>\n    </li>\n    <li>\n      <p>30亿条归档SQL语句存储支持</p>\n    </li>\n  </ul>\n  <p>该版本不包含三层应用关联。如要支持，需在应用服务器部署jTap插件，该服务需另外购买。</p>\n  <p>\n    <br></p>\n  <h2>特别注意：</h2>\n  <p>\n    <br>一、在购买云主机时，主机规格必须为4核8G，数据云盘500G，否则审计系统无法启动。\n    <br>二、由于Azure的限制，购买时无法挂载数据盘，需要在购买之后关闭虚拟机，并在虚拟机上附加500G以上的数据盘后重启虚拟机，系统才能正常初始化并正常使用。\n    <br>三、出于产品知识产权保护，用户对云服务器无法直接登陆，如遇到特殊问题 &nbsp; 需要登陆服务器，需要您的用户名、密码和厂商登陆钥匙共同授权才能访问，望见谅。\n    <br>四、产品使用前，请阅读技术文档《产品接入方式》</p>\n  <p>\n    <br></p>\n  <p>系统默认的登录用户：</p>\n  <p>系统管理员：sysadmin/sysadmin1234</p>\n  <p>安全管理员：secadmin/secadmin1234</p>\n  <p>\n    <br></p>\n  <p>\n    <br></p>\n\n<!--Legal Terms-->\n<h3 class=\"msportalfx-text-header\">法律声明</h3>\n<p>\n</p>\n\n<p>通过单击 \"创建\" 按钮, 我承认我从安华金和得到了这个软件, 并且了解安华金和的\n  <a target=\"_blank\" href=\"http://www.dbscloud.cn/doc/azure_mkt.docx\">法律条款</a>适用于它。Microsoft 不为第三方服务商的软件提供权利保护。\n</p>\n",
+  "iconPath": "Icons/DBSES-dba-std-std-3.2.4",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "database",
+    "security",
+    "mgmt"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "22"
+    },
+    {
+      "endpointName": "port-2",
+      "protocol": "TCP",
+      "publicPort": "443"
+    },
+    {
+      "endpointName": "port-3",
+      "protocol": "TCP",
+      "publicPort": "9266"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_A4_V2",
+    "Standard_D11_V2",
+    "Standard_F4"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://www.dbscloud.cn"
+      }
+    }
+  ],
+  "eula": "http://www.dbscloud.cn/doc/azure_mkt.docx",
+  "privacy": null,
+  "screenshot": "Screenshots/DBSES-dba-std-std-3.2.4",
+  "addHideKey": true
+}
