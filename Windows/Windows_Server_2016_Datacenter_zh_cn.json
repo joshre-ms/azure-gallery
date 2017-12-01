@@ -2,6 +2,11 @@
   "publisher": "Microsoft",
   "label": "Windows Server 2016 Datacenter (zh-cn)",
   "displayName": "Windows Server 2016 Datacenter (zh-cn)",
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2016-Datacenter-20171017-zh.cn-127GB.vhd"
+    }
+  },
   "imageReference": {
     "publisher": "MicrosoftWindowsServer",
     "offer": "WindowsServer",
