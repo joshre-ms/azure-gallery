@@ -1,0 +1,63 @@
+{
+    "publisher": "Palo Alto Networks, Inc.",
+    "publisherDisplayName": "paloaltonetworks",
+    "label": "vmseries-1",
+    "displayName": "vmseries-1",
+    "mediaReferences": {
+        "Blackforest": {
+            "mediaName": "fed267766fe04338b4a4f0ec92db3a86__PAVMOSImage"
+        }
+    },
+    "imageReference": {
+        "publisher": "paloaltonetworks",
+        "offer": "byol",
+        "sku": "8.0.0"
+    },
+    "OS": "Linux",
+    "description": "The VM-Series complements native Azure security features by uniquely classifying traffic based on the application identity and exerting policy-based control to reduce your threat footprint. Using Threat Prevention, URL Filtering, WildFire and GlobalProtect subscriptions, the VM-Series provides full spectrum threat prevention, content scanning and mobile user security. <a href='http://azure.paloaltonetworks.com' target='_blank'>vmseries on Azure</a> ",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra",
+        "azureCertified",
+        "virtualMachineRecommended",
+        
+    ],
+    "recommendedSizes": [
+       "Standard_D3",
+       "Standard_D4",
+       "Standard_D3_v2",
+       "Standard_D4_v2",
+       "Standard_D5_v2",
+       "Standard_A4"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "Templates for vmseries and  Documentation",
+            "uri": {
+                "Blackforest": "https://github.com/PaloAltoNetworks/azure"
+            }
+        },
+        {
+            "label": "VM-Series for Azure Administrator Guide 8.0.0",
+            "uri": {
+                "Blackforest": "https://www.paloaltonetworks.com/documentation/80/pan-os/pan-os/policy/security-policy"
+            }
+        },
+    ],
+    "freeTierEligible": "true",
+    "defaultImageSizeGB": 60,
+    "Sales": "https://www.paloaltonetworks.com/company/contact-sales",
+    "screenshot": null,
+    "cloudEnvironments":  [
+        "Blackforest",
+       ],
+    "leadGeneration": {
+         "Blackforest": {
+             "productId":""
+         }
+      }
+}
