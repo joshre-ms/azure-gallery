@@ -64,6 +64,7 @@
   ],
   "createUIDefinitionHandler": "Microsoft.Compute.RSeverVm",
   "cloudEnvironments": [
-    "PublicAzure"
+    "PublicAzure",
+    "Mooncake"
   ]
 }
