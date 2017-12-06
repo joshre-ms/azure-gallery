@@ -1,0 +1,57 @@
+{
+    "publisher": "Palo Alto Networks, Inc.",
+    "publisherDisplayName": "paloaltonetworks",
+    "label": "vmseries1",
+    "displayName": "VM-Series Next Generation Firewall",
+    "imageReference": {
+        "publisher": "paloaltonetworks",
+        "offer": "vmseries1",
+        "sku": "byol"
+    },
+    "OS": "Linux",
+    "description": "The VM-Series complements native Azure security features by uniquely classifying traffic based on the application identity and exerting policy-based control to reduce your threat footprint. Using Threat Prevention, URL Filtering, WildFire and GlobalProtect subscriptions, the VM-Series provides full spectrum threat prevention, content scanning and mobile user security. <a href='http://azure.paloaltonetworks.com' target='_blank'>vmseries on Azure</a> ",
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra",
+        "azureCertified",
+        "virtualMachineRecommended",
+        
+    ],
+    "recommendedSizes": [
+       "Standard_D3",
+       "Standard_D4",
+       "Standard_D3_v2",
+       "Standard_D4_v2",
+       "Standard_D5_v2",
+       "Standard_A4"
+    ],
+    "linksForEnvironments": [
+        {
+            "label": "Templates for VM-Series",
+            "uri": {
+                "Blackforest": "https://github.com/PaloAltoNetworks/"
+            }
+        },
+        {
+            "label": "VM-Series on Azure - Administrator Guide",
+            "uri": {
+                "Blackforest": "https://www.paloaltonetworks.com/documentation/80/virtualization/virtualization/set-up-the-vm-series-firewall-on-azure"
+            }
+        },
+        {
+            "label": "Sales and Contact",
+            "uri": {
+                "Blackforest": "https://www.paloaltonetworks.com/company/contact-sales"
+            }
+        },
+    ],
+    "defaultImageSizeGB": 60,
+    "screenshot": null,
+    "cloudEnvironments":  [
+        "Blackforest",
+       ],
+}
