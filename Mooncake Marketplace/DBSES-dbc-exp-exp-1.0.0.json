@@ -61,7 +61,7 @@
   ],
   "recommendedSizes": [
     "Standard_A2_V2",
-    "Standard_D2_V2",
+	"Standard_D2_V2",
     "Standard_F2"
   ],
   "linksForEnvironments": [
@@ -74,6 +74,6 @@
   ],
   "eula": "http://www.dbscloud.cn/doc/azure_mkt_dbc.docx",
   "privacy": null,
-  "addHideKey": true,
+  "addHideKey": false,
   "screenshot": "Screenshots/DBSES-dbc-exp-exp-1.0.0"
 }

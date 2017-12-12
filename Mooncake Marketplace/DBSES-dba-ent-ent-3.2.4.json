@@ -64,6 +64,6 @@
   ],
   "eula": "http://www.dbscloud.cn/doc/azure_mkt.docx",
   "privacy": null,
-  "addHideKey": true,
+  "addHideKey": false,
   "screenshot": "Screenshots/DBSES-dba-ent-ent-3.2.4"
 }
