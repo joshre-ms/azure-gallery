@@ -11,13 +11,13 @@
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp3-v20170907"
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-12-sp3-v20171108"
         },
         "Blackforest": {
-            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-sles-12-sp3-v20170907"
+            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-sles-12-sp3-v20171108"
         },
         "Mooncake": {
-            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-12-sp3-v20170907"
+            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-12-sp3-v20171108"
         },
         "Fairfax": {
             "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-sles-12-sp3-v20170907"
