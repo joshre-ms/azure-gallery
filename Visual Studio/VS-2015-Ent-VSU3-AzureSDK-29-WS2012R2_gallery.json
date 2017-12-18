@@ -4,13 +4,13 @@
   "displayName": "Visual Studio Enterprise 2015 Update 3 with Azure SDK 2.9 on Windows Server 2012 R2",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Ent-VSU3-AzureSDK-29-WS2012R2-2017-11-16"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2015-Ent-VSU3-AzureSDK-29-WS2012R2-2017-12-14"
     },
     "Fairfax": {
-      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2015-Ent-VSU3-AzureSDK-29-WS2012R2-2017-11-16"
+      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2015-Ent-VSU3-AzureSDK-29-WS2012R2-2017-12-14"
     },
     "Mooncake": {
-      "mediaName": "d470023494674677a3094100e43cd68d__VS-2015-Ent-VSU3-AzureSDK-29-WS2012R2-2017-11-16"
+      "mediaName": "d470023494674677a3094100e43cd68d__VS-2015-Ent-VSU3-AzureSDK-29-WS2012R2-2017-12-14"
     }
   },
   "imageReference": {
@@ -19,7 +19,7 @@
     "sku": "VS-2015-Ent-VSU3-AzureSDK-29-WS2012R2"
   },
   "OS": "Windows",
-  "description": "<p>With Visual Studio Enterprise 2015 Update 3 you can create applications across devices and services, using a single solution with a consistent development experience. You get the tools you need to deliver desktop, Windows Store, Windows Phone, and Office apps, as well as mobile web apps across any device, web site, cloud service, and more. This image contains Windows Server 2012 R2 with Visual Studio Enterprise 2015 Update 3.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.</p><p>This image was created from the latest bits available on 11/16/2017.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.</p>",
+  "description": "<p>With Visual Studio Enterprise 2015 Update 3 you can create applications across devices and services, using a single solution with a consistent development experience. You get the tools you need to deliver desktop, Windows Store, Windows Phone, and Office apps, as well as mobile web apps across any device, web site, cloud service, and more. This image contains Windows Server 2012 R2 with Visual Studio Enterprise 2015 Update 3.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.</p><p>This image was created from the latest bits available on 12/14/2017.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.</p>",
   "iconPath": "Icons/VS2015",
   "categories": [
     "virtualMachine",
@@ -40,8 +40,12 @@
   ],
   "links": [
     {
+      "label": "Provide feedback on this image/virtual machine",
+      "uri": "https://aka.ms/VSAzureImageSurvey/"
+    },
+    {
       "label": "Monthly Azure credit for Visual Studio subscribers",
-      "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
+      "uri": "https://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
     }
   ],
   "eula": "https://www.visualstudio.com/license-terms/",

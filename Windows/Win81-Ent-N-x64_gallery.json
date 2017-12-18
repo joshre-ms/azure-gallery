@@ -4,7 +4,7 @@
   "displayName": "Windows 8.1 Enterprise N (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Win81-Ent-N-x64-2017-11-16"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Win81-Ent-N-x64-2017-12-14"
     }
   },
   "imageReference": {
@@ -35,11 +35,15 @@
   ],
   "links": [
     {
+      "label": "Provide feedback on this image/virtual machine",
+      "uri": "https://aka.ms/VSAzureImageSurvey/"
+    },
+    {
       "label": "Monthly Azure credit for Visual Studio subscribers",
-      "uri": "http://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
+      "uri": "https://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
     }
   ],
-  "eula": "https://docs.microsoft.com/en-us/visualstudio/subscriptions/vs-license-terms",
+  "eula": "https://docs.microsoft.com/visualstudio/subscriptions/vs-license-terms",
   "privacy": "https://go.microsoft.com/fwlink/?LinkID=529552",
   "screenshot": "Screenshots/Windows8.png",
   "cloudEnvironments": [
