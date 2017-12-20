@@ -4,7 +4,7 @@
   ],
   "mediaReferences": {
     "Mooncake": {
-      "mediaName": "5b190e9fb98a47ff8a7619d87183d115__NSFOCUS-vwaf_azure_byol_v101-vwaf_nsf_azure_byol_001-6.0.5"
+      "mediaName": "5b190e9fb98a47ff8a7619d87183d115__NSFOCUS-vwaf_azure_byol_v101-vwaf_nsf_azure_byol_001-6.0.5102"
     }
   },
   "publisher": "NSFOCUS",
@@ -63,5 +63,6 @@
     }
   ],
   "eula": "http://cloud.nsfocus.com ",
-  "privacy": null
+  "privacy": null,
+  "addHideKey": true
 }

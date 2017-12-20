@@ -1,0 +1,69 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "a26e07bf36334e7e8e0659a152d096a4__DBSES-dbf-standard-std-1.0.0"
+    }
+  },
+  "publisher": "DBSES",
+  "publisherDisplayName": "安华金和",
+  "publisherLegalName": "北京安华金和科技有限公司",
+  "label": "dbf-standard_std",
+  "displayName": "云数据库防火墙_标准版（DBFirewall-EnCloud）",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "DBSES",
+    "offer": "dbf-standard",
+    "sku": "std"
+  },
+  "summary": "实时监控云上的数据库活动，使用全面的访问控制，防止来自内部和外部对数据的攻击",
+  "description": "  <h2>一、产品介绍</h2>\n  <p>安华金和云数据库防火墙（DBFirewall-EnCloud），基于主动防御机制，实现云数据库的访问行为控制、危险操作阻断、可疑行为审计，做到防攻击、防勒索。</p>\n  <p>通过部署此产品，实现以下效果：</p>\n  <ul>\n   <li><p>解决外部黑客利用数据库漏洞进行攻击行为。</p></li>\n   <li><p>防止黑客通过注入方式对敏感数据大规模下载。</p></li>\n   <li><p>数据库危险访问检测，根据风险级别进行告警处理。</p></li>\n  </ul>\n  <h2>二、产品特点</h2>\n  <h3>1.&nbsp; 控制对数据库的危险操作、误操作，保护数据资产免遭意外损失</h3>\n  <p>对数据库中无Where条件的update、delete及含有truncate、drop等的危害操作进行监控。</p>\n  <p>对各种批量操作活动以及在规则中增加返回行数和影响行数因素进行监控。</p>\n  <p>对系统表和高危操作进行监控。</p>\n  <p>对数据查询和下载数量、敏感数据访问的用户、地点和时间等进行监控和及时告警。</p>\n  <p>对于监控项目，增加自定义阻断策略，防止问题发生。</p>\n  <h3>2.&nbsp; 完成SQL注入检测和阻断</h3>\n  <p>云数据库防火墙通过对SQL语句进行注入特征描述，完成对SQL注入行为的检测和阻断。系统提供缺省SQL注入特征库及提供定制化的扩展接口。</p>\n  <h3>3.&nbsp; 实现黑白名单支持</h3>\n  <p>云数据库防火墙通过学习模式以及SQL语法分析构建动态模型，形成SQL白名单和SQL黑名单，对符合SQL白名单语句放行，对符合SQL黑名单特征语句阻断。</p>\n  <h3>4.&nbsp; 控制和审计动作</h3>\n  <p>控制动作是对数据库访问行为阻断所采取的控制行为，包括：“中断会话”和“拦截语句”两种方式。中断会话，是断开发现攻击行为的数据库连接，拦截语句是将危险语句拦截下来，返回防火墙错误。</p>\n  <p>告警审计是对发现的高风险行为记录到告警存储中，提供特殊的查询和检索接口。</p>\n  <h2>三、产品优势</h2>\n  <h3>1.&nbsp; 全面数据库入侵阻断</h3>\n  <p>提供业界最为全面的数据库攻击行为检测和阻断技术：</p>\n  <p>虚拟补丁技术：针对CVE公布的漏洞库，提供漏洞特征检测技术；</p>\n  <p>高危访问控制技术：提供对数据库用户的登录、操作行为，提供根据地点、时间、用户、操作类型、对象等特征定义高危访问行为；</p>\n  <p>SQL注入禁止技术：提供SQL注入特征库；</p>\n  <p>返回行超标禁止技术：提供对敏感表的返回行数控制；</p>\n  <p>SQL黑名单技术：提供对非法SQL的语法抽象描述。</p>\n  <h3>2.&nbsp; 零漏报与零误报</h3>\n  <p>云数据库防火墙提供强大的应用行为描述方法，以对合法应用行为放行，将漏报率和误报率降低为“零”。</p>\n  <h3>3.&nbsp; 弥补WAF的不足之处</h3>\n  <p>WAF侧重点在网站和应用防护，仅通过正则表达式匹配Http协议中是否包含SQL注入特征，对数据库框架漏洞无能为力，目前已披露至少150种绕过方式。</p>\n  <p>云数据库防火墙系统侧重点在数据库安全防护，防护策略、手段都是基于精确SQL协议解析能力而来，为数据库安全而生，能够弥补WAF对数据库安全防护的不足。</p>\n  <h3>4.&nbsp; 部署后对数据库的影响极小</h3>\n  <p>云数据库防火墙系统部署后，原数据库的性能损耗平均在5%左右。</p>\n  <p>使用主从热备部署方式，确保不会出现因串联防火墙带来的单点故障。</p>\n  <h2>四、产品实施</h2>\n  <p>使用串联部署方式，在数据库前端设置安全防护，隐藏真正的数据库地址，支持主从热备方式部署。</p>\n  <h2>规格参数：</h2>\n  <p>建议云主机规格为4核8G，数据云盘500G。</p>\n  <p>1个数据库实例, 1000条SQL/秒级吞吐量支持；不超过500并发连接&nbsp;请联系我们获取使用授权。</p>\n  <p>产品使用前，请阅读技术文档《产品接入方式》。</p>\n  <p><strong>请选择使用已知的支持的虚拟机配置，目前已知支持的系列有：Av2 标准系列、Dv2系列、F系列。</strong></p>\n  <p><br /></p>\n  \n  <!--Legal Terms-->\n<h3 class=\"msportalfx-text-header\">法律声明</h3>\n<p>\n</p>\n\n<p>通过单击 \"创建\" 按钮, 我承认我从安华金和得到了这个软件, 并且了解安华金和的\n  <a target=\"_blank\" href=\"http://www.dbscloud.cn/doc/azure_mkt_dbf.docx\">法律条款</a>&nbsp;适用于它。Microsoft 不为第三方服务商的软件提供权利保护。\n</p>",
+  "iconPath": "Icons/DBSES-dbf-standard-std-1.0.0",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "database",
+    "security",
+    "mgmt"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "22"
+    },
+    {
+      "endpointName": "port-2",
+      "protocol": "TCP",
+      "publicPort": "443"
+    },
+    {
+      "endpointName": "port-3",
+      "protocol": "TCP",
+      "publicPort": "9311"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_A4_V2",
+    "Standard_D3_V2",
+    "Standard_F4"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://www.dbscloud.cn"
+      }
+    }
+  ],
+  "eula": "http://www.dbscloud.cn/doc/azure_mkt_dbf.docx",
+  "privacy": null,
+  "addHideKey": true,
+  "screenshot": "Screenshots/DBSES-dbf-standard-std-1.0.0"
+}
