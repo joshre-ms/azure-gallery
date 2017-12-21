@@ -1,0 +1,62 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "ce8c506d66b24ff898a23aaba7170a38__yungoalbj-gitlab_ce_10_0_3-gitlab-ce-10-0-3-1.0.0"
+    }
+  },
+  "publisher": "yungoalbj",
+  "publisherDisplayName": "云角",
+  "publisherLegalName": "上海云角信息技术有限公司",
+  "label": "gitlab_ce_10_0_3_gitlab-ce-10-0-3",
+  "displayName": "GitLab CE 10.0.3 (CentOS 7.3)",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "yungoalbj",
+    "offer": "gitlab_ce_10_0_3",
+    "sku": "gitlab-ce-10-0-3"
+  },
+  "summary": "GitLabCE是Gitlab开源社区版，版本是10.0.3，镜像基于Centos7.3操作系统。",
+  "description": "<p><strong>产品介绍</strong></p><p>GitLab https://about.gitlab.com/ 是一个利用 Ruby on Rails 开发的开源应用程序，实现一个自托管的 Git 项目仓库，可通过 Web 界面进行访问公开的或者私人项目。它拥有与Github类似的功能，能够浏览源代码，管理缺陷和注释。可以管理团队对仓库的访问，它非常易于浏览提交过的版本并提供一个文件历史库。团队成员可以利用内置的简单聊天程序(Wall)进行交流。</p><p><strong>使用说明</strong></p><p>Gitlab镜像的使用方法：</p><p>&nbsp;&nbsp;&nbsp;&nbsp;1、部署镜像后通过 ssh 登录并执行：</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sudo vi /etc/hostname，更新内容为所部署虚拟机的真实 FQDN（如mygitlab.chinanorth.cloudapp.chinacloudapi.cn）</p><p>&nbsp; &nbsp; &nbsp; &nbsp; sudo vi /etc/gitlab/gitlab.rb，更新 external_url 为外部域名，如 'http:// mygitlab.chinanorth.cloudapp.chinacloudapi.cn'&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;2、修改完成后，执行下面命令重启Gitlab。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sudo gitlab-ctl reconfigure</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sudo gitlab-ctl restart</p><p>&nbsp;&nbsp;&nbsp;&nbsp;3、访问 http://{真实FQDN}/ 以登录和使用 Git 服务器。首次访问时请设定管理员的密码，默认的管理员用户名为 root。</p><p><strong>技术详情</strong></p><ul><li><p>版本：Community Edition 10.0.3 &nbsp; &nbsp;</p></li><li><p>平台：Centos7.3 &nbsp; &nbsp;</p></li><li><p>端口：80, 22 &nbsp; &nbsp;</p></li><li><p>安装位置：/opt/gitlab</p></li><li><p>LOG位置：/var/log/gitlab</p></li><li><p>配置文件：/etc/gitlab/gitlab.rb</p></li><li><p>服务控制：sudo gitlab-ctl (start|stop|restart)</p></li><li><p>推荐CPU：至少2核心以上</p></li><li><p>推荐内存：至少4G以上</p></li></ul><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从上海云角信息技术有限公司得到了这个软件, 并且了解上海云角信息技术有限公司的<a target=\"_blank\" href=\"http://github.com/gitlabhq/gitlabhq/blob/master/LICENSE\">法律条款</a>适用于它。Microsoft 不为第三方服务商的软件提供权利保护。</p>",
+  "iconPath": "Icons/yungoalbj-gitlab_ce_10_0_3-gitlab-ce-10-0-3-1.0.0",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "devService"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "80"
+    },
+    {
+      "endpointName": "port-2",
+      "protocol": "TCP",
+      "publicPort": "22"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_A2_v2",
+    "Standard_A4_v2",
+    "Standard_D3_v2"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://about.gitlab.com/"
+      }
+    }
+  ],
+  "eula": "http://github.com/gitlabhq/gitlabhq/blob/master/LICENSE",
+  "privacy": null,
+  "addHideKey": true,
+  "screenshot": "Screenshots/yungoalbj-gitlab_ce_10_0_3-gitlab-ce-10-0-3-1.0.0"
+}

@@ -64,6 +64,6 @@
   ],
   "eula": "http://www.dbscloud.cn/doc/azure_mkt_dbctrl.docx",
   "privacy": null,
-  "addHideKey": true,
+  "addHideKey": false,
   "screenshot": "Screenshots/DBSES-dbctrl-enterprise-ent-1.0.0"
 }

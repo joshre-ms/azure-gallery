@@ -64,6 +64,6 @@
   ],
   "eula": "http://www.dbscloud.cn/doc/azure_mkt_dbf.docx",
   "privacy": null,
-  "addHideKey": true,
+  "addHideKey": false,
   "screenshot": "Screenshots/DBSES-dbf-enterprise-ent-1.0.0"
 }
