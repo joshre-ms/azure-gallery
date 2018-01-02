@@ -3,9 +3,6 @@
   "label": "Microsoft R Server (version 9.1.0) for Linux (CentOS version 7.2)",
   "displayName": "Microsoft R Server (version 9.1.0) for Linux (CentOS version 7.2)",
   "mediaReferences": {
-    "Mooncake": {
-      "mediaName": "ecd3b9dd41b84c64beac85a74e60372b__MRS-910-VM-CentOS-1-0-2"
-    },
     "Fairfax": {
       "mediaName": "5ed929c742ab466aaf4c7af43a19e384__MRS-910-VM-CentOS-1-0-2"
     },
@@ -70,7 +67,6 @@
   ],
   "createUIDefinitionHandler": "Microsoft.Compute.RSeverVm",
   "cloudEnvironments": [
-    "Mooncake",
     "Fairfax",
     "BlackForest"
   ]
