@@ -11,6 +11,9 @@
     },
     "Fairfax": {
       "mediaName": "5ed929c742ab466aaf4c7af43a19e384__MLS-921-1364-VM-RedHat-1"
+    },
+    "Blackforest": {
+      "mediaName": "09c0463f202a4ba185440d963f6b8f2d__MLS-921-1364-VM-RedHat-1"
     }
   },
   "imageReference": {
@@ -72,6 +75,7 @@
   "cloudEnvironments": [
     "PublicAzure",
     "Mooncake",
-    "Fairfax"
+    "Fairfax",
+    "Blackforest"
   ]
 }
