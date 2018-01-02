@@ -1,0 +1,59 @@
+{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "dbe2db4ea28044099bdc122ce1f12be2__tuling-tuling-online-shopping-site-standard-1.0.0"
+    }
+  },
+  "publisher": "tuling",
+  "publisherDisplayName": "浙大网新图灵",
+  "publisherLegalName": "浙江浙大网新图灵信息科技有限公司",
+  "label": "tuling-online-shopping-site_standard",
+  "displayName": "图灵在线商城",
+  "imageType": "VMImage",
+  "os": "Windows",
+  "imageReference": {
+    "publisher": "tuling",
+    "offer": "tuling-online-shopping-site",
+    "sku": "standard"
+  },
+  "summary": "图灵商城是一套为企业提供的免费的电子商务系统。企业通过本系统可以在互联网展示、宣传或者销售自身产品。",
+  "description": "<p>产品介绍</p><p>图灵商城是一套为企业提供的免费的电子商务系统。企业通过本系统可以在互联网展示、宣传或者销售自身产品。本系统内置了与政府采购云平台（简称政采云）的后台对接功能，通过配置政采云访问授权key，可实现与政府采购云平台的商品及订单的对接。帮助政府采购供应商减轻商品管理工作量，跟踪订单情况。</p><p>&nbsp;</p><p>使用说明</p><p>1、在 Azure 镜像市场选择【图灵在线商城】镜像，点击“部署”。</p><p>2、部署成功之后，可通过公共IP地址进行Web访问；也可点击进入公共IP地址配置自定义域名进行访问。</p><p>3、后台管理地址为前台地址+“/admin”。</p><p>默认帐号：admin，密码123456</p><p>4、后台管理中点击菜单“网站设置”进行网站内容设置。</p><p>5、若想购买系统运维服务或进行功能开发，请联系图灵客服人员。电话：0571-88279695</p><p><br></p><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从浙大网新图灵得到了这个软件, 并且了解浙大网新图灵的<a target=\"_blank\" href=\"http://impchinanorthprod.blob.core.chinacloudapi.cn/eula/15550/76f38739-7897-493e-ae2c-8d60f752d433_eula.docx\">法律条款</a>适用于它。Microsoft 不为第三方服务商的软件提供权利保护。</p>",
+  "iconPath": "Icons/tuling.tuling-online-shopping-site_standard",
+  "categories": [
+    "windows",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "webRecommended",
+    "ecommerce",
+    "web"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "80"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_A2_v2",
+    "Standard_DS2_V2",
+    "Standard_DS3_V2"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://www.tuling.com.cn"
+      }
+    }
+  ],
+  "eula": "http://impchinanorthprod.blob.core.chinacloudapi.cn/eula/15550/76f38739-7897-493e-ae2c-8d60f752d433_eula.docx",
+  "privacy": null,
+  "addHideKey": true,
+  "screenshot": "Screenshots/tuling.tuling-online-shopping-site_standard"
+}
