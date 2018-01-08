@@ -2,7 +2,7 @@
     "publisher": "SUSE",
     "label": "SUSE Linux Enterprise Server for SAP Applications 12 SP2 (Bring Your Own Subscription)",
     "displayName": "SLES for SAP 12 SP2 (BYOS)",
-    "publisherDisplayName": "SUSE",	 
+    "publisherDisplayName": "SUSE",
     "cloudEnvironments": [
         "PublicAzure",
         "Blackforest",
@@ -11,13 +11,13 @@
     ],
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-sap-12-sp2-byos-v20170515"
+            "mediaName": "b4590d9e3ed742e4a1d46e5424aa335e__suse-sles-sap-12-sp2-byos-v20180104"
         },
         "Blackforest": {
-            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-sles-sap-12-sp2-byos-v20170515"
+            "mediaName": "70590eaf9f5e4a7793fcf336be781bb2__suse-sles-sap-12-sp2-byos-v20180104"
         },
         "Mooncake": {
-            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-sap-12-sp2-byos-v20170515"
+            "mediaName": "250d269906be4694a10aee49a3385f2d__suse-sles-sap-12-sp2-byos-v20180104"
         },
         "Fairfax": {
             "mediaName": "e662d5b5455d4b99afca2432016edc39__suse-sles-sap-12-sp2-byos-v20170515"
@@ -95,6 +95,6 @@
          "Blackforest": {
              "productId":""
          }
-      },	  
+      },
     "screenshot": "Screenshots/suse.png"
 }
