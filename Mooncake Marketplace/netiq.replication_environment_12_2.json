@@ -1,0 +1,74 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "cbf3934a87c7446da73189a7b2f8041a__netiq-replication_environment-12_2-12.2.1"
+    }
+  },
+  "publisher": "netiq",
+  "publisherDisplayName": "Novell",
+  "publisherLegalName": "北京络威尔软件有限公司",
+  "label": "replication_environment_12_2",
+  "displayName": "Platespin-Replication-Env-12.2",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "netiq",
+    "offer": "replication_environment",
+    "sku": "12_2"
+  },
+  "summary": "PlateSpin Migrate 迁移目标工作负载镜像",
+  "description": "<p>产品介绍<br>PlateSpin Migrate是一款功能强大的服务器工作负载迁移工具，可以将部署在企业内部的物理机、虚拟机通过网络快速地迁移到Azure云端。支持迁移的操作系统包括Microsoft Windows Server 2012 R2、Microsoft Windows Server 2012、Microsoft Windows Server 2008 R2、Red Hat Enterprise Linux (RHEL) 6.7/6.8/7.1/7.2、SUSE Linux Enterprise Server (SLES) 11 SP3/SP4、CentOS 6.7/6.8/7.1/7.2。</p><p>&nbsp;</p><p>PlateSpin Replication Environment (PRE) 是一个辅助镜像。请不要在Marketplace中直接根据该镜像创建实例。在进行工作负载迁移时, PlateSpin Migrate软件会调用Azure Cloud API基于RPE镜像创建一个实例作为目标服务器工作负载。PlateSpin Migrate调度实现源服务器工作负载（被迁移的服务器）与目标服务器工作负载建立通信连接，发送迁移数据，当迁移结束后基于PRE镜像创建的实例会被自动删除。</p><p>&nbsp;</p><p>使用说明</p><p>迁移服务器工作负载的步骤：</p><p>1. 在Azure中创建一个Windows server 2012 R2实例</p><p>2. 在新创建好的实例上安装PlateSpin Migrate软件，并添加license</p><p>3. 在PlateSpin Migrate控制台添加要迁移的Azure的区域，如中国北区或中国东区。并输入订阅号ID，应用ID，用户名，密码等参数</p><p>4. 选择要迁移的服务器工作负载需要可以访问PlateSpin Migrate服务器的公网IP地址，在要迁移的源服务器工作负载上安装Migrate Agent，将源服务器工作负载添加到PlateSpin Migrate软件</p><p>5. 选择要迁移的源服务器工作负载，将其迁移到Azure</p><p>6. 迁移结束后，基于PRE镜像创建的实例会被自动删除，会创建一个新的实例，该实例的与源服务器工作负载相同</p><p>&nbsp;</p><p>如何获取PlateSpin Migrate软件和相应license，请通过邮件联系方式咨询。</p><p><br></p>\n<!--Legal Terms-->\n<h3 class=\"msportalfx-text-header\">法律声明</h3>\n<p>\n</p>\n\n<p>通过单击 \"创建\" 按钮, 我承认我从北京络威尔软件有限公司得到了这个软件, 并且了解北京络威尔软件有限公司的<a target=\"_blank\" href=\"http://www.novell.com/licensing/eula/netiq/platespin/platespin_migrate_12-en.pdf\">法律条款</a>适用于它。Microsoft 不为第三方服务商的软件提供权利保护。\n</p>",
+  "iconPath": "Icons/netiq.replication_environment_12_2",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "mgmt"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "22"
+    },
+    {
+      "endpointName": "port-2",
+      "protocol": "TCP",
+      "publicPort": "3725"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_A2_v2",
+    "Standard_D1_v2",
+    "Standard_D2_v2"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://www.microfocus.com/products/platespin/migrate/"
+      }
+    },
+    {
+      "label": "用户手册",
+      "uri": {
+        "Default": "https://www.netiq.com/zh-cn/documentation/platespin-migrate-12-2/migrate-user/data/bookinfo.html"
+      }
+    },
+    {
+      "label": "安装手册",
+      "uri": {
+        "Default": "https://www.netiq.com/zh-cn/documentation/platespin-migrate-12-2/migrate-install/data/bookinfo.html"
+      }
+    }
+  ],
+  "eula": "http://www.novell.com/licensing/eula/netiq/platespin/platespin_migrate_12-en.pdf",
+  "privacy": null,
+  "addHideKey": true,
+  "screenshot": "Screenshots/netiq.replication_environment_12_2"
+}

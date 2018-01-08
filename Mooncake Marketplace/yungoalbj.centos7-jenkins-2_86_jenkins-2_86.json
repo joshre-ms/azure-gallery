@@ -1,0 +1,62 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "ce8c506d66b24ff898a23aaba7170a38__yungoalbj-centos7-jenkins-2_86-jenkins-2_86-1.0.0"
+    }
+  },
+  "publisher": "yungoalbj",
+  "publisherDisplayName": "云角",
+  "publisherLegalName": "上海云角信息技术有限公司",
+  "label": "centos7-jenkins-2_86_jenkins-2_86",
+  "displayName": "Jenkins 2.86 (CentOS 7.3)",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "yungoalbj",
+    "offer": "centos7-jenkins-2_86",
+    "sku": "jenkins-2_86"
+  },
+  "summary": "本产品是基于Centos7.3操作系统之上，搭载的Jenkins 2.86+Nginx1.13.6版本。",
+  "description": "<p><strong>产品介绍</strong></p><p>Jenkins是一个开源软件项目，是基于Java开发的一种持续集成工具，用于监控持续重复的工作，旨在提供一个开放易用的软件平台，使软件的持续集成变成可能。Jenkins功能主要包括：1、持续的软件版本发布/测试项目。2、监控外部调用执行的工作。</p><p><strong>使用说明</strong></p><p>Jenkins镜像的使用方法：</p><ol><li><p>部署镜像。</p></li><li><p>访问 http://{真实FQDN或IP地址}/ 即可打开登陆界面，初始用户名和密码都是admin，登陆之后，请及时修改您的管理员密码。</p></li><li><p>如果需要启用HTTPS访问，请参考Jenkins官网修改Nginx配置并重启。</p></li></ol><p><strong>技术详情</strong></p><ul><li><p>版本：Jenkins-2.86 &nbsp; &nbsp;</p></li><li><p>平台：Centos7.3 &nbsp; &nbsp;</p></li><li><p>端口：80, 22 &nbsp; &nbsp;</p></li><li><p>Jenkins_Home：/var/lib/jenkins</p></li><li><p>配置文件：/etc/sysconfig/jenkins</p></li><li><p>日志文件：/var/log/jenkins/jenkins.log</p></li><li><p>服务控制：sudo service jenkins (start,stop,restart,status)</p></li><li><p>推荐CPU：至少1核心以上</p></li><li><p>推荐内存：至少2G以上</p></li></ul><p><br></p><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从云角得到了这个软件, 并且了解云角的<a target=\"_blank\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\">法律条款</a>适用于它。Microsoft 不为第三方服务商的软件提供权利保护。</p>",
+  "iconPath": "Icons/yungoalbj.centos7-jenkins-2_86_jenkins-2_86",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "devService"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "80"
+    },
+    {
+      "endpointName": "port-2",
+      "protocol": "TCP",
+      "publicPort": "22"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_A2_v2",
+    "Standard_D1_v2",
+    "Standard_D2_v2"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://jenkins.io/"
+      }
+    }
+  ],
+  "eula": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "privacy": null,
+  "addHideKey": true,
+  "screenshot": "Screenshots/yungoalbj.centos7-jenkins-2_86_jenkins-2_86"
+}

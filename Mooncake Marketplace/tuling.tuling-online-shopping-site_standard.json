@@ -1,4 +1,4 @@
-{
+﻿{
   "cloudEnvironments": [
     "Mooncake"
   ],
@@ -49,6 +49,12 @@
       "label": "来源网站",
       "uri": {
         "Default": "http://www.tuling.com.cn"
+      }
+    },
+    {
+      "label": "用户手册",
+      "uri": {
+        "Default": "http://www.tulingbuy.com/Instructions/index.jsp"
       }
     }
   ],

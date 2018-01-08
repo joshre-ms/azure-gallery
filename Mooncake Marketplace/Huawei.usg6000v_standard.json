@@ -55,10 +55,15 @@
       "uri": {
         "Default": "http://e.huawei.com/cn/solutions/business-needs/security"
       }
+    },
+    {
+      "label": "USG6000V产品手册",
+      "uri": {
+        "Default": "http://support.huawei.com/hedex/hdx.do?docid=EDOC1000177281&lang=zh"
+      }
     }
   ],
   "eula": "http://impchinanorthprod.blob.core.chinacloudapi.cn/eula/15568/36c112b1-435e-4180-a274-19e281a6091e_eula.txt",
   "privacy": null,
-  "addHideKey": true,
   "screenshot": "Screenshots/Huawei.usg6000v_standard"
 }

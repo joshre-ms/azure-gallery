@@ -53,6 +53,18 @@
       "uri": {
         "Default": "http://www.microfocus.com/products/platespin/migrate/"
       }
+    },
+    {
+      "label": "用户手册",
+      "uri": {
+        "Default": "https://www.netiq.com/zh-cn/documentation/platespin-migrate-12-2/migrate-user/data/bookinfo.html"
+      }
+    },
+    {
+      "label": "安装手册",
+      "uri": {
+        "Default": "https://www.netiq.com/zh-cn/documentation/platespin-migrate-12-2/migrate-install/data/bookinfo.html"
+      }
     }
   ],
   "eula": "http://www.novell.com/licensing/eula/netiq/platespin/platespin_migrate_12-en.pdf",
