@@ -69,6 +69,6 @@
   ],
   "eula": "http://www.novell.com/licensing/eula/netiq/platespin/platespin_migrate_12-en.pdf",
   "privacy": null,
-  "addHideKey": true,
+  "addHideKey": false,
   "screenshot": "Screenshots/netiq.replication_environment_12_2"
 }

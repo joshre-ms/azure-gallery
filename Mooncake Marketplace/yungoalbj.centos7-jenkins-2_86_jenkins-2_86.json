@@ -57,6 +57,6 @@
   ],
   "eula": "http://creativecommons.org/licenses/by-sa/4.0/",
   "privacy": null,
-  "addHideKey": true,
+  "addHideKey": false,
   "screenshot": "Screenshots/yungoalbj.centos7-jenkins-2_86_jenkins-2_86"
 }

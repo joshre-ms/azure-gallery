@@ -64,5 +64,5 @@
   ],
   "eula": "http://cloud.nsfocus.com ",
   "privacy": null,
-  "addHideKey": true
+  "addHideKey": false
 }

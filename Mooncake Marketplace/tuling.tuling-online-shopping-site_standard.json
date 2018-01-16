@@ -60,6 +60,6 @@
   ],
   "eula": "http://impchinanorthprod.blob.core.chinacloudapi.cn/eula/15550/76f38739-7897-493e-ae2c-8d60f752d433_eula.docx",
   "privacy": null,
-  "addHideKey": true,
+  "addHideKey": false,
   "screenshot": "Screenshots/tuling.tuling-online-shopping-site_standard"
 }

@@ -59,6 +59,6 @@
   ],
   "eula": "http://www.baiwang.com/admin/cloudinterface/agreement.html",
   "privacy": null,
-  "addHideKey": true,
+  "addHideKey": false,
   "screenshot": "Screenshots/bw-jx.bw_jx_2017_standard"
 }
