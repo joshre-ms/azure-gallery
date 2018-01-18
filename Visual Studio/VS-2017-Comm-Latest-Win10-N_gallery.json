@@ -4,7 +4,7 @@
   "displayName": "Visual Studio Community 2017 (latest release) on Windows 10 Enterprise N (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-Comm-Latest-Win10-N-2017-12-19"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-Comm-Latest-Win10-N-2018-01-11"
     }
   },
   "imageReference": {
@@ -13,7 +13,7 @@
     "sku": "VS-2017-Comm-Latest-Win10-N"
   },
   "OS": "Windows",
-  "description": "<p>Visual Studio Community (latest release - version 15.5) is our free, full featured and extensible IDE for non-enterprise application development.  This image contains the recommended product install of the latest Visual Studio Community 2017 on the very latest Windows 10 Enterprise N (Fall Creators Update (RS3)), including the latest Universal Windows app development tools and the latest Windows 10 SDK. It allows you to quickly setup environment in Azure to develop and test applications targeting the Universal Windows Platform.</p><p>This image was created from the latest bits available on 12/19/2017.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.</p>",
+  "description": "<p>Visual Studio Community (latest release - version 15.5) is our free, full featured and extensible IDE for non-enterprise application development.  This image contains the recommended product install of the latest Visual Studio Community 2017 on the very latest Windows 10 Enterprise N (Fall Creators Update (RS3)), including the latest Universal Windows app development tools and the latest Windows 10 SDK. It allows you to quickly setup environment in Azure to develop and test applications targeting the Universal Windows Platform.</p><p>This image was created from the latest bits available on 1/11/2018.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.</p>",
   "iconPath": "Icons/VS2017",
   "categories": [
     "virtualMachine",
@@ -40,7 +40,11 @@
     },
     {
       "label": "Monthly Azure credit for Visual Studio subscribers",
-      "uri": "https://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
+      "uri": "https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/"
+    },
+    {
+      "label": "Windows Insider's Program",
+      "uri": "https://insider.windows.com/"
     }
   ],
   "eula": "https://docs.microsoft.com/visualstudio/subscriptions/vs-license-terms",
