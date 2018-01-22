@@ -12,15 +12,15 @@
   "summary": "Exploration, analysis, modelling, and development tools for data science and artificial intelligence.",
   "description": "<p>The <strong>'Data Science Virtual Machine (DSVM)'</strong> is a 'Windows Server 2016 with Containers' VM &amp; includes popular tools for data exploration, analysis, modeling &amp; development.</p>
   <p>Highlights:</p>
-  <li>Microsoft R Server - Dev. Ed. (Scalable R)</li>
+  <li>Microsoft ML Server - Dev. Ed. (Scalable R)</li>
   <li>Anaconda Python</li>
-  <li>SQL Server 2016 Dev. Ed. -&nbsp;With In-Database R analytics</li>
+  <li>SQL Server 2017 Dev. Ed. -&nbsp;With In-Database R analytics</li>
   <li>Microsoft Office 365 ProPlus BYOL&nbsp;- Shared Computer Activation</li>
   <li>Julia Pro + Juno Editor</li>
   <li>Jupyter notebooks</li>
   <li>Visual Studio Community Ed.&nbsp;+ Python, R &amp; node.js tools</li>
   <li>Power BI Desktop</li>
-  <li>Deep learning tools e.g. Microsoft Cognitive Toolkit (CNTK 2.0), TensorFlow &amp; mxnet</li>
+  <li>Deep learning tools e.g. Microsoft Cognitive Toolkit (CNTK 2.x), TensorFlow &amp; mxnet</li>
   <li>ML algorithm libraries e.g. xgboost, Vowpal Wabbit</li>
   <li>Azure SDKs + libraries for&nbsp;various Azure Cloud offerings. Integration tools are included for:&nbsp;
   <ol>
@@ -88,7 +88,8 @@
   "supportedExtensions": [
   ],
    "cloudEnvironments": [
-    "Mooncake"
+    "Mooncake",
+    "Blackforest"
   ],
   "addHideKey": false
 }
