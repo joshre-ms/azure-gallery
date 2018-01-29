@@ -4,7 +4,7 @@
   "displayName": "Windows 10 Enterprise N (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Windows-10-N-x64-2017-12-14"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Windows-10-N-x64-2018-01-18"
     }
   },
   "imageReference": {
@@ -40,7 +40,11 @@
     },
     {
       "label": "Monthly Azure credit for Visual Studio subscribers",
-      "uri": "https://azure.microsoft.com/en-us/pricing/member-offers/msdn-benefits-details/"
+      "uri": "https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/"
+    },
+    {
+      "label": "Windows Insider's Program",
+      "uri": "https://insider.windows.com/"
     }
   ],
   "eula": "https://docs.microsoft.com/visualstudio/subscriptions/vs-license-terms",
