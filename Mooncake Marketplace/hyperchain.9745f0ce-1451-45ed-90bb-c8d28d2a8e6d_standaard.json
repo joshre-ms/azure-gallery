@@ -89,6 +89,6 @@
   ],
   "eula": "http://www.hyperchain.cn/resources/Hyperchain-azure-market.pdf",
   "privacy": null,
-  "addHideKey": true,
+  "addHideKey": false,
   "screenshot": "Screenshots/hyperchain.9745f0ce-1451-45ed-90bb-c8d28d2a8e6d_standaard"
 }
