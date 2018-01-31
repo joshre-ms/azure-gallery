@@ -14,11 +14,11 @@
   
   <p>The Data Science Virtual Machine for Linux also contains popular tools for data science and development activities, including:
   <ul>
-  <li>Microsoft R Server 9.1 with Microsoft R Open 3.3.3</li>
+  <li>Microsoft ML Server Dev Edition - Scalable R, Python </li>
   <li>Anaconda Python 2.7 and 3.5</li>
   <li>JupyterHub with sample notebooks</li>
   <li><a href=\"https://drill.apache.org/\">Apache Drill</a> for querying non-relational data using SQL</li>
-  <li>Spark local 2.1.1 with PySpark and SparkR Jupyter kernels</li>
+  <li>Apache Spark 2.x Standalone with PySpark and SparkR Jupyter kernels</li>
   <li>Single node local Hadoop (HDFS, Yarn)</li>
   <li>Azure command-line interface</li>
   <li>Visual Studio Code, IntelliJ IDEA, PyCharm, and Atom</li>
@@ -28,7 +28,7 @@
   </ul>
   
   <p>You can view a full list of installed tools for the Linux edition <a href=\"https://docs.microsoft.com/en-us/azure/machine-learning/machine-learning-data-science-virtual-machine-overview\">here</a>.</p>
-  <p>Pre-configured and tested&nbsp;with Nvidia drivers, CUDA Toolkit 8.0, &amp; NVIDIA cuDNN library for GPU workloads available if using&nbsp;<a href=\"https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes-gpu\">NC class VM SKUs</a>.</p>
+  <p>Pre-configured and tested&nbsp;with Nvidia drivers, CUDA Toolkit, &amp; NVIDIA cuDNN library for GPU workloads available if using&nbsp;<a href=\"https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes-gpu\">NC class VM SKUs</a>.</p>
   <p>Queries &amp; feedback: <a href=\"http://aka.ms/dsvm/forum\">DSVM community support forum</a></p>",
   "iconPath": "icons/ubuntu",
   "categories": [
@@ -80,7 +80,8 @@
   "supportedExtensions": [
   ],
    "cloudEnvironments": [
-    "Mooncake"
+    "Mooncake",
+    "Blackforest"
   ],
   "addHideKey": false
 }
