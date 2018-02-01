@@ -5,6 +5,9 @@
 	"mediaReferences": {
 		"PublicAzure": {
 			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-EnterpriseUbuntuServer16.04-LTS2"
+		},
+		"Mooncake": {
+			"mediaName": "74bb2f0b8dcc47fbb2914b60ed940c35__SQL-Server-Enterprise-SQL2017-Ubuntu160416.04-LTS2"
 		}
 	},
 	"imageReference": {
@@ -46,6 +49,7 @@
 		"SqlIaaSAgent"
 	],
 	"cloudEnvironments": [
-		"PublicAzure"
+		"PublicAzure",
+		"Mooncake"
 	]
 }
