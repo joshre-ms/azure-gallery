@@ -4,7 +4,7 @@
 	"displayName": "Free SQL Server License: SQL Server 2017 Express on Red Hat Enterprise Linux 7.4 (RHEL)",
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-ExpressRHEL7-RAW3"
+			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-Express-SQL2017-RHEL77-RAW0"
 		}
 	},
 	"imageReference": {

@@ -4,7 +4,7 @@
 	"displayName": "SQL Server 2017 Standard on SUSE Linux Enterprise Server (SLES) 12 SP2",
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-StandardSLES-Priority12-SP25"
+			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-Standard-SQL2017-SLES12SP212-SP20"
 		}
 	},
 	"imageReference": {

@@ -4,16 +4,16 @@
     "displayName": "SQL Server 2014 SP2 Express on Windows Server 2012 R2",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL14_SP2_QFE-CU12.0.5546.0SQLEXPRWindowsServer2012-R20"
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL14_SP2_QFE-CU12.0.5571.0SQLEXPRWindowsServer2012-R20"
         },
         "BlackForest": {
-            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL14_SP2_QFE-CU12.0.5546.0SQLEXPRWindowsServer2012-R20"
+            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL14_SP2_QFE-CU12.0.5571.0SQLEXPRWindowsServer2012-R20"
  		},
         "Mooncake": {
-            "mediaName": "74bb2f0b8dcc47fbb2914b60ed940c35__SQL14_SP2_QFE-CU12.0.5546.0SQLEXPRWindowsServer2012-R20"
+            "mediaName": "74bb2f0b8dcc47fbb2914b60ed940c35__SQL14_SP2_QFE-CU12.0.5571.0SQLEXPRWindowsServer2012-R20"
         },
 		"FairFax": {
-			"mediaName": "0bd04240ad4b45118afda6ddb0581fff__SQL14_SP2_QFE-CU12.0.5546.0SQLEXPRWindowsServer2012-R20"
+			"mediaName": "0bd04240ad4b45118afda6ddb0581fff__SQL14_SP2_QFE-CU12.0.5571.0SQLEXPRWindowsServer2012-R20"
 		}
     },
     "imageReference": {

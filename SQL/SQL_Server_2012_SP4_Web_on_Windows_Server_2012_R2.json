@@ -4,7 +4,16 @@
     "displayName": "SQL Server 2012 SP4 Web on Windows Server 2012 R2",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL11_PCU_Main11.0.7001.0SQLWEBWindowsServer2012-R20"
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL11_SP4_QFE-OD11.0.7462.6SQLWEBWindowsServer2012-R20"
+        },
+		"Mooncake": {
+			"mediaName": "74bb2f0b8dcc47fbb2914b60ed940c35__SQL11_SP4_QFE-OD11.0.7462.6SQLWEBWindowsServer2012-R20"
+		},
+        "BlackForest": {
+            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL11_SP4_QFE-OD11.0.7462.6SQLWEBWindowsServer2012-R20"
+        },
+        "FairFax": {
+            "mediaName": "0bd04240ad4b45118afda6ddb0581fff__SQL11_SP4_QFE-OD11.0.7462.6SQLWEBWindowsServer2012-R20"
         }
     },
     "imageReference": {
@@ -52,6 +61,9 @@
     ],
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
     "cloudEnvironments":  [
-        "PublicAzure"
+        "PublicAzure",
+        "Mooncake",
+        "BlackForest",
+        "FairFax"
     ]
 }

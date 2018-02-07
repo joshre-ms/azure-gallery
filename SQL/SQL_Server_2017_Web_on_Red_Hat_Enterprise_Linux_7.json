@@ -4,7 +4,7 @@
 	"displayName": "SQL Server 2017 Web on Red Hat Enterprise Linux 7.4 (RHEL)",
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-WebRHEL7-RAW2"
+			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-Web-SQL2017-RHEL77-RAW0"
 		}
 	},
 	"imageReference": {

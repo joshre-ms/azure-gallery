@@ -4,13 +4,16 @@
     "displayName": "{BYOL} SQL Server 2016 SP1 Enterprise on Windows Server 2016",
     "mediaReferences": {
         "PublicAzure": {
-            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16_SP1_QFE-CU13.0.4435.0SQLENTCOREWindowsServer20162-BYOL"
+            "mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL16_SP1_QFE-CU13.0.4466.4SQLENTCOREWindowsServer20162-BYOL"
         },
+		"Mooncake": {
+			"mediaName": "74bb2f0b8dcc47fbb2914b60ed940c35__SQL16_SP1_QFE-CU13.0.4466.4SQLENTCOREWindowsServer20162-BYOL"
+		},
         "BlackForest": {
-            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL16_SP1_QFE-CU13.0.4435.0SQLENTCOREWindowsServer20162-BYOL"
+            "mediaName": "d9879655e4e94679a521a62aad7b3e2f__SQL16_SP1_QFE-CU13.0.4466.4SQLENTCOREWindowsServer20162-BYOL"
         },
 		"FairFax":{
-			"mediaName": "0bd04240ad4b45118afda6ddb0581fff__SQL16_SP1_QFE-CU13.0.4435.0SQLENTCOREWindowsServer20162-BYOL"
+			"mediaName": "0bd04240ad4b45118afda6ddb0581fff__SQL16_SP1_QFE-CU13.0.4466.4SQLENTCOREWindowsServer20162-BYOL"
 		}
     },
     "imageReference": {
@@ -65,6 +68,7 @@
     "createUIDefinitionHandler": "Microsoft.Compute.SqlVm",
     "cloudEnvironments": [
         "PublicAzure",
+        "Mooncake",
         "BlackForest",
         "FairFax"
     ]

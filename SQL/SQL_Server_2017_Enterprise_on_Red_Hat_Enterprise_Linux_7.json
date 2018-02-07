@@ -4,7 +4,7 @@
 	"displayName": "SQL Server 2017 Enterprise on Red Hat Enterprise Linux 7.4 (RHEL)",
 	"mediaReferences": {
 		"PublicAzure": {
-			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-EnterpriseRHEL7-RAW4"
+			"mediaName": "fb83b3509582419d99629ce476bcb5c8__SQL-Server-Enterprise-SQL2017-RHEL77-RAW1"
 		}
 	},
 	"imageReference": {
