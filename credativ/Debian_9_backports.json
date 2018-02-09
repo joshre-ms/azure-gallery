@@ -27,6 +27,7 @@
     "summary": "Debian GNU/Linux is one of the most popular Linux distributions.",
     "description": "Debian 9 \"Stretch\" with backports kernel for Microsoft Azure provided by credativ. Debian GNU/Linux is one of the most popular Linux distributions.",
     "iconPath": "Icons",
+    "supportsSriov": true,
     "categories": [
         "virtualMachine",
         "microsoftServer",
