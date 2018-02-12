@@ -1,10 +1,10 @@
 ﻿{
   "publisher": "Microsoft",
-  "label": "Visual Studio Enterprise 2017 (latest update preview) on Windows Server 2016 (x64)",
-  "displayName": "Visual Studio Enterprise 2017 (latest update preview) on Windows Server 2016 (x64)",
+  "label": "Visual Studio Enterprise 2017 (latest preview) on Windows Server 2016 (x64)",
+  "displayName": "Visual Studio Enterprise 2017 (latest preview) on Windows Server 2016 (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-Ent-Latest-Preview-WS2016-2018-01-25"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-Ent-Latest-Preview-WS2016-2018-02-09"
     }
   },
   "imageReference": {
@@ -13,7 +13,7 @@
     "sku": "VS-2017-Ent-Latest-Preview-WS2016"
   },
   "OS": "Windows",
-  "description": "<p>With the latest <b>preview</b> release of Visual Studio Enterprise (version 15.6 Preview 3) you're getting the cutting edge of our tools to create applications across devices and services, using an integrated, end-to-end DevOps solution for productivity and coordination across teams of any size. You get the tools you need to design, build, deploy and manage desktop, Windows Store, Windows Phone, and Office apps, as well as mobile and web apps across any device, web site, cloud service, and more.  This image contains the recommended product install of the latest preview of Visual Studio Enterprise 2017 (version 15.6 Preview 3) on Windows Server 2016.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.</p><p>This image was created from the latest bits available on 1/25/2018.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.  “Preview” is not licensed to build shipping apps.  Like any other pre-releases of Visual Studio, it is not supported in production environments. You should select a released version for use in Production environments.</p>",
+  "description": "<p>With the latest <b>preview</b> release of Visual Studio Enterprise (version 15.6 Preview 4) you're getting the cutting edge of our tools to create applications across devices and services, using an integrated, end-to-end DevOps solution for productivity and coordination across teams of any size. You get the tools you need to design, build, deploy and manage desktop, Windows Store, Windows Phone, and Office apps, as well as mobile and web apps across any device, web site, cloud service, and more.  This image contains the recommended product install of the latest preview of Visual Studio Enterprise 2017 (version 15.6 Preview 4) on Windows Server 2016.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.</p><p>This image was created from the latest bits available on 2/9/2018.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.  “Preview” is not licensed to build shipping apps.  Like any other pre-releases of Visual Studio, it is not supported in production environments. You should select a released version for use in Production environments.</p>",
   "iconPath": "Icons/VS2017",
   "categories": [
     "virtualMachine",
@@ -34,8 +34,8 @@
   ],
   "links": [
     {
-      "label": "Visual Studio Product Feedback",
-      "uri": "https://developercommunity.visualstudio.com"
+      "label": "Visual Studio VMs in Azure",
+      "uri": "https://docs.microsoft.com/azure/virtual-machines/windows/using-visual-studio-vm"
     },
     {
       "label": "Provide survey feedback on this image/virtual machine",
@@ -44,6 +44,10 @@
     {
       "label": "Monthly Azure credit for Visual Studio subscribers",
       "uri": "https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/"
+    },
+    {
+      "label": "Visual Studio Product Feedback",
+      "uri": "https://developercommunity.visualstudio.com"
     },
     {
       "label": "Preview Release Notes",
@@ -56,7 +60,7 @@
   ],
   "eula": "https://go.microsoft.com/fwlink/?LinkID=733796",
   "privacy": "https://go.microsoft.com/fwlink/?LinkID=824704",
-  "screenshot": "Screenshots/VisualStudioOnWindowsServer.png",
+  "screenshot": "Screenshots/VS-2017-Preview.png",
   "cloudEnvironments": [
     "PublicAzure"
   ]
