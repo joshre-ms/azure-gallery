@@ -1,26 +1,23 @@
 {
   "publisher": "CoreOS",
-  "label": "CoreOS Stable",
-  "displayName": "CoreOS Linux (Stable)",
+  "label": "CoreOS Beta",
+  "displayName": "CoreOS Linux (Beta)",
   "publisherDisplayName": "CoreOS",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Stable-1632.2.1"
+      "mediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Beta-1662.2.0"
     },
     "Blackforest": {
-      "mediaName": "ac384aecd6d24eaca1268cedd335f2a9__CoreOS-Stable-1632.2.1"
+      "mediaName": "ac384aecd6d24eaca1268cedd335f2a9__CoreOS-Beta-1662.2.0"
     },
     "Mooncake": {
-      "mediaName": "a54f4e2924a249fd94ad761b77c3e83d__CoreOS-Stable-1632.2.1"
-    },
-    "Fairfax": {
-      "mediaName": "108c54add45b401ca6691b74ed26a643__CoreOS-Stable-1409.6.0"
+      "mediaName": "a54f4e2924a249fd94ad761b77c3e83d__CoreOS-Beta-1662.2.0"
     }
   },
   "imageReference": {
     "publisher": "CoreOS",
     "offer": "CoreOS",
-    "sku": "Stable"
+    "sku": "Beta"
   },
   "os": "Linux",
   "description": "CoreOS is a modern and minimal Linux distribution, providing an easy way to run containers, manage clusters and seamlessly update your servers - all components that enable warehouse-scale compute.",
@@ -55,12 +52,9 @@
       "uri": "https://coreos.com/os/docs/latest/booting-on-azure.html"
     }
   ],
-  "hardened": true,
-  "freeTierEligible": "true",
-  "defaultImageSizeGB": 31,
   "leadGeneration": {
     "PublicAzure": {
-      "productId": "firstParty_CoreOS_1409.5.0_stable.json"
+      "productId": "firstParty_CoreOS_1437.3.0_beta.json"
     },
     "Fairfax": {
       "productId": ""
@@ -69,10 +63,12 @@
       "productId": ""
     }
   },
+  "hardened": true,
+  "freeTierEligible": "true",
+  "defaultImageSizeGB": 31,
   "cloudEnvironments": [
     "PublicAzure",
     "Blackforest",
-    "Mooncake",
-    "Fairfax"
+    "Mooncake"
   ]
 }
