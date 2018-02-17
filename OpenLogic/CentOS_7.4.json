@@ -6,7 +6,8 @@
 	"cloudEnvironments": [
 		"PublicAzure",
 		"BlackForest",
-		"Mooncake"
+		"Mooncake",
+		"Fairfax"
 	],
 	"mediaReferences": {
 		"PublicAzure": {
@@ -17,6 +18,9 @@
 		},
 		"Mooncake": {
 			"mediaName": "f1179221e23b4dbb89e39d70e5bc9e72__OpenLogic-CentOS-74-20180118"
+		},
+		"Fairfax": {
+			"mediaName": "809266fa9f4d45d8bba0a02358a8c76d__OpenLogic-CentOS-74-20180104"
 		}
 	},
 	"imageReference": {
