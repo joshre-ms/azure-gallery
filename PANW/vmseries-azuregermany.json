@@ -1,7 +1,7 @@
 {
 	"publisher": "Palo Alto Networks, Inc.",
 	"publisherDisplayName": "paloaltonetworks",
-	"label": "vmseries1",
+	"label": "vmseries",
 	"displayName": "VM-Series Next Generation Firewall",
 	"imageReference": {
 		"publisher": "paloaltonetworks",
