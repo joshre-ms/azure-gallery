@@ -40,17 +40,29 @@
   ],
   "links": [
     {
-      "label": "Provide feedback on this image/virtual machine",
+      "label": "Visual Studio VMs in Azure",
+      "uri": "https://docs.microsoft.com/azure/virtual-machines/windows/using-visual-studio-vm"
+    },
+    {
+      "label": "Provide survey feedback on this image/virtual machine",
       "uri": "https://aka.ms/VSAzureImageSurvey/"
     },
     {
       "label": "Monthly Azure credit for Visual Studio subscribers",
       "uri": "https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/"
+    },
+    {
+      "label": "Visual Studio Product Feedback",
+      "uri": "https://developercommunity.visualstudio.com"
+    },
+    {
+      "label": "Visual Studio 2017 Release Notes History",
+      "uri": "https://www.visualstudio.com/news/releasenotes/vs2017-relnotes-history"
     }
   ],
   "eula": "https://www.visualstudio.com/license-terms/",
   "privacy": "https://go.microsoft.com/fwlink/?LinkID=824704",
-  "screenshot": "Screenshots/VisualStudioOnWindowsServer.png",
+  "screenshot": "Screenshots/VS-2017.png",
   "cloudEnvironments": [
     "PublicAzure",
     "Fairfax",

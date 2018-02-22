@@ -13,7 +13,7 @@
     "sku": "Win7-SP1-Ent-N-x64"
   },
   "OS": "Windows",
-  "description": "<p>This image contains Windows 7 Enterprise N (x64) with SP1 and is exclusively available to Visual Studio subscribers. It allows you to easily and quickly set up an environment in Azure to develop and test applications targeting Windows 7.</p>",
+  "description": "<p>This image contains Windows 7 Enterprise N (x64) with SP1 and is exclusively available to Visual Studio subscribers. It allows you to easily and quickly set up an environment in Azure to develop and test applications targeting Windows 7.</p><p>This image was created from the latest bits available on 1/11/2018.</p>",
   "iconPath": "Icons/Client",
   "categories": [
     "virtualMachine",
@@ -35,12 +35,20 @@
   ],
   "links": [
     {
-      "label": "Provide feedback on this image/virtual machine",
+      "label": "Visual Studio VMs in Azure",
+      "uri": "https://docs.microsoft.com/azure/virtual-machines/windows/using-visual-studio-vm"
+    },
+    {
+      "label": "Provide survey feedback on this image/virtual machine",
       "uri": "https://aka.ms/VSAzureImageSurvey/"
     },
     {
       "label": "Monthly Azure credit for Visual Studio subscribers",
       "uri": "https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/"
+    },
+    {
+      "label": "Visual Studio Product Feedback",
+      "uri": "https://developercommunity.visualstudio.com"
     }
   ],
   "eula": "https://docs.microsoft.com/visualstudio/subscriptions/vs-license-terms",
