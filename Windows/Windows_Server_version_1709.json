@@ -22,7 +22,7 @@
     "sku": "Datacenter-Core-1709-smalldisk"
   },
   "OS": "Windows",
-  "description": "Windows Server, version 1709 is a Semi-Annual Channel release based on the Server Core installation option of the Datacenter edition. A new release comes out every six months and is supported for 18 months. Support will end in May 2019. Check the <a href='https://support.microsoft.com/lifecycle' target='_blank'>Lifecycle Support Page</a> for support dates and always use the latest release if possible.</p>",
+  "description": "Windows Server, version 1709 is a Semi-Annual Channel release based on the Server Core installation option of the Datacenter edition. A new release comes out every six months and is supported for 18 months. Support will end in May 2019. Check the <a href='https://support.microsoft.com/lifecycle' target='_blank'>Lifecycle Support Page</a> for support dates and always use the latest release if possible.",
   "iconPath": "Icons/Server",
   "supportsSriov": true,
   "categories": [
