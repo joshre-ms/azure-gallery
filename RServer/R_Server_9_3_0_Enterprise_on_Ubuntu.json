@@ -1,0 +1,69 @@
+{
+  "publisher": "Microsoft",
+  "label": "Microsoft Machine Learning Server 9.3.0 on Ubuntu 16.04",
+  "displayName": "Microsoft Machine Learning Server 9.3.0 on Ubuntu 16.04",
+  "mediaReferences": {
+    "PublicAzure": {
+      "mediaName": "f77b6659c86e4dd9995662a711094bfc__MLS-930-2606-VM-Ubuntu-1"
+    }
+  },
+  "imageReference": {
+    "publisher": "MicrosoftRServer",
+    "offer": "MLServer-Ubuntu",
+    "sku": "Enterprise"
+  },
+  "OS": "Linux",
+  "summary": "Microsoft Machine Learning Server 9.3.0 on Ubuntu 16.04",
+  "description": "This image contains Microsoft Machine Learning Server 9.3.0 on Ubuntu 16.04. Microsoft Machine Learning Server is the most broadly deployable enterprise-class analytics platform for R and Python available today: for analyzing data at scale, building intelligent apps, and discovering valuable insights across your business. It includes a collection of packages, interpreters, and infrastructure for developing and deploying R and Python-based machine learning and data science solutions on a range of platforms. For production workloads we recommend that you use a virtual machine size of DS4 or higher.",
+  "iconPath": "Icons",
+  "categories": [
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "windows",
+    "database",
+    "virtualMachineRecommended"
+  ],
+  "recommendedSizes": [
+    "Standard_E4s_v3",
+    "Standard_E2s_v3",
+    "Standard_E8s_v3",
+    "Standard_DS12_v2",
+    "Standard_DS11_v2",
+    "Standard_DS13_v2",
+    "Standard_DS12",
+    "Standard_DS11",
+    "Standard_DS13"
+  ],
+  "links": [
+    {
+      "label": "Product overview",
+      "uri": "https://docs.microsoft.com/en-us/machine-learning-server/what-is-machine-learning-server"
+    },
+    {
+      "label": "Product documentation",
+      "uri": "https://docs.microsoft.com/en-us/machine-learning-server/"
+    },
+    {
+      "label": "Linux VM instructions",
+      "uri": "https://docs.microsoft.com/en-us/machine-learning-server/install/machine-learning-server-azure-vm-on-linux"
+    },
+    {
+      "label": "Support forum",
+      "uri": "https://social.msdn.microsoft.com/Forums/en-US/home?category=MicrosoftR"
+    },
+    {
+      "label": "Pricing details",
+      "uri": "https://azure.microsoft.com/en-us/pricing/details/virtual-machines"
+    }
+  ],
+  "eula": "https://go.microsoft.com/fwlink/?linkid=862080",
+  "privacy": "http://go.microsoft.com/fwlink/?LinkId=512132 ",
+
+  "supportedExtensions": [
+  ],
+  "createUIDefinitionHandler": "Microsoft.Compute.RSeverVm",
+  "cloudEnvironments": [
+    "PublicAzure"
+  ]
+}
