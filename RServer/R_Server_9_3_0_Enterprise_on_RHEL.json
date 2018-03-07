@@ -5,6 +5,15 @@
   "mediaReferences": {
     "PublicAzure": {
       "mediaName": "f77b6659c86e4dd9995662a711094bfc__MLS-930-2606-VM-RedHat-1"
+    },
+    "Mooncake": {
+      "mediaName": "ecd3b9dd41b84c64beac85a74e60372b__MLS-930-2606-VM-RedHat-1"
+    },
+    "Fairfax": {
+      "mediaName": "5ed929c742ab466aaf4c7af43a19e384__MLS-930-2606-VM-RedHat-1"
+    },
+    "Blackforest": {
+      "mediaName": "09c0463f202a4ba185440d963f6b8f2d__MLS-930-2606-VM-RedHat-1"
     }
   },
   "imageReference": {
@@ -64,6 +73,9 @@
   ],
   "createUIDefinitionHandler": "Microsoft.Compute.RSeverVm",
   "cloudEnvironments": [
-    "PublicAzure"
+    "PublicAzure",
+    "Mooncake",
+    "Fairfax",
+    "Blackforest"
   ]
 }
