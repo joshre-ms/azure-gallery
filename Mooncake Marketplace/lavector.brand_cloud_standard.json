@@ -20,7 +20,7 @@
     "sku": "standard"
   },
   "summary": "菱歌品牌云 基于人工智能技术的营销管理系统",
-  "description": "<p><strong>产品介绍</strong></p><p><br/></p><p>社会化客户关系管理系统（Social\r\n Customer Relationship \r\nManagement）简称SCRM。菱歌SCRM以社交媒体的大数据作为基本，通过数据驱动营销智能，不仅帮助企业了解自己品牌健康度，而且能够运用多种营销工具，提升个性化的营销能力；同时配合着菱歌的人工智能技术，在给企业智能推荐KOL的同时，准确的认知品牌的受众，能够更有效的挖掘用户的价值，并推进价值的转化。</p><p>具体的功能包含：</p><p><br/></p><ul><li><p>实时追踪：监听多源社交平台上的品牌声量和内容，同时可与粉丝进行实时的互动</p></li><li><p>数据分析：快速掌握品牌口碑和热点，实时跟踪竞品社媒动态，总体社交健康度一览无余</p></li><li><p>图片发现：实时呈现和管理多源社交平台上的品牌相关图片</p></li><li><p>受众管理：多平台受众的整合管理，智能标签的应用与分析，跟踪受众行为数据，从海量的受众中完善用户画像，挖掘潜在的高价值客户</p></li><li><p>粉丝消息：多平台用户粉丝及消息管理，同时可与不同平台的粉丝实时互动</p></li><li><p>活动管理：海量的H5营销活动，实时监控活动的营销效果</p></li><li><p>后台管理：灵活添加和管理新项目或新用户，设置声誉预警，管理社交内容库</p></li></ul><p><br/></p><p><strong>使用说明</strong></p><p><br/></p><ol><li><p>在 Azure 镜像市场选择 菱歌品牌云 镜像，然后点击“部署”。</p></li><li><p>部署成功之后，通过公共IP地址进行Web访问。</p></li><li><p>大约过5分钟后， 使用浏览器访问该入口，进入登录页面</p></li><li><p>管理员帐号及密码为用户名demo@lavector.com密码abc123456</p></li><li><p>如需了解更多请联系admin@lavector.com</p></li></ol><p><br/></p><p><strong>产品规格</strong></p><p><br/></p><ul><li><p>LavectorBrandMaster 4 核CPU</p></li><li><p>LavectorBrandMaster 8 核CPU</p></li></ul><p><br/></p><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从菱歌科技得到了这个软件, 并且了解菱歌科技的<a target=\"_blank\" href=\"http://lavector.com/terms.html\">法律条款</a>适用于它。Microsoft 不为第三方服务商的软件提供权利保护。</p>",
+  "description": "<p><strong>产品介绍</strong></p><p><br/></p><p>社会化客户关系管理系统（Social\r\n Customer Relationship \r\nManagement）简称SCRM。菱歌SCRM以社交媒体的大数据作为基本，通过数据驱动营销智能，不仅帮助企业了解自己品牌健康度，而且能够运用多种营销工具，提升个性化的营销能力；同时配合着菱歌的人工智能技术，在给企业智能推荐KOL的同时，准确的认知品牌的受众，能够更有效的挖掘用户的价值，并推进价值的转化。</p><p>具体的功能包含：</p><p><br/></p><ul><li><p>实时追踪：监听多源社交平台上的品牌声量和内容，同时可与粉丝进行实时的互动</p></li><li><p>数据分析：快速掌握品牌口碑和热点，实时跟踪竞品社媒动态，总体社交健康度一览无余</p></li><li><p>图片发现：实时呈现和管理多源社交平台上的品牌相关图片</p></li><li><p>受众管理：多平台受众的整合管理，智能标签的应用与分析，跟踪受众行为数据，从海量的受众中完善用户画像，挖掘潜在的高价值客户</p></li><li><p>粉丝消息：多平台用户粉丝及消息管理，同时可与不同平台的粉丝实时互动</p></li><li><p>活动管理：海量的H5营销活动，实时监控活动的营销效果</p></li><li><p>后台管理：灵活添加和管理新项目或新用户，设置声誉预警，管理社交内容库</p></li></ul><p><br/></p><p><strong>使用说明</strong></p><p><br/></p><ol><li><p>在 Azure 镜像市场选择 菱歌品牌云 镜像，然后点击“部署”。</p></li><li><p>部署成功之后，通过公共IP地址进行Web访问。</p></li><li><p>大约过5分钟后， 使用浏览器访问该入口，进入登录页面</p></li><li><p>管理员帐号及密码为用户名demo@lavector.com密码abc123456</p></li><li><p>如需了解更多请联系admin@lavector.com</p></li></ol><p><br/></p><p><strong>产品规格</strong></p><p><br/></p><ul><li><p>LavectorBrandMaster 4 核CPU</p></li><li><p>LavectorBrandMaster 8 核CPU</p></li></ul><p><br/></p>\n<!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3>\n<p></p>\n<p>\n通过单击 \"创建\" 按钮, 我承认我从菱歌科技得到了这个软件, 并且了解菱歌科技的\n<a target=\"_blank\" href=\"http://lavector.com/terms.html\">法律条款</a>适用于它。世纪互联不为第三方服务商的软件提供权利保护。</p>\n<!--Customer Support-->\n<h3>客户支持</h3>\n<ul>\n    <li>客服邮箱：service@lavector.com</li>\n    <li>客服电话：+86 (10) 6520 4750</li></ul>",
   "iconPath": "Icons/lavector.brand_cloud_standard",
   "categories": [
     "linux",
@@ -54,6 +54,6 @@
   ],
   "eula": "http://lavector.com/terms.html",
   "privacy": null,
-  "addHideKey": true,
+  "addHideKey": false,
   "screenshot": "Screenshots/lavector.brand_cloud_standard"
 }

@@ -20,7 +20,7 @@
         "sku": "f5-waf-byol"
     },
     "summary": "F5 BIG-IP应用安全管理器不仅使Web应用能够防止OWASP十大威胁，还支持符合重点监管标准。",
-    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    BIG-IP应用安全管理器（ASM）使组织能够防止OWASP十大威胁，包括应用程序漏洞和零日攻击。先进的检测和消除技术，动态学习，虚拟补丁和颗粒攻击甚至更复杂的攻击，在到达您的服务器之前全部阻止。BIG-IP ASM还支持符合重点监管标准，如FFIEC，HIPAA和PCI-DSS。借助BIG-IP\r\n    ASM，企业需要部署它们，并且接近应用程序，以保护WEB应用程序。\r\n</p>\r\n<ol>\r\n    <li>即插即用的有效的安全防护，BIG-IP ASM简化策略创建，因此您可以快速部署WAF，立即确认可靠的安全性。同时它还采用具有自动学习的政策，以防止不断演变的威胁隐藏在（或目标）HTTP，HTTPS和WebSocket的流量。</li>\r\n    <li>快速修补漏洞，BIG-IP ASM与第三方的动态应用程序安全测试（DAST）工具集成，在代码修复前，可以发现、修补漏洞和未经授权变更的网站。</li>\r\n    <li>详细的应用可视性和报告，可以获取详细的策略违规、潜在严重的攻击报告，并评估针对服务器上的影响。BIG-IP ASM还采用攻击的情报和报告鉴别复杂而多样的威胁。</li>\r\n    <li>行业领先的规模和性能，及时在受到攻击和提升、优化应用程序性能时，也要确保应用程序的可用性。</li>\r\n</ol>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>服务端口：SSH端口22,HTTPS端口443</li>\r\n    <li>使用WEB和SSH登录方式,用户名密码为创建虚拟机时所设置的用户名密码。</li>\r\n    <li>登录后需导入有效的软件许可证方可正常使用,如果还没有软件许可证,请联系F5客服购买。</li>\r\n</ol>",
+    "description": "<strong>产品介绍</strong>\r\n<p>\r\n    BIG-IP应用安全管理器（ASM）使组织能够防止OWASP十大威胁，包括应用程序漏洞和零日攻击。先进的检测和消除技术，动态学习，虚拟补丁和颗粒攻击甚至更复杂的攻击，在到达您的服务器之前全部阻止。BIG-IP ASM还支持符合重点监管标准，如FFIEC，HIPAA和PCI-DSS。借助BIG-IP\r\n    ASM，企业需要部署它们，并且接近应用程序，以保护WEB应用程序。\r\n</p>\r\n<ol>\r\n    <li>即插即用的有效的安全防护，BIG-IP ASM简化策略创建，因此您可以快速部署WAF，立即确认可靠的安全性。同时它还采用具有自动学习的政策，以防止不断演变的威胁隐藏在（或目标）HTTP，HTTPS和WebSocket的流量。</li>\r\n    <li>快速修补漏洞，BIG-IP ASM与第三方的动态应用程序安全测试（DAST）工具集成，在代码修复前，可以发现、修补漏洞和未经授权变更的网站。</li>\r\n    <li>详细的应用可视性和报告，可以获取详细的策略违规、潜在严重的攻击报告，并评估针对服务器上的影响。BIG-IP ASM还采用攻击的情报和报告鉴别复杂而多样的威胁。</li>\r\n    <li>行业领先的规模和性能，及时在受到攻击和提升、优化应用程序性能时，也要确保应用程序的可用性。</li>\r\n</ol>\r\n<strong>使用说明</strong>\r\n<ol>\r\n    <li>服务端口：SSH端口22,HTTPS端口443</li>\r\n    <li>使用WEB和SSH登录方式,用户名密码为创建虚拟机时所设置的用户名密码。</li>\r\n    <li>登录后需导入有效的软件许可证方可正常使用,如果还没有软件许可证,请联系F5客服购买。</li>\r\n</ol>\n<!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3>\n<p></p>\n<p>\n通过单击 \"创建\" 按钮, 我承认我从弘协网络得到了这个软件, 并且了解弘协网络的\n<a target=\"_blank\" href=\"https://activate.f5.com/license/index.jsp\">法律条款</a>适用于它。世纪互联不为第三方服务商的软件提供权利保护。</p>\n<!--Customer Support-->\n<h3>客户支持</h3>\n<ul>\n    <li>客服邮箱：chinainfo@f5.com</li>\n    <li>客服电话：400 991 8366</li></ul>",
     "iconPath": "Icons/F5-WAF-12_0",
     "categories": [
         "virtualMachine",
@@ -53,6 +53,6 @@
             }
         }
     ],
-    "eula": null,
+    "eula": "https://activate.f5.com/license/index.jsp",
     "privacy": null
 }

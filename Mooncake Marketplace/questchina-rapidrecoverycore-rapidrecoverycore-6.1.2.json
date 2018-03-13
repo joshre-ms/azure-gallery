@@ -20,7 +20,7 @@
     "sku": "rapidrecoverycore"
   },
   "summary": "在Azure中预置的Rapid Recovery核心服务器镜像，用于接收Rapid Recovery复制数据。",
-  "description": "<strong>镜像描述</strong>\n<p>\n由Rapid Recovery提供技术支持\n</p>\n<p>\nRapid Recovery高级数据保护将备份，复制和恢复统一在一个易于使用的软件解决方案中。Azure的Rapid Recovery复制目标VM利用微软云来延长快照备份和归档到云的数据保留时间。\n</p>\n<p>\n高效、可定制的保留\n</p>\n<p>\n复制任务是经过广域网优化的，并且基于永久增量块数据复制架构构建，提供高效的带宽利用率。该VM镜像可以配置为保留与源服务器无关的可自定义间隔的数据复制。复制数据立即可用。\n</p>\n<p>\n建立可靠的归档\n</p>\n<p>\nAzure的Rapid Recovery复制目标VM支持在云中长期保留归档数据。云连接器将云存储集成到您的保留过程中。复制目标VM上的备份可以自动保存在Azure中。\n</p>\n<p>\n灵活的恢复\n</p>\n<p>\n您可以使用各种方便的恢复方法和工具，包括将裸机或对象恢复到私有云或者微软Azure。\n</p> <br><!--Legal Terms-->\n<h3 class=\"msportalfx-text-header\">法律声明</h3>\n<p></p>\n<p>\n通过单击 \"创建\" 按钮, 我承认我从凯思拓得到了这个软件, 并且了解凯思拓的\n<a target=\"_blank\" href=\"https://impchinanorthprod.blob.core.chinacloudapi.cn/eula/15556/fea30dfd-d958-481c-a3e4-c5297c515f27_eula.pdf\">法律条款</a>\n适用于它。Microsoft 不为第三方服务商的软件提供权利保护。\n</p>",
+  "description": "<strong>镜像描述</strong>\n<p>\n由Rapid Recovery提供技术支持\n</p>\n<p>\nRapid Recovery高级数据保护将备份，复制和恢复统一在一个易于使用的软件解决方案中。Azure的Rapid Recovery复制目标VM利用微软云来延长快照备份和归档到云的数据保留时间。\n</p>\n<p>\n高效、可定制的保留\n</p>\n<p>\n复制任务是经过广域网优化的，并且基于永久增量块数据复制架构构建，提供高效的带宽利用率。该VM镜像可以配置为保留与源服务器无关的可自定义间隔的数据复制。复制数据立即可用。\n</p>\n<p>\n建立可靠的归档\n</p>\n<p>\nAzure的Rapid Recovery复制目标VM支持在云中长期保留归档数据。云连接器将云存储集成到您的保留过程中。复制目标VM上的备份可以自动保存在Azure中。\n</p>\n<p>\n灵活的恢复\n</p>\n<p>\n您可以使用各种方便的恢复方法和工具，包括将裸机或对象恢复到私有云或者微软Azure。\n</p>\n<!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3>\n<p></p>\n<p>\n通过单击 \"创建\" 按钮, 我承认我从凯思拓得到了这个软件, 并且了解凯思拓的\n<a target=\"_blank\" href=\"https://impchinanorthprod.blob.core.chinacloudapi.cn/eula/15556/fea30dfd-d958-481c-a3e4-c5297c515f27_eula.pdf\">法律条款</a>适用于它。世纪互联不为第三方服务商的软件提供权利保护。</p>\n<!--Customer Support-->\n<h3>客户支持</h3>\n<ul>\n    <li>客服邮箱：support@quest.com</li>\n    <li>客服电话：400-120-1455</li></ul>",
   "iconPath": "Icons/questchina-rapidrecoverycore-rapidrecoverycore-6.1.2",
   "categories": [
     "windows",
@@ -70,6 +70,7 @@
       }
     }
   ],
+  "eula": "https://impchinanorthprod.blob.core.chinacloudapi.cn/eula/15556/fea30dfd-d958-481c-a3e4-c5297c515f27_eula.pdf",
   "privacy": null,
   "screenshot": "Screenshots/questchina-rapidrecoverycore-rapidrecoverycore-6.1.2"
 }

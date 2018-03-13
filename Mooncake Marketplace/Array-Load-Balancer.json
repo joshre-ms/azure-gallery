@@ -20,7 +20,7 @@
         "sku": "array-vapv-azure-byol"
     },
     "summary": "Array Networks vAPV是一款包含加密、路由、负载均衡、应用安全等功能的应用控制管理器。",
-    "description": "<p>Array Networks vAPV是一款易于配置、灵活、安全并提供高性能高容量体验的应用控制管理器。vAPV for Azure是与Azure云环境继承的一款虚拟设备，为物理环境、虚拟环境和云计算环境提供相同的功能特性。一体化的vAPV虚拟设备为灵活的应用交付方案提供一系列的丰富功能，包括高级SSL加密、易于配置的内容路由、L3到L7的服务器负载均衡、IPv4/IPv6双协议栈及应用安全。vAPV for Azure提供简单/快速配置，以最小的管理工作量按需访问计算资源。提供高达99.999%的应用可用性，5倍应用加速及面向各层的应用安全。<br/>客户必须直接向Array Networks购买许可和支持方能使用vAPV for Azure。<br/>&nbsp;</p><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从华耀中国得到了这个软件, 并且了解华耀中国的<a target=\"_blank\" href=\"https://impchinanorthprod.blob.core.chinacloudapi.cn/eula/15545/3c14ed53-2263-4a04-861b-f6a6d699344c_eula.pdf\">法律条款</a>适用于它。Microsoft 不为第三方服务商的软件提供权利保护。</p>",
+    "description": "<p>Array Networks vAPV是一款易于配置、灵活、安全并提供高性能高容量体验的应用控制管理器。vAPV for Azure是与Azure云环境继承的一款虚拟设备，为物理环境、虚拟环境和云计算环境提供相同的功能特性。一体化的vAPV虚拟设备为灵活的应用交付方案提供一系列的丰富功能，包括高级SSL加密、易于配置的内容路由、L3到L7的服务器负载均衡、IPv4/IPv6双协议栈及应用安全。vAPV for Azure提供简单/快速配置，以最小的管理工作量按需访问计算资源。提供高达99.999%的应用可用性，5倍应用加速及面向各层的应用安全。<br/>客户必须直接向Array Networks购买许可和支持方能使用vAPV for Azure。<br/>&nbsp;</p><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3>\n<p></p>\n<p>\n通过单击 \"创建\" 按钮, 我承认我从华耀中国得到了这个软件, 并且了解华耀中国的\n<a target=\"_blank\" href=\"https://impchinanorthprod.blob.core.chinacloudapi.cn/eula/15545/3c14ed53-2263-4a04-861b-f6a6d699344c_eula.pdf\">法律条款</a>适用于它。世纪互联不为第三方服务商的软件提供权利保护。</p>\n<!--Customer Support-->\n<h3>客户支持</h3>\n<ul>\n    <li>客服邮箱：azure@arraynetworks.com.cn</li>\n    <li>客服电话：4006007878</li></ul>",
     "iconPath": "Icons/Array-Load-Balancer",
     "categories": [
         "virtualMachine",
@@ -52,6 +52,6 @@
             }
         }
     ],
-    "eula": null,
+    "eula": "https://impchinanorthprod.blob.core.chinacloudapi.cn/eula/15545/3c14ed53-2263-4a04-861b-f6a6d699344c_eula.pdf",
     "privacy": null
 }

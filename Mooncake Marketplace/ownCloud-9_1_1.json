@@ -20,7 +20,7 @@
         "sku": "Ubuntu"
     },
     "summary": "Owncloud可以创建私有的Web或云服务，包括文件管理、音乐、日历、联系人等功能。",
-    "description": "<p>\r\n    Owncloud <a href=\"https://www.owncloud.org\" target=\"_blank\">https://www.owncloud.org</a> 提供私人的 Web 服务。当前主要功能包括文件管理（内建文件分享）、音乐、日历、联系人等等，可在\r\n    PC 和服务器上运行。\r\n</p>\r\n<p>\r\n    部署后访问 http://{DnsName}.{ResourceGroupLocation}.cloudapp.chinacloudapi.cn/owncloud 进行安装和使用。数据库名称等可以随意设置。\r\n</p>",
+    "description": "<p>\r\n    Owncloud <a href=\"https://www.owncloud.org\" target=\"_blank\">https://www.owncloud.org</a> 提供私人的 Web 服务。当前主要功能包括文件管理（内建文件分享）、音乐、日历、联系人等等，可在\r\n    PC 和服务器上运行。\r\n</p>\r\n<p>\r\n    部署后访问 http://{DnsName}.{ResourceGroupLocation}.cloudapp.chinacloudapi.cn/owncloud 进行安装和使用。数据库名称等可以随意设置。\r\n</p><p><br/></p>\n<!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3>\n<p></p>\n<p>\n通过单击 \"创建\" 按钮, 我承认我从ownCloud社区得到了这个软件, 并且了解ownCloud社区的\n<a target=\"_blank\" href=\"https://www.gnu.org/licenses/agpl-3.0.html\">开源协议</a>适用于它。世纪互联不为第三方服务商的软件提供权利保护。</p>",
     "iconPath": "Icons/ownCloud-9_1_1",
     "categories": [
         "virtualMachine",
@@ -52,6 +52,6 @@
             }
         }
     ],
-    "eula": "http://www.gnu.org/licenses/agpl-3.0.html",
+    "eula": "https://www.gnu.org/licenses/agpl-3.0.html",
     "privacy": null
 }

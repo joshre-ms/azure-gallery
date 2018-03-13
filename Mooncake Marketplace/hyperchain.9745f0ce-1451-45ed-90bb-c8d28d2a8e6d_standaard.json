@@ -20,7 +20,7 @@
     "sku": "standaard"
   },
   "summary": "趣链面向企业的极速可编程区块链平台（Hyperchain）提供企业级的区块链网络解决方案。",
-  "description": "<p>趣链面向企业的极速可编程区块链平台（Hyperchain）是面向企业、政府机构和产业联盟技术需求的联盟链平台，提供企业级的区块链网络解决方案。与经典的比特币区块链技术所代表的面向加密数字货币为主要应用场景的公有链技术不同，Hyperchain平台侧重于满足企业/组织和产业联盟的商业需求，包括对可编程智能合约应用的完整支持、更加可靠和高效的一致性共识机制、严格的身份和授权机制、以及对于交易数据保密性的特殊要求。</p><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从趣链科技得到了这个软件, 并且了解趣链科技的<a target=\"_blank\" href=\"http://www.hyperchain.cn/resources/Hyperchain-azure-market.pdf\">法律条款</a>适用于它。Microsoft 不为第三方服务商的软件提供权利保护。</p>",
+  "description": "<p>趣链面向企业的极速可编程区块链平台（Hyperchain）是面向企业、政府机构和产业联盟技术需求的联盟链平台，提供企业级的区块链网络解决方案。与经典的比特币区块链技术所代表的面向加密数字货币为主要应用场景的公有链技术不同，Hyperchain平台侧重于满足企业/组织和产业联盟的商业需求，包括对可编程智能合约应用的完整支持、更加可靠和高效的一致性共识机制、严格的身份和授权机制、以及对于交易数据保密性的特殊要求。</p>\n<!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3>\n<p></p>\n<p>\n通过单击 \"创建\" 按钮, 我承认我从趣链科技得到了这个软件, 并且了解趣链科技的\n<a target=\"_blank\" href=\"http://www.hyperchain.cn/resources/Hyperchain-azure-market.pdf\">法律条款</a>适用于它。世纪互联不为第三方服务商的软件提供权利保护。</p>\n<!--Customer Support-->\n<h3>客户支持</h3>\n<ul>\n    <li>客服邮箱：vi@hyperchain.cn</li>\n    <li>客服电话：13093789265</li>\n    <li>QQ：329921445</li>\n    <li>微信：cspilgrimvi</li></ul>",
   "iconPath": "Icons/hyperchain.9745f0ce-1451-45ed-90bb-c8d28d2a8e6d_standaard",
   "categories": [
     "linux",
