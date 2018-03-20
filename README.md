@@ -57,20 +57,16 @@ Optional. A JSON array containing objects that specify a `label` and `uri`. The 
 "linksForEnvironments": [
     {
         "label": "Learn more",
-        "uri": [
-            {
-                "Default": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/",
-                "Blackforest": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/blackforest"
-            }
-        ]
+        "uri": {
+            "Default": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/",
+            "Blackforest": "http://www.microsoft.com/server-cloud/products/windows-server-2012-r2/blackforest"
+        }
     },
     {
         "label": "Documentation",
-        "uri": [
-            {
-                "Blackforest": "http://technet.microsoft.com/library/hh801901.aspx/Blackforest"
-            }
-        ]
+        "uri": {
+            "Blackforest": "http://technet.microsoft.com/library/hh801901.aspx/Blackforest"
+        }
     }
 ]
 ```
