@@ -4,7 +4,7 @@
   "displayName": "Windows 7 Enterprise N with SP1 (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Win7-SP1-Ent-N-x64-2018-02-14"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Win7-SP1-Ent-N-x64-2018-03-15"
     }
   },
   "imageReference": {
@@ -13,7 +13,7 @@
     "sku": "Win7-SP1-Ent-N-x64"
   },
   "OS": "Windows",
-  "description": "<p>This image contains Windows 7 Enterprise N (x64) with SP1 and is exclusively available to Visual Studio subscribers. It allows you to easily and quickly set up an environment in Azure to develop and test applications targeting Windows 7.</p><p>This image was created from the latest bits available on 2/14/2018.</p>",
+  "description": "<p>This image contains Windows 7 Enterprise N (x64) with SP1 and is exclusively available to Visual Studio subscribers. It allows you to easily and quickly set up an environment in Azure to develop and test applications targeting Windows 7.</p><p>This image was created from the latest bits available on 3/15/2018.</p>",
   "iconPath": "Icons/Client",
   "categories": [
     "virtualMachine",
