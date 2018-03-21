@@ -2,11 +2,11 @@
     "publisher": "Microsoft",
     "label": "BizTalk Server 2013 R2 Standard",
     "displayName": "BizTalk Server 2013 R2 Standard",
-    "MediaName": "2cdc6229df6344129ee553dd3499f0d3__BizTalk-Server-2013-R2-Standard-May-2017",
+    "MediaName": "8f7685d5fa5f4345ade55ce567f7ba1c__BizTalk-Server-2013-R2-Standard-Mar-2018",
     "imageReference": {
-      "publisher": "MicrosoftBizTalkServer",
-      "offer": "BizTalk-Server",
-      "sku": "2013-R2-Standard"
+        "publisher": "MicrosoftBizTalkServer",
+        "offer": "BizTalk-Server",
+        "sku": "2013-R2-Standard"
     },
     "OS": "Windows",
     "description": "This image contains the Standard edition of BizTalk Server 2013 R2. Some BizTalk Server components like accelerators require additional setup before use. Medium is the recommended size for this image.",
