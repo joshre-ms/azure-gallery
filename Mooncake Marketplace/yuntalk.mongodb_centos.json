@@ -1,0 +1,58 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "5a174964f51f4ef5b1d5b91ef3cd5b81__yuntalk-mongodb-centos-1.0.0"
+    }
+  },
+  "publisher": "yuntalk",
+  "publisherDisplayName": "众说分云",
+  "publisherLegalName": "合肥众说分云数据科技有限公司",
+  "label": "mongodb_centos",
+  "displayName": "MongoDB 2.6.0 (CentOS7.2)",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "yuntalk",
+    "offer": "mongodb",
+    "sku": "centos"
+  },
+  "summary": "MongoDB是一个介于关系数据库和非关系数据库之间的存储产品，高性能、易部署、易使用。",
+  "description": "<p><strong>产品介绍</strong></p><p>MongoDB（来自于英文单词“Humongous”，中文含义为“庞大”）是可以应用于各种规模的企业、各个行业以及各类应用程序的开源数据库。作为一个适用于敏捷开发的数据库，MongoDB的数据模式可以随着应用程序的发展而灵活地更新。与此同时，它也为开发人员提供了传统数据库的功能：二级索引，完整的查询系统以及严格一致性等等。 MongoDB能够使企业更加具有敏捷性和可扩展性，各种规模的企业都可以通过使用MongoDB来创建新的应用，提高与客户之间的工作效率，加快产品上市时间，以及降低企业成本。MongoDB是专为可扩展性，高性能和高可用性而设计的数据库。它可以从单服务器部署扩展到大型、复杂的多数据中心架构。利用内存计算的优势，MongoDB能够提供高性能的数据读写操作。 MongoDB的本地复制和自动故障转移功能使您的应用程序具有企业级的可靠性和操作灵活性。<br/></p><p><strong>使用说明</strong></p><ol><li><p>登陆系统后，首先切换至root用户，在root用户下再执行下列命令；数据库默认用户名及密码：无，建议登录MongoDB后立刻修改，SSH端口22，MongoDB端口27017。</p></li></ol><p><strong>技术详情</strong></p><ul><li><p>使用putty远程登录服务器</p></li><ol><li><p>下载 linux 端的远程工具 putty。</p></li><li><p>下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22。</p></li><li><p>使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd</p></li></ol><li><p>程序安装位置</p></li><ul><li><p>MongoDB2.6.0&nbsp; &nbsp;：/home/data/mongodb/mongodb_data/</p></li></ul><li><p>系统服务启动、停止和重启 &nbsp; &nbsp; &nbsp; &nbsp;<br/> 系统缺省为开启启动，手动操作需要在sudo模式，具体如下：&nbsp; &nbsp; &nbsp;<br/> service mongod (start|stop|restart)</p></li><li><p>log缺省查看地址</p></li><ul><li><p>MongoDB&nbsp; &nbsp;：/home/data/mongodb/mongodb_log/</p></li></ul></ul><p><br/></p><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从众说分云得到了这个软件, 并且了解众说分云的<a target=\"_blank\" href=\"http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf\">法律条款</a>适用于它。世纪互联不为第三方服务商的软件提供权利保护。</p><!--Customer Support--><h3>客户支持<h3><ul><li>客服邮箱：jqm@yuntalk.cn</li><li>客服电话：18755132817</li></ul>",
+  "iconPath": "Icons/yuntalk.mongodb_centos",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "appInfra",
+    "database",
+    "storage"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "27017"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_D1",
+    "Standard_D2",
+    "Standard_F2"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://yuntalk.cn"
+      }
+    }
+  ],
+  "eula": "http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf",
+  "privacy": null,
+  "addHideKey": true
+}

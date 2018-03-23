@@ -1,0 +1,59 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "5a174964f51f4ef5b1d5b91ef3cd5b81__yuntalk-wordpress-zh_cn_centos-1.0.0"
+    }
+  },
+  "publisher": "yuntalk",
+  "publisherDisplayName": "众说分云",
+  "publisherLegalName": "合肥众说分云数据科技有限公司",
+  "label": "wordpress_zh_cn_centos",
+  "displayName": "WordPress 4.5.2 简体中文 (CentOS 7.2)",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "yuntalk",
+    "offer": "wordpress",
+    "sku": "zh_cn_centos"
+  },
+  "summary": "WordPress是一个注重美学、易用性和网络标准的开源个人信息发布平台，擅长个性化的博客应用并支持中文。",
+  "description": "<p><strong>产品介绍</strong></p><p>WordPress是一款个人博客系统，并逐步演化成一款内容管理系统软件。它是使用PHP语言和MySQL数据库开发的，用户可以在支持 PHP 和 MySQL数据库的服务器上使用自己的博客。也可以把 WordPress当作一个内容管理系统（CMS）来使用。 WordPress有许多第三方开发的免费模板，安装方式简单易用。不过要做一个自己的模板，则需要你有一定的专业知识。比如你至少要懂的标准通用标记语言下的一个应用HTML代码、CSS、PHP等相关知识。 WordPress官方支持中文版，同时有爱好者开发的第三方中文语言包，如wopus中文语言包。WordPress拥有成千上万个各式插件和不计其数的主题模板样式。</p><p><strong>使用说明</strong></p><ol><li><p>使用虚拟机前，需修改数据库中的主机名方可正常使用，步骤如下：</p></li><ol><li><p>登录MySQL控制台,数据库默认密码：123+Win123，然后执行：&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/> $mysql -u root -p</p></li><li><p>依次执行以下命令, 将{Dnsname}替换成你本地的虚拟机的DNS地址:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/> mysql&gt;use wordpress &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/> mysql&gt;update wp_options set option_value=&#39;http://{DnsName}&#39; where option_name=&#39;siteurl&#39;; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/> mysql&gt;update wp_options set option_value=&#39;http://{DnsName}&#39; where option_name=&#39;home&#39;;</p></li></ol><li><p>WordPress虚拟机部署完毕后，Web服务地址为：http://{DnsName}</p></li><li><p>Web入口的管理员用户名密码，admin:admin，请登录后及时修改。</p></li><li><p>WordPress官方帮助文档： &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/><a href=\"https://codex.wordpress.org/Main_Page\" target=\"_blank\"> https://codex.wordpress.org/Main_Page </a>。</p></li></ol><p><strong>技术详情</strong></p><ul><li><p>使用SSH、WEB方式登录服务器</p></li><ol><li><p>下载 linux 端的远程工具 putty</p></li><li><p>下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22</p></li><li><p>使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd</p></li><li><p>WordPress访问地址为：http://{DnsName}</p></li></ol><li><p>程序安装位置</p></li><ul><li><p>WordPress4.5.2&nbsp; ：/opt/apache/htdocs</p></li><li><p>Apache2.4.0&nbsp; ：/opt/apache</p></li><li><p>php5.6.22&nbsp; ：/opt/php</p></li><li><p>mysql5.6.30&nbsp; &nbsp;：/usr/local/mysql</p></li></ul><li><p>系统服务启动和停止 &nbsp; &nbsp; &nbsp; &nbsp;<br/> 服务启动，停止，重启操作（如果mysqld操作服务报错，请kill掉mysql多余的进程，再进行重启操作） &nbsp; &nbsp; &nbsp; &nbsp;<br/> service mysqld&nbsp; (start|stop|restart) &nbsp; &nbsp; &nbsp; &nbsp;<br/> service httpd&nbsp; (start|stop|restart)</p></li><li><p>Log缺省查看地址：</p></li><ul><li><p>Apache&nbsp; ：/opt/apache/logs</p></li><li><p>mysql&nbsp; ：/var/log/mysqld.log</p></li></ul></ul><p><br/></p><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从众说分云得到了这个软件, 并且了解众说分云的<a target=\"_blank\" href=\"http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf\">法律条款</a>适用于它。世纪互联不为第三方服务商的软件提供权利保护。</p><!--Customer Support--><h3>客户支持<h3><ul><li>客服邮箱：jqm@yuntalk.cn</li><li>客服电话：18755132817</li></ul>",
+  "iconPath": "Icons/yuntalk.wordpress_zh_cn_centos",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "webRecommended",
+    "blogCms",
+    "ecommerce",
+    "web"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "80"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_D1",
+    "Standard_D2",
+    "Standard_F2"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://yuntalk.cn"
+      }
+    }
+  ],
+  "eula": "http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf",
+  "privacy": null,
+  "addHideKey": true
+}

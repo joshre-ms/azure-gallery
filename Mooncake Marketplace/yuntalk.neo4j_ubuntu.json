@@ -1,0 +1,58 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "5a174964f51f4ef5b1d5b91ef3cd5b81__yuntalk-neo4j-ubuntu-1.0.0"
+    }
+  },
+  "publisher": "yuntalk",
+  "publisherDisplayName": "众说分云",
+  "publisherLegalName": "合肥众说分云数据科技有限公司",
+  "label": "neo4j_ubuntu",
+  "displayName": "Neo4j 3.0.3 (Debian 8)",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "yuntalk",
+    "offer": "neo4j",
+    "sku": "ubuntu"
+  },
+  "summary": "Neo4J是一个高性能的 NOSQL图形数据库，它将结构化数据存储在网络上而不是表中。",
+  "description": "<p><strong>产品介绍</strong></p><p>Neo4J http://neo4j.com/ 是一个高性能的 NOSQL图形数据库，它将结构化数据存储在网络上而不是表中。Neo4j也可以被看作是一个高性能的图引擎，该引擎具有成熟数据库的所有特性。程序员工作在一个面向对象的、灵活的网络结构下而不是严格、静态的表中——但是他们可以享受到具备完全的事务特性、企业级的数据库的所有好处。</p><p><strong>使用说明</strong></p><ol><li><p>部署后访问 http://{DnsName}:7474 使用服务，默认用户名密码 neo4j/neo4j。</p></li><li><p>通过 ssh 登录，编辑 /etc/neo4j/neo4j.conf 进行配置，运行 sudo neo4j restart 以使配置生效。</p></li><li><p>官方网站 <a href=\"https://neo4j.com\" target=\"_blank\">https://neo4j.com</a></p></li></ol><p><strong>技术详情</strong></p><ul><li><p>使用putty远程登录服务器</p></li><ol><li><p>下载 linux 端的远程工具 putty</p></li><li><p>下载后解压并打开 putty.exe，并输入您的服务器 IP 及端口，端口一般默认为 22</p></li><li><p>用户默认具有 sudo 权限</p></li></ol><li><p>程序安装位置</p></li><ul><li><p>Neo4j&nbsp; &nbsp;：/usr/bin/neo4j</p></li></ul><li><p>系统服务启动和停止 &nbsp; &nbsp; &nbsp; &nbsp;<br/> 服务启动，停止，重启操作 &nbsp; &nbsp; &nbsp; &nbsp;<br/> sudo neo4j (start|stop|restart)</p></li><li><p>log缺省查看地址</p></li><ul><li><p>Neo4j&nbsp; ：/etc/neo4j/neo4j.conf</p></li></ul></ul><p><br/></p><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从众说分云得到了这个软件, 并且了解众说分云的<a target=\"_blank\" href=\"http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf\">法律条款</a>适用于它。世纪互联不为第三方服务商的软件提供权利保护。</p><!--Customer Support--><h3>客户支持<h3><ul><li>客服邮箱：jqm@yuntalk.cn</li><li>客服电话：18755132817</li></ul>",
+  "iconPath": "Icons/yuntalk.neo4j_ubuntu",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "appInfra",
+    "database",
+    "storage"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "7474"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_DS1_v2",
+    "Standard_DS2",
+    "Standard_F2s"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://yuntalk.cn"
+      }
+    }
+  ],
+  "eula": "http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf",
+  "privacy": null,
+  "addHideKey": true
+}

@@ -1,0 +1,59 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "5a174964f51f4ef5b1d5b91ef3cd5b81__yuntalk-gitlab-ce_centos-1.0.0"
+    }
+  },
+  "publisher": "yuntalk",
+  "publisherDisplayName": "众说分云",
+  "publisherLegalName": "合肥众说分云数据科技有限公司",
+  "label": "gitlab_ce_centos",
+  "displayName": "GitLab CE 8.9.4 (CentOS 7.2)",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "yuntalk",
+    "offer": "gitlab",
+    "sku": "ce_centos"
+  },
+  "summary": "GitLab实现一个自托管Git 项目仓库，可通过 Web 界面访问，它能够浏览源代码，管理缺陷和注释。",
+  "description": "<p><strong>产品介绍</strong></p><p>GitLab <a href=\"https://about.gitlab.com/\" target=\"_blank\">https://about.gitlab.com/</a> 是一个利用 Ruby on Rails 开发的开源应用程序，实现一个自托管的Git 项目仓库，可通过 Web 界面进行访问公开的或者私人项目。它拥有与Github类似的功能，能够浏览源代码，管理缺陷和注释。可以管理团队对仓库的访问，它非常易于浏览提交过的版本并提供一个文件历史库。团队成员可以利用内置的简单聊天程序(Wall)进行交流。</p><p><strong>使用说明</strong></p><ol><li><p>部署镜像后通过 ssh 登录虚拟机，然后在命令行执行下列命令： &nbsp; &nbsp; &nbsp; &nbsp;<br/> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<br/> sudo nano /etc/hostname &nbsp; &nbsp; &nbsp; &nbsp;<br/> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<br/> sudo nano /etc/gitlab/gitlab.rb \r\n &nbsp; &nbsp; &nbsp; &nbsp;<br/> sudo gitlab-ctl reconfigure &nbsp; &nbsp; &nbsp; &nbsp;<br/> sudo gitlab-ctl restart</p></li><li><p>访问 http://{DnsName} 以登录和使用 Git 服务器。首次访问时会自动跳转到密码重置页面，需要设定密码以初始化管理员账号，之后即可登录进行管理操作，默认用户名 root。</p></li></ol><p><strong>技术详情</strong></p><ul><li><p>使用putty远程登录服务器</p></li><ol><li><p>下载 linux 端的远程工具 putty</p></li><li><p>下载后解压并打开 putty.exe，并输入您的服务器 IP 及端口，端口一般默认为 22</p></li><li><p>用户默认具有 sudo 权限</p></li></ol><li><p>程序安装位置</p></li><ul><li><p>GitLab &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/>/opt/gitlab</p></li></ul><li><p>系统服务启动和停止 &nbsp; &nbsp; &nbsp; &nbsp;<br/> 服务启动，停止，重启操作 &nbsp; &nbsp; &nbsp; &nbsp;<br/> sudo gitlab-ctl (start|stop|restart)</p></li><li><p>log缺省查看地址</p></li><ul><li><p>GitLab &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/>/var/log/gitlab</p></li></ul><li><p>其它</p></li><ul><li><p>GitLab config &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/>/etc/gitlab/gitlab.rb</p></li></ul></ul><p><br/></p><p><br/></p><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从众说分云得到了这个软件, 并且了解众说分云的<a target=\"_blank\" href=\"http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf\">法律条款</a>适用于它。世纪互联不为第三方服务商的软件提供权利保护。</p><!--Customer Support--><h3>客户支持<h3><ul><li>客服邮箱：jqm@yuntalk.cn</li><li>客服电话：18755132817</li></ul>",
+  "iconPath": "Icons/yuntalk.gitlab_ce_centos",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "storage",
+    "appFramework",
+    "devService",
+    "web"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "80"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_F2",
+    "Standard_DS14",
+    "Standard_D2"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://yuntalk.cn"
+      }
+    }
+  ],
+  "eula": "http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf",
+  "privacy": null,
+  "addHideKey": true
+}

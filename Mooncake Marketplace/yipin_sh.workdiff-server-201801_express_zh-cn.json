@@ -1,0 +1,59 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "236415594bbd4898abe2ce09a7f96787__yipin_sh-workdiff-server-201801-express_zh-cn-2018.0.1"
+    }
+  },
+  "publisher": "yipin_sh",
+  "publisherDisplayName": "上海移品",
+  "publisherLegalName": "上海移品信息技术有限公司",
+  "label": "workdiff-server-201801_express_zh-cn",
+  "displayName": "随办智能移动办公",
+  "imageType": "VMImage",
+  "os": "Windows",
+  "imageReference": {
+    "publisher": "yipin_sh",
+    "offer": "workdiff-server-201801",
+    "sku": "express_zh-cn"
+  },
+  "summary": "移动协作工具，随时随地管理、执行、协作、分享；随办，引领企业全面进入移动工作时代",
+  "description": "<p>1、执行利器</p><p>执行力，将事情保质、高效完成的能力，即：员工(“人”) 将事情(“事”)在规定的时间(“时”)、地点(“空”)按照授权(“权”)，达成结果(“果”)的能力；</p><p>2、智能办公</p><p>智能日历邀请、刷脸考勤、语音助手、实时在线翻译；</p><p>3、微软Office 365移动伴侣</p><p>用一个App访问微软Office 365核心功能源于深度集成Exchange Online、SharePoint Online、Skype for Business、OneDrive for Busines；</p><p>4、高效实时协作</p><p>个人便捷云笔记、强大移动会议室、企业私有云网盘；</p><p>5、强大互动沟通</p><p>新闻发布、通知下达、投票、调查、企业统一通讯录、内部同事圈；</p><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从上海移品得到了这个软件, 并且了解上海移品的<a target=\"_blank\" href=\"http://www.ioffice100.com/downloads/azuremkt/随办服务协议条款.docx\">法律条款</a>适用于它。Microsoft 不为第三方服务商的软件提供权利保护。</p><!--Customer Support-->\n<h3 class=\"msportalfx-text-header\">客户支持</h3>\n<ul>\n    <li>客服邮箱：100@ioffice100.com</li>\n    <li>客服电话：4009210240</li></ul>",
+  "iconPath": "Icons/yipin_sh.workdiff-server-201801_express_zh-cn",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "appInfra",
+    "os",
+    "webRecommended",
+    "web"
+  ],
+  "endpoints": [],
+  "recommendedSizes": [
+    "Standard_DS2_v2",
+    "Standard_F4"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://www.ioffice100.com"
+      }
+    },
+    {
+      "label": "随办配置手册",
+      "uri": {
+        "Default": "http://www.ioffice100.com/downloads/azuremkt/随办Azure操作指南.docx"
+      }
+    }
+  ],
+  "eula": "http://www.ioffice100.com/downloads/azuremkt/随办服务协议条款.docx",
+  "privacy": null,
+  "addHideKey": true,
+  "screenshot": "Screenshots/yipin_sh.workdiff-server-201801_express_zh-cn"
+}

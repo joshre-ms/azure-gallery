@@ -1,0 +1,60 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "5a174964f51f4ef5b1d5b91ef3cd5b81__yuntalk-mediawiki-centos-1.26.3"
+    }
+  },
+  "publisher": "yuntalk",
+  "publisherDisplayName": "众说分云",
+  "publisherLegalName": "合肥众说分云数据科技有限公司",
+  "label": "mediawiki_centos",
+  "displayName": "MediaWiki 1.26.3 (CentOS 7.2)",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "yuntalk",
+    "offer": "mediawiki",
+    "sku": "centos"
+  },
+  "summary": "MediaWiki全球著名的开源wiki程序，是维基百科全书的系统软件，很多网站都采用这套系统。",
+  "description": "<p><strong>产品介绍</strong></p><p>MediaWiki(<a href=\"https://www.mediawiki.org\" target=\"_blank\">https://www.mediawiki.org</a>) 全球最著名的开源维基（Wiki）程序，运行于PHP+MySQL环境。MediaWiki从2002年2月25日被作为维基百科全书的系统软件，并有大量其他应用实例。MediaWiki的开发得到维基媒体基金会的支持。MediaWiki是建立维基网站的首选后台程序，目前国内的灰狐维客等站点都采用这套系统。</p><p><strong>使用说明 </strong></p><ol><li><p>mysql数据库用户名及密码，root:123+Win123</p></li><li><p>Apache Http对外端口：80</p></li><li><p>第一次使用需登录首页依照配置流程提示配置，完成后下载配置文件LocalSettings.php，在本地配置完成后上传回MediaWiki安装目录 /opt/mediawiki-1.26.3</p></li><li><p>MediaWiki帮助文档 <a href=\"https://www.mediawiki.org/wiki/Help:Contents\" target=\"_blank\">https://www.mediawiki.org/wiki/Help:Contents</a></p></li></ol><p><strong>技术详情</strong></p><ul><li><p>使用putty远程登录服务器程序安装位置</p></li><ul><li><p>Apache2.4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/>/opt/apache</p></li><li><p>php5.4 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/>/opt/php</p></li><li><p>mysql5.5 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/>/usr/local</p></li><li><p>mediawiki 1.26.3 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/>/opt/mediawiki1.26.3</p></li></ul><ol><li><p>下载 linux 端的远程工具 putty</p></li><li><p>下载后解压并打开 putty.exe，并输入您的服务器 IP 及端口，端口一般默认为 22</p></li></ol><li><p>系统服务启动和停止 服务启动，停止，重启操作 &nbsp; &nbsp; &nbsp; &nbsp;<br/> service mysql (start|stop|restart) &nbsp; &nbsp; &nbsp; &nbsp;<br/> service httpd (start|stop|restart)</p></li><li><p>log缺省查看地址注意，mysql缺省只记录error-log，如果需要记录全部log，请在/etc/my.cnf配置文件中增加log地址，例如： &nbsp; &nbsp; &nbsp; &nbsp;<br/> general_log=ON &nbsp; &nbsp; &nbsp; &nbsp;<br/> general_log_file=/data/mysqldb/mysql.log</p></li><ul><li><p>mysql &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/>/data/mysqldb/</p></li><li><p>httpd &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br/>/opt/apache/logs/</p></li></ul></ul><p><br/></p><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从众说分云得到了这个软件, 并且了解众说分云的<a target=\"_blank\" href=\"http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf\">法律条款</a>适用于它。世纪互联不为第三方服务商的软件提供权利保护。</p><!--Customer Support--><h3>客户支持<h3><ul><li>客服邮箱：jqm@yuntalk.cn</li><li>客服电话：18755132817</li><ul>",
+  "iconPath": "Icons/yuntalk.mediawiki_centos",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "businessApplication",
+    "webRecommended",
+    "blogCms",
+    "web"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "80"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_D2",
+    "Standard_D1",
+    "Standard_A2"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://yuntalk.cn"
+      }
+    }
+  ],
+  "eula": "http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf",
+  "privacy": null,
+  "addHideKey": true,
+  "screenshot": "Screenshots/yuntalk.mediawiki_centos"
+}
