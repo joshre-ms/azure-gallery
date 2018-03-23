@@ -70,9 +70,10 @@
             }
         },
         {
-            "label": "Pricing details",
+            "label": "Pricing Details",
             "uri": {
-                "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+                    "Default": "http://azure.microsoft.com/pricing/details/virtual-machines/#linux",
+                    "Mooncake": "https://www.azure.cn/pricing/details/virtual-machines/"
             }
         }
     ],
@@ -81,7 +82,7 @@
     "freeTierEligible": "true",
     "defaultImageSizeGB": 30,
     "privacy": "http://www.ubuntu.com/aboutus/privacypolicy",
-    "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
+    "pricingDetailsUri": "http://azure.microsoft.com/pricing/details/virtual-machines/#linux",
     "screenshot": null,
     "cloudEnvironments":  [
         "PublicAzure",
