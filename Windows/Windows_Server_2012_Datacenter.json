@@ -4,16 +4,16 @@
   "displayName": "Windows Server 2012 Datacenter",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-20180111-en.us-127GB.vhd"
+      "mediaName": "a699494373c04fc0bc8f2bb1389d6106__Windows-Server-2012-Datacenter-20180216-en.us-127GB.vhd"
     },
     "Blackforest": {
-      "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-Datacenter-20180111-en.us-127GB.vhd"
+      "mediaName": "6c6aa676f3d94cf88064af211341f3a5__Windows-Server-2012-Datacenter-20180216-en.us-127GB.vhd"
     },
     "Mooncake": {
-      "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-Datacenter-20180111-en.us-127GB.vhd"
+      "mediaName": "55bc2b193643443bb879a78bda516fc8__Windows-Server-2012-Datacenter-20180216-en.us-127GB.vhd"
     },
     "Fairfax": {
-      "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-Datacenter-20180111-en.us-127GB.vhd"
+      "mediaName": "c86ce82eba12456083220ee478773897__Windows-Server-2012-Datacenter-20180216-en.us-127GB.vhd"
     }
   },
      "imageReference": {
