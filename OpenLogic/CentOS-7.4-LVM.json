@@ -57,7 +57,8 @@
 	}, {
 		"label": "Pricing details",
 		"uri": {
-			"Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+			"Default": "http://azure.microsoft.com/pricing/details/virtual-machines/#linux",
+			"Mooncake": "https://www.azure.cn/pricing/details/virtual-machines/"
 		}
 	}],
 	"eula": "http://www.roguewave.com/products-services/services/open-source-software/cloud-services/azure/service-agreement",
