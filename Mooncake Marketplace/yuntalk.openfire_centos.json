@@ -1,0 +1,58 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "5a174964f51f4ef5b1d5b91ef3cd5b81__yuntalk-openfire-centos-1.0.0"
+    }
+  },
+  "publisher": "yuntalk",
+  "publisherDisplayName": "众说分云",
+  "publisherLegalName": "合肥众说分云数据科技有限公司",
+  "label": "openfire_centos",
+  "displayName": "Openfire 4.0.3 (CentOS 7.2)",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "yuntalk",
+    "offer": "openfire",
+    "sku": "centos"
+  },
+  "summary": "Openfire是基于XMPP协议实现的开源RTC即时通信服务器，它的设置和管理非常容易，且具有较高的保密性。",
+  "description": "<p><strong>产品介绍</strong></p><p>Openfire是由Java编写，基于XMPP协议实现的开源RTC（Real-Time Communications） 即时通信服务器。Openfire是由Jive Software于2002年开发的产品。它的设置和管理系统非常容易上手，且具有较高的保密性。</p><p><strong>使用说明</strong></p><ol><li><p>部署后访问 http://{DnsName}:9090/ 进行安装和使用。</p></li><li><p>如果不使用内置数据库，MySQL用户名 root 密码为 toor，选择 driver: com.mysql.jdbc.Driver server: jdbc:[host-name]:localhost,[database-name]:openfire</p></li></ol><p><strong>技术详情</strong></p><ul><li><p>使用SSH、WEB方式登录服务器</p></li><ol><li><p>下载 linux 端的远程工具 putty。</p></li><li><p>下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22。</p></li><li><p>使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd</p></li></ol><li><p>程序安装位置</p></li><ul><li><p>Openfire &nbsp;: /opt/openfire</p></li></ul><li><p>Log缺省查看地址</p></li><ul><li><p>mysql &nbsp; &nbsp;:&nbsp;/opt/openfire/logs</p></li></ul></ul><p><br/></p><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从众说分云得到了这个软件, 并且了解众说分云的<a target=\"_blank\" href=\"http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf\">法律条款</a>适用于它。世纪互联不为第三方服务商的软件提供权利保护。</p><!--Customer Support--><h3>客户支持<h3><ul><li>客服邮箱：jqm@yuntalk.cn</li><li>客服电话：18755132817</li></ul>",
+  "iconPath": "Icons/yuntalk.openfire_centos",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "appInfra",
+    "webRecommended",
+    "web"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "9090"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_A2",
+    "Standard_DS2",
+    "Standard_F1s"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://yuntalk.cn"
+      }
+    }
+  ],
+  "eula": "http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf",
+  "privacy": null,
+  "addHideKey": true
+}

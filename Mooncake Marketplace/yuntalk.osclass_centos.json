@@ -1,0 +1,59 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "5a174964f51f4ef5b1d5b91ef3cd5b81__yuntalk-osclass-centos-1.0.0"
+    }
+  },
+  "publisher": "yuntalk",
+  "publisherDisplayName": "众说分云",
+  "publisherLegalName": "合肥众说分云数据科技有限公司",
+  "label": "osclass_centos",
+  "displayName": "Osclass 3.6.1 (CentOS 7.2)",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "yuntalk",
+    "offer": "osclass",
+    "sku": "centos"
+  },
+  "summary": "OSClass用于创建和管理分类广告网站，它提供了一些特定行业专用扩展和灵活可定制的界面。",
+  "description": "<p><strong>产品介绍</strong></p><p>Osclass是一个基于PHP+MySQL开发，用于创建和管理分类广告网站的开源系统。它可以用于在一个分类的界面中显示任意类型和数量的条目。它也提供了一些特定行业专用的扩展（例如，汽车，求职，房地产，预订等），使得创建这类列表变得方便。这个应用程序还拥有一个可灵活定制的界面（已经有内制多种主题可供选择）。</p><p><strong>使用说明</strong></p><ol><li><p>修改/opt/apache/htdocs/osclass/config.php文件中最后一行， &nbsp; &nbsp; &nbsp; &nbsp;<br/> define(&#39;WEB_PATH&#39;, &#39;http://{DnsName}/osclass/&#39;);</p></li><li><p>Osclass虚拟机部署完毕后，Web服务地址为：http://{DnsName}/osclass/</p></li><li><p>Web入口的管理员用户名密码，admin:admin，请登录后及时修改， &nbsp; &nbsp; &nbsp; &nbsp;<br/> 网站管理入口地址为 http://{DnsName}/osclass/oc-admin/</p></li><li><p>数据库名：joomla，端口：3306； &nbsp; &nbsp; &nbsp; &nbsp;<br/> 数据库用户名及密码，root:123+Win123</p></li><li><p>Osclass帮助文档：<a href=\"https://doc.osclass.org/Main_Page\" target=\"_blank\">https://doc.osclass.org/Main_Page</a>。</p></li></ol><p><strong>技术详情</strong></p><ul><li><p>使用SSH、WEB方式登录服务器</p></li><ol><li><p>下载 linux 端的远程工具 putty。</p></li><li><p>下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22。</p></li><li><p>使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd</p></li><li><p>Osclass访问地址为：http://{DnsName}/osclass/</p></li></ol><li><p>程序安装位置</p></li><ul><li><p>Osclass3.6.1 &nbsp;:&nbsp; /opt/apache/htdocs/osclass</p></li><li><p>Apache2.4.0 &nbsp; :&nbsp; /opt/apache</p></li><li><p>php5.6.22 &nbsp; : &nbsp;/opt/php</p></li><li><p>mysql5.6.30 &nbsp; &nbsp;:&nbsp; &nbsp;/usr/local/mysql</p></li></ul><li><p>系统服务启动和停止 &nbsp; &nbsp; &nbsp; &nbsp;<br/> 服务启动，停止，重启操作（如果mysqld操作服务报错，请kill掉mysql多余的进程，再进行重启操作） &nbsp; &nbsp; &nbsp; &nbsp;<br/> service mysqld (start|stop|restart) &nbsp; &nbsp; &nbsp; &nbsp;<br/> service httpd (start|stop|restart)</p></li><li><p>Log缺省查看地址</p></li><ul><li><p>Apache &nbsp;:&nbsp; &nbsp;/opt/apache/logs</p></li><li><p>mysql &nbsp; &nbsp;:&nbsp; /data/mysqldb</p></li></ul></ul><p><br/></p><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从众说分云得到了这个软件, 并且了解众说分云的<a target=\"_blank\" href=\"http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf\">法律条款</a>适用于它。世纪互联不为第三方服务商的软件提供权利保护。</p><!--Customer Support--><h3>客户支持<h3><ul><li>客服邮箱：jqm@yuntalk.cn</li><li>客服电话：18755132817</li></ul>",
+  "iconPath": "Icons/yuntalk.osclass_centos",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "webRecommended",
+    "blogCms",
+    "devService",
+    "web"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "80"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_A2",
+    "Standard_D2",
+    "Standard_F1"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://yuntalk.cn"
+      }
+    }
+  ],
+  "eula": "http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf",
+  "privacy": null,
+  "addHideKey": true
+}

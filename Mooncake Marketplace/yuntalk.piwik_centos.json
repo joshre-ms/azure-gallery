@@ -1,0 +1,59 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "5a174964f51f4ef5b1d5b91ef3cd5b81__yuntalk-piwik-centos-1.0.0"
+    }
+  },
+  "publisher": "yuntalk",
+  "publisherDisplayName": "众说分云",
+  "publisherLegalName": "合肥众说分云数据科技有限公司",
+  "label": "piwik_centos",
+  "displayName": "Piwik 2.16.1 (CentOS 7.2)",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "yuntalk",
+    "offer": "piwik",
+    "sku": "centos"
+  },
+  "summary": "Piwik 是开放源码的 Web 统计软件，提供网站的实用统计报告，并支持插件功能。",
+  "description": "<p><strong>产品介绍</strong></p><p>Piwik 是一个 PHP 和 MySQL 的开放源代码的 Web 统计软件，它给您一些关于您的网站的实用统计报告，比如网页浏览人数，访问最多的页面，搜索引擎关键词等等。Piwik 拥有众多不同功能的插件，您可以添加新的功能或是移除您不需要的功能，Piwik同样可以安装在您的服务器上面，数据就保存在您自己的服务器上面。您可以非常容易的插入统计图表到您的博客或是网站亦或是后台的控制面板中。安装完成后，您只需将一小段代码放到将要统计的网页中即可。</p><p><strong>使用说明</strong></p><ol><li><p>登陆后，请先切换到root用户下。mysql数据库用户名及密码，root:123+Win123，缺省端口号3306，SSH服务器用户名及密码，是创建虚拟机时所设置的用户名及密码，密码请及时修改。</p></li><li><p>web入口：https://{DnsName}/piwik/index.php Portal界面用户名及密码，root:123+Win123，由于设置HTTPS证书，在每次重启完服务器后，需要先SSH进入服务器重启HTTP服务（service&nbsp; httpd restart）会提示输入证书密码，证书密码：123+Win123，重启完成后，再打开Portal界面。</p></li><li><p>某些软件需要PHP扩展安装，比如mbstring，zlib扩展等，请进入/data/lamp/下面解压缩相应的php源代码包，进行扩展安装。</p></li></ol><p><strong>技术详情</strong></p><ul><li><p>使用putty远程登录服务器</p></li><ol><li><p>下载 linux 端的远程工具 putty。</p></li><li><p>下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22。</p></li><li><p>使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd</p></li></ol><li><p>程序安装位置</p></li><ul><li><p>apache 2.4.20 &nbsp;: &nbsp;/opt/apache</p></li><li><p>php 5.6.22 &nbsp; &nbsp;:&nbsp;/opt/php</p></li><li><p>mysql 5.6.30 &nbsp; :&nbsp;/usr/local/mysql</p></li><li><p>Piwik 2.16.1 &nbsp; :&nbsp;/opt/apache/htdocs/piwik</p></li></ul><li><p>系统服务启动、停止和重启 系统缺省为开机启动，手动操作如下，请用 root 账号或使用 sudo执行。 &nbsp; &nbsp; &nbsp; &nbsp;<br/> service mysql (start|stop|restart) &nbsp; &nbsp; &nbsp; &nbsp;<br/> service httpd (start|stop|restart)</p></li><li><p>log缺省查看地址注意，mysql缺省只记录error-log，如果需要记录全部log，请在/etc/my.cnf配置文件中增加log地址，例如： &nbsp; &nbsp; &nbsp; &nbsp;<br/> general_log=ON &nbsp; &nbsp; &nbsp; &nbsp;<br/> general_log_file=/data/mysqldb/mysql.log</p></li><ul><li><p>mysql &nbsp; &nbsp;:&nbsp;/data/mysqldb/</p></li><li><p>httpd &nbsp; &nbsp;:&nbsp;/opt/apache/logs/</p></li></ul><li><p>其它 &nbsp; &nbsp; &nbsp; &nbsp;<br/> 如果需要PHP扩展安装，比如mbstring，zlib扩展等，请进入/data/lamp/下面解压缩相应的php5.6.22源代码包，进行扩展安装.</p></li></ul><p><br/></p><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从众说分云得到了这个软件, 并且了解众说分云的<a target=\"_blank\" href=\"http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf\">法律条款</a>适用于它。世纪互联不为第三方服务商的软件提供权利保护。</p><!--Customer Support--><h3>客户支持<h3><ul><li>客服邮箱：jqm@yuntalk.cn</li><li>客服电话：18755132817</li></ul>",
+  "iconPath": "Icons/yuntalk.piwik_centos",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "appInfra",
+    "analytics",
+    "webRecommended",
+    "web"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "80"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_D1",
+    "Standard_D2",
+    "Standard_F2"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://yuntalk.cn"
+      }
+    }
+  ],
+  "eula": "http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf",
+  "privacy": null,
+  "addHideKey": true
+}
