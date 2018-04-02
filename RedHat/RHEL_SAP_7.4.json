@@ -1,0 +1,70 @@
+{
+    "publisher": "RedHat",
+    "publisherDisplayName": "Red Hat",
+    "label": "Red Hat Enterprise Linux 7.4 for SAP HANA",
+    "displayName": "Red Hat Enterprise Linux 7.4 for SAP HANA",
+    "imageReference": {
+        "publisher": "RedHat",
+        "offer": "RHEL-SAP",
+        "sku": "7.4"
+    },
+    "OS": "Linux",
+    "summary": "Red Hat Enterprise Linux 7 for SAP HANA",
+    "description": "<p><b>Red Hat Enterprise Linux 7.4 for SAP HANA - Pay-As-You-Go Premium Image</b></p><p>Red Hat Enterprise Linux is the world's leading enterprise Linux platform built to meet the needs of today's modern enterprise. Red Hat Enterprise Linux is the preferred choice for enterprise Linux virtual machine (VM) workloads on Microsoft Azure. Red Hat Enterprise Linux is an open, reliable, and secure platform designed for customers who want deployment flexibility for their business-critical workloads - from the data center to the Azure cloud - backed by tightly integrated, enterprise-grade support from Red Hat and Microsoft.</p><p><b>Pricing</b></p><p>Use of this Pay-As-You-Go image carries a separate hourly charge that is <i>in addition</i> to Microsoft's Linux VM rates. Total price of the VM consists of the base Linux VM price (shown on the next pages) plus RHEL VM image surcharge. See <a href='https://azure.microsoft.com/pricing/details/virtual-machines/red-hat/' _target='_blank'>Red Hat Enterprise Linux pricing</a> for details.</p><p><b>Use of subscription credits with this offer</b></p><p><ul><li>This offer cannot be used with Free trial or monthly monetary credits subscriptions. Ensure your subscription has a valid payment method and no spending limit.</li><li>Enterprise Agreement commitment funds will be applied towards this offer.</li></ul></p><p><b>Legal Terms</b></p><p>By clicking 'Create': I (a) agree to the <a href='http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Cloud_Software_Subscription_Agreement_for_Microsoft_Azure.pdf' _target='blank'>legal terms</a> and <a href='http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Privacy_Statement_for_Microsoft_Azure.pdf' _target='blank'>privacy statement</a> associated with this offering, (b) authorize Microsoft to charge or bill my current payment method for the fees associated with my use of the offering, including applicable taxes, with the same billing frequency as my Azure subscription, until I discontinue use of the offering, and (c) agree that Microsoft may share my contact information and transaction details with Red Hat. Microsoft does not provide rights for third-party products or services. See the <a href='https://azure.microsoft.com/support/legal/marketplace-terms/' _target='blank'>Azure Marketplace Terms</a> for additional terms.</p>",
+    "descriptionsForEnvironments": {
+        "Fairfax": "<p><b>Red Hat Enterprise Linux 7.4 for SAP HANA - Pay-As-You-Go Premium Image</b></p><p>Red Hat Enterprise Linux is the world's leading enterprise Linux platform built to meet the needs of today's modern enterprise. Red Hat Enterprise Linux is the preferred choice for enterprise Linux virtual machine (VM) workloads on Microsoft Azure. Red Hat Enterprise Linux is an open, reliable, and secure platform designed for customers who want deployment flexibility for their business-critical workloads - from the data center to the Azure cloud - backed by tightly integrated, enterprise-grade support from Red Hat and Microsoft.</p><p><b>Pricing</b></p><p>Use of this Pay-As-You-Go image carries a separate hourly charge that is <i>in addition</i> to Microsoft's Linux VM rates. Total price of the VM consists of the base Linux VM price (shown on the next pages) plus RHEL VM image surcharge. See <a href='https://azure.microsoft.com/pricing/details/virtual-machines/red-hat/' _target='_blank'>Red Hat Enterprise Linux pricing</a> for details.</p><p><b>Use of subscription credits with this offer</b></p><p><ul><li>This offer cannot be used with Free trial or monthly monetary credits subscriptions. Ensure your subscription has a valid payment method and no spending limit.</li><li>Enterprise Agreement commitment funds will be applied towards this offer.</li></ul></p><p><b>Legal Terms</b></p><p>By clicking 'Create': I (a) agree to the <a href='http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Cloud_Software_Subscription_Agreement_for_Microsoft_Azure.pdf' _target='blank'>legal terms</a> and <a href='http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Privacy_Statement_for_Microsoft_Azure.pdf' _target='blank'>privacy statement</a> associated with this offering, (b) authorize Microsoft to charge or bill my current payment method for the fees associated with my use of the offering, including applicable taxes, with the same billing frequency as my Azure subscription, until I discontinue use of the offering, and (c) agree that Microsoft may share my contact information and transaction details with Red Hat. For VMs deployed from this image in Azure US Government you are not permitted to transmit information, data or technology governed by the International Traffic in Arms Regulations (ITAR), or otherwise requiring an export license, to Red Hat in the course of your use of this product. Microsoft does not provide rights for third-party products or services. See the <a href='https://azure.microsoft.com/support/legal/marketplace-terms/' _target='blank'>Azure Marketplace Terms</a> for additional terms.</p>"
+    },
+    "iconPath": "Icons",
+    "categories": [
+        "virtualMachine",
+        "microsoftServer",
+        "azure",
+        "linux",
+        "appInfra",
+        "azureCertified",
+        "virtualMachineRecommended",
+        "redhatenterpriselinuxcuration"
+    ],
+    "recommendedSizes": [
+        "Standard_D2_v3",
+        "Standard_D2s_v3",
+        "Standard_D4s_v3",
+        "Standard_D2_v2",
+        "Standard_DS2_v2",
+        "Standard_D2",
+        "Standard_DS2",
+        "Standard_A2"
+    ],
+    "links": [
+        {
+            "label": "Learn more",
+            "uri": "http://www.redhat.com/en/technologies/linux-platforms/enterprise-linux"
+        },
+        {
+            "label": "Documentation",
+            "uri": "http://access.redhat.com/documentation/en/red-hat-enterprise-linux"
+        },
+        {
+            "label": "Pricing details",
+            "uri": "http://azure.microsoft.com/pricing/details/virtual-machines/#linux"
+        }
+    ],
+    "eula": "http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Cloud_Software_Subscription_Agreement_for_Microsoft_Azure.pdf",
+    "privacy": "http://www.redhat.com/licenses/cloud_CSSA/Red_Hat_Privacy_Statement_for_Microsoft_Azure.pdf",
+    "screenshot": null,
+    "isPremiumThirdParty": true,
+    "cloudEnvironments": [
+        "PublicAzure"
+    ],
+    "leadGeneration": {
+        "PublicAzure": {
+            "productId": "firstParty_RHEL_SAP_HANA_7.4"
+        },
+        "Fairfax": {
+            "productId": ""
+        },
+        "Blackforest": {
+            "productId": ""
+        }
+    }
+}
