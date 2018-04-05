@@ -1,0 +1,140 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "b841e57563e84ffabba658a92c95f4f6__Sinoage-actifio-2018-standard-7.0.1"
+    }
+  },
+  "publisher": "Sinoage",
+  "publisherDisplayName": "信诺",
+  "publisherLegalName": "北京信诺时代科技股份有限公司",
+  "label": "actifio-2018_standard",
+  "displayName": "Actifio Sky",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "Sinoage",
+    "offer": "actifio-2018",
+    "sku": "standard"
+  },
+  "summary": "Actifio Sky是一款容灾备份和数据迁移工具，帮助用户把数据备份或迁移到Azure上。",
+  "description": "<p>&nbsp;&nbsp;&nbsp;&nbsp;</p><p><strong>适用于混合云的数据虚拟化 - 适用于DevOps，即时恢复和云备份的快速数据访问</strong></p><p>&nbsp;</p><p>Actifio帮助企业更快地转向Microsoft Azure，将云用于从灾难恢复到DevOps的业务弹性和敏捷性用例。 通过虚拟化应用程序数据，Actifio可让客户在混合云环境中移动，使用和保护数据，使其可在任何地方立即提供给已批准的用户。</p><p>&nbsp;</p><p>对于面临按需利用云资源压力的组织，特别是Azure，Actifio可为云提供安全的入站通道，使IT团队可以摆脱“数据严重性”的问题，数据严重滞留在本地安装的硬件 如昂贵的重复数据删除设备，磁带备份或VTL系统，甚至昂贵的存储阵列。</p><p>&nbsp;</p><p>Actifio进一步增强了数据访问和可用性，能够立即从Azure Blob对象存储设备提供虚拟机，并支持全局文件搜索，以立即恢复公司基础设施内任何位置受保护的文件。</p><p>&nbsp;</p><p>想要…</p><p>即时恢复应用程序数据以便在云中进行灾难恢复？</p><p>通过调配SQL Server或其他数据库的虚拟副本来加速开发和分析周期以测试，开发DevOps和BI团队？</p><p>将数据保存到Azure或备份数据？</p><p>加速Azure的采用，同时保留数据和云的移动性？</p><p>利用即时虚拟机访问获得对象存储的经济性？</p><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从信诺得到了这个软件, 并且了解信诺的<a target=\"_blank\" href=\"https://d7umqicpi7263.cloudfront.net/eula/product/8f9551fb-7d4e-4e50-a15e-6fe63d2c9b11/411820fa-6939-434b-9caa-d0b422382ac4.txt\">法律条款</a>适用于它。世纪互联不为第三方服务商的软件提供权利保护。</p><!--Customer Support--><h3 class=\"msportalfx-text-header>客户支持</h3><ul><li>客服邮箱：zhanghw@sinoage.com</li><li>客服电话：4006625896</li><li>QQ：503692234</li><li>微信：sinoage2010</li></ul>",
+  "iconPath": "Icons/Sinoage.actifio-2018_standard",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "storage",
+    "backup",
+    "devOps"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "80"
+    },
+    {
+      "endpointName": "port-2",
+      "protocol": "TCP",
+      "publicPort": "443"
+    },
+    {
+      "endpointName": "port-3",
+      "protocol": "TCP",
+      "publicPort": "5103"
+    },
+    {
+      "endpointName": "port-4",
+      "protocol": "TCP",
+      "publicPort": "5106"
+    },
+    {
+      "endpointName": "port-5",
+      "protocol": "TCP",
+      "publicPort": "3260"
+    },
+    {
+      "endpointName": "port-6",
+      "protocol": "TCP",
+      "publicPort": "5107"
+    },
+    {
+      "endpointName": "port-7",
+      "protocol": "TCP",
+      "publicPort": "26"
+    },
+    {
+      "endpointName": "port-8",
+      "protocol": "TCP",
+      "publicPort": "3389"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_A4"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "https://www.actifio.com/"
+      }
+    },
+    {
+      "label": "Actifio NOW Customer Portal",
+      "uri": {
+        "Default": "https://actifio.force.com/c2/C2LoginPage"
+      }
+    },
+    {
+      "label": "Actifio Sky Data Sheet",
+      "uri": {
+        "Default": "http://cdn2.hubspot.net/hubfs/214442/ACT_14-193_Sky_Family_Data_Sheet_160505.pdf"
+      }
+    },
+    {
+      "label": "Contact Actifio Customer Success",
+      "uri": {
+        "Default": "http://www.actifio.com/customer-support/#help"
+      }
+    },
+    {
+      "label": "Demo：Provision SQL Server DBs for Test/Dev or Any Use in Minutes",
+      "uri": {
+        "Default": "http://www.actifio.com/resources/sql-devtest-data-demo/"
+      }
+    },
+    {
+      "label": "Demo：Rapid Recovery of 5TB SQL Server with Actifio",
+      "uri": {
+        "Default": "https://www.actifio.com/resources/actifio-ms-sql-server-part-22/"
+      }
+    },
+    {
+      "label": "Deployment Guide：Actifio Sky on Azure",
+      "uri": {
+        "Default": "https://www.actifio.com/microsoft-azure/"
+      }
+    },
+    {
+      "label": "For more detail - Actifio Resource Center",
+      "uri": {
+        "Default": "http://www.actifio.com/resource-center"
+      }
+    },
+    {
+      "label": "Solution Brief：Actifio Sky on Azure",
+      "uri": {
+        "Default": "http://cdn2.hubspot.net/hubfs/214442/Actifio%20Sky%20in%20Azure.pdf"
+      }
+    }
+  ],
+  "eula": "https://d7umqicpi7263.cloudfront.net/eula/product/8f9551fb-7d4e-4e50-a15e-6fe63d2c9b11/411820fa-6939-434b-9caa-d0b422382ac4.txt",
+  "privacy": null,
+  "addHideKey": true,
+  "screenshot": "Screenshots/Sinoage.actifio-2018_standard"
+}
