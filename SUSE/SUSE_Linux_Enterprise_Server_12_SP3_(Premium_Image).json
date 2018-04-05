@@ -61,14 +61,14 @@
         {
             "label": "Pricing details",
             "uri": {
-                "Default": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux"
+                "Default": "https://azure.microsoft.com/pricing/details/virtual-machines/#linux"
             }
         }
     ],
     "eula": "https://www.suse.com/licensing/eula/",
     "privacy": "https://www.suse.com/company/policies/privacy/",
     "screenshot": "Screenshots/suse.png",
-    "pricingDetailsUri": "http://azure.microsoft.com/en-us/pricing/details/virtual-machines/#linux",
+    "pricingDetailsUri": "https://azure.microsoft.com/pricing/details/virtual-machines/#linux",
 "leadGeneration": {
           "PublicAzure": {
              "productId":"firstParty_SUSE_Linux_Enterprise_Server_12_SP3_(Premium_Image)"
