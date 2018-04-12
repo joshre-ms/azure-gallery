@@ -58,7 +58,7 @@
     ],
     "leadGeneration": {
         "PublicAzure": {
-            "productId": "firstParty_RHEL_SAP_HANA_7.4"
+            "productId": "firstParty_RHEL_SAP_7.4"
         },
         "Fairfax": {
             "productId": ""
