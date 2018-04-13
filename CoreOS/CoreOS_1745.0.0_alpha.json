@@ -5,13 +5,13 @@
   "publisherDisplayName": "CoreOS",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Alpha-1729.0.0"
+      "mediaName": "2b171e93f07c4903bcad35bda10acf22__CoreOS-Alpha-1745.0.0"
     },
     "Blackforest": {
-      "mediaName": "ac384aecd6d24eaca1268cedd335f2a9__CoreOS-Alpha-1729.0.0"
+      "mediaName": "ac384aecd6d24eaca1268cedd335f2a9__CoreOS-Alpha-1745.0.0"
     },
     "Mooncake": {
-      "mediaName": "a54f4e2924a249fd94ad761b77c3e83d__CoreOS-Alpha-1729.0.0"
+      "mediaName": "a54f4e2924a249fd94ad761b77c3e83d__CoreOS-Alpha-1745.0.0"
     }
   },
   "imageReference": {
