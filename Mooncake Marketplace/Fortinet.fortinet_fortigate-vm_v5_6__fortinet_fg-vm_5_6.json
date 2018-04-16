@@ -64,6 +64,6 @@
   ],
   "eula": "http://www.fortinet.com/content/dam/fortinet/assets/legal/EULA.pdf",
   "privacy": null,
-  "addHideKey": true,
+  "addHideKey": false,
   "screenshot": "Screenshots/Fortinet.fortinet_fortigate-vm_v5_6__fortinet_fg-vm_5_6"
 }
