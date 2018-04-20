@@ -1,0 +1,58 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "5a174964f51f4ef5b1d5b91ef3cd5b81__yuntalk-prestashop-1_6-zh_cn_centos-1.0.0"
+    }
+  },
+  "publisher": "yuntalk",
+  "publisherDisplayName": "众说分云",
+  "publisherLegalName": "合肥众说分云数据科技有限公司",
+  "label": "prestashop-1_6_zh_cn_centos",
+  "displayName": "Prestashop 1.6.1.6 简体中文 (CentOS 7.2)",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "yuntalk",
+    "offer": "prestashop-1_6",
+    "sku": "zh_cn_centos"
+  },
+  "summary": "Prestashop是一款针对web2.0设计的全功能、跨平台的免费开源电子商务解决方案。",
+  "description": "<p><strong>产品介绍</strong></p><p>Prestashop是一款针对web2.0设计的全功能、跨平台的免费开源电子商务解决方案，自08年1.0版本发布，短短两年时间，发展迅速，全球已超过四万家网店采用Prestashop进行部署。Prestashop基于Smarty引擎编程设计，模块化设计，扩展性强，能轻易实现多种语言，多种货币浏览交易，支持Paypal等几乎所有的支付手段，是外贸网站建站的佳选。Prestashop是目前为止，操作最简单，最人性化，用户体验最佳的电子商务解决方案之一。</p><p><strong>使用说明</strong></p><ol><li><p>PrestaShop应用可通过公共IP地址/prestashop/进行Web访问；也可点击进入公共IP地址配置自定义域名，然后通过浏览器http://{DnsName}/prestashop/进行访问。</p></li><li><p>初次使用将自动进入配置向导，按指示完成配置即可。应先配置数据库，使用合适的用户名和密码进行PrestaShop的配置。<br/></p><p></p></li><li><p>数据库为MariaDB（兼容MySQL），用户名为root，密码为123+Win123，请登录后及时修改。<br/></p></li><li><p>prestashop官方帮助文档：<a href=\"https://www.prestashop.com/en/documentation\" target=\"_blank\">https://www.prestashop.com/en/documentation</a></p></li></ol><p><strong>技术详情</strong></p><ul><li><p>使用SSH、WEB方式登录服务器</p></li><ol><li><p>下载 linux 端的远程工具 putty。</p></li><li><p>下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22。</p></li><li><p>使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd</p></li><li><p>Prestashop访问地址为：http://{IP-or-DnsName}/prestashop/</p></li></ol><li><p>程序安装位置</p></li><ul><li><p>Prestashop 1.6.1.6&nbsp; ：/var/www/html/prestashop</p></li><li><p>Apache 2.4.6&nbsp; ：标准路径</p></li><li><p>MariaDB 5.5.56&nbsp; ：标准路径</p></li><li><p>PHP 5.4.16 ：&nbsp;标准路径</p></li></ul><li><p>系统服务启动、停止和重启，查看状态&nbsp; &nbsp;&nbsp;<br/> </p><p>sudo service mariadb (start|stop|restart|status)</p><p>sudo service httpd (start|stop|restart|status)</p></li><li><p>Log缺省查看地址</p></li><ul><li><p>Apache&nbsp; ：/var/log/httpd<br/></p></li><li><p>mysql &nbsp;：&nbsp;/var/log/mariadb</p></li></ul></ul><p><br/></p><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从众说分云得到了这个软件, 并且了解众说分云的<a target=\"_blank\" href=\"http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf\">法律条款</a>适用于它。世纪互联不为第三方服务商的软件提供权利保护。</p><!--Customer Support--><h3 class=\"msportalfx-text-header>客户支持</h3><ul><li>客服邮箱：azure-support@yuntalk.cn</li><li>客服电话：400-9218-014</li><li>微信：cloudvoice</li></ul>",
+  "iconPath": "Icons/yuntalk.prestashop-1_6_zh_cn_centos",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "webRecommended",
+    "ecommerce",
+    "web"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "80"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_D1",
+    "Standard_D2",
+    "Standard_F2"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://yuntalk.cn"
+      }
+    }
+  ],
+  "eula": "http://yuntalk.cn/%E4%BC%97%E8%AF%B4%E5%88%86%E4%BA%91%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf",
+  "privacy": null,
+  "addHideKey": true
+}
