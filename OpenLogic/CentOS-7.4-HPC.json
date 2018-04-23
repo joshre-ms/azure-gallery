@@ -20,6 +20,7 @@
 	"summary": "This distribution of Linux is based on CentOS and is provided by Rogue Wave Software.",
 	"description": "This distribution of Linux High Performance Computing (HPC) is based on CentOS version 7.3 and is provided by Rogue Wave Software (formerly OpenLogic). It contains an installation of the Basic Server packages and is intended for HPC workloads on Azure's A8 and A9 instances.",
 	"iconPath": "Icons",
+    "supportsSriov": true,
 	"categories": [
 		"virtualMachine",
 		"microsoftServer",
