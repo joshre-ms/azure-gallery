@@ -31,7 +31,7 @@
     "OS": "Linux",
      "description": "<p><b>SUSE Linux Enterprise Server 12 SP2</b></p><p>Confidently run your production workloads on SUSE Linux Enterprise Server on Microsoft Azure, knowing that your service levels are guaranteed, and that help from SUSE and Microsoft engineers, if you need it, is just a phone call away.</p><p>SUSE Linux Enterprise Server is the <i>only</i> supported Enterprise Linux virtual machine (VM) distribution available on Microsoft Azure, and the only one supported with tools like <a href='https://susestudio.com' target='_blank'>SUSE Studio</a> for quick and easy image creation, and <a href='https://www.suse.com/products/suse-manager/' target='_blank'>SUSE Manager</a> for monitoring and managing your Linux virtual machines using Microsoft Systems Center.</p><p><i>Instances of BYOS (bring your own subscription) images must be registered using your SUSE subscription keys in order to receive security updates and support.</i></p>",
     "iconPath": "Icons/SUSE",
-    "supportsSriov": true,
+    "supportsSriov": false,
     "categories": [
         "virtualMachine",
         "microsoftServer",
