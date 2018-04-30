@@ -2,7 +2,8 @@
     "publisher": "Oracle",
     "label": "Oracle Linux 7.4",
     "displayName": "Oracle Linux 7.4",
-    "MediaName": "c290a6b031d841e09f2da759bbabe71f__OracleLinux-7.4-x86_64-20180228-b1268",
+    "MediaName": "c290a6b031d841e09f2da759bbabe71f__OracleLinux-7.4-x86_64-b1394",
+
     "imageReference": {
       "publisher": "Oracle",
       "offer": "Oracle-Linux",
