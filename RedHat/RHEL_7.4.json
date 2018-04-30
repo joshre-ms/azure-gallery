@@ -17,7 +17,7 @@
     "imageReference": {
         "publisher": "RedHat",
         "offer": "RHEL",
-        "sku": "7-RAW"
+        "sku": "7.4"
     },
     "OS": "Linux",
     "summary": "Red Hat Enterprise Linux 7 is the world's leading enterprise Linux platform built to meet the needs of today's modern enterprise.",
