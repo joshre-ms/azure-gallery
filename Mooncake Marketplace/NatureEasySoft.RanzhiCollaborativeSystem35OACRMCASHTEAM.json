@@ -1,0 +1,58 @@
+﻿{
+  "cloudEnvironments": [
+    "Mooncake"
+  ],
+  "mediaReferences": {
+    "Mooncake": {
+      "mediaName": "91c0e4bfecc045c5861d9a3de8b94adc__Ranzhi-Collaborative-System-3_5"
+    }
+  },
+  "publisher": "NatureEasySoft",
+  "publisherDisplayName": "易软天创",
+  "publisherLegalName": "青岛易软天创网络科技有限公司",
+  "label": "RanzhiCollaborativeSystem35OACRMCASHTEAM",
+  "displayName": "然之协同系统3.5（OA+CRM+CASH+TEAM）",
+  "imageType": "VMImage",
+  "os": "Linux",
+  "imageReference": {
+    "publisher": "NatureEasySoft",
+    "offer": "RanzhiCollaborativeSystem35OACRMCASHTEAM",
+    "sku": "Ubuntu"
+  },
+  "summary": "然之协同系统由客户管理(crm)、日常办公(oa)、现金记账(cash)、团队分享(team)和应用导航(ips)五大模块组成，主要面向中小团队的企业内部管理。和市面上其他的产品相比，然之协同更专注于提供一体化、精简的解决方案。",
+  "description": "<h3><strong>产品介绍</strong></h3>\r\n\r\n<p>然之协同系统由客户管理(crm)、日常办公(oa)、现金记账(cash)、团队分享(team)和应用导航(ips)五大模块组成，主要面向中小团队的企业内部管理。和市面上其他的产品相比，然之协同更专注于提供一体化、精简的解决方案。随着互联网的发展，企业内部信息化管理的重要程度越来越高。企业信息化管理的水平决定了整个企业的运转效率和响应速度。有了然之，企业无需再搭建各种各样的crm系统，oa系统，论坛啊之类的，用一个软件就可以解决这些核心的问题。而且每个功能模块我们只提供最重要最核心的 功能。<br />\r\n<strong><img alt=\"\" src=\"https://www.ranzhico.com/data/upload/201511/f_00c9c4840dc5b7b009fc1ec66d93aff2.png\" /></strong></p>\r\n\r\n<table border=\"1\" bordercolor=\"#cccccc\" cellpadding=\"2\" cellspacing=\"0\" height=\"194\" style=\"width:100%;\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td><strong>客户管理(crm)</strong></td>\r\n\t\t\t<td>客户管理主要是为销售团队使用的，包括了客户资料的维护、订单的跟踪维护、合同的跟踪维护以及联系人的跟踪和维护。</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>日常办公(oa)</strong></td>\r\n\t\t\t<td>日常办公目前包含了项目管理、公告管理和文档管理三大功能，可以满足中小团队日常的办公管理。</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>现金记账(cash)</strong></td>\r\n\t\t\t<td>现金记账模块主要是给公司的财务人员和管理人员使用，可以用来记录公司日常的收入和支出，以掌握公司的运营情况。</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>团队分享(team)</strong></td>\r\n\t\t\t<td>团队分享模块则包括了论坛、博客、通讯录等功能，可以满足团队内部的交流和分享的目的。</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><strong>应用导航(ips)</strong></td>\r\n\t\t\t<td>每个企业都有自己各种各样的管理系统和工具，可以将这些添加为然之系统的一个个应用，统一进行管理。</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<h3><strong>使用说明</strong></h3>\r\n1. 在Azure镜像市场选择然之镜像，然后点击&ldquo;部署&rdquo;。<br />\r\n2. 部署成功之后的入口地址：http：//{DnsName}.chinacloudapp.cn<br />\r\n3. 使用浏览器访问该入口，即可进入然之的初始配置页面。<br />\r\n4. 在数据库参数配置页面，我们已经填好了参数，您只需要保存即可。<br />\r\n5. 数据库管理员帐号为root，密码是123456。<br />\r\n6. 最后您可以设置默认的管理员帐号和密码。<br />\r\n7. 然之具体的使用手册请参考：<a href=\"https://www.ranzhico.com/book/\">https://www.ranzhico.com/book/</a>&nbsp;\r\n\r\n<h3><strong>技术详情</strong></h3>\r\n使用SSH、WEB方式登录服务器\r\n\r\n<div style=\"background:#eee;border:1px solid #ccc;padding:5px 10px;\">1. 下载 linux 端的远程工具 putty。&nbsp;<br />\r\n2. 下载后解压并打开 putty.exe，并输入您的服务器 IP（或DNS域名地址）及端口，端口一般默认为 22。<br />\r\n3. 使用部署虚拟机的时候生成的用户名登录，此用户名具有sudo权限，进入Linux后如果需要root权限，可以执行： sudo passwd<br />\r\n4. 然之的访问地址为：http：//{DnsName}.chinacloudapp.cn/</div>\r\n<br />\r\n程序安装和配置路径：\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 500px;\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>ranzhi</td>\r\n\t\t\t<td>/var/www/ranzhi</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>nginx</td>\r\n\t\t\t<td>/etc/nginx</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>php7</td>\r\n\t\t\t<td>/etc/php7</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>mariadb</td>\r\n\t\t\t<td>/etc/mysql</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n<br />\r\n系统服务启动和停止<br />\r\n服务启动，停止，重启操作（如果mysqld操作服务报错，请kill掉mysql多余的进程，再进行重启操作）\r\n<div style=\"background:#eee;border:1px solid #ccc;padding:5px 10px;\">&nbsp; service mysqld (start|stop|restart)&nbsp;<br />\r\n&nbsp; service nginx(start|stop|restart)</div>\r\n<br />\r\nLog缺省查看地址\r\n<div style=\"background:#eee;border:1px solid #ccc;padding:5px 10px;\">&nbsp; nginx &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /var/log/nginx<br />\r\n&nbsp; mariadb &nbsp; &nbsp; /var/log/mysqld.log</div><!--Legal Terms--><h3 class=\"msportalfx-text-header\">法律声明</h3><p></p><p>通过单击 \"创建\" 按钮, 我承认我从易软天创得到了这个软件, 并且了解易软天创的<a target=\"_blank\" href=\"http://zpl.pub/page/zplv12.html\">法律条款</a>适用于它。世纪互联不为第三方服务商的软件提供权利保护。</p><!--Customer Support--><h3 class=\"msportalfx-text-header>客户支持</h3><ul><li>客服邮箱：co@zentao.net</li><li>客服电话：4006-889923</li><li>QQ：1492153927</li><li>微博：http://weibo.com/easysoft/</li></ul>",
+  "iconPath": "Icons/NatureEasySoft.RanzhiCollaborativeSystem35OACRMCASHTEAM",
+  "categories": [
+    "linux",
+    "virtualMachine",
+    "microsoftServer",
+    "azure",
+    "azureCertified",
+    "webRecommended",
+    "web"
+  ],
+  "endpoints": [
+    {
+      "endpointName": "port-1",
+      "protocol": "TCP",
+      "publicPort": "80"
+    }
+  ],
+  "recommendedSizes": [
+    "Standard_A2_v2",
+    "Standard_D1_v2",
+    "Standard_D2_v2"
+  ],
+  "linksForEnvironments": [
+    {
+      "label": "来源网站",
+      "uri": {
+        "Default": "http://www.ranzhico.com"
+      }
+    }
+  ],
+  "eula": "http://zpl.pub/page/zplv12.html",
+  "privacy": null,
+  "addHideKey": true,
+  "screenshot": "Screenshots/NatureEasySoft.RanzhiCollaborativeSystem35OACRMCASHTEAM"
+}
