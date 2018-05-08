@@ -29,7 +29,7 @@
       "sku": "12-SP3"
     },
     "OS": "Linux",
-     "description": "<p><b>SUSE Linux Enterprise Server for SAP Applications 12 SP3 (Bring Your Own Subscription)</b></p><p>Get the most from your SAP HANA and SAP business application software with decreased downtime, greater operating efficiency, and accelerated innovation. Utilize your business data in real time with the power of SAP and the reliability, availability, and serviceability of SUSE Linux Enterprise Server for SAP Applications.</p><p><i>Instances of BYOS (bring your own subscription) images must be registered using your SUSE subscription keys in order to receive security updates and support.</i></p>",
+    "description": "<p><b>SUSE Linux Enterprise Server for SAP Applications 12 Service Pack 3</b></p><p>Get the most from your SAP HANA and SAP business application software with decreased downtime, greater operating efficiency, and accelerated innovation. Utilize your business data in real time with the power of SAP and the reliability, availability, and serviceability of SUSE Linux Enterprise Server for SAP Applications.</p><p><i>Instances of BYOS (bring your own subscription) images must be registered using your SUSE subscription keys in order to receive security updates and support.</i></p>",
     "iconPath": "Icons/SUSE",
     "supportsSriov": true,
     "categories": [
