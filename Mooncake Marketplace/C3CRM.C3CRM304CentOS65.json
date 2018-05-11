@@ -4,7 +4,7 @@
   ],
   "mediaReferences": {
     "Mooncake": {
-      "mediaName": "c109cbcdf0ce4393b6c00e97aea68db0__C3CRM-3_0_4"
+      "mediaName": "c109cbcdf0ce4393b6c00e97aea68db0__C3CRM-3_0_4-1"
     }
   },
   "publisher": "C3CRM",
@@ -53,6 +53,6 @@
   ],
   "eula": "http://www.apache.org/licenses/LICENSE-2.0.html",
   "privacy": null,
-  "addHideKey": true,
+  "addHideKey": false,
   "screenshot": "Screenshots/C3CRM.C3CRM304CentOS65"
 }

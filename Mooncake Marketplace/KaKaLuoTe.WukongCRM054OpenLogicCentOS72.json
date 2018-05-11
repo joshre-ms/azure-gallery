@@ -53,6 +53,6 @@
   ],
   "eula": "http://www.crm.cc/product/free",
   "privacy": null,
-  "addHideKey": true,
+  "addHideKey": false,
   "screenshot": "Screenshots/KaKaLuoTe.WukongCRM054OpenLogicCentOS72"
 }

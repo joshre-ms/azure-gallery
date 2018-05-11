@@ -135,6 +135,6 @@
   ],
   "eula": "https://d7umqicpi7263.cloudfront.net/eula/product/8f9551fb-7d4e-4e50-a15e-6fe63d2c9b11/411820fa-6939-434b-9caa-d0b422382ac4.txt",
   "privacy": null,
-  "addHideKey": true,
+  "addHideKey": false,
   "screenshot": "Screenshots/Sinoage.actifio-2018_standard"
 }
