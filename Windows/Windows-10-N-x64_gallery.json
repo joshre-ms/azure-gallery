@@ -4,7 +4,7 @@
   "displayName": "Windows 10 Enterprise N (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Windows-10-N-x64-2018-04-11"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__Windows-10-N-x64-2018-05-09"
     }
   },
   "imageReference": {
@@ -13,7 +13,7 @@
     "sku": "Windows-10-N-x64"
   },
   "OS": "Windows",
-  "description": "<p>This image contains Windows 10 Enterprise N (x64) (Fall Creators Update (RS3)) and is exclusively available to Visual Studio subscribers.  It allows you to easily and quickly set up an environment in Azure to develop and test applications targeting Windows 10.</p><p>Join the Windows Insider Program (https://insider.windows.com/) to receive more frequent, incremental builds of Windows.</p><p>This image was created from the latest bits available on 4/11/2018.</p>",
+  "description": "<p>This image contains Windows 10 Enterprise N (x64) (Fall Creators Update (RS3)) and is exclusively available to Visual Studio subscribers.  It allows you to easily and quickly set up an environment in Azure to develop and test applications targeting Windows 10.</p><p>Join the Windows Insider Program (https://insider.windows.com/) to receive more frequent, incremental builds of Windows.</p><p>This image was created from the latest bits available on 5/9/2018.</p>",
   "iconPath": "Icons/Client",
   "categories": [
     "virtualMachine",

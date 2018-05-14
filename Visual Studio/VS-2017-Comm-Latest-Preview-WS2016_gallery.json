@@ -4,10 +4,10 @@
   "displayName": "Visual Studio Community 2017 (latest preview) on Windows Server 2016 (x64)",
   "mediaReferences": {
     "PublicAzure": {
-      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-Comm-Latest-Preview-WS2016-2018-04-26"
+      "mediaName": "03f55de797f546a1b29d1b8d66be687a__VS-2017-Comm-Latest-Preview-WS2016-2018-05-07"
     },
     "Fairfax": {
-      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2017-Comm-Latest-Preview-WS2016-2018-04-26"
+      "mediaName": "a31f232d975d4d38bdbb42ddd08079b4__VS-2017-Comm-Latest-Preview-WS2016-2018-05-07"
     },
     "Mooncake": {
       "mediaName": "d470023494674677a3094100e43cd68d__VS-2017-Comm-Latest-Preview-WS2016-2018-04-26"
@@ -19,7 +19,7 @@
     "sku": "VS-2017-Comm-Latest-Preview-WS2016"
   },
   "OS": "Windows",
-  "description": "<p>With the latest <b>preview</b> release of Visual Studio Community (version 15.7 Preview 5) you're getting the cutting edge of our free, fully featured and extensible IDE for non-enterprise application development.  This image contains the recommended product install of the latest preview of Visual Studio Community 2017 (version 15.7 Preview 5) on Windows Server 2016.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.</p><p>This image was created from the latest bits available on 4/26/2018.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.  “Preview” is not licensed to build shipping apps.  Like any other pre-releases of Visual Studio, it is not supported in production environments. You should select a released version for use in Production environments.</p>",
+  "description": "<p>With the latest <b>preview</b> release of Visual Studio Community (version 15.8 Preview 1) you're getting the cutting edge of our free, fully featured and extensible IDE for non-enterprise application development.  This image contains the recommended product install of the latest preview of Visual Studio Community 2017 (version 15.8 Preview 1) on Windows Server 2016.  It allows you to easily and quickly set up a development environment in Azure to build and test applications using Visual Studio.</p><p>This image was created from the latest bits available on 5/7/2018.</p><p>The Visual Studio software is preinstalled in this VM, but you must acquire a Visual Studio subscription separately which allows you to sign in to and run Visual Studio on this VM.  “Preview” is not licensed to build shipping apps.  Like any other pre-releases of Visual Studio, it is not supported in production environments. You should select a released version for use in Production environments.</p>",
   "iconPath": "Icons/VS2017",
   "categories": [
     "virtualMachine",
